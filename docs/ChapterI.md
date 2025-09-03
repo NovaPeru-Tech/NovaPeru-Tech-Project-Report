@@ -14,46 +14,46 @@ Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estra
 
 <table style="width: 100%; border-collapse: collapse;">
         <tr>
-            <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
             <img src="../images/.jpg" alt="Renato Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <strong>Renato Guillermo Calvo Yalan - (U202217053)</strong> - Ingeniería de Software<br><br>
                 ....
             </td>
         </tr>
         <tr>
-            <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <img src="../images/.jpeg" alt="Billy Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <strong>Billy - (U20)</strong> - Ingeniería de Software<br><br>
               ...
             </td>
         </tr>
         <tr>
-            <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <img src="../images/Ariana_Photo.jpeg" alt="Ariana Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <strong>Ariana Lizeth Ramírez Carrasco (U202312932)</strong> - Ingeniería de Software<br><br>
                 Tengo 21 años y actualmente me estoy formando en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona curiosa, tanto en el ámbito tecnológico como en la gestión y dirección de proyectos. Mis principales experiencias están relacionadas con el liderazgo y el manejo de equipos bajo marcos de trabajo ágiles, el análisis de datos y el desarrollo con enfoque web. Espero que mi compromiso y mis ganas de enseñar logren hacer que el proyecto tome un direccionamiento hacia el éxito.
             </td>
         </tr>
         <tr>
-            <td style="width: 25%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
             <img src="../images/.jpg" alt="Miguel Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <strong>Miguel (U20)</strong> - Ingeniería de Software<br><br>
                 ....
             </td>
         </tr>
         <tr>
-            <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <img src="../images/.jpg" alt="Oscar Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <strong>Oscar - (U20)</strong> - Ingeniería de Software<br><br>
               .....
             </td>
