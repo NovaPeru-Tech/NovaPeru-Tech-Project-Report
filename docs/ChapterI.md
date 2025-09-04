@@ -24,7 +24,7 @@ Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estra
         </tr>
         <tr>
             <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <img src="../images/Billy.jpeg" alt="Billy Photo" style="display: block; margin: 50 auto 0 auto;"/>
+                <img src="../images/Billy.jpg" alt="Billy Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
             <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <strong>Billy - (U202116401)</strong> - Ingeniería de Software<br><br>
