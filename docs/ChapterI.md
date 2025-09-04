@@ -15,11 +15,11 @@ Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estra
 <table style="width: 100%; border-collapse: collapse;">
         <tr>
             <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../images/.jpg" alt="Renato Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <img src="../images/RenatoCalvo.jpeg" alt="Renato Photo" style="display: block; margin: 40 auto 0 auto;"/>
             </td>
             <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <strong>Renato Guillermo Calvo Yalan - (U202217053)</strong> - Ingeniería de Software<br><br>
-                ....
+                Tengo 21 años me llama la atención la cyberseguridad y la inteligencia artificial , mis principal fortaleza es el poder liderar a los grupos de trabajo además de que soy perseverante manejo algunos lenguajes de programación y quiero seguir aprendiendo.Espero poder hace un gran proyecto con mi grupo de manera exitosa.
             </td>
         </tr>
         <tr>
