@@ -233,4 +233,47 @@ La experiencia debe ser fluida, confiable y segura, priorizando la transparencia
 
 <h5 id="uxCanvas">1.2.2.4. Lean UX Canvas</h5>
 
-<h3 id="objectiveSegment">1.3. Segmentos objetivo</h3>
+<h3 id="objectiveSegment">1.3. Segmentos objetivo</h3> 
+Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento.
+
+<h3 id="segment1">Segmento Objetivo 1: Administradores o directores de casas de reposo</h3>
+Características demográficas:
+
+Edad: Entre 35 y 65 años.
+
+Género: Indistinto.
+
+Ocupación: Administradores, directores o gerentes de casas de reposo privadas o centros geriátricos.
+
+Nivel educativo: Profesionales con grado universitario en administración, enfermería, gerontología o afines.
+
+Ubicación geográfica: Principalmente áreas urbanas del Perú.
+
+Información estadística de sustento:
+
+Según la Superintendencia Nacional de Salud (SUSALUD) (2023), existen ≈320 casas de reposo registradas en Perú, con un crecimiento del 12% anual debido al envejec poblacional.
+
+El INEI reporta que el 13.1% de la población peruana son adultos mayores (≥60 años), y se proyecta que alcance el 20% para 2050. Esto incrementa la demanda de servicios geriátricos formales.
+
+Un estudio de la Cámara de Comercio de Lima (2022) indica que el 75% de estas residencias utiliza métodos manuales (papel o Excel) para gestionar información, lo que genera inefficiencias y errores.
+
+<h3 id="segment2">Segmento Objetivo 2: Familiares de adultos mayores</h3>
+Características demográficas:
+
+Edad: Entre 35 y 65 años (hijos o cuidadores principales de adultos mayores).
+
+Género: Mayormente mujeres (70%), quienes asumen roles de cuidado en Perú (INEI, 2023).
+
+Ocupación: Profesionales, trabajadores independientes o empleados con tiempo limitado.
+
+Nivel socioeconómico: Medio y medio-alto, con capacidad de pago para residencias privadas.
+
+Ubicación geográfica: Zonas urbanas de Perú, especialmente Lima Metropolitana (50%) y capitales regionales.
+
+Información estadística de sustento:
+
+El INEI reporta que el 30% de adultos mayores peruanos vive en hogares multigeneracionales, pero la migración laboral y la urbanización han aumentado la demanda de residencias geriátricas.
+
+Un estudio de APESEG (2023) muestra que el 65% de familiares percibe desconfianza en la calidad del cuidado en residencias, debido a la falta de transparencia en la comunicación.
+
+El Banco Interamericano de Desarrollo (BID) destaca que el 85% de peruanos usa smartphones, lo que facilita la adopción de soluciones digitales para monitoreo remoto.
