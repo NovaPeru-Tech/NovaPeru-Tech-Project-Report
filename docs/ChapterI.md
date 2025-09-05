@@ -66,11 +66,11 @@ Cuento con conocimientos en lenguajes de programación como C++ y Python. Siempr
         </tr>
         <tr>
             <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <img src="../images/.jpg" alt="Oscar Photo" style="display: block; margin: 50 auto 0 auto;"/>
+                <img src="../images/Oscar.jpg" alt="Oscar Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
             <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>Oscar - (U20)</strong> - Ingeniería de Software<br><br>
-              .....
+                <strong>Oscar Javier Armas Sánchez - (U20211g192)</strong> - Ingeniería de Software<br><br>
+                Tengo 21 años, me estoy formando en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona puntual, responsable y centrado en sus objetivos. Mis principales experiencias esrtan en la gestion de proyectos y el desarrollo web. Lo que espero de este proyecto es poder aprender y aportar mis conocimientos para que el proyecto sea exitoso.
             </td>
         </tr>
 </table>
@@ -210,6 +210,27 @@ La experiencia debe ser fluida, confiable y segura, priorizando la transparencia
 <br>
 
 <h5 id="hypothesisStatements">1.2.2.3. Lean UX Hypothesis Statements</h5>
+
+## Hipótesis 1: Monitoreo de salud
+- **Creemos que** si la app móvil muestra a los familiares información actualizada sobre la salud del adulto mayor (signos vitales, medicamentos y citas médicas),  
+- **Esto logrará** brindar mayor tranquilidad y confianza en el servicio del hogar, además de mejorar el cuidado preventivo.  
+- **Sabremos que estamos en lo cierto** cuando al menos el **70% de los familiares consulten regularmente la app** y se registre una **reducción del 20% en emergencias médicas inesperadas** durante los primeros 6 meses.  
+
+---
+
+## Hipótesis 2: Comunicación con cuidadores
+- **Creemos que** si implementamos un canal de comunicación en tiempo real (chat o videollamadas) entre familiares y cuidadores,  
+- **Esto logrará** fortalecer el vínculo con el adulto mayor y aumentar la percepción de cercanía y confianza en la atención recibida.  
+- **Sabremos que estamos en lo cierto** cuando al menos el **50% de los familiares usen el canal semanalmente** y se observe un **incremento del 25% en la satisfacción reportada en encuestas** en los primeros 3 meses.  
+
+---
+
+## Hipótesis 3: Alertas y notificaciones
+- **Creemos que** si enviamos notificaciones en tiempo real sobre eventos importantes (medicación, actividades, consultas médicas),  
+- **Esto logrará** reducir la incertidumbre de los familiares y darles mayor seguridad sobre el cuidado brindado.  
+- **Sabremos que estamos en lo cierto** cuando se registre una **reducción del 40% en las llamadas de familiares solicitando información** y un **aumento del 20% en la percepción de confianza**, medido en encuestas, en los primeros 4 meses.  
+
+
 <h5 id="uxCanvas">1.2.2.4. Lean UX Canvas</h5>
 
 <h3 id="objectiveSegment">1.3. Segmentos objetivo</h3>
