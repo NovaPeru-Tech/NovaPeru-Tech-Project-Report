@@ -57,12 +57,16 @@ Cuento con conocimientos en lenguajes de programación como C++ y Python. Siempr
         </tr>
         <tr>
             <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../images/.jpg" alt="Miguel Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <img src="../images/Miguel_Ángel.jpg" alt="Miguel Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
             <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>Miguel (U20)</strong> - Ingeniería de Software<br><br>
-                ....
-            </td>
+                <strong>Miguel Ángel Román López(U202212897)</strong> - Ingeniería de Software<br><br>
+                Mi nombre es Miguel Angel Junior Román López soy  de la carrera de Ingeniería de Software.
+
+Poseo conocimientos en el lenguaje C + +, programación orientada a objetos y diseño de páginas web. Mi aporte con el equipo será contribuir con investigación, ideas e imaginación para realizar un buen proyecto.
+
+Por todo ello, mi compromiso será trabajar en equipo y entregar las actividades que se requieran puntualmente.
+   </td>
         </tr>
         <tr>
             <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
