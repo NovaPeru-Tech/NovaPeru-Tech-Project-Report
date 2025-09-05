@@ -10,6 +10,20 @@ En esta sección se describen los aspectos clave que definen a la startup, inclu
 Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
 
 <h4 id="descriptionStartup">1.1.1. Descripción de la Startup</h4>
+En una sociedad donde el cuidado de los adultos mayores demanda mayor transparencia, confianza y eficiencia, Veyra nace con una visión clara: transformar la manera en que las familias y las casas de reposo gestionan la salud y el bienestar de los residentes. Nuestro propósito es brindar una plataforma que combine tecnología de vanguardia con un enfoque humano, garantizando que los familiares tengan acceso seguro y actualizado a la información de sus seres queridos, y que las instituciones cuenten con herramientas avanzadas para optimizar sus procesos.
+
+Nos diferenciamos por ofrecer un sistema web intuitivo, accesible y seguro, capaz de integrar historiales clínicos, tratamientos, recordatorios médicos y comunicación directa entre familias y personal de cuidado. Además, Veyra está preparada para evolucionar hacia un ecosistema conectado mediante dispositivos IoT —como brazaletes de monitoreo— que permitan obtener signos vitales en tiempo real y asegurar un seguimiento continuo de la salud.
+
+Nuestra propuesta está diseñada para adaptarse a distintos niveles de necesidad, con planes de suscripción flexibles tanto para familiares individuales como para casas de reposo de diverso tamaño. Con ello, buscamos democratizar el acceso a la información clínica, generar confianza entre instituciones y familias, y elevar los estándares de cuidado a un nuevo nivel.
+
+Veyra no es solo una aplicación de gestión clínica. Es una plataforma de confianza, un puente entre familias y cuidadores, y un compromiso hacia un nuevo paradigma de atención centrado en la verdad (verity) y en una nueva era (era) del cuidado.
+<h4 id="Mision">Misión</h4>
+
+Desarrollar soluciones tecnológicas seguras, accesibles y centradas en la experiencia del usuario, que permitan a familiares y casas de reposo gestionar información clínica de manera eficiente y transparente. En Veyra nos enfocamos en la innovación constante, la protección de datos y la integración de herramientas digitales que fortalezcan la confianza y mejoren la calidad de vida de los adultos mayores.
+
+<h4 id="Vision">Visión</h4>
+
+Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores en Latinoamérica, integrando tecnologías emergentes como el Internet de las Cosas y el análisis de datos en tiempo real. Aspiramos a transformar el cuidado geriátrico en un proceso transparente, confiable y humano, acompañando a familias e instituciones en la creación de una nueva era de atención integral.
 <h4 id="teamProfile">1.1.2. Perfiles de integrantes del equipo</h4>
 
 <table style="width: 100%; border-collapse: collapse;">
