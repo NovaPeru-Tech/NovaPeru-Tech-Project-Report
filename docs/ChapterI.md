@@ -251,6 +251,7 @@ La experiencia debe ser fluida, confiable y segura, priorizando la transparencia
 
 
 <h5 id="uxCanvas">1.2.2.4. Lean UX Canvas</h5>
+<img src="../images/Lean UX Canva.jpg" alt="Lean UX Canvas" width="auto" height="430"/>
 
 <h3 id="objectiveSegment">1.3. Segmentos objetivo</h3> 
 Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento.
