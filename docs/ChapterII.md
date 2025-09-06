@@ -1,3 +1,4 @@
+
 <h2 id="requirementsElicitation">Capítulo II: Requirements Elicitation & Analysis</h2>
 
 <h3 id="competitors">2.1. Competidores</h3>
@@ -60,3 +61,4 @@
 <h3 id="bigPictureEventStorming">2.4. Big Picture Event Storming</h3>
 
 <h3 id="ubiquitousLanguage">2.5. Ubiquitous Language</h3>
+
