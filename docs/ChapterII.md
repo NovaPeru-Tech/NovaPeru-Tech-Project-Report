@@ -8,16 +8,16 @@
     <td>Competidor</td><td>Tipo</td><td>Segmento</td><td>Segmento</td><td>Debilidades Identificadas</td><td>Enlace </td>
   </tr>
   <tr>
-    <td>StoriiCare</td><td>Software SaaS</td><td>Residencias de adultos mayores</td><td>Historial clínico, planificación de cuidados, portal para familiares, reportes, integración de fotos y historias de vida.</td><td>Enfocado principalmente en mercados angloparlantes; menos adaptado a normativas latinoamericanas.</td><td>https://www.storiicare.com/</td>
+    <td>StoriiCare<img src="../images/STORIICARE.png" alt="StoriiCare" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software SaaS</td><td>Residencias de adultos mayores</td><td>Historial clínico, planificación de cuidados, portal para familiares, reportes, integración de fotos y historias de vida.</td><td>Enfocado principalmente en mercados angloparlantes; menos adaptado a normativas latinoamericanas.</td><td>https://www.storiicare.com/</td>
   </tr>
   <tr>
-    <td>CuidadoSenior</td><td>Software SaaS</td><td>Casas de reposo y cuidadores</td><td>Gestión de pacientes, recordatorios de medicamentos, agenda de visitas, reportes PDF.</td><td>No ofrece planes escalables; acceso limitado para familiares; sin soporte en tiempo real.</td><td>https://www.cuidadosenior.com/</td>
+    <td>CuidadoSenior<img src="../images/CUIDADO SENIOR.png" alt="CuidadoSenior" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software SaaS</td><td>Casas de reposo y cuidadores</td><td>Gestión de pacientes, recordatorios de medicamentos, agenda de visitas, reportes PDF.</td><td>No ofrece planes escalables; acceso limitado para familiares; sin soporte en tiempo real.</td><td>https://www.cuidadosenior.com/</td>
   </tr>
   <tr>
-    <td>CareCloud</td><td>Plataforma cloud</td><td>Healthcare general</td><td>Historia clínica electrónica, facturación, scheduling, portal de pacientes.</td><td>No especializado en geriatría; costoso para residencias pequeñas; complejo de implementar.</td><td>https://www.carecloud.com/</td>
+    <td>CareCloud<img src="../images/CARE CLOUD.png" alt="CareCloud" style="display: block; margin: 40 auto 0 auto;"/></td><td>Plataforma cloud</td><td>Healthcare general</td><td>Historia clínica electrónica, facturación, scheduling, portal de pacientes.</td><td>No especializado en geriatría; costoso para residencias pequeñas; complejo de implementar.</td><td>https://www.carecloud.com/</td>
   </tr>
   <tr>
-    <td>SeniorSoft</td><td>Software desktop</td><td>Grandes clínicas geriátricas</td><td>Historia clínica, facturación, inventario, gestión de camas.</td><td>No ofrece acceso para familiares; requiere instalación local; sin mobile access.</td><td>https://www.seniorsoft.com/</td>
+    <td>SeniorSoft<img src="../images/SENIOR SOFT.png" alt="SeniorSoft" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software desktop</td><td>Grandes clínicas geriátricas</td><td>Historia clínica, facturación, inventario, gestión de camas.</td><td>No ofrece acceso para familiares; requiere instalación local; sin mobile access.</td><td>https://www.seniorsoft.com/</td>
   </tr>
 </table>
 
