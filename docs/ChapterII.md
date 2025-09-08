@@ -3,8 +3,42 @@
 
 <h3 id="competitors">2.1. Competidores</h3>
 <h4 id="competitiveAnalysis">2.1.1. Análisis competitivo</h4>
-<h4 id="competitiveStrategies">2.1.2. Estrategias y tácticas frente a competidores</h4>
+<table border="1" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td>Competidor</td><td>Tipo</td><td>Segmento</td><td>Segmento</td><td>Debilidades Identificadas</td><td>Enlace </td>
+  </tr>
+  <tr>
+    <td>StoriiCare<img src="../images/STORIICARE.png" alt="StoriiCare" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software SaaS</td><td>Residencias de adultos mayores</td><td>Historial clínico, planificación de cuidados, portal para familiares, reportes, integración de fotos y historias de vida.</td><td>Enfocado principalmente en mercados angloparlantes; menos adaptado a normativas latinoamericanas.</td><td>https://www.storiicare.com/</td>
+  </tr>
+  <tr>
+    <td>CuidadoSenior<img src="../images/CUIDADO SENIOR.png" alt="CuidadoSenior" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software SaaS</td><td>Casas de reposo y cuidadores</td><td>Gestión de pacientes, recordatorios de medicamentos, agenda de visitas, reportes PDF.</td><td>No ofrece planes escalables; acceso limitado para familiares; sin soporte en tiempo real.</td><td>https://www.cuidadosenior.com/</td>
+  </tr>
+  <tr>
+    <td>CareCloud<img src="../images/CARE CLOUD.png" alt="CareCloud" style="display: block; margin: 40 auto 0 auto;"/></td><td>Plataforma cloud</td><td>Healthcare general</td><td>Historia clínica electrónica, facturación, scheduling, portal de pacientes.</td><td>No especializado en geriatría; costoso para residencias pequeñas; complejo de implementar.</td><td>https://www.carecloud.com/</td>
+  </tr>
+  <tr>
+    <td>SeniorSoft<img src="../images/SENIOR SOFT.png" alt="SeniorSoft" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software desktop</td><td>Grandes clínicas geriátricas</td><td>Historia clínica, facturación, inventario, gestión de camas.</td><td>No ofrece acceso para familiares; requiere instalación local; sin mobile access.</td><td>https://www.seniorsoft.com/</td>
+  </tr>
+</table>
 
+<h4 id="competitiveStrategies">2.1.2. Estrategias y tácticas frente a competidores</h4>
+<table border="1" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td>Estrategia</td><td>Tácticas Concretas </td>
+  </tr>
+  <tr>
+    <td>Diferenciación por especialización </td><td>Desarrollar funcionalidades específicas para adultos mayores: alertas de medicación, dietas especiales, permisos diferenciados para familiares, e integración futura con sensores IoT. </td>
+  </tr>
+  <tr>
+    <td>Enfoque en transparencia</td><td>Implementar acceso en tiempo real para familiares, reportes detallados, y notificaciones automáticas para generar confianza.</td>
+  </tr>
+  <tr>
+    <td>Integración con normativas locales</td><td>Asegurar cumplimiento con regulaciones latinoamericanas (ej. estándares de cuidado en México ), lo que competidores globales como StoriiCare no hacen.</td>
+  </tr>
+  <tr>
+    <td>Precios escalables y flexibles</td><td>Ofrecer planes modulares (Individual, Estándar, Premium) adaptados a distintos tamaños de residencias, con precios más competitivos que soluciones genéricas como CareCloud.</td>
+  </tr>
+</table>
 <h3 id="interviews">2.2. Entrevistas</h3>
 <h4 id="interviewDesign">2.2.1. Diseño de entrevistas</h4>
 <h4 id="Segment" >Segmento objetivo: Administrador de casa de reposo</h4> 
