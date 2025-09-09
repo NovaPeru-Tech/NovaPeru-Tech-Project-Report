@@ -95,4 +95,88 @@
 <h3 id="bigPictureEventStorming">2.4. Big Picture Event Storming</h3>
 
 <h3 id="ubiquitousLanguage">2.5. Ubiquitous Language</h3>
+<p>
+En este proyecto, cuyo objetivo principal es mejorar la transparencia y eficiencia en el cuidado de adultos mayores en casas de reposo mediante una plataforma web, 
+se ha definido el siguiente <strong>lenguaje ubicuo</strong> para garantizar claridad y consistencia entre usuarios, desarrolladores y stakeholders:
+</p>
+
+<table border="1" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td><strong>Término</strong></td>
+    <td><strong>Definición</strong></td>
+  </tr>
+  <tr>
+    <td>Residente</td>
+    <td>Persona adulta mayor que vive en una casa de reposo y cuyo cuidado clínico, actividades y bienestar son gestionados en la plataforma.</td>
+  </tr>
+  <tr>
+    <td>Familiar</td>
+    <td>Usuario autorizado que accede a la información del residente, recibe notificaciones y participa en la supervisión del cuidado.</td>
+  </tr>
+  <tr>
+    <td>Administrador</td>
+    <td>Responsable de la gestión global de la casa de reposo; gestiona residentes, personal, planes de suscripción y reportes.</td>
+  </tr>
+  <tr>
+    <td>Personal de cuidado</td>
+    <td>Médicos, enfermeras o cuidadores que registran en la plataforma datos de salud, tratamientos, citas y observaciones.</td>
+  </tr>
+  <tr>
+    <td>Historia clínica digital</td>
+    <td>Registro centralizado con información médica del residente (diagnósticos, alergias, medicamentos, controles, notas).</td>
+  </tr>
+  <tr>
+    <td>Tratamiento</td>
+    <td>Plan médico prescrito que puede incluir medicamentos, terapias y citas periódicas.</td>
+  </tr>
+  <tr>
+    <td>Agenda médica</td>
+    <td>Conjunto de citas, recordatorios y actividades programadas para el residente; accesible a personal y familiares.</td>
+  </tr>
+  <tr>
+    <td>Alerta médica</td>
+    <td>Notificación automática generada por el sistema (ej. recordatorio de medicación, emergencia, cita próxima).</td>
+  </tr>
+  <tr>
+    <td>Reporte clínico</td>
+    <td>Documento digital generado automáticamente con información consolidada de la atención y evolución del residente.</td>
+  </tr>
+  <tr>
+    <td>Notificación</td>
+    <td>Mensaje emitido a familiares o personal sobre eventos relevantes (medicación, visitas, cambios clínicos).</td>
+  </tr>
+  <tr>
+    <td>Panel de control</td>
+    <td>Vista principal para administradores y personal, que muestra métricas, reportes y estado general de los residentes.</td>
+  </tr>
+  <tr>
+    <td>Plan de suscripción</td>
+    <td>Modalidad de acceso a la plataforma (Individual, Estándar, Premium) que determina funcionalidades disponibles según la residencia.</td>
+  </tr>
+  <tr>
+    <td>Módulo IoT (futuro)</td>
+    <td>Integración con dispositivos de monitoreo (brazaletes, sensores biométricos) para capturar datos de salud en tiempo real.</td>
+  </tr>
+  <tr>
+    <td>Sesión</td>
+    <td>Período autenticado en el que un usuario (administrador, familiar o personal) accede al sistema mediante credenciales seguras.</td>
+  </tr>
+  <tr>
+    <td>Dashboard familiar</td>
+    <td>Interfaz simplificada para familiares, donde pueden consultar estado de salud, citas y notificaciones relevantes.</td>
+  </tr>
+  <tr>
+    <td>Roles y permisos</td>
+    <td>Validaciones que garantizan que cada perfil (administrador, personal, familiar) acceda solo a las operaciones permitidas.</td>
+  </tr>
+</table>
+
+<p><strong>Beneficios esperados del lenguaje ubicuo:</strong></p>
+<ul>
+  <li>Facilita la comunicación entre desarrolladores, usuarios y administradores del sistema.</li>
+  <li>Mejora la comprensión de las funcionalidades principales del sistema.</li>
+  <li>Evita ambigüedades y errores de interpretación en el diseño y la implementación.</li>
+  <li>Asegura consistencia en la documentación, interfaces y procesos del proyecto.</li>
+</ul>
+
 
