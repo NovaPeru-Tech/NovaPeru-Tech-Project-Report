@@ -110,6 +110,23 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
 <h4 id="userJourneyMapping">2.3.3. User Journey Mapping</h4>
 <h4 id="empathyMap">2.3.4. Empathy Mapping</h4>
 
+Para la elaboración de los *Empathy Maps*, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Recoba Funciyu Valenzuela y Yvonne Madrid Risco) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
+
+**1) Segmento 1: Administradores de casas de reposo**
+
+<img src="../images/Empathy Mapping segmento 1.png" alt="Empathy Mapping 1" width="auto" height="370"/>
+
+En este mapa se analizó a Recoba Funciyu Valenzuela, un administrador joven con la responsabilidad de garantizar la calidad del servicio en una casa de reposo. Se identificó que piensa constantemente en la necesidad de organizar y centralizar la información médica y operativa de los residentes, ya que le preocupa que los procesos manuales generen errores y retrasos. Escucha las quejas de familiares por falta de comunicación oportuna y observa cómo sus colegas deben invertir tiempo en tareas repetitivas en lugar de enfocarse en el bienestar de los residentes. Recoba expresa la necesidad de contar con una solución moderna que mejore la gestión y actúa implementando estrategias de control básicas con las herramientas disponibles, aunque estas son limitadas. Su dolor principal es la sobrecarga administrativa y la falta de un sistema ágil, mientras que su ganancia esperada es lograr eficiencia en la gestión, confianza de los familiares y un mejor control de la información.
+
+<br>
+
+**2) Segmento 2: Familiares de adultos mayores**
+
+<img src="../images/Empathy Mapping segmento 2.png" alt="Empathy Mapping 2" width="auto" height="370"/>
+
+En este mapa se analizó a Yvonne Madrid Risco, una comerciante que busca mantenerse informada sobre el estado de salud de su familiar mientras desarrolla sus actividades diarias. Ella piensa en la tranquilidad que le daría tener acceso rápido y claro a la evolución médica, medicación y tratamientos de su ser querido. Escucha a otros familiares compartir la frustración por la falta de información y observa que depender de llamadas o visitas no siempre es suficiente. Yvonne suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa buscando cualquier canal de comunicación disponible para mantenerse al tanto. Su dolor principal es la incertidumbre y la demora en recibir notificaciones sobre emergencias, mientras que su ganancia esperada es tener confianza, tranquilidad y control al poder consultar la información médica en tiempo real desde cualquier lugar.
+
+
 <h3 id="bigPictureEventStorming">2.4. Big Picture Event Storming</h3>
 
 <h3 id="ubiquitousLanguage">2.5. Ubiquitous Language</h3>
