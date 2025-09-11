@@ -88,6 +88,24 @@
 
 <h3 id="needfinding">2.3. Needfinding</h3>
 <h4 id="userPersonas">2.3.1. User Personas</h4>
+
+A partir del análisis de entrevistas y la recolección de información sobre las dinámicas en casas de reposo, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Veyra. Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de gestión operativa como la necesidad de acceso confiable a información médica en tiempo real. La construcción de los *User Persona* permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
+
+**1) Segmento 1: Administradores de casas de reposo**
+
+Para los administradores se elaboró el User Persona **Recoba Funciyu Valenzuela Huaynillo**. Se consideraron factores como su edad, rol en la gestión de una casa de reposo, experiencia en la administración del cuidado de adultos mayores y su necesidad de optimizar procesos de comunicación y gestión de la información. Sus principales frustraciones giran en torno a la falta de un sistema centralizado para el control de historias clínicas, medicamentos y citas médicas, lo que genera demoras en la comunicación con familiares y dificultades en el seguimiento de residentes. Asimismo, se tomó en cuenta su familiaridad con herramientas digitales básicas y la necesidad de contar con una plataforma moderna, intuitiva y segura que le permita centralizar toda la información de manera ágil y confiable.
+
+<img src="../images/User Persona 1.png" alt="User Persona 1" width="auto" height="480"/>
+
+<br>
+
+**2) Segmento 2: Familiares de adultos mayores**
+
+Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se consideraron aspectos como su edad, ocupación y su rol como familiar de un adulto mayor residente en una casa de reposo. Sus principales motivaciones están orientadas a mantenerse informada en tiempo real sobre el estado de salud, el tratamiento y la administración de medicamentos de su familiar, incluso mientras desarrolla sus actividades laborales. Entre sus frustraciones se encuentra la falta de información clara, la demora en las notificaciones sobre urgencias y la necesidad de depender de llamadas o visitas presenciales. Su perfil refleja una predisposición positiva hacia el uso de soluciones digitales, siempre que estas sean rápidas, confiables y fáciles de utilizar.
+
+<img src="../images/User Persona 2.png" alt="User Persona 2" width="auto" height="480"/>
+
+
 <h4 id="userTaskMatrix">2.3.2. User Task Matrix</h4>
 <h4 id="userJourneyMapping">2.3.3. User Journey Mapping</h4>
 <h4 id="empathyMap">2.3.4. Empathy Mapping</h4>
