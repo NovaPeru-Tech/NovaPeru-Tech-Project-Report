@@ -3,22 +3,121 @@
 
 <h3 id="competitors">2.1. Competidores</h3>
 <h4 id="competitiveAnalysis">2.1.1. Análisis competitivo</h4>
-<table border="1" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td>Competidor</td><td>Tipo</td><td>Segmento</td><td>Segmento</td><td>Debilidades Identificadas</td><td>Enlace </td>
-  </tr>
-  <tr>
-    <td>StoriiCare<img src="../images/STORIICARE.png" alt="StoriiCare" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software SaaS</td><td>Residencias de adultos mayores</td><td>Historial clínico, planificación de cuidados, portal para familiares, reportes, integración de fotos y historias de vida.</td><td>Enfocado principalmente en mercados angloparlantes; menos adaptado a normativas latinoamericanas.</td><td>https://www.storiicare.com/</td>
-  </tr>
-  <tr>
-    <td>CuidadoSenior<img src="../images/CUIDADO SENIOR.png" alt="CuidadoSenior" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software SaaS</td><td>Casas de reposo y cuidadores</td><td>Gestión de pacientes, recordatorios de medicamentos, agenda de visitas, reportes PDF.</td><td>No ofrece planes escalables; acceso limitado para familiares; sin soporte en tiempo real.</td><td>https://www.cuidadosenior.com/</td>
-  </tr>
-  <tr>
-    <td>CareCloud<img src="../images/CARE CLOUD.png" alt="CareCloud" style="display: block; margin: 40 auto 0 auto;"/></td><td>Plataforma cloud</td><td>Healthcare general</td><td>Historia clínica electrónica, facturación, scheduling, portal de pacientes.</td><td>No especializado en geriatría; costoso para residencias pequeñas; complejo de implementar.</td><td>https://www.carecloud.com/</td>
-  </tr>
-  <tr>
-    <td>SeniorSoft<img src="../images/SENIOR SOFT.png" alt="SeniorSoft" style="display: block; margin: 40 auto 0 auto;"/></td><td>Software desktop</td><td>Grandes clínicas geriátricas</td><td>Historia clínica, facturación, inventario, gestión de camas.</td><td>No ofrece acceso para familiares; requiere instalación local; sin mobile access.</td><td>https://www.seniorsoft.com/</td>
-  </tr>
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif;">
+    <tr>
+        <th colspan="7" style="background-color:#d9ead3;">Competitive Analysis Landscape</th>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2" style="background-color:#f4cccc;"><strong>¿Por qué llevar a cabo este análisis?</strong></td>
+        <td colspan="5">¿Cómo se posiciona Veyra frente a sus competidores en cuanto a propuesta de valor, marketing, producto y estrategia?</td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            Es un análisis comparativo que permite identificar fortalezas, debilidades, oportunidades y amenazas, así como entender mejor la posición del producto frente a otros actores relevantes del mercado.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+        <td style="text-align:center;">
+            <strong>Veyra</strong><br>
+            <img src="../images/.....jpg" alt="Veyra Logo" style="width:100px;">
+        </td>
+        <td style="text-align:center;">
+            <strong>StoriiCare</strong><br>
+            <img src="../images/STORIICARE.png" alt="StoriiCare" style="width:100px;">
+        </td>
+        <td style="text-align:center;">
+            <strong>SeniorSoft</strong><br>
+            <img src="../images/SENIOR SOFT.png" alt="SeniorSoft" style="width:100px;">
+        </td>
+        <td style="text-align:center;">
+            <strong>CareCloud</strong><br>
+            <img src="../images/CARE CLOUD.png" alt="CareCloud" style="width:100px;">
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">Perfil</td>
+        <td colspan="2">Overview</td>
+        <td>.....</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td colspan="2">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Perfil de Marketing</td>
+        <td colspan="2">Mercado objetivo</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td colspan="2">Estrategias de marketing</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Perfil de Producto</td>
+        <td colspan="2">Productos & Servicios</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td colspan="2">Precios & Costos</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Análisis SWOT</td>
+    <tr>
+        <td colspan="2">Fortalezas</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td colspan="2">Debilidades</td>
+        <td>.......</td>
+        <td>.......</td>
+        <td>......</td>
+        <td>......</td>
+    </tr>
+    <tr>
+        <td colspan="2">Oportunidades</td>
+        <td>......</td>
+        <td>....</td>
+        <td>......</td>
+        <td>.....</td>
+    </tr>
+    <tr>
+        <td colspan="2">Amenazas</td>
+        <td>.....</td>
+        <td>.....</td>
+        <td>......</td>
+        <td>.......</td>
+    </tr>
 </table>
 
 <h4 id="competitiveStrategies">2.1.2. Estrategias y tácticas frente a competidores</h4>
