@@ -21,7 +21,7 @@
         <td colspan="3"></td>
         <td style="text-align:center;">
             <strong>Veyra</strong><br>
-            <img src="../images/.....jpg" alt="Veyra Logo" style="width:100px;">
+            <img src="../images/VEYRA.jpg" alt="Veyra" style="width:100px;">
         </td>
         <td style="text-align:center;">
             <strong>StoriiCare</strong><br>
@@ -39,84 +39,84 @@
     <tr>
         <td rowspan="2">Perfil</td>
         <td colspan="2">Overview</td>
-        <td>.....</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
+        <td>Plataforma SaaS integral enfocada en la gestión de casas de reposo y conexión con familias en Perú y Latinoamérica.</td>
+        <td>Software SaaS global para residencias de adultos mayores. Fundado en Reino Unido, con presencia en varios países.</td>
+        <td>Software de escritorio dirigido a grandes clínicas y residencias geriátricas.</td>
+        <td>Plataforma cloud completa para la gestión de salud general (EE.UU.). Ofrece EHR, facturación, scheduling y portal de pacientes.</td>
     </tr>
     <tr>
         <td colspan="2">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
+        <td>Especialización regional: Diseñada para normativas peruanas y latinas. Modelo de suscripción escalable. Acceso granular y bidireccional para familias. Preparación para IoT.</td>
+        <td>Portal familiar muy desarrollado, integración de historias de vida y fotos, planificación de cuidados centrada en la persona.</td>
+        <td>Gestión integral (historial clínico, facturación, inventario, camas). Potente para operaciones internas.</td>
+        <td>Amplia suite de funcionalidades para gestión clínica y administrativa, integración con sistemas de pago.</td>
     </tr>
     <tr>
         <td rowspan="2">Perfil de Marketing</td>
         <td colspan="2">Mercado objetivo</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
+        <td>Mercado objetivo: Casas de reposo medianas/pequeñas y familias en LATAM.</td>
+        <td>Mercado: Residencias en UK, US, Australia y Canadá. </td>
+        <td>Mercado: Grandes clínicas geriátricas en mercados específicos.</td>
+        <td>Mercado: Clínicas y centros de salud de todos los tamaños en EE.UU.</td>
     </tr>
     <tr>
         <td colspan="2">Estrategias de marketing</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
+        <td>Estrategia: Marketing digital, alianzas con asociaciones geriátricas, precios flexibles.</td>
+        <td>Estrategia: Marketing de contenidos, redes sociales, testimonios.</td>
+        <td>Estrategia: Ventas directas a grandes clientes.</td>
+        <td>Estrategia: Ventas directas, marketing sector salud.</td>
     </tr>
     <tr>
         <td rowspan="3">Perfil de Producto</td>
-        <td colspan="2">Productos & Servicios</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
+        <td colspan="2">Productos & Servicios.</td>
+        <td>Productos: Plataforma web y app móvil.</td>
+        <td>Productos: Plataforma web, app para familias.</td>
+        <td>Productos: Software de escritorio.</td>
+        <td>Productos: CareCloud Central, Pulse, Companion.</td>
     </tr>
     <tr>
         <td colspan="2">Precios & Costos</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
+        <td>Precios: Planes modular (Gratuito, Estándar, Premium).</td>
+        <td>Precios: Precios en libras/euros, no transparentes en web.</td>
+        <td>Precios: No públicos, likely alto.</td>
+        <td>Precios: Elevados (para mercado LATAM), cotización upon request.</td>
     </tr>
     <tr>
         <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
+        <td>Canales: Web, móvil (iOS/Android), API para integraciones.</td>
+        <td>Canales: Web, móvil.</td>
+        <td>Canales: Instalación local, sin acceso móvil nativo.</td>
+        <td>Canales: Web, móvil.</td>
     </tr>
     <tr>
         <td rowspan="5">Análisis SWOT</td>
     <tr>
         <td colspan="2">Fortalezas</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
-        <td>......</td>
+        <td>Fortalezas: Especialización local, modelo escalable.</td>
+        <td>Fortalezas: Enfoque en experiencia familiar, fácil de usar.</td>
+        <td>Fortalezas: Funcionalidades de gestión sólidas.</td>
+        <td>Fortalezas: Producto muy completo, robusto.</td>
     </tr>
     <tr>
         <td colspan="2">Debilidades</td>
-        <td>.......</td>
-        <td>.......</td>
-        <td>......</td>
-        <td>......</td>
+        <td>Debilidades: Nuevo en el mercado.</td>
+        <td>Debilidades: Poca adaptación a normativas latinoamericanas, precios no accesibles para mercado LATAM.</td>
+        <td>Debilidades: Tecnología obsoleta (desktop), sin acceso para familias, sin movilidad.</td>
+        <td>Debilidades: Precio muy alto para LATAM, no especializado en geriatría, complejo de implementar.</td>
     </tr>
     <tr>
         <td colspan="2">Oportunidades</td>
-        <td>......</td>
-        <td>....</td>
-        <td>......</td>
-        <td>.....</td>
+        <td>Oportunidades: Crecimiento del sector en LATAM.</td>
+        <td>Oportunidades: Expansión a nuevos mercados.</td>
+        <td>Oportunidades: Modernizar su plataforma.</td>
+        <td>Oportunidades: Vender a grandes cadenas.</td>
     </tr>
     <tr>
         <td colspan="2">Amenazas</td>
-        <td>.....</td>
-        <td>.....</td>
-        <td>......</td>
-        <td>.......</td>
+        <td>Amenazas: Competidores globales con más recursos.</td>
+        <td>Amenazas: Competencia local en cada región.</td>
+        <td>Amenazas: Migración general a la nube.</td>
+        <td>Amenazas: Soluciones más niche y económicas.</td>
     </tr>
 </table>
 
