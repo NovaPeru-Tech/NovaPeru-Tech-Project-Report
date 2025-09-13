@@ -206,7 +206,184 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
 
 
 <h4 id="userTaskMatrix">2.3.2. User Task Matrix</h4>
+<p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
+  <tr style="background-color:#d9ead3;">
+    <th>Tarea</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+  <tr>
+    <td>Registrar y actualizar residentes</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Programar citas y agenda médica</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Generar y descargar reportes</td>
+    <td>Occasionally</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Notificar a familiares sobre cambios</td>
+    <td>Occasionally</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Coordinar al personal de cuidado</td>
+    <td>Occasionally</td>
+    <td>Medium</td>
+  </tr>
+</table>
+
+<br>
+
+<p><strong>Segmento 2 – Familiar de adulto mayor (Yvonne Madrid Risco)</strong></p>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
+  <tr style="background-color:#cfe2f3;">
+    <th>Tarea</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+  <tr>
+    <td>Consultar historial médico digital</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Recibir notificaciones en tiempo real</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Revisar agenda y recordatorios</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Comunicarse con el personal de cuidado</td>
+    <td>Occasionally</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Descargar reportes clínicos en PDF</td>
+    <td>Occasionally</td>
+    <td>Medium</td>
+  </tr>
+</table>
+
 <h4 id="userJourneyMapping">2.3.3. User Journey Mapping</h4>
+
+<p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
+  <tr style="background-color:#d9ead3;">
+    <th></th>
+    <th>AWARENESS</th>
+    <th>CONSIDERATION</th>
+    <th>PURCHASE</th>
+    <th>SERVICE</th>
+    <th>LOYALTY</th>
+  </tr>
+  <tr>
+    <td><strong>CUSTOMER ACTIONS</strong></td>
+    <td>Detecta la necesidad de digitalizar la gestión de residentes y mejorar la comunicación con familiares.</td>
+    <td>Evalúa si Veyra cumple con las normativas locales y se adapta a su flujo de trabajo.</td>
+    <td>Se registra en Veyra y configura su primera casa de reposo.</td>
+    <td>Usa el panel para gestionar residentes, citas y generar reportes.</td>
+    <td>Se beneficia de la eficiencia lograda, mantiene su suscripción y recomienda la plataforma.</td>
+  </tr>
+  <tr>
+    <td><strong>TOUCH POINTS</strong></td>
+    <td>Publicidad en redes sociales, recomendaciones de colegas, ferias del sector salud.</td>
+    <td>Webinars, demo guiada, comparativa con métodos tradicionales.</td>
+    <td>Sitio web de Veyra, registro en línea, onboarding inicial.</td>
+    <td>Panel web, soporte técnico, capacitaciones online.</td>
+    <td>Comunidad de usuarios, reportes avanzados, comunicación directa con soporte.</td>
+  </tr>
+  <tr>
+    <td><strong>CUSTOMER EXPERIENCE</strong></td>
+    <td>🤔</td>
+    <td>😐</td>
+    <td>😅</td>
+    <td>😃</td>
+    <td>😄</td>
+  </tr>
+  <tr>
+    <td><strong>PAIN POINTS</strong></td>
+    <td>Duda en abandonar su sistema manual con Excel y papeles.</td>
+    <td>No sabe si todo su personal se adaptará al nuevo sistema.</td>
+    <td>Al inicio le cuesta cargar información médica al sistema.</td>
+    <td>Necesita generar reportes rápidos y confiables para familiares.</td>
+    <td>Quiere personalización de métricas e integración futura con IoT.</td>
+  </tr>
+  <tr>
+    <td><strong>SOLUTIONS</strong></td>
+    <td>Mostrar casos de éxito locales y testimonios de otros administradores.</td>
+    <td>Ofrecer capacitaciones y soporte en la migración de datos.</td>
+    <td>Importación asistida de historiales médicos y residentes.</td>
+    <td>Reportes automáticos y notificaciones configurables.</td>
+    <td>Módulos avanzados, precios escalables y comunidad de soporte.</td>
+  </tr>
+</table>
+
+<br>
+
+<p><strong>Segmento 2 – Familiar de adulto mayor (Yvonne Madrid Risco)</strong></p>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
+  <tr style="background-color:#cfe2f3;">
+    <th></th>
+    <th>AWARENESS</th>
+    <th>CONSIDERATION</th>
+    <th>PURCHASE</th>
+    <th>SERVICE</th>
+    <th>LOYALTY</th>
+  </tr>
+  <tr>
+    <td><strong>CUSTOMER ACTIONS</strong></td>
+    <td>Se da cuenta de que no tiene información en tiempo real sobre la salud de su familiar.</td>
+    <td>Evalúa si la plataforma le permite acceder de forma fácil y rápida a reportes médicos.</td>
+    <td>Descarga la app Veyra e ingresa con el código asignado por el administrador.</td>
+    <td>Consulta el historial, recibe notificaciones y accede a la agenda de su familiar.</td>
+    <td>Usa la app con frecuencia, confía en la información recibida y recomienda la plataforma.</td>
+  </tr>
+  <tr>
+    <td><strong>TOUCH POINTS</strong></td>
+    <td>Recomendación del administrador, publicidad digital, boca a boca entre familiares.</td>
+    <td>Demo en la web, video explicativo de funciones familiares.</td>
+    <td>App móvil de Veyra (iOS/Android), registro con credenciales.</td>
+    <td>Interfaz móvil con notificaciones push y acceso a reportes.</td>
+    <td>Soporte en línea, comunidad de usuarios, nuevas funcionalidades.</td>
+  </tr>
+  <tr>
+    <td><strong>CUSTOMER EXPERIENCE</strong></td>
+    <td>😢</td>
+    <td>🤔</td>
+    <td>🙂</td>
+    <td>😃</td>
+    <td>😄</td>
+  </tr>
+  <tr>
+    <td><strong>PAIN POINTS</strong></td>
+    <td>Frustración por depender de llamadas para obtener información.</td>
+    <td>Duda si la información será confiable y segura.</td>
+    <td>Le cuesta familiarizarse con la app al inicio.</td>
+    <td>Desea información clara y notificaciones inmediatas.</td>
+    <td>Quiere más funciones como exportar reportes o seguimiento personalizado.</td>
+  </tr>
+  <tr>
+    <td><strong>SOLUTIONS</strong></td>
+    <td>Mostrar la seguridad de la plataforma y testimonios de otros familiares.</td>
+    <td>Explicar beneficios con ejemplos claros de uso.</td>
+    <td>Onboarding simple y tutorial interactivo en la app.</td>
+    <td>Alertas en tiempo real y reportes visuales fáciles de entender.</td>
+    <td>Lanzamiento de nuevas funcionalidades y precios accesibles.</td>
+  </tr>
+</table>
+
 <h4 id="empathyMap">2.3.4. Empathy Mapping</h4>
 
 Para la elaboración de los *Empathy Maps*, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Recoba Funciyu Valenzuela y Yvonne Madrid Risco) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
