@@ -183,6 +183,289 @@
  
 ¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo? 
 <h4 id="registerInterview">2.2.2. Registro de entrevistas</h4>
+
+En esta sección presentamos los registros de las entrevistas que hicimos para cada segmento objetivo de nuestra aplicación.
+
+**Segmento 1: Administradores de casas de reposo** 
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>....</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>.... años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>.....</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/Entrevista1.png" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 0:00 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		El entrevistado ......
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>....</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>.... años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>.....</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/Entrevista2.png" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 0:00 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		El entrevistado ......
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>....</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>.... años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>.....</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/Entrevista3.png" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 0:00 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		El entrevistado ......
+</td>
+  </tr>
+</tbody>
+</table>
+
+**Segmento 2: Familiares de adultos mayores** 
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>....</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>.... años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>.....</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/Entrevista 1-segmento2.png" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 0:00 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		El entrevistado ......
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>....</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>.... años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>.....</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/Entrevista2-segmento2.png" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 0:00 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		El entrevistado ......
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>....</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>.... años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>.....</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/Entrevista3-segmento2.png" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 0:00 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		El entrevistado ......
+</td>
+  </tr>
+</tbody>
+</table>
+
 <h4 id="analysisInterview">2.2.3. Análisis de entrevistas</h4>
 
 <h3 id="needfinding">2.3. Needfinding</h3>
