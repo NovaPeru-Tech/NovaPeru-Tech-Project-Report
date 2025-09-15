@@ -6,7 +6,7 @@
     <td>EP01</td><td>Navegación en la Landing Page</td><td>Como visitante quiero tener una experiencia fluida y completa en el sitio web para conocer los servicios y tomar decisiones informadas. </td>
   </tr>
   <tr>
-    <td>EP02</td><td>Soporte Para el cliente</td><td>Como visitante de la Landing Page, quiero poder contactar a Veyra fácilmente, para resolver dudas o interactuar.</td>
+    <td>EP02</td><td>Soporte y contacto</td><td>Como visitante de la Landing Page, quiero poder contactar a Veyra fácilmente, para resolver dudas o interactuar.</td>
   </tr>
   <tr>
     <td>EP03</td><td>Acceso a Información </td><td>Como familiar  del adulto mayor  quiero poder tener acceso a toda la información de mi familiar para estar informado de su estado.</td>
@@ -40,7 +40,7 @@
 </table>
 
 <h3 id="UserStories">User Stories</3>
-<table border="1" style="border-collapse: collapse; width: 100%;">
+<table border="1" style="border-collapse: collapse; width: 100%;font-size: 12px; font-family: Arial, sans-serif;"">
   <tr>
     <td>ID</td><td>Titulo</td><td>Descripción</td><td>Criterios de acceptación</td><td>Epic ID</td>
   </tr>
@@ -157,7 +157,7 @@ And se proporciona información en el idioma disponible
 </td><td>EP01</td>
   </tr>
     <tr>
-    <td>US08</td><td>Reportes de estado </td><td>Como familiar de un adulto mayor quiero acceder al historial médico completo de mi familiar para conocer su evolución de salud y diagnósticos actuales</td><td>Scenario 1: Acceso exitoso al historial médico
+    <td>US08</td><td>Historial médico </td><td>Como familiar de un adulto mayor quiero acceder al historial médico completo de mi familiar para conocer su evolución de salud y diagnósticos actuales</td><td>Scenario 1: Acceso exitoso al historial médico
     Given un familiar autenticado en el sistema
 When navega a la sección "Historial Médico" de su familiar
 Then puede ver diagnósticos actuales, evolución de salud y últimas actualizaciones
@@ -190,7 +190,7 @@ And puede contactar al personal médico si es necesario
 </td><td>EP03</td>
   </tr>
     <tr>
-    <td>US10</td><td>Registro de información personal</td><td>Como familiar de un adulto mayor quiero ver la información de mi familiar para estar seguro de que esté correcto o actualizado.</td><td>
+    <td>US10</td><td>Consulta de información personal</td><td>Como familiar de un adulto mayor quiero ver la información de mi familiar para estar seguro de que esté correcto o actualizado.</td><td>
     Scenario 1: Visualización exitosa de información personal
 Given un familiar autenticado en el sistema
 When accede al perfil de información personal de su familiar
@@ -807,70 +807,287 @@ And aprende a evitar el mismo error en el futuro
 </table>
 
 <h3 id="Technical"> Technical Stories</3>
-<table border="1" style="border-collapse: collapse; width: 100%;">
+<table border="1" style="border-collapse: collapse; width: 100%;font-size: 12px; font-family: Arial, sans-serif;">
   <tr>
     <td>ID</td><td>Título</td><td>Historia de Usuario</td><td>Criterios de Aceptación
 </td>
   </tr>
   <tr>
-    <td>TS01</td><td></td><td></td><td></td>
+    <td>TS01</td><td>Eliminar  medicamentos</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Delete para medicamentos  para asegurar que el administrador de la  casa de reposo pueda remover registros del inventario .</td><td>
+    Scenario 1: Eliminación exitosa
+Given un administrador autenticado con permisos y un medicamentoId existente
+When envía DELETE /medicamentos/{medicamentoId}
+Then el servicio responde 204 No Content, el registro queda  como eliminado  y se muestra 
+que se borro en la base de datos .
+
+Scenario 2: Eliminación fallida por inexistencia o falta de permisos
+Given un usuario sin permisos o un medicamentoId inexistente
+When intenta DELETE /medicamentos/{medicamentoId}
+Then el servicio responde 403 si no tiene permisos, o 404 Not Found si el id no existe, y el intento queda registrado en logs.
+    </td>
   </tr>
   <tr>
-    <td>TS02</td><td></td><td></td><td></td>
+    <td>TS02</td><td>Agregar medicamentos</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Post  medicamentos  para permitir que el administrador de la casa de reposo pueda agregar más medicamentos. </td><td>
+    Scenario 1: Creación exitosa
+Given un administrador autenticado y un registro de datos válido en los campos obligatorios (nombre, lote, fechaVencimiento, cantidad)
+When envía POST /medicamentos
+Then el servicio responde 201 Created  y el medicamento queda persistido en base de datos.
+
+Scenario 2: Error de validación o duplicado
+Given un registro con campos faltantes o que coincide con un medicamento existente.
+When envía POST /medicamentos
+Then el servicio responde 400 Bad Request para validaciones o 409 Conflict si es duplicado, con mensajes de error detallados.
+    </td>
   </tr>
   <tr>
-    <td>TS03</td><td></td><td></td><td></td>
+    <td>TS03</td><td>Ver información detallada de los medicamentos</td><td>Como desarrollador backend en NovaPeru Tech quiero crear una función para ver la información a través de una Api para que </td><td>
+    Scenario 1: Consulta exitosa
+Given un usuario autenticado y autorizado y un medicamentoId válido
+When solicita GET /medicamentos/{medicamentoId}
+Then el servicio responde 200 OK con el JSON .
+Scenario 2: Recurso no encontrado o sin permisos
+Given un medicamentoId inexistente o un usuario sin autorización
+When solicita GET /medicamentos/{medicamentoId}
+Then el servicio responde 404 Not Found si no existe.
+    </td>
   </tr>
   <tr>
-    <td>TS04</td><td></td><td></td><td></td>
+    <td>TS04</td><td>Actualizar información de medicamentos</td><td>Como desarrollador de backend en NovaPeru Tech quiero crear una función para actualizar la información para asegurar que el administrador de la casa de reposos pueda mantener actualizada la inforción de cada medicamento</td><td>
+    Scenario 1: Actualización exitosa con control de concurrencia
+Given un usuario autorizado y un medicamentoId existente y registro de datos válido
+When envía PUT/PATCH /medicamentos/{medicamentoId}
+Then el servicio responde 200 OK, aplica los cambios, registra la modificación en la base de datos.
+
+Scenario 2: Conflicto o validación fallida
+Given registro de la nueva información no es valida .
+When intenta PUT/PATCH /medicamentos/{medicamentoId}
+Then el servicio responde  400 Bad Request para datos inválidos.
+    </td>
   </tr>
   <tr>
-    <td>TS05</td><td></td><td></td><td></td>
+    <td>TS05</td><td>Agregar pacientes</td><td>
+    Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para permitir que el administrador registre nuevos residentes con validaciones obligatorias y que se genere un ID único por residente.</td><td>
+    Scenario 1: Registro exitoso de residente
+Given administrador autenticado y ingresa  datos válidos
+When envía POST /residents
+Then el servicio responde 201 Created, retorna residentId y persiste el registro en la base de datos.
+
+Scenario 2: Duplicado o campos faltantes
+Given un registro con documento de identidad ya registrado o campos obligatorios faltantes
+When envía POST /residents
+Then el servicio responde 400 Bad Request si faltan datos, con detalles de error.
+    </td>
   </tr>
   <tr>
-    <td>TS06</td><td></td><td></td><td></td>
+    <td>TS06</td><td>Ver información detallada  de los pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET  que devuelva la información completa del residente para que el personal autorizado pueda consultar fácilmente el expediente.</td><td>
+    Scenario 1: Consulta autorizada
+Given personal autorizado  y residentId válido
+When solicita GET /residents/{residentId}
+Then recibe 200 OK con datos personales, contactos autorizados y resumen del historial médico.
+
+Scenario 2: Sin permisos o recurso inexistente
+Given usuario sin permisos para ver datos médicos o residentId no existente
+When solicita GET /residents/{residentId}
+Then el servicio responde  404 Not Found si el residente no existe.
+    </td>
   </tr>
   <tr>
-    <td>TS07</td><td></td><td></td><td></td>
+    <td>TS07</td><td>Eliminar paciente  </td><td>
+    Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE  que realice una eliminación controlada  del residente.
+    </td><td>
+    Scenario 1: Baja controlada exitosa
+Given administrador autenticado 
+When envía DELETE /residents/{residentId}
+Then el sistema marca inactive, revoca accesos asociados.
+
+Scenario 2: Eliminación fallida
+Given Administrador con responsabilidades activas
+When intenta DELETE /residents/{residentId}
+Then el servicio responde 409 Conflict y devuelve lista de acciones requeridas para completar la eliminación.
+    </td>
   </tr>
   <tr>
-    <td>TS08</td><td></td><td></td><td></td>
+    <td>TS08</td><td>Actualizar información de los pacientes </td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH  para actualizar campos del perfil del residente para que las modificaciones queden registradas y sean reversibles si es necesario</td><td>
+    Scenario 1: Actualización válida y registrada
+Given Administrador  autorizado y registro de datos permitidos  correcto
+When envía PATCH /residents/{residentId}
+Then el servicio responde 200 OK, aplica los cambios permitidos y guarda un registro de auditoría con diff de cambios.
+
+Scenario 2: Intento de modificar campos restringidos o datos inválidos
+Given registro de datos  que incluye campos de solo lectura o formato inválido
+When envía PATCH /residents/{residentId}
+Then el servicio responde 400 Bad Request para validaciones, sin aplicar cambios.
+    </td>
   </tr>
   <tr>
-    <td>TS09</td><td></td><td></td><td></td>
+    <td>TS09</td><td>Agregar información detallada de la casa de reposo</td><td>
+    Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que un administrador pueda registrar información institucional .
+    </td><td>
+    Scenario 1: Creación de información institucional exitosa
+Given administrador autenticado y registro de datos  válido 
+When envía POST /institution-info
+Then el servicio responde 201 Created y los datos quedan disponibles  en la app.
+
+Scenario 2: Error por falta de permisos o validación
+Given usuario no administrador o registro de datos obligatorios faltantes
+When envía POST /institution-info
+Then el servicio responde  400 Bad Request si faltan campos.
+    </td>
   </tr>
   <tr>
-    <td>TS010</td><td></td><td></td><td></td>
+    <td>TS010</td><td>Actualizar información de la casa de reposo</td><td>
+    Como desarrollador backend en NovaPeru tech quiero crear un endpoint PUT para mantener actualizados los datos institucionales.
+    </td><td>
+    Scenario 1: Actualización exitosa y auditada
+Given administrador autenticado, payload válido y versión coincidente
+When envía PUT/PATCH /institution-info/{id}
+Then el servicio responde 200 OK, actualiza los datos y registra quien y cuándo realizó el cambio.
+
+Scenario 2: Conflicto de versión o datos inválidos
+Given versión desincronizada o registro de datos inválido
+When intenta PUT/PATCH /institution-info/{id}
+Then el servicio responde 400 Bad Request por validación.
+    </td>
   </tr>
   <tr>
-    <td>TS011</td><td></td><td></td><td></td>
+    <td>TS011</td><td>Agregar empleado</td><td>
+    Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que registre nuevos empleados.</td><td>
+    Scenario 1: Registro de empleado exitoso
+Given Administrador autenticado y registro de datos válido 
+When envía POST /employees
+Then el servicio responde 201 Created, devuelve employeeId, asigna permisos iniciales y crea credenciales seguras.
+
+Scenario 2: Error por email/ID duplicado o validación
+Given email o documento ya registrado o campos inválidos
+When envía POST /employees
+Then el servicio responde 409 Conflict para duplicados o 400 Bad Request para validaciones.
+    </td>
   </tr>
   <tr>
-    <td>TS012</td><td></td><td></td><td></td>
+    <td>TS012</td><td>Eliminar empleado</td><td>
+    Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE para que el administrador de la casa de reposo revoque persmisos. 
+    </td><td>
+    Scenario 1: Baja controlada exitosa
+Given administrador autenticado y empleado sin tareas críticas pendientes
+When envía DELETE /employees/{employeeId}
+Then el servicio elmina empleado , registra la acción en base de datos.
+
+Scenario 2: Baja bloqueada por responsabilidades activas o sin permisos
+Given empleado con residentes/tareas asignadas o petición desde usuario sin permisos
+When intenta DELETE /employees/{employeeId}
+Then el servicio responde 409 Conflict indicando reasignaciones requeridas, o 403 Forbidden si el solicitante no está autorizado.
+    </td>
   </tr>
   <tr>
-    <td>TS013</td><td></td><td></td><td></td>
+    <td>TS013</td><td>Actualizar información del empleado</td><td>
+    Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar datos de empleado.
+    </td><td>
+    Scenario 1: Actualización válida con auditoría
+Given Administrador  autenticado y registra datos  válido
+When envía PATCH /employees/{employeeId}
+Then el servicio responde 200 OK y registra el cambio en la base de datos.
+
+Scenario 2: Intento de actualizar datos inválidos
+Given intento de registrar datos  inválido
+When envía PATCH /employees/{employeeId}
+Then el servicio responde 400 Bad Request para datos inválidos.
+    </td>
   </tr>
   <tr>
-    <td>TS014</td><td></td><td></td><td></td>
+    <td>TS014</td><td>Ver información del empleado</td><td>
+    Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET que muestre el perfil del empleado para que el administrador pueda observar cuantos empleados tiene.
+    </td><td>
+    Scenario 1: Consulta autorizada del perfil
+Given usuario autorizado  y employeeId válido
+When solicita GET /employees/{employeeId}
+Then el servicio responde 200 OK , se filtran según permisos.
+
+Scenario 2: empleado no existe
+Given  employeeId inexistente
+When solicita GET /employees/{employeeId}
+Then el servicio responde  404 Not Found si no existe.
+    </td>
   </tr>
   <tr>
-    <td>TS015</td><td></td><td></td><td></td>
+    <td>TS015</td><td>Consumir Api de Medicamentos</td><td>
+    Como desarrollador backend en NovaPeru tech quiero consumir la API externa de medicamentos mediante un servicio de integración , para disponer de información confiable y actualizada de medicamentos en el sistema.
+    </td><td>
+    Scenario 1: Sincronización exitosa y segura
+Given credenciales válidas para la API externa y conectividad estable
+When se ejecuta sincronización programada o petición 
+Then los datos externos se mapean y normalizan al modelo interno, se guardan cambios.
+
+Scenario 2: Fallo externo
+Given timeout en la API externa o respuesta que no cumple el esquema esperado
+When intenta sincronizar
+Then el servicio  registra la incidencia en logs y no sobrescribe datos locales hasta validación.
+    </td>
   </tr>
   <tr>
-    <td>TS016</td><td></td><td></td><td></td>
+    <td>TS016</td><td>Consumir Api de google maps</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un servicio de integración con Google Maps que proporcione  verificación de direcciones y datos de localización para manejar errores.</td><td>
+    Scenario 1: Geocoding verificado vía proxy
+Given API key protegida en backend y request válido (dirección)
+When solicita geocoding a través del proxy GET /maps/proxy?address=...
+Then el proxy devuelve datos normalizados (lat/lng, formato) y la API key no se expone al frontend.
+
+Scenario 2: Rate limit o error del proveedor
+Given Google Maps devuelve 429 o falla por timeout
+When realiza la petición al proxy
+Then el proxy responde 429 o 503 con mensaje controlado, aplica política de backoff y utiliza cache fallback si existe.
+    </td>
   </tr>
   <tr>
-    <td>TS017</td><td></td><td></td><td></td>
+    <td>TS017</td><td>Nofitifación de visitas</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un servicio de notificaciones para enviar recordatorios y alertas de visitas vía email/SMS</td><td>
+    Scenario 1: Envío de recordatorio exitoso
+Given visita programada y contactos válidos con preferencias de notificación
+When falta el tiempo configurado (p.ej. 2 horas) y la cola procesa el job
+Then se envía notificación vía canal configurado (email/SMS/push), el sistema registra el estado delivered y actualiza el registro de visita.
+
+Scenario 2: Fallo en entrega y reintentos
+Given fallo de entrega
+When el worker intenta enviar la notificación
+Then el sistema aplica reintentos configurados .
+    </td>
   </tr>
   <tr>
-    <td>TS018</td><td></td><td></td><td></td>
+    <td>TS018</td><td>Buscar y filtrar medicamentos</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET con parámetros de búsqueda  facilitar consultas rápidas y generación de reportes. </td><td>
+    Scenario 1: Búsqueda paginada exitosa
+Given parámetros válidos 
+When solicita GET /medicamentos
+Then el servicio responde 200 OK con lista .
+
+Scenario 2: Parámetros inválidos o sin resultados
+Given parámetros inválidos  o criterio que no retorna matches
+When solicita GET /medicamentos
+Then el servicio responde 400 Bad Request para parámetros inválidos o 200 OK con items: [] y totalItems: 0 si no hay resultados.
+    </td>
   </tr>
   <tr>
-    <td>TS019</td><td></td><td></td><td></td>
+    <td>TS019</td><td>BUsccar y filtrar residentes</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET con filtros para que administradores y personal autorizado encuentren residentes fácilmente.</td><td>
+    Scenario 1: Consulta filtrada y autorizada
+Given filtros válidos  y usuario autorizado
+When solicita GET /residents?nombre=X&habitacion=Y
+Then el servicio responde 200 OK con resultados paginados y campos conforme a permisos del solicitante.
+
+Scenario 2: Intento sin permisos o parámetros inválidos
+Given usuario sin permiso para ver datos sensibles o parámetros mal formados
+When solicita GET /residents?
+Then el servicio responde 400 Bad Request si los parámetros son inválidos.
+    </td>
   </tr>
   <tr>
-    <td>TS020</td><td></td><td></td><td></td>
+    <td>TS020</td><td>Buscar y filtrar empleados</td><td>
+    Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET que permita buscar y filtrar por nombre, rol, turno que se pueda exportar para que vea el reporte de empleados el admnistrador o RRHH.</td><td>
+        Scenario 1: Búsqueda y exportación permitida
+Given parámetros válidos y usuarios con permiso de exportación
+When solicita GET /employees?rol=cuidador&export=true
+Then el servicio responde 200 OK iniciando exportación (CSV) y devuelve enlace de descarga cuando esté listo.
+
+Scenario 2: Exportación denegada o sin resultados
+Given  filtros que no arrojan resultados
+When solicita GET /employees
+Then el servicio responde 400 si no coincide .
+    </td>
   </tr>
 </table>
 
