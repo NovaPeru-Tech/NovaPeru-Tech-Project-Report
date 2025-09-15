@@ -199,19 +199,19 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>....</td>
+    <td>Milagros Beatriz</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>...</td>
+    <td>Caycho Mata</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>.... años</td>
+    <td>59 años</td>
   </tr>
   <tr>
-    <td>Distrito</td>
-    <td>.....</td>
+    <td>Rol</td>
+    <td>Gerente administrativa</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -223,12 +223,12 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>0:00 min - 0:00 min</td>
+    <td>0:00 min - 10:35 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado ......
+		La entrevistada tiene 26 años de experiencia en la gestión de casas de reposo. Su rol combina labores administrativas con la supervisión del personal asistencial. La comunicación con familiares se realiza de forma permanente por teléfono, WhatsApp y videollamadas. Entre los principales desafíos, destacó la pandemia, que exigió un control minucioso y protocolos estrictos de bioseguridad. La gestión de la información se lleva en expedientes físicos y bases de datos básicas, donde registran evolución del paciente, medicación, higiene, actividades recreativas y útiles de aseo. Mantienen comunicación constante con las familias e incentivan su participación.
 </td>
   </tr>
 </tbody>
@@ -245,19 +245,19 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>....</td>
+    <td>Oscar Alberto</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>...</td>
+    <td>Navarrete Mendoza</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>.... años</td>
+    <td>54 años</td>
   </tr>
   <tr>
-    <td>Distrito</td>
-    <td>.....</td>
+    <td>Rol</td>
+    <td>Gerente general de residencia geriátrica</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -269,12 +269,12 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>0:00 min - 0:00 min</td>
+    <td>10:35 min - 24:55 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado ......
+		El entrevistado, con 21 años de experiencia, dirige tres casas de reposo. La comunicación con familiares se realiza mediante grupos de WhatsApp, lo que permite informar de forma inmediata y a todos los miembros a la vez. Señala que el mayor inconveniente está en la rotación de personal, más que en la organización interna. Actualmente gestionan la información en formato físico (historias clínicas, contratos, tarjetas de medicación), mientras que los temas administrativos los maneja en Excel, donde lleva un control detallado de gastos e ingresos. Considera necesario digitalizar el sistema para evitar pérdida de documentos y optimizar procesos. Para una plataforma de gestión, sugiere incluir secciones simples para contratos, historias clínicas, informes médicos, archivos adjuntos y un módulo de información básica accesible a los familiares.
 </td>
   </tr>
 </tbody>
@@ -291,19 +291,19 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>....</td>
+    <td>Recoba Funciyu</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>...</td>
+    <td>Valenzuela Huaynillo</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>.... años</td>
+    <td>27 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>.....</td>
+    <td>Lima</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -315,12 +315,12 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>0:00 min - 0:00 min</td>
+    <td>24:55 min - 30:21 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado ......
+		El entrevistado señaló que el principal desafío es personalizar la atención, ya que cada adulto mayor tiene necesidades diferentes. En comunicación, un problema frecuente es que los familiares no siempre están disponibles. Actualmente gestionan la información en un sistema propio de la casa de reposo, aunque este resulta complejo y presenta limitaciones, especialmente en la gestión de recetas médicas, que no siempre están integradas. Considera esencial que una plataforma de gestión sea amplia, integrando todos los aspectos médicos y administrativos en un solo lugar, incluyendo recetas externas. También destacó la importancia de notificaciones claras y rápidas a los familiares.
 </td>
   </tr>
 </tbody>
@@ -339,19 +339,19 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>....</td>
+    <td>Ivonne</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>...</td>
+    <td>Madrid Ruisco</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>.... años</td>
+    <td>49 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>.....</td>
+    <td>Sullana</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -363,12 +363,12 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>0:00 min - 0:00 min</td>
+    <td>30:21 min - 32:48 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado ......
+		La entrevistada, comerciante de Sullana, señala que le gustaría tener información del tratamiento y evolucion de su familiar mientras está trabajando. También menciona que cuando ocurre una urgencia médica, nunca se entera de lo sucedido a tiempo. Finalmente, le gustaría que la plataforma sea intuitiva y sencillo de usar.
 </td>
   </tr>
 </tbody>
@@ -385,19 +385,19 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>....</td>
+    <td>Leo Gerardo</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>...</td>
+    <td>Gómez Ferrua</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>.... años</td>
+    <td>30 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>.....</td>
+    <td>Chorrillos</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -409,12 +409,13 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>0:00 min - 0:00 min</td>
+    <td>32:48 min - 38:59 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado ......
+		El entrevistado, señaló que tiene dificultades para obtener información clara y oportuna, pues debe llamar varias veces y recibe datos breves o inconsistentes. Le gustaría acceder de forma organizada al estado de salud, medicación, citas, resultados médicos y reportes de alimentación o actividades. Indicó que se sentiría cómodo usando una plataforma web segura, fácil y accesible desde cualquier dispositivo. Sobre las urgencias, comentó que hoy se entera solo por llamadas, a veces con demoras, y preferiría notificaciones inmediatas por varios canales. Finalmente, resaltó que confiaría en la plataforma si garantiza seguridad, acceso restringido, información actualizada, comunicación directa con el personal y protocolos claros en emergencias.
+
 </td>
   </tr>
 </tbody>
@@ -431,19 +432,19 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>....</td>
+    <td>Jonathan</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>...</td>
+    <td>Ramirez</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>.... años</td>
+    <td>40 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>.....</td>
+    <td>Lima</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -455,12 +456,12 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>0:00 min - 0:00 min</td>
+    <td>38:59 min - 41:57 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado ......
+		El entrevistado señaló que enfrenta dificultades para acceder a información sobre la salud de su familiar, ya que debe esperar llamadas de la casa de reposo y muchas veces la información no llega de manera inmediata, lo que le genera preocupación, sobre todo en temas médicos o de medicación. Expresó que le gustaría consultar de forma organizada la medicación diaria, informes de chequeos médicos, citas programadas y cambios en el tratamiento. Indicó sentirse cómodo utilizando plataformas web para este propósito, ya que está familiarizado con herramientas digitales en su trabajo y considera que centralizar la información sería de gran ayuda. Respecto a las urgencias médicas, comentó que suele enterarse por teléfono, pero no siempre de inmediato, lo cual le provoca ansiedad al no poder estar informado en tiempo real. Finalmente, afirmó que una plataforma de este tipo le generaría confianza si es segura, rápida, confiable, con información actualizada y con alertas instantáneas ante urgencias o cambios en la salud de su mamá.
 </td>
   </tr>
 </tbody>
