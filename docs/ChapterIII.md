@@ -1093,6 +1093,9 @@ Then el servicio responde 400 si no coincide .
 
 
 <h3 id="impactMapping">3.2. Impact Mapping</h3>
+
+<img src="../images/Impact map 1.png" alt="Impact map 1" width="auto" height="auto"/>
+
 <h3 id="productBacklog">3.3. Product Backlog.</h3>
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
