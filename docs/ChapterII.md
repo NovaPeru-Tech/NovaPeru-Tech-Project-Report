@@ -469,6 +469,74 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 
 <h4 id="analysisInterview">2.2.3. Análisis de entrevistas</h4>
 
+El objetivo de las entrevistas fue identificar los problemas, necesidades y expectativas de los **administradores de casas de reposo** y los **familiares de adultos mayores**, con el fin de validar hipótesis sobre la comunicación, gestión de información y funciones necesarias en una aplicación que facilite la coordinación y el cuidado.
+
+### Síntesis de hallazgos  
+
+#### Canales de comunicación  
+Actualmente predominan las **llamadas telefónicas (50%)** y **WhatsApp (33.3%)**, mientras que las videollamadas son poco frecuentes (16.7%). Esto indica la necesidad de centralizar la comunicación en un único sistema confiable.  
+
+**Tabla de resultados:**
+
+| Canal         | Porcentaje |
+|---------------|------------|
+| Llamadas      | 50%        |
+| WhatsApp      | 33.3%      |
+| Videollamadas | 16.7%      |
+
+#### Gestión de información  
+Un **33.3% aún depende de papel o Excel**, un **16.7% usa sistemas propios** y el resto emplea métodos variados. Esto evidencia falta de estandarización en la gestión de datos.  
+
+**Tabla de resultados:**
+
+| Método           | Porcentaje |
+|------------------|------------|
+| Papel/Excel      | 33.3%      |
+| Sistema propio   | 16.7%      |
+| Otros            | 50%        |
+
+#### Problemas más frecuentes  
+Los principales problemas reportados fueron:  
+
+- **Urgencias sin aviso (50%)**  
+- **Procesos manuales y duplicados (33.3%)**  
+- **Rotación de personal y dificultad de continuidad (16.7%)**  
+- **Sistemas complejos que dificultan el uso (16.7%)**  
+
+**Tabla de resultados:**
+
+| Problema                      | Porcentaje |
+|-------------------------------|------------|
+| Urgencias sin aviso           | 50%        |
+| Procesos manuales/duplicados  | 33.3%      |
+| Rotación de personal          | 16.7%      |
+| Sistemas complejos            | 16.7%      |
+
+#### Funciones más valoradas  
+Las funciones que los entrevistados consideran más útiles son:  
+
+- **Acceso organizado a la información (83.3%)**  
+- **Notificaciones inmediatas (66.7%)**  
+- **Interfaz sencilla (50%)**  
+- **Módulos para contratos y documentos (16.7%)**  
+
+**Tabla de resultados:**
+
+| Función                        | Porcentaje |
+|--------------------------------|------------|
+| Acceso organizado a la info    | 83.3%      |
+| Notificaciones inmediatas      | 66.7%      |
+| Interfaz sencilla              | 50%        |
+| Módulos contratos/documentos   | 16.7%      |
+
+### Conclusiones  
+
+1. Existe una **fuerte necesidad de digitalización**: todavía se depende de llamadas, papel o Excel, lo que genera ineficiencia.  
+2. Los problemas más críticos se relacionan con **la falta de aviso en urgencias y la duplicidad de procesos**, lo que impacta directamente en la seguridad de los adultos mayores.  
+3. Las soluciones más esperadas giran en torno a **notificaciones automáticas, centralización de información y facilidad de uso**, lo que indica que la aplicación debe ser intuitiva y accesible.  
+4. Se valida la hipótesis de que tanto administradores como familiares requieren un sistema **integrado y confiable** para comunicación, gestión de información y alertas inmediatas.  
+
+
 <h3 id="needfinding">2.3. Needfinding</h3>
 <h4 id="userPersonas">2.3.1. User Personas</h4>
 
