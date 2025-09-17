@@ -23,12 +23,15 @@
     <br><br>
     <strong>Integrantes:</strong>
     <br><br>
-    <br><br>
     Calvo Yalan, Renato Guillermo - U202217053
     <br><br>
+      Oscar Javier Armas Sánchez - U20211G192
     <br><br>
+     Ariana Lizeth Ramirez Carrasco - U202312932
     <br><br>
+     Miguel Angel Junior Roman Lopez - U202212897
     <br><br>
+      Billy Jake Ruiz Madrid - U202116401
     <br><br>
   </p>
   <h3>septiembre, 2025</h3>
@@ -82,19 +85,13 @@
 
 ## Project Report Collaboration Insights
 
-**Link del repositorio-Informe**:https://github.com/NovaPeru-Tech/final-report-
-
 **Link de los repositorios de la organización**: https://github.com/NovaPeru-Tech
 
-<br>
+**Link del repositorio-Informe**:https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report
 
-**Reporte de colaboración de la entrega del TB1:**
+**Reporte de colaboración de la entrega del TB1**:
 
-
-
-
-<br>
-
+En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nuestra startup. Todos los miembros del equipo NovaPeru Tech participaron activamente en la elaboración del informe, utilizando herramientas colaborativas como GitHub, Figma, Trello, UXPressia, Miro, entre otros. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo:
 
 <h2>Contenido</h2>
 
