@@ -41,7 +41,7 @@ Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores e
                 <img src="../images/Billy.jpg" alt="Billy Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
             <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>Billy - (U202116401)</strong> - Ingeniería de Software<br><br>
+                <strong>Billy Jake Ruiz Madrid - (U202116401)</strong> - Ingeniería de Software<br><br>
               Tengo 21 años, soy una persona tranquila, colaborativa y adaptable. Me gusta trabajar en equipo, aportando ideas y soluciones que contribuyan al desarrollo de los proyectos. Prefiero colaborar antes que liderar y suelo integrarme bien con distintos estilos de trabajo, lo que me permite adaptarme fácilmente al grupo.
 Cuento con conocimientos en lenguajes de programación como C++ y Python. Siempre busco formas de hacer las cosas bien, de manera eficiente y sin complicaciones.
             </td>
