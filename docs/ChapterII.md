@@ -841,5 +841,3 @@ se ha definido el siguiente <strong>lenguaje ubicuo</strong> para garantizar cla
   <li>Evita ambigüedades y errores de interpretación en el diseño y la implementación.</li>
   <li>Asegura consistencia en la documentación, interfaces y procesos del proyecto.</li>
 </ul>
-
-
