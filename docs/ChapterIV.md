@@ -31,6 +31,12 @@
 
 <h3 id="softwareObjectOrientedDesign">4.7. Software Object-Oriented Design</h3>
 <h4 id="classDiagram">4.7.1. Class Diagrams</h4>
+<p>Medications diagram </p>
 
+![IAM Diagram](../images/platform-Medications.svg)
+
+<p>IAM diagram</p>
+
+![IAM Diagram](../images/platform-IAM.svg)
 <h3 id="dbDesign">4.8. Database Design</h3>
 <h4 id="dbDiagram">4.8.1. Database Diagrams</h4>
