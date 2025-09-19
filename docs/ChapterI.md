@@ -1,7 +1,7 @@
-<h2 id="introduction">Capítulo I: Introducción</h2>
+<h2 id="capítulo-i-introducción">Capítulo I: Introducción</h2>
 La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
 
-<h3 id="startupProfile">1.1. Startup Profile</h3>
+<h3 id="11-startup-profile">1.1. Startup Profile</h3>
 
 El perfil de la startup es un elemento fundamental para comprender la identidad y el rumbo estratégico de una empresa emergente. A través de este perfil, se revela su visión de futuro, sus valores esenciales y la propuesta de valor que la diferencia en el mercado competitivo.
 
@@ -9,7 +9,7 @@ En esta sección se describen los aspectos clave que definen a la startup, inclu
 
 Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
 
-<h4 id="descriptionStartup">1.1.1. Descripción de la Startup</h4>
+<h4 id="111-descripción-de-la-startup">1.1.1. Descripción de la Startup</h4>
 En una sociedad donde el cuidado de los adultos mayores demanda mayor transparencia, confianza y eficiencia, Veyra nace con una visión clara: transformar la manera en que las familias y las casas de reposo gestionan la salud y el bienestar de los residentes. Nuestro propósito es brindar una plataforma que combine tecnología de vanguardia con un enfoque humano, garantizando que los familiares tengan acceso seguro y actualizado a la información de sus seres queridos, y que las instituciones cuenten con herramientas avanzadas para optimizar sus procesos.
 
 Nos diferenciamos por ofrecer un sistema web intuitivo, accesible y seguro, capaz de integrar historiales clínicos, tratamientos, recordatorios médicos y comunicación directa entre familias y personal de cuidado. Además, Veyra está preparada para evolucionar hacia un ecosistema conectado mediante dispositivos IoT —como brazaletes de monitoreo— que permitan obtener signos vitales en tiempo real y asegurar un seguimiento continuo de la salud.
@@ -24,7 +24,7 @@ Desarrollar soluciones tecnológicas seguras, accesibles y centradas en la exper
 <h4 id="Vision">Visión</h4>
 
 Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores en Latinoamérica, integrando tecnologías emergentes como el Internet de las Cosas y el análisis de datos en tiempo real. Aspiramos a transformar el cuidado geriátrico en un proceso transparente, confiable y humano, acompañando a familias e instituciones en la creación de una nueva era de atención integral.
-<h4 id="teamProfile">1.1.2. Perfiles de integrantes del equipo</h4>
+<h4 id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</h4>
 
 <table style="width: 100%; border-collapse: collapse;">
         <tr>
@@ -79,8 +79,8 @@ Por todo ello, mi compromiso será trabajar en equipo y entregar las actividades
         </tr>
 </table>
 
-<h3 id="solutionProfile">1.2. Solution Profile</h3>
-<h4 id="antecedents">1.2.1. Antecedentes y problemática</h4>
+<h3 id="12-solution-profile">1.2. Solution Profile</h3>
+<h4 id="121-antecedentes-y-problemática">1.2.1. Antecedentes y problemática</h4>
 
 **1. ANTECEDENTES**
 
@@ -117,8 +117,8 @@ Baja adopción tecnológica: A diferencia de otros sectores de salud, las casas 
 **How much (¿Cuánto?):** El modelo de ingresos proyectado es de tipo SaaS (Software como Servicio). Se planea ofrecer suscripción mensual o anual a las instituciones (casas de reposo) basada en el tamaño o número de residentes. La tarifa cubriría acceso al sistema, soporte técnico y futuras actualizaciones (por ejemplo, incorporación de IoT). Los familiares tendrían acceso incluido con la suscripción del centro, de modo que el costo recae sobre la institución. Adicionalmente, se podría considerar un esquema escalonado: un plan básico con funciones esenciales y niveles superiores con módulos avanzados (informes personalizados, integración de dispositivos, etc.), así como una tarifa de implementación inicial para configurar el sistema. Esto permitirá sostenibilidad económica de Veyra adaptada al mercado de residencias de tercera edad.
 
 
-<h4 id="leanUXProcess">1.2.2. Lean UX Process</h4>
-<h5 id="problemStatement">1.2.2.1. Lean UX Problem Statements</h5>
+<h4 id="122-lean-ux-process">1.2.2. Lean UX Process</h4>
+<h5 id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</h5>
 
 El estado actual del cuidado de adultos mayores en casas de reposo se ha enfocado principalmente en procesos manuales y registros físicos, lo que genera **falta de transparencia, dificultades de comunicación con los familiares y riesgos de errores en la gestión clínica.**
 
@@ -129,7 +129,7 @@ Nuestro producto, **Veyra**, abordará esta brecha mediante una **plataforma web
 Nuestro enfoque inicial estará en **administradores de casas de reposo medianas y familiares de adultos mayores que buscan un seguimiento cercano y transparente del estado de salud de sus seres queridos.**
 
 
-<h5 id="assumptions">1.2.2.2. Lean UX Assumptions</h5>
+<h5 id="1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</h5>
 
 **Business Assumptions:**
 <br>
@@ -228,7 +228,7 @@ Veyra debe contar con una interfaz clara, moderna y amigable, pensada para dos p
 La experiencia debe ser fluida, confiable y segura, priorizando la transparencia y la confianza en el cuidado de los adultos mayores.
 <br>
 
-<h5 id="hypothesisStatements">1.2.2.3. Lean UX Hypothesis Statements</h5>
+<h5 id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</h5>
 
 ## Hipótesis 1: Monitoreo de salud
 - **Creemos que** si la app móvil muestra a los familiares información actualizada sobre la salud del adulto mayor (signos vitales, medicamentos y citas médicas),  
@@ -250,10 +250,10 @@ La experiencia debe ser fluida, confiable y segura, priorizando la transparencia
 - **Sabremos que estamos en lo cierto** cuando se registre una **reducción del 40% en las llamadas de familiares solicitando información** y un **aumento del 20% en la percepción de confianza**, medido en encuestas, en los primeros 4 meses.  
 
 
-<h5 id="uxCanvas">1.2.2.4. Lean UX Canvas</h5>
+<h5 id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</h5>
 <img src="../images/Lean UX Canva.jpg" alt="Lean UX Canvas" width="auto" height="430"/>
 
-<h3 id="objectiveSegment">1.3. Segmentos objetivo</h3> 
+<h3 id="13-segmentos-objetivo">1.3. Segmentos objetivo</h3> 
 Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento.
 
 <h3 id="segment1">Segmento Objetivo 1: Administradores o directores de casas de reposo</h3>
