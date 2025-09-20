@@ -174,6 +174,11 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 
 <h3 id="softwareObjectOrientedDesign">4.7. Software Object-Oriented Design</h3>
 <h4 id="classDiagram">4.7.1. Class Diagrams</h4>
+<p>Employees diagram</p>
+
+![Employees Diagram](../images/Employee.svg)
+
+
 <p>Medications diagram </p>
 
 ![IAM Diagram](../images/platform-Medications.svg)
@@ -181,5 +186,10 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 <p>IAM diagram</p>
 
 ![IAM Diagram](../images/platform-IAM.svg)
+
+<p>Profiles diagram</p>
+
+![profile Diagram](../images/platform-profiles.svg)
+
 <h3 id="dbDesign">4.8. Database Design</h3>
 <h4 id="dbDiagram">4.8.1. Database Diagrams</h4>
