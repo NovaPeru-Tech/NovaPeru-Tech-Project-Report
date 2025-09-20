@@ -169,6 +169,9 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 <h3 id="DDD">4.6. Domain-Driven Software Architecture</h3>
 <h4 id="designEventStorming">4.6.1. Design-Level Event Storming</h4>
 <h4 id="contextDiagram">4.6.2. Software Architecture Context Diagram</h4>
+
+![ContextDiagram Diagram](../images/contextDiagram.png)
+
 <h4 id="containerDiagram">4.6.3. Software Architecture Container Diagrams</h4>
 <h4 id="componentDiagram">4.6.4. Software Architecture Components Diagrams</h4>
 
