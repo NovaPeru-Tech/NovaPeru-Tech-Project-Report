@@ -242,17 +242,17 @@ En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nu
 En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
 
 <table border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-      <td>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+      <td>
 
 **Ariana Lizeth Ramirez Carrasco:**
 - Lean UX Process
@@ -266,17 +266,32 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 - General Style Guidelines
 - Web Style Guidelines
 - Landing Page UI Design
-- Landing Page Mock-up</td>
-      <td>
+- Landing Page Mock-up
+
+**Billy Jake Ruiz Madrid:**
+- Lean UX Canvas  
+- Entrevistas  
+- Needfinding  
+- User Task Matrix  
+- User Journey Mapping  
+- Ubiquitous Language  
+- Impact Mapping  
+- Trello
+</td>
+      <td>
       
 **Ariana Lizeth Ramirez Carrasco:**
 
   La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
+
+**Billy Jake Ruiz Madrid:**
+
+  La conclusión del trabajo realizado es que logré comunicar con diferentes audiencias mediante la aplicación de metodologías ágiles y colaborativas como el Lean UX Canvas, entrevistas y needfinding. Estas herramientas me permitieron comprender y transmitir de forma clara las necesidades reales de los usuarios. Además, con artefactos como el User Journey Mapping, la matriz de tareas y el Impact Mapping, pude traducir hallazgos complejos en entregables entendibles tanto para usuarios como para el equipo de desarrollo y stakeholders, reforzando la efectividad en la comunicación oral durante discusiones y presentaciones.
 </td>
-    </tr>
-    <tr>
-      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
-      <td>
+    </tr>
+    <tr>
+      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+      <td>
 
 **Ariana Lizeth Ramirez Carrasco:**
 - Lean UX Process
@@ -290,15 +305,32 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 - General Style Guidelines
 - Web Style Guidelines
 - Landing Page UI Design
-- Landing Page Mock-up</td>
-      <td>
+- Landing Page Mock-up
+
+**Billy Jake Ruiz Madrid:**
+- Lean UX Canvas  
+- Entrevistas  
+- Needfinding  
+- User Task Matrix  
+- User Journey Mapping  
+- Ubiquitous Language  
+- Impact Mapping  
+- Trello
+</td>
+      <td>
       
 **Ariana Lizeth Ramirez Carrasco:**
 
-  La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.</td>
-    </tr>
-  </tbody>
+  La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.
+
+**Billy Jake Ruiz Madrid:**
+
+  La culminación de estas actividades demuestra mi capacidad para comunicar de forma escrita con distintas audiencias. A través del Lean UX Canvas y el Impact Mapping logré documentar los problemas y objetivos estratégicos de manera clara y estructurada. El User Task Matrix y el User Journey Mapping me permitieron plasmar procesos y necesidades de los usuarios en un formato entendible y accesible. Asimismo, con la documentación de entrevistas, needfinding y el uso de Trello para gestión, conseguí que tanto el equipo como los stakeholders tuvieran una visión compartida y clara del producto, reforzando la efectividad de la comunicación escrita.
+</td>
+    </tr>
+  </tbody>
 </table>
+
 
 
 
