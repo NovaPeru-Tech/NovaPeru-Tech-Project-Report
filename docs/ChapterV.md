@@ -213,7 +213,13 @@ En esta sección, se evidencia cada uno de los *taks* que se realizaron en el pr
 <h5 id="teamCollaborationInsights1">5.2.1.8. Team Collaboration Insights during Sprint</h5>
 
 <h3 id="conclusiones">Conclusiones</h3>
+<p>Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como el registro de datos de salud, la comunicación entre la familia y los cuidadores, y la administración de planes de cuidado personalizados.</p>
 
+<p>La implementación de tecnologías modernas permite que el sistema sea escalable, modular y adaptable a las necesidades de diversas situaciones de cuidado, garantizando su efectividad para diferentes tipos de pacientes y organizaciones.</p>
+
+<p>El sistema Veyra reduce la carga operativa manual y mejora la toma de decisiones al automatizar procesos clave como el envío de notificaciones de medicamentos y la visualización de métricas de salud en tiempo real.</p>
+
+<p>La cobertura de pruebas (unitarias e integradas) podría ampliarse, sobre todo en módulos críticos como la activación de alertas de emergencia y la sincronización de datos de dispositivos de salud, para garantizar una mayor confiabilidad del sistema ante cambios.</p>
 
 <h3 id="bibliografía">Bibliografía</h3>
 <p>Refactoring.Guru. (s.f.). Design patterns. https://refactoring.guru/es/design-patterns</p>
