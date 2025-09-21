@@ -713,6 +713,24 @@ Además, en TypeScript, se siguen las mismas convenciones que se utilizan en Jav
 ### 5.1.4. Software Deployment Configuration.
 
 
+Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes pasos:
+
+**1. Ubicar el repositorio que tiene guardado el codigo fuente y dirigirse al apartado de configuración (settings):**
+
+![repo-landing-page.png](/assets/img/chapter-V/repo-landing-page.png)
+
+
+**1. Seleccionar la sección pages:**
+
+
+![pages-landing-page.png](/assets/img/chapter-V/pages-landing-page.png)
+
+
+**1. Configurar la rama que será usada para hacer deploy:**
+
+![rama-landing-page.png](/assets/img/chapter-V/rama-landing-page.png)
+
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 
