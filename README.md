@@ -46,7 +46,7 @@
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
-      <th>Versión</th> 
+      <th>Versión</th>
       <th>Fecha</th>
       <th>Autor</th>
       <th>Descripción</th>
@@ -54,30 +54,75 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="10">TB1</td>
-      <td>20/09/2025</td> 
-      <td>Ariana Lizeth Ramirez Carrasco</td>
-      <td>En el proceso de diseño de Veyra, aplicamos una metodología Lean UX para definir problemas y suposiciones iniciales, lo que nos permitió validar rápidamente nuestras ideas. A través de entrevistas y un profundo Needfinding, creamos User Personas y Empathy Maps para comprender las necesidades y experiencias de nuestros usuarios. Esta investigación sirvió de base para establecer directrices de estilo claras, tanto generales como específicas para la web, asegurando una estética coherente y adaptable. Finalmente, todo este trabajo se materializó en un diseño UI de la landing page que culminó en un Mock-up detallado, representando visualmente la solución final y su funcionalidad.</td>
+      <td rowspan="14">TB1</td>
+      <td>19/09/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>Desarrollo de los diagramas C4 y el diagrama de clases para la arquitectura de la aplicación. También, lideró el Event Storming y el diagrama de clases.</td>
+    </tr>
+    <tr>
+      <td>13/09/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>Desarrollo del Lean UX Canvas, los Lean UX Problem Statements, Lean UX Assumptions y los User Profiles.</td>
+    </tr>
+    <tr>
+      <td>13/09/2025</td>
+      <td>Billy</td>
+      <td>Desarrollo del Lean UX Problem Statements y Lean UX Hypothesis Statements (Capítulo 1), y la matriz de tareas de usuario (User Task Matrix).</td>
+    </tr>
+    <tr>
+      <td>14/10/2025</td>
+      <td>Oscar</td>
+      <td>Mejoras en la redacción de los Lean UX Problem Statement y Lean UX Hypothesis Statements (Capítulo 1). Adicionalmente, desarrolló los mockups de la aplicación web y se encargó del despliegue (deployment) de la landing page y las guías de estilo generales.</td>
+    </tr>
+    <tr>
+      <td>15/09/2025</td>
+      <td>Miguel</td>
+      <td>Desarrollo del Product Backlog con los User Stories y el Impact Mapping pertenicientes al Capitulo 3. Adicionalmente, se encargó de los wireframes de la landing page y el análisis de la competencia.</td>
     </tr>
     <tr>
       <td>20/09/2025</td>
-      <td></td>
-      <td></td>
+      <td>Renato Calvo Yalan</td>
+      <td>Desarrollo del diagrama C4 para el Cap. 4.</td>
+    </tr>
+    <tr>
+      <td>17/09/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>Desarrollo el Empathy mapping para el Cap. 2.</td>
+    </tr>
+    <tr>
+      <td>19/09/2025</td>
+      <td>Billy</td>
+      <td>Desarollo el Cap. 4 (Diseño de estilos, Wireframes y MockUps del Landing Page y Web App).</td>
     </tr>
     <tr>
       <td>20/09/2025</td>
-      <td></td>
-      <td></td>
+      <td>Miguel</td>
+      <td>Agrego los puntos de gestion y herramientas a utilizar en el equipo por cada iteracion de los Sprints; Cap. 5</td>
     </tr>
     <tr>
-      <td>20/09/2025</td>
-      <td></td>
-      <td></td>
+      <td>19/09/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>Desarrollo el Diagrama de Clases de la Aplicacion (Cap. 4). Desarrollo del diagrama C4 para el Cap. 4.</td>
     </tr>
     <tr>
-      <td>20/09/2025</td>
-      <td></td>
-      <td></td>
+      <td>12/09/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>Desarrollo los puntos restantes del Cap. 2 y el Jouney Mapping.</td>
+    </tr>
+    <tr>
+      <td>16/09/2025</td>
+      <td>Billy</td>
+      <td>Desarrollo las entrevistas con los segmentos objetivos y completó los puntos pendientes del capítulo 1.</td>
+    </tr>
+    <tr>
+      <td>19/09/2025</td>
+      <td>Oscar</td>
+      <td>Desarrollo los mockups del web application y se encargó del deployment de la landing page. Adicionalmente, diseñó las directrices de estilo generales para el proyecto.</td>
+    </tr>
+    <tr>
+      <td>18/09/2025</td>
+      <td>Miguel</td>
+      <td>Desarrollo los wireframes de la landing page y el análisis competitivo.</td>
     </tr>
   </tbody>
 </table>
