@@ -170,9 +170,16 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 <h4 id="designEventStorming">4.6.1. Design-Level Event Storming</h4>
 <h4 id="contextDiagram">4.6.2. Software Architecture Context Diagram</h4>
 
+El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software Veyra, los usuarios y sistemas externos.
+
 ![ContextDiagram Diagram](../images/contextDiagram.png)
 
 <h4 id="containerDiagram">4.6.3. Software Architecture Container Diagrams</h4>
+
+El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones y fuentes de datos en el sistema de Veyra. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
+
+![ContainerDiagram Diagram](../images/containerDiagram.png)
+
 <h4 id="componentDiagram">4.6.4. Software Architecture Components Diagrams</h4>
 
 <h3 id="softwareObjectOrientedDesign">4.7. Software Object-Oriented Design</h3>
