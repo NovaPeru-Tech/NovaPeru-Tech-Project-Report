@@ -466,6 +466,10 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <h3 id="webAppPrototyping">4.5. Web Applications Prototyping</h3>
 
+
+![ContextDiagram Diagram](../images/prototypy.png)
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/ERvba6f0TWdDhgiVHVZ6HJwBgC_FOF0gNDEdsy9t47rPAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Pc0kHx
+
 <h3 id="DDD">4.6. Domain-Driven Software Architecture</h3>
 <h4 id="designEventStorming">4.6.1. Design-Level Event Storming</h4>
 <h4 id="contextDiagram">4.6.2. Software Architecture Context Diagram</h4>
@@ -481,6 +485,12 @@ El diagrama de contenedores ofrece una visión general de las conexiones entre a
 ![ContainerDiagram Diagram](../images/containerDiagram.png)
 
 <h4 id="componentDiagram">4.6.4. Software Architecture Components Diagrams</h4>
+
+El diagrama de componentes proporciona una vista más detallada de la arquitectura del sistema Veyra. 
+Este nivel de diseño se centra en los módulos internos de cada contenedor definido en el diagrama de contenedores, 
+mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunican entre sí.
+
+![ContainerDiagram Diagram](../images/Software-Architecture-Components-Diagrams.jpg)
 
 <h3 id="softwareObjectOrientedDesign">4.7. Software Object-Oriented Design</h3>
 <h4 id="classDiagram">4.7.1. Class Diagrams</h4>
@@ -501,5 +511,14 @@ El diagrama de contenedores ofrece una visión general de las conexiones entre a
 
 ![profile Diagram](../images/platform-profiles.svg)
 
+<p>Nursing home</p>
+
+![profile Diagram](../images/NursingHome.svg)
+
 <h3 id="dbDesign">4.8. Database Design</h3>
+
 <h4 id="dbDiagram">4.8.1. Database Diagrams</h4>
+
+![Database](../images/VeyraDatabase.svg)
+
+
