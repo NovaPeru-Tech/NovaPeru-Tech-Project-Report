@@ -482,6 +482,12 @@ El diagrama de contenedores ofrece una visión general de las conexiones entre a
 
 <h4 id="componentDiagram">4.6.4. Software Architecture Components Diagrams</h4>
 
+El diagrama de componentes proporciona una vista más detallada de la arquitectura del sistema Veyra. 
+Este nivel de diseño se centra en los módulos internos de cada contenedor definido en el diagrama de contenedores, 
+mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunican entre sí.
+
+![ContainerDiagram Diagram](../images/Software-Architecture-Components-Diagrams.jpg)
+
 <h3 id="softwareObjectOrientedDesign">4.7. Software Object-Oriented Design</h3>
 <h4 id="classDiagram">4.7.1. Class Diagrams</h4>
 <p>Employees diagram</p>
