@@ -310,6 +310,53 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 
 <h3 id="webAppDesign">4.4. Web Applications UX/UI Design</h3>
 <h4 id="webAppWireframes">4.4.1. Web Applications Wireframes</h4>
+<p>
+En esta sección se presentan los <strong>wireframes diseñados para la aplicación web de NovaPeru Tech (Veyra)</strong>. 
+Cada pantalla responde a las funcionalidades principales del sistema y a los distintos roles de usuario 
+(Administrador, Familiar, Personal de cuidado).
+</p>
+
+<h5>Login – NovaPeru Tech</h5>
+<p>Pantalla de inicio donde los usuarios acceden a la aplicación según su rol 
+(Administrador, Familiar, Personal de cuidado). Incluye campos de correo y contraseña, además de validaciones de acceso.</p>
+
+<h5>Inicio de Sesión – NovaPeru Tech</h5>
+<p>Formulario de acceso con credenciales de usuario. Presenta opciones de recuperación de contraseña y mantiene consistencia visual con la identidad de NovaPeru Tech.</p>
+
+<h5>Registrar Familiar – NovaPeru Tech</h5>
+<p>Formulario para que los familiares creen una cuenta, ingresando datos personales básicos, correo electrónico y contraseña. Incluye validaciones de formato y confirmación de correo.</p>
+
+<h5>Registrar Administrador – NovaPeru Tech</h5>
+<p>Pantalla destinada a registrar un nuevo administrador en la plataforma. Permite ingresar información personal, datos de contacto y credenciales de acceso.</p>
+
+<h5>Inventario – NovaPeru Tech</h5>
+<p>Módulo donde el administrador puede visualizar el inventario de medicamentos y recursos clínicos. Permite filtrar, ordenar y consultar detalles de cada ítem.</p>
+
+<h5>Inventario – Modificar – NovaPeru Tech</h5>
+<p>Sección para editar la información de medicamentos en el inventario: nombre, cantidad, fecha de vencimiento, laboratorio y observaciones.</p>
+
+<h5>Paciente – NovaPeru Tech</h5>
+<p>Pantalla que muestra la información general de un residente (datos personales, estado clínico, actividades recientes).</p>
+
+<h5>Paciente – Agregar – NovaPeru Tech</h5>
+<p>Formulario para registrar un nuevo residente en la institución. Incluye datos personales, médicos, contactos de emergencia y observaciones.</p>
+
+<h5>Paciente – Eliminar – NovaPeru Tech</h5>
+<p>Módulo que permite al administrador eliminar registros de pacientes, con mensaje de confirmación para evitar acciones accidentales.</p>
+
+<h5>Empleado – NovaPeru Tech</h5>
+<p>Pantalla donde se listan los empleados de la institución, mostrando nombre, rol, contacto y estado laboral.</p>
+
+<h5>Empleado – Card Detalles – NovaPeru Tech</h5>
+<p>Vista detallada de un empleado en formato de card, mostrando información personal, turno asignado, horas extra y contacto de emergencia.</p>
+
+<h5>Actividad – Familiar – NovaPeru Tech</h5>
+<p>Pantalla que muestra las actividades recientes del residente (ejercicios, visitas, terapias). 
+El familiar puede visualizar fotos, descripciones y fechas.</p>
+
+<h5>Historial de Pedido – NovaPeru Tech</h5>
+<p>Pantalla que permite consultar pedidos realizados, con detalles de estado, fecha y productos solicitados. 
+Esta funcionalidad fue heredada y adaptada del prototipo base de Elixir Control.</p>
 <h4 id="webAppWireflow">4.4.2. Web Applications Wireflow Diagrams</h4>
 <h4 id="webAppMockups">4.4.3. Web Applications Mock-ups</h4>
 <h4 id="webAppUserFlow">4.4.4. Web Applications User Flow Diagrams</h4>
