@@ -46,7 +46,7 @@
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
-      <th>Versión</th>
+      <th>Versión</th> 
       <th>Fecha</th>
       <th>Autor</th>
       <th>Descripción</th>
@@ -55,27 +55,27 @@
   <tbody>
     <tr>
       <td rowspan="10">TB1</td>
-      <td></td>
+      <td>20/09/2025</td> 
+      <td>Ariana Lizeth Ramirez Carrasco</td>
+      <td>En el proceso de diseño de Veyra, aplicamos una metodología Lean UX para definir problemas y suposiciones iniciales, lo que nos permitió validar rápidamente nuestras ideas. A través de entrevistas y un profundo Needfinding, creamos User Personas y Empathy Maps para comprender las necesidades y experiencias de nuestros usuarios. Esta investigación sirvió de base para establecer directrices de estilo claras, tanto generales como específicas para la web, asegurando una estética coherente y adaptable. Finalmente, todo este trabajo se materializó en un diseño UI de la landing page que culminó en un Mock-up detallado, representando visualmente la solución final y su funcionalidad.</td>
+    </tr>
+    <tr>
+      <td>20/09/2025</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
+      <td>20/09/2025</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
+      <td>20/09/2025</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
+      <td>20/09/2025</td>
       <td></td>
       <td></td>
     </tr>
@@ -268,25 +268,54 @@ En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nu
 En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
 
 <table border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+      <td>
+
+**Ariana Lizeth Ramirez Carrasco:**
+- Lean UX Process
+- Lean UX Assumptions
+- Entrevistas
+- Registro de entrevistas
+- Needfinding
+- User Personas
+- Empathy Mapping
+- Style Guidelines
+- General Style Guidelines
+- Web Style Guidelines
+- Landing Page UI Design
+- Landing Page Mock-up</td>
+      <td>La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
+</td>
+    </tr>
+    <tr>
+      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+      <td>
+
+**Ariana Lizeth Ramirez Carrasco:**
+- Lean UX Process
+- Lean UX Assumptions
+- Entrevistas
+- Registro de entrevistas
+- Needfinding
+- User Personas
+- Empathy Mapping
+- Style Guidelines
+- General Style Guidelines
+- Web Style Guidelines
+- Landing Page UI Design
+- Landing Page Mock-up</td>
+      <td>La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.</td>
+    </tr>
+  </tbody>
 </table>
 
 
