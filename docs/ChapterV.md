@@ -1,18 +1,446 @@
-<h2 id="productImplementation">Capítulo V: Product Implementation, Validation & Deployment</h2>
 
-<h3 id="softwareConfig">5.1. Software Configuration Management</h3>
-<h4 id="softwareDevelopment">5.1.1. Software Development Environment Configuration</h4>
-<h4 id="sourceCodeManagement">5.1.2. Source Code Management</h4>
-<h4 id="sourceCodeStyleGuide">5.1.3. Source Code Style Guide & Conventions</h4>
-<h4 id="softwareDeploymentConfig">5.1.4. Software Deployment Configuration</h4>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Capítulo V: Product Implementation, Validation & Deployment</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; padding: 24px; max-width: 980px; margin: auto; color: #111; }
+    h1,h2,h3,h4 { color: #0b3b73; margin-top: 1.2em; }
+    pre { background:#f6f8fa; padding:12px; overflow:auto; border-radius:6px; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; }
+    table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+    th, td { border: 1px solid #dfe3e8; padding: 8px; text-align: left; vertical-align: top; }
+    thead th { background:#f0f4f8; }
+    img { max-width: 100%; height: auto; display:block; margin: 8px 0; }
+    blockquote { border-left:4px solid #ddd; padding-left:12px; color:#555; margin:12px 0; }
+    .small { font-size:0.9em; color:#555; }
+  </style>
+</head>
+<body>
 
-<h3 id="landingPageImplementation">5.2. Landing Page, Services & Applications Implementation</h3>
-<h4 id="sprint1">5.2.1. Sprint 1</h4>
-<h5 id="sprintPlanning1">5.2.1.1. Sprint Planning 1</h5>
-<h5 id="aspectLeaders1">5.2.1.2. Aspect Leaders and Collaborators</h5>
-<h5 id="sprintBacklog1">5.2.1.3. Sprint Backlog 1</h5>
-<h5 id="developmentEvidence1">5.2.1.4. Development Evidence for Sprint Review</h5>
-<h5 id="executionEvidence1">5.2.1.5. Execution Evidence for Sprint Review</h5>
-<h5 id="servicesDocumentation1">5.2.1.6. Services Documentation Evidence for Sprint Review</h5>
-<h5 id="deploymentEvidence1">5.2.1.7. Software Deployment Evidence for Sprint Review</h5>
-<h5 id="teamCollaborationInsights1">5.2.1.8. Team Collaboration Insights during Sprint</h5>
+  <h1>Capítulo V: Product Implementation, Validation & Deployment</h1>
+
+<h2>5.1. Software Configuration Management.</h2>
+
+  <p>En este punto del informe se describe las decisiones y los principios que ayudarán al equipo a garantizar la coherencia durante el desarrollo de la solución.</p>
+
+<h3>5.1.1. Software Development Environment Configuration.</h3>
+
+  <p>En este apartado se proporcionan los enlaces a las aplicaciones y productos de software creados durante el ciclo del proyecto utilizando los programas correspondientes.</p>
+
+  <p>Con ese fin, se organizará en las siguientes secciones:</p>
+  <ol>
+    <li>Project Management</li>
+    <li>Requirements Management</li>
+    <li>Product UX/UI Design</li>
+    <li>Software Development</li>
+    <li>Software Testing</li>
+    <li>Software Documentation</li>
+  </ol>
+
+  <p>Asimismo, se clasificarán los elementos de estas secciones como rutas de referencia (para software basado en modelos Saas) o rutas de descarga (para productos que se ejecuten en las computadoras de los miembros del equipo) para cada uno de los productos de software.</p>
+
+<h4>Project Management</h4>
+  <p>Esta disciplina se fundamenta en la administración de proyectos y busca principalmente la mejora de procesos y su entorno con el propósito de lograr los resultados esperados.</p>
+
+  <p><em>Durante el ciclo digital del proyecto, se llevará a cabo la implementación de un producto de software basado en el modelo SaaS, el cual funcionará a través de un navegador web; no obstante, no se desarrollará una versión de la aplicación móvil correspondiente.</em></p>
+
+<h4>Requirements Management:</h4>
+  <p>Este proceso se enfoca en asegurar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes, así como las de las partes interesadas internas o externas.</p>
+
+  <ul>
+    <li><strong>Trello:</strong> Trello es una plataforma digital de gestión de proyectos basada en tableros, listas y tarjetas, que permite organizar tareas, colaborar en equipo y supervisar el progreso de manera visual y eficiente.</li>
+  </ul>
+
+<h4>Product UX/UI Design</h4>
+  <p>Esta herramienta facilita la creación digital de modelos que se integran en la vida del consumidor. En este caso, estamos desarrollando un modelo de sitio web compatible tanto con computadoras como con dispositivos móviles.</p>
+
+  <p>Para lograrlo, utilizamos varias herramientas de diseño y colaboración, que incluyen:</p>
+  <ol>
+    <li><strong>Uxpressia:</strong> plataforma para mapeo de la trayectoria del cliente. <a href="https://uxpressia.com/">uxpressia.com</a></li>
+    <li><strong>MIRO:</strong> pizarra digital colaborativa. <a href="https://miro.com/es/">miro.com/es</a></li>
+    <li><strong>Figma:</strong> herramienta de prototipado web. <a href="https://www.figma.com/es-es/">figma.com</a></li>
+    <li><strong>Lucid Chart:</strong> aplicación de diagramación colaborativa. <a href="https://www.lucidchart.com/pages/es">lucidchart.com</a></li>
+    <li><strong>Overflow:</strong> herramienta para diagramas de Userflows. <a href="https://overflow.io/">overflow.io</a></li>
+  </ol>
+
+<h4>Software Development:</h4>
+  <p>El desarrollo de software es una metodología aplicada en la creación de productos de software. A continuación, algunas herramientas y tecnologías clave:</p>
+
+  <ol>
+    <li><strong>GitHub:</strong> repositorio del proyecto: <a href="https://github.com/NovaPeru-Tech">https://github.com/NovaPeru-Tech</a></li>
+    <li><strong>Webstorm:</strong> IDE orientado al desarrollo web. <a href="https://www.jetbrains.com/webstorm/">webstorm</a></li>
+    <li><strong>HTML, CSS, JavaScript:</strong> tecnologías para la implementación web.</li>
+  </ol>
+
+<h4>Software Testing:</h4>
+  <p>Acción de evaluar los elementos y el funcionamiento del software mediante validación y verificación.</p>
+
+  <p><strong>Lenguaje Gherkin:</strong> DSL para escribir historias de usuario y escenarios de prueba (Feature, Scenario, Given, When, Then, etc.).</p>
+
+<h4>Software Documentation</h4>
+  <p>Textos o ilustraciones que acompañan al software para explicar su funcionamiento o uso.</p>
+
+<h3>5.1.2. Source Code Management.</h3>
+
+  <p>Se describe la gestión del código fuente (SCM). Usaremos GitHub como sistema de control de versiones.</p>
+
+  <ol>
+    <li>URL de la organización: NovaPeru Tech - <a href="https://github.com/NovaPeru-Tech">https://github.com/NovaPeru-Tech</a></li>
+    <li>URL del repositorio de la Landing Page: <a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">NovaPeru-Tech-LandingPage</a></li>
+  </ol>
+
+<h4>GitFlow</h4>
+  <p>GitFlow es un modelo de ramas para Git. Ramas principales y de soporte:</p>
+
+  <ul>
+    <li><strong>Main:</strong> rama principal (history oficial de versiones).</li>
+    <li><strong>Develop:</strong> integración de features estables.</li>
+    <li><strong>Feature branches:</strong> se ramifican de <code>develop</code> y vuelven a fusionarse en <code>develop</code>.</li>
+  </ul>
+
+  <p><strong>Convenciones para naming de Features y Conventional Commits:</strong></p>
+  <pre><code>&lt;type&gt;[optional scope]: &lt;description&gt;
+
+Tipos comunes:
+- feat: nuevo feature
+- fix: corrección
+- build: cambios en build/deps
+- chore: tareas internas
+- docs: documentación
+- refractor: refactor
+- perf: mejoras de rendimiento
+- style: estilo
+- test: pruebas
+  </code></pre>
+
+  <p>Ejemplos:</p>
+  <pre><code>feat(welcome): add welcome section
+build(release): bump version to 1.0.0
+style: remove empty line
+</code></pre>
+
+  <p>Instrucciones rápidas para vincular WebStorm con GitHub (resumen):</p>
+  <ol>
+    <li>VCS &gt; Enable Version Control Integration (seleccionar Git).</li>
+    <li>Agregar cuenta de GitHub desde Settings.</li>
+    <li>Configurar nombre de usuario y realizar commits.</li>
+    <li>Manage Remotes &gt; pegar URL del repositorio.</li>
+  </ol>
+
+<h3>5.1.3. Source Code Style Guide &amp; Conventions.</h3>
+
+  <p>Pautas, convenciones y estilos para los lenguajes usados: HTML, CSS, JavaScript, C#, TypeScript y Gherkin.</p>
+
+<h4>Nomenclatura General</h4>
+  <p>Se usará inglés relacionado con la entidad representada, en minúsculas. Ejemplos:</p>
+  <pre><code>.gallery {}
+.video {}
+.login {}
+</code></pre>
+
+<h4>Sangría</h4>
+  <p>Espaciado de dos espacios dentro de bloques. Ejemplo HTML:</p>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Título del Documento&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Encabezado Principal&lt;/h1&gt;
+    &lt;p&gt;Este es un párrafo dentro del cuerpo del documento.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h4>Especificaciones generales por lenguaje</h4>
+
+<h5>HTML</h5>
+  <ul>
+    <li>Declarar <code>&lt;!DOCTYPE html&gt;</code> en la primera línea.</li>
+    <li>Usar líneas en blanco para separar bloques largos.</li>
+    <li>Usar comillas dobles para atributos: <code>&lt;table class="striped"&gt;</code></li>
+    <li>No omitir el elemento <code>&lt;title&gt;</code>.</li>
+    <li>Evitar líneas de código extremadamente largas; usar saltos y sangrías.</li>
+  </ul>
+
+<h5>CSS</h5>
+  <ul>
+    <li>Preferir shorthand properties cuando sea posible.</li>
+    <li>Declaraciones terminadas con punto y coma.</li>
+    <li>Un espacio después de ":" en propiedades.</li>
+    <li>Usar comillas simples para valores (p. ej. <code>font-family: 'open sans', arial, sans-serif;</code>).</li>
+  </ul>
+
+<h5>JavaScript</h5>
+  <ul>
+    <li>Espacios alrededor de operadores.</li>
+    <li>Instrucciones simples terminan con punto y coma.</li>
+    <li>Llaves de función en la misma línea de la declaración.</li>
+    <li>Objetos con llave final seguida de punto y coma.</li>
+  </ul>
+
+<h5>Gherkin</h5>
+  <p>Reglas de sangrado y ejemplos:</p>
+  <pre><code>Scenario: Ingreso de requisitos con claridad
+  Given que en el formulario de ingreso de oferta laboral
+  When escribo claramente los requisitos
+  Then se mostrará el mensaje
+  And mi oferta solo aparecerá a quienes cumplan con estos
+</code></pre>
+
+<h5>C#</h5>
+  <p>Pautas y ejemplos breves:</p>
+  <pre><code>// Interpolación de cadenas
+string displayName = $"{nameList[n].LastName}, {nameList[n].FirstName}";
+
+// StringBuilder para concatenaciones grandes
+var manyPhrases = new StringBuilder();
+for (var i = 0; i &lt; 10000; i++) {
+manyPhrases.Append(phrase);
+}
+</code></pre>
+
+<h5>Typescript</h5>
+  <p>Ejemplos de declaración de variables:</p>
+  <pre><code>let edad: number;
+edad = 20;
+
+let edadAitor: number = 18;
+</code></pre>
+
+<h3>5.1.4. Software Deployment Configuration.</h3>
+
+  <p>Para desplegar la Landing Page desde GitHub Pages hay que seguir estos pasos:</p>
+
+  <ol>
+    <li>Ubicar el repositorio y dirigirse a <strong>Settings</strong>.</li>
+    <li>Seleccionar la sección <strong>Pages</strong>.</li>
+    <li>Configurar la rama que será usada para deploy.</li>
+  </ol>
+
+<h2>5.2. Landing Page, Services &amp; Applications Implementation.</h2>
+
+<h3>5.2.1. Sprint 1</h3>
+
+  <p>Implementación del diseño de la Landing Page en WebStorm. Se espera completar Home, Services, Pricing, Testimonials y About Us al concluir el Sprint.</p>
+
+  <p>Repositorio: <a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</a></p>
+  <p>Landing Page Deployed: <a href="https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/</a></p>
+
+<h4>5.2.1.1. Sprint Planning n.</h4>
+
+  <table>
+    <thead>
+      <tr><th>Sprint #</th><th>Sprint 1</th></tr>
+    </thead>
+    <tbody>
+      <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
+      <tr><td>Date</td><td>14-09-2025</td></tr>
+      <tr><td>Time</td><td>10:00 p.m</td></tr>
+      <tr><td>Location</td><td>Discord</td></tr>
+      <tr><td>Prepared By</td><td>Renato Calvo</td></tr>
+      <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+          Calvo Yalan, Renato Guillermo<br>
+          Oscar Javier Armas Sánchez<br>
+          Ariana Lizeth Ramirez Carrasco<br>
+          Miguel Angel Junior Roman Lopez<br>
+          Billy Jake Ruiz Madrid
+        </td>
+      </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
+      <tr><td>Sprint 1 Goal</td><td>Implementar la landing page incluyendo las distintas secciones acordadas y el requisito de cambio de idioma para la aplicación de VEYRA</td></tr>
+      <tr><td>Sprint 1 Velocity</td><td>13 Story Points</td></tr>
+      <tr><td>Sum of Story Points</td><td>13 SP (≈ 53 horas estimadas)</td></tr>
+    </tbody>
+  </table>
+
+<h4>5.2.1.2. Sprint Backlog 1.</h4>
+
+  <p><!--Status -> (To-do / In-Process / To-Review / Done) --></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>User Story</th>
+        <th>Work-Item / Task</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>US-001<br><strong>Menú de navegación</strong></td>
+        <td>
+          <strong>T001</strong> Definir estructura del menú (2h) — To-do<br>
+          <strong>T002</strong> Implementar menú en HTML (3h) — To-do<br>
+          <strong>T003</strong> Estilos del menú (2h) — To-do<br>
+          <strong>T004</strong> Pruebas de navegación (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-002<br><strong>Visualización de planes</strong></td>
+        <td>
+          <strong>T005</strong> Diseñar estructura de planes (3h) — To-do<br>
+          <strong>T006</strong> Implementar sección de planes (4h) — To-do<br>
+          <strong>T007</strong> Pruebas de carga de planes (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-003<br><strong>Selección de plan en Landing Page</strong></td>
+        <td>
+          <strong>T008</strong> Diseñar formulario de confirmación (3h) — To-do<br>
+          <strong>T009</strong> Implementar selección y confirmación (4h) — To-do<br>
+          <strong>T010</strong> Pruebas de validación (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-004<br><strong>Visualización de creadores</strong></td>
+        <td>
+          <strong>T011</strong> Definir información de creadores (2h) — To-do<br>
+          <strong>T012</strong> Implementar sección del equipo (3h) — To-do<br>
+          <strong>T013</strong> Pruebas de visualización de equipo (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-005<br><strong>Redes sociales</strong></td>
+        <td>
+          <strong>T014</strong> Implementar íconos de redes sociales (2h) — To-do<br>
+          <strong>T015</strong> Pruebas de enlaces sociales (1h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-006<br><strong>Formulario de contacto</strong></td>
+        <td>
+          <strong>T016</strong> Diseñar formulario de contacto (2h) — To-do<br>
+          <strong>T017</strong> Implementar formulario (3h) — To-do<br>
+          <strong>T018</strong> Pruebas de envío (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-007<br><strong>Cambio de idioma</strong></td>
+        <td>
+          <strong>T019</strong> Implementar botón de idioma (3h) — To-do<br>
+          <strong>T020</strong> Definir textos traducidos (4h) — To-do<br>
+          <strong>T021</strong> Pruebas de funcionalidad (2h) — To-do
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+<h4>5.2.1.3. Development Evidence for Sprint Review.</h4>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit Id</th>
+        <th>Commit Message</th>
+        <th>Committed on (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="11">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</td>
+        <td>main</td>
+        <td>5499fe0fb5d24b7e18b29f76616d3751d1b05056</td>
+        <td>Initial commit</td>
+        <td>[10-09-2025]</td>
+      </tr>
+      <tr><td>main</td><td>741b864bf4d3adb5c285c2b57266cc2eef9aad35</td><td>chore: add hero and home section.</td><td>[12-09-2025]</td></tr>
+      <tr><td>main</td><td>84569edd53373a0dda20fae41a127d0a6573953f</td><td>chore: add home and what we offer section style.</td><td>13-09-2025</td></tr>
+      <tr><td>main</td><td>66d1d439ba86f7a9f2be00a27b65f59550b595f7</td><td>feat(section):added css Features Section</td><td>14-09-2025</td></tr>
+      <tr><td>main</td><td>e3f8b84b35396c70673120464c4eebc57a843fd3</td><td>chore: added Features Section</td><td>15-09-2025</td></tr>
+      <tr><td>main</td><td>cfe8b66050e1c25e4b62a06c413192ef09406a45</td><td>chore: add about us section and benefits</td><td>16-09-2025</td></tr>
+      <tr><td>main</td><td>fe01ab208e248862dd8f260f18750bed27d0d528</td><td>chore: added Our Team Section</td><td>17-09-2025</td></tr>
+      <tr><td>main</td><td>f3da531e6de86e8d2737d29d0586d7947f8eb0e9</td><td>feat(section):added css Plans Section</td><td>18-09-2025</td></tr>
+      <tr><td>main</td><td>ca8bf2e835f2ad94d068573c5fc7533e38c68f04</td><td>chore:added hero section</td><td>19-09-2025</td></tr>
+      <tr><td>main</td><td>ea08eae9d315d89fa351c5abf6bfd4cda57fd278</td><td>chore:added style</td><td>20-09-2025</td></tr>
+      <tr><td>main</td><td>dcd349d3cb0a5f40146aac3fd9edf1684b39d308</td><td>fix: update asset paths to include public directory</td><td>21-09-2025</td></tr>
+    </tbody>
+  </table>
+
+<h4>5.2.1.4. Testing Suite Evidence for Sprint Review.</h4>
+  <p>Para este primer sprint no se realizaron testing.</p>
+
+<h4>5.2.1.5. Execution Evidence for Sprint Review.</h4>
+  <p>Después de completar el Sprint 1, logramos implementar todas las secciones de nuestra Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo y añadimos navegación interna con botones de desplazamiento.</p>
+
+<h5>Capturas (referencias):</h5>
+  <p>Encabezado y botones de desplazamiento:</p>
+  <img src="/assets/img/chapter-V/header-landing-page.png" alt="header landing page">
+
+  <p>Sección Hero:</p>
+  <img src="../assets/img/chapter-V/hero-landing-page.png" alt="hero landing page">
+
+  <p>Sección Services:</p>
+  <img src="../assets/img/chapter-V/services-landing-page.png" alt="services landing page">
+
+  <p>Sección Pricing:</p>
+  <img src="../assets/img/chapter-V/plans-landing-page.png" alt="plans landing page">
+
+  <p>Sección About the App:</p>
+  <img src="/assets/img/chapter-V/about-the-app-landing-page.png" alt="about the app landing page">
+
+  <p>Sección Testimonials:</p>
+  <img src="/assets/img/chapter-V/testimonials-landing-page.png" alt="testimonials landing page">
+
+  <p>Sección About the Team:</p>
+  <img src="/assets/img/chapter-V/about-the-team-landing-page.png" alt="about the team landing page">
+
+  <p>Sección Contact:</p>
+  <img src="/assets/img/chapter-V/contact-landing-page.png" alt="contact landing page">
+
+  <p>Footer:</p>
+  <img src="/assets/img/chapter-V/footer-landing-page.png" alt="footer landing page">
+
+<h4>5.2.1.6. Services Documentation Evidence for Sprint Review.</h4>
+  <p>En el primer Sprint el equipo diseñó, programó y puso en funcionamiento la Landing Page para presentar la aplicación web "Veyra".</p>
+
+  <table>
+    <thead>
+      <tr><th>End Point</th><th>Funciones</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</td>
+        <td>Mostrar la Landing Page Desplegada</td>
+      </tr>
+    </tbody>
+  </table>
+
+<h4>5.2.1.7. Software Deployment Evidence for Sprint Review.</h4>
+  <p>Se utilizó GitHub Pages; se publicó el proyecto desde la rama <code>realease-V1.0</code> (anteriormente <code>release-1.0</code>).</p>
+  <p><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page Veyra</a></p>
+
+<h4>5.2.1.8. Team Collaboration Insights during Sprint.</h4>
+  <p>Herramientas usadas: GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. Se muestran diagramas de commits por integrante (referencia en el documento original).</p>
+
+<h3>Conclusiones</h3>
+  <p>Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como registro de datos de salud, comunicación entre familia y cuidadores, y administración de planes de cuidado personalizados.</p>
+
+  <p>La implementación con tecnologías modernas permite escalabilidad, modularidad y adaptabilidad. Se recomienda ampliar la cobertura de pruebas, especialmente en módulos críticos (alertas de emergencia y sincronización de dispositivos de salud).</p>
+
+<h3>Bibliografía</h3>
+  <ul>
+    <li>Refactoring.Guru. <em>Design patterns</em>. <a href="https://refactoring.guru/es/design-patterns">refactoring.guru</a></li>
+    <li>Gothelf, J., &amp; Seiden, J. (2021). <em>Lean UX: Designing great products with agile teams</em> (3rd ed.). O’Reilly Media.</li>
+    <li>Evans, E. (2004). <em>Domain-driven design</em>. Addison-Wesley.</li>
+    <li>Vernon, V. <em>Domain-driven design reference</em>. <a href="https://domainlanguage.com/ddd/reference/">domainlanguage.com</a></li>
+    <li>Martin, R. C. (2017). <em>Clean architecture</em>. Prentice Hall.</li>
+  </ul>
+
+<h3>Anexos</h3>
+  <ul>
+    <li>Deploy Landing Page: <em>Ver Landing Page</em></li>
+    <li>Entrevistas: <em>Ver Entrevistas</em></li>
+    <li>Diagrama C4, Diagramas de clases y Diagrama de base de datos (referencias en el original).</li>
+  </ul>
+
+  <p class="small">Documento convertido desde <strong>Capitulo5.rtf</strong>. :contentReference[oaicite:1]{index=1}</p>
+
+</body>
+</html>
+

@@ -516,6 +516,9 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ![profile Diagram](../images/NursingHome.svg)
 
 <h3 id="dbDesign">4.8. Database Design</h3>
+
 <h4 id="dbDiagram">4.8.1. Database Diagrams</h4>
 
 ![Database](../images/VeyraDatabase.svg)
+
+
