@@ -385,6 +385,10 @@ Esta funcionalidad fue heredada y adaptada del prototipo base de Elixir Control.
 <img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h4 id="webAppWireflow">4.4.2. Web Applications Wireflow Diagrams</h4>
+<p>Los Wireflows se emplean principalmente en el diseño de la experiencia de usuario (UX) y son especialmente útiles para aplicaciones que incluyen flujos de trabajo e interacciones complejas.</p>
+
+<img src="../images/Web-Applications-Wireflow-Diagrams.jpg" alt="Web-Applications-Wireflow-Diagrams" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 <h4 id="webAppMockups">4.4.3. Web Applications Mock-ups</h4>
 <h4 id="webAppUserFlow">4.4.4. Web Applications User Flow Diagrams</h4>
 
