@@ -1029,9 +1029,115 @@ Landing Page Deployed: https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Te
 
 ##### 5.2.1.3. Development Evidence for Sprint Review.
 
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit Id</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commited on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--FILA 1 -->
+        <tr>
+            <td rowspan="10">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</td>
+            <td>main</td>
+            <td>5499fe0fb5d24b7e18b29f76616d3751d1b05056</td>
+            <td>Initial commit	</td>
+            <td></td>
+            <td>[10-09-2025]</td>
+        </tr>
+        <!--FILA 2 -->
+        <tr>
+            <td>main</td>
+            <td>741b864bf4d3adb5c285c2b57266cc2eef9aad35</td>
+            <td>chore: add hero and home section.</td>
+            <td></td>
+            <td>[12-09-2025]</td>
+        </tr>
+        <!--FILA 3 -->
+        <tr>
+            <td>main</td>
+            <td>84569edd53373a0dda20fae41a127d0a6573953f</td>
+            <td>chore: add home and what we offer section style.</td>
+            <td></td>
+            <td>13-09-2025</td>
+        </tr>
+        <!--FILA 4 -->
+        <tr>
+            <td>main</td>
+            <td>66d1d439ba86f7a9f2be00a27b65f59550b595f7</td>
+            <td>feat(section):added css Features Section</td>
+            <td></td>
+            <td>14-09-2025</td>
+        </tr>
+        <!--FILA 5 -->
+        <tr>
+            <td>main</td>
+            <td>e3f8b84b35396c70673120464c4eebc57a843fd3</td>
+            <td>chore: added Features Section</td>
+            <td></td>
+            <td>15-09-2025</td>
+        </tr>
+        <!--FILA 6 -->
+        <tr>
+            <td>main</td>
+            <td>cfe8b66050e1c25e4b62a06c413192ef09406a45</td>
+            <td>chore: add about us section and benefits</td>
+            <td></td>
+            <td>16-09-2025</td>
+        </tr>
+        <!--FILA 7 -->
+        <tr>
+            <td>main</td>
+            <td>fe01ab208e248862dd8f260f18750bed27d0d528</td>
+            <td>chore: added Our Team Section</td>
+            <td></td>
+            <td>17-09-2025</td>
+        </tr>
+        <!--FILA 8 -->
+        <tr>
+            <td>main</td>
+            <td>f3da531e6de86e8d2737d29d0586d7947f8eb0e9</td>
+            <td>feat(section):added css Plans Section</td>
+            <td></td>
+            <td>18-09-2025</td>
+        </tr>
+        <!--FILA 9 -->
+        <tr>
+            <td>main</td>
+            <td>ca8bf2e835f2ad94d068573c5fc7533e38c68f04</td>
+            <td>chore:added hero section</td>
+            <td></td>
+            <td>19-09-2025</td>
+        </tr>
+        <!--FILA 10 -->
+        <tr>
+            <td>main</td>
+            <td>ea08eae9d315d89fa351c5abf6bfd4cda57fd278</td>
+            <td>chore:added style</td>
+            <td></td>
+            <td>20-09-2025</td>
+        </tr>
+        <!--FILA 11 -->
+        <tr>
+            <td>main</td>
+            <td>dcd349d3cb0a5f40146aac3fd9edf1684b39d308</td>
+            <td>fix: update asset paths to include public directory</td>
+            <td></td>
+            <td>21-09-2025</td>
+        </tr>
+        <!-- Agregar más filas según tus commits -->
+    </tbody>
+</table>
+
 
 ##### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 
+Para este primer sprint no se realizaron testing.
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review.
 
