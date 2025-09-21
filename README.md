@@ -138,6 +138,20 @@
 
 En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nuestra startup. Todos los miembros del equipo NovaPeru Tech participaron activamente en la elaboración del informe, utilizando herramientas colaborativas como GitHub, Figma, Trello, UXPressia, Miro, entre otros. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo:
 
+<img src="images/Captura de pantalla 2025-09-21 143503.png" alt="Veyra" style="width:auto;">
+
+
+<img src="images/Captura de pantalla 2025-09-21 143503.png" alt="Veyra" style="width:auto;">
+
+
+<img src="images/Captura de pantalla 2025-09-21 143431.png" alt="Veyra" style="width:auto;">
+
+
+<img src="images/Captura de pantalla 2025-09-21 143422.png" alt="Veyra" style="width:auto;">
+
+
+<img src="images/Captura de pantalla 2025-09-21 143411.png" alt="Veyra" style="width:auto;">
+
 <h2>Contenido</h2>
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
