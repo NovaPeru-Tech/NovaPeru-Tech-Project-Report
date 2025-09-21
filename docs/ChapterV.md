@@ -1,1281 +1,445 @@
-# Capítulo V: Product Implementation, Validation & Deployment
-
-### 5.1. Software Configuration Management.
-
-En este punto del informe se describe las decisiones y los principios que ayudarán al
-equipo a garantizar la coherencia durante el desarrollo de la solución.
-
-### 5.1.1. Software Development Environment Configuration.
-
-En este apartado se proporcionan los enlaces a las aplicaciones y productos de
-software creados durante el ciclo del proyecto utilizando los programas correspondientes.
-
-Con ese fin, se organizará en las siguientes secciones:
-1. [ ] Project Management
-2. [ ] Requirements Management
-3. [ ] Product UX/UI Design
-4. [ ] Software Development
-5. [ ] Software Testing
-6. [ ] Software Documentation
-
-Asimismo, se clasificarán los elementos de estas secciones como rutas de referencia
-(para software basado en modelos Saas) o rutas de descarga (para productos que se
-ejecuten en las computadoras de los miembros del equipo) para cada uno de los productos
-de software.
-
-**Project Management**
-
-Esta disciplina se fundamenta en la administración de proyectos y busca principalmente la
-mejora de procesos y su entorno con el propósito de lograr los resultados esperados.
-
-* Durante el ciclo digital del proyecto, se llevará a cabo la implementación de un producto
-  de software basado en el modelo SaaS, el cual funcionará a través de un navegador web; no
-  obstante, no se desarrollará una versión de la aplicación móvil correspondiente.
-
-**Requirements Management:**
-
-Este proceso se enfoca en asegurar que una organización documente, verifique y satisfaga las
-necesidades y expectativas de sus clientes, así como las de las partes interesadas internas
-o externas.
-
-
-* **Trello:** Trello es una plataforma digital de gestión de proyectos basada en tableros,
-* listas y tarjetas, que permite organizar tareas, colaborar en equipo y supervisar el progreso
-* de manera visual y eficiente.
-
-**Product UX/UI Design**
-
-Esta herramienta facilita la creación digital de modelos que se integran en la vida del consumidor.
-En este caso, estamos desarrollando un modelo de sitio web compatible tanto con computadoras como
-con dispositivos móviles.
-
-Para lograrlo, utilizamos varias herramientas de diseño y colaboración, que incluyen:
-
-1. **Uxpressia:** Uxpressia es una plataforma en línea especializada en el mapeo de la trayectoria del
-   cliente. Nos ayuda a crear mapas de impacto y perfiles de usuario, como User Personas, Empathy Maps
-   y Journey Maps. Puedes encontrar más información sobre Uxpressia en este [enlace](https://uxpressia.com/).
-
-2. **MIRO:** MIRO es una pizarra digital colaborativa en línea que se adapta a diversas actividades
-   colaborativas, como investigación, ideación, creación de lluvias de ideas y mapas mentales. Es una
-   herramienta versátil que facilita el trabajo en equipo. Descubre más sobre MIRO en su
-   [sitio web](https://miro.com/es/).
-
-3. **Figma:** Figma es una herramienta de prototipado web y un editor de gráficos vectoriales. A
-   diferencia de otras herramientas, Figma se ejecuta en línea, lo que permite crear modelos que
-   funcionan tanto en navegadores web como en navegadores móviles. Puedes explorar
-   Figma en [este enlace](https://www.figma.com/es-es/).
-
-4. **Lucid Chart:** Esta es una aplicación de diagramación en línea que permite a los usuarios colaborar y
-   trabajar juntos en tiempo real para crear una variedad de diseños, incluidos diagramas UML, mapas
-   mentales, prototipos de software y otros tipos de diagramas. Puedes conocer más acerca de Lucid Chart
-   en [este enlace](https://www.lucidchart.com/pages/es).
-
-5. **Overflow:** Overflow es una herramienta de diagramación que ofrece la posibilidad de colaborar en
-   tiempo real. Utilizamos esta herramienta para crear diagramas de Userflows. Si deseas obtener más
-   información sobre Overflow, visita su [sitio web](https://overflow.io/).
-
-Estas herramientas nos ayudan a dar vida a nuestros diseños digitales y a garantizar que nuestros
-productos sean accesibles y atractivos en diferentes plataformas.
-
-
-**Software Development:**
-
-El desarrollo de software es una metodología aplicada en la creación de productos de software. Esta
-metodología se utiliza para establecer un proceso que guía el desarrollo del software, y cada uno de
-sus pasos describe un enfoque específico para las distintas actividades que ocurren durante el proceso.
-
-Aquí te presentamos algunas herramientas y tecnologías clave que utilizaremos en el proyecto:
-
-1. **GitHub:** GitHub es una plataforma de repositorio comunitario que se utiliza para almacenar y
-   gestionar los avances de proyectos realizados por grupos de personas. Puedes acceder al repositorio
-   del proyecto en este [enlace](https://github.com/NovaPeru-Tech).
-
-2. **Webstorm:** Webstorm es un entorno de desarrollo de JetBrains, una empresa especializada en software,
-   orientado al desarrollo web en JavaScript. Esta herramienta proporciona facilidades para probar
-   sitios web en navegadores como Google Chrome. En nuestro proyecto, utilizaremos webstorm para
-   trabajar con lenguajes como HTML, CSS y JavaScript. Obtén más información sobre WebStorm [aquí](https://www.jetbrains.com/webstorm/).
-
-3. **HTML:** HTML es un lenguaje de marcado que se utiliza en el desarrollo de sitios web para crear
-   hipertextos y enlazar a otros documentos. Este lenguaje proporciona herramientas para diseñar
-   sitios web y se puede combinar eficazmente con CSS y JavaScript. En nuestro proyecto, utilizaremos
-   HTML para implementar la documentación de la página web. Obtén más información sobre la edición de
-   archivos HTML en WebStorm [aquí](https://www.jetbrains.com/help/idea/editing-html-files.html).
-
-4. **CSS:** CSS es un lenguaje de diseño destinado al entorno web, que posibilita la mejora de la interfaz
-   de usuario previamente diseñada al añadir elementos como colores y tamaños, entre otros. Además,
-   es posible crear un estilo en CSS y compartirlo en el sitio web creado en HTML. Este lenguaje será
-   empleado en la implementación del diseño de nuestra plataforma web. Puedes obtener más información
-   sobre CSS en [enlace](https://www.jetbrains.com/help/idea/style-sheets.html).
-
-5. **JavaScript:** Es un lenguaje de programación que es interpretado por otros programas. Funciona bajo
-   el paradigma de programación orientada a objetos (POO), utilizando prototipos en lugar de clases
-   para la implementación. Este lenguaje permite crear dinámicas para los usuarios a través de la
-   lógica de programación y será utilizado en la creación de las interacciones dinámicas en la plataforma
-   web. Puedes encontrar más detalles sobre JavaScript en [enlace](https://www.jetbrains.com/help/idea/style-sheets.html).
-
-Estas herramientas y tecnologías desempeñarán un papel fundamental en la creación exitosa de nuestro
-producto de software.
-
-**Software Testing:**
-
-Se trata de la acción de evaluar los elementos y el funcionamiento del software sometido a prueba
-mediante procesos de validación y verificación.
-
-**Lenguaje Gherkin:** Este lenguaje, conocido como DSL (Lenguaje Específico de Dominio), está diseñado
-específicamente para abordar problemas particulares. Además de poder ser interpretado en código,
-permite agregar historias de usuario del programa junto con sus componentes correspondientes, como
-Característica, Escenario, Ejemplo, Esquema de Escenario, Dado, Cuando, Entonces y Y.
-
-**Software Documentation**
-
-Se refiere a textos escritos o ilustraciones que acompañan al software de computadora o están
-integrados en su código fuente. Esta documentación tiene como objetivo explicar cómo funciona el
-software o cómo utilizarlo.
-
-### 5.1.2. Source Code Management.
-
-
-A continuación, se describe la gestión del código fuente, también conocida por las siglas SCM (Source Code Management). Su función principal es rastrear los cambios que realizará el equipo durante el desarrollo de su proyecto en el repositorio de código fuente. Se utilizará como un sistema de control de versiones que lepermitirá realizar un seguimiento de los cambios realizados por miembros o desarrolladores individuales del proyecto. Además, es importante tener en cuenta que usaremos GitHub como nuestro sistema de control de versiones.
-
-1. [ ] URL de la organización: NovaPeru Tech - https://github.com/NovaPeru-Tech
-
-2. [ ] URL del repositorio de la Landing Page: NovaPeru-Tech-LandingPage - https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage
-
-**GitFlow**
-
-GitFlow es un modelo alternativo para la creación de ramas en Git que se ha convertido en una herramienta esencial para muchos desarrolladores en los últimos años. Este flujo de trabajo de control de versiones, desarrollado y popularizado por Vicent Driessen, desempeña un papel crucial en la gestión de las versiones de un código, facilitando la creación ordenada de nuevas características (Features) y correcciones de problemas urgentes (Hotfixes).
-
-![GitFlow.png](/assets/img/chapter-V/GitFlow.png)
-
-Como se mencionó previamente, GitFlow opera con ramas o "branches". A continuación, se detallan las ramas que se utilizarán en el flujo de trabajo de nuestro proyecto.
-
-* **Main Branches:**
-    * **Main:** Esta es la rama principal desde la cual se ramifican todas las demás. Contendrá la versión más reciente junto con las versiones anteriores creadas por los desarrolladores. Aquí se mantendrá el historial oficial de las versiones publicadas.
-    * **Develop:** Esta rama puede ser creada a partir de la rama principal (Main) y contendrá todas las características (Features) estables. A través de esta rama, el equipo podrá integrar las funcionalidades de manera efectiva.
-
-* **Support Branches**
-  A diferencia de las ramas principales, estas ramas secundarias tienen una vida útil limitada, ya que se eliminan al fusionarse con sus ramas primarias.
-    * **Feature:**
-        * Se ramifica de: develop
-        * Debe fusionarse de nuevo en: develop
-        * Se utilizan para desarrollar las nuevas funciones que se integrarán en la próxima versión. Es importante destacar que esta rama existe únicamente mientras está en proceso de desarrollo. Sin embargo, una vez que el desarrollador haya completado esa función, se fusionará nuevamente con la rama "develop".
-
-* **Convenciones para nombrar los Features:**
-    * **Feture Branch:** feature/name
-      **Example:**
-        1. feature/welcome
-        2. feature/about
-        3. feture/myfeture
-    * **Conventional Commits**
-      El commit debe seguir la siguiente estructura:
-      **\<type> [optional scope]: \<description>**
-      **[optional body]**
-      **[optional footer(s)]**
-        * **Type:**
-          **1\. feat:** Cuando se agrega un nuevo feature.
-          **2\. fix:** cuando corriges un error.
-          **3\. build:** cuando afectan los componentes de compilación como la herramienta de compilación, las dependencias o la version del proyecto.
-          **4\. chore:** modificaciones privadas del código.
-          **5\. docs:** commits que afectan solo a la documentación.
-          **6\. refractor:** commits que reescriben o reestructura el código, pero no cambia el comportamiento.
-          **7\. perf:** commits especiales que mejoran el rendimiento.
-          **8\. style:** commits que no afectan el programa. (espacios en blanco, formato, puntos o comas faltantes).
-          **9\. test:** commits que agregan pruebas.
-        * **Scope**
-          Ofrece información contextual adicional. Aunque es opcional, es beneficioso incluirlo para proporcionar a los desarrolladores una descripción más detallada del commit.
-          **\<description>**
-          Es una parte obligatoria del formato de los commits. Siempre debemos usar lenguaje en modo imperativo y evitar escribir en mayúsculas
-          **[optional body]**
-          El cuerpo es opcional y, cuando se utiliza, debe explicar la motivación detrás del cambio y contrastarlo con el comportamiento anterior. Es ideal para mencionar identificadores de problemas y sus relaciones.
-          **[optional footer(s)]**
-          Esta sección es opcional y puede incluir información sobre cambios significativos. Puede hacer referencia al problema por su identificación y, en esta sección, se incluyen los cambios importantes precedidos por "BREAKING CHANGES:" seguido de uno o dos saltos de línea.
-          **Ejemplos:**
-            1. feat(welcome): add welcome section
-            2. build(release): bump version to 1.0.0
-            3. style: remove empty line
-            4. feat(sign up): add the button to sign up
-            5. feat!: email the costumer when product is shipped
-            6. feat: remove ticket list endpoint
-               refers to JIRA-1337
-               BREAKING CHANGES: ticket enpoints no longer supports list all entites.
-
-Como se mencionó previamente, la gestión de nuestro código fuente se llevará a cabo mediante
-GitHub. El IDE utilizado en este caso, WebStorm, debe estar vinculado directamente al
-repositorio creado por nuestra empresa Veyra. De esta manera, cada commit realizado por
-un miembro del equipo se subirá automáticamente y se cargará en el GitHub de la organización. Las instrucciones para completar con éxito este proceso de emparejamiento se detallan a continuación:
-
-* **Activar el controlador de versiones del IDE**
-  Dado que utilizaremos GitHub para gestionar nuestro código, la opción que debe estar
-  habilitada o seleccionada es aquella que indique que el sistema de control se realizará
-  mediante Git. Para hacer esto, siga los siguientes pasos:
-
-    1. Diríjase a la pestaña "VCS" en WebStorm.
-    2. Luego, seleccione la opción "Enable Version Control Integration".
-
-
-![activar-el-controlador-de-versiones-1.png](/assets/img/chapter-V/activar-el-controlador-de-versiones-1.png)
-
-Ahora se debe seleccionar el sistema de control a través de Git y, por último aceptar los cambios.
-
-![activar-el-controlador-de-versiones-2.png](/assets/img/chapter-V/activar-el-controlador-de-versiones-2.png)
-
-* **Aregar una cuenta de GitHub, siga estos pasos:**
-    1. Diríjase a la sección de configuración en su aplicación.
-    2. Dentro de la pestaña 'File', busque y seleccione la opción 'Settings'.
-    3. En la configuración, busque la sección de version control.
-    4. Agregue su cuenta de GitHub para obtener acceso a los repositorios.
-
-![aregar-una-cuenta-de-GitHub-2.png](/assets/img/chapter-V/aregar-una-cuenta-de-GitHub-2.png)
-
-* **Configurar el nombre de usuario de Git:** Una vez que hayas establecido el sistema de control de versiones que se vinculará con tu IDE, deberás ingresar la cuenta que utilizarás. Para hacerlo, sigue estos pasos:
-    1. Realiza un commit en tu proyecto. Durante este proceso, se te solicitará que ingreses tu nombre de usuario de Git.
-    2. Después de haberlo añadido, todos los cambios se guardarán en el repositorio especificado en esa plataforma, siempre y cuando des la orden correspondiente.
-    3. Para configurar tu nombre de usuario de Git, primero selecciona la opción 'commit' que se encuentra dentro de la pestaña 'Git'.
-
-
-* **Guardar el progreso en GitHub:** Con todo configurado en WebStorm, ahora puedes subir tu código a GitHub sin problemas. Simplemente dirígete a la opción 'GitHub' que se encuentra en la pestaña 'Git' y comparte el proyecto.
-
-
-* **Configurar la propiedad del repositorio en GitHub:** Ahora, solo necesitas configurar la ubicación del repositorio. El código ya debería estar guardado en GitHub, pero solo estará presente en tu propia cuenta. Para cambiar la propiedad y transferirla a la organización deseada, sigue estos pasos:
-    1. Ingresa al repositorio creado en GitHub.
-    2. Selecciona la pestaña 'settings'
-    3. Dirigite al apartado de 'DangerZone'
-    4. Luego da click en 'transfer'
-    5. Finalmente elegimos el nuevo lugar para guardar el repositorio.
-
-
-* **Configurar control remoto en Git:** Por último, dado que el repositorio ahora está bajo la propiedad de la empresa y depende de ella, es necesario acceder al control remoto del código. Para hacerlo, simplemente ingresa al repositorio creado y copia la URL del repositorio.
-
-Ahora, en el IDE, dirígete a la pestaña 'Git' y elige la opción 'Manage Remotes'.
-
-Finalmente, como último paso, debes pegar el enlace copiado en el campo de dirección que solicita el IDE para el control remoto en Git.
-
-Si has seguido correctamente todos los pasos y directrices mencionados, entonces has completado la configuración con éxito. Ahora, solo necesitas realizar un commit y los cambios que hayas efectuado se guardarán en el repositorio de GitHub, ya sea que hayas realizado modificaciones en el código, creado nuevas ramas u otras acciones.
-
-### 5.1.3. Source Code Style Guide & Conventions.
-
-En esta sección, se presentarán las pautas, convenciones, estilos y principios que se aplicarán a cada uno de los lenguajes utilizados en la creación de nuestra aplicación. La observancia de este conjunto de directrices reviste una importancia fundamental, ya que tiene el propósito de mantener la calidad estructural del software, mejorar la legibilidad del código fuente y simplificar el mantenimiento del mismo.
-
-Dado que en este proyecto se emplearán varios lenguajes, como HTML, CSS, JavaScript, C# y TypeScript para el desarrollo de la plataforma web, así como Gherkin para el proceso de pruebas del programa, a continuación, se detallarán y describirán las reglas y recomendaciones generales que se tendrán en cuenta al utilizarlos.
-
-
-**Nomenclatura General**
-
-Para los nombres de variables, objetos, elementos y funciones que se utilicen en el proyecto, se emplearán términos en inglés que estén relacionados con lo que representan. No se utilizarán mayúsculas en estos nombres, ya que, de acuerdo con W3Schools (sin fecha), la combinación de mayúsculas y minúsculas puede dificultar la legibilidad del código. En su lugar, se optará por utilizar exclusivamente letras minúsculas, lo que contribuirá a una mayor claridad en el código.
-
-Ejemplos de nomenclatura estándar, siguiendo las recomendaciones de Google (s.f.):
-
-```
-.gallery {}
-.video {}
-.login {}
-```
-
-Estas pautas de nomenclatura ayudarán a mantener una coherencia en el código y facilitarán su comprensión.
-
-**Sangría**
-
-Cuando se trabaje con HTML, CSS y/o JavaScript, se aplicará un espaciado de dos espacios antes de cada línea que se encuentre dentro de un bloque. Según W3Schools (sin fecha), no se recomienda el uso de la tecla "Tabulación". A continuación, se muestra un ejemplo de la sangría estándar en HTML siguiendo las directrices de W3Schools (s.f.):
-
-``` html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Título del Documento</title>
-  </head>
-  <body>
-    <h1>Encabezado Principal</h1>
-    <p>Este es un párrafo dentro del cuerpo del documento.</p>
-  </body>
-</html>
-```
-
-Este estilo de sangría proporciona una estructura clara y organizada al código, lo que facilita su lectura y mantenimiento.
-
-Ejemplo de formato estándar de sangría en CSS, conforme a las recomendaciones de W3Schools (s.f):
-
-``` CSS
-html {
-  background: #fff; /* Fondo blanco */
-  color: #404;     /* Color de texto gris */
-}
-```
-
-Ejemplo de nomenclatura estándar de la sangría en JavaScript según W3School (s.f.):
-
-``` JavaScript
-function toCelsius(fahrenheit) {
-  return (5 / 9) * (fahrenheit - 32);
-}
-```
-
-**Especificaciones generales**
-
-A continuación, detallaremos las reglas específicas necesarias para comprender el código de nuestra aplicación en cada lenguaje.
-
-**HTML:**
-
-HTML, acrónimo de HyperText Markup Language en inglés, es un lenguaje de marcado que se utiliza para definir la estructura de una página web. También incluye funcionalidades que permiten controlar el comportamiento de diferentes elementos del contenido de la página, como cambiar el tamaño del texto o aplicar formato cursiva, entre otros. En nuestro proyecto, emplearemos HTML5, y a continuación, se presentan las características y directrices que debemos seguir para utilizar este lenguaje de la siguiente manera:
-
-* **Declare Document Type**
-  La declaración del tipo de documento debe realizarse en la primera línea del código. Según las recomendaciones de Google (s.f.), se prefiere la sintaxis de HTML5 para todos los documentos HTML. Para declararla, simplemente copia lo siguiente:
-
-``` html
-<!DOCTYPE html>
-```
-
-* **Blank Lines**
-  Cada vez que comiences un nuevo bloque, lista o tabla de gran longitud, es recomendable dejar una línea en blanco después del elemento anterior para mejorar la legibilidad y la presentación del código, de acuerdo con las pautas de W3Schools (s.f.):
-
-``` html
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
 <head>
-<title>Animales Exóticos</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Capítulo V: Product Implementation, Validation & Deployment</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; padding: 24px; max-width: 980px; margin: auto; color: #111; }
+    h1,h2,h3,h4 { color: #0b3b73; margin-top: 1.2em; }
+    pre { background:#f6f8fa; padding:12px; overflow:auto; border-radius:6px; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; }
+    table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+    th, td { border: 1px solid #dfe3e8; padding: 8px; text-align: left; vertical-align: top; }
+    thead th { background:#f0f4f8; }
+    img { max-width: 100%; height: auto; display:block; margin: 8px 0; }
+    blockquote { border-left:4px solid #ddd; padding-left:12px; color:#555; margin:12px 0; }
+    .small { font-size:0.9em; color:#555; }
+  </style>
 </head>
 <body>
-<h1>Lemur de Madagascar</h1>
-<p>El lémur de Madagascar es un primate endémico de la isla de Madagascar en el Océano Índico.</p>
 
-<h1>Pangolín</h1>
-<p>El pangolín es un mamífero cubierto de escamas que se encuentra en regiones de África y Asia.</p>
+  <h1>Capítulo V: Product Implementation, Validation & Deployment</h1>
 
-<h1>Ocelote</h1>
-<p>El ocelote es un felino salvaje que habita en América del Sur y Central, conocido por su pelaje moteado.</p>
-</body>
-</html>
-```
+<h2>5.1. Software Configuration Management.</h2>
 
-Esta práctica de dejar una línea en blanco mejora la estructura y legibilidad del código HTML.
+  <p>En este punto del informe se describe las decisiones y los principios que ayudarán al equipo a garantizar la coherencia durante el desarrollo de la solución.</p>
 
-* **Quote attribute Values**
-  Para los valores de los atributos, es común utilizar comillas dobles alrededor de ellos, aunque esta característica no sea obligatoria. Según W3Schools (sin fecha), esto mejora la legibilidad del código y es una práctica común entre los desarrolladores. Aquí tienes un ejemplo:
+<h3>5.1.1. Software Development Environment Configuration.</h3>
 
-``` html
-<table class="striped">
-```
+  <p>En este apartado se proporcionan los enlaces a las aplicaciones y productos de software creados durante el ciclo del proyecto utilizando los programas correspondientes.</p>
 
-Este enfoque de usar comillas dobles alrededor de los valores de los atributos es ampliamente aceptado y recomendado en la comunidad de desarrollo web.
+  <p>Con ese fin, se organizará en las siguientes secciones:</p>
+  <ol>
+    <li>Project Management</li>
+    <li>Requirements Management</li>
+    <li>Product UX/UI Design</li>
+    <li>Software Development</li>
+    <li>Software Testing</li>
+    <li>Software Documentation</li>
+  </ol>
 
-* **Never Skip the \<title> Element**
-  El elemento `<title>` permite que las páginas aparezcan en la lista de resultados al realizar búsquedas en un navegador web. Además, este elemento es responsable de proporcionar el nombre de la página cuando se agrega a marcadores o favoritos. A continuación, se muestra un ejemplo de su uso:
+  <p>Asimismo, se clasificarán los elementos de estas secciones como rutas de referencia (para software basado en modelos Saas) o rutas de descarga (para productos que se ejecuten en las computadoras de los miembros del equipo) para cada uno de los productos de software.</p>
 
-``` html
-<title>Guía de Estilo HTML y Convenciones de Codificación</title>
-```
+<h4>Project Management</h4>
+  <p>Esta disciplina se fundamenta en la administración de proyectos y busca principalmente la mejora de procesos y su entorno con el propósito de lograr los resultados esperados.</p>
 
-Este elemento es esencial para mejorar la identificación y accesibilidad de una página web.
+  <p><em>Durante el ciclo digital del proyecto, se llevará a cabo la implementación de un producto de software basado en el modelo SaaS, el cual funcionará a través de un navegador web; no obstante, no se desarrollará una versión de la aplicación móvil correspondiente.</em></p>
 
-* **HTML Line-Wrapping**
-  A pesar de que en un documento HTML no exista un límite estricto en la cantidad de palabras por línea, no se recomienda generar líneas de código excesivamente largas. De hecho, hacerlo dificulta la legibilidad del código. Para continuar en la siguiente línea, se deben utilizar al menos cuatro espacios para distinguir elementos secundarios. Aquí tienes un ejemplo basado en las recomendaciones de Google (sin fecha):
+<h4>Requirements Management:</h4>
+  <p>Este proceso se enfoca en asegurar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes, así como las de las partes interesadas internas o externas.</p>
 
-``` html
-<button mat-icon-button color='primary' class="menu-button"
-(click)="openMenu()">
-<mat-icon>menu</mat-icon>
-</button>
-```
+  <ul>
+    <li><strong>Trello:</strong> Trello es una plataforma digital de gestión de proyectos basada en tableros, listas y tarjetas, que permite organizar tareas, colaborar en equipo y supervisar el progreso de manera visual y eficiente.</li>
+  </ul>
 
-Este estilo de formateo ayuda a mantener un código más legible y facilita la identificación de los elementos y su jerarquía en la estructura del documento HTML.
+<h4>Product UX/UI Design</h4>
+  <p>Esta herramienta facilita la creación digital de modelos que se integran en la vida del consumidor. En este caso, estamos desarrollando un modelo de sitio web compatible tanto con computadoras como con dispositivos móviles.</p>
 
-**CSS:**
+  <p>Para lograrlo, utilizamos varias herramientas de diseño y colaboración, que incluyen:</p>
+  <ol>
+    <li><strong>Uxpressia:</strong> plataforma para mapeo de la trayectoria del cliente. <a href="https://uxpressia.com/">uxpressia.com</a></li>
+    <li><strong>MIRO:</strong> pizarra digital colaborativa. <a href="https://miro.com/es/">miro.com/es</a></li>
+    <li><strong>Figma:</strong> herramienta de prototipado web. <a href="https://www.figma.com/es-es/">figma.com</a></li>
+    <li><strong>Lucid Chart:</strong> aplicación de diagramación colaborativa. <a href="https://www.lucidchart.com/pages/es">lucidchart.com</a></li>
+    <li><strong>Overflow:</strong> herramienta para diagramas de Userflows. <a href="https://overflow.io/">overflow.io</a></li>
+  </ol>
 
-CSS, conocido por sus siglas en inglés, Cascading Style Sheets (Hojas de Estilo en Cascada), es un lenguaje que se enfoca en definir y mejorar la presentación de un documento basado en HTML. A continuación, se presentan las directrices que debemos seguir al utilizar CSS:
+<h4>Software Development:</h4>
+  <p>El desarrollo de software es una metodología aplicada en la creación de productos de software. A continuación, algunas herramientas y tecnologías clave:</p>
 
-* **Shorthand Properties**
-  Se recomienda utilizar abreviaturas de propiedades y declarar los campos de los elementos en la menor cantidad de líneas posible, según las pautas de Google (sin fecha). Esto aumenta la eficiencia del código y lo hace más legible. Además, se debe evitar agregar unidades después del valor cero. Aquí tienes un ejemplo:
+  <ol>
+    <li><strong>GitHub:</strong> repositorio del proyecto: <a href="https://github.com/NovaPeru-Tech">https://github.com/NovaPeru-Tech</a></li>
+    <li><strong>Webstorm:</strong> IDE orientado al desarrollo web. <a href="https://www.jetbrains.com/webstorm/">webstorm</a></li>
+    <li><strong>HTML, CSS, JavaScript:</strong> tecnologías para la implementación web.</li>
+  </ol>
 
-``` css
-border-top: 0;
-font: 100%/1.6 palatino, georgia, serif;
-padding: 0 1em 0;
-```
+<h4>Software Testing:</h4>
+  <p>Acción de evaluar los elementos y el funcionamiento del software mediante validación y verificación.</p>
 
-Siguiendo estas recomendaciones, se puede lograr un código CSS más conciso y fácil de entender.
+  <p><strong>Lenguaje Gherkin:</strong> DSL para escribir historias de usuario y escenarios de prueba (Feature, Scenario, Given, When, Then, etc.).</p>
 
-* **Declaration Stops**
-  Es importante incluir un punto y coma al final de cada declaración en CSS, al igual que en la mayoría de los lenguajes de programación. Siguiendo las pautas de Google (sin fecha), esta práctica contribuye a mantener la coherencia en el código. A continuación, se muestra un ejemplo:
+<h4>Software Documentation</h4>
+  <p>Textos o ilustraciones que acompañan al software para explicar su funcionamiento o uso.</p>
 
-``` css
-html {
-  background: #fff;
-  color: #404;
-}
-```
+<h3>5.1.2. Source Code Management.</h3>
 
-El uso consistente de puntos y comas al final de las declaraciones CSS ayuda a prevenir errores y mejora la claridad del código.
+  <p>Se describe la gestión del código fuente (SCM). Usaremos GitHub como sistema de control de versiones.</p>
 
-* **Property Name Stops**
-  Es necesario incluir un espacio entre los dos puntos que siguen al nombre de una propiedad y el valor correspondiente. Siempre se debe colocar un solo espacio después de los dos puntos, pero no antes. A continuación, se muestra un ejemplo siguiendo esta convención estándar de Google (s.f):
+  <ol>
+    <li>URL de la organización: NovaPeru Tech - <a href="https://github.com/NovaPeru-Tech">https://github.com/NovaPeru-Tech</a></li>
+    <li>URL del repositorio de la Landing Page: <a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">NovaPeru-Tech-LandingPage</a></li>
+  </ol>
 
-``` css
-html {
-  background: #fff;
-  color: #404;
-}
-```
+<h4>GitFlow</h4>
+  <p>GitFlow es un modelo de ramas para Git. Ramas principales y de soporte:</p>
 
-Mantener esta consistencia en la colocación de espacios ayuda a que el código CSS sea más legible y fácil de entender.
+  <ul>
+    <li><strong>Main:</strong> rama principal (history oficial de versiones).</li>
+    <li><strong>Develop:</strong> integración de features estables.</li>
+    <li><strong>Feature branches:</strong> se ramifican de <code>develop</code> y vuelven a fusionarse en <code>develop</code>.</li>
+  </ul>
 
-* **Declaration Block Separation**
-  Es esencial utilizar un espacio separador después del nombre de un selector de elemento y antes de la llave que inicia un bloque de declaración CSS. Además, la llave de apertura del bloque debe estar en la misma línea que el selector. Aquí tienes un ejemplo siguiendo esta convención estándar de Google (sin fecha):
+  <p><strong>Convenciones para naming de Features y Conventional Commits:</strong></p>
+  <pre><code>&lt;type&gt;[optional scope]: &lt;description&gt;
 
-``` css
-html {
-  background: #fff;
-  color: #404;
-}
-```
+Tipos comunes:
+- feat: nuevo feature
+- fix: corrección
+- build: cambios en build/deps
+- chore: tareas internas
+- docs: documentación
+- refractor: refactor
+- perf: mejoras de rendimiento
+- style: estilo
+- test: pruebas
+  </code></pre>
 
-El cumplimiento de estas directrices ayuda a mantener la consistencia y la legibilidad en el código CSS.
+  <p>Ejemplos:</p>
+  <pre><code>feat(welcome): add welcome section
+build(release): bump version to 1.0.0
+style: remove empty line
+</code></pre>
 
-* **CSS quotation Marks**
-  No se deben utilizar comillas dobles (`"`) en el código CSS; en su lugar, se permiten y deben emplearse comillas simples (`'`) únicamente para selectores de atributos y valores de propiedades.
-  Ejemplo conforme a las pautas estándar de Google (sin fecha):
+  <p>Instrucciones rápidas para vincular WebStorm con GitHub (resumen):</p>
+  <ol>
+    <li>VCS &gt; Enable Version Control Integration (seleccionar Git).</li>
+    <li>Agregar cuenta de GitHub desde Settings.</li>
+    <li>Configurar nombre de usuario y realizar commits.</li>
+    <li>Manage Remotes &gt; pegar URL del repositorio.</li>
+  </ol>
 
-``` css
-html {
-  font-family: 'open sans', arial, sans-serif;
-}
-```
+<h3>5.1.3. Source Code Style Guide &amp; Conventions.</h3>
 
-Este ejemplo demuestra el uso de comillas simples para encerrar el valor del atributo `font-family` en CSS, lo cual es una práctica común y aceptada.
+  <p>Pautas, convenciones y estilos para los lenguajes usados: HTML, CSS, JavaScript, C#, TypeScript y Gherkin.</p>
 
-**JavaScript**
+<h4>Nomenclatura General</h4>
+  <p>Se usará inglés relacionado con la entidad representada, en minúsculas. Ejemplos:</p>
+  <pre><code>.gallery {}
+.video {}
+.login {}
+</code></pre>
 
-JavaScript es un lenguaje de programación que permite especificar de manera precisa las acciones que debe realizar el navegador web, incluyendo el orden de ejecución de tareas y la frecuencia con la que se deben llevar a cabo. A continuación, se presentan las pautas para el uso de JavaScript en nuestro proyecto:
+<h4>Sangría</h4>
+  <p>Espaciado de dos espacios dentro de bloques. Ejemplo HTML:</p>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Título del Documento&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Encabezado Principal&lt;/h1&gt;
+    &lt;p&gt;Este es un párrafo dentro del cuerpo del documento.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 
-* **Spaces around operators**
-  Es importante añadir espacios alrededor de cada operador matemático y comas que se utilicen en el código JavaScript. A continuación, se muestra un ejemplo siguiendo la convención estándar de W3Schools (sin fecha):
+<h4>Especificaciones generales por lenguaje</h4>
 
-``` javascript
-let x = y + z;
-const myArray = ['Volvo', 'Saab', 'Fiat'];
-```
+<h5>HTML</h5>
+  <ul>
+    <li>Declarar <code>&lt;!DOCTYPE html&gt;</code> en la primera línea.</li>
+    <li>Usar líneas en blanco para separar bloques largos.</li>
+    <li>Usar comillas dobles para atributos: <code>&lt;table class="striped"&gt;</code></li>
+    <li>No omitir el elemento <code>&lt;title&gt;</code>.</li>
+    <li>Evitar líneas de código extremadamente largas; usar saltos y sangrías.</li>
+  </ul>
 
-El uso consistente de espacios alrededor de operadores y comas mejora la legibilidad del código JavaScript.
+<h5>CSS</h5>
+  <ul>
+    <li>Preferir shorthand properties cuando sea posible.</li>
+    <li>Declaraciones terminadas con punto y coma.</li>
+    <li>Un espacio después de ":" en propiedades.</li>
+    <li>Usar comillas simples para valores (p. ej. <code>font-family: 'open sans', arial, sans-serif;</code>).</li>
+  </ul>
 
-* **Simple Statement's End**
-  Es fundamental que una instrucción simple finalice con un punto y coma, tal como es el caso en muchos otros lenguajes de programación. A continuación, se muestra un ejemplo que cumple con la convención estándar de W3Schools (sin fecha):
+<h5>JavaScript</h5>
+  <ul>
+    <li>Espacios alrededor de operadores.</li>
+    <li>Instrucciones simples terminan con punto y coma.</li>
+    <li>Llaves de función en la misma línea de la declaración.</li>
+    <li>Objetos con llave final seguida de punto y coma.</li>
+  </ul>
 
-``` javascript
-let x = v + 7;
-const myArray = ['Volvo', 'Saab', 'Fiat'];
-```
-
-El uso de punto y coma al final de cada instrucción ayuda a garantizar la estructura correcta del código JavaScript y a evitar posibles errores.
-
-* **Beginning and End of Function**
-  Un bloque de función debe incluir una llave al final de la primera línea, de modo que el cierre de la función esté en la última línea, sin necesidad de un punto y coma. Este mismo principio se aplica a las estructuras condicionales y los bucles. A continuación, se muestra un ejemplo que cumple con la convención estándar de W3Schools (sin fecha):
-
-``` javascript
-function toCelsius(fahrenheit) {
-  return (5 / 9) * (fahrenheit - 32);
-}
-```
-
-En este ejemplo, la función `toCelsius` está formateada de acuerdo con estas pautas, con la llave de apertura en la misma línea que la declaración de la función y la llave de cierre en la última línea. Esto ayuda a mantener la estructura y la legibilidad del código JavaScript.
-
-* **Object Rules**
-  Para la creación de un objeto, al igual que en una función, se comienza con una llave al final de la primera línea. Sin embargo, en este caso, la llave de cierre debe ir seguida de un punto y coma. Para definir las propiedades del objeto, se utilizan dos puntos y un espacio para separar el nombre de la propiedad de su valor. Si el valor es un string, se debe encerrar entre comillas dobles. A continuación, se muestra un ejemplo siguiendo la convención estándar de W3Schools (sin fecha):
-
-``` javascript
-const person = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 50,
-  eyeColor: "blue"
-};
-```
-
-En este ejemplo, el objeto `person` está formateado de acuerdo con estas pautas, lo que mejora la legibilidad y la estructura del código JavaScript.
-
-**Gherking:**
-
-Gherkin es un Lenguaje Específico de Dominio (DSL por sus siglas en inglés) que se utiliza para resolver problemas específicos mediante la generación de casos de prueba que validan una característica en diversos escenarios. Gherkin incluye varios elementos, entre los cuales los más conocidos y utilizados son Feature, Scenario, Example, Given, When y Then. A continuación, se presentan las pautas que debemos seguir al utilizar Gherkin en nuestro código:
-
-* **Discernible Given-When-Then Blocks**
-  Es importante aplicar sangría a los elementos que representan los pasos a seguir en un escenario. En el caso de "And", se debe aplicar una sangría adicional. Siguiendo la recomendación de Keiblinger (2021), este enfoque ayuda a identificar rápidamente las partes que componen un escenario. A continuación, se muestra un ejemplo:
-
-``` gherkin
-Scenario: Ingreso de requisitos con claridad
+<h5>Gherkin</h5>
+  <p>Reglas de sangrado y ejemplos:</p>
+  <pre><code>Scenario: Ingreso de requisitos con claridad
   Given que en el formulario de ingreso de oferta laboral
   When escribo claramente los requisitos
   Then se mostrará el mensaje
   And mi oferta solo aparecerá a quienes cumplan con estos
-  And se habilita la opción
-```
+</code></pre>
 
-En este ejemplo, se ha aplicado la sangría de manera adecuada para resaltar los pasos del escenario, y se ha utilizado una sangría adicional para los pasos que comienzan con "And". Esto mejora la legibilidad y la comprensión de los escenarios escritos en Gherkin.
+<h5>C#</h5>
+  <p>Pautas y ejemplos breves:</p>
+  <pre><code>// Interpolación de cadenas
+string displayName = $"{nameList[n].LastName}, {nameList[n].FirstName}";
 
-* **Step with Tables**
-  Conforme a la recomendación de Keiblinger (2021), cuando sea necesario introducir valores en partes del escenario, se debe emplear una tabla o crear un formulario que refleje esa parte del escenario. Antes de esta representación, se deben colocar dos puntos. Aquí tienes un ejemplo:
+// StringBuilder para concatenaciones grandes
+var manyPhrases = new StringBuilder();
+for (var i = 0; i &lt; 10000; i++) {
+manyPhrases.Append(phrase);
+}
+</code></pre>
 
-``` gherkin
-Then se mostrará el mensaje:
-  | Mensaje |
-  | Se completaron los requisitos adecuadamente |
-```
-
-Este enfoque permite una representación clara y estructurada de los valores relacionados con una parte específica del escenario.
-
-* **Reducing Noise**
-  Para evitar la acumulación de demasiadas líneas de código en un escenario, es recomendable incluir valores por defecto dentro de los pasos para campos que no sean muy relevantes para ese escenario en particular. Los valores "estándar" que se coloquen deben estar entre comillas simples. Siguiendo el consejo de Keiblinger (2021), esta práctica contribuye significativamente a la reducción del tamaño del código. A continuación, se muestra un ejemplo:
-
-``` gherkin
-When escribo claramente los requisitos 'dominio en C'
-```
-
-En este ejemplo, se ha incluido un valor por defecto ('dominio en C') entre comillas simples dentro del paso para representar un campo que no es esencial en ese escenario. Esto ayuda a mantener el escenario más conciso y legible.
-
-* **Scenarios Separator**
-  Para separar dos escenarios, se debe insertar un salto de línea y, según la sugerencia de Keiblinger (2021), si es posible, agregar una línea de comentario para facilitar la visualización de estos. De esta manera, se identifica rápidamente el inicio y el fin de un escenario. A continuación, se presenta un ejemplo:
-
-``` gherkin
-Scenario: Ingreso de requisitos con claridad
-Given que en el formulario de ingreso de oferta laboral
-When escribo claramente los requisitos
-Then se mostrará el mensaje
-And mi oferta solo aparecerá a quienes cumplan con estos
-And se habilita la opción
-
-# --------------------------
-
-Scenario: Otro escenario
-Given que en otro contexto
-When ocurre algo diferente
-Then se muestra otro resultado
-```
-
-En este ejemplo, se ha agregado un salto de línea entre los dos escenarios y se ha incluido una línea de comentario como separador para mejorar la visualización y la identificación de cada escenario.
-
-**C#:**
-
-C# es un lenguaje de programación desarrollado por Microsoft en el año 2000 como parte de su plataforma .NET. Desde su creación, C# ha evolucionado significativamente, convirtiéndose en una herramienta esencial para el desarrollo de una amplia gama de aplicaciones, desde software de escritorio hasta aplicaciones web y móviles, así como servicios en la nube. Su diseño moderno y su integración con el ecosistema de .NET lo han consolidado como una opción preferida para muchos desarrolladores a nivel global.
-
-A continuación, se presentan las pautas para utilizar C# en nuestro proyecto:
-
-* **Datos de cadena**
-
-
-Use **interpolación de cadenas** para concatenar cadenas cortas, como se muestra en el código siguiente.
-
-```C#  
-  string displayName = $"{nameList[n].LastName}, {nameList[n].FirstName}";
-```
-
-Para anexar cadenas en bucles, especialmente cuando se trabaja con grandes cantidades de texto, utilice un objeto System.Text.StringBuilder.
-En este ejemplo, se han seguido las pautas para nombrar clases e interfaces de manera clara y legible.
-
-
-```C#  
-  var phrase = "lalalalalalalalalalalalalalalalalalalalalalalalalalalalalala";
-  var manyPhrases = new StringBuilder();
-  for (var i = 0; i < 10000; i++)
-  {
-      manyPhrases.Append(phrase);
-  }
-  //Console.WriteLine("tra" + manyPhrases);
-```
-
-* **Delegados**
-
-Use **Func<> y Action<>** en lugar de definir tipos de delegado. En una clase, defina el método delegado.
-
-```C#  
-  Action<string> actionExample1 = x => Console.WriteLine($"x is: {x}");
-  
-  Action<string, string> actionExample2 = (x, y) => Console.WriteLine($"x is: {x}, y is {y}");
-  
-  Func<string, int> funcExample1 = x => Convert.ToInt32(x);
-  
-  Func<int, int, int> funcExample2 = (x, y) => x + y;
-```
-
-Llame al método con la signatura definida por el delegado Func<> o Action<>.
-
-```C#  
-  actionExample1("string for x");
-  actionExample2("string for x", "string for y");
-  Console.WriteLine($"The value is {funcExample1("1")}");
-  Console.WriteLine($"The sum is {funcExample2(1, 2)}");
-```
-
-* **try-catch y using en el control de excepciones**
-
-Use **try-catch** para controlar las excepciones. Use **using** para liberar recursos no administrados.
-
-``` C#  
-  try
-  {
-      // Code that may throw an exception
-  }
-  catch (Exception ex)
-  {
-      // Code to handle the exception
-  }
-  
-  using (var resource = new Resource())
-  {
-      // Code that uses the resource
-  }
-```
-
-* **Operadores && y ||**
-
-Use **&&** y **||** en lugar de **&** y **|** para operaciones lógicas. Los operadores **&&** y **||** realizan una evaluación de cortocircuito, lo que significa que si la primera parte de la expresión es suficiente para determinar el resultado, la segunda parte no se evalúa.
-
-```C#  
-  if (a == 10 && b == 20)
-  {
-      // Code to execute if both conditions are true
-  }
-  
-  if (a == 10 || b == 20)
-  {
-      // Code to execute if either condition is true
-  }
-```
-
-* **Comentarios**
-
-Use comentarios para explicar el código y proporcionar información adicional. Los comentarios deben ser claros y concisos.
-
-```C#  
-  // This is a single-line comment
-  
-  /*
-  This is a multi-line comment
-  that spans multiple lines
-  */
-```
-* **Operador new**
-
-Use **new** para crear instancias de clases y estructuras.
-
-```C#  
-  var person = new Person();
-  var point = new Point(10, 20);
-```
-
-* **Control de eventos**
-
-Use **eventos** para notificar a los suscriptores cuando ocurre un evento.
-
-```C#  
-  public class Button
-  {
-      public event EventHandler Click;
-  
-      protected virtual void OnClick(EventArgs e)
-      {
-          Click?.Invoke(this, e);
-      }
-  }
-```
-
-* **Consultas LINQ**
-
-Use consultas LINQ para realizar operaciones de consulta en colecciones de datos.
-
-```C#  
-  var query = from c in customers
-              where c.City == "London"
-              select c;
-```
-
-* **Variables locales con asignación implícita de tipos**
-
-Use la asignación implícita de tipos para las variables locales cuando el tipo se puede inferir fácilmente.
-
-```C#  
-  var name = "John";
-  var age = 30;
-```
-
-**Typescript**
-
-JavaScript es uno de los lenguajes más populares y ha experimentado un rápido avance y mejora en los últimos años. A continuación, se presentan las pautas para utilizar JavaScript en nuestro proyecto:
-
-En TypeScript, se recomienda que las variables se declaren en minúsculas y se especifique el tipo de dato utilizando dos puntos después del nombre de la variable. Aquí tienes ejemplos de cómo declarar y asignar valores a variables en TypeScript:
-
-``` typescript
-// Definición e inicialización separadas
-let edad: number;
+<h5>Typescript</h5>
+  <p>Ejemplos de declaración de variables:</p>
+  <pre><code>let edad: number;
 edad = 20;
 
-// Definición e inicialización en la misma línea.
 let edadAitor: number = 18;
-```
+</code></pre>
 
-Además, en TypeScript, se siguen las mismas convenciones que se utilizan en JavaScript.
+<h3>5.1.4. Software Deployment Configuration.</h3>
 
-### 5.1.4. Software Deployment Configuration.
+  <p>Para desplegar la Landing Page desde GitHub Pages hay que seguir estos pasos:</p>
 
+  <ol>
+    <li>Ubicar el repositorio y dirigirse a <strong>Settings</strong>.</li>
+    <li>Seleccionar la sección <strong>Pages</strong>.</li>
+    <li>Configurar la rama que será usada para deploy.</li>
+  </ol>
 
-Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes pasos:
+<h2>5.2. Landing Page, Services &amp; Applications Implementation.</h2>
 
-**1. Ubicar el repositorio que tiene guardado el codigo fuente y dirigirse al apartado de configuración (settings):**
+<h3>5.2.1. Sprint 1</h3>
 
-![repo-landing-page.png](/assets/img/chapter-V/repo-landing-page.png)
+  <p>Implementación del diseño de la Landing Page en WebStorm. Se espera completar Home, Services, Pricing, Testimonials y About Us al concluir el Sprint.</p>
 
+  <p>Repositorio: <a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</a></p>
+  <p>Landing Page Deployed: <a href="https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/</a></p>
 
-**1. Seleccionar la sección pages:**
+<h4>5.2.1.1. Sprint Planning n.</h4>
 
-
-![pages-landing-page.png](/assets/img/chapter-V/pages-landing-page.png)
-
-
-**1. Configurar la rama que será usada para hacer deploy:**
-
-![rama-landing-page.png](/assets/img/chapter-V/rama-landing-page.png)
-
-
-## 5.2. Landing Page, Services & Applications Implementation.
-
-
-### 5.2.1. Sprint 1
-
-En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implementación del diseño de nuestra Landing Page utilizando WebStorm como entorno de desarrollo. Esto implica que al concluir el Sprint, todas las secciones, ya sea Home, Services, Pricing, Testimonials o About Us, deben estar completadas. A continuación, adjuntamos imágenes que ilustran cómo gestionamos las tareas en Jira Software.
-
-Repositorio: [https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage](https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage)
-
-Landing Page Deployed: https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/
-
-#### 5.2.1.1. Sprint Planning n.
-
-<table>
+  <table>
     <thead>
-        <tr>
-            <th>Sprint #</th>
-            <th>Sprint 1</th>
-        </tr>
+      <tr><th>Sprint #</th><th>Sprint 1</th></tr>
     </thead>
     <tbody>
-        <tr>
-            <td colspan="2"> <p1 style="text-align: center;"> Sprint Planning Background </p1></td>
-        </tr>
-        <!--FILA 1-->
-        <tr>
-            <td>Date</td>
-            <td>14-09-2025</td>
-        </tr>
-        <!--FILA 2-->
-        <tr>
-            <td>Time</td>
-            <td> 10:00 p.m </td>
-        </tr>
-        <!--FILA 3-->
-        <tr>
-            <td>Location</td>
-            <td>Discord</td>
-        </tr>
-         <!--FILA 4-->
-        <tr>
-            <td>Prepared By</td>
-            <td>Renato Calvo</td>
-        </tr>
-         <!--FILA 5-->
-        <tr>
-            <td>Attendees (to planning meeting)</td>
-            <td>
-                Calvo Yalan, Renato Guillermo <br>
-                Oscar Javier Armas Sánchez  <br>
-                Ariana Lizeth Ramirez Carrasco  <br>
-                Miguel Angel Junior Roman Lopez  <br>
-                Billy Jake Ruiz Madrid
-            </td>
-        </tr>
-        <!--FILA 6-->
-        <tr>
-            <td colspan="2"> <p1 style="text-align: center;"> Sprint Goal & User Stories </p1></td>
-        </tr>
-        <!--FILA 7-->
-        <tr>
-            <td>Sprint 1 Goal</td>
-            <td> Implementar la landing page incluyendo las distintas secciones acordadas y el requisito de cambio de idioma para la aplicación de VEYRA </td>
-        </tr>
-        <!--FILA 8-->
-        <tr>
-            <td>Sprint 1 Velocity</td>
-            <td> 13 Story Points </td>
-        </tr>
-        <!--FILA 9-->
-        <tr>
-            <td>Sum of Story Points</td>
-            <td> 13 SP (≈ 53 horas estimadas) </td>
-        </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
+      <tr><td>Date</td><td>14-09-2025</td></tr>
+      <tr><td>Time</td><td>10:00 p.m</td></tr>
+      <tr><td>Location</td><td>Discord</td></tr>
+      <tr><td>Prepared By</td><td>Renato Calvo</td></tr>
+      <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+          Calvo Yalan, Renato Guillermo<br>
+          Oscar Javier Armas Sánchez<br>
+          Ariana Lizeth Ramirez Carrasco<br>
+          Miguel Angel Junior Roman Lopez<br>
+          Billy Jake Ruiz Madrid
+        </td>
+      </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
+      <tr><td>Sprint 1 Goal</td><td>Implementar la landing page incluyendo las distintas secciones acordadas y el requisito de cambio de idioma para la aplicación de VEYRA</td></tr>
+      <tr><td>Sprint 1 Velocity</td><td>13 Story Points</td></tr>
+      <tr><td>Sum of Story Points</td><td>13 SP (≈ 53 horas estimadas)</td></tr>
     </tbody>
-</table>
+  </table>
 
-##### 5.2.1.2. Sprint Backlog 1.
+<h4>5.2.1.2. Sprint Backlog 1.</h4>
 
-<!--Status -> (To-do / In-Process / To-Review / Done) -->
+  <p><!--Status -> (To-do / In-Process / To-Review / Done) --></p>
 
-<table>
+  <table>
     <thead>
-        <tr>
-            <th colspan="7">Sprint #</th>
-            <th>Sprint 1</th>
-        </tr>
+      <tr>
+        <th>User Story</th>
+        <th>Work-Item / Task</th>
+      </tr>
     </thead>
     <tbody>
-        <!-- Encabezado -->
-        <tr>
-            <td colspan="1">User Story</td>
-            <td colspan="15">Work-Item / Task</td>
-        </tr>
-        <tr>
-            <td>Id</td>
-            <td>Title</td>
-            <td>Id</td>
-            <td>Title</td>
-            <td>Description</td>
-            <td>Estimation (hours)</td>
-            <td>Assigned To</td>
-            <td>Status</td>
-        </tr>
-        <!-- US01 -->
-        <tr>
-            <td rowspan="4">US-001</td>
-            <td rowspan="4">Menú de navegación</td>
-            <td>T001</td>
-            <td>Definir estructura del menú</td>
-            <td>Identificar secciones y enlaces a incluir en el menú.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T002</td>
-            <td>Implementar menú en HTML</td>
-            <td>Codificar el menú en la parte superior de la landing page.</td>
-            <td>3</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T003</td>
-            <td>Estilos del menú</td>
-            <td>Aplicar CSS para posicionamiento y diseño responsive.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T004</td>
-            <td>Pruebas de navegación</td>
-            <td>Verificar que los enlaces redirigen correctamente y sin errores.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <!-- US02 -->
-        <tr>
-            <td rowspan="3">US-002</td>
-            <td rowspan="3">Visualización de planes</td>
-            <td>T005</td>
-            <td>Diseñar estructura de planes</td>
-            <td>Definir formato de precios, duración y características.</td>
-            <td>3</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T006</td>
-            <td>Implementar sección de planes</td>
-            <td>Codificar la sección con al menos 2 planes.</td>
-            <td>4</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T007</td>
-            <td>Pruebas de carga de planes</td>
-            <td>Verificar visualización correcta y mensaje de error si no carga.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <!-- US03 -->
-        <tr>
-            <td rowspan="3">US-003</td>
-            <td rowspan="3">Selección de plan en Landing Page</td>
-            <td>T008</td>
-            <td>Diseñar formulario de confirmación</td>
-            <td>Crear formulario con plan seleccionado, precio y campos obligatorios.</td>
-            <td>3</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T009</td>
-            <td>Implementar selección y confirmación</td>
-            <td>Habilitar botón “Seleccionar” y flujo de confirmación en misma pantalla.</td>
-            <td>4</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T010</td>
-            <td>Pruebas de validación</td>
-            <td>Comprobar mensajes de error y confirmación exitosa.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <!-- US04 -->
-        <tr>
-            <td rowspan="3">US-004</td>
-            <td rowspan="3">Visualización de creadores</td>
-            <td>T011</td>
-            <td>Definir información de creadores</td>
-            <td>Recopilar nombre, foto, rol y descripción breve de cada creador.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T012</td>
-            <td>Implementar sección del equipo</td>
-            <td>Codificar y mostrar la información en “Sobre nosotros/Equipo”.</td>
-            <td>3</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T013</td>
-            <td>Pruebas de visualización de equipo</td>
-            <td>Verificar carga correcta y enlaces a redes profesionales.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <!-- US05 -->
-        <tr>
-            <td rowspan="2">US-005</td>
-            <td rowspan="2">Redes sociales</td>
-            <td>T014</td>
-            <td>Implementar íconos de redes sociales</td>
-            <td>Añadir íconos en header/footer con apertura en nueva pestaña.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T015</td>
-            <td>Pruebas de enlaces sociales</td>
-            <td>Verificar que abren las páginas oficiales sin error.</td>
-            <td>1</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <!-- US06 -->
-        <tr>
-            <td rowspan="3">US-006</td>
-            <td rowspan="3">Formulario de contacto</td>
-            <td>T016</td>
-            <td>Diseñar formulario de contacto</td>
-            <td>Definir campos: nombre, email, asunto, mensaje.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T017</td>
-            <td>Implementar formulario</td>
-            <td>Codificar formulario con validaciones de datos.</td>
-            <td>3</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T018</td>
-            <td>Pruebas de envío</td>
-            <td>Verificar confirmación, copia en email y mensajes de error.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <!-- US07 -->
-        <tr>
-            <td rowspan="3">US-007</td>
-            <td rowspan="3">Cambio de idioma</td>
-            <td>T019</td>
-            <td>Implementar botón de idioma</td>
-            <td>Añadir opción para cambiar entre español/inglés.</td>
-            <td>3</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T020</td>
-            <td>Definir textos traducidos</td>
-            <td>Preparar contenido equivalente en ambos idiomas.</td>
-            <td>4</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td>T021</td>
-            <td>Pruebas de funcionalidad</td>
-            <td>Verificar que la preferencia de idioma se mantenga al navegar.</td>
-            <td>2</td>
-            <td></td>
-            <td>To-do</td>
-        </tr>
+      <tr>
+        <td>US-001<br><strong>Menú de navegación</strong></td>
+        <td>
+          <strong>T001</strong> Definir estructura del menú (2h) — To-do<br>
+          <strong>T002</strong> Implementar menú en HTML (3h) — To-do<br>
+          <strong>T003</strong> Estilos del menú (2h) — To-do<br>
+          <strong>T004</strong> Pruebas de navegación (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-002<br><strong>Visualización de planes</strong></td>
+        <td>
+          <strong>T005</strong> Diseñar estructura de planes (3h) — To-do<br>
+          <strong>T006</strong> Implementar sección de planes (4h) — To-do<br>
+          <strong>T007</strong> Pruebas de carga de planes (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-003<br><strong>Selección de plan en Landing Page</strong></td>
+        <td>
+          <strong>T008</strong> Diseñar formulario de confirmación (3h) — To-do<br>
+          <strong>T009</strong> Implementar selección y confirmación (4h) — To-do<br>
+          <strong>T010</strong> Pruebas de validación (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-004<br><strong>Visualización de creadores</strong></td>
+        <td>
+          <strong>T011</strong> Definir información de creadores (2h) — To-do<br>
+          <strong>T012</strong> Implementar sección del equipo (3h) — To-do<br>
+          <strong>T013</strong> Pruebas de visualización de equipo (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-005<br><strong>Redes sociales</strong></td>
+        <td>
+          <strong>T014</strong> Implementar íconos de redes sociales (2h) — To-do<br>
+          <strong>T015</strong> Pruebas de enlaces sociales (1h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-006<br><strong>Formulario de contacto</strong></td>
+        <td>
+          <strong>T016</strong> Diseñar formulario de contacto (2h) — To-do<br>
+          <strong>T017</strong> Implementar formulario (3h) — To-do<br>
+          <strong>T018</strong> Pruebas de envío (2h) — To-do
+        </td>
+      </tr>
+      <tr>
+        <td>US-007<br><strong>Cambio de idioma</strong></td>
+        <td>
+          <strong>T019</strong> Implementar botón de idioma (3h) — To-do<br>
+          <strong>T020</strong> Definir textos traducidos (4h) — To-do<br>
+          <strong>T021</strong> Pruebas de funcionalidad (2h) — To-do
+        </td>
+      </tr>
     </tbody>
-</table>
+  </table>
 
-##### 5.2.1.3. Development Evidence for Sprint Review.
+<h4>5.2.1.3. Development Evidence for Sprint Review.</h4>
 
-<table>
+  <table>
     <thead>
-        <tr>
-            <th>Repository</th>
-            <th>Branch</th>
-            <th>Commit Id</th>
-            <th>Commit Message</th>
-            <th>Commit Message Body</th>
-            <th>Commited on (Date)</th>
-        </tr>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit Id</th>
+        <th>Commit Message</th>
+        <th>Committed on (Date)</th>
+      </tr>
     </thead>
     <tbody>
-        <!--FILA 1 -->
-        <tr>
-            <td rowspan="10">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</td>
-            <td>main</td>
-            <td>5499fe0fb5d24b7e18b29f76616d3751d1b05056</td>
-            <td>Initial commit	</td>
-            <td></td>
-            <td>[10-09-2025]</td>
-        </tr>
-        <!--FILA 2 -->
-        <tr>
-            <td>main</td>
-            <td>741b864bf4d3adb5c285c2b57266cc2eef9aad35</td>
-            <td>chore: add hero and home section.</td>
-            <td></td>
-            <td>[12-09-2025]</td>
-        </tr>
-        <!--FILA 3 -->
-        <tr>
-            <td>main</td>
-            <td>84569edd53373a0dda20fae41a127d0a6573953f</td>
-            <td>chore: add home and what we offer section style.</td>
-            <td></td>
-            <td>13-09-2025</td>
-        </tr>
-        <!--FILA 4 -->
-        <tr>
-            <td>main</td>
-            <td>66d1d439ba86f7a9f2be00a27b65f59550b595f7</td>
-            <td>feat(section):added css Features Section</td>
-            <td></td>
-            <td>14-09-2025</td>
-        </tr>
-        <!--FILA 5 -->
-        <tr>
-            <td>main</td>
-            <td>e3f8b84b35396c70673120464c4eebc57a843fd3</td>
-            <td>chore: added Features Section</td>
-            <td></td>
-            <td>15-09-2025</td>
-        </tr>
-        <!--FILA 6 -->
-        <tr>
-            <td>main</td>
-            <td>cfe8b66050e1c25e4b62a06c413192ef09406a45</td>
-            <td>chore: add about us section and benefits</td>
-            <td></td>
-            <td>16-09-2025</td>
-        </tr>
-        <!--FILA 7 -->
-        <tr>
-            <td>main</td>
-            <td>fe01ab208e248862dd8f260f18750bed27d0d528</td>
-            <td>chore: added Our Team Section</td>
-            <td></td>
-            <td>17-09-2025</td>
-        </tr>
-        <!--FILA 8 -->
-        <tr>
-            <td>main</td>
-            <td>f3da531e6de86e8d2737d29d0586d7947f8eb0e9</td>
-            <td>feat(section):added css Plans Section</td>
-            <td></td>
-            <td>18-09-2025</td>
-        </tr>
-        <!--FILA 9 -->
-        <tr>
-            <td>main</td>
-            <td>ca8bf2e835f2ad94d068573c5fc7533e38c68f04</td>
-            <td>chore:added hero section</td>
-            <td></td>
-            <td>19-09-2025</td>
-        </tr>
-        <!--FILA 10 -->
-        <tr>
-            <td>main</td>
-            <td>ea08eae9d315d89fa351c5abf6bfd4cda57fd278</td>
-            <td>chore:added style</td>
-            <td></td>
-            <td>20-09-2025</td>
-        </tr>
-        <!--FILA 11 -->
-        <tr>
-            <td>main</td>
-            <td>dcd349d3cb0a5f40146aac3fd9edf1684b39d308</td>
-            <td>fix: update asset paths to include public directory</td>
-            <td></td>
-            <td>21-09-2025</td>
-        </tr>
-        <!-- Agregar más filas según tus commits -->
+      <tr>
+        <td rowspan="11">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</td>
+        <td>main</td>
+        <td>5499fe0fb5d24b7e18b29f76616d3751d1b05056</td>
+        <td>Initial commit</td>
+        <td>[10-09-2025]</td>
+      </tr>
+      <tr><td>main</td><td>741b864bf4d3adb5c285c2b57266cc2eef9aad35</td><td>chore: add hero and home section.</td><td>[12-09-2025]</td></tr>
+      <tr><td>main</td><td>84569edd53373a0dda20fae41a127d0a6573953f</td><td>chore: add home and what we offer section style.</td><td>13-09-2025</td></tr>
+      <tr><td>main</td><td>66d1d439ba86f7a9f2be00a27b65f59550b595f7</td><td>feat(section):added css Features Section</td><td>14-09-2025</td></tr>
+      <tr><td>main</td><td>e3f8b84b35396c70673120464c4eebc57a843fd3</td><td>chore: added Features Section</td><td>15-09-2025</td></tr>
+      <tr><td>main</td><td>cfe8b66050e1c25e4b62a06c413192ef09406a45</td><td>chore: add about us section and benefits</td><td>16-09-2025</td></tr>
+      <tr><td>main</td><td>fe01ab208e248862dd8f260f18750bed27d0d528</td><td>chore: added Our Team Section</td><td>17-09-2025</td></tr>
+      <tr><td>main</td><td>f3da531e6de86e8d2737d29d0586d7947f8eb0e9</td><td>feat(section):added css Plans Section</td><td>18-09-2025</td></tr>
+      <tr><td>main</td><td>ca8bf2e835f2ad94d068573c5fc7533e38c68f04</td><td>chore:added hero section</td><td>19-09-2025</td></tr>
+      <tr><td>main</td><td>ea08eae9d315d89fa351c5abf6bfd4cda57fd278</td><td>chore:added style</td><td>20-09-2025</td></tr>
+      <tr><td>main</td><td>dcd349d3cb0a5f40146aac3fd9edf1684b39d308</td><td>fix: update asset paths to include public directory</td><td>21-09-2025</td></tr>
     </tbody>
-</table>
+  </table>
 
+<h4>5.2.1.4. Testing Suite Evidence for Sprint Review.</h4>
+  <p>Para este primer sprint no se realizaron testing.</p>
 
-##### 5.2.1.4. Testing Suite Evidence for Sprint Review.
+<h4>5.2.1.5. Execution Evidence for Sprint Review.</h4>
+  <p>Después de completar el Sprint 1, logramos implementar todas las secciones de nuestra Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo y añadimos navegación interna con botones de desplazamiento.</p>
 
-Para este primer sprint no se realizaron testing.
+<h5>Capturas (referencias):</h5>
+  <p>Encabezado y botones de desplazamiento:</p>
+  <img src="/assets/img/chapter-V/header-landing-page.png" alt="header landing page">
 
-##### 5.2.1.5. Execution Evidence for Sprint Review.
+  <p>Sección Hero:</p>
+  <img src="../assets/img/chapter-V/hero-landing-page.png" alt="hero landing page">
 
-Después de completar el Sprint 1, logramos implementar todas las secciones de nuestra Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo que captura la atención del usuario hacia sus diferentes componentes. También agregamos métodos de navegación en la página, como botones ubicados al principio, que te permiten moverte fácilmente de una sección a otra. A continuación, te mostraremos los avances a través de imágenes del resultado obtenido.
+  <p>Sección Services:</p>
+  <img src="../assets/img/chapter-V/services-landing-page.png" alt="services landing page">
 
-Es importante destacar que el objetivo principal de la Landing Page es convertir a los visitantes en futuros clientes o usuarios habituales de nuestro servicio. Para lograrlo, utilizamos llamados a la acción (Call To Action) que los guían hacia la aplicación web.
+  <p>Sección Pricing:</p>
+  <img src="../assets/img/chapter-V/plans-landing-page.png" alt="plans landing page">
 
-A continuación, te presentamos capturas de pantalla del desarrollo de la Landing Page:
+  <p>Sección About the App:</p>
+  <img src="/assets/img/chapter-V/about-the-app-landing-page.png" alt="about the app landing page">
 
-Encabezado y botones de desplazamiento:
+  <p>Sección Testimonials:</p>
+  <img src="/assets/img/chapter-V/testimonials-landing-page.png" alt="testimonials landing page">
 
-En la parte superior, se encuentra el encabezado (Header) que incluye botones de inicio (Home), beneficios (benefits), Pricing (Pricing), sobre la aplicación (about), testimonios de usuarios (testimonials), un formulario para que nos contacten (Contact), un apartado para saber sobre el equipo (About us) y un botón para cambiar el idioma entre inglés y español. Estos elementos permiten a los visitantes desplazarse fácilmente a la sección que deseen visualizar.
+  <p>Sección About the Team:</p>
+  <img src="/assets/img/chapter-V/about-the-team-landing-page.png" alt="about the team landing page">
 
-Imagen 01: Encabezado y botones de desplazamiento
+  <p>Sección Contact:</p>
+  <img src="/assets/img/chapter-V/contact-landing-page.png" alt="contact landing page">
 
-![header-landing-page.png](/assets/img/chapter-V/header-landing-page.png)
+  <p>Footer:</p>
+  <img src="/assets/img/chapter-V/footer-landing-page.png" alt="footer landing page">
 
-**Sección Hero:**
+<h4>5.2.1.6. Services Documentation Evidence for Sprint Review.</h4>
+  <p>En el primer Sprint el equipo diseñó, programó y puso en funcionamiento la Landing Page para presentar la aplicación web "Veyra".</p>
 
-Se presenta la sección "Hero", que incluye una breve descripción y una frase representativa de Veyra. Además, permite iniciar el uso del servicio web y proporciona una imagen relacionada con el mismo.
-
-Imagen 02: Sección Hero
-
-![hero-landing-page.png](../assets/img/chapter-V/hero-landing-page.png)
-
-
-**Sección Services:**
-
-Se presenta la sección de servicio que ofrecemos para nuestros segmentos objetivos. En esta sección, se describen los beneficios y características de Veyra, lo que permite a los visitantes conocer más sobre el servicio.
-
-Imagen 03: Sección Services
-![services-landing-page.png](../assets/img/chapter-V/services-landing-page.png)
-
-
-**Sección Pricing:**
-
-En la sección de precios, se detallan los planes y precios de Veyra. Esta información es esencial para que los visitantes conozcan las opciones disponibles y puedan elegir la que mejor se adapte a sus necesidades.
-
-Imagen 04: Sección Pricing
-![plans-landing-page.png](../assets/img/chapter-V/plans-landing-page.png)
-
-
-**Sección About the App:**
-
-En esta sección, se presenta información detallada sobre la aplicación Veyra, sus características y funcionalidades. Esto permite a los visitantes conocer más sobre la aplicación y cómo puede ayudarles en su día a día.
-
-Imagen 05: Sección About the App
-
-![about-the-app-landing-page.png](../assets/img/chapter-V/about-the-app-landing-page.png)
-
-**Sección Testimonials:**
-
-En la sección de testimonios, se presentan opiniones y comentarios de usuarios reales que han utilizado Veyra. Esto ayuda a generar confianza en los visitantes y a mostrarles la experiencia positiva de otros usuarios.
-
-Imagen 06: Sección Testimonials
-
-![testimonials-landing-page.png](../assets/img/chapter-V/testimonials-landing-page.png)
-
-**Sección About the Team:**
-
-En la sección "About the Team", se presenta información sobre el equipo de desarrollo de Veyra. Esto permite a los visitantes conocer a las personas detrás del servicio y generar confianza en la calidad y profesionalismo del equipo.
-
-![about-the-team-landing-page.png](../assets/img/chapter-V/about-the-team-landing-page.png)
-
-**Sección Contact:**
-
-En la sección de contacto, se presenta un formulario que permite a los visitantes enviar consultas, comentarios o solicitudes de información sobre Veyra. Esto facilita la comunicación con los usuarios y permite responder a sus necesidades de manera eficiente.
-
-![contact-landing-page.png](../assets/img/chapter-V/contact-landing-page.png)
-
-**Footer:**
-
-En el pie de página (Footer), se incluyen enlaces a las redes sociales de Veyra, información de contacto y un botón para volver al inicio de la página. Esto permite a los visitantes acceder a más información y mantenerse conectados con el servicio.
-
-![footer-landing-page.png](../assets/img/chapter-V/footer-landing-page.png)
-
-
-##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-
-En el primer Sprint el equipo de desarrollo de Veyra ha diseñado, programado y puesto en funcionamiento el sitio web (Landing Page) Para presentar la aplicación Web propuesta denominada "Veyra". En este sitio web (Landing Page), se lográ visualizar varias secciones que ilustran en que consiste "Veyra", cada integrante del equipo de desarrollo de Veyra estuvo a cargo de una sección en especifico.
-
-<table>
-  <thead>
-    <tr>
-      <th>End Point</th>
-      <th> Funciones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
+  <table>
+    <thead>
+      <tr><th>End Point</th><th>Funciones</th></tr>
+    </thead>
+    <tbody>
+      <tr>
         <td>https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</td>
         <td>Mostrar la Landing Page Desplegada</td>
-    </tr>
-  </tbody>
-</table>
+      </tr>
+    </tbody>
+  </table>
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+<h4>5.2.1.7. Software Deployment Evidence for Sprint Review.</h4>
+  <p>Se utilizó GitHub Pages; se publicó el proyecto desde la rama <code>realease-V1.0</code> (anteriormente <code>release-1.0</code>).</p>
+  <p><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page Veyra</a></p>
 
-Para la implementación de nuestro sitio web, optamos por utilizar GitHub Pages. En este proceso, creamos un repositorio en GitHub donde gestionamos el control de versiones. En la sección de Configuración, publicamos el proyecto almacenado en la rama "realease-V1.0" que previamente se encontrba en la rama release-1.0.
+<h4>5.2.1.8. Team Collaboration Insights during Sprint.</h4>
+  <p>Herramientas usadas: GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. Se muestran diagramas de commits por integrante (referencia en el documento original).</p>
 
-[Landing Page Veyra](https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/) - https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/
+<h3>Conclusiones</h3>
+  <p>Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como registro de datos de salud, comunicación entre familia y cuidadores, y administración de planes de cuidado personalizados.</p>
 
+  <p>La implementación con tecnologías modernas permite escalabilidad, modularidad y adaptabilidad. Se recomienda ampliar la cobertura de pruebas, especialmente en módulos críticos (alertas de emergencia y sincronización de dispositivos de salud).</p>
 
-##### 5.2.1.8. Team Collaboration Insights during Sprint.
+<h3>Bibliografía</h3>
+  <ul>
+    <li>Refactoring.Guru. <em>Design patterns</em>. <a href="https://refactoring.guru/es/design-patterns">refactoring.guru</a></li>
+    <li>Gothelf, J., &amp; Seiden, J. (2021). <em>Lean UX: Designing great products with agile teams</em> (3rd ed.). O’Reilly Media.</li>
+    <li>Evans, E. (2004). <em>Domain-driven design</em>. Addison-Wesley.</li>
+    <li>Vernon, V. <em>Domain-driven design reference</em>. <a href="https://domainlanguage.com/ddd/reference/">domainlanguage.com</a></li>
+    <li>Martin, R. C. (2017). <em>Clean architecture</em>. Prentice Hall.</li>
+  </ul>
 
-En esta entrega, nuestra meta principal fue la implementación de la Landing Page. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo Veyra:
+<h3>Anexos</h3>
+  <ul>
+    <li>Deploy Landing Page: <em>Ver Landing Page</em></li>
+    <li>Entrevistas: <em>Ver Entrevistas</em></li>
+    <li>Diagrama C4, Diagramas de clases y Diagrama de base de datos (referencias en el original).</li>
+  </ul>
 
-A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la landing page.
+  <p class="small">Documento convertido desde <strong>Capitulo5.rtf</strong>. :contentReference[oaicite:1]{index=1}</p>
 
-
-
-
-### Conclusiones
-Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como el registro de datos de salud, la comunicación entre la familia y los cuidadores, y la administración de planes de cuidado personalizados.
-
-La implementación de tecnologías modernas permite que el sistema sea escalable, modular y adaptable a las necesidades de diversas situaciones de cuidado, garantizando su efectividad para diferentes tipos de pacientes y organizaciones.
-
-El sistema Veyra reduce la carga operativa manual y mejora la toma de decisiones al automatizar procesos clave como el envío de notificaciones de medicamentos y la visualización de métricas de salud en tiempo real.
-
-La cobertura de pruebas (unitarias e integradas) podría ampliarse, sobre todo en módulos críticos como la activación de alertas de emergencia y la sincronización de datos de dispositivos de salud, para garantizar una mayor confiabilidad del sistema ante cambios.
-
----
-
-### Bibliografía
-- Refactoring.Guru. (s.f.). *Design patterns*. [https://refactoring.guru/es/design-patterns](https://refactoring.guru/es/design-patterns)
-- Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O’Reilly Media.
-- Evans, E. (2004). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
-- Vernon, V. (s.f.). *Domain-driven design reference: Definitions and pattern summaries*. [https://domainlanguage.com/ddd/reference/](https://domainlanguage.com/ddd/reference/)
-- Martin, R. C. (2017). *Clean architecture: A craftsman's guide to software structure and design*. Prentice Hall.
-
----
-
-### Anexos
-- **Deploy Landing Page:** [Ver Landing Page](....)
-- **Entrevistas:** [Ver Entrevistas]()
-- **Diagrama C4:** [Ver Diagrama C4]()
-- **Diagrama de clases del frontend:** [Ver Diagrama del Frontend]()
-- **Diagrama de clases del bounded context IAM:** [Ver Diagrama del IAM]()
-- **Diagrama de clases del bounded context Personnel:** [Ver Diagrama del Personnel](...)
-- **Diagrama de clases del bounded context FleetManagment:** [Ver Diagrama del FleetManagment](...)
-- **Diagrama de clases de la base de datos:** [Ver Diagrama de la base de datos]()  
+</body>
+</html>
