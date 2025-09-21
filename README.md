@@ -34,7 +34,7 @@
       Billy Jake Ruiz Madrid - U202116401
     <br><br>
   </p>
-  <h3>septiembre, 2025</h3>
+  <h3>Septiembre, 2025</h3>
 </div>
 
 <br>
@@ -66,17 +66,17 @@
     </tr>
     <tr>
       <td>13/09/2025</td>
-      <td>Billy</td>
+      <td>Billy Jake Ruiz Madrid</td>
       <td>Desarrollo del Lean UX Problem Statements y Lean UX Hypothesis Statements (Capítulo 1), y la matriz de tareas de usuario (User Task Matrix).</td>
     </tr>
     <tr>
-      <td>14/10/2025</td>
-      <td>Oscar</td>
+      <td>14/09/2025</td>
+      <td>Oscar Armas Sánchez</td>
       <td>Mejoras en la redacción de los Lean UX Problem Statement y Lean UX Hypothesis Statements (Capítulo 1). Adicionalmente, desarrolló los mockups de la aplicación web y se encargó del despliegue (deployment) de la landing page y las guías de estilo generales.</td>
     </tr>
     <tr>
       <td>15/09/2025</td>
-      <td>Miguel</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
       <td>Desarrollo del Product Backlog con los User Stories y el Impact Mapping pertenicientes al Capitulo 3. Adicionalmente, se encargó de los wireframes de la landing page y el análisis de la competencia.</td>
     </tr>
     <tr>
@@ -91,12 +91,12 @@
     </tr>
     <tr>
       <td>19/09/2025</td>
-      <td>Billy</td>
+      <td>Billy Jake Ruiz Madrid</td>
       <td>Desarollo el Cap. 4 (Diseño de estilos, Wireframes y MockUps del Landing Page y Web App).</td>
     </tr>
     <tr>
       <td>20/09/2025</td>
-      <td>Miguel</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
       <td>Agrego los puntos de gestion y herramientas a utilizar en el equipo por cada iteracion de los Sprints; Cap. 5</td>
     </tr>
     <tr>
@@ -111,17 +111,17 @@
     </tr>
     <tr>
       <td>16/09/2025</td>
-      <td>Billy</td>
+      <td>Billy Jake Ruiz Madrid</td>
       <td>Desarrollo las entrevistas con los segmentos objetivos y completó los puntos pendientes del capítulo 1.</td>
     </tr>
     <tr>
       <td>19/09/2025</td>
-      <td>Oscar</td>
+      <td>Oscar Armas Sánchez</td>
       <td>Desarrollo los mockups del web application y se encargó del deployment de la landing page. Adicionalmente, diseñó las directrices de estilo generales para el proyecto.</td>
     </tr>
     <tr>
       <td>18/09/2025</td>
-      <td>Miguel</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
       <td>Desarrollo los wireframes de la landing page y el análisis competitivo.</td>
     </tr>
   </tbody>
@@ -338,7 +338,11 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 - Web Style Guidelines
 - Landing Page UI Design
 - Landing Page Mock-up</td>
-      <td>La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
+      <td>
+      
+**Ariana Lizeth Ramirez Carrasco:**
+
+  La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
 </td>
     </tr>
     <tr>
@@ -358,7 +362,11 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 - Web Style Guidelines
 - Landing Page UI Design
 - Landing Page Mock-up</td>
-      <td>La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.</td>
+      <td>
+      
+**Ariana Lizeth Ramirez Carrasco:**
+
+  La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.</td>
     </tr>
   </tbody>
 </table>
