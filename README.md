@@ -253,7 +253,19 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
     <tr>
       <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
       <td>
+Miguel Ángel Junior Román López: 
 
+- App Web Wireframes
+- Landing Page Wireframes
+- Entrevistas
+- Trello
+- User Stories
+- Impact Mapping
+- Landing Page
+- Análisis Competitivo
+- Puntos de Gestión
+
+        
 **Ariana Lizeth Ramirez Carrasco:**
 - Lean UX Process
 - Lean UX Assumptions
@@ -279,7 +291,10 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 - Trello
 </td>
       <td>
-      
+Miguel Ángel Junior Román López:
+
+  La conclusión del trabajo realizado es la forma en que desarrollé los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.
+        
 **Ariana Lizeth Ramirez Carrasco:**
 
   La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
@@ -293,6 +308,17 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
       <td>
 
+**Miguel Ángel Junior Román López**
+- App Web Wireframes 
+- Landing Page Wireframes
+- Entrevistas
+- Trello
+- User Stories
+- Impact Mapping
+- Landing Page
+- Análisis Competitivo
+- Puntos de Gestión
+
 **Ariana Lizeth Ramirez Carrasco:**
 - Lean UX Process
 - Lean UX Assumptions
@@ -318,7 +344,10 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 - Trello
 </td>
       <td>
-      
+Miguel Ángel Junior Román López
+        
+   La culminación de estas actividades de trabajo en equipo permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5.
+        
 **Ariana Lizeth Ramirez Carrasco:**
 
   La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.
