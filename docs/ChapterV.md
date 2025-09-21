@@ -734,8 +734,13 @@ Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes p
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 
-### 5.2.1. Sprint n
+### 5.2.1. Sprint 1
 
+En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implementación del diseño de nuestra Landing Page utilizando WebStorm como entorno de desarrollo. Esto implica que al concluir el Sprint, todas las secciones, ya sea Home, Services, Pricing, Testimonials o About Us, deben estar completadas. A continuación, adjuntamos imágenes que ilustran cómo gestionamos las tareas en Jira Software.
+
+Repositorio: [https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage](https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage)
+
+Landing Page Deployed: https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/
 
 #### 5.2.1.1. Sprint Planning n.
 
