@@ -21,7 +21,7 @@
         <td colspan="3"></td>
         <td style="text-align:center;">
             <strong>Veyra</strong><br>
-            <img src="../images/VEYRA.jpg" alt="Veyra" style="width:100px;">
+            <img src="../images/veyralogo.jpeg" alt="Veyra" style="width:100px;">
         </td>
         <td style="text-align:center;">
             <strong>StoriiCare</strong><br>
@@ -756,6 +756,7 @@ En este mapa se analizó a Yvonne Madrid Risco, una comerciante que busca manten
 
 
 <h3 id="bigPictureEventStorming">2.4. Big Picture Event Storming</h3>
+<img src="../images/bigpicture.png" alt="bigpicture" style="width:1000px;">
 
 <h3 id="ubiquitousLanguage">2.5. Ubiquitous Language</h3>
 <p>
