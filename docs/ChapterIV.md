@@ -320,43 +320,70 @@ Cada pantalla responde a las funcionalidades principales del sistema y a los dis
 <p>Pantalla de inicio donde los usuarios acceden a la aplicación según su rol 
 (Administrador, Familiar, Personal de cuidado). Incluye campos de correo y contraseña, además de validaciones de acceso.</p>
 
+<img src="../images/Login-NovaPeru-Tech.jpg" alt="Login" style="width: auto; height: auto; border: 2px solid #00bfff;">
+
 <h5>Inicio de Sesión – NovaPeru Tech</h5>
 <p>Formulario de acceso con credenciales de usuario. Presenta opciones de recuperación de contraseña y mantiene consistencia visual con la identidad de NovaPeru Tech.</p>
+
+<img src="../images/IniciodeSesión-NovaPeru-Tech.jpg" alt="Inicio de Sesión" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Registrar Familiar – NovaPeru Tech</h5>
 <p>Formulario para que los familiares creen una cuenta, ingresando datos personales básicos, correo electrónico y contraseña. Incluye validaciones de formato y confirmación de correo.</p>
 
+<img src="../images/RegistrarFamiliar-NovaPeru-Tech.jpg" alt="Registrar Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 <h5>Registrar Administrador – NovaPeru Tech</h5>
 <p>Pantalla destinada a registrar un nuevo administrador en la plataforma. Permite ingresar información personal, datos de contacto y credenciales de acceso.</p>
+
+<img src="../images/RegistrarAdministrador-NovaPeru-Tech.jpg" alt="Registrar Administrador" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Inventario – NovaPeru Tech</h5>
 <p>Módulo donde el administrador puede visualizar el inventario de medicamentos y recursos clínicos. Permite filtrar, ordenar y consultar detalles de cada ítem.</p>
 
+<img src="../images/Inventario-NovaPeru-Tech.jpg" alt="Inventario" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 <h5>Inventario – Modificar – NovaPeru Tech</h5>
 <p>Sección para editar la información de medicamentos en el inventario: nombre, cantidad, fecha de vencimiento, laboratorio y observaciones.</p>
+
+<img src="../images/Inventario-Modificar-NovaPeru-Tech.jpg" alt="Inventario Modificar" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Paciente – NovaPeru Tech</h5>
 <p>Pantalla que muestra la información general de un residente (datos personales, estado clínico, actividades recientes).</p>
 
+<img src="../images/Paciente-NovaPeru-Tech.jpg" alt="Paciente" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 <h5>Paciente – Agregar – NovaPeru Tech</h5>
 <p>Formulario para registrar un nuevo residente en la institución. Incluye datos personales, médicos, contactos de emergencia y observaciones.</p>
+
+<img src="../images/Paciente-Agregar-NovaPeru-Tech.jpg" alt="Paciente Agregar" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Paciente – Eliminar – NovaPeru Tech</h5>
 <p>Módulo que permite al administrador eliminar registros de pacientes, con mensaje de confirmación para evitar acciones accidentales.</p>
 
+<img src="../images/Paciente-Eliminar-NovaPeru-Tech.jpg" alt="Paciente Eliminar" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 <h5>Empleado – NovaPeru Tech</h5>
 <p>Pantalla donde se listan los empleados de la institución, mostrando nombre, rol, contacto y estado laboral.</p>
 
+<img src="../images/Empleado-NovaPeru-Tech.jpg" alt="Empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 <h5>Empleado – Card Detalles – NovaPeru Tech</h5>
 <p>Vista detallada de un empleado en formato de card, mostrando información personal, turno asignado, horas extra y contacto de emergencia.</p>
+
+<img src="../images/Empleado-Card-Detalles-NovaPeru-Tech.jpg" alt="Empleado Card Detalles" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Actividad – Familiar – NovaPeru Tech</h5>
 <p>Pantalla que muestra las actividades recientes del residente (ejercicios, visitas, terapias). 
 El familiar puede visualizar fotos, descripciones y fechas.</p>
 
+<img src="../images/Actividad-Familiar-NovaPeru-Tech.jpg" alt="Actividad Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 <h5>Historial de Pedido – NovaPeru Tech</h5>
 <p>Pantalla que permite consultar pedidos realizados, con detalles de estado, fecha y productos solicitados. 
 Esta funcionalidad fue heredada y adaptada del prototipo base de Elixir Control.</p>
+
+<img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 <h4 id="webAppWireflow">4.4.2. Web Applications Wireflow Diagrams</h4>
 <h4 id="webAppMockups">4.4.3. Web Applications Mock-ups</h4>
 <h4 id="webAppUserFlow">4.4.4. Web Applications User Flow Diagrams</h4>
