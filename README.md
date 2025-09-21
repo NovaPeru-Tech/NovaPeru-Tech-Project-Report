@@ -253,113 +253,152 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
     <tr>
       <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
       <td>
-Miguel Ángel Junior Román López: 
-
-- App Web Wireframes
-- Landing Page Wireframes
-- Entrevistas
-- Trello
-- User Stories
-- Impact Mapping
-- Landing Page
-- Análisis Competitivo
-- Puntos de Gestión
-
-        
-**Ariana Lizeth Ramirez Carrasco:**
-- Lean UX Process
-- Lean UX Assumptions
-- Entrevistas
-- Registro de entrevistas
-- Needfinding
-- User Personas
-- Empathy Mapping
-- Style Guidelines
-- General Style Guidelines
-- Web Style Guidelines
-- Landing Page UI Design
-- Landing Page Mock-up
-
-**Billy Jake Ruiz Madrid:**
-- Lean UX Canvas  
-- Entrevistas  
-- Needfinding  
-- User Task Matrix  
-- User Journey Mapping  
-- Ubiquitous Language  
-- Impact Mapping  
-- Trello
-</td>
+        <strong>Miguel Ángel Junior Román López:</strong>
+        - App Web Wireframes
+        - Landing Page Wireframes
+        - Entrevistas
+        - Trello
+        - User Stories
+        - Impact Mapping
+        - Landing Page
+        - Análisis Competitivo
+        - Puntos de Gestión
+        <br><br>
+        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
+        - Lean UX Process
+        - Lean UX Assumptions
+        - Entrevistas
+        - Registro de entrevistas
+        - Needfinding
+        - User Personas
+        - Empathy Mapping
+        - Style Guidelines
+        - General Style Guidelines
+        - Web Style Guidelines
+        - Landing Page UI Design
+        - Landing Page Mock-up
+        <br><br>
+        <strong>Billy Jake Ruiz Madrid:</strong>
+        - Lean UX Canvas
+        - Entrevistas
+        - Needfinding
+        - User Task Matrix
+        - User Journey Mapping
+        - Ubiquitous Language
+        - Impact Mapping
+        - Trello
+        <br><br>
+        <strong>Oscar Armas Sánchez:</strong>
+        - Mockups de la aplicación web
+        - Despliegue de la landing page
+        - Capítulos de la sección 5.2 (Implementación)
+        - Entrevistas
+        - Guías de estilo generales
+        <br><br>
+        <strong>Renato Calvo Yalan:</strong>
+        - Entrevista a administradores de casas de reposo
+        - Diseño de Diagrama C4 (Contexto, Contenedores, Componentes)
+        - Diagrama de Clases
+        - Event Storming
+        - Startup Profile (Cap. 1)
+      </td>
       <td>
-Miguel Ángel Junior Román López:
-
-  La conclusión del trabajo realizado es la forma en que desarrollé los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.
-        
-**Ariana Lizeth Ramirez Carrasco:**
-
-  La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
-
-**Billy Jake Ruiz Madrid:**
-
-  La conclusión del trabajo realizado es que logré comunicar con diferentes audiencias mediante la aplicación de metodologías ágiles y colaborativas como el Lean UX Canvas, entrevistas y needfinding. Estas herramientas me permitieron comprender y transmitir de forma clara las necesidades reales de los usuarios. Además, con artefactos como el User Journey Mapping, la matriz de tareas y el Impact Mapping, pude traducir hallazgos complejos en entregables entendibles tanto para usuarios como para el equipo de desarrollo y stakeholders, reforzando la efectividad en la comunicación oral durante discusiones y presentaciones.
-</td>
+        <strong>Miguel Ángel Junior Román López:</strong>
+        <br>
+        La conclusión del trabajo realizado es que la forma en que desarrollé los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.
+        <br><br>
+        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
+        <br>
+        La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
+        <br><br>
+        <strong>Billy Jake Ruiz Madrid:</strong>
+        <br>
+        La conclusión del trabajo realizado es que logré comunicar con diferentes audiencias mediante la aplicación de metodologías ágiles y colaborativas como el Lean UX Canvas, entrevistas y needfinding. Estas herramientas me permitieron comprender y transmitir de forma clara las necesidades reales de los usuarios. Además, con artefactos como el User Journey Mapping, la matriz de tareas y el Impact Mapping, pude traducir hallazgos complejos en entregables entendibles tanto para usuarios como para el equipo de desarrollo y stakeholders, reforzando la efectividad en la comunicación oral durante discusiones y presentaciones.
+        <br><br>
+        <strong>Oscar Armas Sánchez:</strong>
+        <br>
+        La conclusión del trabajo realizado es que, al participar en el diseño y la implementación, pude traducir conceptos complejos en interfaces visuales comprensibles. La participación en las entrevistas me permitió captar las necesidades del usuario final, mientras que el desarrollo del Cap. 5 me ayudó a comunicar efectivamente los procesos técnicos y de despliegue a una audiencia no técnica.
+        <br><br>
+        <strong>Renato Calvo Yalan:</strong>
+        <br>
+        La conclusión del trabajo realizado es que, al liderar la arquitectura de software y las entrevistas, pude comunicar ideas técnicas complejas y necesidades de usuarios a diferentes audiencias. La elaboración de diagramas de arquitectura (C4) y el diagrama de clases me permitieron explicar la estructura del sistema a stakeholders técnicos y no técnicos, mientras que las entrevistas me ayudaron a verbalizar las necesidades del cliente de forma efectiva.
+      </td>
     </tr>
     <tr>
       <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
       <td>
-
-**Miguel Ángel Junior Román López**
-- App Web Wireframes 
-- Landing Page Wireframes
-- Entrevistas
-- Trello
-- User Stories
-- Impact Mapping
-- Landing Page
-- Análisis Competitivo
-- Puntos de Gestión
-
-**Ariana Lizeth Ramirez Carrasco:**
-- Lean UX Process
-- Lean UX Assumptions
-- Entrevistas
-- Registro de entrevistas
-- Needfinding
-- User Personas
-- Empathy Mapping
-- Style Guidelines
-- General Style Guidelines
-- Web Style Guidelines
-- Landing Page UI Design
-- Landing Page Mock-up
-
-**Billy Jake Ruiz Madrid:**
-- Lean UX Canvas  
-- Entrevistas  
-- Needfinding  
-- User Task Matrix  
-- User Journey Mapping  
-- Ubiquitous Language  
-- Impact Mapping  
-- Trello
-</td>
+        <strong>Miguel Ángel Junior Román López</strong>
+        - App Web Wireframes
+        - Landing Page Wireframes
+        - Entrevistas
+        - Trello
+        - User Stories
+        - Impact Mapping
+        - Landing Page
+        - Análisis Competitivo
+        - Puntos de Gestión
+        <br><br>
+        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
+        - Lean UX Process
+        - Lean UX Assumptions
+        - Entrevistas
+        - Registro de entrevistas
+        - Needfinding
+        - User Personas
+        - Empathy Mapping
+        - Style Guidelines
+        - General Style Guidelines
+        - Web Style Guidelines
+        - Landing Page UI Design
+        - Landing Page Mock-up
+        <br><br>
+        <strong>Billy Jake Ruiz Madrid:</strong>
+        - Lean UX Canvas
+        - Entrevistas
+        - Needfinding
+        - User Task Matrix
+        - User Journey Mapping
+        - Ubiquitous Language
+        - Impact Mapping
+        - Trello
+        <br><br>
+        <strong>Oscar Armas Sánchez:</strong>
+        - Mockups de la aplicación web
+        - Despliegue de la landing page
+        - Capítulos de la sección 5.2 (Implementación)
+        - Entrevistas
+        - Guías de estilo generales
+        <br><br>
+        <strong>Renato Calvo Yalan:</strong>
+        - Entrevista a administradores de casas de reposo
+        - Diseño de Diagrama C4 (Contexto, Contenedores, Componentes)
+        - Diagrama de Clases
+        - Event Storming
+        - Startup Profile (Cap. 1)
+      </td>
       <td>
-Miguel Ángel Junior Román López
-        
-   La culminación de estas actividades de trabajo en equipo permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5.
-        
-**Ariana Lizeth Ramirez Carrasco:**
-
-  La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.
-
-**Billy Jake Ruiz Madrid:**
-
-  La culminación de estas actividades demuestra mi capacidad para comunicar de forma escrita con distintas audiencias. A través del Lean UX Canvas y el Impact Mapping logré documentar los problemas y objetivos estratégicos de manera clara y estructurada. El User Task Matrix y el User Journey Mapping me permitieron plasmar procesos y necesidades de los usuarios en un formato entendible y accesible. Asimismo, con la documentación de entrevistas, needfinding y el uso de Trello para gestión, conseguí que tanto el equipo como los stakeholders tuvieran una visión compartida y clara del producto, reforzando la efectividad de la comunicación escrita.
-</td>
+        <strong>Miguel Ángel Junior Román López</strong>
+        <br>
+        La culminación de estas actividades de trabajo en equipo permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5.
+        <br><br>
+        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
+        <br>
+        La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.
+        <br><br>
+        <strong>Billy Jake Ruiz Madrid:</strong>
+        <br>
+        La culminación de estas actividades demuestra mi capacidad para comunicar de forma escrita con distintas audiencias. A través del Lean UX Canvas y el Impact Mapping logré documentar los problemas y objetivos estratégicos de manera clara y estructurada. El User Task Matrix y el User Journey Mapping me permitieron plasmar procesos y necesidades de los usuarios en un formato entendible y accesible. Asimismo, con la documentación de entrevistas, needfinding y el uso de Trello para gestión, conseguí que tanto el equipo como los stakeholders tuvieran una visión compartida y clara del producto, reforzando la efectividad de la comunicación escrita.
+        <br><br>
+        <strong>Oscar Armas Sánchez:</strong>
+        <br>
+        La culminación de estas actividades demuestra mi habilidad para comunicar por escrito de manera efectiva. Al documentar el despliegue de la landing page y el desarrollo de los mockups, logré explicar procesos técnicos y de diseño a una audiencia amplia. La redacción de los Cap. 5 y las guías de estilo me permitieron presentar información de implementación de manera estructurada y coherente, lo que facilitó la comprensión y el seguimiento del proyecto por parte del equipo.
+        <br><br>
+        <strong>Renato Calvo Yalan:</strong>
+        <br>
+        La culminación de este trabajo demuestra mi capacidad para comunicar por escrito de forma clara y precisa. La documentación de los diagramas de arquitectura (C4) y del diagrama de clases, junto con la redacción del perfil de la startup y el análisis de entrevistas, me permitieron presentar información compleja de manera organizada y comprensible para todos los miembros del equipo y stakeholders. Esto asegura que la visión técnica del proyecto sea compartida y entendida por todos.
+      </td>
     </tr>
   </tbody>
 </table>
-
-
 
 
