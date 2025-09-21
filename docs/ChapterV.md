@@ -744,6 +744,69 @@ Landing Page Deployed: https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Te
 
 #### 5.2.1.1. Sprint Planning n.
 
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Planning Background </p1></td>
+        </tr>
+        <!--FILA 1-->
+        <tr>
+            <td>Date</td>
+            <td>14-09-2025</td>
+        </tr>
+        <!--FILA 2-->
+        <tr>
+            <td>Time</td>
+            <td> 10:00 p.m </td>
+        </tr>
+        <!--FILA 3-->
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+         <!--FILA 4-->
+        <tr>
+            <td>Prepared By</td>
+            <td>Renato Calvo</td>
+        </tr>
+         <!--FILA 5-->
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                Calvo Yalan, Renato Guillermo <br>
+                Oscar Javier Armas Sánchez  <br>
+                Ariana Lizeth Ramirez Carrasco  <br>
+                Miguel Angel Junior Roman Lopez  <br>
+                Billy Jake Ruiz Madrid
+            </td>
+        </tr>
+        <!--FILA 6-->
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Goal & User Stories </p1></td>
+        </tr>
+        <!--FILA 7-->
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td> Implementar la landing page incluyendo las distintas secciones acordadas y el requisito de cambio de idioma para la aplicación de VEYRA </td>
+        </tr>
+        <!--FILA 8-->
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td> 13 Story Points </td>
+        </tr>
+        <!--FILA 9-->
+        <tr>
+            <td>Sum of Story Points</td>
+            <td> 13 SP (≈ 53 horas estimadas) </td>
+        </tr>
+    </tbody>
+</table>
 
 ##### 5.2.1.2. Sprint Backlog 1.
 
