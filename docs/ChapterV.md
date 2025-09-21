@@ -88,7 +88,7 @@ Aquí te presentamos algunas herramientas y tecnologías clave que utilizaremos 
 
 1. **GitHub:** GitHub es una plataforma de repositorio comunitario que se utiliza para almacenar y
    gestionar los avances de proyectos realizados por grupos de personas. Puedes acceder al repositorio
-   del proyecto en este [enlace](https://github.com/SV51-MetaSoft-App-Web).
+   del proyecto en este [enlace](https://github.com/NovaPeru-Tech).
 
 2. **Webstorm:** Webstorm es un entorno de desarrollo de JetBrains, una empresa especializada en software,
    orientado al desarrollo web en JavaScript. Esta herramienta proporciona facilidades para probar
@@ -201,7 +201,7 @@ Como se mencionó previamente, GitFlow opera con ramas o "branches". A continuac
 
 Como se mencionó previamente, la gestión de nuestro código fuente se llevará a cabo mediante
 GitHub. El IDE utilizado en este caso, WebStorm, debe estar vinculado directamente al
-repositorio creado por nuestra empresa MetaSoft. De esta manera, cada commit realizado por
+repositorio creado por nuestra empresa Veyra. De esta manera, cada commit realizado por
 un miembro del equipo se subirá automáticamente y se cargará en el GitHub de la organización. Las instrucciones para completar con éxito este proceso de emparejamiento se detallan a continuación:
 
 * **Activar el controlador de versiones del IDE**
@@ -1141,14 +1141,113 @@ Para este primer sprint no se realizaron testing.
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review.
 
+Después de completar el Sprint 1, logramos implementar todas las secciones de nuestra Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo que captura la atención del usuario hacia sus diferentes componentes. También agregamos métodos de navegación en la página, como botones ubicados al principio, que te permiten moverte fácilmente de una sección a otra. A continuación, te mostraremos los avances a través de imágenes del resultado obtenido.
+
+Es importante destacar que el objetivo principal de la Landing Page es convertir a los visitantes en futuros clientes o usuarios habituales de nuestro servicio. Para lograrlo, utilizamos llamados a la acción (Call To Action) que los guían hacia la aplicación web.
+
+A continuación, te presentamos capturas de pantalla del desarrollo de la Landing Page:
+
+Encabezado y botones de desplazamiento:
+
+En la parte superior, se encuentra el encabezado (Header) que incluye botones de inicio (Home), beneficios (benefits), Pricing (Pricing), sobre la aplicación (about), testimonios de usuarios (testimonials), un formulario para que nos contacten (Contact), un apartado para saber sobre el equipo (About us) y un botón para cambiar el idioma entre inglés y español. Estos elementos permiten a los visitantes desplazarse fácilmente a la sección que deseen visualizar.
+
+Imagen 01: Encabezado y botones de desplazamiento
+
+![header-landing-page.png](/assets/img/chapter-V/header-landing-page.png)
+
+**Sección Hero:**
+
+Se presenta la sección "Hero", que incluye una breve descripción y una frase representativa de Veyra. Además, permite iniciar el uso del servicio web y proporciona una imagen relacionada con el mismo.
+
+Imagen 02: Sección Hero
+
+![hero-landing-page.png](../assets/img/chapter-V/hero-landing-page.png)
+
+
+**Sección Services:**
+
+Se presenta la sección de servicio que ofrecemos para nuestros segmentos objetivos. En esta sección, se describen los beneficios y características de Veyra, lo que permite a los visitantes conocer más sobre el servicio.
+
+Imagen 03: Sección Services
+![services-landing-page.png](../assets/img/chapter-V/services-landing-page.png)
+
+
+**Sección Pricing:**
+
+En la sección de precios, se detallan los planes y precios de Veyra. Esta información es esencial para que los visitantes conozcan las opciones disponibles y puedan elegir la que mejor se adapte a sus necesidades.
+
+Imagen 04: Sección Pricing
+![plans-landing-page.png](../assets/img/chapter-V/plans-landing-page.png)
+
+
+**Sección About the App:**
+
+En esta sección, se presenta información detallada sobre la aplicación Veyra, sus características y funcionalidades. Esto permite a los visitantes conocer más sobre la aplicación y cómo puede ayudarles en su día a día.
+
+Imagen 05: Sección About the App
+
+![about-the-app-landing-page.png](../assets/img/chapter-V/about-the-app-landing-page.png)
+
+**Sección Testimonials:**
+
+En la sección de testimonios, se presentan opiniones y comentarios de usuarios reales que han utilizado Veyra. Esto ayuda a generar confianza en los visitantes y a mostrarles la experiencia positiva de otros usuarios.
+
+Imagen 06: Sección Testimonials
+
+![testimonials-landing-page.png](../assets/img/chapter-V/testimonials-landing-page.png)
+
+**Sección About the Team:**
+
+En la sección "About the Team", se presenta información sobre el equipo de desarrollo de Veyra. Esto permite a los visitantes conocer a las personas detrás del servicio y generar confianza en la calidad y profesionalismo del equipo.
+
+![about-the-team-landing-page.png](../assets/img/chapter-V/about-the-team-landing-page.png)
+
+**Sección Contact:**
+
+En la sección de contacto, se presenta un formulario que permite a los visitantes enviar consultas, comentarios o solicitudes de información sobre Veyra. Esto facilita la comunicación con los usuarios y permite responder a sus necesidades de manera eficiente.
+
+![contact-landing-page.png](../assets/img/chapter-V/contact-landing-page.png)
+
+**Footer:**
+
+En el pie de página (Footer), se incluyen enlaces a las redes sociales de Veyra, información de contacto y un botón para volver al inicio de la página. Esto permite a los visitantes acceder a más información y mantenerse conectados con el servicio.
+
+![footer-landing-page.png](../assets/img/chapter-V/footer-landing-page.png)
+
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
+En el primer Sprint el equipo de desarrollo de Veyra ha diseñado, programado y puesto en funcionamiento el sitio web (Landing Page) Para presentar la aplicación Web propuesta denominada "Veyra". En este sitio web (Landing Page), se lográ visualizar varias secciones que ilustran en que consiste "Veyra", cada integrante del equipo de desarrollo de Veyra estuvo a cargo de una sección en especifico.
 
-##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+<table>
+  <thead>
+    <tr>
+      <th>End Point</th>
+      <th> Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</td>
+        <td>Mostrar la Landing Page Desplegada</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Para la implementación de nuestro sitio web, optamos por utilizar GitHub Pages. En este proceso, creamos un repositorio en GitHub donde gestionamos el control de versiones. En la sección de Configuración, publicamos el proyecto almacenado en la rama "realease-V1.0" que previamente se encontrba en la rama release-1.0.
+
+[Landing Page Veyra](https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/) - https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/
 
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+En esta entrega, nuestra meta principal fue la implementación de la Landing Page. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo Veyra:
+
+A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la landing page.
+
+
 
 
 ### Conclusiones
