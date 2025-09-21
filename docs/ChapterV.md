@@ -745,8 +745,224 @@ Landing Page Deployed: https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Te
 #### 5.2.1.1. Sprint Planning n.
 
 
-##### 5.2.1.2. Sprint Backlog n.
+##### 5.2.1.2. Sprint Backlog 1.
 
+<!--Status -> (To-do / In-Process / To-Review / Done) -->
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="7">Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Encabezado -->
+        <tr>
+            <td colspan="1">User Story</td>
+            <td colspan="15">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (hours)</td>
+            <td>Assigned To</td>
+            <td>Status</td>
+        </tr>
+        <!-- US01 -->
+        <tr>
+            <td rowspan="4">US-001</td>
+            <td rowspan="4">Menú de navegación</td>
+            <td>T001</td>
+            <td>Definir estructura del menú</td>
+            <td>Identificar secciones y enlaces a incluir en el menú.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T002</td>
+            <td>Implementar menú en HTML</td>
+            <td>Codificar el menú en la parte superior de la landing page.</td>
+            <td>3</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T003</td>
+            <td>Estilos del menú</td>
+            <td>Aplicar CSS para posicionamiento y diseño responsive.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T004</td>
+            <td>Pruebas de navegación</td>
+            <td>Verificar que los enlaces redirigen correctamente y sin errores.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <!-- US02 -->
+        <tr>
+            <td rowspan="3">US-002</td>
+            <td rowspan="3">Visualización de planes</td>
+            <td>T005</td>
+            <td>Diseñar estructura de planes</td>
+            <td>Definir formato de precios, duración y características.</td>
+            <td>3</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T006</td>
+            <td>Implementar sección de planes</td>
+            <td>Codificar la sección con al menos 2 planes.</td>
+            <td>4</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T007</td>
+            <td>Pruebas de carga de planes</td>
+            <td>Verificar visualización correcta y mensaje de error si no carga.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <!-- US03 -->
+        <tr>
+            <td rowspan="3">US-003</td>
+            <td rowspan="3">Selección de plan en Landing Page</td>
+            <td>T008</td>
+            <td>Diseñar formulario de confirmación</td>
+            <td>Crear formulario con plan seleccionado, precio y campos obligatorios.</td>
+            <td>3</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T009</td>
+            <td>Implementar selección y confirmación</td>
+            <td>Habilitar botón “Seleccionar” y flujo de confirmación en misma pantalla.</td>
+            <td>4</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T010</td>
+            <td>Pruebas de validación</td>
+            <td>Comprobar mensajes de error y confirmación exitosa.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <!-- US04 -->
+        <tr>
+            <td rowspan="3">US-004</td>
+            <td rowspan="3">Visualización de creadores</td>
+            <td>T011</td>
+            <td>Definir información de creadores</td>
+            <td>Recopilar nombre, foto, rol y descripción breve de cada creador.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T012</td>
+            <td>Implementar sección del equipo</td>
+            <td>Codificar y mostrar la información en “Sobre nosotros/Equipo”.</td>
+            <td>3</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T013</td>
+            <td>Pruebas de visualización de equipo</td>
+            <td>Verificar carga correcta y enlaces a redes profesionales.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <!-- US05 -->
+        <tr>
+            <td rowspan="2">US-005</td>
+            <td rowspan="2">Redes sociales</td>
+            <td>T014</td>
+            <td>Implementar íconos de redes sociales</td>
+            <td>Añadir íconos en header/footer con apertura en nueva pestaña.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T015</td>
+            <td>Pruebas de enlaces sociales</td>
+            <td>Verificar que abren las páginas oficiales sin error.</td>
+            <td>1</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <!-- US06 -->
+        <tr>
+            <td rowspan="3">US-006</td>
+            <td rowspan="3">Formulario de contacto</td>
+            <td>T016</td>
+            <td>Diseñar formulario de contacto</td>
+            <td>Definir campos: nombre, email, asunto, mensaje.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T017</td>
+            <td>Implementar formulario</td>
+            <td>Codificar formulario con validaciones de datos.</td>
+            <td>3</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T018</td>
+            <td>Pruebas de envío</td>
+            <td>Verificar confirmación, copia en email y mensajes de error.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <!-- US07 -->
+        <tr>
+            <td rowspan="3">US-007</td>
+            <td rowspan="3">Cambio de idioma</td>
+            <td>T019</td>
+            <td>Implementar botón de idioma</td>
+            <td>Añadir opción para cambiar entre español/inglés.</td>
+            <td>3</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T020</td>
+            <td>Definir textos traducidos</td>
+            <td>Preparar contenido equivalente en ambos idiomas.</td>
+            <td>4</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T021</td>
+            <td>Pruebas de funcionalidad</td>
+            <td>Verificar que la preferencia de idioma se mantenga al navegar.</td>
+            <td>2</td>
+            <td></td>
+            <td>To-do</td>
+        </tr>
+    </tbody>
+</table>
 
 ##### 5.2.1.3. Development Evidence for Sprint Review.
 
