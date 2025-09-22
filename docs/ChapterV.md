@@ -1,34 +1,11 @@
 
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Capítulo V: Product Implementation, Validation & Deployment</title>
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; padding: 24px; max-width: 980px; margin: auto; color: #111; }
-    h1,h2,h3,h4 { color: #0b3b73; margin-top: 1.2em; }
-    pre { background:#f6f8fa; padding:12px; overflow:auto; border-radius:6px; }
-    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; }
-    table { border-collapse: collapse; width: 100%; margin: 12px 0; }
-    th, td { border: 1px solid #dfe3e8; padding: 8px; text-align: left; vertical-align: top; }
-    thead th { background:#f0f4f8; }
-    img { max-width: 100%; height: auto; display:block; margin: 8px 0; }
-    blockquote { border-left:4px solid #ddd; padding-left:12px; color:#555; margin:12px 0; }
-    .small { font-size:0.9em; color:#555; }
-  </style>
-</head>
 <body>
-
   <h1>Capítulo V: Product Implementation, Validation & Deployment</h1>
-
 <h2>5.1. Software Configuration Management.</h2>
-
   <p>En este punto del informe se describe las decisiones y los principios que ayudarán al equipo a garantizar la coherencia durante el desarrollo de la solución.</p>
-
 <h3>5.1.1. Software Development Environment Configuration.</h3>
-
   <p>En este apartado se proporcionan los enlaces a las aplicaciones y productos de software creados durante el ciclo del proyecto utilizando los programas correspondientes.</p>
-
   <p>Con ese fin, se organizará en las siguientes secciones:</p>
   <ol>
     <li>Project Management</li>
@@ -38,7 +15,6 @@
     <li>Software Testing</li>
     <li>Software Documentation</li>
   </ol>
-
   <p>Asimismo, se clasificarán los elementos de estas secciones como rutas de referencia (para software basado en modelos Saas) o rutas de descarga (para productos que se ejecuten en las computadoras de los miembros del equipo) para cada uno de los productos de software.</p>
 
 <h4>Project Management</h4>
