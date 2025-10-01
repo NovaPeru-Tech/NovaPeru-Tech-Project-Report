@@ -1,34 +1,14 @@
 
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Capítulo V: Product Implementation, Validation & Deployment</title>
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; padding: 24px; max-width: 980px; margin: auto; color: #111; }
-    h1,h2,h3,h4 { color: #0b3b73; margin-top: 1.2em; }
-    pre { background:#f6f8fa; padding:12px; overflow:auto; border-radius:6px; }
-    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; }
-    table { border-collapse: collapse; width: 100%; margin: 12px 0; }
-    th, td { border: 1px solid #dfe3e8; padding: 8px; text-align: left; vertical-align: top; }
-    thead th { background:#f0f4f8; }
-    img { max-width: 100%; height: auto; display:block; margin: 8px 0; }
-    blockquote { border-left:4px solid #ddd; padding-left:12px; color:#555; margin:12px 0; }
-    .small { font-size:0.9em; color:#555; }
-  </style>
-</head>
 <body>
-
-  <h1>Capítulo V: Product Implementation, Validation & Deployment</h1>
-
-<h2>5.1. Software Configuration Management.</h2>
-
+  
+# Capítulo V: Product Implementation, Validation & Deployment
+  
+## 5.1. Software Configuration Management
   <p>En este punto del informe se describe las decisiones y los principios que ayudarán al equipo a garantizar la coherencia durante el desarrollo de la solución.</p>
-
-<h3>5.1.1. Software Development Environment Configuration.</h3>
-
+  
+### 5.1.1. Software Development Environment Configuration
   <p>En este apartado se proporcionan los enlaces a las aplicaciones y productos de software creados durante el ciclo del proyecto utilizando los programas correspondientes.</p>
-
   <p>Con ese fin, se organizará en las siguientes secciones:</p>
   <ol>
     <li>Project Management</li>
@@ -38,7 +18,6 @@
     <li>Software Testing</li>
     <li>Software Documentation</li>
   </ol>
-
   <p>Asimismo, se clasificarán los elementos de estas secciones como rutas de referencia (para software basado en modelos Saas) o rutas de descarga (para productos que se ejecuten en las computadoras de los miembros del equipo) para cada uno de los productos de software.</p>
 
 <h4>Project Management</h4>
@@ -82,7 +61,7 @@
 <h4>Software Documentation</h4>
   <p>Textos o ilustraciones que acompañan al software para explicar su funcionamiento o uso.</p>
 
-<h3>5.1.2. Source Code Management.</h3>
+### 5.1.2. Source Code Management
 
   <p>Se describe la gestión del código fuente (SCM). Usaremos GitHub como sistema de control de versiones.</p>
 
@@ -129,7 +108,7 @@ style: remove empty line
     <li>Manage Remotes &gt; pegar URL del repositorio.</li>
   </ol>
 
-<h3>5.1.3. Source Code Style Guide &amp; Conventions.</h3>
+### 5.1.3. Source Code Style Guide & Conventions
 
   <p>Pautas, convenciones y estilos para los lenguajes usados: HTML, CSS, JavaScript, C#, TypeScript y Gherkin.</p>
 
@@ -210,7 +189,7 @@ edad = 20;
 let edadAitor: number = 18;
 </code></pre>
 
-<h3>5.1.4. Software Deployment Configuration.</h3>
+### 5.1.4. Software Deployment Configuration
 
   <p>Para desplegar la Landing Page desde GitHub Pages hay que seguir estos pasos:</p>
 
@@ -220,17 +199,16 @@ let edadAitor: number = 18;
     <li>Configurar la rama que será usada para deploy.</li>
   </ol>
 
-<h2>5.2. Landing Page, Services &amp; Applications Implementation.</h2>
+## 5.2. Landing Page, Services & Applications Implementation
 
-<h3>5.2.1. Sprint 1</h3>
+### 5.2.1. Sprint 1
 
   <p>Implementación del diseño de la Landing Page en WebStorm. Se espera completar Home, Services, Pricing, Testimonials y About Us al concluir el Sprint.</p>
 
   <p>Repositorio: <a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</a></p>
   <p>Landing Page Deployed: <a href="https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/</a></p>
 
-<h4>5.2.1.1. Sprint Planning n.</h4>
-
+#### 5.2.1.1. Sprint Planning
   <table>
     <thead>
       <tr><th>Sprint #</th><th>Sprint 1</th></tr>
@@ -258,7 +236,9 @@ let edadAitor: number = 18;
     </tbody>
   </table>
 
-<h4>5.2.1.2. Sprint Backlog 1.</h4>
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+#### 5.2.1.3. Sprint Backlog 1
 
   <p><!--Status -> (To-do / In-Process / To-Review / Done) --></p>
 
@@ -329,7 +309,7 @@ let edadAitor: number = 18;
     </tbody>
   </table>
 
-<h4>5.2.1.3. Development Evidence for Sprint Review.</h4>
+#### 5.2.1.4. Development Evidence for Sprint Review
 
   <table>
     <thead>
@@ -362,10 +342,7 @@ let edadAitor: number = 18;
     </tbody>
   </table>
 
-<h4>5.2.1.4. Testing Suite Evidence for Sprint Review.</h4>
-  <p>Para este primer sprint no se realizaron testing.</p>
-
-<h4>5.2.1.5. Execution Evidence for Sprint Review.</h4>
+#### 5.2.1.5. Execution Evidence for Sprint Review
   <p>Después de completar el Sprint 1, logramos implementar todas las secciones de nuestra Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo y añadimos navegación interna con botones de desplazamiento.</p>
 
 <h5>Capturas (referencias):</h5>
@@ -396,7 +373,7 @@ let edadAitor: number = 18;
   <p>Footer:</p>
   <img src="/assets/img/chapter-V/footer-landing-page.png" alt="footer landing page">
 
-<h4>5.2.1.6. Services Documentation Evidence for Sprint Review.</h4>
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
   <p>En el primer Sprint el equipo diseñó, programó y puso en funcionamiento la Landing Page para presentar la aplicación web "Veyra".</p>
 
   <table>
@@ -411,19 +388,64 @@ let edadAitor: number = 18;
     </tbody>
   </table>
 
-<h4>5.2.1.7. Software Deployment Evidence for Sprint Review.</h4>
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
   <p>Se utilizó GitHub Pages; se publicó el proyecto desde la rama <code>realease-V1.0</code> (anteriormente <code>release-1.0</code>).</p>
   <p><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page Veyra</a></p>
 
-<h4>5.2.1.8. Team Collaboration Insights during Sprint.</h4>
+#### 5.2.1.8. Team Collaboration Insights during Sprint
   <p>Herramientas usadas: GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. Se muestran diagramas de commits por integrante (referencia en el documento original).</p>
 
-<h3>Conclusiones</h3>
-  <p>Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como registro de datos de salud, comunicación entre familia y cuidadores, y administración de planes de cuidado personalizados.</p>
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
+#### 5.2.2.2. Aspect Leaders and Collaborators
+#### 5.2.2.3. Sprint Backlog 2
+#### 5.2.2.4. Development Evidence for Sprint Review
+#### 5.2.2.5. Execution Evidence for Sprint Review
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning 3
+#### 5.2.3.2. Aspect Leaders and Collaborators
+#### 5.2.3.3. Sprint Backlog 3
+#### 5.2.3.4. Development Evidence for Sprint Review
+#### 5.2.3.5. Execution Evidence for Sprint Review
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4
+#### 5.2.4.2. Aspect Leaders and Collaborators
+#### 5.2.4.3. Sprint Backlog 4
+#### 5.2.4.4. Development Evidence for Sprint Review
+#### 5.2.4.5. Execution Evidence for Sprint Review
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+### 5.3.2. Registro de Entrevistas
+
+### 5.3.3. Evaluaciones según heurísticas
+
+## 5.4. Video About-the-Product
+
+## Conclusiones
+
+## Conclusiones y recomendaciones
+
+<p>Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como registro de datos de salud, comunicación entre familia y cuidadores, y administración de planes de cuidado personalizados.</p>
 
   <p>La implementación con tecnologías modernas permite escalabilidad, modularidad y adaptabilidad. Se recomienda ampliar la cobertura de pruebas, especialmente en módulos críticos (alertas de emergencia y sincronización de dispositivos de salud).</p>
 
-<h3>Bibliografía</h3>
+## Video About-the-Team
+
+## Bibliografía
   <ul>
     <li>Refactoring.Guru. <em>Design patterns</em>. <a href="https://refactoring.guru/es/design-patterns">refactoring.guru</a></li>
     <li>Gothelf, J., &amp; Seiden, J. (2021). <em>Lean UX: Designing great products with agile teams</em> (3rd ed.). O’Reilly Media.</li>
@@ -432,15 +454,12 @@ let edadAitor: number = 18;
     <li>Martin, R. C. (2017). <em>Clean architecture</em>. Prentice Hall.</li>
   </ul>
 
-<h3>Anexos</h3>
+## Anexos
   <ul>
     <li>Deploy Landing Page: <em>Ver Landing Page</em></li>
     <li>Entrevistas: <em>Ver Entrevistas</em></li>
     <li>Diagrama C4, Diagramas de clases y Diagrama de base de datos (referencias en el original).</li>
   </ul>
-
-  <p class="small">Documento convertido desde <strong>Capitulo5.rtf</strong>. :contentReference[oaicite:1]{index=1}</p>
-
 </body>
 </html>
 
