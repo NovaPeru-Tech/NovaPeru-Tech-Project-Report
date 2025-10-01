@@ -1,8 +1,8 @@
 
-<h2 id="requirementsElicitation">Capítulo II: Requirements Elicitation & Analysis</h2>
+# Capítulo II: Requirements Elicitation & Analysis
 
-<h3 id="competitors">2.1. Competidores</h3>
-<h4 id="competitiveAnalysis">2.1.1. Análisis competitivo</h4>
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif;">
     <tr>
@@ -120,7 +120,7 @@
     </tr>
 </table>
 
-<h4 id="competitiveStrategies">2.1.2. Estrategias y tácticas frente a competidores</h4>
+### 2.1.2. Estrategias y tácticas frente a competidores
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
     <td>Estrategia</td><td>Tácticas Concretas </td>
@@ -138,8 +138,8 @@
     <td>Precios escalables y flexibles</td><td>Ofrecer planes modulares (Individual, Estándar, Premium) adaptados a distintos tamaños de residencias, con precios más competitivos que soluciones genéricas como CareCloud.</td>
   </tr>
 </table>
-<h3 id="interviews">2.2. Entrevistas</h3>
-<h4 id="interviewDesign">2.2.1. Diseño de entrevistas</h4>
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
 <h4 id="Segment" >Segmento objetivo: Administrador de casa de reposo</h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
 ¿Cuál es su nombre?.
@@ -182,7 +182,8 @@
  Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
  
 ¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo? 
-<h4 id="registerInterview">2.2.2. Registro de entrevistas</h4>
+
+### 2.2.2. Registro de entrevistas
 
 En esta sección presentamos los registros de las entrevistas que hicimos para cada segmento objetivo de nuestra aplicación.
 
@@ -467,7 +468,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 </tbody>
 </table>
 
-<h4 id="analysisInterview">2.2.3. Análisis de entrevistas</h4>
+### 2.2.3. Análisis de entrevistas
 
 El objetivo de las entrevistas fue identificar los problemas, necesidades y expectativas de los **administradores de casas de reposo** y los **familiares de adultos mayores**, con el fin de validar hipótesis sobre la comunicación, gestión de información y funciones necesarias en una aplicación que facilite la coordinación y el cuidado.
 
