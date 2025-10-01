@@ -1,5 +1,6 @@
-<h2 id="requirementsSpecification">Capítulo III: Requirements Specification</h2>
-<h3 id="userStories">3.1. User Stories</h3>
+# Capítulo III: Requirements Specification
+
+## 3.1. User Stories
 | EPIC ID | Título | Descripción |
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -1076,11 +1077,12 @@ entonces el servicio responde 400 si no coincide .
 </table>
 
 
-<h3 id="impactMapping">3.2. Impact Mapping</h3>
+## 3.2. Impact Mapping
 
 <img src="../images/Impact map 1.png" alt="Impact map 1" width="auto" height="auto"/>
 
-<h3 id="productBacklog">3.3. Product Backlog.</h3>
+## 3.3. Product Backlog
+
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
     <td>Orden</td><td>User Story Id</td><td>Título</td><td>Descripción</td><td>Story Points (1/2/3/5/8)</td>
