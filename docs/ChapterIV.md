@@ -1,8 +1,8 @@
-<h2 id="productDesign">CAPÍTULO 4: PRODUCT DESIGN</h2>
+# Capítulo IV: Product Design
 
-<h3 id="styleGuidelines">4.1. Style Guidelines</h3>
+## 4.1. Style Guidelines
 
-<h4 id="generalStyleGuidelines">4.1.1. General Style Guidelines</h4>
+### 4.1.1. General Style Guidelines
 
 El diseño visual de la plataforma **Veyra** se inclina hacia una estética moderna, limpia y amigable, en línea con nuestro compromiso de ofrecer soluciones de cuidado que transmitan confianza, claridad y facilidad de uso. Nuestro objetivo es crear una experiencia digital que sea tanto eficiente como reconfortante para las familias y las instituciones de cuidado.
 
@@ -97,7 +97,7 @@ La voz y el tono de Veyra están diseñados para ser tan confiables y amigables 
 Este enfoque comunicacional busca generar confianza y lealtad, asegurando a las familias que están tomando la mejor decisión para sus seres queridos, y a las instituciones, que están optimizando sus procesos con una herramienta de vanguardia.
 
 
-<h4 id="webStyleGuidelines">4.1.2. Web Style Guidelines</h4>
+### 4.1.2. Web Style Guidelines
 
 Las directrices de estilo web de Veyra se centran en la simplicidad, la accesibilidad y la modernidad. Nuestro objetivo es crear una experiencia visual que refleje la misión de nuestra plataforma: conectar y simplificar el cuidado de los adultos mayores con un diseño limpio e intuitivo.
 
@@ -131,11 +131,11 @@ Las directrices de estilo web de Veyra se centran en la simplicidad, la accesibi
 
 * **Versionado:** Usamos un sistema de control de versiones como Git para gestionar los cambios en los archivos de estilo y contenido. Esto asegura que todos los colaboradores trabajen en la versión más reciente del proyecto.
 
-<h3 id="infoArchitecture">4.2. Information Architecture</h3>
+## 4.2. Information Architecture
 
 La arquitectura de la información de la página de inicio de Veyra está diseñada para una navegación intuitiva, permitiendo que los usuarios encuentren rápidamente la información que necesitan y comprendan el valor de nuestra plataforma.
 
-<h4 id="orgSystem">4.2.1. Organization Systems</h4>
+### 4.2.1. Organization Systems
 
 * **Jerarquía de Contenidos:** La información está estructurada de lo general a lo específico. Comenzamos con un mensaje de impacto en la sección Hero, seguido de un resumen de nuestros servicios, y luego profundizamos en las características y beneficios en las secciones subsiguientes.
   
@@ -158,7 +158,7 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 
 * **Agrupación de Contenidos:** El contenido se agrupa lógicamente para facilitar la comprensión. Por ejemplo, los beneficios se agrupan en tarjetas con títulos claros y párrafos descriptivos, mientras que los testimonios se presentan en un formato de cuadrícula fácil de escanear.
 
-<h4 id="labelSystem">4.2.2. Labeling Systems</h4>
+### 4.2.2. Labeling Systems
 
 * **Nomenclatura:** Se utiliza un lenguaje claro y directo en los títulos de las secciones (What we offer, Features, Plans). Los botones tienen etiquetas descriptivas como Start now →, Sign In y Sign Up para que el usuario sepa exactamente qué esperar.
 
@@ -166,7 +166,7 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 
 * **Lenguaje Adaptativo:** El contenido está diseñado para ser fácil de entender para todos, utilizando un lenguaje que resuena con familias y cuidadores de personas mayores, sin jerga técnica.
 
-<h4 id="seoTags">4.2.3. SEO Tags and Meta Tags</h4>
+### 4.2.3. SEO Tags and Meta Tags
 
 * **Title Tags:**
   
@@ -192,7 +192,7 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
   
     * "width=device-width, initial-scale=1.0"
  
-<h4 id="searchSystem">4.2.4. Searching Systems</h4>
+### 4.2.4. Searching Systems
 
 * **Barra de Búsqueda:** Aunque la página de inicio no requiere una barra de búsqueda, una vez que el usuario inicia sesión en la aplicación principal, esta funcionalidad será clave. Estará ubicada en un lugar prominente y permitirá buscar rápidamente información de residentes, historial médico y otros datos relevantes.
 
@@ -203,7 +203,7 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 * **Resultados Relevantes:** Los resultados de búsqueda se priorizarán según la relevancia para la cuenta y las funciones del usuario.
 
 
-<h4 id="navigationSystem">4.2.5. Navigation Systems</h4>
+### 4.2.5. Navigation Systems
 
 * **Navegación Global:** La barra de navegación en el encabezado proporciona acceso principal a las secciones de la página de inicio. El menú de hamburguesa en dispositivos móviles asegura que esta navegación sea siempre accesible.
 
@@ -211,11 +211,11 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 
 * **Navegación Secundaria:** Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
 
-<h3 id="landingDesign">4.3. Landing Page UI Design</h3>
+## 4.3. Landing Page UI Design
 
 El diseño de la interfaz de usuario (UI) de la página de inicio de Veyra es fundamental para captar la atención de los visitantes y guiarlos hacia una acción clara: conectar con el cuidado de sus seres queridos. Nos hemos centrado en la creación de una experiencia intuitiva y fluida, garantizando que cada elemento de la página sea interactivo y fácil de usar, reflejando el compromiso de Veyra con la simplicidad y la transparencia.
 
-<h4 id="landingWireframe">4.3.1. Landing Page Wireframe</h4>
+### 4.3.1. Landing Page Wireframe
 
 El wireframe de nuestra página de inicio sirve como un mapa visual que define la estructura y el flujo de la información. Este esquema asegura una disposición lógica de los componentes, facilitando la navegación y destacando la propuesta de valor de Veyra. Las secciones del wireframe están diseñadas para contar una historia completa y persuasiva:
 
@@ -258,7 +258,7 @@ El pie de página es un elemento crucial para la usabilidad. Contiene enlaces a 
 
 Este wireframe sienta las bases para un diseño visual que no solo se ve bien, sino que también guía al usuario de manera intuitiva a través de nuestra propuesta de valor, reforzando la confianza y la conexión que Veyra promete.
 
-<h4 id="landingMockUp">4.3.2. Landing Page Mock-up</h4>
+### 4.3.2. Landing Page Mock-up
 
 **Hero de la aplicación** 
 
@@ -308,8 +308,9 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 
 <img src="../images/footer-section-landing.png" alt="Landing Page Mockup" style="width: auto; height: auto; border: 2px solid #00bfff;">
 
-<h3 id="webAppDesign">4.4. Web Applications UX/UI Design</h3>
-<h4 id="webAppWireframes">4.4.1. Web Applications Wireframes</h4>
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
 <p>
 En esta sección se presentan los <strong>wireframes diseñados para la aplicación web de NovaPeru Tech (Veyra)</strong>. 
 Cada pantalla responde a las funcionalidades principales del sistema y a los distintos roles de usuario 
@@ -383,12 +384,12 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido" style="width:auto; height:auto; border:2px solid #00bfff;">
 
-<h4 id="webAppWireflow">4.4.2. Web Applications Wireflow Diagrams</h4>
+### 4.4.2. Web Applications Wireflow Diagrams
 <p>Los Wireflows se emplean principalmente en el diseño de la experiencia de usuario (UX) y son especialmente útiles para aplicaciones que incluyen flujos de trabajo e interacciones complejas.</p>
 
 <img src="../images/Web-Applications-Wireflow-Diagrams.jpg" alt="Web-Applications-Wireflow-Diagrams" style="width:auto; height:auto; border:2px solid #00bfff;">
 
-<h4 id="webAppMockups">4.4.3. Web Applications Mock-ups</h4>
+### 4.4.3. Web Applications Mock-ups
 <p>
 En esta sección se presentan los <strong>mock-ups diseñados para la aplicación web de NovaPeru Tech (Veyra)</strong>. 
 Cada pantalla responde a las funcionalidades principales del sistema y a los distintos roles de usuario 
@@ -462,29 +463,31 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
 
-<h4 id="webAppUserFlow">4.4.4. Web Applications User Flow Diagrams</h4>
+### 4.4.4. Web Applications User Flow Diagrams
 
-<h3 id="webAppPrototyping">4.5. Web Applications Prototyping</h3>
+## 4.5. Web Applications Prototyping
 
 
 ![ContextDiagram Diagram](../images/prototypy.png)
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/ERvba6f0TWdDhgiVHVZ6HJwBgC_FOF0gNDEdsy9t47rPAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Pc0kHx
 
-<h3 id="DDD">4.6. Domain-Driven Software Architecture</h3>
-<h4 id="designEventStorming">4.6.1. Design-Level Event Storming</h4>
-<h4 id="contextDiagram">4.6.2. Software Architecture Context Diagram</h4>
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Design-Level Event Storming
+
+### 4.6.2. Software Architecture Context Diagram
 
 El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software Veyra, los usuarios y sistemas externos.
 
 ![ContextDiagram Diagram](../images/contextDiagram.png)
 
-<h4 id="containerDiagram">4.6.3. Software Architecture Container Diagrams</h4>
+### 4.6.3. Software Architecture Container Diagrams
 
 El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones y fuentes de datos en el sistema de Veyra. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
 
 ![ContainerDiagram Diagram](../images/containerDiagram.png)
 
-<h4 id="componentDiagram">4.6.4. Software Architecture Components Diagrams</h4>
+### 4.6.4. Software Architecture Components Diagrams
 
 El diagrama de componentes proporciona una vista más detallada de la arquitectura del sistema Veyra. 
 Este nivel de diseño se centra en los módulos internos de cada contenedor definido en el diagrama de contenedores, 
@@ -492,8 +495,9 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 ![ContainerDiagram Diagram](../images/Software-Architecture-Components-Diagrams.jpg)
 
-<h3 id="softwareObjectOrientedDesign">4.7. Software Object-Oriented Design</h3>
-<h4 id="classDiagram">4.7.1. Class Diagrams</h4>
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
 <p>Employees diagram</p>
 
 ![Employees Diagram](../images/Employee.svg)
@@ -515,9 +519,9 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 ![profile Diagram](../images/NursingHome.svg)
 
-<h3 id="dbDesign">4.8. Database Design</h3>
+## 4.8. Database Design
 
-<h4 id="dbDiagram">4.8.1. Database Diagrams</h4>
+### 4.8.1. Database Diagrams
 
 ![Database](../images/VeyraDatabase.svg)
 
