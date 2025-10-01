@@ -138,7 +138,9 @@
     <td>Precios escalables y flexibles</td><td>Ofrecer planes modulares (Individual, Estándar, Premium) adaptados a distintos tamaños de residencias, con precios más competitivos que soluciones genéricas como CareCloud.</td>
   </tr>
 </table>
+
 ## 2.2. Entrevistas
+
 ### 2.2.1. Diseño de entrevistas
 <h4 id="Segment" >Segmento objetivo: Administrador de casa de reposo</h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
@@ -538,8 +540,9 @@ Las funciones que los entrevistados consideran más útiles son:
 4. Se valida la hipótesis de que tanto administradores como familiares requieren un sistema **integrado y confiable** para comunicación, gestión de información y alertas inmediatas.  
 
 
-<h3 id="needfinding">2.3. Needfinding</h3>
-<h4 id="userPersonas">2.3.1. User Personas</h4>
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
 
 A partir del análisis de entrevistas y la recolección de información sobre las dinámicas en casas de reposo, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Veyra. Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de gestión operativa como la necesidad de acceso confiable a información médica en tiempo real. La construcción de los *User Persona* permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
 
@@ -558,7 +561,7 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
 <img src="../images/User Persona 2.png" alt="User Persona 2" width="auto" height="480"/>
 
 
-<h4 id="userTaskMatrix">2.3.2. User Task Matrix</h4>
+### 2.3.2. User Task Matrix
 <p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
   <tr style="background-color:#d9ead3;">
@@ -629,7 +632,7 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
   </tr>
 </table>
 
-<h4 id="userJourneyMapping">2.3.3. User Journey Mapping</h4>
+### 2.3.3. User Journey Mapping
 
 <p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
@@ -737,7 +740,7 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
   </tr>
 </table>
 
-<h4 id="empathyMap">2.3.4. Empathy Mapping</h4>
+### 2.3.4. Empathy Mapping
 
 Para la elaboración de los *Empathy Maps*, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Recoba Funciyu Valenzuela y Yvonne Madrid Risco) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
 
@@ -756,10 +759,10 @@ En este mapa se analizó a Recoba Funciyu Valenzuela, un administrador joven con
 En este mapa se analizó a Yvonne Madrid Risco, una comerciante que busca mantenerse informada sobre el estado de salud de su familiar mientras desarrolla sus actividades diarias. Ella piensa en la tranquilidad que le daría tener acceso rápido y claro a la evolución médica, medicación y tratamientos de su ser querido. Escucha a otros familiares compartir la frustración por la falta de información y observa que depender de llamadas o visitas no siempre es suficiente. Yvonne suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa buscando cualquier canal de comunicación disponible para mantenerse al tanto. Su dolor principal es la incertidumbre y la demora en recibir notificaciones sobre emergencias, mientras que su ganancia esperada es tener confianza, tranquilidad y control al poder consultar la información médica en tiempo real desde cualquier lugar.
 
 
-<h3 id="bigPictureEventStorming">2.4. Big Picture Event Storming</h3>
+## 2.4. Big Picture Event Storming
 <img src="../images/bigpicture.png" alt="bigpicture" style="width:1000px;">
 
-<h3 id="ubiquitousLanguage">2.5. Ubiquitous Language</h3>
+## 2.5. Ubiquitous Language
 <p>
 In this project, whose main objective is to improve transparency and efficiency in elderly care within nursing homes through a web platform, 
 the following <strong>ubiquitous language</strong> has been defined to ensure clarity and consistency among users, developers, and stakeholders:
