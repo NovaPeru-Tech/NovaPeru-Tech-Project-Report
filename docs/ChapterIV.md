@@ -475,6 +475,41 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/ERvba6f0
 
 ### 4.6.1. Design-Level Event Storming
 
+Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
+
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/app/board/uXjVJBlKaKg=/?share_link_id=383869260607
+
+
+1. Bounded Context **IAM**
+   
+   <img src="../assets/img/chapter-V/iam-eventstorming.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+   
+2. Bounded Context **Inventories**
+   
+   <img src="../assets/img/chapter-V/inventory-eventstorming.png" alt="Bounded Context Inventories" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+
+3. Bounded Context **Employees**
+   
+   <img src="../assets/img/chapter-V/enployees-eventstorming.png" alt="Bounded Context Employees" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+
+4. Bounded Context **Nursing Home**
+   
+   <img src="../assets/img/chapter-V/nursinghome-eventstorming.png" alt="Bounded Context Nursing Home" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+
+5. Bounded Context **Residents**
+   
+   <img src="../assets/img/chapter-V/residents-eventstorming.png" alt="Bounded Context Residents" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+
+6. Bounded Context **Familiar**
+   
+   <img src="../assets/img/chapter-V/familiar-eventstorming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+
 ### 4.6.2. Software Architecture Context Diagram
 
 El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software Veyra, los usuarios y sistemas externos.
