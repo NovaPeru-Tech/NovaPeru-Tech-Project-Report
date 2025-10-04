@@ -463,6 +463,46 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+### Mock-ups Version Mobile
+<p>En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.</p>
+
+<img src="../images/Mobil1.png" alt="Login Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil2.png" alt="Inicio de Sesion" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil3.png" alt="Registrar Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil4.png" alt="Registrar Administrador" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil5.png" alt="Inicio" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil6.png" alt="Historial Actividades" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil7.png" alt="Historial Actividades 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil8.png" alt="Datos del Negocio" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil9.png" alt="Datos del Negocio 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil10.png" alt="Inventario" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil11.png" alt="Inventario 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil12.png" alt="Inventario 3" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil13.png" alt="Inventario 4" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil14.png" alt="Información inventario" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil15.png" alt="Actividades" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil16.png" alt="Actividades 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil17.png" alt="Actividdes 3" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil18.png" alt="Agregar Actividad" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil19.png" alt="Agregar Actividad 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil20.png" alt="Editar Actividad" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil21.png" alt="Editar Actividad 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil22.png" alt="Editar Actividad 3" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil23.png" alt="Residentes" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil24.png" alt="Residentes 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil25.png" alt="Agregar Datos del residente" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil26.png" alt="Agregar Datos del residente 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil27.png" alt="Modificar Datos del residente" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil28.png" alt="Modificar Datos del residente 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil29.png" alt="Agregar Historia " style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil30.png" alt="Empleados" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil31.png" alt="Empleados 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil32.png" alt="Modificar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil33.png" alt="Modificar Datos del empleado 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil34.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil35.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil36.png" alt="Detalles del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
