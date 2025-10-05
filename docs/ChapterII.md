@@ -550,7 +550,7 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 
 Para los administradores se elaboró el User Persona **Recoba Funciyu Valenzuela Huaynillo**. Se consideraron factores como su edad, rol en la gestión de una casa de reposo, experiencia en la administración del cuidado de adultos mayores y su necesidad de optimizar procesos de comunicación y gestión de la información. Sus principales frustraciones giran en torno a la falta de un sistema centralizado para el control de historias clínicas, medicamentos y citas médicas, lo que genera demoras en la comunicación con familiares y dificultades en el seguimiento de residentes. Asimismo, se tomó en cuenta su familiaridad con herramientas digitales básicas y la necesidad de contar con una plataforma moderna, intuitiva y segura que le permita centralizar toda la información de manera ágil y confiable.
 
-<img src="../images/User Persona 1.png" alt="User Persona 1" width="auto" height="480"/>
+<img src="../images/User Persona Segmento 1.png" alt="User Persona 1" width="auto" height="1900"/>
 
 <br>
 
@@ -558,203 +558,122 @@ Para los administradores se elaboró el User Persona **Recoba Funciyu Valenzuela
 
 Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se consideraron aspectos como su edad, ocupación y su rol como familiar de un adulto mayor residente en una casa de reposo. Sus principales motivaciones están orientadas a mantenerse informada en tiempo real sobre el estado de salud, el tratamiento y la administración de medicamentos de su familiar, incluso mientras desarrolla sus actividades laborales. Entre sus frustraciones se encuentra la falta de información clara, la demora en las notificaciones sobre urgencias y la necesidad de depender de llamadas o visitas presenciales. Su perfil refleja una predisposición positiva hacia el uso de soluciones digitales, siempre que estas sean rápidas, confiables y fáciles de utilizar.
 
-<img src="../images/User Persona 2.png" alt="User Persona 2" width="auto" height="480"/>
+<img src="../images/User Persona Segmento 2.png" alt="User Persona 2" width="auto" height="1900"/>
 
+<h3>2.3.2. User Task Matrix</h3>
 
-### 2.3.2. User Task Matrix
-<p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#d9ead3;">
-    <th>Tarea</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
-  </tr>
-  <tr>
-    <td>Registrar y actualizar residentes</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Programar citas y agenda médica</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Generar y descargar reportes</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Notificar a familiares sobre cambios</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Coordinar al personal de cuidado</td>
-    <td>Occasionally</td>
-    <td>Medium</td>
-  </tr>
+  <thead>
+    <tr style="background:#eee; font-weight:bold;">
+      <th rowspan="2">Tarea</th>
+      <th colspan="2" style="background-color:#d9ead3;">Administrador (Recoba)</th>
+      <th colspan="2" style="background-color:#cfe2f3;">Familiar (Yvonne)</th>
+    </tr>
+    <tr style="background:#f7f7f7;">
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left;">Registrar y actualizar residentes</td>
+      <td>Often</td><td>High</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Programar citas y agenda médica</td>
+      <td>Often</td><td>High</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Generar / descargar reportes clínicos</td>
+      <td>Occasionally</td><td>High</td>
+      <td>Occasionally</td><td>Medium</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Notificar a familiares sobre cambios</td>
+      <td>Occasionally</td><td>High</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Coordinar al personal de cuidado</td>
+      <td>Occasionally</td><td>Medium</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Consultar historial médico digital</td>
+      <td>—</td><td>—</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Recibir notificaciones en tiempo real</td>
+      <td>—</td><td>—</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Revisar agenda y recordatorios</td>
+      <td>—</td><td>—</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Comunicarse con el personal de cuidado</td>
+      <td>—</td><td>—</td>
+      <td>Occasionally</td><td>High</td>
+    </tr>
+  </tbody>
 </table>
 
-<br>
-
-<p><strong>Segmento 2 – Familiar de adulto mayor (Yvonne Madrid Risco)</strong></p>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#cfe2f3;">
-    <th>Tarea</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
-  </tr>
-  <tr>
-    <td>Consultar historial médico digital</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Recibir notificaciones en tiempo real</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Revisar agenda y recordatorios</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Comunicarse con el personal de cuidado</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Descargar reportes clínicos en PDF</td>
-    <td>Occasionally</td>
-    <td>Medium</td>
-  </tr>
-</table>
 
 ### 2.3.3. User Journey Mapping
 
 <p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#d9ead3;">
-    <th></th>
-    <th>AWARENESS</th>
-    <th>CONSIDERATION</th>
-    <th>PURCHASE</th>
-    <th>SERVICE</th>
-    <th>LOYALTY</th>
-  </tr>
-  <tr>
-    <td><strong>CUSTOMER ACTIONS</strong></td>
-    <td>Detecta la necesidad de digitalizar la gestión de residentes y mejorar la comunicación con familiares.</td>
-    <td>Evalúa si Veyra cumple con las normativas locales y se adapta a su flujo de trabajo.</td>
-    <td>Se registra en Veyra y configura su primera casa de reposo.</td>
-    <td>Usa el panel para gestionar residentes, citas y generar reportes.</td>
-    <td>Se beneficia de la eficiencia lograda, mantiene su suscripción y recomienda la plataforma.</td>
-  </tr>
-  <tr>
-    <td><strong>TOUCH POINTS</strong></td>
-    <td>Publicidad en redes sociales, recomendaciones de colegas, ferias del sector salud.</td>
-    <td>Webinars, demo guiada, comparativa con métodos tradicionales.</td>
-    <td>Sitio web de Veyra, registro en línea, onboarding inicial.</td>
-    <td>Panel web, soporte técnico, capacitaciones online.</td>
-    <td>Comunidad de usuarios, reportes avanzados, comunicación directa con soporte.</td>
-  </tr>
-  <tr>
-    <td><strong>CUSTOMER EXPERIENCE</strong></td>
-    <td>🤔</td>
-    <td>😐</td>
-    <td>😅</td>
-    <td>😃</td>
-    <td>😄</td>
-  </tr>
-  <tr>
-    <td><strong>PAIN POINTS</strong></td>
-    <td>Duda en abandonar su sistema manual con Excel y papeles.</td>
-    <td>No sabe si todo su personal se adaptará al nuevo sistema.</td>
-    <td>Al inicio le cuesta cargar información médica al sistema.</td>
-    <td>Necesita generar reportes rápidos y confiables para familiares.</td>
-    <td>Quiere personalización de métricas e integración futura con IoT.</td>
-  </tr>
-  <tr>
-    <td><strong>SOLUTIONS</strong></td>
-    <td>Mostrar casos de éxito locales y testimonios de otros administradores.</td>
-    <td>Ofrecer capacitaciones y soporte en la migración de datos.</td>
-    <td>Importación asistida de historiales médicos y residentes.</td>
-    <td>Reportes automáticos y notificaciones configurables.</td>
-    <td>Módulos avanzados, precios escalables y comunidad de soporte.</td>
-  </tr>
-</table>
+
+El User Journey Map de Recoba representa el recorrido actual que experimenta como administrador de una casa de reposo, en la gestión diaria de información médica, coordinación con el personal y comunicación con familiares de los residentes.
+El mapa ilustra el proceso end-to-end, desde la recolección de datos de los pacientes hasta la generación de reportes y la respuesta a consultas externas.
+
+En la situación **As-Is**, Recoba enfrenta un flujo de trabajo manual y fragmentado: revisa documentos físicos, consolida información en hojas de cálculo y mantiene la comunicación por canales informales como llamadas o mensajes.
+Esto genera demoras, sobrecarga de tareas y posibles errores en la actualización de datos.
+
+El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando las emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Decision-Making).
+Este análisis servirá como base para diseñar una solución tecnológica que automatice procesos, mejore la eficiencia y facilite la interacción entre administración, personal y familiares.
+
+<img src="../images/Journey Map Segmento 1.png" alt="Journey Map Segmento 1" width="auto" height="450"/>
 
 <br>
 
+
 <p><strong>Segmento 2 – Familiar de adulto mayor (Yvonne Madrid Risco)</strong></p>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#cfe2f3;">
-    <th></th>
-    <th>AWARENESS</th>
-    <th>CONSIDERATION</th>
-    <th>PURCHASE</th>
-    <th>SERVICE</th>
-    <th>LOYALTY</th>
-  </tr>
-  <tr>
-    <td><strong>CUSTOMER ACTIONS</strong></td>
-    <td>Se da cuenta de que no tiene información en tiempo real sobre la salud de su familiar.</td>
-    <td>Evalúa si la plataforma le permite acceder de forma fácil y rápida a reportes médicos.</td>
-    <td>Descarga la app Veyra e ingresa con el código asignado por el administrador.</td>
-    <td>Consulta el historial, recibe notificaciones y accede a la agenda de su familiar.</td>
-    <td>Usa la app con frecuencia, confía en la información recibida y recomienda la plataforma.</td>
-  </tr>
-  <tr>
-    <td><strong>TOUCH POINTS</strong></td>
-    <td>Recomendación del administrador, publicidad digital, boca a boca entre familiares.</td>
-    <td>Demo en la web, video explicativo de funciones familiares.</td>
-    <td>App móvil de Veyra (iOS/Android), registro con credenciales.</td>
-    <td>Interfaz móvil con notificaciones push y acceso a reportes.</td>
-    <td>Soporte en línea, comunidad de usuarios, nuevas funcionalidades.</td>
-  </tr>
-  <tr>
-    <td><strong>CUSTOMER EXPERIENCE</strong></td>
-    <td>😢</td>
-    <td>🤔</td>
-    <td>🙂</td>
-    <td>😃</td>
-    <td>😄</td>
-  </tr>
-  <tr>
-    <td><strong>PAIN POINTS</strong></td>
-    <td>Frustración por depender de llamadas para obtener información.</td>
-    <td>Duda si la información será confiable y segura.</td>
-    <td>Le cuesta familiarizarse con la app al inicio.</td>
-    <td>Desea información clara y notificaciones inmediatas.</td>
-    <td>Quiere más funciones como exportar reportes o seguimiento personalizado.</td>
-  </tr>
-  <tr>
-    <td><strong>SOLUTIONS</strong></td>
-    <td>Mostrar la seguridad de la plataforma y testimonios de otros familiares.</td>
-    <td>Explicar beneficios con ejemplos claros de uso.</td>
-    <td>Onboarding simple y tutorial interactivo en la app.</td>
-    <td>Alertas en tiempo real y reportes visuales fáciles de entender.</td>
-    <td>Lanzamiento de nuevas funcionalidades y precios accesibles.</td>
-  </tr>
-</table>
+
+El User Journey Map de Ivonne describe la experiencia completa que vive como familiar de un adulto mayor residente en la casa de reposo, desde el momento en que busca información sobre su ser querido hasta que recibe actualizaciones sobre su estado de salud.
+El mapa detalla las etapas de su recorrido end-to-end, reflejando las acciones, pensamientos, emociones y frustraciones que enfrenta actualmente sin contar con una plataforma digital centralizada.
+
+En la situación **As-Is**, Yvonne depende de medios tradicionales como llamadas telefónicas, correos o mensajes de WhatsApp para comunicarse con el personal del centro.
+Esto provoca demoras, pérdida de información y una sensación constante de incertidumbre sobre el bienestar de su familiar.
+
+El Journey permite comprender su perspectiva emocional y sus puntos de dolor, mostrando los momentos clave en los que necesita información rápida, confiable y accesible.
+Este análisis busca sentar las bases para una futura solución tecnológica que le brinde tranquilidad, transparencia y confianza, fortaleciendo su vínculo con el centro y con el cuidado de su familiar.
+
+<img src="../images/Journey Map Segmento 2.png" alt="Journey Map Segmento 2" width="auto" height="450"/>
+
+<br>
 
 ### 2.3.4. Empathy Mapping
 
 Para la elaboración de los *Empathy Maps*, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Recoba Funciyu Valenzuela y Yvonne Madrid Risco) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
 
-**1) Segmento 1: Administradores de casas de reposo**
+**Segmento 1: Administradores de casas de reposo**
 
-<img src="../images/Empathy Mapping segmento 1.png" alt="Empathy Mapping 1" width="auto" height="370"/>
+<img src="../images/Empathy map Segmento 1.png" alt="Empathy Mapping 1" width="auto" height="1400"/>
 
 En este mapa se analizó a Recoba Funciyu Valenzuela, un administrador joven con la responsabilidad de garantizar la calidad del servicio en una casa de reposo. Se identificó que piensa constantemente en la necesidad de organizar y centralizar la información médica y operativa de los residentes, ya que le preocupa que los procesos manuales generen errores y retrasos. Escucha las quejas de familiares por falta de comunicación oportuna y observa cómo sus colegas deben invertir tiempo en tareas repetitivas en lugar de enfocarse en el bienestar de los residentes. Recoba expresa la necesidad de contar con una solución moderna que mejore la gestión y actúa implementando estrategias de control básicas con las herramientas disponibles, aunque estas son limitadas. Su dolor principal es la sobrecarga administrativa y la falta de un sistema ágil, mientras que su ganancia esperada es lograr eficiencia en la gestión, confianza de los familiares y un mejor control de la información.
 
 <br>
 
-**2) Segmento 2: Familiares de adultos mayores**
+**Segmento 2: Familiares de adultos mayores**
 
-<img src="../images/Empathy Mapping segmento 2.png" alt="Empathy Mapping 2" width="auto" height="370"/>
+<img src="../images/Empathy map Segmento 2.png" alt="Empathy Mapping 2" width="auto" height="1400"/>
 
 En este mapa se analizó a Yvonne Madrid Risco, una comerciante que busca mantenerse informada sobre el estado de salud de su familiar mientras desarrolla sus actividades diarias. Ella piensa en la tranquilidad que le daría tener acceso rápido y claro a la evolución médica, medicación y tratamientos de su ser querido. Escucha a otros familiares compartir la frustración por la falta de información y observa que depender de llamadas o visitas no siempre es suficiente. Yvonne suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa buscando cualquier canal de comunicación disponible para mantenerse al tanto. Su dolor principal es la incertidumbre y la demora en recibir notificaciones sobre emergencias, mientras que su ganancia esperada es tener confianza, tranquilidad y control al poder consultar la información médica en tiempo real desde cualquier lugar.
 
@@ -820,10 +739,6 @@ the following <strong>ubiquitous language</strong> has been defined to ensure cl
   <tr>
     <td>Subscription Plan</td>
     <td>Access modality to the platform (Individual, Standard, Premium) that defines available functionalities depending on the residence.</td>
-  </tr>
-  <tr>
-    <td>IoT Module (future)</td>
-    <td>Integration with monitoring devices (bracelets, biometric sensors) to capture real-time health data.</td>
   </tr>
   <tr>
     <td>Session</td>
