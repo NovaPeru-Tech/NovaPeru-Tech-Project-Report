@@ -560,77 +560,71 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
 
 <img src="../images/User Persona 2.png" alt="User Persona 2" width="auto" height="480"/>
 
+<h3>2.3.2. User Task Matrix</h3>
 
-### 2.3.2. User Task Matrix
-<p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#d9ead3;">
-    <th>Tarea</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
-  </tr>
-  <tr>
-    <td>Registrar y actualizar residentes</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Programar citas y agenda médica</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Generar y descargar reportes</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Notificar a familiares sobre cambios</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Coordinar al personal de cuidado</td>
-    <td>Occasionally</td>
-    <td>Medium</td>
-  </tr>
+  <thead>
+    <tr style="background:#eee; font-weight:bold;">
+      <th rowspan="2">Tarea</th>
+      <th colspan="2" style="background-color:#d9ead3;">Administrador (Recoba)</th>
+      <th colspan="2" style="background-color:#cfe2f3;">Familiar (Yvonne)</th>
+    </tr>
+    <tr style="background:#f7f7f7;">
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left;">Registrar y actualizar residentes</td>
+      <td>Often</td><td>High</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Programar citas y agenda médica</td>
+      <td>Often</td><td>High</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Generar / descargar reportes clínicos</td>
+      <td>Occasionally</td><td>High</td>
+      <td>Occasionally</td><td>Medium</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Notificar a familiares sobre cambios</td>
+      <td>Occasionally</td><td>High</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Coordinar al personal de cuidado</td>
+      <td>Occasionally</td><td>Medium</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Consultar historial médico digital</td>
+      <td>—</td><td>—</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Recibir notificaciones en tiempo real</td>
+      <td>—</td><td>—</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Revisar agenda y recordatorios</td>
+      <td>—</td><td>—</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Comunicarse con el personal de cuidado</td>
+      <td>—</td><td>—</td>
+      <td>Occasionally</td><td>High</td>
+    </tr>
+  </tbody>
 </table>
 
-<br>
-
-<p><strong>Segmento 2 – Familiar de adulto mayor (Yvonne Madrid Risco)</strong></p>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#cfe2f3;">
-    <th>Tarea</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
-  </tr>
-  <tr>
-    <td>Consultar historial médico digital</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Recibir notificaciones en tiempo real</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Revisar agenda y recordatorios</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Comunicarse con el personal de cuidado</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Descargar reportes clínicos en PDF</td>
-    <td>Occasionally</td>
-    <td>Medium</td>
-  </tr>
-</table>
 
 ### 2.3.3. User Journey Mapping
 
