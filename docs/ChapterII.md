@@ -816,10 +816,6 @@ the following <strong>ubiquitous language</strong> has been defined to ensure cl
     <td>Access modality to the platform (Individual, Standard, Premium) that defines available functionalities depending on the residence.</td>
   </tr>
   <tr>
-    <td>IoT Module (future)</td>
-    <td>Integration with monitoring devices (bracelets, biometric sensors) to capture real-time health data.</td>
-  </tr>
-  <tr>
     <td>Session</td>
     <td>Authenticated period in which a user (administrator, family member, or staff) accesses the system with secure credentials.</td>
   </tr>
