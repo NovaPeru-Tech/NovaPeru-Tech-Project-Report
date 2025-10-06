@@ -120,136 +120,184 @@ Baja adopción tecnológica: A diferencia de otros sectores de salud, las casas 
 
 
 #### 1.2.2. Lean UX Process
+
+El Lean UX es un enfoque que permite validar las soluciones propuestas para problemas identificados. Este enfoque se centra en las personas que utilizarán nuestro producto. Una vez identificada la problemática a resolver, se empleó este proceso para reconocer áreas clave que contribuirán a dar forma al producto propuesto.
+
+
 ##### 1.2.2.1. Lean UX Problem Statements
 
-El estado actual del cuidado de adultos mayores en casas de reposo se ha enfocado principalmente en procesos manuales y registros físicos, lo que genera **falta de transparencia, dificultades de comunicación con los familiares y riesgos de errores en la gestión clínica.**
+**Domain**
 
-Lo que los productos o servicios existentes no logran resolver es la **centralización digital de la información médica, el acceso en tiempo real para familiares y la integración de herramientas que fortalezcan la confianza y el acompañamiento de los adultos mayores.**
+El cuidado de adultos mayores en casas de reposo se desarrolla, en su mayoría, a través de procesos manuales y registros físicos. Esto genera ineficiencias operativas, falta de transparencia, pérdida de información y riesgos en la gestión clínica y médica de los residentes.
 
-Nuestro producto, **Veyra**, abordará esta brecha mediante una **plataforma web segura, intuitiva y escalable que conecta a casas de reposo y familiares, optimiza la gestión clínica y ofrece reportes claros, notificaciones oportunas y preparación para integrar dispositivos IoT en el futuro.**
+<br>
 
-Nuestro enfoque inicial estará en **administradores de casas de reposo medianas y familiares de adultos mayores que buscan un seguimiento cercano y transparente del estado de salud de sus seres queridos.**
+**Customer Segments**
+
+El problema afecta a dos grupos principales:
+
+- **Administradores y personal de salud** de casas de reposo, que necesitan herramientas para gestionar información médica, citas y tratamientos de manera eficiente.
+
+- **Familiares y apoderados** de adultos mayores, que buscan acceso transparente y en tiempo real al estado de salud y bienestar de sus seres queridos.
+
+<br>
+
+**Pain Points**
+
+- Dificultad para acceder a información médica actualizada.
+
+- Escasa comunicación entre cuidadores y familiares.
+
+- Uso de registros físicos o sistemas desactualizados que generan errores.
+
+- Falta de alertas y reportes automáticos sobre medicación, citas o emergencias.
+
+- Desconfianza e incertidumbre por parte de los familiares respecto al cuidado brindado.
+
+<br>
+
+**Gap / Opportunity**
+
+Los productos o servicios actuales no logran centralizar de forma digital la gestión médica y comunicacional de las casas de reposo.
+
+No existe una solución integrada que unifique monitoreo de salud, comunicación con familiares y control administrativo en una sola plataforma confiable.
+
+<br>
+
+**Vision / Strategy**
+
+Nuestro producto, **Veyra**, abordará esta brecha mediante una plataforma web segura, intuitiva y escalable que:
+
+- Centraliza la información médica y administrativa de los adultos mayores.
+
+- Facilita la comunicación directa entre casas de reposo y familiares.
+
+- Ofrece reportes visuales, alertas automáticas y seguimiento en tiempo real.
+
+- Se prepara para integrar dispositivos IoT de monitoreo (como brazaletes o sensores).
+
+<br>
+
+**Initial Segment**
+
+El enfoque inicial se dirigirá a casas de reposo privadas medianas ubicadas en zonas urbanas, con entre 20 y 80 residentes, que ya utilicen herramientas digitales básicas.
+También incluirá a familiares y apoderados interesados en un seguimiento transparente y constante del estado de salud de sus seres queridos.
 
 
 ##### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions:**
+
+Existe una creciente necesidad en el sector de **casas de reposo y centros geriátricos** de contar con herramientas digitales que optimicen la gestión clínica y administrativa.
+
+Los **procesos manuales** actuales (historiales en papel, llamadas y registros dispersos) generan demoras, errores e ineficiencia operativa.
+
+Los **familiares de los residentes** demandan canales de comunicación más confiables y transparentes para mantenerse informados sobre la salud de sus seres queridos.
+
+Las **instituciones que adopten soluciones tecnológicas** como Veyra podrán ofrecer un servicio más profesional, diferenciado y competitivo frente a otros centros de cuidado.
+
+Existe una **oportunidad de mercado poco atendida** en Latinoamérica para plataformas integrales que unifiquen la gestión médica, la comunicación familiar y la trazabilidad de medicamentos.
+
+La digitalización de procesos internos permitirá **reducir costos, mejorar la trazabilidad y fortalecer la reputación institucional** de los hogares de reposo.
+
 <br>
 
-**Sabremos que hemos tenido éxito cuando observemos los siguientes cambios en el comportamiento de nuestros usuarios:**
+**Business Outcomes:**
 
-- Aumento en el uso diario de la plataforma para registrar servicios y cargar evidencias.
+Queremos que las **casas de reposo adopten Veyra como su herramienta principal de gestión**, registrando diariamente información médica, medicamentos y reportes.
 
-- Reducción de incidencias derivadas de mantenimientos no planificados.
+Buscamos que los **familiares consulten regularmente la plataforma**, interactúen con el personal y reporten mayor confianza y satisfacción.
 
-- Mayor participación de los familiares en el seguimiento del estado de salud de los adultos mayores.
+Esperamos reducir en un 30% **los errores en la administración de medicamentos** y mejorar en un **40% la eficiencia operativa** del personal durante los primeros seis meses.
 
-- Uso frecuente de reportes médicos y estadísticas por parte de administradores para la toma de decisiones.
+Queremos que las **instituciones perciban un ahorro de tiempo administrativo** y una reducción en las llamadas o consultas manuales de familiares.
 
-- Adopción sostenida de la aplicación por nuevas casas de reposo y familiares que se suscriben a los diferentes planes.
+Aspiramos a que **nuevas casas de reposo se suscriban a planes de pago mensuales**, validando el valor percibido del producto.
+
+Buscamos que Veyra se consolide como una **solución tecnológica de referencia** en la gestión integral del cuidado de adultos mayores.
 
 <br>
 
 **User Assumptions:**
 
-**1) ¿Quién es el usuario?**
+Los **administradores y personal médico** necesitan herramientas que integren historiales, medicamentos, citas y reportes en un solo lugar.
 
-Nuestros usuarios principales son:
-- **Administradores y personal de casas de reposo**, que buscan optimizar la gestión clínica, reducir riesgos y fortalecer la comunicación con familiares.
+Los **familiares o apoderados** requieren acceso rápido, seguro y claro a la información de salud de los residentes, sin depender de llamadas o correos.
 
-- **Familiares y apoderados de adultos mayores**, que necesitan acceder de forma segura, rápida y transparente a la información de sus seres queridos.
+Ambos grupos valoran **la transparencia, la inmediatez y la facilidad de uso** por encima de las funciones excesivamente técnicas.
 
-Los administradores valoran herramientas que centralicen información, mejoren la coordinación y garanticen el cumplimiento de protocolos médicos.
+Los **administradores** priorizan la eficiencia operativa y la reducción de errores.
 
-Los familiares priorizan la facilidad de acceso, la claridad de la información y la confianza en el cuidado de sus adultos mayores.
+Los **familiares** buscan confianza, tranquilidad y cercanía con la institución.
 
-<br>
-
-**2) ¿Dónde encaja nuestro producto en su vida o trabajo?**
-
-- Para los **administradores y personal de casas de reposo**, Veyra se convierte en un panel de control integral para la gestión de residentes, medicamentos, citas médicas y reportes de salud.
-
-- Para los **familiares y apoderados de adultos mayores**, es un portal accesible que ofrece información actualizada, notificaciones oportunas y comunicación directa con la institución.
-
-Veyra encaja como un puente digital entre familias y casas de reposo, mejorando la coordinación y reduciendo la incertidumbre.
+Existe una disposición positiva hacia las soluciones digitales siempre que sean **intuitivas, seguras y personalizables según el rol del usuario.**
 
 <br>
 
-**3) ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+**User Outcomes:**
 
-**Problemas detectados:**
+Los **administradores** reportan una mejor organización y control del flujo de trabajo interno.
 
-- Falta de acceso rápido y seguro a la información médica de los adultos mayores.
+El **personal médico** disminuye el uso de registros en papel y optimiza la actualización de información clínica.
 
-- Dificultad de comunicación entre familiares y personal de las casas de reposo.
+Los **familiares** se sienten más tranquilos e informados, reduciendo su necesidad de llamadas o visitas presenciales.
 
-- Errores en la administración de medicamentos o seguimiento de tratamientos.
+Las **decisiones clínicas y administrativas** se basan en datos actualizados, reduciendo errores.
 
-- Uso de registros físicos o sistemas desactualizados que generan pérdida de información.
+Las instituciones **mejoran su comunicación y reputación** gracias a la transparencia en la atención.
 
-**Solución propuesta:**
-
-Veyra responde a estos desafíos mediante una plataforma digital centralizada que:
-
-- Permite la gestión clínica completa y accesible en línea.
-
-- Facilita la comunicación segura entre familiares y cuidadores.
-
-- Automatiza recordatorios y alertas sobre medicamentos, citas y cambios en la salud.
-
-- Ofrece reportes avanzados y estadísticas que ayudan a optimizar la toma de decisiones.
+Los usuarios recomiendan Veyra como una **herramienta confiable, moderna y fácil de usar.**
 
 <br>
 
-**4) ¿Qué características son más importantes?**
+**Features:**
 
-Características clave que deben estar presentes:
+- Si implementamos un **módulo de historial clínico digital** con acceso restringido por rol, entonces los administradores y cuidadores podrán gestionar y actualizar datos en tiempo real, evitando pérdidas de información.
 
-- Perfil clínico digital completo del adulto mayor (historial médico, alergias, medicamentos).
+- Si los **familiares pueden visualizar notificaciones y reportes médicos en una app web**, entonces se reducirá la incertidumbre y aumentará la confianza en el servicio.
 
-- Agenda médica con recordatorios automáticos.
+- Si incluimos **alertas automáticas sobre medicamentos, citas y emergencias**, entonces mejorará la coordinación del cuidado y se reducirá el riesgo de errores médicos.
 
-- Acceso diferenciado y seguro para administradores y familiares.
+- Si la plataforma ofrece **paneles analíticos e informes descargables**, entonces los administradores podrán tomar decisiones basadas en datos y optimizar recursos.
 
-- Reportes descargables y panel de estadísticas en tiempo real.
+- Si Veyra integra **canales de comunicación interna y externa (chat o llamadas)**, entonces se fortalecerá el vínculo entre familias y personal del hogar.
 
-- Sistema de notificaciones y alertas sobre medicación y citas.
-
-- Preparación para integrar dispositivos IoT como brazaletes de monitoreo de signos vitales.
-
-<br>
-
-**5) ¿Cómo debe verse nuestro producto y cómo comportarse?**
-
-Veyra debe contar con una interfaz clara, moderna y amigable, pensada para dos públicos distintos:
-
-- Para administradores y personal de casas de reposo: un panel robusto con herramientas de gestión clínica avanzada, reportes y opciones de configuración.
-
-- Para familiares y apoderados de adultos mayores: una interfaz sencilla, accesible desde dispositivos móviles y escritorio, con navegación intuitiva y lenguaje claro.
-
-La experiencia debe ser fluida, confiable y segura, priorizando la transparencia y la confianza en el cuidado de los adultos mayores.
-<br>
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
-## Hipótesis 1: Monitoreo de salud
-- **Creemos que** si la app móvil muestra a los familiares información actualizada sobre la salud del adulto mayor (signos vitales, medicamentos y citas médicas),  
-- **Esto logrará** brindar mayor tranquilidad y confianza en el servicio del hogar, además de mejorar el cuidado preventivo.  
-- **Sabremos que estamos en lo cierto** cuando al menos el **70% de los familiares consulten regularmente la app** y se registre una **reducción del 20% en emergencias médicas inesperadas** durante los primeros 6 meses.  
+**- Hipótesis 1: Monitoreo de salud en tiempo real**
 
----
+**Creemos que lograremos** una mejora en la confianza y tranquilidad de los familiares respecto al cuidado de los adultos mayores.
 
-## Hipótesis 2: Comunicación con cuidadores
-- **Creemos que** si implementamos un canal de comunicación en tiempo real (chat o videollamadas) entre familiares y cuidadores,  
-- **Esto logrará** fortalecer el vínculo con el adulto mayor y aumentar la percepción de cercanía y confianza en la atención recibida.  
-- **Sabremos que estamos en lo cierto** cuando al menos el **50% de los familiares usen el canal semanalmente** y se observe un **incremento del 25% en la satisfacción reportada en encuestas** en los primeros 3 meses.  
+**Si** los familiares y apoderados de los residentes
 
----
+**Obtienen** acceso en tiempo real a la información médica y signos vitales actualizados de sus seres queridos
 
-## Hipótesis 3: Alertas y notificaciones
-- **Creemos que** si enviamos notificaciones en tiempo real sobre eventos importantes (medicación, actividades, consultas médicas),  
-- **Esto logrará** reducir la incertidumbre de los familiares y darles mayor seguridad sobre el cuidado brindado.  
-- **Sabremos que estamos en lo cierto** cuando se registre una **reducción del 40% en las llamadas de familiares solicitando información** y un **aumento del 20% en la percepción de confianza**, medido en encuestas, en los primeros 4 meses.  
+**Con** una funcionalidad de monitoreo digital que muestre datos de salud, historial médico y próximos controles médicos dentro de la app **Veyra.**
+
+<br>
+
+**- Hipótesis 2: Comunicación directa con cuidadores**
+
+**Creemos que lograremos** fortalecer el vínculo emocional entre los familiares y los cuidadores, además de aumentar la satisfacción general con el servicio.
+
+**Si** los familiares de los adultos mayores
+
+**Obtienen** la posibilidad de comunicarse directamente con los cuidadores mediante mensajes o videollamadas seguras
+
+**Con** una funcionalidad de chat y videollamadas integrada dentro de la aplicación **Veyra**, disponible para ambos roles (familiares y personal del centro).
+
+<br>
+
+**- Hipótesis 3: Alertas y notificaciones inteligentes**
+
+**Creemos que lograremos** reducir la incertidumbre y mejorar la percepción de seguridad de los familiares sobre la atención brindada.
+
+**Si** los familiares y administradores de las casas de reposo
+
+**Obtienen** alertas automáticas sobre medicación, citas médicas y actividades relevantes
+
+**Con** un sistema de notificaciones inteligentes dentro de **Veyra** que brinde información oportuna, precisa y fácil de entender.
 
 
 ##### 1.2.2.4. Lean UX Canvas
