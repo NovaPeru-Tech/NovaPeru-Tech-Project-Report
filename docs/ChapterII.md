@@ -561,15 +561,20 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
 <img src="../images/User Persona Segmento 2.png" alt="User Persona 2" width="auto" height="1900"/>
 
 <h3>2.3.2. User Task Matrix</h3>
+<p>
+El <em>User Task Matrix</em> concentra las tareas que realizan los segmentos considerados de este proyecto, independientemente de la existencia del software. 
+Se evalúan con dos criterios por cada User Persona: <strong>Frecuencia</strong> (Rarely / Occasionally / Often) e <strong>Importancia</strong> (Low / Medium / High).<br>
+Segmentos considerados: <strong>Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong> y <strong>Familiar de adulto mayor (Yvonne Madrid Risco)</strong>.
+</p>
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
   <thead>
-    <tr style="background:#eee; font-weight:bold;">
+    <tr style="background-color:#eef3f7;">
       <th rowspan="2">Tarea</th>
-      <th colspan="2" style="background-color:#d9ead3;">Administrador (Recoba)</th>
-      <th colspan="2" style="background-color:#cfe2f3;">Familiar (Yvonne)</th>
+      <th colspan="2">Administrador – Recoba Funciyu Valenzuela</th>
+      <th colspan="2">Familiar – Yvonne Madrid Risco</th>
     </tr>
-    <tr style="background:#f7f7f7;">
+    <tr style="background-color:#eef3f7;">
       <th>Frecuencia</th>
       <th>Importancia</th>
       <th>Frecuencia</th>
@@ -580,15 +585,15 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
     <tr>
       <td style="text-align:left;">Registrar y actualizar residentes</td>
       <td>Often</td><td>High</td>
-      <td>—</td><td>—</td>
+      <td>Rarely</td><td>Low</td>
     </tr>
     <tr>
       <td style="text-align:left;">Programar citas y agenda médica</td>
       <td>Often</td><td>High</td>
-      <td>—</td><td>—</td>
+      <td>Occasionally</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Generar / descargar reportes clínicos</td>
+      <td style="text-align:left;">Generar y descargar reportes</td>
       <td>Occasionally</td><td>High</td>
       <td>Occasionally</td><td>Medium</td>
     </tr>
@@ -600,31 +605,46 @@ Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se cons
     <tr>
       <td style="text-align:left;">Coordinar al personal de cuidado</td>
       <td>Occasionally</td><td>Medium</td>
-      <td>—</td><td>—</td>
+      <td>Rarely</td><td>Medium</td>
     </tr>
     <tr>
       <td style="text-align:left;">Consultar historial médico digital</td>
-      <td>—</td><td>—</td>
+      <td>Occasionally</td><td>High</td>
       <td>Often</td><td>High</td>
     </tr>
     <tr>
       <td style="text-align:left;">Recibir notificaciones en tiempo real</td>
-      <td>—</td><td>—</td>
+      <td>Rarely</td><td>Medium</td>
       <td>Often</td><td>High</td>
     </tr>
     <tr>
       <td style="text-align:left;">Revisar agenda y recordatorios</td>
-      <td>—</td><td>—</td>
+      <td>Often</td><td>High</td>
       <td>Often</td><td>High</td>
     </tr>
     <tr>
       <td style="text-align:left;">Comunicarse con el personal de cuidado</td>
-      <td>—</td><td>—</td>
+      <td>Often</td><td>High</td>
       <td>Occasionally</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Descargar reportes clínicos en PDF</td>
+      <td>Occasionally</td><td>High</td>
+      <td>Occasionally</td><td>Medium</td>
     </tr>
   </tbody>
 </table>
 
+<p style="font-size:12px; color:#555; margin-top:6px;">
+Leyenda: “—” indica que la tarea no aplica para el segmento.
+</p>
+
+<p><strong>Análisis:</strong><br>
+El Administrador concentra tareas operativas y de control con <em>alta frecuencia e importancia</em>, destacando: registrar/actualizar residentes, programar agenda, revisar agenda y coordinar al personal, además de notificar a familiares sobre cambios. 
+El Familiar prioriza tareas de <em>seguimiento y comunicación</em> con alta frecuencia e importancia: consultar historial médico, recibir notificaciones en tiempo real y revisar agenda; además, mantiene comunicación con el personal cuando requiere aclaraciones. 
+Como coincidencia crítica para ambos, “revisar agenda y recordatorios” es <em>Often–High</em>, lo que justifica diseñar vistas de calendario claras y recordatorios fiables. 
+Las principales diferencias: el Administrador es dueño de procesos (creación/gestión de datos y notificación), mientras que el Familiar es consumidor de información (consulta, seguimiento y validación), lo que implica perfiles y permisos diferenciados en la solución.
+</p>
 
 ### 2.3.3. User Journey Mapping
 
