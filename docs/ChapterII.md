@@ -121,23 +121,16 @@
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-<table border="1" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td>Estrategia</td><td>Tácticas Concretas </td>
-  </tr>
-  <tr>
-    <td>Diferenciación por especialización </td><td>Desarrollar funcionalidades específicas para adultos mayores: alertas de medicación, dietas especiales, permisos diferenciados para familiares, e integración futura con sensores IoT. </td>
-  </tr>
-  <tr>
-    <td>Enfoque en transparencia</td><td>Implementar acceso en tiempo real para familiares, reportes detallados, y notificaciones automáticas para generar confianza.</td>
-  </tr>
-  <tr>
-    <td>Integración con normativas locales</td><td>Asegurar cumplimiento con regulaciones latinoamericanas (ej. estándares de cuidado en México ), lo que competidores globales como StoriiCare no hacen.</td>
-  </tr>
-  <tr>
-    <td>Precios escalables y flexibles</td><td>Ofrecer planes modulares (Individual, Estándar, Premium) adaptados a distintos tamaños de residencias, con precios más competitivos que soluciones genéricas como CareCloud.</td>
-  </tr>
-</table>
+
+Luego de haber realizado el análisis de nuestra solución con respecto a soluciones ya existentes, nuestro equipo procederá a plantear estrategias y tácticas que debemos poner en marcha para sobresalir de las otras soluciones.
+
+**Matriz CAME para el desarrollo de estrategias en base al análisis FODA**
+
+| **Análisis FODA cruzado** | **Oportunidades** | **Amenazas** |
+|---|---|---|
+| **Fortalezas (F)**<br>1. Especialización regional en normativa y necesidades de LATAM.<br>2. Diseño centrado en familias: acceso bidireccional familia ↔ residencia y comunicación en tiempo real.<br>3. Modelo modular de precios proyectado (freemium → estándar → premium). | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Alianzas académicas/institucionales con asociaciones geriátricas y universidades para certificación, formación y co-marketing.<br>2. Priorizar integraciones IoT/telemedicina en el roadmap (conectores para wearables, sensores de caída, medidores de signos vitales) y ofrecer paquetes piloto conjuntos con proveedores de hardware.<br>3. Implementar estrategia freemium → up-sell: plan entry para residencias pequeñas que permita adopción rápida y rutas de crecimiento a planes institucionales premium.<br>4. Campañas de posicionamiento como especialista LATAM destacando cumplimiento normativo local y enfoque humano-familiar. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Implementar y documentar políticas de protección de datos y seguridad adaptadas a LATAM, y comunicarlo claramente a clientes e instituciones.<br>2. Ofrecer soporte local y SLAs competitivos que las grandes plataformas globales no siempre proporcionan en la región.<br>3. Enfatizar diferenciadores de valor (transparencia con familias, formación continua, soporte local) en la comunicación para competir por valor, no solo por precio.<br>4. Diseñar funcionalidades con modo offline/parcial (sincronización cuando haya conectividad) para minimizar la fricción en zonas con conectividad limitada en LATAM.<br>5. Difundir resultados de pilotos y testimonios para contrarrestar la ventaja presupuestal y reputacional de competidores globales. |
+| **Debilidades (D)**<br>1. Bajo reconocimiento de marca (proyecto nuevo).<br>2. Recursos limitados (equipo y presupuesto) frente a los competidores.<br>3. Madurez limitada en integraciones empresariales completas (Facturación, contabilidad).<br>4. Necesidad de localización y validación en múltiples países de LATAM.| **Estrategia (DO) — Reorientación**<br>1. Validación rápida con Lean UX: ejecutar pruebas de usabilidad y pilotos documentados (usar wireframes, mockups y Product Backlog del repo) para generar testimonios y material comercial publicable.<br>2. Buscar subvenciones, programas públicos y fondos de digitalización para financiar pilotos y reducir el coste inicial para residencias piloto.<br>3. Generar contenido técnico y autoridad: whitepapers, casos de estudio y guías para decisores (directores clínicos / gerentes de casas de reposo) enfatizando seguridad.<br>4. Priorizar desarrollo de APIs públicas y conectores básicos (facturación, contabilidad, laboratorios) y ofrecer SDKs/documentación para integradores; esto reduce fricción de adopción en clientes con sistemas legados.<br>5. Crear un programa de partners/implementadores locales (consultoras e integradores) que permitan escalar despliegues sin aumentar fuertemente la plantilla interna. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar seguridad e infraestructura crítica: backups automáticos, alta disponibilidad, pruebas de penetración periódicas y planes de recuperación ante desastres para minimizar riesgos operacionales.<br>2. Aplicar una política de precios defensiva inicial: oferta entry-level competitiva y promociones temporales para ganar masa crítica en mercados clave y bloquear nichos frente a competidores low-cost.<br>3. Contratar auditorías externas y obtener certificaciones de seguridad/compliance que sirvan como sello de confianza ante reguladores y clientes institucionales.<br>4. Buscar aceleradoras, grants o socios estratégicos (capital/mentoría) que aporten recursos sin diluir el control del producto; negociar alianzas que incluyan soporte de implementación.<br>5. Formalizar un plan de gestión de incidentes y comunicación (scripts, FAQs, canales dedicados) para notificar rápidamente a residencias y familias y reducir impacto reputacional. |
+
 
 ## 2.2. Entrevistas
 
