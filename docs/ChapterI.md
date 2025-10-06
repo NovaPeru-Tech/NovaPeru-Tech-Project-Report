@@ -301,7 +301,7 @@ Los usuarios recomiendan Veyra como una **herramienta confiable, moderna y fáci
 
 
 ##### 1.2.2.4. Lean UX Canvas
-<img src="../images/Lean UX Canva.jpg" alt="Lean UX Canvas" width="auto" height="430"/>
+<img src="../images/Lean-UX-Canva-Veyra.png" alt="Lean UX Canvas" width="auto" height="550"/>
 
 ### 1.3. Segmentos objetivo
 Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento.
