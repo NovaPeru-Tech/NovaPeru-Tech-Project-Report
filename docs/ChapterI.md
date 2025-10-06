@@ -28,58 +28,58 @@ Desarrollar soluciones tecnológicas seguras, accesibles y centradas en la exper
 Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores en Latinoamérica, integrando tecnologías emergentes como el Internet de las Cosas y el análisis de datos en tiempo real. Aspiramos a transformar el cuidado geriátrico en un proceso transparente, confiable y humano, acompañando a familias e instituciones en la creación de una nueva era de atención integral.
 #### 1.1.2. Perfiles de integrantes del equipo
 
-<table style="width: 100%; border-collapse: collapse;">
-        <tr>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../images/RenatoCalvo.jpeg" alt="Renato Photo" style="display: block; margin: 40 auto 0 auto;"/>
-            </td>
-            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>Renato Guillermo Calvo Yalan - (U202217053)</strong> - Ingeniería de Software<br><br>
-                Tengo 21 años me llama la atención la cyberseguridad y la inteligencia artificial , mis principal fortaleza es el poder liderar a los grupos de trabajo además de que soy perseverante manejo algunos lenguajes de programación y quiero seguir aprendiendo.Espero poder hace un gran proyecto con mi grupo de manera exitosa.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <img src="../images/Billy.jpg" alt="Billy Photo" style="display: block; margin: 50 auto 0 auto;"/>
-            </td>
-            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>Billy Jake Ruiz Madrid - (U202116401)</strong> - Ingeniería de Software<br><br>
-              Tengo 21 años, soy una persona tranquila, colaborativa y adaptable. Me gusta trabajar en equipo, aportando ideas y soluciones que contribuyan al desarrollo de los proyectos. Prefiero colaborar antes que liderar y suelo integrarme bien con distintos estilos de trabajo, lo que me permite adaptarme fácilmente al grupo.
-Cuento con conocimientos en lenguajes de programación como C++ y Python. Siempre busco formas de hacer las cosas bien, de manera eficiente y sin complicaciones.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <img src="../images/Ariana_Photo.jpeg" alt="Ariana Photo" style="display: block; margin: 50 auto 0 auto;"/>
-            </td>
-            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>Ariana Lizeth Ramírez Carrasco (U202312932)</strong> - Ingeniería de Software<br><br>
-                Tengo 21 años y actualmente me estoy formando en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona curiosa, tanto en el ámbito tecnológico como en la gestión y dirección de proyectos. Mis principales experiencias están relacionadas con el liderazgo y el manejo de equipos bajo marcos de trabajo ágiles, el análisis de datos y el desarrollo con enfoque web. Espero que mi compromiso y mis ganas de enseñar logren hacer que el proyecto tome un direccionamiento hacia el éxito.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../images/MiguelRoman.png" alt="Miguel Photo" style="display: block; margin: 50 auto 0 auto;"/>
-            </td>
-            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>Miguel Ángel Román López(U202212897)</strong> - Ingeniería de Software<br><br>
-                Mi nombre es Miguel Angel Junior Román López soy  de la carrera de Ingeniería de Software.
+<table border="1" width="100%">
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../images/RenatoCalvo.jpeg" alt="Renato Photo" width="120" />
+    </td>
+    <td valign="top">
+      <strong>Renato Guillermo Calvo Yalan - (U202217053)</strong> - Ingeniería de Software<br><br>
+      Tengo 21 años. Me interesa la ciberseguridad y la inteligencia artificial; mi principal fortaleza es liderar equipos de trabajo. Además, soy perseverante, manejo algunos lenguajes de programación y quiero seguir aprendiendo. Espero realizar un gran proyecto con mi grupo de manera exitosa.
+    </td>
+  </tr>
 
-Poseo conocimientos en el lenguaje C + +, programación orientada a objetos y diseño de páginas web. Mi aporte con el equipo será contribuir con investigación, ideas e imaginación para realizar un buen proyecto.
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../images/Billy.jpg" alt="Billy Photo" width="120" />
+    </td>
+    <td valign="top">
+      <strong>Billy Jake Ruiz Madrid - (U202116401)</strong> - Ingeniería de Software<br><br>
+      Tengo 21 años, soy una persona tranquila, colaborativa y adaptable. Me gusta trabajar en equipo, aportando ideas y soluciones. Cuento con conocimientos en C++ y Python y siempre busco formas de hacer las cosas de manera eficiente.
+    </td>
+  </tr>
 
-Por todo ello, mi compromiso será trabajar en equipo y entregar las actividades que se requieran puntualmente.
-   </td>
-        </tr>
-        <tr>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <img src="../images/Oscar.jpg" alt="Oscar Photo" style="display: block; margin: 50 auto 0 auto;"/>
-            </td>
-            <td style="width: 50%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>Oscar Javier Armas Sánchez - (U20211g192)</strong> - Ingeniería de Software<br><br>
-                Tengo 21 años, me estoy formando en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona puntual, responsable y centrado en sus objetivos. Mis principales experiencias esrtan en la gestion de proyectos y el desarrollo web. Lo que espero de este proyecto es poder aprender y aportar mis conocimientos para que el proyecto sea exitoso.
-            </td>
-        </tr>
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../images/Ariana_Photo.jpeg" alt="Ariana Photo" width="120" />
+    </td>
+    <td valign="top">
+      <strong>Ariana Lizeth Ramírez Carrasco - (U202312932)</strong> - Ingeniería de Software<br><br>
+      Tengo 21 años y estudio en la Universidad Peruana de Ciencias Aplicadas. Me considero curiosa en tecnología y gestión de proyectos, con experiencia en liderazgo, análisis de datos y desarrollo web. Espero contribuir al éxito del proyecto.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../images/MiguelRoman.png" alt="Miguel Photo" width="120" />
+    </td>
+    <td valign="top">
+      <strong>Miguel Ángel Román López - (U202212897)</strong> - Ingeniería de Software<br><br>
+      Poseo conocimientos en C++, programación orientada a objetos y diseño web. Mi aporte será investigación, ideas e imaginación para realizar un buen proyecto y cumplir con las entregas.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../images/Oscar.jpg" alt="Oscar Photo" width="120" />
+    </td>
+    <td valign="top">
+      <strong>Oscar Javier Armas Sánchez - (U20211g192)</strong> - Ingeniería de Software<br><br>
+      Tengo 21 años. Soy puntual, responsable y con experiencia en gestión de proyectos y desarrollo web. Espero aprender y aportar para que el proyecto sea exitoso.
+    </td>
+  </tr>
 </table>
+
 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
