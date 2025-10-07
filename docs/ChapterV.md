@@ -238,6 +238,66 @@ let edadAitor: number = 18;
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+<p>
+En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) para el Sprint 1, donde se detallan los aspectos principales del Sprint, y para cada aspecto se indica quién es el líder (L) y quiénes son colaboradores (C). Esto tiene como objetivo brindar mayor claridad y efectividad en la comunicación interna del equipo y facilitar la asignación y seguimiento de tareas.
+</p>
+
+<p>
+Para el Sprint 1, se han definido los siguientes aspectos:
+</p>
+
+<ul>
+  <li><strong>Desarrollo de la Landing Page:</strong> Diseño, estructura, contenido y funcionalidad de la página principal del proyecto.</li>
+  <li><strong>Generación y presentación del Reporte:</strong> Implementación del módulo que permita crear, visualizar y exportar el reporte requerido.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspecto: Landing Page</th>
+      <th>Aspecto: Reporte</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calvo Yalan, Renato Guillermo</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Oscar Javier Armas Sánchez</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Ariana Lizeth Ramirez Carrasco</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Miguel Angel Junior Roman Lopez</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Billy Jake Ruiz Madrid</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+La organización de roles de líderes y colaboradores está alineada con la posterior selección y asignación de tareas en el Sprint, permitiendo que cada líder lleve el seguimiento y gestión de su aspecto con apoyo de sus colaboradores, mejorando así la coordinación y efectividad del equipo.
+</p>
+
+
 #### 5.2.1.3. Sprint Backlog 1
 
   <p><!--Status -> (To-do / In-Process / To-Review / Done) --></p>
@@ -389,11 +449,14 @@ let edadAitor: number = 18;
   </table>
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-  <p>Se utilizó GitHub Pages; se publicó el proyecto desde la rama <code>realease-V1.0</code> (anteriormente <code>release-1.0</code>).</p>
-  <p><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page Veyra</a></p>
+<p>
+  <a href="https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/">Landing Page ElexirControl</a> -
+  <a href="https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/">https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/</a>
+</p>
+
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-  <p>Herramientas usadas: GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. Se muestran diagramas de commits por integrante (referencia en el documento original).</p>
+  <>Herramientas usadas: GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. Se muestran diagramas de commits por integrante (referencia en el documento original).<>
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
