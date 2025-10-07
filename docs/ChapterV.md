@@ -450,8 +450,8 @@ La organización de roles de líderes y colaboradores está alineada con la post
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 <p>
-  <a href="https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/">Landing Page ElexirControl</a> -
-  <a href="https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/">https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/</a>
+  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page NovaPeru-Tech</a> -
+  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a>
 </p>
 
 
