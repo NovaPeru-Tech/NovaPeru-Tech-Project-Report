@@ -1133,51 +1133,50 @@ entonces el servicio responde 400 si no coincide .
 
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
-    <td>Orden</td><td>User Story Id</td><td>Título</td><td>Descripción</td><td>Story Points (1/2/3/5/8)</td>
+    <td><strong>Orden</strong></td><td><strong>User Story Id</strong></td><td><strong>Título</strong></td><td><strong>Descripción</strong></td><td><strong>Story Points (1/2/3/5/8)</strong></td>
   </tr>
-  <tr><td>1</td><td>US01</td><td>Menú de navegación</td><td>Permitir al visitante acceder a un menú en la parte superior de la página con enlaces a 'Log in', 'Sign up', 'Planes', 'Contacto', etc.</td><td>1</td></tr>
+  <tr><td>1</td><td>US01</td><td>Menú de navegación</td><td>Permitir al visitante acceder a un menú en la parte superior de la página con enlaces a “Log in”, “Sign up”, “Planes”, “Contacto”, etc.</td><td>1</td></tr>
   <tr><td>2</td><td>US02</td><td>Visualización de Planes</td><td>Mostrar planes de suscripción con precio, características y duración, permitiendo compararlos fácilmente.</td><td>2</td></tr>
   <tr><td>3</td><td>US03</td><td>Selección de Plan en Landing Page</td><td>Permitir seleccionar un plan en la landing page y completar un formulario de confirmación en la misma pantalla.</td><td>3</td></tr>
-  <tr><td>4</td><td>US04</td><td>Visualización de creadores</td><td>Mostrar información de los creadores del producto en la sección 'Sobre nosotros' con nombre, foto, rol y descripción.</td><td>2</td></tr>
-  <tr><td>5</td><td>US05</td><td>Redes sociales</td><td>Incluir iconos/enlaces a las redes sociales de Veyra en el footer o header para que el usuario los abra en nuevas pestañas.</td><td>1</td></tr>
-  <tr><td>6</td><td>US06</td><td>Formulario de contacto</td><td>Crear un formulario de contacto con campos (nombre, email, asunto, mensaje) que envíe consultas y muestre mensajes de validación.</td><td>3</td></tr>
-  <tr><td>7</td><td>US07</td><td>Cambio de idioma</td><td>Agregar botón en el menú para alternar entre español e inglés, actualizando toda la interfaz al idioma seleccionado.</td><td>3</td></tr>
-  <tr><td>8</td><td>US39</td><td>Términos y condiciones</td><td>Agregar acceso a un documento de términos y condiciones con políticas de uso y privacidad.</td><td>2</td></tr>
-  <tr><td>9</td><td>US08</td><td>Historial médico</td><td>Permitir a un familiar autenticado acceder al historial médico del residente, mostrando diagnósticos, evolución .</td><td>5</td></tr>
-  <tr><td>10</td><td>US09</td><td>Agenda de citas Médicas</td><td>Permitir a un familiar ver las citas médicas programadas de su familiar, con detalle de fecha, hora, médico .</td><td>5</td></tr>
-  <tr><td>11</td><td>US10</td><td>Consulta de información personal</td><td>Mostrar al familiar la información personal actualizada del residente, permitiéndole solicitar modificaciones en caso de datos incorrectos.</td><td>3</td></tr>
-  <tr><td>12</td><td>US11</td><td>Galería de fotos y actividades</td><td>Presentar al familiar una galería de fotos organizadas por fecha y tipo de actividad, con descripciones y opciones de filtrado.</td><td>3</td></tr>
-  <tr><td>13</td><td>US12</td><td>Registro de residentes</td><td>Permitir a un administrador crear un perfil completo para cada residente (datos personales, médicos, contactos).</td><td>3</td></tr>
-  <tr><td>14</td><td>US13</td><td>Historial médico institucional</td><td>Permitir a un administrador con permisos médicos ver y editar el historial médico completo del residente, registrar diagnósticos y generar reportes.</td><td>8</td></tr>
-  <tr><td>15</td><td>US14</td><td>Administración de medicamentos</td><td>Implementar gestión de administración de medicamentos para llevar un mayor control.</td><td>5</td></tr>
-  <tr><td>16</td><td>US15</td><td>Gestión de visitas familiares</td><td>Permitir a un administrador programar visitas familiares asignando fecha, hora, visitantes y residente, con verificación de disponibilidad.</td><td>5</td></tr>
-  <tr><td>17</td><td>US16</td><td>Recordatorios de citas y consultas</td><td>Enviar recordatorios automáticos a familiares antes de las citas médicas programadas.</td><td>3</td></tr>
-  <tr><td>18</td><td>US17</td><td>Notificaciones de cambios en medicación</td><td>Enviar notificación inmediata a familiares autorizados cuando se actualice la medicación de un residente, incluyendo detalles del cambio.</td><td>3</td></tr>
-  <tr><td>19</td><td>US18</td><td>Recordatorios de visitas familiares</td><td>Enviar recordatorios automáticos a familiares 2 horas antes de visitas programadas, con confirmación o cancelación anticipada.</td><td>3</td></tr>
-  <tr><td>20</td><td>US19</td><td>Alertas de actualización de datos personales</td><td>Notificar automáticamente a familiares autorizados cuando se actualice la información personal del residente, detallando los cambios.</td><td>3</td></tr>
-  <tr><td>21</td><td>US20</td><td>Preguntas sobre rutina de cuidados</td><td>Permitir a un familiar enviar preguntas específicas sobre la rutina de cuidados del residente al personal asignado, con seguimiento del estado.</td><td>3</td></tr>
-  <tr><td>22</td><td>US21</td><td>Peticiones de modificación de cuidados</td><td>Permitir a un familiar solicitar ajustes en el cuidado del residente, registrando la petición con seguimiento y notificación al equipo responsable.</td><td>3</td></tr>
-  <tr><td>23</td><td>US22</td><td>Seguimiento del bienestar emocional</td><td>Permitir a un familiar cunicarse con la casa de reposo sobre el estado emocional del residente.</td><td>3</td></tr>
-  <tr><td>24</td><td>US23</td><td>Planificación de eventos familiares</td><td>Permitir a un familiar coordinar eventos especiales para el residente (cumpleaños, aniversarios) indicando detalles, y gestionar según protocolos institucionales.</td><td>5</td></tr>
-  <tr><td>25</td><td>US24</td><td>Registro de medicamentos en inventario</td><td>Permitir a un administrador registrar nuevos medicamentos en el inventario con información .</td><td>3</td></tr>
-  <tr><td>26</td><td>US25</td><td>Alertas de vencimiento</td><td>Generar alertas automáticas para el administrador de farmacia cuando medicamentos en inventario estén próximos a vencer (30 días) o ya vencidos.</td><td>3</td></tr>
-  <tr><td>27</td><td>US26</td><td>Eliminación de medicamentos</td><td>Permitir a un administrador eliminar medicamentos del inventario
-    y saliendo un mensaje de eliminado correctamente.</td><td>3</td></tr>
-  <tr><td>28</td><td>US27</td><td>Búsqueda y filtrado de inventario</td><td>Permitir al administrador buscar y filtrar medicamentos en el inventario por nombre, laboratorio, fecha de vencimiento o categoría.</td><td>3</td></tr>
-  <tr><td>29</td><td>US28</td><td>Información de medicamentos para personal</td><td>Permitir al personal autorizado consultar información detallada de cada medicamento .</td><td>3</td></tr>
-  <tr><td>30</td><td>US29</td><td>Gestión de perfiles de empleados</td><td>Permitir al administrador registrar y mantener perfiles completos de empleados, con datos personales, profesionales, contactos de emergencia y roles.</td><td>3</td></tr>
-  <tr><td>31</td><td>US30</td><td>Baja de personal</td><td>Permitir al administrador procesar la baja de un empleado.</td><td>3</td></tr>
-  <tr><td>32</td><td>US31</td><td>Búsqueda y filtrado de empleados</td><td>Permitir al administrador buscar y filtrar empleados según criterios (departamento, rol, estado), mostrando resultados precisos.</td><td>3</td></tr>
-  <tr><td>33</td><td>US32</td><td>Gestión de horas extra</td><td>Permitir al administrador registrar horas extra de empleados y validando no superar el limite legal.</td><td>3</td></tr>
-  <tr><td>34</td><td>US33</td><td>Gestión de horarios de atención</td><td>Permitir al administrador configurar los horarios de atención por servicio y día, sincronizando con citas programadas y notificando cambios urgentes.</td><td>3</td></tr>
-  <tr><td>35</td><td>US34</td><td>Datos de contacto institucional</td><td>Permitir al administrador actualizar la información de contacto institucional (teléfono, email, dirección), reflejando cambios en la plataforma inmediatamente.</td><td>2</td></tr>
-  <tr><td>36</td><td>US35</td><td>Información del personal directivo</td><td>Permitir al administrador gestionar la información del personal directivo.</td><td>2</td></tr>
-  <tr><td>37</td><td>US36</td><td>Historia institucional</td><td>Permitir al administrador actualizar la historia, reconocimientos y certificaciones de la institución, presentando la información de forma creíble y consultable.</td><td>2</td></tr>
-  <tr><td>38</td><td>US37</td><td>Gestión de usuarios y permisos</td><td>Permitir al administrador configurar roles y permisos de acceso para usuarios, asegurando que cada uno vea solo lo que corresponde a su rol.</td><td>5</td></tr>
-  <tr><td>39</td><td>US38</td><td>Protección de datos mediante cifrado</td><td>Implementar cifrado automático de datos sensibles almacenados y en tránsito, garantizando que solo usuarios autorizados puedan descifrarlos.</td><td>5</td></tr>
-  <tr><td>40</td><td>US40</td><td>Menú de navegación consistente</td><td>Asegurar que el menú de navegación sea claro y consistente en todas las páginas, adaptándose a permisos de usuario y dispositivos.</td><td>2</td></tr>
-  <tr><td>41</td><td>US41</td><td>Paleta de colores y tipografía</td><td>Aplicar una paleta de colores y tipografía consistente y accesible en toda la interfaz, con opciones de alto contraste para usuarios con dificultades visuales.</td><td>2</td></tr>
-  <tr><td>42</td><td>US42</td><td>Diseño de formularios usables</td><td>Diseñar formularios con campos bien etiquetados, validación en tiempo real y opción de guardar progreso, con mensajes claros de éxito o error.</td><td>3</td></tr>
-  <tr><td>43</td><td>US43</td><td>Patrones de diseño coherentes</td><td>Garantizar que todas las pantallas compartan patrones de diseño similares (botones, controles), para que los usuarios encuentren las funciones donde esperan.</td><td>2</td></tr>
-  <tr><td>44</td><td>US44</td><td>Manejo de errores comprensible</td><td>Mostrar errores del sistema o del usuario de forma clara y educativa, sugiriendo pasos para solucionar problemas y evitando frustraciones.</td><td>3</td></tr>
+  <tr><td>4</td><td>US04</td><td>Visualización de creadores</td><td>Mostrar información de los creadores del producto en la sección “Sobre nosotros” con nombre, foto, rol y descripción.</td><td>2</td></tr>
+  <tr><td>5</td><td>US05</td><td>Redes sociales</td><td>Incluir íconos/enlaces a las redes sociales de Veyra en el footer o header para abrir en nueva pestaña.</td><td>1</td></tr>
+  <tr><td>6</td><td>US06</td><td>Formulario de contacto</td><td>Crear un formulario con (nombre, email, asunto, mensaje) que envíe consultas y valide datos.</td><td>3</td></tr>
+  <tr><td>7</td><td>US07</td><td>Cambio de idioma</td><td>Agregar un control para alternar entre español e inglés, actualizando toda la interfaz.</td><td>3</td></tr>
+  <tr><td>8</td><td>US39</td><td>Términos y condiciones</td><td>Agregar acceso a documento de TyC con políticas de uso y privacidad.</td><td>2</td></tr>
+  <tr><td>9</td><td>US08</td><td>Historial médico</td><td>Permitir a familiares autenticados ver diagnósticos, evolución y últimas actualizaciones del residente.</td><td>5</td></tr>
+  <tr><td>10</td><td>US09</td><td>Agenda de citas médicas</td><td>Permitir a familiares ver citas programadas con fecha, hora, médico y tipo de consulta.</td><td>5</td></tr>
+  <tr><td>11</td><td>US10</td><td>Consulta de información personal</td><td>Mostrar datos personales del residente y permitir solicitar correcciones.</td><td>3</td></tr>
+  <tr><td>12</td><td>US11</td><td>Galería de fotos y actividades</td><td>Presentar galería de actividades con filtros por fecha/tipo y descripciones.</td><td>3</td></tr>
+  <tr><td>13</td><td>US12</td><td>Registro de residentes</td><td>Crear perfiles completos de residentes (datos personales, médicos, contactos).</td><td>3</td></tr>
+  <tr><td>14</td><td>US13</td><td>Historial médico institucional</td><td>Administrar historial médico completo con registro de diagnósticos, tratamientos y reportes.</td><td>8</td></tr>
+  <tr><td>15</td><td>US14</td><td>Administración de medicamentos</td><td>Gestionar administración de medicamentos: dosis, horarios, registro y alertas.</td><td>5</td></tr>
+  <tr><td>16</td><td>US15</td><td>Gestión de visitas familiares</td><td>Programar visitas (fecha, hora, visitantes, residente) con verificación de disponibilidad.</td><td>5</td></tr>
+  <tr><td>17</td><td>US16</td><td>Recordatorios de citas y consultas</td><td>Enviar recordatorios automáticos a familiares antes de citas médicas.</td><td>3</td></tr>
+  <tr><td>18</td><td>US17</td><td>Notificaciones de cambios en medicación</td><td>Notificar de inmediato a familiares autorizados ante cambios en tratamientos.</td><td>3</td></tr>
+  <tr><td>19</td><td>US18</td><td>Recordatorios de visitas familiares</td><td>Enviar recordatorios 2 horas antes de visitas programadas, con confirmación/cancelación.</td><td>3</td></tr>
+  <tr><td>20</td><td>US19</td><td>Alertas de actualización de datos personales</td><td>Notificar a familiares autorizados cuando cambien datos personales del residente.</td><td>3</td></tr>
+  <tr><td>21</td><td>US20</td><td>Preguntas sobre rutina de cuidados</td><td>Permitir a familiares enviar consultas sobre la rutina de cuidados y hacer seguimiento.</td><td>3</td></tr>
+  <tr><td>22</td><td>US21</td><td>Peticiones de modificación de cuidados</td><td>Permitir solicitudes de ajustes en el cuidado, con trazabilidad y notificación al equipo.</td><td>3</td></tr>
+  <tr><td>23</td><td>US22</td><td>Seguimiento del bienestar emocional</td><td>Facilitar comunicación con el equipo psicosocial sobre el estado emocional del residente.</td><td>3</td></tr>
+  <tr><td>24</td><td>US23</td><td>Planificación de eventos familiares</td><td>Coordinar eventos especiales (cumpleaños, aniversarios) según protocolos.</td><td>5</td></tr>
+  <tr><td>25</td><td>US24</td><td>Registro de medicamentos en inventario</td><td>Registrar ingresos de medicamentos (lote, fecha de vencimiento, cantidad, etc.).</td><td>3</td></tr>
+  <tr><td>26</td><td>US25</td><td>Alertas de vencimiento</td><td>Generar alertas automáticas por medicamentos próximos a vencer o vencidos.</td><td>3</td></tr>
+  <tr><td>27</td><td>US26</td><td>Eliminación de medicamentos</td><td>Realizar eliminación controlada con auditoría (soft-delete) y confirmación visual.</td><td>3</td></tr>
+  <tr><td>28</td><td>US27</td><td>Búsqueda y filtrado de inventario</td><td>Buscar/filtrar medicamentos por nombre, laboratorio, vencimiento o categoría.</td><td>3</td></tr>
+  <tr><td>29</td><td>US28</td><td>Información de medicamentos para personal</td><td>Mostrar ficha detallada (dosificación, contraindicaciones, interacciones, protocolos).</td><td>3</td></tr>
+  <tr><td>30</td><td>US29</td><td>Gestión de perfiles de empleados</td><td>Registrar y mantener perfiles del personal con roles y permisos iniciales.</td><td>3</td></tr>
+  <tr><td>31</td><td>US30</td><td>Baja de personal</td><td>Procesar bajas desactivando accesos y gestionando tareas pendientes.</td><td>3</td></tr>
+  <tr><td>32</td><td>US31</td><td>Búsqueda y filtrado de empleados</td><td>Filtrar empleados por departamento, rol, turno y estado; exportable.</td><td>3</td></tr>
+  <tr><td>33</td><td>US32</td><td>Gestión de horas extra</td><td>Registrar horas extra, validar límites legales y calcular montos.</td><td>3</td></tr>
+  <tr><td>34</td><td>US33</td><td>Gestión de horarios de atención</td><td>Configurar horarios por servicio y día, sincronizando con citas y notificando cambios.</td><td>3</td></tr>
+  <tr><td>35</td><td>US34</td><td>Datos de contacto institucional</td><td>Actualizar teléfonos, emails, dirección y contactos; reflejar cambios en toda la plataforma.</td><td>2</td></tr>
+  <tr><td>36</td><td>US35</td><td>Información del personal directivo</td><td>Gestionar y publicar información del personal directivo con credenciales y roles.</td><td>2</td></tr>
+  <tr><td>37</td><td>US36</td><td>Historia institucional</td><td>Actualizar historia, reconocimientos y certificaciones de la institución.</td><td>2</td></tr>
+  <tr><td>38</td><td>US37</td><td>Gestión de usuarios y permisos</td><td>Configurar roles y permisos; asegurar acceso sólo a información autorizada.</td><td>5</td></tr>
+  <tr><td>39</td><td>US38</td><td>Protección de datos mediante cifrado</td><td>Aplicar cifrado en tránsito y en reposo para datos sensibles.</td><td>5</td></tr>
+  <tr><td>40</td><td>US40</td><td>Menú de navegación consistente</td><td>Mantener un menú claro y consistente, adaptado a permisos y dispositivos.</td><td>2</td></tr>
+  <tr><td>41</td><td>US41</td><td>Paleta de colores y tipografía</td><td>Aplicar colores y tipografías consistentes y accesibles (alto contraste opcional).</td><td>2</td></tr>
+  <tr><td>42</td><td>US42</td><td>Diseño de formularios usables</td><td>Formularios con etiquetas claras, validación en tiempo real y guardado de progreso.</td><td>3</td></tr>
+  <tr><td>43</td><td>US43</td><td>Patrones de diseño coherentes</td><td>Unificar patrones de interacción para que funciones estén donde el usuario espera.</td><td>2</td></tr>
+  <tr><td>44</td><td>US44</td><td>Manejo de errores comprensible</td><td>Mostrar errores con mensajes claros y pasos sugeridos para resolverlos.</td><td>3</td></tr>
 </table>
