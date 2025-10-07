@@ -456,7 +456,10 @@ La organización de roles de líderes y colaboradores está alineada con la post
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-  <>Herramientas usadas: GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. Se muestran diagramas de commits por integrante (referencia en el documento original).<>
+
+![overview-spring1.png](../assets/img/chapter-V/overview-spring1.png)
+![network-graph-sprint1.png](../assets/img/chapter-V/network-graph-sprint1.png)
+![visitors-sprint1.png](../assets/img/chapter-V/visitors-sprint1.png)
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
