@@ -224,7 +224,17 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   <tr>
     <td>Resumen</td>
     <td>
-		La entrevistada tiene 26 años de experiencia en la gestión de casas de reposo. Su rol combina labores administrativas con la supervisión del personal asistencial. La comunicación con familiares se realiza de forma permanente por teléfono, WhatsApp y videollamadas. Entre los principales desafíos, destacó la pandemia, que exigió un control minucioso y protocolos estrictos de bioseguridad. La gestión de la información se lleva en expedientes físicos y bases de datos básicas, donde registran evolución del paciente, medicación, higiene, actividades recreativas y útiles de aseo. Mantienen comunicación constante con las familias e incentivan su participación.
+		La Lic. Caychomata se presenta como una profesional con 26 años de experiencia en la gestión del centro residencial "La Virgen de la Medalla Milagrosa". Su personalidad es metódica y enfocada en la mejora continua, destacando cómo han tenido que "innovar nuevas cosas" constantemente. Su rol es integral, abarcando la parte administrativa y la supervisión asistencial.
+
+Comunicación y Canales de Interacción: Utiliza principalmente llamadas telefónicas y WhatsApp para la comunicación diaria con los familiares, y recurre a videollamadas para los casos con familiares en el extranjero. Fomenta activamente las visitas presenciales y la participación en actividades.
+
+Tecnología y Dispositivos: Maneja una "base de datos" no especificada para la información de los residentes e inventarios, complementada con expedientes físicos. Demuestra adaptabilidad al haber implementado videollamadas durante la pandemia. No especifica el navegador o dispositivo, pero se infiere el uso de un smartphone para WhatsApp y una computadora para la base de datos.
+
+Gestión de la Información: Lleva expedientes físicos (historias clínicas) y registros en planillas físicas o digitales para control de medicamentos y útiles de aseo. La gestión es minuciosa, con reportes diarios de enfermería.
+
+Desafíos y Perspectivas: El mayor desafío pasado fue la pandemia, que requirió un control exhaustivo y medidas de bioseguridad extremas. Valora la comunicación permanente y la transparencia con la familia. Implícitamente, necesita un sistema que unifique sus métodos físicos y digitales para una gestión más eficiente.
+
+Marcas e Influencias: No menciona marcas de software específicas. Su influencia es la experiencia práctica de 26 años en el rubro, observando la evolución del sector.
 </td>
   </tr>
 </tbody>
@@ -270,7 +280,17 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado, con 21 años de experiencia, dirige tres casas de reposo. La comunicación con familiares se realiza mediante grupos de WhatsApp, lo que permite informar de forma inmediata y a todos los miembros a la vez. Señala que el mayor inconveniente está en la rotación de personal, más que en la organización interna. Actualmente gestionan la información en formato físico (historias clínicas, contratos, tarjetas de medicación), mientras que los temas administrativos los maneja en Excel, donde lleva un control detallado de gastos e ingresos. Considera necesario digitalizar el sistema para evitar pérdida de documentos y optimizar procesos. Para una plataforma de gestión, sugiere incluir secciones simples para contratos, historias clínicas, informes médicos, archivos adjuntos y un módulo de información básica accesible a los familiares.
+		Oscar Navarrete es el Gerente General de una residencia geriátrica con 21 años de experiencia. Su personalidad es marcadamente ordenada, disciplinada y orientada a los procesos. Se describe a sí mismo como "puro cuadrito" y utiliza protocolos establecidos para todas las operaciones.
+
+Comunicación y Canales de Interacción: Su canal principal y altamente efectivo son los grupos de WhatsApp familiares. Destaca las ventajas de la inmediatez, la transparencia (toda la familia recibe la misma información) y la eficiencia para la toma de decisiones, incluso con familiares en el extranjero.
+
+Tecnología y Dispositivos: Es un usuario avanzado de Microsoft Excel para toda su gestión administrativa (finanzas, control de inventario de insumos, pagos). Para las historias clínicas, utiliza sistemas 100% físicos (formato CARDES). Muestra resistencia a adoptar nuevas plataformas ("Más difícil que me metan otras cosas"), pero un deseo explícito de digitalizar las historias clínicas para mayor orden y acceso. Utiliza presumably una computadora de escritorio/laptop para sus Excels y un smartphone para WhatsApp.
+
+Gestión de la Información: La gestión clínica es física, mientras que la administrativa es digital mediante sus "cuadritos" en Excel. Lleva un control detallado de la duración de los insumos para optimizar compras.
+
+Desafíos y Perspectivas: Su mayor desafío actual es la gestión y retención del personal técnico. Requiere una plataforma digital que sea funcional, sencilla y básica, sin la complejidad de los sistemas hospitalarios. Considera esencial un portal de información básica para familiares que complemente al WhatsApp.
+
+Marcas e Influencias: Microsoft Excel es su herramienta principal. Busca una solución inspirada en sistemas de salud como el ESI (Establecimiento de Salud del MINSA), pero significativamente simplificada.
 </td>
   </tr>
 </tbody>
@@ -316,7 +336,17 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado señaló que el principal desafío es personalizar la atención, ya que cada adulto mayor tiene necesidades diferentes. En comunicación, un problema frecuente es que los familiares no siempre están disponibles. Actualmente gestionan la información en un sistema propio de la casa de reposo, aunque este resulta complejo y presenta limitaciones, especialmente en la gestión de recetas médicas, que no siempre están integradas. Considera esencial que una plataforma de gestión sea amplia, integrando todos los aspectos médicos y administrativos en un solo lugar, incluyendo recetas externas. También destacó la importancia de notificaciones claras y rápidas a los familiares.
+		El Sr. Recoba tiene un rol de cuidado directo ("cuidando a los adultos mayores") y cuenta con experiencia previa en un hospital. Representa una perspectiva más operativa y de primera línea dentro de la residencia. Su perspectiva es práctica y está centrada en las dificultades del día a día.
+
+Comunicación y Canales de Interacción: Confirma que la comunicación con los familiares se realiza mediante llamadas, SMS y WhatsApp.
+
+Tecnología y Dispositivos: Menciona que la residencia donde trabajaba utilizaba un "sistema" general, pero no especifica cuál. Su experiencia con este sistema fue negativa, describiéndolo como "muy complejo".
+
+Gestión de la Información: Experimentó de primera mano la fragmentación de la información. Señala un problema específico: las recetas médicas no se integraban bien en el sistema principal y había que consultarlas "muy aparte", lo que generaba incoherencias y complicaciones.
+
+Desafíos y Perspectivas: Desde su punto de vista, el mayor desafío es la personalización del cuidado, señalando que "cada adulto tiene su propia necesidad". También identifica un problema en la comunicación: la dependencia de un familiar designado que a veces no está pendiente del teléfono.
+
+Funcionalidades Deseadas: Para una plataforma, considera esencial que centralice y aglomere toda la información, especialmente las recetas médicas, sin importar su origen (médicos internos o externos). También pide que habilite múltiples medios de notificación para superar la dependencia de una sola persona.
 </td>
   </tr>
 </tbody>
@@ -364,7 +394,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   <tr>
     <td>Resumen</td>
     <td>
-		La entrevistada, comerciante de Sullana, señala que le gustaría tener información del tratamiento y evolucion de su familiar mientras está trabajando. También menciona que cuando ocurre una urgencia médica, nunca se entera de lo sucedido a tiempo. Finalmente, le gustaría que la plataforma sea intuitiva y sencillo de usar.
+		La Sra. Ivonne, comerciante de Sullana, comenta que ha tenido dificultades para acceder a la información sobre la salud de sus familiares, además cuando ocurre una urgencia médica Ivonne nos comenta que es muy dificil que se pueda enterar de lo sucedido, es por elo que le gustaría tener una aplicación que pueda brindarle la información detallada del familiar o paciente (Por ejemplo menciona que debería mostrarse los medicamentos y tratamientos que está llevando el familiar), de esta manera ella podrá estar informada en todo momento y lugar. Por útimo, menciona que le gustaría que la aplicacion sea sencilla y rápida de usar.
 </td>
   </tr>
 </tbody>
@@ -410,7 +440,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado, señaló que tiene dificultades para obtener información clara y oportuna, pues debe llamar varias veces y recibe datos breves o inconsistentes. Le gustaría acceder de forma organizada al estado de salud, medicación, citas, resultados médicos y reportes de alimentación o actividades. Indicó que se sentiría cómodo usando una plataforma web segura, fácil y accesible desde cualquier dispositivo. Sobre las urgencias, comentó que hoy se entera solo por llamadas, a veces con demoras, y preferiría notificaciones inmediatas por varios canales. Finalmente, resaltó que confiaría en la plataforma si garantiza seguridad, acceso restringido, información actualizada, comunicación directa con el personal y protocolos claros en emergencias.
+		El entrevistado Leo Gómez, persona a cargo de cuidar a su abuela de 65 años, señaló que tiene dificultades para obtener información clara y oportuna, pues debe llamar varias veces al personal y recibe datos breves o inconsistentes. Es por ello que Le gustaría acceder de forma detallada y organizada al estado de salud, medicación, citas médicas, resultados médicos y reportes de alimentación o actividades. Indicó que se sentiría cómodo usando una plataforma web segura, fácil y accesible desde cualquier dispositivo. Sobre las urgencias, comentó que hoy se entera solo por llamadas, a veces con demoras, y preferiría notificaciones inmediatas por diferentes canales como llamadas, mensajes de texto o por correo electrónico. Finalmente, resaltó que confiaría en la plataforma si garantiza seguridad, acceso restringido, información actualizada, comunicación directa con el personal y protocolos claros en emergencias.
 
 </td>
   </tr>
@@ -457,7 +487,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado señaló que enfrenta dificultades para acceder a información sobre la salud de su familiar, ya que debe esperar llamadas de la casa de reposo y muchas veces la información no llega de manera inmediata, lo que le genera preocupación, sobre todo en temas médicos o de medicación. Expresó que le gustaría consultar de forma organizada la medicación diaria, informes de chequeos médicos, citas programadas y cambios en el tratamiento. Indicó sentirse cómodo utilizando plataformas web para este propósito, ya que está familiarizado con herramientas digitales en su trabajo y considera que centralizar la información sería de gran ayuda. Respecto a las urgencias médicas, comentó que suele enterarse por teléfono, pero no siempre de inmediato, lo cual le provoca ansiedad al no poder estar informado en tiempo real. Finalmente, afirmó que una plataforma de este tipo le generaría confianza si es segura, rápida, confiable, con información actualizada y con alertas instantáneas ante urgencias o cambios en la salud de su mamá.
+		El entrevistado Jonathan Ramirez, apoderado legal y responsable directo de su mamá (residente en la casa de reposo), señaló que enfrenta dificultades para acceder a información sobre la salud de su familiar, ya que debe esperar llamadas de la casa de reposo y muchas veces la información no llega de manera inmediata, lo que le genera preocupación, sobre todo en temas médicos o de medicación. Expresó que le gustaría consultar de forma organizada la medicación diaria, informes de chequeos médicos, citas programadas y cambios en el tratamiento. Indicó sentirse cómodo utilizando plataformas web para este propósito, ya que está familiarizado con herramientas digitales en su trabajo y considera que centralizar la información sería de gran ayuda. Respecto a las urgencias médicas, comentó que suele enterarse por teléfono, pero no siempre de inmediato, lo cual le provoca ansiedad al no poder estar informado en tiempo real. Finalmente, afirmó que una plataforma de este tipo le generaría confianza si es segura, rápida, confiable, con información actualizada y con alertas instantáneas ante urgencias o cambios en la salud de su mamá.
 </td>
   </tr>
 </tbody>
@@ -466,67 +496,12 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 ### 2.2.3. Análisis de entrevistas
 
 El objetivo de las entrevistas fue identificar los problemas, necesidades y expectativas de los **administradores de casas de reposo** y los **familiares de adultos mayores**, con el fin de validar hipótesis sobre la comunicación, gestión de información y funciones necesarias en una aplicación que facilite la coordinación y el cuidado.
+<td><img src="../images/Administradores.png" alt="Administradores"></td>
+<td><img src="../images/Familiares.png" alt="Administradores"></td>
+<td><img src="../images/Comparativo-SegmentosObjetivos.png" alt="Administradores"></td>
 
-### Síntesis de hallazgos  
-
-#### Canales de comunicación  
-Actualmente predominan las **llamadas telefónicas (50%)** y **WhatsApp (33.3%)**, mientras que las videollamadas son poco frecuentes (16.7%). Esto indica la necesidad de centralizar la comunicación en un único sistema confiable.  
-
-**Tabla de resultados:**
-
-| Canal         | Porcentaje |
-|---------------|------------|
-| Llamadas      | 50%        |
-| WhatsApp      | 33.3%      |
-| Videollamadas | 16.7%      |
-
-#### Gestión de información  
-Un **33.3% aún depende de papel o Excel**, un **16.7% usa sistemas propios** y el resto emplea métodos variados. Esto evidencia falta de estandarización en la gestión de datos.  
-
-**Tabla de resultados:**
-
-| Método           | Porcentaje |
-|------------------|------------|
-| Papel/Excel      | 33.3%      |
-| Sistema propio   | 16.7%      |
-| Otros            | 50%        |
-
-#### Problemas más frecuentes  
-Los principales problemas reportados fueron:  
-
-- **Urgencias sin aviso (50%)**  
-- **Procesos manuales y duplicados (33.3%)**  
-- **Rotación de personal y dificultad de continuidad (16.7%)**  
-- **Sistemas complejos que dificultan el uso (16.7%)**  
-
-**Tabla de resultados:**
-
-| Problema                      | Porcentaje |
-|-------------------------------|------------|
-| Urgencias sin aviso           | 50%        |
-| Procesos manuales/duplicados  | 33.3%      |
-| Rotación de personal          | 16.7%      |
-| Sistemas complejos            | 16.7%      |
-
-#### Funciones más valoradas  
-Las funciones que los entrevistados consideran más útiles son:  
-
-- **Acceso organizado a la información (83.3%)**  
-- **Notificaciones inmediatas (66.7%)**  
-- **Interfaz sencilla (50%)**  
-- **Módulos para contratos y documentos (16.7%)**  
-
-**Tabla de resultados:**
-
-| Función                        | Porcentaje |
-|--------------------------------|------------|
-| Acceso organizado a la info    | 83.3%      |
-| Notificaciones inmediatas      | 66.7%      |
-| Interfaz sencilla              | 50%        |
-| Módulos contratos/documentos   | 16.7%      |
 
 ### Conclusiones  
-
 1. Existe una **fuerte necesidad de digitalización**: todavía se depende de llamadas, papel o Excel, lo que genera ineficiencia.  
 2. Los problemas más críticos se relacionan con **la falta de aviso en urgencias y la duplicidad de procesos**, lo que impacta directamente en la seguridad de los adultos mayores.  
 3. Las soluciones más esperadas giran en torno a **notificaciones automáticas, centralización de información y facilidad de uso**, lo que indica que la aplicación debe ser intuitiva y accesible.  
