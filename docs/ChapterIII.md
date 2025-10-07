@@ -1132,51 +1132,51 @@ entonces el servicio responde 400 si no coincide .
 ## 3.3. Product Backlog
 
 <table border="1" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td><strong>Orden</strong></td><td><strong>User Story Id</strong></td><td><strong>Título</strong></td><td><strong>Descripción</strong></td><td><strong>Story Points (1/2/3/5/8)</strong></td>
-  </tr>
-  <tr><td>1</td><td>US01</td><td>Menú de navegación</td><td>Permitir al visitante acceder a un menú en la parte superior de la página con enlaces a “Log in”, “Sign up”, “Planes”, “Contacto”, etc.</td><td>1</td></tr>
-  <tr><td>2</td><td>US02</td><td>Visualización de Planes</td><td>Mostrar planes de suscripción con precio, características y duración, permitiendo compararlos fácilmente.</td><td>2</td></tr>
-  <tr><td>3</td><td>US03</td><td>Selección de Plan en Landing Page</td><td>Permitir seleccionar un plan en la landing page y completar un formulario de confirmación en la misma pantalla.</td><td>3</td></tr>
-  <tr><td>4</td><td>US04</td><td>Visualización de creadores</td><td>Mostrar información de los creadores del producto en la sección “Sobre nosotros” con nombre, foto, rol y descripción.</td><td>2</td></tr>
-  <tr><td>5</td><td>US05</td><td>Redes sociales</td><td>Incluir íconos/enlaces a las redes sociales de Veyra en el footer o header para abrir en nueva pestaña.</td><td>1</td></tr>
-  <tr><td>6</td><td>US06</td><td>Formulario de contacto</td><td>Crear un formulario con (nombre, email, asunto, mensaje) que envíe consultas y valide datos.</td><td>3</td></tr>
-  <tr><td>7</td><td>US07</td><td>Cambio de idioma</td><td>Agregar un control para alternar entre español e inglés, actualizando toda la interfaz.</td><td>3</td></tr>
-  <tr><td>8</td><td>US39</td><td>Términos y condiciones</td><td>Agregar acceso a documento de TyC con políticas de uso y privacidad.</td><td>2</td></tr>
-  <tr><td>9</td><td>US08</td><td>Historial médico</td><td>Permitir a familiares autenticados ver diagnósticos, evolución y últimas actualizaciones del residente.</td><td>5</td></tr>
-  <tr><td>10</td><td>US09</td><td>Agenda de citas médicas</td><td>Permitir a familiares ver citas programadas con fecha, hora, médico y tipo de consulta.</td><td>5</td></tr>
-  <tr><td>11</td><td>US10</td><td>Consulta de información personal</td><td>Mostrar datos personales del residente y permitir solicitar correcciones.</td><td>3</td></tr>
-  <tr><td>12</td><td>US11</td><td>Galería de fotos y actividades</td><td>Presentar galería de actividades con filtros por fecha/tipo y descripciones.</td><td>3</td></tr>
-  <tr><td>13</td><td>US12</td><td>Registro de residentes</td><td>Crear perfiles completos de residentes (datos personales, médicos, contactos).</td><td>3</td></tr>
-  <tr><td>14</td><td>US13</td><td>Historial médico institucional</td><td>Administrar historial médico completo con registro de diagnósticos, tratamientos y reportes.</td><td>8</td></tr>
-  <tr><td>15</td><td>US14</td><td>Administración de medicamentos</td><td>Gestionar administración de medicamentos: dosis, horarios, registro y alertas.</td><td>5</td></tr>
-  <tr><td>16</td><td>US15</td><td>Gestión de visitas familiares</td><td>Programar visitas (fecha, hora, visitantes, residente) con verificación de disponibilidad.</td><td>5</td></tr>
-  <tr><td>17</td><td>US16</td><td>Recordatorios de citas y consultas</td><td>Enviar recordatorios automáticos a familiares antes de citas médicas.</td><td>3</td></tr>
-  <tr><td>18</td><td>US17</td><td>Notificaciones de cambios en medicación</td><td>Notificar de inmediato a familiares autorizados ante cambios en tratamientos.</td><td>3</td></tr>
-  <tr><td>19</td><td>US18</td><td>Recordatorios de visitas familiares</td><td>Enviar recordatorios 2 horas antes de visitas programadas, con confirmación/cancelación.</td><td>3</td></tr>
-  <tr><td>20</td><td>US19</td><td>Alertas de actualización de datos personales</td><td>Notificar a familiares autorizados cuando cambien datos personales del residente.</td><td>3</td></tr>
-  <tr><td>21</td><td>US20</td><td>Preguntas sobre rutina de cuidados</td><td>Permitir a familiares enviar consultas sobre la rutina de cuidados y hacer seguimiento.</td><td>3</td></tr>
-  <tr><td>22</td><td>US21</td><td>Peticiones de modificación de cuidados</td><td>Permitir solicitudes de ajustes en el cuidado, con trazabilidad y notificación al equipo.</td><td>3</td></tr>
-  <tr><td>23</td><td>US22</td><td>Seguimiento del bienestar emocional</td><td>Facilitar comunicación con el equipo psicosocial sobre el estado emocional del residente.</td><td>3</td></tr>
-  <tr><td>24</td><td>US23</td><td>Planificación de eventos familiares</td><td>Coordinar eventos especiales (cumpleaños, aniversarios) según protocolos.</td><td>5</td></tr>
-  <tr><td>25</td><td>US24</td><td>Registro de medicamentos en inventario</td><td>Registrar ingresos de medicamentos (lote, fecha de vencimiento, cantidad, etc.).</td><td>3</td></tr>
-  <tr><td>26</td><td>US25</td><td>Alertas de vencimiento</td><td>Generar alertas automáticas por medicamentos próximos a vencer o vencidos.</td><td>3</td></tr>
-  <tr><td>27</td><td>US26</td><td>Eliminación de medicamentos</td><td>Realizar eliminación controlada con auditoría (soft-delete) y confirmación visual.</td><td>3</td></tr>
-  <tr><td>28</td><td>US27</td><td>Búsqueda y filtrado de inventario</td><td>Buscar/filtrar medicamentos por nombre, laboratorio, vencimiento o categoría.</td><td>3</td></tr>
-  <tr><td>29</td><td>US28</td><td>Información de medicamentos para personal</td><td>Mostrar ficha detallada (dosificación, contraindicaciones, interacciones, protocolos).</td><td>3</td></tr>
-  <tr><td>30</td><td>US29</td><td>Gestión de perfiles de empleados</td><td>Registrar y mantener perfiles del personal con roles y permisos iniciales.</td><td>3</td></tr>
-  <tr><td>31</td><td>US30</td><td>Baja de personal</td><td>Procesar bajas desactivando accesos y gestionando tareas pendientes.</td><td>3</td></tr>
-  <tr><td>32</td><td>US31</td><td>Búsqueda y filtrado de empleados</td><td>Filtrar empleados por departamento, rol, turno y estado; exportable.</td><td>3</td></tr>
-  <tr><td>33</td><td>US32</td><td>Gestión de horas extra</td><td>Registrar horas extra, validar límites legales y calcular montos.</td><td>3</td></tr>
-  <tr><td>34</td><td>US33</td><td>Gestión de horarios de atención</td><td>Configurar horarios por servicio y día, sincronizando con citas y notificando cambios.</td><td>3</td></tr>
-  <tr><td>35</td><td>US34</td><td>Datos de contacto institucional</td><td>Actualizar teléfonos, emails, dirección y contactos; reflejar cambios en toda la plataforma.</td><td>2</td></tr>
-  <tr><td>36</td><td>US35</td><td>Información del personal directivo</td><td>Gestionar y publicar información del personal directivo con credenciales y roles.</td><td>2</td></tr>
-  <tr><td>37</td><td>US36</td><td>Historia institucional</td><td>Actualizar historia, reconocimientos y certificaciones de la institución.</td><td>2</td></tr>
-  <tr><td>38</td><td>US37</td><td>Gestión de usuarios y permisos</td><td>Configurar roles y permisos; asegurar acceso sólo a información autorizada.</td><td>5</td></tr>
-  <tr><td>39</td><td>US38</td><td>Protección de datos mediante cifrado</td><td>Aplicar cifrado en tránsito y en reposo para datos sensibles.</td><td>5</td></tr>
-  <tr><td>40</td><td>US40</td><td>Menú de navegación consistente</td><td>Mantener un menú claro y consistente, adaptado a permisos y dispositivos.</td><td>2</td></tr>
-  <tr><td>41</td><td>US41</td><td>Paleta de colores y tipografía</td><td>Aplicar colores y tipografías consistentes y accesibles (alto contraste opcional).</td><td>2</td></tr>
-  <tr><td>42</td><td>US42</td><td>Diseño de formularios usables</td><td>Formularios con etiquetas claras, validación en tiempo real y guardado de progreso.</td><td>3</td></tr>
-  <tr><td>43</td><td>US43</td><td>Patrones de diseño coherentes</td><td>Unificar patrones de interacción para que funciones estén donde el usuario espera.</td><td>2</td></tr>
-  <tr><td>44</td><td>US44</td><td>Manejo de errores comprensible</td><td>Mostrar errores con mensajes claros y pasos sugeridos para resolverlos.</td><td>3</td></tr>
+  <tr>
+    <td><strong>Orden</strong></td><td><strong>User Story Id</strong></td><td><strong>Título</strong></td><td><strong>Descripción</strong></td><td><strong>Story Points (1/2/3/5/8)</strong></td>
+  </tr>
+  <tr><td>1</td><td>US01</td><td>Menú de navegación</td><td>Como visitante de la landing page, quiero acceder a un menú superior con enlaces a “Log in”, “Sign up”, “Planes” y “Contacto”, para navegar rápidamente a secciones clave.</td><td>1</td></tr>
+  <tr><td>2</td><td>US02</td><td>Visualización de Planes</td><td>Como visitante, quiero ver planes con precio, características y duración, para comparar y elegir el que mejor se adapte a mis necesidades.</td><td>2</td></tr>
+  <tr><td>3</td><td>US03</td><td>Selección de Plan en Landing Page</td><td>Como visitante, quiero seleccionar un plan y confirmarlo en la misma pantalla, para agilizar y simplificar mi registro.</td><td>3</td></tr>
+  <tr><td>4</td><td>US04</td><td>Visualización de creadores</td><td>Como visitante, quiero ver al equipo creador (nombre, foto, rol y descripción), para generar confianza en el servicio.</td><td>2</td></tr>
+  <tr><td>5</td><td>US05</td><td>Redes sociales</td><td>Como visitante, quiero acceder a las redes sociales desde el header o footer, para conocer más de la empresa y tener canales adicionales de contacto.</td><td>1</td></tr>
+  <tr><td>6</td><td>US06</td><td>Formulario de contacto</td><td>Como visitante, quiero enviar consultas mediante un formulario con validación, para recibir una respuesta personalizada.</td><td>3</td></tr>
+  <tr><td>7</td><td>US07</td><td>Cambio de idioma</td><td>Como visitante, quiero cambiar entre español e inglés desde el menú, para entender mejor el contenido.</td><td>3</td></tr>
+  <tr><td>8</td><td>US39</td><td>Términos y condiciones</td><td>Como visitante, quiero acceder a los términos y condiciones, para conocer las políticas legales antes de contratar.</td><td>2</td></tr>
+  <tr><td>9</td><td>US08</td><td>Historial médico</td><td>Como familiar de un adulto mayor, quiero acceder al historial médico completo, para conocer su evolución y diagnósticos actuales.</td><td>5</td></tr>
+  <tr><td>10</td><td>US09</td><td>Agenda de citas médicas</td><td>Como familiar, quiero consultar la agenda de citas médicas, para estar informada y planificar con anticipación.</td><td>5</td></tr>
+  <tr><td>11</td><td>US10</td><td>Consulta de información personal</td><td>Como familiar, quiero ver la información personal del residente, para verificar que esté correcta o solicitar cambios.</td><td>3</td></tr>
+  <tr><td>12</td><td>US11</td><td>Galería de fotos y actividades</td><td>Como familiar, quiero ver fotos de actividades organizadas por fecha y tipo, para sentirme conectada y verificar su participación social.</td><td>3</td></tr>
+  <tr><td>13</td><td>US12</td><td>Registro de residentes</td><td>Como administradora de la casa de reposo, quiero crear perfiles completos de los residentes, para centralizar su información personal y médica.</td><td>3</td></tr>
+  <tr><td>14</td><td>US13</td><td>Historial médico institucional</td><td>Como administradora con permisos médicos, quiero gestionar el historial médico de cada residente, para asegurar continuidad de cuidado y cumplir regulaciones.</td><td>8</td></tr>
+  <tr><td>15</td><td>US14</td><td>Administración de medicamentos</td><td>Como administradora, quiero controlar la administración de medicamentos, para garantizar cumplimiento de tratamientos y evitar errores.</td><td>5</td></tr>
+  <tr><td>16</td><td>US15</td><td>Gestión de visitas familiares</td><td>Como administradora, quiero programar y controlar visitas familiares, para mantener seguridad, orden y horarios establecidos.</td><td>5</td></tr>
+  <tr><td>17</td><td>US16</td><td>Recordatorios de citas y consultas</td><td>Como familiar, quiero recibir recordatorios automáticos de citas médicas, para estar preparada y decidir si acompañaré.</td><td>3</td></tr>
+  <tr><td>18</td><td>US17</td><td>Notificaciones de cambios en medicación</td><td>Como familiar, quiero ser notificada ante cambios en la medicación, para estar informada del tratamiento.</td><td>3</td></tr>
+  <tr><td>19</td><td>US18</td><td>Recordatorios de visitas familiares</td><td>Como familiar, quiero recibir recordatorios de mis visitas programadas, para no olvidar y mantener regularidad en el contacto.</td><td>3</td></tr>
+  <tr><td>20</td><td>US19</td><td>Alertas de actualización de datos personales</td><td>Como familiar, quiero recibir notificaciones cuando se actualicen datos personales del residente, para mantenerme informada de cualquier cambio.</td><td>3</td></tr>
+  <tr><td>21</td><td>US20</td><td>Preguntas sobre rutina de cuidados</td><td>Como familiar, quiero enviar preguntas a cuidadores sobre la rutina diaria, para resolver dudas puntuales.</td><td>3</td></tr>
+  <tr><td>22</td><td>US21</td><td>Peticiones de modificación de cuidados</td><td>Como familiar, quiero solicitar ajustes específicos en el cuidado, para adecuarlo a preferencias o necesidades particulares.</td><td>3</td></tr>
+  <tr><td>23</td><td>US22</td><td>Seguimiento del bienestar emocional</td><td>Como familiar, quiero comunicarme sobre el estado emocional y psicológico del residente, para asegurar su bienestar integral.</td><td>3</td></tr>
+  <tr><td>24</td><td>US23</td><td>Planificación de eventos familiares</td><td>Como familiar, quiero coordinar eventos o celebraciones dentro de la institución, para organizar ocasiones especiales del residente.</td><td>5</td></tr>
+  <tr><td>25</td><td>US24</td><td>Registro de medicamentos en inventario</td><td>Como administradora, quiero registrar medicamentos con datos completos, para mantener un inventario actualizado.</td><td>3</td></tr>
+  <tr><td>26</td><td>US25</td><td>Alertas de vencimiento</td><td>Como administradora, quiero recibir alertas sobre medicamentos próximos a vencer, para evitar pérdidas y riesgos de seguridad.</td><td>3</td></tr>
+  <tr><td>27</td><td>US26</td><td>Eliminación de medicamentos</td><td>Como administradora, quiero eliminar medicamentos del inventario de forma controlada, para mantener la precisión del stock y cumplir protocolos.</td><td>3</td></tr>
+  <tr><td>28</td><td>US27</td><td>Búsqueda y filtrado de inventario</td><td>Como administradora, quiero filtrar y buscar medicamentos por criterios, para encontrar información específica y generar reportes.</td><td>3</td></tr>
+  <tr><td>29</td><td>US28</td><td>Información de medicamentos para personal</td><td>Como administradora, quiero brindar información detallada de medicamentos al personal, para asegurar una administración segura y correcta.</td><td>3</td></tr>
+  <tr><td>30</td><td>US29</td><td>Gestión de perfiles de empleados</td><td>Como administradora, quiero registrar y mantener perfiles completos del personal, para tener información actualizada y asignar roles.</td><td>3</td></tr>
+  <tr><td>31</td><td>US30</td><td>Baja de personal</td><td>Como administradora, quiero dar de baja empleados y revocar accesos, para mantener registros al día y cerrar contratos.</td><td>3</td></tr>
+  <tr><td>32</td><td>US31</td><td>Búsqueda y filtrado de empleados</td><td>Como administradora, quiero filtrar y buscar empleados por criterios, para encontrar rápidamente personal específico.</td><td>3</td></tr>
+  <tr><td>33</td><td>US32</td><td>Gestión de horas extra</td><td>Como administradora, quiero controlar horas extra trabajadas, para gestionar costos laborales y cumplir regulaciones.</td><td>3</td></tr>
+  <tr><td>34</td><td>US33</td><td>Gestión de horarios de atención</td><td>Como administradora, quiero configurar horarios de atención y servicios, para informar disponibilidad y sincronizar citas.</td><td>3</td></tr>
+  <tr><td>35</td><td>US34</td><td>Datos de contacto institucional</td><td>Como administradora, quiero actualizar los datos de contacto institucional, para que familias y autoridades accedan a información vigente.</td><td>2</td></tr>
+  <tr><td>36</td><td>US35</td><td>Información del personal directivo</td><td>Como administradora, quiero gestionar la información del personal directivo, para dar transparencia a familias y autoridades.</td><td>2</td></tr>
+  <tr><td>37</td><td>US36</td><td>Historia institucional</td><td>Como administradora, quiero gestionar historia y reconocimientos de la institución, para generar confianza y credibilidad.</td><td>2</td></tr>
+  <tr><td>38</td><td>US37</td><td>Gestión de usuarios y permisos</td><td>Como administradora, quiero configurar roles y permisos de acceso, para proteger la privacidad de los datos.</td><td>5</td></tr>
+  <tr><td>39</td><td>US38</td><td>Protección de datos mediante cifrado</td><td>Como administradora, quiero que los datos sensibles estén cifrados en almacenamiento y tránsito, para evitar accesos no autorizados.</td><td>5</td></tr>
+  <tr><td>40</td><td>US40</td><td>Menú de navegación consistente</td><td>Como usuaria, quiero un menú claro y consistente en todas las páginas, para encontrar fácilmente las funciones que necesito.</td><td>2</td></tr>
+  <tr><td>41</td><td>US41</td><td>Paleta de colores y tipografía</td><td>Como usuaria, quiero colores y tipografía consistentes y accesibles, para una experiencia visual agradable y legible.</td><td>2</td></tr>
+  <tr><td>42</td><td>US42</td><td>Diseño de formularios usables</td><td>Como usuaria, quiero formularios claros con validación, para completar información sin confusión ni errores.</td><td>3</td></tr>
+  <tr><td>43</td><td>US43</td><td>Patrones de diseño coherentes</td><td>Como usuaria, quiero patrones de diseño similares en todas las pantallas, para predecir dónde encontrar funciones y cómo interactuar.</td><td>2</td></tr>
+  <tr><td>44</td><td>US44</td><td>Manejo de errores comprensible</td><td>Como usuaria, quiero mensajes de error claros con pasos de solución, para resolver problemas sin frustración.</td><td>3</td></tr>
 </table>
