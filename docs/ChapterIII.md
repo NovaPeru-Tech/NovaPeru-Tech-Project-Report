@@ -3,9 +3,7 @@
 ## 3.1. User Stories</em></h2>
 <p>Para la especificación de requisitos de los usuarios, se desarrollaron las historias de usuario que describen cada requisito y funcionalidad que debe estar implementado en el desarrollo del producto final para satisfacer las necesidades del público objetivo. A continuación se presentan las historias de usuario relacionadas con la plataforma "Veyra". Esta sección reúne historias de usuario centradas en la experiencia de los distintos roles: el visitante, el familiar del adulto mayor y el administrador de la casa de reposo. Aquí se definen las necesidades clave para cada uno, desde la navegación inicial y contacto, hasta la gestión detallada de residentes, personal y medicamentos.</p>
 
-  <h3>EP01: Navegación en la Landing Page</h3>
-    <p>Como visitante quiero tener una experiencia fluida y completa en el sitio web para conocer los servicios y tomar decisiones informadas.</p>
-    <table>
+  <table>
         <thead>
             <tr>
                 <th>Story ID</th>
@@ -15,6 +13,13 @@
             </tr>
         </thead>
         <tbody>
+                <tr>
+                <td>EP01</td>
+                <td>Navegación en la Landing Page</td>
+                <td>Como visitante quiero tener una experiencia fluida y completa en el sitio web para conocer los servicios y tomar decisiones informadas.</td>
+                <td></td>
+            </tr>
+            <tr>
             <tr>
                 <td>US01</td>
                 <td>Menú de navegación</td>
@@ -132,20 +137,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP02: Soporte y contacto</h3>
-    <p>Como visitante de la Landing Page, quiero poder contactar a Veyra fácilmente, para resolver dudas o interactuar.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+           <tr>
+                <td>EP02</td>
+                <td>Soporte y contacto</td>
+                <td>Como visitante de la Landing Page, quiero poder contactar a Veyra fácilmente, para resolver dudas o interactuar.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US05</td>
                 <td>Redes sociales</td>
@@ -187,20 +184,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP03: Acceso a Información</h3>
-    <p>Como familiar del adulto mayor quiero poder tener acceso a toda la información de mi familiar para estar informado de su estado.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+          <tr>
+                <td>EP03</td>
+                <td>Acceso a Información</td>
+                <td>Como familiar del adulto mayor quiero poder tener acceso a toda la información de mi familiar para estar informado de su estado.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US08</td>
                 <td>Historial médico</td>
@@ -281,20 +270,13 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP04: Gestión de adultos mayores</h3>
-    <p>Como administrador de casa de reposo quiero gestionar perfiles de los adultos mayores para tener un mayor control.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+                <tr>
+                <td>EP04</td>
+                <td>Gestión de adultos mayores</td>
+                <td>Como administrador de casa de reposo quiero gestionar perfiles de los adultos mayores para tener un mayor control.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
+            <tr>
             <tr>
                 <td>US12</td>
                 <td>Registro de residentes</td>
@@ -377,20 +359,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP05: Notificaciones automáticas</h3>
-    <p>Como familiar de un adulto mayor, quiero recibir notificaciones automáticas sobre cambios en su estado o recordatorios importantes, para estar siempre informado sin tener que consultar manualmente la plataforma.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+                <tr>
+                <td>EP05</td>
+                <td>Notificaciones automáticas</td>
+                <td>Como familiar de un adulto mayor, quiero recibir notificaciones automáticas sobre cambios en su estado o recordatorios importantes, para estar siempre informado sin tener que consultar manualmente la plataforma.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US16</td>
                 <td>Recordatorios de citas y consultas</td>
@@ -472,20 +446,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP06: Comunicación con cuidadores</h3>
-    <p>Como familiar, quiero disponer de un canal de comunicación directo con los cuidadores o el personal de la casa de reposo, para hacer preguntas y recibir respuestas rápidas sobre el cuidado de mi adulto mayor.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+                <tr>
+                <td>EP06</td>
+                <td>Comunicación con cuidadores</td>
+                <td>Como familiar, quiero disponer de un canal de comunicación directo con los cuidadores o el personal de la casa de reposo, para hacer preguntas y recibir respuestas rápidas sobre el cuidado de mi adulto mayor.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US20</td>
                 <td>Preguntas sobre rutina de cuidados</td>
@@ -567,20 +533,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP07: Gestión de medicamentos</h3>
-    <p>Como administrador quiero gestionar los medicamentos de la casa de reposo para garantizar que cumplan con todos los controles necesarios.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+                <tr>
+                <td>EP07</td>
+                <td>Gestión de medicamentos</td>
+                <td>Como administrador quiero gestionar los medicamentos de la casa de reposo para garantizar que cumplan con todos los controles necesarios.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US24</td>
                 <td>Registro de medicamentos en inventario</td>
@@ -682,20 +640,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP08: Gestión de personal</h3>
-    <p>Como administrador de la casa de reposo, quiero gestionar la información del personal para organizar los turnos de trabajo de los cuidadores y garantizar que siempre haya atención adecuada disponible para los residentes.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+                <tr>
+                <td>EP08</td>
+                <td>Gestión de personal</td>
+                <td>Como administrador de la casa de reposo, quiero gestionar la información del personal para organizar los turnos de trabajo de los cuidadores y garantizar que siempre haya atención adecuada disponible para los residentes.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US29</td>
                 <td>Gestión de perfiles de empleados</td>
@@ -777,20 +727,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP09: Gestión de información de la casa de reposo</h3>
-    <p>Como administrador quiero gestionar la información general de la casa de reposo para mantener datos actualizados sobre la institución.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+                <tr>
+                <td>EP09</td>
+                <td>Gestión de información de la casa de reposo</td>
+                <td>Como administrador quiero gestionar la información general de la casa de reposo para mantener datos actualizados sobre la institución.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US33</td>
                 <td>Gestión de horarios de atención</td>
@@ -872,20 +814,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP10: Seguridad y privacidad</h3>
-    <p>Como administrador, quiero garantizar la seguridad y privacidad de los datos personales y médicos para proteger la información sensible de los residentes y familiares, cumpliendo con las normativas correspondientes.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+                <tr>
+                <td>EP10</td>
+                <td>Seguridad y privacidad</td>
+                <td>Como administrador, quiero garantizar la seguridad y privacidad de los datos personales y médicos para proteger la información sensible de los residentes y familiares, cumpliendo con las normativas correspondientes.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US37</td>
                 <td>Gestión de usuarios y permisos</td>
@@ -929,20 +863,12 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-
-  <h3>EP11: Diseño de interfaz</h3>
-    <p>Como usuario, quiero una interfaz bien diseñada para navegar y usar el sistema sin dificultades.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
+                <tr>
+                <td>EP11</td>
+                <td>Diseño de interfaz</td>
+                <td>Como usuario, quiero una interfaz bien diseñada para navegar y usar el sistema sin dificultades.</td>
+                <td></td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>US40</td>
                 <td>Menú de navegación consistente</td>
@@ -1044,23 +970,6 @@
                     <strong>Y</strong> aprende a evitar el mismo error en el futuro.
                 </td>
             </tr>
-        </tbody>
-    </table>
-
-<h3 id="Technical"> Technical Stories</h3>
-
-<p>Esta sección presenta las historias técnicas, las cuales detallan los requisitos del sistema desde una perspectiva de desarrollo. Estas historias definen las tareas específicas de backend, como la implementación de endpoints de API, la integración con servicios externos y la lógica de negocio necesaria para soportar las funcionalidades descritas en las historias de usuario.</p>
-
-<table border="1" style="border-collapse: collapse; width: 100%;font-size: 12px; font-family: Arial, sans-serif;">
-  <thead>
-            <tr>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Criterios de Aceptación (Gherkin)</th>
-            </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>TS01</td>
                 <td>Eliminar medicamentos</td>
