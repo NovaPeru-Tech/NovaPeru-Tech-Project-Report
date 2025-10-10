@@ -8,7 +8,7 @@
     <br><br>
     <strong>Ciclo:</strong> 5° Ciclo
     <br><br>
-    <strong>Nombre del curso:</strong> Desarrollo de Aplicaciones Open Source
+    1ASI0729-Desarrollo de Aplicaciones Open Source
     <br><br>
     <strong>Sección:</strong> 7338.
     <br><br>
@@ -54,75 +54,251 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="14">TB1</td>
+      <td>1.0</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Desarrollo de los diagramas C4 y el diagrama de clases para la arquitectura de la aplicación. También, lideró el Event Storming y el diagrama de clases.</td>
+      <td>
+        Se elaboró y documentó la sección del <strong>Class Diagram</strong> en el capítulo 4, representando las entidades principales del sistema y sus relaciones. El diagrama fue desarrollado siguiendo los principios de modelado UML, permitiendo visualizar la estructura lógica del sistema y las interacciones entre clases. Esta contribución facilitó la comprensión del modelo de datos y sirvió como base para la posterior implementación del módulo de gestión de residentes.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>13/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Desarrollo del Lean UX Canvas, los Lean UX Problem Statements, Lean UX Assumptions y los User Profiles.</td>
+      <td>
+        Se desarrolló la sección del <strong>Lean UX Canvas</strong> en el capítulo 1, donde se definieron los objetivos estratégicos del proyecto, el público objetivo y las suposiciones clave sobre las necesidades del usuario. Se identificaron los principales retos de diseño y se establecieron hipótesis iniciales de validación. Esta actividad permitió al equipo construir una visión clara y alineada sobre el propósito de la plataforma Veyra.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>13/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>Desarrollo del Lean UX Problem Statements y Lean UX Hypothesis Statements (Capítulo 1), y la matriz de tareas de usuario (User Task Matrix).</td>
+      <td>
+        Se redactó y añadió la sección de <strong>Lean UX Problem Statements y Hypothesis Statements</strong> en el capítulo 1. En esta fase, se detallaron los problemas detectados a partir de la investigación preliminar y se formularon hipótesis verificables que orientaron las primeras pruebas con usuarios. El documento incluyó métricas de éxito, criterios de validación y un mapa de impacto en la experiencia del usuario.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>14/09/2025</td>
       <td>Oscar Armas Sánchez</td>
-      <td>Mejoras en la redacción de los Lean UX Problem Statement y Lean UX Hypothesis Statements (Capítulo 1). Adicionalmente, desarrolló los mockups de la aplicación web y se encargó del despliegue (deployment) de la landing page y las guías de estilo generales.</td>
+      <td>
+        Se realizó una revisión completa de la redacción del <strong>Problem Statement</strong> dentro del capítulo 1, corrigiendo inconsistencias y mejorando la claridad del lenguaje. Se enfatizó la relación entre los problemas identificados y las soluciones propuestas, con el fin de fortalecer la coherencia narrativa del documento y facilitar la lectura por parte de los revisores.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>15/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Desarrollo del Product Backlog con los User Stories y el Impact Mapping pertenicientes al Capitulo 3. Adicionalmente, se encargó de los wireframes de la landing page y el análisis de la competencia.</td>
+      <td>
+        Se desarrolló la sección de <strong>Competidores y Análisis de la Competencia</strong> en el capítulo 2. El análisis incluyó la identificación de plataformas similares en el mercado, comparando funcionalidades, diseño y propuesta de valor. Se elaboró una tabla comparativa que permitió al equipo identificar oportunidades de mejora e innovación para Veyra.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>20/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Desarrollo del diagrama C4 para el Cap. 4.</td>
+      <td>
+        Se elaboró la primera versión de la <strong>Information Architecture</strong> incluida en el capítulo 4. En ella se definieron los sistemas de organización, etiquetado y navegación de la Landing Page. El trabajo contribuyó a mejorar la experiencia del usuario mediante una estructura jerárquica clara, facilitando el acceso rápido a la información más relevante.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>17/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Desarrollo el Empathy mapping para el Cap. 2.</td>
+      <td>
+        Se creó el <strong>Empathy Mapping</strong> correspondiente al capítulo 2. Este mapa permitió identificar las emociones, pensamientos y motivaciones de los usuarios finales —familiares y administradores— mediante la representación visual de sus experiencias. Los hallazgos obtenidos fueron fundamentales para definir los requerimientos funcionales de la plataforma.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>19/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>Desarollo el Cap. 4 (Diseño de estilos, Wireframes y MockUps del Landing Page y Web App).</td>
+      <td>
+        Se diseñaron los <strong>Wireframes y Mockups</strong> de la aplicación web, incluidos en el capítulo 4. Se desarrollaron versiones de escritorio y móviles, priorizando la claridad visual y la facilidad de navegación. Estos prototipos sirvieron como guía visual para el desarrollo del frontend, asegurando consistencia con la identidad visual del proyecto.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>20/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Agrego los puntos de gestion y herramientas a utilizar en el equipo por cada iteracion de los Sprints; Cap. 5</td>
+      <td>
+        Se redactó la sección de <strong>Análisis de Entrevistas</strong> en el capítulo 2, sintetizando los resultados obtenidos de las entrevistas con los principales grupos de usuarios. El análisis permitió validar los pain points y ajustar las hipótesis del Lean UX Canvas, proporcionando una visión realista sobre las expectativas del público objetivo.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Desarrollo el Diagrama de Clases de la Aplicacion (Cap. 4). Desarrollo del diagrama C4 para el Cap. 4.</td>
+      <td>
+        Se documentó la sección de <strong>Entrevistas</strong> del capítulo 2, donde se detalló la metodología de aplicación, las preguntas empleadas y los perfiles de los participantes. Los resultados se utilizaron como insumo clave para la elaboración de los User Personas y el Empathy Map, fortaleciendo la validez de los hallazgos.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>12/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Desarrollo los puntos restantes del Cap. 2 y el Jouney Mapping.</td>
+      <td>
+        Se elaboró el <strong>Journey Mapping</strong> dentro del capítulo 2, representando visualmente la experiencia del usuario familiar desde su primer contacto con la casa de reposo hasta la gestión de la información en Veyra. El mapa identificó puntos críticos de fricción y oportunidades de mejora, sirviendo de base para definir nuevas funcionalidades del sistema.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>16/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>Desarrollo las entrevistas con los segmentos objetivos y completó los puntos pendientes del capítulo 1.</td>
+      <td>
+        Se incorporó la <strong>Entrevista del Segmento de Familiares</strong> dentro del capítulo 2, complementando el análisis cualitativo. El documento incluyó citas textuales de los participantes, sus percepciones sobre el proceso de comunicación con las casas de reposo y las principales frustraciones detectadas. Esta información alimentó la definición de requerimientos funcionales iniciales.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>19/09/2025</td>
       <td>Oscar Armas Sánchez</td>
-      <td>Desarrollo los mockups del web application y se encargó del deployment de la landing page. Adicionalmente, diseñó las directrices de estilo generales para el proyecto.</td>
+      <td>
+        Se desarrolló la sección de <strong>Deployment</strong> correspondiente al capítulo 5, describiendo los pasos técnicos necesarios para el despliegue de la aplicación. Incluyó la configuración del entorno, dependencias utilizadas, estructura del servidor y lineamientos de mantenimiento. Este apartado sirvió como guía técnica para futuras implementaciones.
+      </td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>18/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Desarrollo los wireframes de la landing page y el análisis competitivo.</td>
+      <td>
+        Se diseñaron los <strong>Wireframes del Landing Page</strong> para el capítulo 4. El trabajo se centró en la organización visual de las secciones principales (Hero, About, Services, Contact) y en la coherencia estética con los principios de diseño definidos. Los resultados sirvieron como blueprint visual para el desarrollo del prototipo funcional.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>22/09/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>
+        Actualización inicial de la interfaz de usuario y arquitectura de contenidos. Se realizó una revisión profunda del orden de secciones de la Landing Page (Hero, What We Offer, Features, Benefits) y se propusieron ajustes para mejorar la jerarquía de información y la lectura rápida por parte de familiares y administradores. Se documentaron las decisiones visuales en el capítulo 4 (Web Style Guidelines) y se añadieron mockups de referencia para dispositivos móviles y desktop.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>28/09/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>
+        Revisión de accesibilidad y tipografía. Se implementaron recomendaciones para cumplir WCAG 2.1 AA en contraste y tamaños tipográficos (Rubik). Se añadió tabla de jerarquía tipográfica y ejemplos prácticos para H1–H4, párrafos y botones. Se llevaron a cabo pruebas manuales de legibilidad en móviles y tablets, documentando hallazgos y correcciones.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>05/10/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>
+        Entrega final de artefactos visuales para el Keynote. Se prepararon las pantallas principales, se crearon assets optimizados (logos, íconos y fotografías) y se generó la guía de estilo resumida para inclusión en el PDF final. Además, se coordinó con el equipo de frontend la hoja de estilos (assets/style.css) y se validó la consistencia con los mockups desplegados.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>23/09/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>
+        Revisión técnica del módulo de Information Architecture. Se corrigieron diagramas y se añadió una sección detallada sobre sistemas de búsqueda y navegación (Search & Navigation Systems). Se documentó el flujo de búsqueda para residentes y la priorización de resultados por roles.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>01/10/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>
+        Preparación y verificación de evidencias de despliegue. Se generaron los scripts de build y deployment, se verificó la versión desplegada del Landing Page en el entorno de staging y se documentó el procedimiento de despliegue en el capítulo 5. Se incluyeron logs y capturas como evidencia para el Sprint Review.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>10/10/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>
+        Consolidación técnica final y revisión integradora. Como responsable de la integración, revisé y validé todas las mejoras técnicas aplicadas a los capítulos 3, 4 y 5; corregí inconsistencias en diagramas UML y añadí notas sobre compatibilidad y requisitos de infraestructura. Entregué también el paquete .zip final con el Frontend Web Application y documentación técnica.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>24/09/2025</td>
+      <td>Billy Jake Ruiz Madrid</td>
+      <td>
+        Documentación ampliada de Lean UX y validación de hipótesis. Se incorporaron métricas propuestas (KPI) y se redactaron las hipótesis en formato 3R (We believe / If / Attain / With). Se añadió la sección de Business Outcomes y User Outcomes con objetivos cuantitativos para los primeros seis meses.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>30/09/2025</td>
+      <td>Billy Jake Ruiz Madrid</td>
+      <td>
+        Evidencia de ejecución del Sprint 2: se documentó el proceso de integración del Frontend con servicios simulados (mocks) y se elaboraron las pruebas funcionales realizadas por QA. Se adjuntaron capturas de pantallas, logs de interacción y un resumen de aceptación por cada User Story implementada.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>07/10/2025</td>
+      <td>Billy Jake Ruiz Madrid</td>
+      <td>
+        Revisión final de la sección de User Personas y Empathy Maps. Se ampliaron los perfiles (Recoba y Yvonne) con insights adicionales de entrevistas y se añadieron los Journey Maps As-Is. Se garantizó que cada arquetipo esté sustentado por datos recogidos en entrevistas y se enlazaron las conclusiones con las features priorizadas.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>25/09/2025</td>
+      <td>Oscar Armas Sánchez</td>
+      <td>
+        Ajustes en la redacción de Problem Statements y Hypotheses. Se reescribieron las secciones para alinear el lenguaje con el template Lean UX, incorporando domain, customer segments, pain points y la visión estratégica. Además, se mejoró la fluidez textual para facilitar la lectura por parte del docente.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>01/10/2025</td>
+      <td>Oscar Armas Sánchez</td>
+      <td>
+        Coordinación del Sprint Review y preparación del reporte individual. Preparé las plantillas para el <em>Final Project Individual Member Performance Report</em>, recopilé los aportes de cada integrante y redacté observaciones sobre las actividades realizadas durante el Sprint 2. Documenté métricas de cumplimiento y recomendaciones para mejoras.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>08/10/2025</td>
+      <td>Oscar Armas Sánchez</td>
+      <td>
+        Elaboración del apartado "Team Collaboration Insights". Se registraron las dinámicas de trabajo, canales utilizados (Slack/WhatsApp/Meet), incidencias de coordinación y propuestas de mejora en la colaboración. Se añadió un resumen ejecutivo con lecciones aprendidas para futuros sprints.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>26/09/2025</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
+      <td>
+        Inclusión y verificación del análisis de entrevistas ampliado. Se transcribieron y sintetizaron nuevas observaciones, se añadieron notas de contexto sobre los entrevistados (tecnología, canales, expectativas) y se mejoraron los resúmenes para reflejar datos objetivos y subjetivos.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>02/10/2025</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
+      <td>
+        Redacción de la sección "Project Report Collaboration Insights". Documenté la contribución individual por fase (investigación, diseño, desarrollo, QA) y generé un cronograma de actividades actualizado. Además, validé las evidencias de sprint solicitadas por el docente.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>09/10/2025</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
+      <td>
+        Actualización de Student Outcomes y cierre de entregables. Se revisó el cumplimiento de los resultados de aprendizaje esperados, se documentaron las evidencias que sustentan cada outcome y se preparó el índice de entrega final con los archivos (Keynote, documentación, .zip con código y videos).
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>10/10/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>
+        Revisión integradora y cierre de versión 2.0. A modo de revisión final, realicé una lectura completa de todo el informe, corregí errores ortográficos y de formato, consolidé las referencias cruzadas entre capítulos, verifiqué la presencia de los artefactos requeridos (Sprint 2: planificación, backlog, evidencias de desarrollo y ejecución, documentación de servicios y despliegue), y validé la inclusión de los entregables: 
+        <ul>
+          <li>Final Project Documentation Report</li>
+          <li>Final Project Keynote</li>
+          <li>Final Project Individual Member Performance Report (by Team Leader)</li>
+          <li>Archivo .zip con activos y evidencias (código, videos, documentación)</li>
+        </ul>
+        Se dejó constancia de todas las correcciones aplicadas entre el 22/09/2025 y 10/10/2025 y se preparó la versión lista para entrega formal al docente.
+      </td>
     </tr>
   </tbody>
 </table>
@@ -132,17 +308,135 @@
 
 **Link de los repositorios de la organización**: https://github.com/NovaPeru-Tech
 
-**Link del repositorio-Informe**:https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report
+**Link del repositorio-Informe**: https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report
 
 **Reporte de colaboración de la entrega del TB1**:
 
-En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nuestra startup. Todos los miembros del equipo NovaPeru Tech participaron activamente en la elaboración del informe, utilizando herramientas colaborativas como GitHub, Figma, Trello, UXPressia, Miro, entre otros. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo:
+Durante la primera fase de elaboración del informe, el equipo Veyra centró sus esfuerzos en la construcción de los fundamentos conceptuales, de investigación y diseño inicial del proyecto. Cada integrante asumió un rol activo en la redacción, modelado y documentación de secciones clave del reporte, asegurando una coherencia entre la teoría, la metodología y la propuesta tecnológica.
+
+**Ariana Ramírez Carrasco**
+
+Ariana desarrolló el Lean UX Canvas (capítulo 1), estableciendo los objetivos estratégicos del proyecto, las suposiciones sobre el público objetivo y los principales retos de diseño. También elaboró el Empathy Mapping (capítulo 2), donde representó las emociones y motivaciones de los usuarios finales, y construyó el Journey Mapping (capítulo 2), visualizando la experiencia de los familiares en su interacción con la plataforma. Estos artefactos fueron esenciales para definir requerimientos funcionales realistas y una experiencia centrada en el usuario.
+
+**Renato Calvo Yalán**
+
+Renato lideró la elaboración del Class Diagram (capítulo 4), donde modeló las entidades principales del sistema, sus atributos y relaciones UML, facilitando la comprensión del modelo de datos. Posteriormente, construyó la primera versión de la Information Architecture, definiendo la estructura jerárquica del sitio y los sistemas de navegación. Además, documentó la sección de Entrevistas, detallando metodología y perfiles de participantes. Sus contribuciones sentaron las bases técnicas del proyecto y conectaron los hallazgos del UX con la arquitectura del sistema.
+
+**Billy Jake Ruiz Madrid**
+
+Billy se encargó de redactar los Problem Statements y Hypothesis Statements del capítulo 1, donde tradujo los hallazgos de la investigación en hipótesis verificables. Además, diseñó los Wireframes y Mockups de la aplicación (capítulo 4), tanto para escritorio como para dispositivos móviles, asegurando coherencia con la identidad visual definida. Finalmente, documentó entrevistas y validaciones cualitativas, lo cual permitió al equipo refinar los criterios de aceptación y preparar la transición hacia el desarrollo del front-end.
+
+**Oscar Armas Sánchez**
+
+Oscar realizó una revisión completa del Problem Statement del capítulo 1, mejorando la claridad y coherencia narrativa. En la fase final de esta entrega, redactó el Deployment Plan (capítulo 5), detallando la configuración técnica del entorno, dependencias y estructura del servidor. Su trabajo técnico permitió anticipar los procesos de despliegue del proyecto y garantizar la reproducibilidad del entorno de desarrollo.
+
+**Miguel Ángel Junior Román López**
+
+Miguel desarrolló la sección de Competidores y Análisis de la Competencia (capítulo 2), donde identificó plataformas similares, comparó funcionalidades y propuso oportunidades de diferenciación. También elaboró el Análisis de Entrevistas, sintetizando hallazgos de usuarios y validando hipótesis de diseño. Finalmente, diseñó los Wireframes del Landing Page, asegurando coherencia estética y funcionalidad intuitiva. Su trabajo consolidó la base visual y analítica del proyecto.
+
+Finalmente, estos gráficos representan la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
 
 <img src="images/comits-1.jpg" alt="Veyra" style="width:auto;">
 
 
 <img src="images/comits-2.jpg" alt="Veyra" style="width:auto;">
 
+
+**Ramificación del proyecto usando GitFlow:**
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+<img src="images/ramificacion1.png" alt="Veyra" style="width:auto;">
+
+
+**Reporte de colaboración de la entrega del TP1**:
+
+En la segunda fase, el equipo Veyra se enfocó en la consolidación técnica, visual y documental del informe. Esta etapa implicó la actualización del contenido, la mejora de los artefactos visuales, la documentación de procesos de despliegue y la integración final de entregables. Cada miembro aportó desde su especialidad, reflejando un trabajo colaborativo maduro y bien estructurado.
+
+**Ariana Ramírez Carrasco**
+
+Ariana lideró la actualización visual de la interfaz y arquitectura de contenidos, reorganizando las secciones de la Landing Page para optimizar la jerarquía informativa. Incorporó ajustes de accesibilidad y tipografía basados en las guías WCAG 2.1, documentando pruebas manuales de legibilidad en distintos dispositivos. Finalmente, elaboró la entrega de artefactos visuales para el Keynote, preparando logos, íconos y assets optimizados para la presentación final. Su aporte fue decisivo para consolidar la identidad visual de Veyra y garantizar su consistencia con el desarrollo técnico.
+
+**Renato Calvo Yalán**
+
+Renato asumió un rol técnico clave durante esta versión. Corrigió y amplió la sección de Information Architecture, incluyendo los sistemas de búsqueda y navegación. Además, preparó y verificó las evidencias de despliegue, documentando los scripts y logs técnicos, y finalmente lideró la revisión integradora de toda la versión 2.0, verificando compatibilidades, corrigiendo diagramas UML y consolidando los entregables requeridos. Su liderazgo técnico aseguró la estabilidad del proyecto antes de la entrega formal.
+
+**Billy Jake Ruiz Madrid**
+
+Billy amplió la documentación del Lean UX y validación de hipótesis, añadiendo métricas de impacto (KPI) y objetivos medibles. También documentó la evidencia de ejecución del Sprint 2, elaborando un registro de pruebas funcionales con capturas, logs y resultados por historia de usuario. Finalmente, revisó los User Personas y Empathy Maps, asegurando que los perfiles se basaran en datos de entrevistas reales. Su aporte integró la visión del usuario dentro del proceso de validación técnica y de experiencia.
+
+**Oscar Armas Sánchez**
+
+Oscar refinó los Problem Statements y Hypotheses, mejorando su alineación con el formato Lean UX y adaptando el lenguaje para mayor claridad. Posteriormente, coordinó el Sprint Review, recopilando aportes de los miembros y redactando observaciones sobre el cumplimiento de actividades. Finalmente, elaboró el apartado Team Collaboration Insights, donde documentó los canales de comunicación, incidencias y aprendizajes del equipo, consolidando la reflexión colectiva del proceso de trabajo.
+
+**Miguel Ángel Junior Román López**
+
+Miguel amplió el análisis de entrevistas, añadiendo notas contextuales y observaciones adicionales de los usuarios. Posteriormente, redactó la primera versión de esta misma sección, Project Report Collaboration Insights, describiendo los aportes individuales por fase y generando un cronograma de actividades actualizado. Finalmente, revisó los Student Outcomes, asegurando que todas las evidencias documentaran los resultados de aprendizaje esperados. Su trabajo cerró la entrega del informe de manera ordenada y coherente.
+
+En esta versión, se refleja una coordinación fluida entre las áreas de investigación, diseño y desarrollo técnico. Las contribuciones en GitHub muestran un incremento en la frecuencia de commits y revisiones cruzadas, evidenciando la madurez del flujo de trabajo colaborativo y la consistencia en la gestión de versiones.
+
+<img src="images/comits1.png" alt="Veyra" style="width:830px;">
+
+
+<img src="images/comits2.png" alt="Veyra" style="width:auto;">
+
+
+**Ramificación del proyecto usando GitFlow:**
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+<img src="images/ramificacion2.png" alt="Veyra" style="width:auto;">
+
+
+## ABET – EAC - Student Outcome 3
+
+**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias*
+
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
+
+<table border="1" cellpadding="5" cellspacing="0" width="100%"> 
+  <thead> <tr> <th width="25%">Criterio específico</th> <th width="55%">Acciones realizadas</th> <th width="20%">Conclusiones</th> </tr> </thead> <tbody> <tr> <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia.</strong></td> <td> <strong>Miguel Ángel Junior Román López:</strong> <br><br> <strong>TB1:</strong> Transformé los hallazgos de entrevistas y los wireframes en mensajes claros durante las sesiones grupales, permitiendo que cada miembro comprendiera la intención detrás de cada decisión de diseño. Además, participé en la exposición del proceso Lean UX, transmitiendo de forma ordenada los principales descubrimientos del equipo. <br><br> <strong>TP1:</strong> Expuse los avances del análisis de entrevistas y la sección “Project Report Collaboration Insights”, organizando la información para distintos tipos de audiencia, desde diseñadores hasta revisores técnicos, logrando una comunicación transversal y efectiva. <br><br> <strong>Ariana Lizeth Ramírez Carrasco:</strong> <br><br> <strong>TB1:</strong> Presenté los resultados del Lean UX Canvas y Empathy Mapping en reuniones, adaptando el lenguaje a públicos técnicos y no técnicos. Esto facilitó la comprensión del enfoque centrado en el usuario y la alineación del equipo. <br><br> <strong>TP1:</strong> Dirigí la presentación de los entregables visuales finales (Landing Page y Keynote), utilizando una narrativa clara que resaltó los aspectos visuales y conceptuales del proyecto frente a distintos grupos de evaluación. <br><br> <strong>Billy Jake Ruiz Madrid:</strong> <br><br> <strong>TB1:</strong> Comunicado las hipótesis de diseño y validación de entrevistas en exposiciones internas, facilitando el alineamiento del equipo respecto a los hallazgos principales del proceso de Needfinding. <br><br> <strong>TP1:</strong> Durante el Sprint Review, presentó los resultados de validación de hipótesis y pruebas funcionales ante el equipo y docente, explicando con claridad el impacto de cada funcionalidad implementada y las mejoras sugeridas. <br><br> <strong>Oscar Armas Sánchez:</strong> <br><br> <strong>TB1:</strong> Explicó la arquitectura visual del proyecto y los diagramas técnicos durante las sesiones de revisión, utilizando lenguaje comprensible para diseñadores y programadores, logrando así una comprensión conjunta de la estructura del sistema. <br><br> <strong>TP1:</strong> Encabezó la exposición sobre el proceso de despliegue y la configuración del entorno, comunicando los aspectos técnicos con precisión y coherencia frente a audiencias diversas, lo que facilitó la validación del entorno de desarrollo. <br><br> <strong>Renato Calvo Yalán:</strong> <br><br> <strong>TB1:</strong> Presentó el diagrama de clases y la arquitectura del sistema en reuniones de equipo, adaptando el nivel de detalle según el perfil del público. Esto contribuyó a la integración de los componentes en la arquitectura general. <br><br> <strong>TP1:</strong> Lideró la presentación del despliegue y la validación del entorno técnico, utilizando lenguaje claro y visualizaciones precisas para explicar la relación entre módulos y componentes del sistema. </td> <td> <strong>Conclusión TB1:</strong><br> La comunicación oral fue clave para unificar criterios y garantizar que todos los integrantes comprendieran los objetivos del proyecto. Las presentaciones internas y discusiones guiadas permitieron consolidar decisiones de diseño y técnica de manera efectiva.<br><br> <strong>Conclusión TP1:</strong><br> En esta etapa, la comunicación oral evolucionó hacia un nivel más técnico y estructurado. El equipo demostró fluidez al exponer resultados, defender propuestas y articular información compleja frente a públicos mixtos, fortaleciendo su capacidad argumentativa y colaborativa. </td> </tr>
+<tr>
+  <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia.</strong></td>
+  <td>
+    <strong>Miguel Ángel Junior Román López:</strong>
+    <br><br>
+    <strong>TB1:</strong> Redacté los análisis de entrevistas y los resúmenes de hallazgos, empleando un lenguaje accesible para todas las áreas del equipo. Los documentos sirvieron como guía para estructurar el Problem Statement y las Assumptions.
+    <br><br>
+    <strong>TP1:</strong> Elaboré la documentación del apartado “Project Report Collaboration Insights” y actualicé los Student Outcomes, asegurando consistencia en la estructura, claridad en el lenguaje y alineación con los objetivos de aprendizaje.
+    <br><br>
+    <strong>Ariana Lizeth Ramírez Carrasco:</strong>
+    <br><br>
+    <strong>TB1:</strong> Documenté el proceso de Lean UX y los entregables visuales con un formato técnico y comprensible, generando insumos reutilizables para posteriores entregas. Además, redacté la descripción del dominio y la organización de contenidos para el capítulo 4.
+    <br><br>
+    <strong>TP1:</strong> Redacté los informes de revisión visual y accesibilidad, así como las directrices gráficas para el despliegue final, manteniendo una comunicación escrita clara y profesional, acorde con los estándares del curso.
+    <br><br>
+    <strong>Billy Jake Ruiz Madrid:</strong>
+    <br><br>
+    <strong>TB1:</strong> Elaboré reportes que relacionaban tareas de usuario con módulos funcionales, utilizando un lenguaje técnico unificado con el lenguaje ubicuo del dominio. Esto ayudó a mantener coherencia entre las áreas de negocio y desarrollo.
+    <br><br>
+    <strong>TP1:</strong> Documenté la ejecución del Sprint 2, registrando pruebas funcionales, evidencias y resultados en un formato detallado y comprensible para el equipo técnico y docente.
+    <br><br>
+    <strong>Oscar Armas Sánchez:</strong>
+    <br><br>
+    <strong>TB1:</strong> Documenté la arquitectura visual y técnica del proyecto con descripciones precisas y ejemplos ilustrativos, adecuando el contenido para distintas audiencias. Asimismo, organicé las secciones de diseño web con redacción técnica y clara.
+    <br><br>
+    <strong>TP1:</strong> Redacté el informe de Sprint Review y la documentación de despliegue, empleando un tono profesional, estructurado y coherente con los estándares del curso. Incluí detalles técnicos que facilitaron la validación de los resultados.
+    <br><br>
+    <strong>Renato Calvo Yalán:</strong>
+    <br><br>
+    <strong>TB1:</strong> Elaboré diagramas explicativos del funcionamiento del sistema y sus componentes, acompañados de textos que facilitaban su comprensión tanto a nivel técnico como conceptual. Esto fortaleció la claridad del Capítulo 4.
+    <br><br>
+    <strong>TP1:</strong> Redacté la documentación técnica de despliegue, organizando los procedimientos de instalación, logs y evidencias de configuración en un formato detallado y legible, complementando el informe de validación de entorno.
+  </td>
+  <td>
+    <strong>Conclusión TB1:</strong><br>
+    La redacción técnica y descriptiva permitió estructurar el conocimiento de manera ordenada, asegurando que todos los miembros y revisores comprendieran los avances y objetivos del proyecto. La claridad escrita mejoró la trazabilidad de decisiones y artefactos.<br><br>
+    <strong>Conclusión TP1:</strong><br>
+    En esta fase, el equipo fortaleció su capacidad para redactar documentación técnica integral. Cada entrega reflejó precisión, cohesión y adaptación del lenguaje al público objetivo, lo cual consolidó la calidad del informe final y su comprensión transversal.
+  </td>
+</tr>
+</tbody></table>
 
 <h2>Contenido</h2>
 
@@ -274,170 +568,6 @@ En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nu
 
 
 
-## ABET – EAC - Student Outcome 3
 
-**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias*
-
-En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
-
-<table border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-      <td>
-        <strong>Miguel Ángel Junior Román López:</strong>
-        - App Web Wireframes
-        - Landing Page Wireframes
-        - Entrevistas
-        - Trello
-        - User Stories
-        - Impact Mapping
-        - Landing Page
-        - Análisis Competitivo
-        - Puntos de Gestión
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        - Lean UX Process
-        - Lean UX Assumptions
-        - Entrevistas
-        - Registro de entrevistas
-        - Needfinding
-        - User Personas
-        - Empathy Mapping
-        - Style Guidelines
-        - General Style Guidelines
-        - Web Style Guidelines
-        - Landing Page UI Design
-        - Landing Page Mock-up
-        <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        - Lean UX Canvas
-        - Entrevistas
-        - Needfinding
-        - User Task Matrix
-        - User Journey Mapping
-        - Ubiquitous Language
-        - Impact Mapping
-        - Trello
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-        - Mockups de la aplicación web
-        - Despliegue de la landing page
-        - Capítulos de la sección 5.2 (Implementación)
-        - Entrevistas
-        - Guías de estilo generales
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-        - Entrevista a administradores de casas de reposo
-        - Diseño de Diagrama C4 (Contexto, Contenedores, Componentes)
-        - Diagrama de Clases
-        - Event Storming
-        - Startup Profile (Cap. 1)
-      </td>
-      <td>
-        <strong>Miguel Ángel Junior Román López:</strong>
-        <br>
-        La conclusión del trabajo realizado es que la forma en que desarrollé los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        <br>
-        La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
-        <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        <br>
-        La conclusión del trabajo realizado es que logré comunicar con diferentes audiencias mediante la aplicación de metodologías ágiles y colaborativas como el Lean UX Canvas, entrevistas y needfinding. Estas herramientas me permitieron comprender y transmitir de forma clara las necesidades reales de los usuarios. Además, con artefactos como el User Journey Mapping, la matriz de tareas y el Impact Mapping, pude traducir hallazgos complejos en entregables entendibles tanto para usuarios como para el equipo de desarrollo y stakeholders, reforzando la efectividad en la comunicación oral durante discusiones y presentaciones.
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-        <br>
-        La conclusión del trabajo realizado es que, al participar en el diseño y la implementación, pude traducir conceptos complejos en interfaces visuales comprensibles. La participación en las entrevistas me permitió captar las necesidades del usuario final, mientras que el desarrollo del Cap. 5 me ayudó a comunicar efectivamente los procesos técnicos y de despliegue a una audiencia no técnica.
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-        <br>
-        La conclusión del trabajo realizado es que, al liderar la arquitectura de software y las entrevistas, pude comunicar ideas técnicas complejas y necesidades de usuarios a diferentes audiencias. La elaboración de diagramas de arquitectura (C4) y el diagrama de clases me permitieron explicar la estructura del sistema a stakeholders técnicos y no técnicos, mientras que las entrevistas me ayudaron a verbalizar las necesidades del cliente de forma efectiva.
-      </td>
-    </tr>
-    <tr>
-      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
-      <td>
-        <strong>Miguel Ángel Junior Román López</strong>
-        - App Web Wireframes
-        - Landing Page Wireframes
-        - Entrevistas
-        - Trello
-        - User Stories
-        - Impact Mapping
-        - Landing Page
-        - Análisis Competitivo
-        - Puntos de Gestión
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        - Lean UX Process
-        - Lean UX Assumptions
-        - Entrevistas
-        - Registro de entrevistas
-        - Needfinding
-        - User Personas
-        - Empathy Mapping
-        - Style Guidelines
-        - General Style Guidelines
-        - Web Style Guidelines
-        - Landing Page UI Design
-        - Landing Page Mock-up
-        <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        - Lean UX Canvas
-        - Entrevistas
-        - Needfinding
-        - User Task Matrix
-        - User Journey Mapping
-        - Ubiquitous Language
-        - Impact Mapping
-        - Trello
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-        - Mockups de la aplicación web
-        - Despliegue de la landing page
-        - Capítulos de la sección 5.2 (Implementación)
-        - Entrevistas
-        - Guías de estilo generales
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-        - Entrevista a administradores de casas de reposo
-        - Diseño de Diagrama C4 (Contexto, Contenedores, Componentes)
-        - Diagrama de Clases
-        - Event Storming
-        - Startup Profile (Cap. 1)
-      </td>
-      <td>
-        <strong>Miguel Ángel Junior Román López</strong>
-        <br>
-        La culminación de estas actividades de trabajo en equipo permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5.
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        <br>
-        La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.
-        <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        <br>
-        La culminación de estas actividades demuestra mi capacidad para comunicar de forma escrita con distintas audiencias. A través del Lean UX Canvas y el Impact Mapping logré documentar los problemas y objetivos estratégicos de manera clara y estructurada. El User Task Matrix y el User Journey Mapping me permitieron plasmar procesos y necesidades de los usuarios en un formato entendible y accesible. Asimismo, con la documentación de entrevistas, needfinding y el uso de Trello para gestión, conseguí que tanto el equipo como los stakeholders tuvieran una visión compartida y clara del producto, reforzando la efectividad de la comunicación escrita.
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-        <br>
-        La culminación de estas actividades demuestra mi habilidad para comunicar por escrito de manera efectiva. Al documentar el despliegue de la landing page y el desarrollo de los mockups, logré explicar procesos técnicos y de diseño a una audiencia amplia. La redacción de los Cap. 5 y las guías de estilo me permitieron presentar información de implementación de manera estructurada y coherente, lo que facilitó la comprensión y el seguimiento del proyecto por parte del equipo.
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-        <br>
-        La culminación de este trabajo demuestra mi capacidad para comunicar por escrito de forma clara y precisa. La documentación de los diagramas de arquitectura (C4) y del diagrama de clases, junto con la redacción del perfil de la startup y el análisis de entrevistas, me permitieron presentar información compleja de manera organizada y comprensible para todos los miembros del equipo y stakeholders. Esto asegura que la visión técnica del proyecto sea compartida y entendida por todos.
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 
