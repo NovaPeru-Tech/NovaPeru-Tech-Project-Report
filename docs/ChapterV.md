@@ -745,8 +745,6 @@ Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 ## 5.4. Video About-the-Product
 
-## Conclusiones
-
 ## Conclusiones y recomendaciones
 
 <p>Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como registro de datos de salud, comunicación entre familia y cuidadores, y administración de planes de cuidado personalizados.</p>
@@ -766,9 +764,8 @@ Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 ## Anexos
   <ul>
-    <li>Deploy Landing Page: <em>Ver Landing Page</em></li>
-    <li>Entrevistas: <em>Ver Entrevistas</em></li>
-    <li>Diagrama C4, Diagramas de clases y Diagrama de base de datos (referencias en el original).</li>
+    Deploy de Landing Page: https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/
+    Video de Exposición: http://bit.ly/4h2grbc
   </ul>
 </body>
 </html>
