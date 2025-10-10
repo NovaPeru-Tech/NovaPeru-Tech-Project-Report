@@ -696,7 +696,7 @@ Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX
     </thead>
     <tbody>
       <tr>
-        <td>https://nova-peru-tech.vercel.app/home</td>
+        <td>https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</td>
         <td>Mostrar el Front-end Desplegado</td>
       </tr>
     </tbody>
@@ -705,8 +705,8 @@ Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 <p>
-  <a href="https://nova-peru-tech.vercel.app/home">Front-end NovaPeru-Tech</a> -
-  <a href="https://nova-peru-tech.vercel.app/home">https://nova-peru-tech.vercel.app/home</a>
+  <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">Front-end NovaPeru-Tech</a> -
+  <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a>
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
