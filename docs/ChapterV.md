@@ -685,6 +685,24 @@ Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 <h5>Capturas :</h5>
 
+<p>New-Resident:</p>
+  <img src="../images/New-Resident1.jpg" alt="New-Resident1">
+
+  <img src="../images/New-Resident2.jpg" alt="New-Resident2">
+
+  <p>Resident-List:</p>
+  <img src="../images/Resident-List.jpg" alt="Resident-List">
+
+  <p>Resident:</p>
+  <img src="../images/Resident.jpg" alt="Resident">
+
+  <p>Medication-List:</p>
+  <img src="../images/Medication-List.jpg" alt="Medication-List">
+
+  <p>Medication:</p>
+  <img src="../images/Medication.jpg" alt="Medication">
+
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
