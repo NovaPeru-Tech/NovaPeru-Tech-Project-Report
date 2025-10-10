@@ -270,13 +270,13 @@ El hero de nuestra plataforma Veyra presenta una imagen principal que evoca cuid
 
 En la sección "What We Offer", presentamos nuestras principales áreas de servicio a través de tarjetas con iconos representativos. Cada tarjeta tiene un título y una breve descripción, como "Home Health Care" o "Pediatric Care", lo que permite a los usuarios entender rápidamente el alcance de nuestra plataforma y los tipos de cuidado que apoyamos.
 
-<img src="../images/features-section-landing.png" alt="Landing Page Mockup" style="max-width: 100%; height: auto; border: 2px solid #00bfff;">
+<img src="../images/whatweoffer-section-landing.png" alt="Landing Page Mockup" style="max-width: 100%; height: auto; border: 2px solid #00bfff;">
 
 **Features** 
 
 La sección de "Features" muestra las funcionalidades clave de Veyra. El diseño tipo acordeón permite a los usuarios expandir cada característica para leer su descripción completa, mientras que un video de demostración de YouTube al lado les ofrece una vista visual de la plataforma en acción. Esto combina información detallada con un formato interactivo y dinámico.
 
-<img src="../images/whatweoffer-section-landing.png" alt="Landing Page Mockup" style="max-width: 100%; height: auto; border: 2px solid #00bfff;">
+<img src="../images/features-section-landing.png" alt="Landing Page Mockup" style="max-width: 100%; height: auto; border: 2px solid #00bfff;">
 
 **Benefits** 
 
@@ -321,7 +321,7 @@ Cada pantalla responde a las funcionalidades principales del sistema y a los dis
 <p>Pantalla de inicio donde los usuarios acceden a la aplicación según su rol 
 (Administrador, Familiar, Personal de cuidado). Incluye campos de correo y contraseña, además de validaciones de acceso.</p>
 
-<img src="../images/Login-NovaPeru-Tech.jpg" alt="Login" style="width: auto; height: auto; border: 2px solid #00bfff;">
+<img src="../images/Login-NovaPeru-Tech-Wireframe.jpg" alt="Login" style="width: auto; height: auto; border: 2px solid #00bfff;">
 
 <h5>Inicio de Sesión – NovaPeru Tech</h5>
 <p>Formulario de acceso con credenciales de usuario. Presenta opciones de recuperación de contraseña y mantiene consistencia visual con la identidad de NovaPeru Tech.</p>
@@ -341,48 +341,48 @@ Cada pantalla responde a las funcionalidades principales del sistema y a los dis
 <h5>Inventario – NovaPeru Tech</h5>
 <p>Módulo donde el administrador puede visualizar el inventario de medicamentos y recursos clínicos. Permite filtrar, ordenar y consultar detalles de cada ítem.</p>
 
-<img src="../images/Inventario-NovaPeru-Tech.jpg" alt="Inventario" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Inventario-NovaPeru-Tech-Wireframe.jpg" alt="Inventario" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Inventario – Modificar – NovaPeru Tech</h5>
 <p>Sección para editar la información de medicamentos en el inventario: nombre, cantidad, fecha de vencimiento, laboratorio y observaciones.</p>
 
-<img src="../images/Inventario-Modificar-NovaPeru-Tech.jpg" alt="Inventario Modificar" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Inventario-Modificar-NovaPeru-Tech-Wireframe.jpg" alt="Inventario Modificar" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Paciente – NovaPeru Tech</h5>
 <p>Pantalla que muestra la información general de un residente (datos personales, estado clínico, actividades recientes).</p>
 
-<img src="../images/Paciente-NovaPeru-Tech.jpg" alt="Paciente" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Paciente-NovaPeru-Tech-Wireframe.jpg" alt="Paciente" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Paciente – Agregar – NovaPeru Tech</h5>
 <p>Formulario para registrar un nuevo residente en la institución. Incluye datos personales, médicos, contactos de emergencia y observaciones.</p>
 
-<img src="../images/Paciente-Agregar-NovaPeru-Tech.jpg" alt="Paciente Agregar" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Paciente-Agregar-NovaPeru-Tech-Wireframe.jpg" alt="Paciente Agregar" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Paciente – Eliminar – NovaPeru Tech</h5>
 <p>Módulo que permite al administrador eliminar registros de pacientes, con mensaje de confirmación para evitar acciones accidentales.</p>
 
-<img src="../images/Paciente-Eliminar-NovaPeru-Tech.jpg" alt="Paciente Eliminar" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Paciente-Eliminar-NovaPeru-Tech-Wireframe.jpg" alt="Paciente Eliminar" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Empleado – NovaPeru Tech</h5>
 <p>Pantalla donde se listan los empleados de la institución, mostrando nombre, rol, contacto y estado laboral.</p>
 
-<img src="../images/Empleado-NovaPeru-Tech.jpg" alt="Empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Empleado-NovaPeru-Tech-Wireframe.jpg" alt="Empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Empleado – Card Detalles – NovaPeru Tech</h5>
 <p>Vista detallada de un empleado en formato de card, mostrando información personal, turno asignado, horas extra y contacto de emergencia.</p>
 
-<img src="../images/Empleado-Card-Detalles-NovaPeru-Tech.jpg" alt="Empleado Card Detalles" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Empleado-Card-Detalles-NovaPeru-Tech-Wireframe.jpg" alt="Empleado Card Detalles" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Actividad – Familiar – NovaPeru Tech</h5>
 <p>Pantalla que muestra las actividades recientes del residente (ejercicios, visitas, terapias). 
 El familiar puede visualizar fotos, descripciones y fechas.</p>
 
-<img src="../images/Actividad-Familiar-NovaPeru-Tech.jpg" alt="Actividad Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Actividad-Familiar-NovaPeru-Tech-Wireframe.jpg" alt="Actividad Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 <h5>Historial de Pedido – NovaPeru Tech</h5>
 <p>Pantalla que permite consultar pedidos realizados, con detalles de estado, fecha y productos solicitados.</p>
 
-<img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Historial-de-Pedido-NovaPeru-Tech-Wireframe.jpg" alt="Historial de Pedido" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 <p>Los Wireflows se emplean principalmente en el diseño de la experiencia de usuario (UX) y son especialmente útiles para aplicaciones que incluyen flujos de trabajo e interacciones complejas.</p>
@@ -463,13 +463,130 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+### Mock-ups Version Mobile
+<p>En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.</p>
+
+<img src="../images/Mobil1.png" alt="Login Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil2.png" alt="Inicio de Sesion" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil3.png" alt="Registrar Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil4.png" alt="Registrar Administrador" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil5.png" alt="Inicio" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil6-corregido.png" alt="Historial Actividades" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil7.png" alt="Historial Actividades 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil8.png" alt="Datos del Negocio" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil9.png" alt="Datos del Negocio 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil10.png" alt="Inventario" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil11.png" alt="Inventario 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil12.png" alt="Inventario 3" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil13.png" alt="Inventario 4" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil14-corregido.png" alt="Información inventario" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil15.png" alt="Actividades" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil16.png" alt="Actividades 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil17.png" alt="Actividdes 3" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil18.png" alt="Agregar Actividad" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil19-corregido.png" alt="Agregar Actividad 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil20.png" alt="Editar Actividad" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil21.png" alt="Editar Actividad 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil22.png" alt="Editar Actividad 3" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil23.png" alt="Residentes" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil24-corregido.png" alt="Residentes 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil25.png" alt="Agregar Datos del residente" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil26-corregido.png" alt="Agregar Datos del residente 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil27.png" alt="Modificar Datos del residente" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil28-corregido.png" alt="Modificar Datos del residente 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil29.png" alt="Agregar Historia " style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil30.png" alt="Empleados" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil31-corregido.png" alt="Empleados 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil32.png" alt="Modificar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil33-corregido.png" alt="Modificar Datos del empleado 2" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil34.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil35-corregido.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+<img src="../images/Mobil36.png" alt="Detalles del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+
 ### 4.4.4. Web Applications User Flow Diagrams
+
+El *user flow* es la representación visual del camino que un usuario sigue dentro de la aplicación Veyra para alcanzar un objetivo específico. Estos diagramas son esenciales para asegurar que la navegación sea lógica, intuitiva y libre de obstáculos, garantizando una experiencia de usuario satisfactoria y eficiente para cada uno de los roles: **Administrador**, **Familiar** y **Personal de Cuidado**. A continuación, se detallan los flujos para las tareas clave de la plataforma.
+
+---
+
+- #### **Objetivo 1: Un administrador desea registrar un nuevo residente en el sistema.**
+
+  **Happy Path**
+
+  En esta ruta ideal, el administrador inicia sesión y accede al panel de control. Desde allí, navega a la sección de "Pacientes" y selecciona la opción para agregar un nuevo residente. Completa todos los campos del formulario con la información correcta del residente (datos personales, médicos, etc.) y guarda el registro. El sistema confirma que el residente ha sido agregado exitosamente y lo muestra en la lista de pacientes.
+
+  <img src="../images/UserFlowObjetivo1.png" alt="Happy Path-Objetivo1" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+  **Unhappy Paths**
+
+  En este escenario alternativo, el administrador intenta guardar el formulario con campos obligatorios vacíos o con datos en un formato incorrecto (por ejemplo, un número de teléfono con letras). El sistema muestra mensajes de error específicos junto a los campos problemáticos, impidiendo que el registro se complete hasta que la información sea corregida.
+
+  <img src="../images/UserFlowObjetivo1-parte2.png" alt="UnHappy Path-Objetivo1" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+---
+
+- #### **Objetivo 2: Un familiar desea registrarse en la plataforma Veyra.**
+
+  **Happy Path**
+
+  El familiar accede a la página de inicio y selecciona la opción "Registrarse". Completa el formulario con sus datos personales, correo electrónico y una contraseña segura. Al enviar el formulario, el sistema valida la información, crea la cuenta y le envía un correo de confirmación. El familiar es redirigido a la pantalla de inicio de sesión o directamente a su panel, listo para vincularse con un residente.
+
+  <img src="../images/UserFllowObjetivo2-parte1.png" alt="Happy Path-Objetivo2" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+  **Unhappy Paths**
+
+  La ruta infeliz ocurre si el familiar intenta registrarse con un correo electrónico que ya existe en el sistema o si las contraseñas no coinciden. La plataforma mostrará un mensaje de error claro, indicando el problema específico para que el usuario pueda corregirlo y completar su registro.
+
+  <img src="../images/UserFlowObjetivo2-parte2.png" alt="UnHappy Path-Objetivo2" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+---
+
+- #### **Objetivo 3: Un administrador desea agregar un nuevo medicamento al inventario.**
+
+  **Happy Path**
+
+  El administrador, después de iniciar sesión, navega a la sección de "Inventario". Hace clic en el botón para agregar un nuevo ítem, completa los detalles del medicamento (nombre, cantidad, fecha de vencimiento, etc.) y guarda la información. El sistema confirma la adición y el nuevo medicamento aparece inmediatamente en la lista del inventario.
+
+  <img src="../images/UserFlowObjetivo3-parte1.png" alt="Happy Path-Objetivo3" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+  **Unhappy Paths**
+
+  En este caso, el administrador intenta registrar un medicamento sin completar campos clave como el nombre o la cantidad. El sistema previene el registro y resalta los campos obligatorios que faltan, mostrando un mensaje que guía al usuario para que complete la información necesaria antes de poder guardar.
+
+  <img src="../images/UserFlowObjetivo3-parte2.png" alt="UnHappy Path-Objetivo3" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+---
+
+- #### **Objetivo 4: Un familiar desea ver las actividades recientes de su ser querido.**
+
+  **Happy Path**
+
+  El familiar inicia sesión en su cuenta y es dirigido a su panel principal. Desde allí, accede a la sección "Actividades del Residente". La aplicación muestra una lista cronológica de las últimas actividades (terapias, comidas, visitas), incluyendo fotos y descripciones publicadas por el personal de cuidado, brindando tranquilidad y conexión.
+
+  <img src="../images/UserFlowObjetivo4.png" alt="Happy Path-Objetivo4" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+---
+
+- #### **Objetivo 5: Un usuario (administrador o familiar) ha olvidado su contraseña y desea recuperarla.**
+
+  **Happy Path**
+
+  En la pantalla de inicio de sesión, el usuario hace clic en "¿Olvidaste tu contraseña?". Ingresa su dirección de correo electrónico registrada y recibe un enlace o código de recuperación. Al seguir las instrucciones, puede establecer una nueva contraseña y acceder nuevamente a su cuenta sin problemas.
+
+  <img src="../images/UserFlowObjetivo5-parte1.png" alt="Happy Path-Objetivo5" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+  **Unhappy Paths**
+
+  Si el usuario ingresa un correo electrónico que no está registrado en la base de datos de Veyra, el sistema le informará que el correo no fue encontrado, protegiendo la seguridad de los datos y pidiéndole que verifique la dirección ingresada.
+
+  <img src="../images/UserFlowObjetivo5-parte2.png" alt="UnHappy Path-Objetivo5" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 ## 4.5. Web Applications Prototyping
 
 
 ![ContextDiagram Diagram](../images/prototypy.png)
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/ERvba6f0TWdDhgiVHVZ6HJwBgC_FOF0gNDEdsy9t47rPAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Pc0kHx
+
+http://bit.ly/4q6AhWP
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -477,39 +594,58 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/ERvba6f0
 
 Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
 
-El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/app/board/uXjVJBlKaKg=/?share_link_id=383869260607
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://bit.ly/433FTaw
 
 
 1. Bounded Context **IAM**
+
+   El bounded context IAM se encarga de la autenticación y autorización de los usuarios dentro del sistema. Gestiona procesos como el inicio de sesión, el registro de nuevos usuarios y la validación de credenciales para los diferentes roles: administrador, empleado y familiar. Su propósito principal es garantizar que solo los usuarios verificados puedan acceder a las funcionalidades que les corresponden según su rol. Este contexto asegura la seguridad, el control de accesos y la coherencia de permisos en toda la plataforma Veyra.
    
-   <img src="../assets/img/chapter-V/iam-eventstorming.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/iam-event-storming.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid #00bfff;">
 
    
 2. Bounded Context **Inventories**
+
+   El bounded context Inventories gestiona el registro, modificación y control de los productos médicos, recursos y suministros disponibles en la institución. Se encarga de mantener actualizada la información sobre existencias, fechas de vencimiento y disponibilidad de insumos. Este contexto se conecta directamente con Residents y Nursing Home, permitiendo la trazabilidad de los medicamentos asignados y la administración eficiente de los recursos. Su función principal es garantizar una gestión confiable del inventario, favoreciendo la seguridad del paciente y la continuidad de los servicios.
    
-   <img src="../assets/img/chapter-V/inventory-eventstorming.png" alt="Bounded Context Inventories" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/inventory-event-storming.png" alt="Bounded Context Inventories" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 3. Bounded Context **Employees**
+
+   El bounded context Employees tiene como objetivo administrar la información del personal que labora en la institución, abarcando desde el registro de nuevos empleados hasta la asignación de roles y turnos. Facilita el seguimiento de las responsabilidades y del desempeño del personal, asegurando una gestión organizada. Este contexto se vincula con Nursing Home y Residents, permitiendo coordinar las actividades del personal con los cuidados brindados a los residentes. Promueve una comunicación clara y una asignación eficiente de tareas dentro del entorno institucional.
    
-   <img src="../assets/img/chapter-V/enployees-eventstorming.png" alt="Bounded Context Employees" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/employee-event-storming.png" alt="Bounded Context Employees" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 4. Bounded Context **Nursing Home**
+
+   El bounded context Nursing Home representa el núcleo operativo donde se desarrollan las actividades médicas, administrativas y de atención al residente. Administra la información general de la institución, la asignación de empleados y la gestión de los recursos clínicos. Además, actúa como punto de conexión entre los contextos Employees, Residents e Inventories, garantizando una coordinación fluida entre el personal, los pacientes y los insumos médicos. Su objetivo principal es optimizar la operación integral de la casa de reposo y mantener la calidad del servicio.
    
-   <img src="../assets/img/chapter-V/nursinghome-eventstorming.png" alt="Bounded Context Nursing Home" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/nursinghome-event-storming.png" alt="Bounded Context Nursing Home" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 5. Bounded Context **Residents**
+
+   El bounded context Residents se encarga de administrar toda la información relacionada con los pacientes de la casa de reposo. Incluye el registro de nuevos residentes, la actualización de su información clínica y la consulta de su estado de salud. Se conecta directamente con los contextos Familiar e Inventories, lo que permite mantener actualizados los tratamientos, la comunicación con los familiares y la trazabilidad de los medicamentos asignados. Su propósito es centralizar y proteger los datos clínicos, garantizando un cuidado personalizado y transparente.
    
-   <img src="../assets/img/chapter-V/residents-eventstorming.png" alt="Bounded Context Residents" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/resident-event-storming.png" alt="Bounded Context Residents" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 6. Bounded Context **Familiar**
+
+   El bounded context Familiar gestiona la interacción entre el sistema y los familiares de los residentes. Permite la creación de cuentas familiares, la visualización de actividades y la consulta de historiales de tratamientos o pedidos. Este contexto fomenta la confianza y la transparencia al ofrecer a los familiares una visión clara del estado y las actividades de sus seres queridos. Se conecta con Residents e Inventories para mostrar información actualizada y mantener una comunicación constante entre la familia y la institución.
    
-   <img src="../assets/img/chapter-V/familiar-eventstorming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/familiar-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
+7. Bounded Context **Analytics**
+  
+   El bounded context Analytics está orientado al análisis de datos y la generación de indicadores visuales que apoyen la toma de decisiones. Recolecta información proveniente de Inventories, Residents y Nursing Home para elaborar reportes, estadísticas y gráficos que reflejan el estado del stock, el uso de medicamentos y el desempeño general de la institución. Su función es brindar una visión global y estratégica, permitiendo identificar patrones, anticipar necesidades y mejorar la eficiencia operativa mediante el análisis continuo de la información.
+
+   <img src="../images/analytics-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+   
 ### 4.6.2. Software Architecture Context Diagram
 
 El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software Veyra, los usuarios y sistemas externos.
@@ -528,36 +664,287 @@ El diagrama de componentes proporciona una vista más detallada de la arquitectu
 Este nivel de diseño se centra en los módulos internos de cada contenedor definido en el diagrama de contenedores, 
 mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunican entre sí.
 
-![ContainerDiagram Diagram](../images/Software-Architecture-Components-Diagrams.jpg)
+![ContainerDiagram Diagram](../images/structurizr-Components.png)
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
-<p>Employees diagram</p>
+
+<h3>IAM Diagram (Frontend)</h3>
+
+![IAM Diagram](../images/webapp-iam.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Gestión de la interfaz de usuario para la identidad y acceso (IAM), siguiendo una arquitectura limpia (Clean Architecture) en Angular.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Modela las entidades <code>SignIn</code> y <code>SignUp</code> como objetos de negocio puros, sin dependencias de frameworks.</li>
+<li>Application: El <code>IamStore</code> centraliza el estado (usuario autenticado, carga, errores) usando Angular Signals y orquesta los casos de uso.</li>
+<li>Infrastructure: Gestiona la comunicación con la API a través de una fachada (<code>IamApi</code>), endpoints especializados y traductores (<code>Assemblers</code>) que convierten los datos de la API en entidades de dominio.</li>
+<li>Presentation: Incluye componentes de UI (<code>SignInComponent</code>, <code>SignUpComponent</code>), componentes reutilizables (<code>AuthenticationSection</code>) y la configuración de rutas (<code>IamRouters</code>) que utiliza carga perezosa (lazy loading).</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> Flujos de inicio de sesión y registro desacoplados, validación de formularios reactivos y manejo de estado centralizado y reactivo (loading, error) que se refleja automáticamente en la UI.
+</li>
+<li>
+<strong>Característica destacada:</strong> Reutilización del <code>SignUpComponent</code> para diferentes roles ('administrator', 'familiar') mediante el paso de datos estáticos en la configuración de rutas, optimizando el código y la mantenibilidad.
+</li>
+</ul>
+
+<h3>Nursing Home Diagram (Frontend)</h3>
+
+![Nursing Home Diagram](../images/webapp-nursingHome.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Interfaz de usuario para la gestión y registro de residencias geriátricas.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Define la entidad <code>NursingHome</code> con sus propiedades de negocio.</li>
+<li>Application: El <code>NursingHomeStore</code> gestiona el estado de la lista de residencias y las operaciones CRUD.</li>
+<li>Infrastructure: Capa de comunicación con la API, siguiendo el patrón de fachada, endpoint y assembler.</li>
+<li>Presentation: Proporciona el componente <code>NursingHomeForm</code> para el registro de nuevas residencias y su enrutador asociado.</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> Creación de una nueva residencia a través de un formulario reactivo. El componente de UI delega la lógica de negocio al <code>NursingHomeStore</code>, que a su vez se comunica con la capa de infraestructura.
+</li>
+</ul>
+
+<h3>Employees Diagram (Frontend)</h3>
+
+![Employees Diagram](../images/webapp-employees.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Interfaz de usuario para la gestión completa del personal (empleados) de la residencia.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Define la entidad <code>Staff</code> con toda la información personal y contractual del empleado.</li>
+<li>Application: <code>EmployeesStore</code> actúa como el gestor de estado central para la lista de empleados.</li>
+<li>Infrastructure: Capa de comunicación con la API REST de empleados.</li>
+<li>Presentation: Proporciona un conjunto completo de componentes para el CRUD de empleados (<code>StaffFormCreate</code>, <code>StaffFormList</code>, <code>StaffFormEdit</code>, <code>StaffDetail</code>) y su enrutador.</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> Registro, edición, eliminación y listado de empleados. El estado se gestiona en el <code>EmployeesStore</code>, asegurando que la UI siempre refleje los datos más recientes de forma reactiva.
+</li>
+</ul>
+
+<h3>Residents Diagram (Frontend)</h3>
+
+![Resident Diagram](../images/webapp-resident.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Interfaz de usuario para la gestión integral de residentes, abarcando su información personal, médica y administrativa.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Una entidad <code>Residents</code> muy detallada que modela toda la información relevante de un residente.</li>
+<li>Application: <code>ResidentStore</code> gestiona el estado de los residentes, proveyendo una única fuente de verdad para toda la UI.</li>
+<li>Infrastructure: Capa de comunicación que interactúa con la API de residentes.</li>
+<li>Presentation: Un conjunto completo de vistas para listar, ver detalles, crear y editar residentes, cada una interactuando con el <code>ResidentStore</code>.</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> CRUD completo para la gestión de residentes. La arquitectura reactiva asegura que cualquier cambio (ej. editar un residente) se propague inmediatamente a todas las vistas relevantes (como la lista de residentes).
+</li>
+</ul>
+
+<h3>Shared Diagram (Frontend)</h3>
+
+![Shared Diagram](../images/webapp-shared.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Proporciona un conjunto de clases base, interfaces y patrones reutilizables que actúan como el fundamento para todos los demás módulos del frontend.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Define <code>BaseEntity</code> para estandarizar las entidades de negocio.</li>
+<li>Infrastructure: Contiene la lógica genérica para la comunicación con APIs. <code>BaseApiEndpoint</code> es la pieza central, implementando las operaciones CRUD (Crear, Leer, Actualizar, Borrar) de forma reutilizable para cualquier entidad.</li>
+<li>Presentation: Incluye <code>BaseForm</code>, una clase con utilidades para simplificar la gestión de errores y validaciones en los formularios de toda la aplicación.</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> El propósito de este módulo es ofrecer herramientas para reducir el código duplicado y forzar una arquitectura consistente. No implementa lógica de negocio, sino el andamiaje sobre el cual se construye dicha lógica.
+</li>
+</ul>
+
+<h3>Employees diagram (Backend)</h3>
 
 ![Employees Diagram](../images/Employee.svg)
 
+<ul>
+  <li>
+    <strong>Contexto:</strong> Gestión de empleados bajo el contexto "Employees Bounded Context".
+  </li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Domain: Agrega la entidad Employee, objetos valor (Position, WorkShift, TypeOfContract, ProfileId), y excepciones de negocio.</li>
+      <li>Application: Define servicios de consulta y comando para operaciones CRUD y filtros.</li>
+      <li>Infrastructure: Maneja persistencia y repositorios (JPA).</li>
+      <li>Interfaces: Expone API REST y recursos externos.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> Consultar empleados por posición o contrato, asignación de turnos, creación, edición y borrado.
+  </li>
+  <li>
+    <strong>Manejo de errores:</strong> Excepciones a nivel de dominio como empleado no encontrado, contrato inválido, conflictos en horarios.
+  </li>
+</ul>
 
-<p>Medications diagram </p>
+<h3>Medications diagram (Backend)</h3>
 
-![IAM Diagram](../images/platform-Medications.svg)
+![Medications Diagram](../images/platform-Medications.svg)
 
-<p>IAM diagram</p>
+<ul>
+  <li>
+    <strong>Contexto:</strong> Gestión de medicamentos bajo el "Medication Bounded Context".
+  </li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Domain: Agregado central "Medication", con objetos valor (Stock, Type, Brand, Laboratory, Dosage, ExpireDate, etc.), y excepciones específicas del dominio.</li>
+      <li>Application: Servicios y comandos para crear, actualizar, eliminar y consultar medicamentos, así como operaciones que incluyen filtros por tipo, marca, laboratorio y expiración.</li>
+      <li>Infrastructure: Incluye repositorios para persistencia de entidades.</li>
+      <li>Interfaces: Controlador REST para exponer las operaciones CRUD de medicamentos.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> Consultar medicamentos por laboratorio, tipo, marca, fecha de expiración, stock bajo, así como comandos para mantenimiento y eliminación.</li>
+  <li>
+    <strong>Manejo de errores:</strong> Excepciones para situaciones como medicamento no encontrado, laboratorio inválido, tipo inválido y stock inválido.</li>
+</ul>
+
+<h3>IAM diagram (Backend)</h3>
 
 ![IAM Diagram](../images/platform-IAM.svg)
 
-<p>Profiles diagram</p>
+<ul>
+  <li>
+    <strong>Contexto:</strong> Gestión de identidades y accesos bajo el dominio IAM (Identity and Access Management).
+  </li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Domain: Modela entidades como Usuario, Rol y Permisos, relacionando usuarios con roles y controles de acceso.</li>
+      <li>Application: Incluye servicios de aplicación para la gestión de usuarios y roles (creación, actualización, asignación).</li>
+      <li>Infrastructure: Implementa mecanismos de persistencia y repositorios para entidades de Seguridad.</li>
+      <li>Interfaces: Expone controladores y recursos API REST para autenticación y autorización.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> Alta, edición y consulta de usuarios; asignación de roles y permisos; flujos de autenticación y autorización.
+  </li>
+  <li>
+    <strong>Manejo de relaciones:</strong> Conexión entre usuarios, roles, y permisos, respaldado por servicios y controladores específicos.
+  </li>
+</ul>
+
+<h3>Profiles Diagram (Backend)</h3>
 
 ![profile Diagram](../images/platform-profiles.svg)
 
-<p>Nursing home</p>
+<ul>
+  <li>
+    <strong>Contexto:</strong> gestión de perfiles dentro de un contexto delimitado especializado.</li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Dominio: agregado central "Profile", incluye objetos valor (FullName, EmailAddress, Address, etc.) y comandos relacionados al manejo de perfiles.</li>
+      <li>Aplicación: servicios internos para consultas y comandos de crear, actualizar y recuperar perfiles; módulo ACL para control de acceso.</li>
+      <li>Infraestructura: persistencia en repositorios JPA y utilidades para transformación de datos.</li>
+      <li>Interfaces: controlador REST y recursos para acceso vía API, más una capa facade para integrar los servicios de consulta.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> crear, actualizar y recuperar perfiles usando capas de servicio y repositorio, con utilidades para mapear objetos de solicitud/respuesta al dominio.</li>
+  <li>
+    <strong>Integración:</strong> conecta el dominio con APIs, control de acceso y transformación interna para una gestión segura y consistente de perfiles.</li>
+</ul>
 
-![profile Diagram](../images/NursingHome.svg)
+<h3>Nursing Home Diagram (Backend)</h3>
+
+![Nursing Home Diagram](../images/NursingHome.svg)
+
+<ul>
+  <li>
+    <strong>Contexto:</strong> gestión de residencias geriátricas en un contexto delimitado.</li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Dominio: agregado principal "NursingHome", entidades asociadas (admin, facility) y objetos valor (Name, PhoneNumber, Address, Ruc, Description, Email).</li>
+      <li>Aplicación: servicios internos para consultas y comandos administrativos, y servicios outbound para integración con sistemas externos.</li>
+      <li>Infraestructura: persistencia de entidades mediante repositorios JPA.</li>
+      <li>Interfaces: API REST, manejo de recursos, transformaciones y control de acceso.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> creación, administración y consulta de residencias y administradores utilizando un diseño modular y seguro.</li>
+</ul>
+
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
-![Database](../images/VeyraDatabase.svg)
+![Database](../images/DataBase-Diagram.png)
 
+<h3><strong>Contextos principales:</strong></h3>
 
+<h4>IAM Context:</h4>
+<p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
+
+![IAM Context](../images/IAM-Context.png)
+
+<h4>Platform-Profiles Context:</h4>
+<p><strong>Responsabilidad:</strong> Administra los perfiles de todas las personas en el sistema (residentes, empleados, familiares) y la información específica de los residentes.</p>
+
+![IAM Context](../images/Platform-Profiles-Context.png)
+
+<h4>Employee Context:</h4>
+<p><strong>Responsabilidad:</strong> Almacena información contractual y laboral de los empleados, vinculándolos a un perfil y una residencia.</p>
+
+![Employee Context](../images/Employee-Context.png)
+
+<h4>Medications Context:</h4>
+<p><strong>Responsabilidad:</strong> Gestión del catálogo de medicamentos, las prescripciones asignadas a residentes y el registro de cada administración.</p>
+
+![Medications Context](../images/Medications-Context.png)
+
+<h4>ResidentFamily Context:</h4>
+<p><strong>Responsabilidad:</strong> Define los vínculos entre residentes y sus familiares, especificando el tipo de relación.</p>
+
+![ResidentFamily Context](../images/ResidentFamily-Context.png)
+
+<h4>IAM Context:</h4>
+<p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
+
+![IAM Context](../images/IAM-Context.png)
+
+<h4>Platform-Appointments Context:</h4>
+<p><strong>Responsabilidad:</strong> Agenda y gestión de citas para los residentes, registrando quiénes asisten (empleados o familiares).</p>
+
+![Platform-Appointments Context](../images/Platform-Appointments-Context.png)
+
+<h4>Shared Context:</h4>
+<p><strong>Responsabilidad:</strong> Contiene entidades transversales como las notificaciones, que pueden ser generadas desde cualquier otro contexto y dirigidas a un usuario.</p>
+
+![Shared Context](../images/Shared-Context.png)
+
+<strong>Relaciones clave:</strong> Integración flexible entre usuarios, perfiles, residentes, familiares y empleados; trazabilidad para médicos, medicamentos, citas, notificaciones y administración de entidades residenciales.</li>
+</ul>
