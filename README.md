@@ -8,7 +8,7 @@
     <br><br>
     <strong>Ciclo:</strong> 5° Ciclo
     <br><br>
-    <strong>Nombre del curso:</strong> Desarrollo de Aplicaciones Open Source
+    1ASI0729-Desarrollo de Aplicaciones Open Source
     <br><br>
     <strong>Sección:</strong> 7338.
     <br><br>
@@ -54,75 +54,88 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="14">TB1</td>
+      <td>1.0</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Desarrollo de los diagramas C4 y el diagrama de clases para la arquitectura de la aplicación. También, lideró el Event Storming y el diagrama de clases.</td>
+      <td>Se añadio la sección de Class Diagram en el capítulo 4.</td>
     </tr>
     <tr>
+        <td>1.0</td>
       <td>13/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Desarrollo del Lean UX Canvas, los Lean UX Problem Statements, Lean UX Assumptions y los User Profiles.</td>
+      <td>Se añadio la sección del Lean UX Canvas en el capítulo 1.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>13/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>Desarrollo del Lean UX Problem Statements y Lean UX Hypothesis Statements (Capítulo 1), y la matriz de tareas de usuario (User Task Matrix).</td>
+      <td>Se añadio la sección del Lean UX Problem Statements y Lean UX Hypothesis Statements en el capítulo 1.</td>
     </tr>
     <tr>
+     <td>1.0</td>
       <td>14/09/2025</td>
       <td>Oscar Armas Sánchez</td>
-      <td>Mejoras en la redacción de los Lean UX Problem Statement y Lean UX Hypothesis Statements (Capítulo 1). Adicionalmente, desarrolló los mockups de la aplicación web y se encargó del despliegue (deployment) de la landing page y las guías de estilo generales.</td>
+      <td>Se corrigió la redacción del problem statment en el capítulo 1.</td>
     </tr>
     <tr>
+        <td>1.0</td>
       <td>15/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Desarrollo del Product Backlog con los User Stories y el Impact Mapping pertenicientes al Capitulo 3. Adicionalmente, se encargó de los wireframes de la landing page y el análisis de la competencia.</td>
+      <td>Se añadio la sección de competidores y  el análisis de la competencia en el capítulo 2.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>20/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Desarrollo del diagrama C4 para el Cap. 4.</td>
+      <td>Se añadio la sección de Information Architecture para el capítulo 4.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>17/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Desarrollo el Empathy mapping para el Cap. 2.</td>
+      <td>Se añadio la sección del Empathy mapping para el Capítulo 2.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>19/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>Desarollo el Cap. 4 (Diseño de estilos, Wireframes y MockUps del Landing Page y Web App).</td>
+      <td>  Se añadio  la sección de los wireframe y mockups de la web aplication para el capítulo 4.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>20/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Agrego los puntos de gestion y herramientas a utilizar en el equipo por cada iteracion de los Sprints; Cap. 5</td>
+      <td>Se añadio la sección de analisis de entrevistas para el capítulo 2.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Desarrollo el Diagrama de Clases de la Aplicacion (Cap. 4). Desarrollo del diagrama C4 para el Cap. 4.</td>
+      <td>Se añadio la sección de entrevista para el capítulo 2.</td>
     </tr>
     <tr>
+     <td>1.0</td>
       <td>12/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Desarrollo los puntos restantes del Cap. 2 y el Jouney Mapping.</td>
+      <td>Se añadio la sección del  Jouney Mapping para el capítulo 2.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>16/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>Desarrollo las entrevistas con los segmentos objetivos y completó los puntos pendientes del capítulo 1.</td>
+      <td>Se añadio entrevista para el segmento de familiares para el capitulo 2.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>19/09/2025</td>
       <td>Oscar Armas Sánchez</td>
-      <td>Desarrollo los mockups del web application y se encargó del deployment de la landing page. Adicionalmente, diseñó las directrices de estilo generales para el proyecto.</td>
+      <td>Se añadio la sección del  deployment  para el capítulo 5.</td>
     </tr>
     <tr>
+      <td>1.0</td>
       <td>18/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Desarrollo los wireframes de la landing page y el análisis competitivo.</td>
+      <td>Se añadio  la sección de los wireframes del landing page para el capítulo 4.</td>
     </tr>
   </tbody>
 </table>
@@ -143,6 +156,75 @@ En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nu
 
 <img src="images/comits-2.jpg" alt="Veyra" style="width:auto;">
 
+## ABET – EAC - Student Outcome 3
+
+**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias*
+
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+      <td>
+        <strong>Miguel Ángel Junior Román López:</strong>
+        <br><br>
+        TB1: Convertí el análisis de entrevistas, la documentación y los wireframes en directrices claras y accionables, diseñadas según el público. Gracias a ello, los distintos equipos entendieron y utilizaron esos insumos en sus tareas.
+        <br><br>
+        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
+        <br><br>
+        TB1: Comuniqué los hallazgos y propuestas en presentaciones claras y adaptadas al público; esto permitió que equipos con distinto perfil entendieran y 
+        aplicaran las decisiones discutidas.
+                <br><br>
+        <strong>Billy Jake Ruiz Madrid:</strong>
+           <br><br>
+        TB1:Con entrevistas logré implantar un lenguaje común entre equipos y áreas del dominio, facilitando la comunicación y la toma de decisiones.
+                <br><br>
+        <strong>Oscar Armas Sánchez:</strong>
+                   <br><br>
+              TB1:Describí los aspectos visuales y de arquitectura del proyecto en un lenguaje apropiado para cada público; como resultado, los distintos perfiles lograran coordinarse y trabajar en consonancia con los mockups, las directrices de estilo y la arquitectura de la información. 
+        <br><br>
+        <strong>Renato Calvo Yalan:</strong>
+          <br><br>
+        TB1:Expliqué la estructura funcional y técnica en términos adecuados para cada audiencia, lo que permitió que perfiles variados entendieran y alinearan su trabajo con las prioridades del product backlog, los flujos de usuario y el diagrama de clases que propuse.
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+      <td>
+        <strong>Miguel Ángel Junior Román López</strong>
+        <br><br>
+        TB1:Redacté informes y resúmenes de los resultados obtenidos en las entrevistas y pruebas. Procuré que cada documento tuviera un lenguaje y nivel de detalle acorde al público, lo que facilitó que tanto diseñadores como desarrolladores comprendieran la información y la aplicaran correctamente.
+        <br><br>
+        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
+        <br><br>
+        TB1:Elaboré la documentación del proceso de investigación y las propuestas de mejora, cuidando que el lenguaje fuera claro y ordenado. Esto permitió que distintos miembros del equipo entendieran el propósito de cada decisión y trabajaran con una misma dirección.
+        <br><br> 
+        <strong>Billy Jake Ruiz Madrid:</strong>
+        <br><br>
+        TB1:Elaboré reportes que explicaban la relación entre las tareas de usuario y los módulos del sistema, aplicando el lenguaje ubicuo para mantener coherencia entre las áreas de negocio y desarrollo. Esto ayudó a evitar ambigüedades y a mejorar la comunicación técnica.
+        <br><br>
+        <strong>Oscar Armas Sánchez:</strong>
+          <br><br>
+        TB1:Documenté la arquitectura visual y técnica del proyecto con explicaciones precisas y ejemplos visuales. Adapté el contenido según el perfil del lector, logrando que cada área del equipo comprendiera su rol dentro de la estructura general del sistema.
+          <br><br>
+        <strong>Renato Calvo:</strong>
+                  <br><br>
+        TB1:Diseñé diagramas que explicaban de forma sencilla cómo interactuaban los usuarios con el sistema y cómo se organizaban sus componentes. Esta documentación permitió que áreas técnicas y no técnicas compartieran una misma perspectiva del proyecto.
+      </td>
+      <td>
+      </tr>
+  </tbody>
+</table>
 
 <h2>Contenido</h2>
 
@@ -274,170 +356,6 @@ En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nu
 
 
 
-## ABET – EAC - Student Outcome 3
 
-**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias*
-
-En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
-
-<table border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-      <td>
-        <strong>Miguel Ángel Junior Román López:</strong>
-        - App Web Wireframes
-        - Landing Page Wireframes
-        - Entrevistas
-        - Trello
-        - User Stories
-        - Impact Mapping
-        - Landing Page
-        - Análisis Competitivo
-        - Puntos de Gestión
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        - Lean UX Process
-        - Lean UX Assumptions
-        - Entrevistas
-        - Registro de entrevistas
-        - Needfinding
-        - User Personas
-        - Empathy Mapping
-        - Style Guidelines
-        - General Style Guidelines
-        - Web Style Guidelines
-        - Landing Page UI Design
-        - Landing Page Mock-up
-        <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        - Lean UX Canvas
-        - Entrevistas
-        - Needfinding
-        - User Task Matrix
-        - User Journey Mapping
-        - Ubiquitous Language
-        - Impact Mapping
-        - Trello
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-        - Mockups de la aplicación web
-        - Despliegue de la landing page
-        - Capítulos de la sección 5.2 (Implementación)
-        - Entrevistas
-        - Guías de estilo generales
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-        - Entrevista a administradores de casas de reposo
-        - Diseño de Diagrama C4 (Contexto, Contenedores, Componentes)
-        - Diagrama de Clases
-        - Event Storming
-        - Startup Profile (Cap. 1)
-      </td>
-      <td>
-        <strong>Miguel Ángel Junior Román López:</strong>
-        <br>
-        La conclusión del trabajo realizado es que la forma en que desarrollé los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        <br>
-        La conclusión del trabajo realizado es que la comunicación con las audiencias clave se estableció a través de la investigación y el diseño. Mediante la creación de User Personas y Empathy Maps, logré entender las necesidades de los usuarios, lo cual fue clave para desarrollar un diseño de interfaz de usuario y guías de estilo que comunican de manera efectiva el valor del producto, demostrando mi capacidad para adaptar la comunicación a diferentes contextos y audiencias.
-        <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        <br>
-        La conclusión del trabajo realizado es que logré comunicar con diferentes audiencias mediante la aplicación de metodologías ágiles y colaborativas como el Lean UX Canvas, entrevistas y needfinding. Estas herramientas me permitieron comprender y transmitir de forma clara las necesidades reales de los usuarios. Además, con artefactos como el User Journey Mapping, la matriz de tareas y el Impact Mapping, pude traducir hallazgos complejos en entregables entendibles tanto para usuarios como para el equipo de desarrollo y stakeholders, reforzando la efectividad en la comunicación oral durante discusiones y presentaciones.
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-        <br>
-        La conclusión del trabajo realizado es que, al participar en el diseño y la implementación, pude traducir conceptos complejos en interfaces visuales comprensibles. La participación en las entrevistas me permitió captar las necesidades del usuario final, mientras que el desarrollo del Cap. 5 me ayudó a comunicar efectivamente los procesos técnicos y de despliegue a una audiencia no técnica.
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-        <br>
-        La conclusión del trabajo realizado es que, al liderar la arquitectura de software y las entrevistas, pude comunicar ideas técnicas complejas y necesidades de usuarios a diferentes audiencias. La elaboración de diagramas de arquitectura (C4) y el diagrama de clases me permitieron explicar la estructura del sistema a stakeholders técnicos y no técnicos, mientras que las entrevistas me ayudaron a verbalizar las necesidades del cliente de forma efectiva.
-      </td>
-    </tr>
-    <tr>
-      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
-      <td>
-        <strong>Miguel Ángel Junior Román López</strong>
-        - App Web Wireframes
-        - Landing Page Wireframes
-        - Entrevistas
-        - Trello
-        - User Stories
-        - Impact Mapping
-        - Landing Page
-        - Análisis Competitivo
-        - Puntos de Gestión
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        - Lean UX Process
-        - Lean UX Assumptions
-        - Entrevistas
-        - Registro de entrevistas
-        - Needfinding
-        - User Personas
-        - Empathy Mapping
-        - Style Guidelines
-        - General Style Guidelines
-        - Web Style Guidelines
-        - Landing Page UI Design
-        - Landing Page Mock-up
-        <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        - Lean UX Canvas
-        - Entrevistas
-        - Needfinding
-        - User Task Matrix
-        - User Journey Mapping
-        - Ubiquitous Language
-        - Impact Mapping
-        - Trello
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-        - Mockups de la aplicación web
-        - Despliegue de la landing page
-        - Capítulos de la sección 5.2 (Implementación)
-        - Entrevistas
-        - Guías de estilo generales
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-        - Entrevista a administradores de casas de reposo
-        - Diseño de Diagrama C4 (Contexto, Contenedores, Componentes)
-        - Diagrama de Clases
-        - Event Storming
-        - Startup Profile (Cap. 1)
-      </td>
-      <td>
-        <strong>Miguel Ángel Junior Román López</strong>
-        <br>
-        La culminación de estas actividades de trabajo en equipo permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5.
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        <br>
-        La culminación de este proceso de investigación y diseño demuestra una sólida capacidad para comunicar eficazmente con diversas audiencias. Al aplicar el Proceso Lean UX, pude articular los problemas y suposiciones de manera clara. A través de las entrevistas y el Needfinding, logré descifrar las necesidades de los usuarios y representarlas en User Personas y Empathy Maps. Esto me permitió desarrollar guías de estilo y un Mock-up de la Landing Page que no solo son visualmente atractivos, sino que también transmiten de forma precisa y clara la propuesta de valor de Veyra, atendiendo tanto a los usuarios finales como a las partes interesadas en el diseño.
-        <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        <br>
-        La culminación de estas actividades demuestra mi capacidad para comunicar de forma escrita con distintas audiencias. A través del Lean UX Canvas y el Impact Mapping logré documentar los problemas y objetivos estratégicos de manera clara y estructurada. El User Task Matrix y el User Journey Mapping me permitieron plasmar procesos y necesidades de los usuarios en un formato entendible y accesible. Asimismo, con la documentación de entrevistas, needfinding y el uso de Trello para gestión, conseguí que tanto el equipo como los stakeholders tuvieran una visión compartida y clara del producto, reforzando la efectividad de la comunicación escrita.
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-        <br>
-        La culminación de estas actividades demuestra mi habilidad para comunicar por escrito de manera efectiva. Al documentar el despliegue de la landing page y el desarrollo de los mockups, logré explicar procesos técnicos y de diseño a una audiencia amplia. La redacción de los Cap. 5 y las guías de estilo me permitieron presentar información de implementación de manera estructurada y coherente, lo que facilitó la comprensión y el seguimiento del proyecto por parte del equipo.
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-        <br>
-        La culminación de este trabajo demuestra mi capacidad para comunicar por escrito de forma clara y precisa. La documentación de los diagramas de arquitectura (C4) y del diagrama de clases, junto con la redacción del perfil de la startup y el análisis de entrevistas, me permitieron presentar información compleja de manera organizada y comprensible para todos los miembros del equipo y stakeholders. Esto asegura que la visión técnica del proyecto sea compartida y entendida por todos.
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 
