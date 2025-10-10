@@ -484,6 +484,12 @@ La organización de roles de líderes y colaboradores está alineada con la post
   </table>
   
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+<p>
+  <a href="https://nova-peru-tech.vercel.app/home">Front-end NovaPeru-Tech</a> -
+  <a href="https://nova-peru-tech.vercel.app/home">https://nova-peru-tech.vercel.app/home</a>
+</p>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 ### 5.2.3. Sprint 3
