@@ -697,6 +697,71 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 </li>
 </ul>
 
+<h3>Employees Diagram (Frontend)</h3>
+
+![Employees Diagram](../images/webapp-employees.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Interfaz de usuario para la gestión completa del personal (empleados) de la residencia.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Define la entidad <code>Staff</code> con toda la información personal y contractual del empleado.</li>
+<li>Application: <code>EmployeesStore</code> actúa como el gestor de estado central para la lista de empleados.</li>
+<li>Infrastructure: Capa de comunicación con la API REST de empleados.</li>
+<li>Presentation: Proporciona un conjunto completo de componentes para el CRUD de empleados (<code>StaffFormCreate</code>, <code>StaffFormList</code>, <code>StaffFormEdit</code>, <code>StaffDetail</code>) y su enrutador.</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> Registro, edición, eliminación y listado de empleados. El estado se gestiona en el <code>EmployeesStore</code>, asegurando que la UI siempre refleje los datos más recientes de forma reactiva.
+</li>
+</ul>
+
+<h3>Residents Diagram (Frontend)</h3>
+
+![Resident Diagram](../images/webapp-resident.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Interfaz de usuario para la gestión integral de residentes, abarcando su información personal, médica y administrativa.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Una entidad <code>Residents</code> muy detallada que modela toda la información relevante de un residente.</li>
+<li>Application: <code>ResidentStore</code> gestiona el estado de los residentes, proveyendo una única fuente de verdad para toda la UI.</li>
+<li>Infrastructure: Capa de comunicación que interactúa con la API de residentes.</li>
+<li>Presentation: Un conjunto completo de vistas para listar, ver detalles, crear y editar residentes, cada una interactuando con el <code>ResidentStore</code>.</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> CRUD completo para la gestión de residentes. La arquitectura reactiva asegura que cualquier cambio (ej. editar un residente) se propague inmediatamente a todas las vistas relevantes (como la lista de residentes).
+</li>
+</ul>
+
+<h3>Shared Diagram (Frontend)</h3>
+
+![Shared Diagram](../images/webapp-shared.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Proporciona un conjunto de clases base, interfaces y patrones reutilizables que actúan como el fundamento para todos los demás módulos del frontend.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Define <code>BaseEntity</code> para estandarizar las entidades de negocio.</li>
+<li>Infrastructure: Contiene la lógica genérica para la comunicación con APIs. <code>BaseApiEndpoint</code> es la pieza central, implementando las operaciones CRUD (Crear, Leer, Actualizar, Borrar) de forma reutilizable para cualquier entidad.</li>
+<li>Presentation: Incluye <code>BaseForm</code>, una clase con utilidades para simplificar la gestión de errores y validaciones en los formularios de toda la aplicación.</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> El propósito de este módulo es ofrecer herramientas para reducir el código duplicado y forzar una arquitectura consistente. No implementa lógica de negocio, sino el andamiaje sobre el cual se construye dicha lógica.
+</li>
+</ul>
+
 <h3>Employees diagram (Backend)</h3>
 
 ![Employees Diagram](../images/Employee.svg)
