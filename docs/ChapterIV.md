@@ -649,31 +649,126 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
-<p>Employees diagram</p>
+
+<h3>Employees diagram</h3>
 
 ![Employees Diagram](../images/Employee.svg)
 
+<ul>
+  <li>
+    <strong>Contexto:</strong> Gestión de empleados bajo el contexto "Employees Bounded Context".
+  </li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Domain: Agrega la entidad Employee, objetos valor (Position, WorkShift, TypeOfContract, ProfileId), y excepciones de negocio.</li>
+      <li>Application: Define servicios de consulta y comando para operaciones CRUD y filtros.</li>
+      <li>Infrastructure: Maneja persistencia y repositorios (JPA).</li>
+      <li>Interfaces: Expone API REST y recursos externos.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> Consultar empleados por posición o contrato, asignación de turnos, creación, edición y borrado.
+  </li>
+  <li>
+    <strong>Manejo de errores:</strong> Excepciones a nivel de dominio como empleado no encontrado, contrato inválido, conflictos en horarios.
+  </li>
+</ul>
 
-<p>Medications diagram </p>
+<h3>Medications diagram</h3>
 
 ![IAM Diagram](../images/platform-Medications.svg)
 
-<p>IAM diagram</p>
+<ul>
+  <li>
+    <strong>Contexto:</strong> Gestión de medicamentos bajo el "Medication Bounded Context".
+  </li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Domain: Agregado central "Medication", con objetos valor (Stock, Type, Brand, Laboratory, Dosage, ExpireDate, etc.), y excepciones específicas del dominio.</li>
+      <li>Application: Servicios y comandos para crear, actualizar, eliminar y consultar medicamentos, así como operaciones que incluyen filtros por tipo, marca, laboratorio y expiración.</li>
+      <li>Infrastructure: Incluye repositorios para persistencia de entidades.</li>
+      <li>Interfaces: Controlador REST para exponer las operaciones CRUD de medicamentos.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> Consultar medicamentos por laboratorio, tipo, marca, fecha de expiración, stock bajo, así como comandos para mantenimiento y eliminación.</li>
+  <li>
+    <strong>Manejo de errores:</strong> Excepciones para situaciones como medicamento no encontrado, laboratorio inválido, tipo inválido y stock inválido.</li>
+</ul>
+
+<h3>IAM diagram</h3>
 
 ![IAM Diagram](../images/platform-IAM.svg)
 
-<p>Profiles diagram</p>
+<ul>
+  <li>
+    <strong>Contexto:</strong> Gestión de identidades y accesos bajo el dominio IAM (Identity and Access Management).
+  </li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Domain: Modela entidades como Usuario, Rol y Permisos, relacionando usuarios con roles y controles de acceso.</li>
+      <li>Application: Incluye servicios de aplicación para la gestión de usuarios y roles (creación, actualización, asignación).</li>
+      <li>Infrastructure: Implementa mecanismos de persistencia y repositorios para entidades de Seguridad.</li>
+      <li>Interfaces: Expone controladores y recursos API REST para autenticación y autorización.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> Alta, edición y consulta de usuarios; asignación de roles y permisos; flujos de autenticación y autorización.
+  </li>
+  <li>
+    <strong>Manejo de relaciones:</strong> Conexión entre usuarios, roles, y permisos, respaldado por servicios y controladores específicos.
+  </li>
+</ul>
+
+<h3>Profiles Diagram </h3>
 
 ![profile Diagram](../images/platform-profiles.svg)
 
-<p>Nursing home</p>
+<ul>
+  <li>
+    <strong>Contexto:</strong> gestión de perfiles dentro de un contexto delimitado especializado.</li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Dominio: agregado central "Profile", incluye objetos valor (FullName, EmailAddress, Address, etc.) y comandos relacionados al manejo de perfiles.</li>
+      <li>Aplicación: servicios internos para consultas y comandos de crear, actualizar y recuperar perfiles; módulo ACL para control de acceso.</li>
+      <li>Infraestructura: persistencia en repositorios JPA y utilidades para transformación de datos.</li>
+      <li>Interfaces: controlador REST y recursos para acceso vía API, más una capa facade para integrar los servicios de consulta.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> crear, actualizar y recuperar perfiles usando capas de servicio y repositorio, con utilidades para mapear objetos de solicitud/respuesta al dominio.</li>
+  <li>
+    <strong>Integración:</strong> conecta el dominio con APIs, control de acceso y transformación interna para una gestión segura y consistente de perfiles.</li>
+</ul>
 
+<h3>Nursing Home </h3>
 ![profile Diagram](../images/NursingHome.svg)
+<ul>
+  <li>
+    <strong>Contexto:</strong> gestión de residencias geriátricas en un contexto delimitado.</li>
+  <li>
+    <strong>Módulos principales:</strong>
+    <ul>
+      <li>Dominio: agregado principal "NursingHome", entidades asociadas (admin, facility) y objetos valor (Name, PhoneNumber, Address, Ruc, Description, Email).</li>
+      <li>Aplicación: servicios internos para consultas y comandos administrativos, y servicios outbound para integración con sistemas externos.</li>
+      <li>Infraestructura: persistencia de entidades mediante repositorios JPA.</li>
+      <li>Interfaces: API REST, manejo de recursos, transformaciones y control de acceso.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Operaciones clave:</strong> creación, administración y consulta de residencias y administradores utilizando un diseño modular y seguro.</li>
+</ul>
+
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
 ![Database](../images/VeyraDatabase.svg)
+
 
 
