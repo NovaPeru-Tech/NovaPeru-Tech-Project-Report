@@ -394,69 +394,49 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
 
-<table border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-      <td>
-        <strong>Miguel Ángel Junior Román López:</strong>
-        <br><br>
-        TB1: Convertí el análisis de entrevistas, la documentación y los wireframes en directrices claras y accionables, diseñadas según el público. Gracias a ello, los distintos equipos entendieron y utilizaron esos insumos en sus tareas.
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        <br><br>
-        TB1: Comuniqué los hallazgos y propuestas en presentaciones claras y adaptadas al público; esto permitió que equipos con distinto perfil entendieran y 
-        aplicaran las decisiones discutidas.
-                <br><br>
-        <strong>Billy Jake Ruiz Madrid:</strong>
-           <br><br>
-        TB1:Con entrevistas logré implantar un lenguaje común entre equipos y áreas del dominio, facilitando la comunicación y la toma de decisiones.
-                <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-                   <br><br>
-              TB1:Describí los aspectos visuales y de arquitectura del proyecto en un lenguaje apropiado para cada público; como resultado, los distintos perfiles lograran coordinarse y trabajar en consonancia con los mockups, las directrices de estilo y la arquitectura de la información. 
-        <br><br>
-        <strong>Renato Calvo Yalan:</strong>
-          <br><br>
-        TB1:Expliqué la estructura funcional y técnica en términos adecuados para cada audiencia, lo que permitió que perfiles variados entendieran y alinearan su trabajo con las prioridades del product backlog, los flujos de usuario y el diagrama de clases que propuse.
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
-      <td>
-        <strong>Miguel Ángel Junior Román López</strong>
-        <br><br>
-        TB1:Redacté informes y resúmenes de los resultados obtenidos en las entrevistas y pruebas. Procuré que cada documento tuviera un lenguaje y nivel de detalle acorde al público, lo que facilitó que tanto diseñadores como desarrolladores comprendieran la información y la aplicaran correctamente.
-        <br><br>
-        <strong>Ariana Lizeth Ramirez Carrasco:</strong>
-        <br><br>
-        TB1:Elaboré la documentación del proceso de investigación y las propuestas de mejora, cuidando que el lenguaje fuera claro y ordenado. Esto permitió que distintos miembros del equipo entendieran el propósito de cada decisión y trabajaran con una misma dirección.
-        <br><br> 
-        <strong>Billy Jake Ruiz Madrid:</strong>
-        <br><br>
-        TB1:Elaboré reportes que explicaban la relación entre las tareas de usuario y los módulos del sistema, aplicando el lenguaje ubicuo para mantener coherencia entre las áreas de negocio y desarrollo. Esto ayudó a evitar ambigüedades y a mejorar la comunicación técnica.
-        <br><br>
-        <strong>Oscar Armas Sánchez:</strong>
-          <br><br>
-        TB1:Documenté la arquitectura visual y técnica del proyecto con explicaciones precisas y ejemplos visuales. Adapté el contenido según el perfil del lector, logrando que cada área del equipo comprendiera su rol dentro de la estructura general del sistema.
-          <br><br>
-        <strong>Renato Calvo:</strong>
-                  <br><br>
-        TB1:Diseñé diagramas que explicaban de forma sencilla cómo interactuaban los usuarios con el sistema y cómo se organizaban sus componentes. Esta documentación permitió que áreas técnicas y no técnicas compartieran una misma perspectiva del proyecto.
-      </td>
-      <td>
-      </tr>
-  </tbody>
-</table>
+<table border="1" cellpadding="5" cellspacing="0" width="100%"> 
+  <thead> <tr> <th width="25%">Criterio específico</th> <th width="55%">Acciones realizadas</th> <th width="20%">Conclusiones</th> </tr> </thead> <tbody> <tr> <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia.</strong></td> <td> <strong>Miguel Ángel Junior Román López:</strong> <br><br> <strong>TB1:</strong> Transformé los hallazgos de entrevistas y los wireframes en mensajes claros durante las sesiones grupales, permitiendo que cada miembro comprendiera la intención detrás de cada decisión de diseño. Además, participé en la exposición del proceso Lean UX, transmitiendo de forma ordenada los principales descubrimientos del equipo. <br><br> <strong>TP1:</strong> Expuse los avances del análisis de entrevistas y la sección “Project Report Collaboration Insights”, organizando la información para distintos tipos de audiencia, desde diseñadores hasta revisores técnicos, logrando una comunicación transversal y efectiva. <br><br> <strong>Ariana Lizeth Ramírez Carrasco:</strong> <br><br> <strong>TB1:</strong> Presenté los resultados del Lean UX Canvas y Empathy Mapping en reuniones, adaptando el lenguaje a públicos técnicos y no técnicos. Esto facilitó la comprensión del enfoque centrado en el usuario y la alineación del equipo. <br><br> <strong>TP1:</strong> Dirigí la presentación de los entregables visuales finales (Landing Page y Keynote), utilizando una narrativa clara que resaltó los aspectos visuales y conceptuales del proyecto frente a distintos grupos de evaluación. <br><br> <strong>Billy Jake Ruiz Madrid:</strong> <br><br> <strong>TB1:</strong> Comunicado las hipótesis de diseño y validación de entrevistas en exposiciones internas, facilitando el alineamiento del equipo respecto a los hallazgos principales del proceso de Needfinding. <br><br> <strong>TP1:</strong> Durante el Sprint Review, presentó los resultados de validación de hipótesis y pruebas funcionales ante el equipo y docente, explicando con claridad el impacto de cada funcionalidad implementada y las mejoras sugeridas. <br><br> <strong>Oscar Armas Sánchez:</strong> <br><br> <strong>TB1:</strong> Explicó la arquitectura visual del proyecto y los diagramas técnicos durante las sesiones de revisión, utilizando lenguaje comprensible para diseñadores y programadores, logrando así una comprensión conjunta de la estructura del sistema. <br><br> <strong>TP1:</strong> Encabezó la exposición sobre el proceso de despliegue y la configuración del entorno, comunicando los aspectos técnicos con precisión y coherencia frente a audiencias diversas, lo que facilitó la validación del entorno de desarrollo. <br><br> <strong>Renato Calvo Yalán:</strong> <br><br> <strong>TB1:</strong> Presentó el diagrama de clases y la arquitectura del sistema en reuniones de equipo, adaptando el nivel de detalle según el perfil del público. Esto contribuyó a la integración de los componentes en la arquitectura general. <br><br> <strong>TP1:</strong> Lideró la presentación del despliegue y la validación del entorno técnico, utilizando lenguaje claro y visualizaciones precisas para explicar la relación entre módulos y componentes del sistema. </td> <td> <strong>Conclusión TB1:</strong><br> La comunicación oral fue clave para unificar criterios y garantizar que todos los integrantes comprendieran los objetivos del proyecto. Las presentaciones internas y discusiones guiadas permitieron consolidar decisiones de diseño y técnica de manera efectiva.<br><br> <strong>Conclusión TP1:</strong><br> En esta etapa, la comunicación oral evolucionó hacia un nivel más técnico y estructurado. El equipo demostró fluidez al exponer resultados, defender propuestas y articular información compleja frente a públicos mixtos, fortaleciendo su capacidad argumentativa y colaborativa. </td> </tr>
+<tr>
+  <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia.</strong></td>
+  <td>
+    <strong>Miguel Ángel Junior Román López:</strong>
+    <br><br>
+    <strong>TB1:</strong> Redacté los análisis de entrevistas y los resúmenes de hallazgos, empleando un lenguaje accesible para todas las áreas del equipo. Los documentos sirvieron como guía para estructurar el Problem Statement y las Assumptions.
+    <br><br>
+    <strong>TP1:</strong> Elaboré la documentación del apartado “Project Report Collaboration Insights” y actualicé los Student Outcomes, asegurando consistencia en la estructura, claridad en el lenguaje y alineación con los objetivos de aprendizaje.
+    <br><br>
+    <strong>Ariana Lizeth Ramírez Carrasco:</strong>
+    <br><br>
+    <strong>TB1:</strong> Documenté el proceso de Lean UX y los entregables visuales con un formato técnico y comprensible, generando insumos reutilizables para posteriores entregas. Además, redacté la descripción del dominio y la organización de contenidos para el capítulo 4.
+    <br><br>
+    <strong>TP1:</strong> Redacté los informes de revisión visual y accesibilidad, así como las directrices gráficas para el despliegue final, manteniendo una comunicación escrita clara y profesional, acorde con los estándares del curso.
+    <br><br>
+    <strong>Billy Jake Ruiz Madrid:</strong>
+    <br><br>
+    <strong>TB1:</strong> Elaboré reportes que relacionaban tareas de usuario con módulos funcionales, utilizando un lenguaje técnico unificado con el lenguaje ubicuo del dominio. Esto ayudó a mantener coherencia entre las áreas de negocio y desarrollo.
+    <br><br>
+    <strong>TP1:</strong> Documenté la ejecución del Sprint 2, registrando pruebas funcionales, evidencias y resultados en un formato detallado y comprensible para el equipo técnico y docente.
+    <br><br>
+    <strong>Oscar Armas Sánchez:</strong>
+    <br><br>
+    <strong>TB1:</strong> Documenté la arquitectura visual y técnica del proyecto con descripciones precisas y ejemplos ilustrativos, adecuando el contenido para distintas audiencias. Asimismo, organicé las secciones de diseño web con redacción técnica y clara.
+    <br><br>
+    <strong>TP1:</strong> Redacté el informe de Sprint Review y la documentación de despliegue, empleando un tono profesional, estructurado y coherente con los estándares del curso. Incluí detalles técnicos que facilitaron la validación de los resultados.
+    <br><br>
+    <strong>Renato Calvo Yalán:</strong>
+    <br><br>
+    <strong>TB1:</strong> Elaboré diagramas explicativos del funcionamiento del sistema y sus componentes, acompañados de textos que facilitaban su comprensión tanto a nivel técnico como conceptual. Esto fortaleció la claridad del Capítulo 4.
+    <br><br>
+    <strong>TP1:</strong> Redacté la documentación técnica de despliegue, organizando los procedimientos de instalación, logs y evidencias de configuración en un formato detallado y legible, complementando el informe de validación de entorno.
+  </td>
+  <td>
+    <strong>Conclusión TB1:</strong><br>
+    La redacción técnica y descriptiva permitió estructurar el conocimiento de manera ordenada, asegurando que todos los miembros y revisores comprendieran los avances y objetivos del proyecto. La claridad escrita mejoró la trazabilidad de decisiones y artefactos.<br><br>
+    <strong>Conclusión TP1:</strong><br>
+    En esta fase, el equipo fortaleció su capacidad para redactar documentación técnica integral. Cada entrega reflejó precisión, cohesión y adaptación del lenguaje al público objetivo, lo cual consolidó la calidad del informe final y su comprensión transversal.
+  </td>
+</tr>
+</tbody></table>
 
 <h2>Contenido</h2>
 
