@@ -585,7 +585,8 @@ El *user flow* es la representación visual del camino que un usuario sigue dent
 
 
 ![ContextDiagram Diagram](../images/prototypy.png)
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/ERvba6f0TWdDhgiVHVZ6HJwBgC_FOF0gNDEdsy9t47rPAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Pc0kHx
+
+http://bit.ly/4q6AhWP
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -593,39 +594,58 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/ERvba6f0
 
 Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
 
-El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/app/board/uXjVJBlKaKg=/?share_link_id=383869260607
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://bit.ly/433FTaw
 
 
 1. Bounded Context **IAM**
+
+   El bounded context IAM se encarga de la autenticación y autorización de los usuarios dentro del sistema. Gestiona procesos como el inicio de sesión, el registro de nuevos usuarios y la validación de credenciales para los diferentes roles: administrador, empleado y familiar. Su propósito principal es garantizar que solo los usuarios verificados puedan acceder a las funcionalidades que les corresponden según su rol. Este contexto asegura la seguridad, el control de accesos y la coherencia de permisos en toda la plataforma Veyra.
    
-   <img src="../assets/img/chapter-V/iam-eventstorming.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/iam-event-storming.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid #00bfff;">
 
    
 2. Bounded Context **Inventories**
+
+   El bounded context Inventories gestiona el registro, modificación y control de los productos médicos, recursos y suministros disponibles en la institución. Se encarga de mantener actualizada la información sobre existencias, fechas de vencimiento y disponibilidad de insumos. Este contexto se conecta directamente con Residents y Nursing Home, permitiendo la trazabilidad de los medicamentos asignados y la administración eficiente de los recursos. Su función principal es garantizar una gestión confiable del inventario, favoreciendo la seguridad del paciente y la continuidad de los servicios.
    
-   <img src="../assets/img/chapter-V/inventory-eventstorming.png" alt="Bounded Context Inventories" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/inventory-event-storming.png" alt="Bounded Context Inventories" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 3. Bounded Context **Employees**
+
+   El bounded context Employees tiene como objetivo administrar la información del personal que labora en la institución, abarcando desde el registro de nuevos empleados hasta la asignación de roles y turnos. Facilita el seguimiento de las responsabilidades y del desempeño del personal, asegurando una gestión organizada. Este contexto se vincula con Nursing Home y Residents, permitiendo coordinar las actividades del personal con los cuidados brindados a los residentes. Promueve una comunicación clara y una asignación eficiente de tareas dentro del entorno institucional.
    
-   <img src="../assets/img/chapter-V/enployees-eventstorming.png" alt="Bounded Context Employees" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/employee-event-storming.png" alt="Bounded Context Employees" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 4. Bounded Context **Nursing Home**
+
+   El bounded context Nursing Home representa el núcleo operativo donde se desarrollan las actividades médicas, administrativas y de atención al residente. Administra la información general de la institución, la asignación de empleados y la gestión de los recursos clínicos. Además, actúa como punto de conexión entre los contextos Employees, Residents e Inventories, garantizando una coordinación fluida entre el personal, los pacientes y los insumos médicos. Su objetivo principal es optimizar la operación integral de la casa de reposo y mantener la calidad del servicio.
    
-   <img src="../assets/img/chapter-V/nursinghome-eventstorming.png" alt="Bounded Context Nursing Home" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/nursinghome-event-storming.png" alt="Bounded Context Nursing Home" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 5. Bounded Context **Residents**
+
+   El bounded context Residents se encarga de administrar toda la información relacionada con los pacientes de la casa de reposo. Incluye el registro de nuevos residentes, la actualización de su información clínica y la consulta de su estado de salud. Se conecta directamente con los contextos Familiar e Inventories, lo que permite mantener actualizados los tratamientos, la comunicación con los familiares y la trazabilidad de los medicamentos asignados. Su propósito es centralizar y proteger los datos clínicos, garantizando un cuidado personalizado y transparente.
    
-   <img src="../assets/img/chapter-V/residents-eventstorming.png" alt="Bounded Context Residents" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/resident-event-storming.png" alt="Bounded Context Residents" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 6. Bounded Context **Familiar**
+
+   El bounded context Familiar gestiona la interacción entre el sistema y los familiares de los residentes. Permite la creación de cuentas familiares, la visualización de actividades y la consulta de historiales de tratamientos o pedidos. Este contexto fomenta la confianza y la transparencia al ofrecer a los familiares una visión clara del estado y las actividades de sus seres queridos. Se conecta con Residents e Inventories para mostrar información actualizada y mantener una comunicación constante entre la familia y la institución.
    
-   <img src="../assets/img/chapter-V/familiar-eventstorming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/familiar-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
+7. Bounded Context **Analytics**
+  
+   El bounded context Analytics está orientado al análisis de datos y la generación de indicadores visuales que apoyen la toma de decisiones. Recolecta información proveniente de Inventories, Residents y Nursing Home para elaborar reportes, estadísticas y gráficos que reflejan el estado del stock, el uso de medicamentos y el desempeño general de la institución. Su función es brindar una visión global y estratégica, permitiendo identificar patrones, anticipar necesidades y mejorar la eficiencia operativa mediante el análisis continuo de la información.
+
+   <img src="../images/analytics-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+   
 ### 4.6.2. Software Architecture Context Diagram
 
 El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software Veyra, los usuarios y sistemas externos.
