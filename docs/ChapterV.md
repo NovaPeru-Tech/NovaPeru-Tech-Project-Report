@@ -468,6 +468,21 @@ La organización de roles de líderes y colaboradores está alineada con la post
 #### 5.2.2.4. Development Evidence for Sprint Review
 #### 5.2.2.5. Execution Evidence for Sprint Review
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+  <p>En el segundo Sprint el equipo diseñó, programó y puso en funcionamiento el Front-end para presentar la aplicación web "Veyra".</p>
+
+  <table>
+    <thead>
+      <tr><th>End Point</th><th>Funciones</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>https://nova-peru-tech.vercel.app/home</td>
+        <td>Mostrar el Front-end Desplegado</td>
+      </tr>
+    </tbody>
+  </table>
+  
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
