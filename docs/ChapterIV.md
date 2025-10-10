@@ -650,7 +650,54 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 ### 4.7.1. Class Diagrams
 
-<h3>Employees diagram</h3>
+<h3>IAM Diagram (Frontend)</h3>
+
+![IAM Diagram](../images/webapp-iam.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Gestión de la interfaz de usuario para la identidad y acceso (IAM), siguiendo una arquitectura limpia (Clean Architecture) en Angular.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Modela las entidades <code>SignIn</code> y <code>SignUp</code> como objetos de negocio puros, sin dependencias de frameworks.</li>
+<li>Application: El <code>IamStore</code> centraliza el estado (usuario autenticado, carga, errores) usando Angular Signals y orquesta los casos de uso.</li>
+<li>Infrastructure: Gestiona la comunicación con la API a través de una fachada (<code>IamApi</code>), endpoints especializados y traductores (<code>Assemblers</code>) que convierten los datos de la API en entidades de dominio.</li>
+<li>Presentation: Incluye componentes de UI (<code>SignInComponent</code>, <code>SignUpComponent</code>), componentes reutilizables (<code>AuthenticationSection</code>) y la configuración de rutas (<code>IamRouters</code>) que utiliza carga perezosa (lazy loading).</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> Flujos de inicio de sesión y registro desacoplados, validación de formularios reactivos y manejo de estado centralizado y reactivo (loading, error) que se refleja automáticamente en la UI.
+</li>
+<li>
+<strong>Característica destacada:</strong> Reutilización del <code>SignUpComponent</code> para diferentes roles ('administrator', 'familiar') mediante el paso de datos estáticos en la configuración de rutas, optimizando el código y la mantenibilidad.
+</li>
+</ul>
+
+<h3>Nursing Home Diagram (Frontend)</h3>
+
+![Nursing Home Diagram](../images/webapp-nursingHome.svg)
+
+<ul>
+<li>
+<strong>Contexto:</strong> Interfaz de usuario para la gestión y registro de residencias geriátricas.
+</li>
+<li>
+<strong>Módulos principales:</strong>
+<ul>
+<li>Domain: Define la entidad <code>NursingHome</code> con sus propiedades de negocio.</li>
+<li>Application: El <code>NursingHomeStore</code> gestiona el estado de la lista de residencias y las operaciones CRUD.</li>
+<li>Infrastructure: Capa de comunicación con la API, siguiendo el patrón de fachada, endpoint y assembler.</li>
+<li>Presentation: Proporciona el componente <code>NursingHomeForm</code> para el registro de nuevas residencias y su enrutador asociado.</li>
+</ul>
+</li>
+<li>
+<strong>Operaciones clave:</strong> Creación de una nueva residencia a través de un formulario reactivo. El componente de UI delega la lógica de negocio al <code>NursingHomeStore</code>, que a su vez se comunica con la capa de infraestructura.
+</li>
+</ul>
+
+<h3>Employees diagram (Backend)</h3>
 
 ![Employees Diagram](../images/Employee.svg)
 
@@ -675,9 +722,9 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
   </li>
 </ul>
 
-<h3>Medications diagram</h3>
+<h3>Medications diagram (Backend)</h3>
 
-![IAM Diagram](../images/platform-Medications.svg)
+![Medications Diagram](../images/platform-Medications.svg)
 
 <ul>
   <li>
@@ -698,7 +745,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
     <strong>Manejo de errores:</strong> Excepciones para situaciones como medicamento no encontrado, laboratorio inválido, tipo inválido y stock inválido.</li>
 </ul>
 
-<h3>IAM diagram</h3>
+<h3>IAM diagram (Backend)</h3>
 
 ![IAM Diagram](../images/platform-IAM.svg)
 
@@ -723,7 +770,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
   </li>
 </ul>
 
-<h3>Profiles Diagram </h3>
+<h3>Profiles Diagram (Backend)</h3>
 
 ![profile Diagram](../images/platform-profiles.svg)
 
@@ -745,9 +792,9 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
     <strong>Integración:</strong> conecta el dominio con APIs, control de acceso y transformación interna para una gestión segura y consistente de perfiles.</li>
 </ul>
 
-<h3>Nursing Home </h3>
+<h3>Nursing Home Diagram (Backend)</h3>
 
-![profile Diagram](../images/NursingHome.svg)
+![Nursing Home Diagram](../images/NursingHome.svg)
 
 <ul>
   <li>
