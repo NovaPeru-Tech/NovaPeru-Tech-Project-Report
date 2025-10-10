@@ -644,7 +644,7 @@ El diagrama de componentes proporciona una vista más detallada de la arquitectu
 Este nivel de diseño se centra en los módulos internos de cada contenedor definido en el diagrama de contenedores, 
 mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunican entre sí.
 
-![ContainerDiagram Diagram](../images/Software-Architecture-Components-Diagrams.jpg)
+![ContainerDiagram Diagram](../images/structurizr-Components.png)
 
 ## 4.7. Software Object-Oriented Design
 
