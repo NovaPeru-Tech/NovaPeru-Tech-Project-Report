@@ -308,16 +308,85 @@
 
 **Link de los repositorios de la organización**: https://github.com/NovaPeru-Tech
 
-**Link del repositorio-Informe**:https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report
+**Link del repositorio-Informe**: https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report
 
 **Reporte de colaboración de la entrega del TB1**:
 
-En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nuestra startup. Todos los miembros del equipo NovaPeru Tech participaron activamente en la elaboración del informe, utilizando herramientas colaborativas como GitHub, Figma, Trello, UXPressia, Miro, entre otros. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo:
+Durante la primera fase de elaboración del informe, el equipo Veyra centró sus esfuerzos en la construcción de los fundamentos conceptuales, de investigación y diseño inicial del proyecto. Cada integrante asumió un rol activo en la redacción, modelado y documentación de secciones clave del reporte, asegurando una coherencia entre la teoría, la metodología y la propuesta tecnológica.
+
+**Ariana Ramírez Carrasco**
+
+Ariana desarrolló el Lean UX Canvas (capítulo 1), estableciendo los objetivos estratégicos del proyecto, las suposiciones sobre el público objetivo y los principales retos de diseño. También elaboró el Empathy Mapping (capítulo 2), donde representó las emociones y motivaciones de los usuarios finales, y construyó el Journey Mapping (capítulo 2), visualizando la experiencia de los familiares en su interacción con la plataforma. Estos artefactos fueron esenciales para definir requerimientos funcionales realistas y una experiencia centrada en el usuario.
+
+**Renato Calvo Yalán**
+
+Renato lideró la elaboración del Class Diagram (capítulo 4), donde modeló las entidades principales del sistema, sus atributos y relaciones UML, facilitando la comprensión del modelo de datos. Posteriormente, construyó la primera versión de la Information Architecture, definiendo la estructura jerárquica del sitio y los sistemas de navegación. Además, documentó la sección de Entrevistas, detallando metodología y perfiles de participantes. Sus contribuciones sentaron las bases técnicas del proyecto y conectaron los hallazgos del UX con la arquitectura del sistema.
+
+**Billy Jake Ruiz Madrid**
+
+Billy se encargó de redactar los Problem Statements y Hypothesis Statements del capítulo 1, donde tradujo los hallazgos de la investigación en hipótesis verificables. Además, diseñó los Wireframes y Mockups de la aplicación (capítulo 4), tanto para escritorio como para dispositivos móviles, asegurando coherencia con la identidad visual definida. Finalmente, documentó entrevistas y validaciones cualitativas, lo cual permitió al equipo refinar los criterios de aceptación y preparar la transición hacia el desarrollo del front-end.
+
+**Oscar Armas Sánchez**
+
+Oscar realizó una revisión completa del Problem Statement del capítulo 1, mejorando la claridad y coherencia narrativa. En la fase final de esta entrega, redactó el Deployment Plan (capítulo 5), detallando la configuración técnica del entorno, dependencias y estructura del servidor. Su trabajo técnico permitió anticipar los procesos de despliegue del proyecto y garantizar la reproducibilidad del entorno de desarrollo.
+
+**Miguel Ángel Junior Román López**
+
+Miguel desarrolló la sección de Competidores y Análisis de la Competencia (capítulo 2), donde identificó plataformas similares, comparó funcionalidades y propuso oportunidades de diferenciación. También elaboró el Análisis de Entrevistas, sintetizando hallazgos de usuarios y validando hipótesis de diseño. Finalmente, diseñó los Wireframes del Landing Page, asegurando coherencia estética y funcionalidad intuitiva. Su trabajo consolidó la base visual y analítica del proyecto.
+
+Finalmente, estos gráficos representan la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
 
 <img src="images/comits-1.jpg" alt="Veyra" style="width:auto;">
 
 
 <img src="images/comits-2.jpg" alt="Veyra" style="width:auto;">
+
+
+**Ramificación del proyecto usando GitFlow:**
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+<img src="images/ramificacion1.png" alt="Veyra" style="width:auto;">
+
+
+**Reporte de colaboración de la entrega del TP1**:
+
+En la segunda fase, el equipo Veyra se enfocó en la consolidación técnica, visual y documental del informe. Esta etapa implicó la actualización del contenido, la mejora de los artefactos visuales, la documentación de procesos de despliegue y la integración final de entregables. Cada miembro aportó desde su especialidad, reflejando un trabajo colaborativo maduro y bien estructurado.
+
+**Ariana Ramírez Carrasco**
+
+Ariana lideró la actualización visual de la interfaz y arquitectura de contenidos, reorganizando las secciones de la Landing Page para optimizar la jerarquía informativa. Incorporó ajustes de accesibilidad y tipografía basados en las guías WCAG 2.1, documentando pruebas manuales de legibilidad en distintos dispositivos. Finalmente, elaboró la entrega de artefactos visuales para el Keynote, preparando logos, íconos y assets optimizados para la presentación final. Su aporte fue decisivo para consolidar la identidad visual de Veyra y garantizar su consistencia con el desarrollo técnico.
+
+**Renato Calvo Yalán**
+
+Renato asumió un rol técnico clave durante esta versión. Corrigió y amplió la sección de Information Architecture, incluyendo los sistemas de búsqueda y navegación. Además, preparó y verificó las evidencias de despliegue, documentando los scripts y logs técnicos, y finalmente lideró la revisión integradora de toda la versión 2.0, verificando compatibilidades, corrigiendo diagramas UML y consolidando los entregables requeridos. Su liderazgo técnico aseguró la estabilidad del proyecto antes de la entrega formal.
+
+**Billy Jake Ruiz Madrid**
+
+Billy amplió la documentación del Lean UX y validación de hipótesis, añadiendo métricas de impacto (KPI) y objetivos medibles. También documentó la evidencia de ejecución del Sprint 2, elaborando un registro de pruebas funcionales con capturas, logs y resultados por historia de usuario. Finalmente, revisó los User Personas y Empathy Maps, asegurando que los perfiles se basaran en datos de entrevistas reales. Su aporte integró la visión del usuario dentro del proceso de validación técnica y de experiencia.
+
+**Oscar Armas Sánchez**
+
+Oscar refinó los Problem Statements y Hypotheses, mejorando su alineación con el formato Lean UX y adaptando el lenguaje para mayor claridad. Posteriormente, coordinó el Sprint Review, recopilando aportes de los miembros y redactando observaciones sobre el cumplimiento de actividades. Finalmente, elaboró el apartado Team Collaboration Insights, donde documentó los canales de comunicación, incidencias y aprendizajes del equipo, consolidando la reflexión colectiva del proceso de trabajo.
+
+**Miguel Ángel Junior Román López**
+
+Miguel amplió el análisis de entrevistas, añadiendo notas contextuales y observaciones adicionales de los usuarios. Posteriormente, redactó la primera versión de esta misma sección, Project Report Collaboration Insights, describiendo los aportes individuales por fase y generando un cronograma de actividades actualizado. Finalmente, revisó los Student Outcomes, asegurando que todas las evidencias documentaran los resultados de aprendizaje esperados. Su trabajo cerró la entrega del informe de manera ordenada y coherente.
+
+En esta versión, se refleja una coordinación fluida entre las áreas de investigación, diseño y desarrollo técnico. Las contribuciones en GitHub muestran un incremento en la frecuencia de commits y revisiones cruzadas, evidenciando la madurez del flujo de trabajo colaborativo y la consistencia en la gestión de versiones.
+
+<img src="images/comits1.png" alt="Veyra" style="width:830px;">
+
+
+<img src="images/comits2.png" alt="Veyra" style="width:auto;">
+
+
+**Ramificación del proyecto usando GitFlow:**
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+<img src="images/ramificacion2.png" alt="Veyra" style="width:auto;">
+
 
 ## ABET – EAC - Student Outcome 3
 
