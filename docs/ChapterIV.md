@@ -321,7 +321,7 @@ Cada pantalla responde a las funcionalidades principales del sistema y a los dis
 <p>Pantalla de inicio donde los usuarios acceden a la aplicación según su rol 
 (Administrador, Familiar, Personal de cuidado). Incluye campos de correo y contraseña, además de validaciones de acceso.</p>
 
-<img src="../images/Login-NovaPeru-Tech.jpg" alt="Login" style="width: auto; height: auto; border: 2px solid #00bfff;">
+<img src="../images/Login-NovaPeru-Tech-Wireframe.jpg" alt="Login" style="width: auto; height: auto; border: 2px solid #00bfff;">
 
 <h5>Inicio de Sesión – NovaPeru Tech</h5>
 <p>Formulario de acceso con credenciales de usuario. Presenta opciones de recuperación de contraseña y mantiene consistencia visual con la identidad de NovaPeru Tech.</p>
