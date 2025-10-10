@@ -238,6 +238,66 @@ let edadAitor: number = 18;
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+<p>
+En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) para el Sprint 1, donde se detallan los aspectos principales del Sprint, y para cada aspecto se indica quién es el líder (L) y quiénes son colaboradores (C). Esto tiene como objetivo brindar mayor claridad y efectividad en la comunicación interna del equipo y facilitar la asignación y seguimiento de tareas.
+</p>
+
+<p>
+Para el Sprint 1, se han definido los siguientes aspectos:
+</p>
+
+<ul>
+  <li><strong>Desarrollo de la Landing Page:</strong> Diseño, estructura, contenido y funcionalidad de la página principal del proyecto.</li>
+  <li><strong>Generación y presentación del Reporte:</strong> Implementación del módulo que permita crear, visualizar y exportar el reporte requerido.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspecto: Landing Page</th>
+      <th>Aspecto: Reporte</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calvo Yalan, Renato Guillermo</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Oscar Javier Armas Sánchez</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Ariana Lizeth Ramirez Carrasco</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Miguel Angel Junior Roman Lopez</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Billy Jake Ruiz Madrid</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+La organización de roles de líderes y colaboradores está alineada con la posterior selección y asignación de tareas en el Sprint, permitiendo que cada líder lleve el seguimiento y gestión de su aspecto con apoyo de sus colaboradores, mejorando así la coordinación y efectividad del equipo.
+</p>
+
+
 #### 5.2.1.3. Sprint Backlog 1
 
   <p><!--Status -> (To-do / In-Process / To-Review / Done) --></p>
@@ -389,21 +449,271 @@ let edadAitor: number = 18;
   </table>
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-  <p>Se utilizó GitHub Pages; se publicó el proyecto desde la rama <code>realease-V1.0</code> (anteriormente <code>release-1.0</code>).</p>
-  <p><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page Veyra</a></p>
+<p>
+  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page NovaPeru-Tech</a> -
+  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a>
+</p>
+
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-  <p>Herramientas usadas: GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. Se muestran diagramas de commits por integrante (referencia en el documento original).</p>
+
+![overview-spring1.png](../assets/img/chapter-V/overview-spring1.png)
+![network-graph-sprint1.png](../assets/img/chapter-V/network-graph-sprint1.png)
+![visitors-sprint1.png](../assets/img/chapter-V/visitors-sprint1.png)
 
 ### 5.2.2. Sprint 2
+
+<p>Durante el Sprint 2 se desarrolló la interfaz frontend del módulo de gestión de tareas, miembros y grupos de la aplicación web “VEYRA”. Este sprint se centró en integrar los componentes con el backend mediante servicios REST, crear flujos de navegación funcionales entre vistas y aplicar mejoras en la interfaz visual con Angular y Angular Material.</p> 
+<p>Repositorio: <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeruTech/NovaPeruTech-Frontend</a></p> <p>Backend Localhost API: <a href="http://localhost:8080/swagger-ui/index.html">http://localhost:8080/swagger-ui/index.html</a></p>
+
 #### 5.2.2.1. Sprint Planning 2
+
+<table>
+  <thead>
+    <tr><th>Sprint #</th><th>Sprint 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
+    <tr><td>Date</td><td>28-09-2025</td></tr>
+    <tr><td>Time</td><td>09:30 p.m</td></tr>
+    <tr><td>Location</td><td>Discord</td></tr>
+    <tr><td>Prepared By</td><td>Oscar Javier Armas Sánchez</td></tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Calvo Yalan, Renato Guillermo<br>
+        Oscar Javier Armas Sánchez<br>
+        Ariana Lizeth Ramirez Carrasco<br>
+        Miguel Angel Junior Roman Lopez<br>
+        Billy Jake Ruiz Madrid
+      </td>
+    </tr>
+    <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
+    <tr><td>Sprint 2 Goal</td><td>Implementar el módulo frontend de gestión de tareas, miembros y grupos, estableciendo la conexión con la API de backend local y asegurando la correcta visualización y filtrado dinámico de los datos.</td></tr>
+    <tr><td>Sprint 2 Velocity</td><td>16 Story Points</td></tr>
+    <tr><td>Sum of Story Points</td><td>16 SP (≈ 64 horas estimadas)</td></tr>
+  </tbody>
+</table>
+
+
 #### 5.2.2.2. Aspect Leaders and Collaborators
+
+<p>
+Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX), donde se definen los roles de liderazgo y colaboración por aspecto técnico y funcional del frontend basado en Angular.
+</p>
+
+<ul>
+  <li><strong>Integración Frontend–Backend:</strong> Consumo de endpoints, servicios HTTP y pruebas de conexión con la API.</li>
+  <li><strong>Gestión de Tareas (UI):</strong> Desarrollo de componentes Angular para mostrar, filtrar y navegar entre tareas.</li>
+  <li><strong>Gestión de Miembros y Grupos:</strong> Creación de componentes de visualización y detalle de miembros y grupos asociados.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspecto: Integración API</th>
+      <th>Aspecto: Tareas UI</th>
+      <th>Aspecto: Miembros &amp; Grupos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Oscar Javier Armas Sánchez</td><td>L</td><td>C</td><td>C</td></tr>
+    <tr><td>Calvo Yalan, Renato Guillermo</td><td>C</td><td>L</td><td>C</td></tr>
+    <tr><td>Ariana Lizeth Ramirez Carrasco</td><td>C</td><td>C</td><td>L</td></tr>
+    <tr><td>Miguel Angel Junior Roman Lopez</td><td>C</td><td>C</td><td>C</td></tr>
+    <tr><td>Billy Jake Ruiz Madrid</td><td>C</td><td>C</td><td>C</td></tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+
 #### 5.2.2.3. Sprint Backlog 2
+
+<table>
+  <thead>
+    <tr>
+      <th>User Story</th>
+      <th>Work-Item / Task</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01<br><strong>Menú de navegación</strong></td>
+      <td>
+        <strong>T022</strong> Definir estructura del menú para frontend (2h) — To-do<br>
+        <strong>T023</strong> Implementar menú en Angular y Angular Material (3h) — To-do<br>
+        <strong>T024</strong> Añadir navegación dinámica y pruebas (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US02<br><strong>Visualización de Planes</strong></td>
+      <td>
+        <strong>T025</strong> Crear componentes para mostrar planes (3h) — To-do<br>
+        <strong>T026</strong> Integrar datos de planes desde backend (4h) — To-do<br>
+        <strong>T027</strong> Pruebas funcionales y de UI (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US03<br><strong>Selección de Plan en Landing Page</strong></td>
+      <td>
+        <strong>T028</strong> Implementar formulario de selección y validación (3h) — To-do<br>
+        <strong>T029</strong> Manejar envío y confirmación de plan (4h) — To-do<br>
+        <strong>T030</strong> Validar interacción usuario y feedback visual (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US04<br><strong>Visualización de creadores</strong></td>
+      <td>
+        <strong>T031</strong> Diseñar componente para mostrar equipo (2h) — To-do<br>
+        <strong>T032</strong> Integrar datos y pruebas (3h) — To-do<br>
+        <strong>T033</strong> Ajustar estilos para responsividad (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US05<br><strong>Redes sociales</strong></td>
+      <td>
+        <strong>T034</strong> Incorporar íconos sociales en header y footer (2h) — To-do<br>
+        <strong>T035</strong> Configurar enlaces y pruebas (1h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US06<br><strong>Formulario de contacto</strong></td>
+      <td>
+        <strong>T036</strong> Crear formulario con validación Angular (2h) — To-do<br>
+        <strong>T037</strong> Integrar envío y confirmación (3h) — To-do<br>
+        <strong>T038</strong> Test de funcionalidad y usabilidad (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US07<br><strong>Cambio de idioma</strong></td>
+      <td>
+        <strong>T039</strong> Añadir selector de idioma en menú (3h) — To-do<br>
+        <strong>T040</strong> Configurar textos traducidos en frontend (4h) — To-do<br>
+        <strong>T041</strong> Validar cambio dinámico y pruebas (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US40<br><strong>Menú de navegación consistente</strong></td>
+      <td>
+        <strong>T042</strong> Asegurar estilo uniforme en todas las páginas (2h) — To-do<br>
+        <strong>T043</strong> Ajustar comportamiento de menú en rutas (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US41<br><strong>Paleta de colores y tipografía</strong></td>
+      <td>
+        <strong>T044</strong> Aplicar esquema de colores accesible (2h) — To-do<br>
+        <strong>T045</strong> Configurar tipografía coherente en estilos globales (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US42<br><strong>Diseño de formularios usables</strong></td>
+      <td>
+        <strong>T046</strong> Crear formularios con validación clara (3h) — To-do<br>
+        <strong>T047</strong> Pruebas de usabilidad y accesibilidad (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US43<br><strong>Patrones de diseño coherentes</strong></td>
+      <td>
+        <strong>T048</strong> Definir y aplicar patrones UI comunes (2h) — To-do<br>
+        <strong>T049</strong> Revisar consistencia en todos los componentes (2h) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>US44<br><strong>Manejo de errores comprensible</strong></td>
+      <td>
+        <strong>T050</strong> Implementar mensajes de error amigables (3h) — To-do<br>
+        <strong>T051</strong> Pruebas de errores y soluciones claras (2h) — To-do
+      </td>
+    </tr>    
+  </tbody>
+</table>
+
+
 #### 5.2.2.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="9">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</td>
+      <td>main</td>
+      <td>d2e8b00</td>
+      <td>Feature/jam</td>
+      <td>29-09-2025</td>
+    </tr>
+    <tr><td>main</td><td>ff01fea</td><td>feat: SignIn component added</td><td>29-09-2025</td></tr>
+    <tr><td>main</td><td>fa75547</td><td>feat: Familiar and SignUpFamiliar components added</td><td>29-09-2025</td></tr>
+    <tr><td>main</td><td>ec5cece</td><td>feat: add Welcome component</td><td>29-09-2025</td></tr>
+    <tr><td>main</td><td>0fbc1ac</td><td>feat: AuthenticationSection component added</td><td>29-09-2025</td></tr>
+    <tr><td>main</td><td>b8cb684</td><td>feat: add Administrator and SignUpAdministrator components with associated HTML and CSS files</td><td>29-09-2025</td></tr>
+    <tr><td>main</td><td>4e12667</td><td>feat: add English and Spanish language support files</td><td>29-09-2025</td></tr>
+    <tr><td>main</td><td>9763508</td><td>feat: add language switcher, layout nursing home, and toolbar components</td><td>29-09-2025</td></tr>
+    <tr><td>main</td><td>4ccacbc</td><td>chore: default setup</td><td>28-09-2025</td></tr>
+    <tr><td>main</td><td>40695f2</td><td>initial commit</td><td>28-09-2025</td></tr>
+    <tr>
+      <td rowspan="4">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</td>
+      <td>develop</td>
+      <td>5f14512</td>
+      <td>feat(env): update API base URL for development and production environments</td>
+      <td>10-10-2025</td>
+    </tr>
+    <tr><td>develop</td><td>2886e0b</td><td>feat(firebase): update hosting configuration and change destination to app.html</td><td>10-10-2025</td></tr>
+    <tr><td>develop</td><td>251c8a9</td><td>feat(env): add employee endpoint to development environment</td><td>10-10-2025</td></tr>
+    <tr><td>develop</td><td>ee86134</td><td>feat(firebase): configure Firebase hosting and update budget limits</td><td>10-10-2025</td></tr>
+  </tbody>
+</table>
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+
+<p>Durante el Sprint 2, se logró implementar completamente el módulo de gestión de tareas con integración a la Fake API. El frontend permite listar, filtrar y navegar entre tareas por miembro y estado, así como visualizar detalles asociados. Además, se mejoró la navegación y el diseño visual adaptando elementos con Angular Material.</p>
+
+<h5>Capturas :</h5>
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+  <p>En el segundo Sprint el equipo diseñó, programó y puso en funcionamiento el Front-end para presentar la aplicación web "Veyra".</p>
+
+  <table>
+    <thead>
+      <tr><th>End Point</th><th>Funciones</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</td>
+        <td>Mostrar el Front-end Desplegado</td>
+      </tr>
+    </tbody>
+  </table>
+  
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+<p>
+  <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">Front-end NovaPeru-Tech</a> -
+  <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a>
+</p>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+![overview-sprint2.jpg](../images/overview-sprint2.jpg)
+![network-graph-sprint2.jpg](../images/network-graph-sprint2.jpg)
+![visitors-sprint2.jpg](../images/visitors-sprint2.jpg)
 
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
@@ -435,8 +745,6 @@ let edadAitor: number = 18;
 
 ## 5.4. Video About-the-Product
 
-## Conclusiones
-
 ## Conclusiones y recomendaciones
 
 <p>Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como registro de datos de salud, comunicación entre familia y cuidadores, y administración de planes de cuidado personalizados.</p>
@@ -456,9 +764,8 @@ let edadAitor: number = 18;
 
 ## Anexos
   <ul>
-    <li>Deploy Landing Page: <em>Ver Landing Page</em></li>
-    <li>Entrevistas: <em>Ver Entrevistas</em></li>
-    <li>Diagrama C4, Diagramas de clases y Diagrama de base de datos (referencias en el original).</li>
+    - Deploy de Landing Page: https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/ <br>
+    - Video de Exposición: http://bit.ly/4h2grbc
   </ul>
 </body>
 </html>
