@@ -746,7 +746,9 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 </ul>
 
 <h3>Nursing Home </h3>
+
 ![profile Diagram](../images/NursingHome.svg)
+
 <ul>
   <li>
     <strong>Contexto:</strong> gestión de residencias geriátricas en un contexto delimitado.</li>
@@ -769,6 +771,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ### 4.8.1. Database Diagrams
 
 ![Database](../images/VeyraDatabase.svg)
+
 <ul>
   <li>
     <strong>Contextos principales:</strong>
