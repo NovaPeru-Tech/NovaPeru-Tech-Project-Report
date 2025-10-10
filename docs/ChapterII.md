@@ -215,7 +215,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
@@ -224,17 +224,15 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   <tr>
     <td>Resumen</td>
     <td>
-		La Lic. Caychomata se presenta como una profesional con 26 años de experiencia en la gestión del centro residencial "La Virgen de la Medalla Milagrosa". Su personalidad es metódica y enfocada en la mejora continua, destacando cómo han tenido que "innovar nuevas cosas" constantemente. Su rol es integral, abarcando la parte administrativa y la supervisión asistencial.
+		La Lic. Milagros Caycho Mata es una profesional con 26 años de experiencia en la gestión del centro residencial “La Virgen de la Medalla Milagrosa”. Se caracteriza por una personalidad metódica, organizada y de liderazgo colaborativo, con un enfoque claro hacia la mejora continua y la innovación gradual. Su tono comunicativo es sereno y reflexivo, evidenciando una alta empatía hacia los adultos mayores y su personal de trabajo.
 
-Comunicación y Canales de Interacción: Utiliza principalmente llamadas telefónicas y WhatsApp para la comunicación diaria con los familiares, y recurre a videollamadas para los casos con familiares en el extranjero. Fomenta activamente las visitas presenciales y la participación en actividades.
+En su rol, coordina tanto la parte administrativa como la supervisión asistencial, lo cual la mantiene en contacto constante con distintos actores (médicos, cuidadores, familiares). Destaca que la comunicación con las familias es fundamental y se realiza principalmente mediante llamadas telefónicas, mensajes de WhatsApp y videollamadas, sobre todo en casos donde los familiares viven en el extranjero. Promueve además las visitas presenciales como parte del vínculo emocional entre residente y familia.
 
-Tecnología y Dispositivos: Maneja una "base de datos" no especificada para la información de los residentes e inventarios, complementada con expedientes físicos. Demuestra adaptabilidad al haber implementado videollamadas durante la pandemia. No especifica el navegador o dispositivo, pero se infiere el uso de un smartphone para WhatsApp y una computadora para la base de datos.
+En cuanto a tecnología, utiliza una base de datos local para registrar la información de los residentes, aunque sin un sistema especializado. Complementa esta gestión con expedientes físicos y planillas digitales elaboradas en programas de ofimática, principalmente Microsoft Excel. Su nivel de alfabetización digital es intermedio: domina las herramientas básicas de oficina y comunicación, pero reconoce que la integración tecnológica total aún es un desafío. Utiliza una computadora de escritorio para gestión administrativa y un smartphone (probablemente Android) para mensajería. Se infiere que su navegador habitual es Google Chrome.
 
-Gestión de la Información: Lleva expedientes físicos (historias clínicas) y registros en planillas físicas o digitales para control de medicamentos y útiles de aseo. La gestión es minuciosa, con reportes diarios de enfermería.
+Entre las marcas o herramientas que influyen en su trabajo, menciona indirectamente los servicios de Microsoft y WhatsApp como indispensables. Durante la pandemia, implementó por iniciativa propia la comunicación por videollamada, lo que demuestra una capacidad de adaptación y resiliencia frente a la crisis sanitaria.
 
-Desafíos y Perspectivas: El mayor desafío pasado fue la pandemia, que requirió un control exhaustivo y medidas de bioseguridad extremas. Valora la comunicación permanente y la transparencia con la familia. Implícitamente, necesita un sistema que unifique sus métodos físicos y digitales para una gestión más eficiente.
-
-Marcas e Influencias: No menciona marcas de software específicas. Su influencia es la experiencia práctica de 26 años en el rubro, observando la evolución del sector.
+Los principales desafíos que enfrenta son la duplicidad de registros (físicos y digitales), la fragmentación de la información y la dificultad para mantener la trazabilidad de los datos clínicos de cada residente. Considera vital una herramienta que le permita centralizar toda la información en un solo lugar y mejorar la comunicación con los familiares.
 </td>
   </tr>
 </tbody>
@@ -271,7 +269,7 @@ Marcas e Influencias: No menciona marcas de software específicas. Su influencia
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
@@ -280,17 +278,15 @@ Marcas e Influencias: No menciona marcas de software específicas. Su influencia
   <tr>
     <td>Resumen</td>
     <td>
-		Oscar Navarrete es el Gerente General de una residencia geriátrica con 21 años de experiencia. Su personalidad es marcadamente ordenada, disciplinada y orientada a los procesos. Se describe a sí mismo como "puro cuadrito" y utiliza protocolos establecidos para todas las operaciones.
+		El Sr. Oscar Navarrete, gerente general con 21 años de experiencia en la administración de una residencia geriátrica, muestra una personalidad estructurada, disciplinada y altamente orientada al control y la eficiencia. Se autodescribe como alguien “de cuadros y procesos”, lo que refleja su estilo de gestión metódico y basado en la planificación.
 
-Comunicación y Canales de Interacción: Su canal principal y altamente efectivo son los grupos de WhatsApp familiares. Destaca las ventajas de la inmediatez, la transparencia (toda la familia recibe la misma información) y la eficiencia para la toma de decisiones, incluso con familiares en el extranjero.
+Su canal de comunicación principal con los familiares es WhatsApp, donde organiza grupos por cada residente para enviar información de manera simultánea y transparente. Valora la inmediatez, la trazabilidad de los mensajes y la participación colectiva de los familiares, incluso aquellos que residen fuera del país.
 
-Tecnología y Dispositivos: Es un usuario avanzado de Microsoft Excel para toda su gestión administrativa (finanzas, control de inventario de insumos, pagos). Para las historias clínicas, utiliza sistemas 100% físicos (formato CARDES). Muestra resistencia a adoptar nuevas plataformas ("Más difícil que me metan otras cosas"), pero un deseo explícito de digitalizar las historias clínicas para mayor orden y acceso. Utiliza presumably una computadora de escritorio/laptop para sus Excels y un smartphone para WhatsApp.
+Tecnológicamente, Navarrete se considera usuario experimentado de Microsoft Excel, herramienta con la cual gestiona desde finanzas hasta control de inventario y pagos. Sin embargo, el manejo de las historias clínicas sigue siendo completamente físico. Reconoce que le cuesta adaptarse a nuevas plataformas (“más difícil que me metan otras cosas”), aunque manifiesta interés en digitalizar los expedientes médicos para mejorar el orden y la accesibilidad. Utiliza una laptop personal y un smartphone Android, con navegadores como Microsoft Edge y Google Chrome.
 
-Gestión de la Información: La gestión clínica es física, mientras que la administrativa es digital mediante sus "cuadritos" en Excel. Lleva un control detallado de la duración de los insumos para optimizar compras.
+Su marca de referencia es Microsoft, por la estabilidad de sus herramientas. En términos de influencias, menciona que toma como modelo de organización los sistemas hospitalarios del MINSA, aunque considera que estos son “muy complejos” para el entorno residencial.
 
-Desafíos y Perspectivas: Su mayor desafío actual es la gestión y retención del personal técnico. Requiere una plataforma digital que sea funcional, sencilla y básica, sin la complejidad de los sistemas hospitalarios. Considera esencial un portal de información básica para familiares que complemente al WhatsApp.
-
-Marcas e Influencias: Microsoft Excel es su herramienta principal. Busca una solución inspirada en sistemas de salud como el ESI (Establecimiento de Salud del MINSA), pero significativamente simplificada.
+Entre sus principales problemas se encuentran la falta de digitalización clínica, la dependencia excesiva del personal técnico y la dificultad para estandarizar la comunicación con familiares. Considera esencial una plataforma de gestión digital sencilla, funcional y adaptada al contexto de residencias, que no requiera conocimientos técnicos avanzados y permita acceso rápido a información relevante.
 </td>
   </tr>
 </tbody>
@@ -327,7 +323,7 @@ Marcas e Influencias: Microsoft Excel es su herramienta principal. Busca una sol
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
@@ -336,17 +332,15 @@ Marcas e Influencias: Microsoft Excel es su herramienta principal. Busca una sol
   <tr>
     <td>Resumen</td>
     <td>
-		El Sr. Recoba tiene un rol de cuidado directo ("cuidando a los adultos mayores") y cuenta con experiencia previa en un hospital. Representa una perspectiva más operativa y de primera línea dentro de la residencia. Su perspectiva es práctica y está centrada en las dificultades del día a día.
+		Recoba Valenzuela es un cuidador joven con experiencia previa en entornos hospitalarios. Su personalidad es práctica, empática y centrada en la acción, con una visión operativa del trabajo diario. Se enfoca en atender las necesidades individuales de los adultos mayores, destacando la importancia de la personalización del cuidado.
 
-Comunicación y Canales de Interacción: Confirma que la comunicación con los familiares se realiza mediante llamadas, SMS y WhatsApp.
+Indica que la comunicación con los familiares se da mediante llamadas, SMS y WhatsApp, aunque a veces depende de un solo contacto que no siempre responde, lo que genera retrasos y confusiones.
 
-Tecnología y Dispositivos: Menciona que la residencia donde trabajaba utilizaba un "sistema" general, pero no especifica cuál. Su experiencia con este sistema fue negativa, describiéndolo como "muy complejo".
+Respecto al uso tecnológico, maneja un nivel básico a intermedio: utiliza smartphone para comunicación y una computadora compartida en el centro. Comenta que en su trabajo anterior se implementó un sistema digital “muy complejo”, con una mala experiencia debido a su baja usabilidad y la falta de integración de módulos (por ejemplo, las recetas no estaban sincronizadas con los registros médicos).
 
-Gestión de la Información: Experimentó de primera mano la fragmentación de la información. Señala un problema específico: las recetas médicas no se integraban bien en el sistema principal y había que consultarlas "muy aparte", lo que generaba incoherencias y complicaciones.
+No menciona marcas específicas, pero deja claro que valora la simplicidad, accesibilidad y rapidez en una herramienta digital. Considera que una plataforma adecuada debe centralizar toda la información del residente (recetas, citas, informes, alertas) y permitir múltiples canales de notificación para mantener informada a la familia.
 
-Desafíos y Perspectivas: Desde su punto de vista, el mayor desafío es la personalización del cuidado, señalando que "cada adulto tiene su propia necesidad". También identifica un problema en la comunicación: la dependencia de un familiar designado que a veces no está pendiente del teléfono.
-
-Funcionalidades Deseadas: Para una plataforma, considera esencial que centralice y aglomere toda la información, especialmente las recetas médicas, sin importar su origen (médicos internos o externos). También pide que habilite múltiples medios de notificación para superar la dependencia de una sola persona.
+Su experiencia revela la necesidad de interfaces intuitivas y accesibles al personal operativo, con funcionalidades que faciliten su labor sin sobrecargarla con tareas digitales complejas.
 </td>
   </tr>
 </tbody>
@@ -385,7 +379,7 @@ Funcionalidades Deseadas: Para una plataforma, considera esencial que centralice
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
@@ -394,7 +388,13 @@ Funcionalidades Deseadas: Para una plataforma, considera esencial que centralice
   <tr>
     <td>Resumen</td>
     <td>
-		La Sra. Ivonne, comerciante de Sullana, comenta que ha tenido dificultades para acceder a la información sobre la salud de sus familiares, además cuando ocurre una urgencia médica Ivonne nos comenta que es muy dificil que se pueda enterar de lo sucedido, es por elo que le gustaría tener una aplicación que pueda brindarle la información detallada del familiar o paciente (Por ejemplo menciona que debería mostrarse los medicamentos y tratamientos que está llevando el familiar), de esta manera ella podrá estar informada en todo momento y lugar. Por útimo, menciona que le gustaría que la aplicacion sea sencilla y rápida de usar.
+		Ivonne Madrid es una comerciante de 49 años, residente en Sullana, de personalidad práctica, empática y orientada a la familia. Muestra un nivel intermedio de competencia digital: utiliza constantemente su smartphone para negocios y redes sociales, pero no es usuaria avanzada de sistemas especializados.
+
+Su principal frustración es la falta de acceso inmediato y confiable a la información médica de su familiar residente. Señala que cuando ocurre una urgencia médica, suele enterarse con mucho retraso o solo cuando logra comunicarse con el personal, lo que le genera ansiedad y desconfianza.
+
+Ivonne utiliza principalmente WhatsApp, llamadas y Facebook Messenger para comunicarse. Usa Google Chrome como navegador en su laptop personal y aplicaciones móviles en su teléfono Android.
+
+Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tratamientos, medicamentos, citas médicas, actividades y alertas. Subraya que su confianza aumentaría si la plataforma es segura, intuitiva y actualizada en tiempo real. Su motivación principal es poder monitorear la salud de su familiar sin depender de intermediarios.
 </td>
   </tr>
 </tbody>
@@ -431,7 +431,7 @@ Funcionalidades Deseadas: Para una plataforma, considera esencial que centralice
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
@@ -440,7 +440,13 @@ Funcionalidades Deseadas: Para una plataforma, considera esencial que centralice
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado Leo Gómez, persona a cargo de cuidar a su abuela de 65 años, señaló que tiene dificultades para obtener información clara y oportuna, pues debe llamar varias veces al personal y recibe datos breves o inconsistentes. Es por ello que Le gustaría acceder de forma detallada y organizada al estado de salud, medicación, citas médicas, resultados médicos y reportes de alimentación o actividades. Indicó que se sentiría cómodo usando una plataforma web segura, fácil y accesible desde cualquier dispositivo. Sobre las urgencias, comentó que hoy se entera solo por llamadas, a veces con demoras, y preferiría notificaciones inmediatas por diferentes canales como llamadas, mensajes de texto o por correo electrónico. Finalmente, resaltó que confiaría en la plataforma si garantiza seguridad, acceso restringido, información actualizada, comunicación directa con el personal y protocolos claros en emergencias.
+		Leo Gómez, de 30 años, es un profesional joven encargado del cuidado de su abuela. Posee una personalidad analítica, racional y metódica, con alta afinidad por la tecnología. Considera que la comunicación con el centro geriátrico es ineficiente, pues debe llamar varias veces para recibir información fragmentada.
+
+Utiliza smartphone, laptop y tablet en su vida diaria, tanto para el trabajo como para el seguimiento familiar. Sus navegadores principales son Google Chrome y Safari, y está habituado al uso de herramientas digitales como Google Drive, Zoom y Gmail.
+
+Su frustración radica en la falta de reportes médicos completos y oportunos. Quiere acceder a información sobre medicación, chequeos médicos, alimentación y actividades recreativas en una plataforma segura. Le gustaría recibir notificaciones inmediatas ante cambios en el estado de salud o emergencias.
+
+Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acceso restringido y comunicación directa con el personal. Representa al segmento de usuarios jóvenes, digitales y demandantes de transparencia.
 
 </td>
   </tr>
@@ -478,7 +484,7 @@ Funcionalidades Deseadas: Para una plataforma, considera esencial que centralice
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
@@ -487,7 +493,13 @@ Funcionalidades Deseadas: Para una plataforma, considera esencial que centralice
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado Jonathan Ramirez, apoderado legal y responsable directo de su mamá (residente en la casa de reposo), señaló que enfrenta dificultades para acceder a información sobre la salud de su familiar, ya que debe esperar llamadas de la casa de reposo y muchas veces la información no llega de manera inmediata, lo que le genera preocupación, sobre todo en temas médicos o de medicación. Expresó que le gustaría consultar de forma organizada la medicación diaria, informes de chequeos médicos, citas programadas y cambios en el tratamiento. Indicó sentirse cómodo utilizando plataformas web para este propósito, ya que está familiarizado con herramientas digitales en su trabajo y considera que centralizar la información sería de gran ayuda. Respecto a las urgencias médicas, comentó que suele enterarse por teléfono, pero no siempre de inmediato, lo cual le provoca ansiedad al no poder estar informado en tiempo real. Finalmente, afirmó que una plataforma de este tipo le generaría confianza si es segura, rápida, confiable, con información actualizada y con alertas instantáneas ante urgencias o cambios en la salud de su mamá.
+		Jonathan Ramírez, de 40 años, es apoderado legal de su madre residente. Posee una personalidad responsable, reflexiva y tecnológica, con experiencia en el uso de plataformas digitales en su entorno laboral.
+
+Actualmente recibe información sobre su madre solo mediante llamadas telefónicas, las cuales suelen demorar. Esto le genera incertidumbre, especialmente en temas médicos y de medicación. Utiliza laptop, smartphone y correo electrónico, y su navegador principal es Google Chrome.
+
+Su perfil tecnológico es alto: maneja herramientas como Microsoft Teams, Google Drive y aplicaciones de comunicación corporativa. Busca una plataforma que le ofrezca transparencia, inmediatez y trazabilidad de la información médica, incluyendo medicación diaria, resultados de exámenes, citas programadas y alertas ante urgencias.
+
+Expresa que confiaría en un sistema como Veyra siempre que sea rápido, confiable, seguro y con interfaz clara, destacando la importancia de las alertas automáticas para mantener la tranquilidad familiar.
 </td>
   </tr>
 </tbody>
