@@ -505,6 +505,82 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+El *user flow* es la representación visual del camino que un usuario sigue dentro de la aplicación Veyra para alcanzar un objetivo específico. Estos diagramas son esenciales para asegurar que la navegación sea lógica, intuitiva y libre de obstáculos, garantizando una experiencia de usuario satisfactoria y eficiente para cada uno de los roles: **Administrador**, **Familiar** y **Personal de Cuidado**. A continuación, se detallan los flujos para las tareas clave de la plataforma.
+
+---
+
+- #### **Objetivo 1: Un administrador desea registrar un nuevo residente en el sistema.**
+
+  **Happy Path**
+
+  En esta ruta ideal, el administrador inicia sesión y accede al panel de control. Desde allí, navega a la sección de "Pacientes" y selecciona la opción para agregar un nuevo residente. Completa todos los campos del formulario con la información correcta del residente (datos personales, médicos, etc.) y guarda el registro. El sistema confirma que el residente ha sido agregado exitosamente y lo muestra en la lista de pacientes.
+
+  ![User Flow 1: Happy Path - Registrar Residente]()
+
+  **Unhappy Paths**
+
+  En este escenario alternativo, el administrador intenta guardar el formulario con campos obligatorios vacíos o con datos en un formato incorrecto (por ejemplo, un número de teléfono con letras). El sistema muestra mensajes de error específicos junto a los campos problemáticos, impidiendo que el registro se complete hasta que la información sea corregida.
+
+  ![User Flow 1: Unhappy Path - Error al Registrar Residente]()
+
+---
+
+- #### **Objetivo 2: Un familiar desea registrarse en la plataforma Veyra.**
+
+  **Happy Path**
+
+  El familiar accede a la página de inicio y selecciona la opción "Registrarse". Completa el formulario con sus datos personales, correo electrónico y una contraseña segura. Al enviar el formulario, el sistema valida la información, crea la cuenta y le envía un correo de confirmación. El familiar es redirigido a la pantalla de inicio de sesión o directamente a su panel, listo para vincularse con un residente.
+
+  ![User Flow 2: Happy Path - Registro de Familiar]()
+
+  **Unhappy Paths**
+
+  La ruta infeliz ocurre si el familiar intenta registrarse con un correo electrónico que ya existe en el sistema o si las contraseñas no coinciden. La plataforma mostrará un mensaje de error claro, indicando el problema específico para que el usuario pueda corregirlo y completar su registro.
+
+  ![User Flow 2: Unhappy Path - Error en Registro de Familiar]()
+
+---
+
+- #### **Objetivo 3: Un administrador desea agregar un nuevo medicamento al inventario.**
+
+  **Happy Path**
+
+  El administrador, después de iniciar sesión, navega a la sección de "Inventario". Hace clic en el botón para agregar un nuevo ítem, completa los detalles del medicamento (nombre, cantidad, fecha de vencimiento, etc.) y guarda la información. El sistema confirma la adición y el nuevo medicamento aparece inmediatamente en la lista del inventario.
+
+  ![User Flow 3: Happy Path - Agregar Medicamento]()
+
+  **Unhappy Paths**
+
+  En este caso, el administrador intenta registrar un medicamento sin completar campos clave como el nombre o la cantidad. El sistema previene el registro y resalta los campos obligatorios que faltan, mostrando un mensaje que guía al usuario para que complete la información necesaria antes de poder guardar.
+
+  ![User Flow 3: Unhappy Path - Error al Agregar Medicamento]()
+
+---
+
+- #### **Objetivo 4: Un familiar desea ver las actividades recientes de su ser querido.**
+
+  **Happy Path**
+
+  El familiar inicia sesión en su cuenta y es dirigido a su panel principal. Desde allí, accede a la sección "Actividades del Residente". La aplicación muestra una lista cronológica de las últimas actividades (terapias, comidas, visitas), incluyendo fotos y descripciones publicadas por el personal de cuidado, brindando tranquilidad y conexión.
+
+  ![User Flow 4: Happy Path - Ver Actividades]()
+
+---
+
+- #### **Objetivo 5: Un usuario (administrador o familiar) ha olvidado su contraseña y desea recuperarla.**
+
+  **Happy Path**
+
+  En la pantalla de inicio de sesión, el usuario hace clic en "¿Olvidaste tu contraseña?". Ingresa su dirección de correo electrónico registrada y recibe un enlace o código de recuperación. Al seguir las instrucciones, puede establecer una nueva contraseña y acceder nuevamente a su cuenta sin problemas.
+
+  ![User Flow 5: Happy Path - Recuperar Contraseña]()
+
+  **Unhappy Paths**
+
+  Si el usuario ingresa un correo electrónico que no está registrado en la base de datos de Veyra, el sistema le informará que el correo no fue encontrado, protegiendo la seguridad de los datos y pidiéndole que verifique la dirección ingresada.
+
+  ![User Flow 5: Unhappy Path - Correo no Encontrado]()
+
 ## 4.5. Web Applications Prototyping
 
 
