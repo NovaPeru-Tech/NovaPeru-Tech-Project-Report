@@ -769,6 +769,22 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ### 4.8.1. Database Diagrams
 
 ![Database](../images/VeyraDatabase.svg)
-
+<ul>
+  <li>
+    <strong>Contextos principales:</strong>
+    <ul>
+      <li><strong>IAM Context:</strong> gestión de usuarios, roles y asignaciones.</li>
+      <li><strong>Platform-Profiles Context:</strong> administra perfiles y residentes vinculados a usuarios y residencias.</li>
+      <li><strong>NursingHome Context:</strong> gestión de residencias, instalaciones y administradores.</li>
+      <li><strong>Medications Context:</strong> medicamentos, administración y prescripciones para residentes.</li>
+      <li><strong>ResidentFamily Context:</strong> vínculos entre residentes y familiares, y sus permisos.</li>
+      <li><strong>Employee Context:</strong> información de empleados con relación a residencias.</li>
+      <li><strong>Platform-Appointments Context:</strong> agenda de citas, asistentes y vínculos con residentes y familiares.</li>
+      <li><strong>Shared Context:</strong> notificaciones y registro de comunicación.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Relaciones clave:</strong> Integración flexible entre usuarios, perfiles, residentes, familiares y empleados; trazabilidad para médicos, medicamentos, citas, notificaciones y administración de entidades residenciales.</li>
+</ul>
 
 
