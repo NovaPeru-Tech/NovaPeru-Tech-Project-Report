@@ -711,6 +711,10 @@ Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
+![overview-sprint2.jpg](../images/overview-sprint2.jpg)
+![network-graph-sprint2.jpg](../images/network-graph-sprint2.jpg)
+![visitors-sprint2.jpg](../images/visitors-sprint2.jpg)
+
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
 #### 5.2.3.2. Aspect Leaders and Collaborators
