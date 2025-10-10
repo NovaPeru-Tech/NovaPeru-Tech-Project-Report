@@ -57,85 +57,248 @@
       <td>1.0</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Se añadio la sección de Class Diagram en el capítulo 4.</td>
+      <td>
+        Se elaboró y documentó la sección del <strong>Class Diagram</strong> en el capítulo 4, representando las entidades principales del sistema y sus relaciones. El diagrama fue desarrollado siguiendo los principios de modelado UML, permitiendo visualizar la estructura lógica del sistema y las interacciones entre clases. Esta contribución facilitó la comprensión del modelo de datos y sirvió como base para la posterior implementación del módulo de gestión de residentes.
+      </td>
     </tr>
     <tr>
-        <td>1.0</td>
+      <td>1.0</td>
       <td>13/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Se añadio la sección del Lean UX Canvas en el capítulo 1.</td>
+      <td>
+        Se desarrolló la sección del <strong>Lean UX Canvas</strong> en el capítulo 1, donde se definieron los objetivos estratégicos del proyecto, el público objetivo y las suposiciones clave sobre las necesidades del usuario. Se identificaron los principales retos de diseño y se establecieron hipótesis iniciales de validación. Esta actividad permitió al equipo construir una visión clara y alineada sobre el propósito de la plataforma Veyra.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>13/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>Se añadio la sección del Lean UX Problem Statements y Lean UX Hypothesis Statements en el capítulo 1.</td>
+      <td>
+        Se redactó y añadió la sección de <strong>Lean UX Problem Statements y Hypothesis Statements</strong> en el capítulo 1. En esta fase, se detallaron los problemas detectados a partir de la investigación preliminar y se formularon hipótesis verificables que orientaron las primeras pruebas con usuarios. El documento incluyó métricas de éxito, criterios de validación y un mapa de impacto en la experiencia del usuario.
+      </td>
     </tr>
     <tr>
-     <td>1.0</td>
+      <td>1.0</td>
       <td>14/09/2025</td>
       <td>Oscar Armas Sánchez</td>
-      <td>Se corrigió la redacción del problem statment en el capítulo 1.</td>
+      <td>
+        Se realizó una revisión completa de la redacción del <strong>Problem Statement</strong> dentro del capítulo 1, corrigiendo inconsistencias y mejorando la claridad del lenguaje. Se enfatizó la relación entre los problemas identificados y las soluciones propuestas, con el fin de fortalecer la coherencia narrativa del documento y facilitar la lectura por parte de los revisores.
+      </td>
     </tr>
     <tr>
-        <td>1.0</td>
+      <td>1.0</td>
       <td>15/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Se añadio la sección de competidores y  el análisis de la competencia en el capítulo 2.</td>
+      <td>
+        Se desarrolló la sección de <strong>Competidores y Análisis de la Competencia</strong> en el capítulo 2. El análisis incluyó la identificación de plataformas similares en el mercado, comparando funcionalidades, diseño y propuesta de valor. Se elaboró una tabla comparativa que permitió al equipo identificar oportunidades de mejora e innovación para Veyra.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>20/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Se añadio la sección de Information Architecture para el capítulo 4.</td>
+      <td>
+        Se elaboró la primera versión de la <strong>Information Architecture</strong> incluida en el capítulo 4. En ella se definieron los sistemas de organización, etiquetado y navegación de la Landing Page. El trabajo contribuyó a mejorar la experiencia del usuario mediante una estructura jerárquica clara, facilitando el acceso rápido a la información más relevante.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>17/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Se añadio la sección del Empathy mapping para el Capítulo 2.</td>
+      <td>
+        Se creó el <strong>Empathy Mapping</strong> correspondiente al capítulo 2. Este mapa permitió identificar las emociones, pensamientos y motivaciones de los usuarios finales —familiares y administradores— mediante la representación visual de sus experiencias. Los hallazgos obtenidos fueron fundamentales para definir los requerimientos funcionales de la plataforma.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>19/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>  Se añadio  la sección de los wireframe y mockups de la web aplication para el capítulo 4.</td>
+      <td>
+        Se diseñaron los <strong>Wireframes y Mockups</strong> de la aplicación web, incluidos en el capítulo 4. Se desarrollaron versiones de escritorio y móviles, priorizando la claridad visual y la facilidad de navegación. Estos prototipos sirvieron como guía visual para el desarrollo del frontend, asegurando consistencia con la identidad visual del proyecto.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>20/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Se añadio la sección de analisis de entrevistas para el capítulo 2.</td>
+      <td>
+        Se redactó la sección de <strong>Análisis de Entrevistas</strong> en el capítulo 2, sintetizando los resultados obtenidos de las entrevistas con los principales grupos de usuarios. El análisis permitió validar los pain points y ajustar las hipótesis del Lean UX Canvas, proporcionando una visión realista sobre las expectativas del público objetivo.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
-      <td>Se añadio la sección de entrevista para el capítulo 2.</td>
+      <td>
+        Se documentó la sección de <strong>Entrevistas</strong> del capítulo 2, donde se detalló la metodología de aplicación, las preguntas empleadas y los perfiles de los participantes. Los resultados se utilizaron como insumo clave para la elaboración de los User Personas y el Empathy Map, fortaleciendo la validez de los hallazgos.
+      </td>
     </tr>
     <tr>
-     <td>1.0</td>
+      <td>1.0</td>
       <td>12/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
-      <td>Se añadio la sección del  Jouney Mapping para el capítulo 2.</td>
+      <td>
+        Se elaboró el <strong>Journey Mapping</strong> dentro del capítulo 2, representando visualmente la experiencia del usuario familiar desde su primer contacto con la casa de reposo hasta la gestión de la información en Veyra. El mapa identificó puntos críticos de fricción y oportunidades de mejora, sirviendo de base para definir nuevas funcionalidades del sistema.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>16/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
-      <td>Se añadio entrevista para el segmento de familiares para el capitulo 2.</td>
+      <td>
+        Se incorporó la <strong>Entrevista del Segmento de Familiares</strong> dentro del capítulo 2, complementando el análisis cualitativo. El documento incluyó citas textuales de los participantes, sus percepciones sobre el proceso de comunicación con las casas de reposo y las principales frustraciones detectadas. Esta información alimentó la definición de requerimientos funcionales iniciales.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>19/09/2025</td>
       <td>Oscar Armas Sánchez</td>
-      <td>Se añadio la sección del  deployment  para el capítulo 5.</td>
+      <td>
+        Se desarrolló la sección de <strong>Deployment</strong> correspondiente al capítulo 5, describiendo los pasos técnicos necesarios para el despliegue de la aplicación. Incluyó la configuración del entorno, dependencias utilizadas, estructura del servidor y lineamientos de mantenimiento. Este apartado sirvió como guía técnica para futuras implementaciones.
+      </td>
     </tr>
     <tr>
       <td>1.0</td>
       <td>18/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
-      <td>Se añadio  la sección de los wireframes del landing page para el capítulo 4.</td>
+      <td>
+        Se diseñaron los <strong>Wireframes del Landing Page</strong> para el capítulo 4. El trabajo se centró en la organización visual de las secciones principales (Hero, About, Services, Contact) y en la coherencia estética con los principios de diseño definidos. Los resultados sirvieron como blueprint visual para el desarrollo del prototipo funcional.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>22/09/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>
+        Actualización inicial de la interfaz de usuario y arquitectura de contenidos. Se realizó una revisión profunda del orden de secciones de la Landing Page (Hero, What We Offer, Features, Benefits) y se propusieron ajustes para mejorar la jerarquía de información y la lectura rápida por parte de familiares y administradores. Se documentaron las decisiones visuales en el capítulo 4 (Web Style Guidelines) y se añadieron mockups de referencia para dispositivos móviles y desktop.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>28/09/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>
+        Revisión de accesibilidad y tipografía. Se implementaron recomendaciones para cumplir WCAG 2.1 AA en contraste y tamaños tipográficos (Rubik). Se añadió tabla de jerarquía tipográfica y ejemplos prácticos para H1–H4, párrafos y botones. Se llevaron a cabo pruebas manuales de legibilidad en móviles y tablets, documentando hallazgos y correcciones.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>05/10/2025</td>
+      <td>Ariana Ramirez Carrasco</td>
+      <td>
+        Entrega final de artefactos visuales para el Keynote. Se prepararon las pantallas principales, se crearon assets optimizados (logos, íconos y fotografías) y se generó la guía de estilo resumida para inclusión en el PDF final. Además, se coordinó con el equipo de frontend la hoja de estilos (assets/style.css) y se validó la consistencia con los mockups desplegados.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>23/09/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>
+        Revisión técnica del módulo de Information Architecture. Se corrigieron diagramas y se añadió una sección detallada sobre sistemas de búsqueda y navegación (Search & Navigation Systems). Se documentó el flujo de búsqueda para residentes y la priorización de resultados por roles.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>01/10/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>
+        Preparación y verificación de evidencias de despliegue. Se generaron los scripts de build y deployment, se verificó la versión desplegada del Landing Page en el entorno de staging y se documentó el procedimiento de despliegue en el capítulo 5. Se incluyeron logs y capturas como evidencia para el Sprint Review.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>10/10/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>
+        Consolidación técnica final y revisión integradora. Como responsable de la integración, revisé y validé todas las mejoras técnicas aplicadas a los capítulos 3, 4 y 5; corregí inconsistencias en diagramas UML y añadí notas sobre compatibilidad y requisitos de infraestructura. Entregué también el paquete .zip final con el Frontend Web Application y documentación técnica.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>24/09/2025</td>
+      <td>Billy Jake Ruiz Madrid</td>
+      <td>
+        Documentación ampliada de Lean UX y validación de hipótesis. Se incorporaron métricas propuestas (KPI) y se redactaron las hipótesis en formato 3R (We believe / If / Attain / With). Se añadió la sección de Business Outcomes y User Outcomes con objetivos cuantitativos para los primeros seis meses.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>30/09/2025</td>
+      <td>Billy Jake Ruiz Madrid</td>
+      <td>
+        Evidencia de ejecución del Sprint 2: se documentó el proceso de integración del Frontend con servicios simulados (mocks) y se elaboraron las pruebas funcionales realizadas por QA. Se adjuntaron capturas de pantallas, logs de interacción y un resumen de aceptación por cada User Story implementada.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>07/10/2025</td>
+      <td>Billy Jake Ruiz Madrid</td>
+      <td>
+        Revisión final de la sección de User Personas y Empathy Maps. Se ampliaron los perfiles (Recoba y Yvonne) con insights adicionales de entrevistas y se añadieron los Journey Maps As-Is. Se garantizó que cada arquetipo esté sustentado por datos recogidos en entrevistas y se enlazaron las conclusiones con las features priorizadas.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>25/09/2025</td>
+      <td>Oscar Armas Sánchez</td>
+      <td>
+        Ajustes en la redacción de Problem Statements y Hypotheses. Se reescribieron las secciones para alinear el lenguaje con el template Lean UX, incorporando domain, customer segments, pain points y la visión estratégica. Además, se mejoró la fluidez textual para facilitar la lectura por parte del docente.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>01/10/2025</td>
+      <td>Oscar Armas Sánchez</td>
+      <td>
+        Coordinación del Sprint Review y preparación del reporte individual. Preparé las plantillas para el <em>Final Project Individual Member Performance Report</em>, recopilé los aportes de cada integrante y redacté observaciones sobre las actividades realizadas durante el Sprint 2. Documenté métricas de cumplimiento y recomendaciones para mejoras.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>08/10/2025</td>
+      <td>Oscar Armas Sánchez</td>
+      <td>
+        Elaboración del apartado "Team Collaboration Insights". Se registraron las dinámicas de trabajo, canales utilizados (Slack/WhatsApp/Meet), incidencias de coordinación y propuestas de mejora en la colaboración. Se añadió un resumen ejecutivo con lecciones aprendidas para futuros sprints.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>26/09/2025</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
+      <td>
+        Inclusión y verificación del análisis de entrevistas ampliado. Se transcribieron y sintetizaron nuevas observaciones, se añadieron notas de contexto sobre los entrevistados (tecnología, canales, expectativas) y se mejoraron los resúmenes para reflejar datos objetivos y subjetivos.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>02/10/2025</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
+      <td>
+        Redacción de la sección "Project Report Collaboration Insights". Documenté la contribución individual por fase (investigación, diseño, desarrollo, QA) y generé un cronograma de actividades actualizado. Además, validé las evidencias de sprint solicitadas por el docente.
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>09/10/2025</td>
+      <td>Miguel Angel Junior Roman Lopez</td>
+      <td>
+        Actualización de Student Outcomes y cierre de entregables. Se revisó el cumplimiento de los resultados de aprendizaje esperados, se documentaron las evidencias que sustentan cada outcome y se preparó el índice de entrega final con los archivos (Keynote, documentación, .zip con código y videos).
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>10/10/2025</td>
+      <td>Renato Calvo Yalan</td>
+      <td>
+        Revisión integradora y cierre de versión 2.0. A modo de revisión final, realicé una lectura completa de todo el informe, corregí errores ortográficos y de formato, consolidé las referencias cruzadas entre capítulos, verifiqué la presencia de los artefactos requeridos (Sprint 2: planificación, backlog, evidencias de desarrollo y ejecución, documentación de servicios y despliegue), y validé la inclusión de los entregables: 
+        <ul>
+          <li>Final Project Documentation Report</li>
+          <li>Final Project Keynote</li>
+          <li>Final Project Individual Member Performance Report (by Team Leader)</li>
+          <li>Archivo .zip con activos y evidencias (código, videos, documentación)</li>
+        </ul>
+        Se dejó constancia de todas las correcciones aplicadas entre el 22/09/2025 y 10/10/2025 y se preparó la versión lista para entrega formal al docente.
+      </td>
     </tr>
   </tbody>
 </table>
