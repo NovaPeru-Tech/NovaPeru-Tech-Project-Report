@@ -764,8 +764,8 @@ Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 ## Anexos
   <ul>
-    Deploy de Landing Page: https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/
-    Video de Exposición: http://bit.ly/4h2grbc
+    - Deploy de Landing Page: https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/ <br>
+    - Video de Exposición: http://bit.ly/4h2grbc
   </ul>
 </body>
 </html>
