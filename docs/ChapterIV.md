@@ -882,24 +882,49 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 ### 4.8.1. Database Diagrams
 
-![Database](../images/VeyraDatabase.svg)
+![Database](../images/DataBase-Diagram.png)
 
-<ul>
-  <li>
-    <strong>Contextos principales:</strong>
-    <ul>
-      <li><strong>IAM Context:</strong> gestión de usuarios, roles y asignaciones.</li>
-      <li><strong>Platform-Profiles Context:</strong> administra perfiles y residentes vinculados a usuarios y residencias.</li>
-      <li><strong>NursingHome Context:</strong> gestión de residencias, instalaciones y administradores.</li>
-      <li><strong>Medications Context:</strong> medicamentos, administración y prescripciones para residentes.</li>
-      <li><strong>ResidentFamily Context:</strong> vínculos entre residentes y familiares, y sus permisos.</li>
-      <li><strong>Employee Context:</strong> información de empleados con relación a residencias.</li>
-      <li><strong>Platform-Appointments Context:</strong> agenda de citas, asistentes y vínculos con residentes y familiares.</li>
-      <li><strong>Shared Context:</strong> notificaciones y registro de comunicación.</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Relaciones clave:</strong> Integración flexible entre usuarios, perfiles, residentes, familiares y empleados; trazabilidad para médicos, medicamentos, citas, notificaciones y administración de entidades residenciales.</li>
+<h3><strong>Contextos principales:</strong></h3>
+
+<h4>IAM Context:</h4>
+<p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
+
+![IAM Context](../images/IAM-Context.png)
+
+<h4>Platform-Profiles Context:</h4>
+<p><strong>Responsabilidad:</strong> Administra los perfiles de todas las personas en el sistema (residentes, empleados, familiares) y la información específica de los residentes.</p>
+
+![IAM Context](../images/Platform-Profiles-Context.png)
+
+<h4>Employee Context:</h4>
+<p><strong>Responsabilidad:</strong> Almacena información contractual y laboral de los empleados, vinculándolos a un perfil y una residencia.</p>
+
+![Employee Context](../images/Employee-Context.png)
+
+<h4>Medications Context:</h4>
+<p><strong>Responsabilidad:</strong> Gestión del catálogo de medicamentos, las prescripciones asignadas a residentes y el registro de cada administración.</p>
+
+![Medications Context](../images/Medications-Context.png)
+
+<h4>ResidentFamily Context:</h4>
+<p><strong>Responsabilidad:</strong> Define los vínculos entre residentes y sus familiares, especificando el tipo de relación.</p>
+
+![ResidentFamily Context](../images/ResidentFamily-Context.png)
+
+<h4>IAM Context:</h4>
+<p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
+
+![IAM Context](../images/IAM-Context.png)
+
+<h4>Platform-Appointments Context:</h4>
+<p><strong>Responsabilidad:</strong> Agenda y gestión de citas para los residentes, registrando quiénes asisten (empleados o familiares).</p>
+
+![Platform-Appointments Context](../images/Platform-Appointments-Context.png)
+
+<h4>Shared Context:</h4>
+<p><strong>Responsabilidad:</strong> Contiene entidades transversales como las notificaciones, que pueden ser generadas desde cualquier otro contexto y dirigidas a un usuario.</p>
+
+![Shared Context](../images/Shared-Context.png)
+
+<strong>Relaciones clave:</strong> Integración flexible entre usuarios, perfiles, residentes, familiares y empleados; trazabilidad para médicos, medicamentos, citas, notificaciones y administración de entidades residenciales.</li>
 </ul>
-
-
