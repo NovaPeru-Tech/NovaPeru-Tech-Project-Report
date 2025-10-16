@@ -81,7 +81,7 @@ Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores e
 
 <tr>
     <td width="140" valign="top" align="center">
-      <img src="../images/Jhordi.jpg" alt="Jhordi Photo" width="120" />
+      <img src="../images/Jhordi.jpeg" alt="Jhordi Photo" width="120" />
     </td>
     <td valign="top">
       <strong>Jhordi Luis Carranza Pérez - (U20191E835)</strong> - Ingeniería de Software<br><br>
