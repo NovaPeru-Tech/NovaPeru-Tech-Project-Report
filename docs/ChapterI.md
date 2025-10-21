@@ -78,6 +78,17 @@ Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores e
       Tengo 21 años. Soy puntual, responsable y con experiencia en gestión de proyectos y desarrollo web. Espero aprender y aportar para que el proyecto sea exitoso.
     </td>
   </tr>
+
+<tr>
+    <td width="140" valign="top" align="center">
+      <img src="../images/Jhordi.jpeg" alt="Jhordi Photo" width="120" />
+    </td>
+    <td valign="top">
+      <strong>Jhordi Luis Carranza Pérez - (U20191E835)</strong> - Ingeniería de Software<br><br>
+      Soy Jhordi Carranza y actualmente curso el sexto ciclo de Ingeniería de Software. Tengo experiencia en desarrollo web, especialmente en frontend. Además, soy músico trompetista y practico deportes de resistencia y al aire libre. Me quiero enfocar más adelante en Telecomunicaciones o Neurociencia computacional. Mis habilidades incluyen empatía, compromiso y colaboración. Me comprometo a desarrollar un proyecto con buena salida en el mundo y que ayude a muchas personas.
+    </td>
+  </tr>
+  
 </table>
 
 
