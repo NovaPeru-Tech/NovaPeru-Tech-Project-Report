@@ -29,17 +29,17 @@
   <p>Este proceso se enfoca en asegurar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes, así como las de las partes interesadas internas o externas.</p>
 
   <ul>
-    <li><strong>Trello:</strong> Trello es una plataforma digital de gestión de proyectos basada en tableros, listas y tarjetas, que permite organizar tareas, colaborar en equipo y supervisar el progreso de manera visual y eficiente.</li>
+    <li><strong>Trello:</strong> Trello es una plataforma digital de gestión de proyectos basada en tableros, listas y tarjetas, que permite organizar tareas, colaborar en equipo y supervisar el progreso de manera visual y eficiente. <a href="https://trello.com">trello.com</a></li>
   </ul>
 
 <h4>Product UX/UI Design</h4>
-  <p>Esta herramienta facilita la creación digital de modelos que se integran en la vida del consumidor. En este caso, estamos desarrollando un modelo de sitio web compatible tanto con computadoras como con dispositivos móviles.</p>
+  <p>Estamos desarrollando un modelo de sitio web compatible tanto con computadoras como con dispositivos móviles.</p>
 
-  <p>Para lograrlo, utilizamos varias herramientas de diseño y colaboración, que incluyen:</p>
+  <p>Para lograrlo, utilizamos diferentes herramientas de diseño y colaboración, que incluyen:</p>
   <ol>
     <li><strong>Uxpressia:</strong> plataforma para mapeo de la trayectoria del cliente. <a href="https://uxpressia.com/">uxpressia.com</a></li>
     <li><strong>MIRO:</strong> pizarra digital colaborativa. <a href="https://miro.com/es/">miro.com/es</a></li>
-    <li><strong>Figma:</strong> herramienta de prototipado web. <a href="https://www.figma.com/es-es/">figma.com</a></li>
+    <li><strong>Figma:</strong> herramienta para prototipos web. <a href="https://www.figma.com/es-es/">figma.com</a></li>
     <li><strong>Lucid Chart:</strong> aplicación de diagramación colaborativa. <a href="https://www.lucidchart.com/pages/es">lucidchart.com</a></li>
     <li><strong>Overflow:</strong> herramienta para diagramas de Userflows. <a href="https://overflow.io/">overflow.io</a></li>
   </ol>
@@ -83,16 +83,16 @@
   <pre><code>&lt;type&gt;[optional scope]: &lt;description&gt;
 
 Tipos comunes:
-- feat: nuevo feature
-- fix: corrección
-- build: cambios en build/deps
-- chore: tareas internas
-- docs: documentación
-- refractor: refactor
-- perf: mejoras de rendimiento
-- style: estilo
-- test: pruebas
-  </code></pre>
+feat: nuevo feature
+fix: corrección
+build: cambios en build/deps
+chore: tareas internas
+docs: documentación
+refractor: refactor
+perf: mejoras de rendimiento
+style: estilo
+test: pruebas
+</pre></code>
 
   <p>Ejemplos:</p>
   <pre><code>feat(welcome): add welcome section
@@ -761,13 +761,198 @@ Para el Sprint 2 se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-## 5.4. Video About-the-Product
+<div align='center'>
+    <h2>UX Heuristics & Principles Evaluation</h2>
+    <h3>Usability – Inclusive Design – Information Architecture</h3>
+</div>
 
-## Conclusiones y recomendaciones
+<p><strong>CARRERA:</strong> Ingeniería de Software</p>
+<p><strong>CURSO: Desarrollo de Aplicaciones Open Source </strong> </p>
+<p><strong>SECCIÓN:</strong> 7338</p>
+<p><strong>PROFESORES: Angel Augusto Velasquez Nuñez</strong> </p>
+<p><strong>AUDITOR:....</strong> </p>
+<p><strong>CLIENTE(S):</strong> ....</p>
 
-<p>Veyra representa una solución integral para la gestión eficiente del cuidado de pacientes, centralizando funcionalidades clave como registro de datos de salud, comunicación entre familia y cuidadores, y administración de planes de cuidado personalizados.</p>
+<hr>
 
-  <p>La implementación con tecnologías modernas permite escalabilidad, modularidad y adaptabilidad. Se recomienda ampliar la cobertura de pruebas, especialmente en módulos críticos (alertas de emergencia y sincronización de dispositivos de salud).</p>
+<br>
+
+<strong>SITE O APP A EVALUAR:</strong>
+<P>Veyra Application</p>
+
+<br>
+
+<strong>TAREAS A EVALUAR:</strong>
+<p>El alcance de esta evaluación incluye la revisión de las siguientes tareas:</p>
+
+<ol>
+    <li>................</li>
+    <li>....................</em></li>
+    <li>Comprobar si el diseño transmite confianza y profesionalismo</li>
+    <li>Validar si la información presentada resulta atractiva y relevante para posibles usuarios</li>
+    <li>....</li>
+    <li>................</li>
+    <li>...............</li>
+    <li>..............</li>
+</ol>
+
+<br>
+
+<p>No están incluidas en esta versión de la evaluación las siguientes tareas:</p>
+<ol>
+    <li>.............</li>
+    <li>.............</li>
+    <li>.........</li>
+    <li>..............</li>
+    <li>.........a</li>
+    <li>........./li>
+
+</ol>
+
+<br>
+
+<strong>ESCALA DE SEVERIDAD:</strong>
+<p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad</p>
+
+<table>
+    <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>TABLA RESUMEN:</strong>
+
+<br>
+
+<table>
+    <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">#</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Problema</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Escala de severidad</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Heurística/Principio violada(o)</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">El mensaje principal, ubicado en nuestro <stron>Hero Section</strong> denota confusión y/o algún detalle de caracter genérico.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Information Architecture: <strong>Is it clear?</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Falta de estructura lógica al momento de redireccionar a las secciones dentro de Landing Page (orden no fluido).</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: User Satisfaction - <strong>Do users like to use your website and recommend it to others?</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">El Landing Page presenta un diseño mal adaptado para los dispositivos móviles.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: Effectiveness - <strong>Can users achieve the desired objectives on your website?</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Se desconoce como se destacará dicha solución en casos de uso reales o problemas que resuelve.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Information Architecture: <strong>Is it communicative?</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Falta de claridad sobre qué representa una <q>flota</q> en el sistema.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Information Architecture: <strong>Is it communicative?</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">6</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Posibilidad de ingresar datos (como placas repetidas o formatos inválidos) no gestionados correctamente.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: Error Handling - <strong>How does the website help users recover from errors?</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">7</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Falta de claridad al momento de registrar los campos obligatorios para agregar a un nuevo conductor.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Information Architecture: <strong>Is it clear?</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Dudas sobre la confiabilidad o fuente de los datos utilizados para el análisis predictivo con la Inteligencia Artificial.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Architecture Information: <strong>Is it valuable?</strong></td>
+    </tr>
+</table>
+
+<br>
+
+<strong>DESCRIPCIÓN DE PROBLEMAS:</strong>
+
+<p><strong>Problema #1:</strong> ............</p>
+
+<p><strong>Severidad:</strong> 1</p>
+
+<p><strong>Heurística/Principio violada(o):</strong> Information Architecture: <strong>Is it clear?</strong></p>
+
+<strong>Problema:</strong>
+
+<p>	..........</p>
+
+<div align='center'>
+    <img src="../images/..." alt="Problem-#1-Audit" style="width:600;height:auto;">
+</div>
+
+<br>
+
+<strong>Recomendación:</strong>
+
+<p>.....</p>
+
+<hr>
+
+<br>
+
+<p><strong>Problema #2:</strong> .........</p>
+
+<p><strong>Severidad:</strong> 2</p>
+
+<p><strong>Heurística/Principio violada(o):</strong> Usability: User Satisfaction - <strong>Do users like to use your website and recommend it to others?</strong></p>
+
+<strong>Problema:</strong>
+
+<p>.........</p>
+
+<div align='center'>
+    <img src="../images/....." alt="Problem-#2-Audit" style="width:600;height:auto;">
+</div>
+
+<br>
+
+<strong>Recomendación:</strong>
+
+<p>..........</p>
+
+<hr>
+
+<br>
+
+
 
 ## Video About-the-Team
 
