@@ -29,17 +29,17 @@
   <p>Este proceso se enfoca en asegurar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes, así como las de las partes interesadas internas o externas.</p>
 
   <ul>
-    <li><strong>Trello:</strong> Trello es una plataforma digital de gestión de proyectos basada en tableros, listas y tarjetas, que permite organizar tareas, colaborar en equipo y supervisar el progreso de manera visual y eficiente.</li>
+    <li><strong>Trello:</strong> Trello es una plataforma digital de gestión de proyectos basada en tableros, listas y tarjetas, que permite organizar tareas, colaborar en equipo y supervisar el progreso de manera visual y eficiente. <a href="https://trello.com">trello.com</a></li>
   </ul>
 
 <h4>Product UX/UI Design</h4>
-  <p>Esta herramienta facilita la creación digital de modelos que se integran en la vida del consumidor. En este caso, estamos desarrollando un modelo de sitio web compatible tanto con computadoras como con dispositivos móviles.</p>
+  <p>Estamos desarrollando un modelo de sitio web compatible tanto con computadoras como con dispositivos móviles.</p>
 
-  <p>Para lograrlo, utilizamos varias herramientas de diseño y colaboración, que incluyen:</p>
+  <p>Para lograrlo, utilizamos diferentes herramientas de diseño y colaboración, que incluyen:</p>
   <ol>
     <li><strong>Uxpressia:</strong> plataforma para mapeo de la trayectoria del cliente. <a href="https://uxpressia.com/">uxpressia.com</a></li>
     <li><strong>MIRO:</strong> pizarra digital colaborativa. <a href="https://miro.com/es/">miro.com/es</a></li>
-    <li><strong>Figma:</strong> herramienta de prototipado web. <a href="https://www.figma.com/es-es/">figma.com</a></li>
+    <li><strong>Figma:</strong> herramienta para prototipos web. <a href="https://www.figma.com/es-es/">figma.com</a></li>
     <li><strong>Lucid Chart:</strong> aplicación de diagramación colaborativa. <a href="https://www.lucidchart.com/pages/es">lucidchart.com</a></li>
     <li><strong>Overflow:</strong> herramienta para diagramas de Userflows. <a href="https://overflow.io/">overflow.io</a></li>
   </ol>
