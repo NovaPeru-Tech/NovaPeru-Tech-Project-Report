@@ -26,16 +26,13 @@
                 <td>Como visitante de la Landing Page, quiero poder acceder a un menú de navegación en la parte superior de la página, para explorar fácilmente las secciones como "Log in", "Sign up", "Planes", "Contacto",etc.</td>
                 <td>
                     <strong>Escenario 1: Menú visible y navegable</strong><br>
-                    <strong>Dado que</strong> el visitante se encuentra en la landing page,<br>
-                    <strong>Cuando</strong> la página carga por completo,<br>
-                    <strong>Y</strong> el visitante selecciona un enlace del menú,<br>
-                    <strong>Entonces</strong> el menú debe mostrarse en la parte superior con los enlaces principales ("Log in", "Sign up", "Planes", "Contacto"),<br>
-                    <strong>Y</strong> el visitante es redirigido correctamente a la sección correspondiente sin errores.<br><br>
+                    <strong>Dado que</strong> el visitante está en la landing page,<br>
+                    <strong>Cuando</strong> la página carga y selecciona un enlace del menú,<br>
+                    <strong>Entonces</strong> el menú se muestra con enlaces principales ("Log in", "Sign up", "Planes", "Contacto") y redirige correctamente.<br><br>
                     <strong>Escenario 2: Menú no carga o enlace roto</strong><br>
-                    <strong>Dado que</strong> el visitante se encuentra en la landing page,<br>
-                    <strong>Cuando</strong> el menú no se visualiza correctamente o al intentar acceder a un enlace, el sistema arroja un error de recurso no encontrado,<br>
-                    <strong>Entonces</strong> el sistema muestra un mensaje amigable,<br>
-                    <strong>Y</strong> permite acceder a las secciones esenciales mediante enlaces alternativos sin bloquear la navegación.
+                    <strong>Dado que</strong> el visitante está en la landing page,<br>
+                    <strong>Cuando</strong> el menú no se visualiza o un enlace falla,<br>
+                    <strong>Entonces</strong> se muestra un mensaje de error y se ofrecen enlaces alternativos.
                 </td>
             </tr>
             <tr>
@@ -44,18 +41,13 @@
                 <td>Como visitante de la Landing Page, quiero ver los planes de suscripción junto a su precio y características, para poder elegir el que mejor se adapte a mis necesidades.</td>
                 <td>
                     <strong>Escenario 1: Visualización correcta de planes</strong><br>
-                    <strong>Dado que</strong> un visitante se encuentra en la sección de planes de la landing page,<br>
-                    <strong>Cuando</strong> la página carga completamente,<br>
-                    <strong>Entonces</strong> debe ver al menos 2 planes de suscripción diferentes,<br>
-                    <strong>Y</strong> cada plan debe mostrar claramente: precio, características principales, duración y botón de selección,<br>
-                    <strong>Y</strong> debe poder comparar fácilmente las diferencias entre planes,<br>
-                    <strong>Y</strong> todos los elementos deben ser legibles y estar correctamente alineados.<br><br>
+                    <strong>Dado que</strong> un visitante está en la sección de planes,<br>
+                    <strong>Cuando</strong> la página carga,<br>
+                    <strong>Entonces</strong> ve al menos 2 planes con precio, características y botón de selección, y puede compararlos.<br><br>
                     <strong>Escenario 2: Error en carga de planes</strong><br>
-                    <strong>Dado que</strong> un visitante se encuentra en la sección de planes,<br>
-                    <strong>Cuando</strong> ocurre un error en la carga de información de planes,<br>
-                    <strong>Entonces</strong> se muestra un mensaje de error amigable,<br>
-                    <strong>Y</strong> se proporciona una opción para recargar la información,<br>
-                    <strong>Y</strong> el visitante puede acceder a información de contacto como alternativa.
+                    <strong>Dado que</strong> un visitante está en la sección de planes,<br>
+                    <strong>Cuando</strong> ocurre un error de carga,<br>
+                    <strong>Entonces</strong> se muestra un mensaje de error, una opción de recarga y contacto alternativo.
                 </td>
             </tr>
             <tr>
@@ -64,18 +56,13 @@
                 <td>Como visitante de la landing Page, quiero seleccionar un plan y finalizar la confirmación en la misma pantalla, para agilizar y simplificar el registro.</td>
                 <td>
                     <strong>Escenario 1: Selección y confirmación exitosa</strong><br>
-                    <strong>Dado que</strong> un visitante está visualizando los planes disponibles,<br>
-                    <strong>Cuando</strong> selecciona un plan específico y pulsa el botón "Seleccionar",<br>
-                    <strong>Entonces</strong> es dirigido a un formulario de confirmación en la misma pantalla,<br>
-                    <strong>Y</strong> el formulario muestra el plan seleccionado con su precio,<br>
-                    <strong>Y</strong> puede completar sus datos y confirmar la selección,<br>
-                    <strong>Y</strong> recibe una confirmación inmediata del proceso.<br><br>
+                    <strong>Dado que</strong> un visitante ve los planes disponibles,<br>
+                    <strong>Cuando</strong> selecciona un plan y pulsa "Seleccionar",<br>
+                    <strong>Entonces</strong> se muestra un formulario en la misma pantalla con el plan seleccionado para completar y confirmar.<br><br>
                     <strong>Escenario 2: Selección sin completar datos requeridos</strong><br>
-                    <strong>Dado que</strong> un visitante está en el formulario de confirmación de plan,<br>
-                    <strong>Cuando</strong> intenta confirmar sin completar campos obligatorios,<br>
-                    <strong>Entonces</strong> se muestran mensajes de validación específicos para cada campo faltante,<br>
-                    <strong>Y</strong> el formulario mantiene la información ya ingresada,<br>
-                    <strong>Y</strong> puede corregir y reenviar sin perder progreso.
+                    <strong>Dado que</strong> un visitante está en el formulario de confirmación,<br>
+                    <strong>Cuando</strong> intenta confirmar sin datos obligatorios,<br>
+                    <strong>Entonces</strong> se muestran mensajes de validación específicos y mantiene los datos ingresados.
                 </td>
             </tr>
             <tr>
@@ -84,17 +71,13 @@
                 <td>Como visitante de la Landing Page, quiero ver a los creadores de la aplicación, para conocer al equipo detrás del producto y generar confianza en el servicio.</td>
                 <td>
                     <strong>Escenario 1: Acceso exitoso a información del equipo</strong><br>
-                    <strong>Dado que</strong> un visitante se encuentra en la landing page,<br>
-                    <strong>Cuando</strong> navega a la sección "Sobre nosotros" o "Equipo",<br>
-                    <strong>Entonces</strong> puede ver información de cada creador incluyendo: nombre, foto, rol y breve descripción,<br>
-                    <strong>Y</strong> la información se presenta de manera profesional y organizada,<br>
-                    <strong>Y</strong> puede acceder a perfiles profesionales o redes sociales si están disponibles.<br><br>
+                    <strong>Dado que</strong> un visitante está en la landing page,<br>
+                    <strong>Cuando</strong> navega a la sección "Equipo",<br>
+                    <strong>Entonces</strong> ve la información de cada creador (nombre, foto, rol) y sus perfiles sociales si existen.<br><br>
                     <strong>Escenario 2: Información de equipo no disponible</strong><br>
-                    <strong>Dado que</strong> un visitante está intentando acceder a información del equipo,<br>
+                    <strong>Dado que</strong> un visitante está intentando acceder a la info del equipo,<br>
                     <strong>Cuando</strong> la sección no carga correctamente,<br>
-                    <strong>Entonces</strong> se muestra un mensaje explicativo,<br>
-                    <strong>Y</strong> se proporciona información de contacto alternativa,<br>
-                    <strong>Y</strong> el visitante puede continuar navegando otras secciones sin problemas.
+                    <strong>Entonces</strong> se muestra un mensaje explicativo y contacto alternativo.
                 </td>
             </tr>
             <tr>
@@ -103,17 +86,13 @@
                 <td>Como visitante del Landing Page quiero en el menú un botón para cambiar de idioma entre español e inglés para entender mejor de que trata Veyra.</td>
                 <td>
                     <strong>Escenario 1: Cambio exitoso de idioma</strong><br>
-                    <strong>Dado que</strong> un visitante se encuentra en la landing page en español,<br>
-                    <strong>Cuando</strong> selecciona la opción de cambio de idioma y elige inglés,<br>
-                    <strong>Entonces</strong> toda la interfaz cambia al idioma seleccionado,<br>
-                    <strong>Y</strong> el contenido se mantiene equivalente en significado,<br>
-                    <strong>Y</strong> la preferencia de idioma se mantiene al navegar entre páginas.<br><br>
+                    <strong>Dado que</strong> un visitante está en la landing page en español,<br>
+                    <strong>Cuando</strong> selecciona la opción de cambio y elige inglés,<br>
+                    <strong>Entonces</strong> toda la interfaz cambia a inglés y la preferencia se mantiene al navegar.<br><br>
                     <strong>Escenario 2: Idioma no disponible temporalmente</strong><br>
-                    <strong>Dado que</strong> un visitante está intentando cambiar de idioma,<br>
+                    <strong>Dado que</strong> un visitante intenta cambiar de idioma,<br>
                     <strong>Cuando</strong> el servicio de traducción no está disponible,<br>
-                    <strong>Entonces</strong> se muestra un mensaje informativo sobre la situación,<br>
-                    <strong>Y</strong> se mantiene el idioma actual funcionando,<br>
-                    <strong>Y</strong> se proporciona información en el idioma disponible.
+                    <strong>Entonces</strong> se muestra un mensaje informativo y se mantiene el idioma actual.
                 </td>
             </tr>
             <tr>
@@ -123,17 +102,12 @@
                 <td>
                     <strong>Escenario 1: Acceso exitoso a términos y condiciones</strong><br>
                     <strong>Dado que</strong> un visitante se encuentra en la landing page,<br>
-                    <strong>Cuando</strong> busca información legal sobre términos y condiciones de uso,<br>
-                    <strong>Entonces</strong> puede acceder fácilmente a documento completo desde footer o header,<br>
-                    <strong>Y</strong> los términos están redactados claramente y son comprensibles,<br>
-                    <strong>Y</strong> incluyen políticas de privacidad, uso de datos y responsabilidades,<br>
-                    <strong>Y</strong> están actualizados con fecha de última modificación.<br><br>
+                    <strong>Cuando</strong> busca los términos y condiciones de uso,<br>
+                    <strong>Entonces</strong> accede al documento completo (claro y actualizado) desde el footer o header.<br><br>
                     <strong>Escenario 2: Aceptación requerida de términos actualizados</strong><br>
                     <strong>Dado que</strong> los términos y condiciones han sido actualizados,<br>
-                    <strong>Cuando</strong> un usuario existente ingresa al sistema después de la actualización,<br>
-                    <strong>Entonces</strong> debe revisar y aceptar los nuevos términos antes de continuar,<br>
-                    <strong>Y</strong> se destacan claramente los cambios realizados,<br>
-                    <strong>Y</strong> puede comparar versión anterior si lo desea.
+                    <strong>Cuando</strong> un usuario existente ingresa al sistema,<br>
+                    <strong>Entonces</strong> debe revisar y aceptar los nuevos términos (con cambios destacados) antes de continuar.
                 </td>
             </tr>
         </tbody>
@@ -149,17 +123,13 @@
                 <td>Como visitante del landing page quiero poder acceder fácilmente a sus redes sociales de Veyra para conocer más sobre la empresa y tener canales adicionales de contacto.</td>
                 <td>
                     <strong>Escenario 1: Acceso exitoso a redes sociales</strong><br>
-                    <strong>Dado que</strong> un visitante se encuentra en cualquier página de la landing page,<br>
-                    <strong>Cuando</strong> busca enlaces a redes sociales en el footer o header,<br>
-                    <strong>Entonces</strong> encuentra íconos claramente identificables de las principales redes sociales,<br>
-                    <strong>Y</strong> al activar el ícono, se abren las páginas oficiales de Veyra en una nueva pestaña,<br>
-                    <strong>Y</strong> los enlaces funcionan correctamente y dirigen al contenido apropiado.<br><br>
+                    <strong>Dado que</strong> un visitante está en la landing page,<br>
+                    <strong>Cuando</strong> busca enlaces de redes sociales (footer/header) y activa un ícono,<br>
+                    <strong>Entonces</strong> encuentra los íconos y se abre la página oficial en una nueva pestaña.<br><br>
                     <strong>Escenario 2: Enlaces de redes sociales no funcionales</strong><br>
-                    <strong>Dado que</strong> un visitante está intentando acceder a redes sociales,<br>
-                    <strong>Cuando</strong> interactúa con un ícono de red social que no responde,<br>
-                    <strong>Entonces</strong> recibe un mensaje de error informativo,<br>
-                    <strong>Y</strong> se proporciona información de contacto alternativa,<br>
-                    <strong>Y</strong> puede continuar su navegación sin interrupciones.
+                    <strong>Dado que</strong> un visitante intenta acceder a redes sociales,<br>
+                    <strong>Cuando</strong> interactúa con un ícono que no responde,<br>
+                    <strong>Entonces</strong> recibe un mensaje de error informativo y contacto alternativo.
                 </td>
             </tr>
             <tr>
@@ -168,19 +138,13 @@
                 <td>Como visitante del landing page quiero completar un formulario de contacto para enviar consultas específicas y recibir una respuesta personalizada de Veyra.</td>
                 <td>
                     <strong>Escenario 1: Envío exitoso de consulta</strong><br>
-                    <strong>Dado que</strong> un visitante se encuentra en el formulario de contacto,<br>
-                    <strong>Cuando</strong> completa todos los campos requeridos (nombre, email, asunto, mensaje),<br>
-                    <strong>Y</strong> pulsa el botón "Enviar",<br>
-                    <strong>Entonces</strong> recibe una confirmación de que su mensaje fue enviado,<br>
-                    <strong>Y</strong> se le informa el tiempo estimado de respuesta,<br>
-                    <strong>Y</strong> recibe una copia de confirmación en su email.<br><br>
+                    <strong>Dado que</strong> un visitante está en el formulario de contacto,<br>
+                    <strong>Cuando</strong> completa campos requeridos (nombre, email, asunto, mensaje) y pulsa "Enviar",<br>
+                    <strong>Entonces</strong> recibe confirmación de envío, tiempo estimado de respuesta y copia por email.<br><br>
                     <strong>Escenario 2: Formulario con datos inválidos</strong><br>
-                    <strong>Dado que</strong> un visitante está completando el formulario de contacto,<br>
-                    <strong>Cuando</strong> ingresa un email inválido o deja campos obligatorios vacíos,<br>
-                    <strong>Y</strong> intenta enviar el formulario,<br>
-                    <strong>Entonces</strong> se muestran mensajes de validación específicos,<br>
-                    <strong>Y</strong> se mantiene la información correcta ya ingresada,<br>
-                    <strong>Y</strong> puede corregir y reenviar.
+                    <strong>Dado que</strong> un visitante está completando el formulario,<br>
+                    <strong>Cuando</strong> ingresa un email inválido o deja campos obligatorios vacíos e intenta enviar,<br>
+                    <strong>Entonces</strong> se muestran mensajes de validación específicos y se mantiene la información correcta.
                 </td>
             </tr>
         </tbody>
@@ -196,18 +160,13 @@
                 <td>Como familiar de un adulto mayor quiero acceder al historial médico completo de mi familiar para conocer su evolución de salud y diagnósticos actuales.</td>
                 <td>
                     <strong>Escenario 1: Acceso exitoso al historial médico</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado en el sistema,<br>
-                    <strong>Cuando</strong> navega a la sección "Historial Médico" de su familiar,<br>
-                    <strong>Entonces</strong> puede ver diagnósticos actuales, evolución de salud y últimas actualizaciones,<br>
-                    <strong>Y</strong> la información está organizada cronológicamente,<br>
-                    <strong>Y</strong> puede filtrar por fechas o tipos de reportes,<br>
-                    <strong>Y</strong> toda la información es legible y está actualizada.<br><br>
+                    <strong>Dado que</strong> un familiar está autenticado,<br>
+                    <strong>Cuando</strong> navega a la sección "Historial Médico",<br>
+                    <strong>Entonces</strong> ve diagnósticos, evolución y actualizaciones, organizados cronológicamente y filtrables.<br><br>
                     <strong>Escenario 2: Sin permisos para acceder a reportes</strong><br>
-                    <strong>Dado que</strong> un usuario está intentando acceder a historial médico,<br>
+                    <strong>Dado que</strong> un usuario intenta acceder al historial médico,<br>
                     <strong>Cuando</strong> no tiene los permisos necesarios,<br>
-                    <strong>Entonces</strong> se muestra un mensaje claro sobre restricciones de acceso,<br>
-                    <strong>Y</strong> se proporciona información sobre cómo obtener permisos,<br>
-                    <strong>Y</strong> puede contactar al administrador para resolver el acceso.
+                    <strong>Entonces</strong> se muestra un mensaje de restricción e información para obtener permisos.
                 </td>
             </tr>
             <tr>
@@ -216,18 +175,13 @@
                 <td>Como familiar de un adulto mayor quiero consultar la agenda de citas médicas de mi familiar para estar informado sobre sus próximos tratamientos.</td>
                 <td>
                     <strong>Escenario 1: Visualización exitosa de citas programadas</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado en el sistema,<br>
-                    <strong>Cuando</strong> accede a la agenda de citas de su familiar,<br>
-                    <strong>Entonces</strong> puede ver todas las citas programadas con fecha, hora, médico y tipo de consulta,<br>
-                    <strong>Y</strong> puede filtrar por rangos de fechas,<br>
-                    <strong>Y</strong> recibe indicaciones claras sobre próximas citas importantes,<br>
-                    <strong>Y</strong> puede exportar o imprimir la agenda si es necesario.<br><br>
+                    <strong>Dado que</strong> un familiar está autenticado,<br>
+                    <strong>Cuando</strong> accede a la agenda de citas,<br>
+                    <strong>Entonces</strong> ve todas las citas programadas (fecha, hora, médico, tipo) y puede filtrar por fechas.<br><br>
                     <strong>Escenario 2: No hay citas programadas</strong><br>
-                    <strong>Dado que</strong> un familiar está consultando la agenda de citas,<br>
-                    <strong>Cuando</strong> no hay citas programadas para su familiar,<br>
-                    <strong>Entonces</strong> se muestra un mensaje informativo indicando que no hay citas,<br>
-                    <strong>Y</strong> se proporciona información sobre cómo programar nuevas citas,<br>
-                    <strong>Y</strong> puede contactar al personal médico si es necesario.
+                    <strong>Dado que</strong> un familiar consulta la agenda,<br>
+                    <strong>Cuando</strong> no hay citas programadas,
+                    <strong>Entonces</strong> se muestra un mensaje informativo indicando que no hay citas y cómo programar.
                 </td>
             </tr>
             <tr>
@@ -236,17 +190,13 @@
                 <td>Como familiar de un adulto mayor quiero ver la información de mi familiar para estar seguro de que esté correcto o actualizado.</td>
                 <td>
                     <strong>Escenario 1: Visualización exitosa de información personal</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado en el sistema,<br>
-                    <strong>Cuando</strong> accede al perfil de información personal de su familiar,<br>
-                    <strong>Entonces</strong> puede ver datos personales actualizados: nombre, edad, contacto de emergencia, alergias, medicamentos actuales,<br>
-                    <strong>Y</strong> puede identificar fácilmente si algún dato requiere actualización,<br>
-                    <strong>Y</strong> tiene acceso a opciones para solicitar modificaciones.<br><br>
+                    <strong>Dado que</strong> un familiar está autenticado,<br>
+                    <strong>Cuando</strong> accede al perfil de información personal,<br>
+                    <strong>Entonces</strong> ve datos actualizados (nombre, edad, contacto emergencia, alergias, etc.) y tiene opciones para solicitar modificaciones.<br><br>
                     <strong>Escenario 2: Información desactualizada detectada</strong><br>
-                    <strong>Dado que</strong> un familiar está revisando información personal,<br>
+                    <strong>Dado que</strong> un familiar revisa información personal,<br>
                     <strong>Cuando</strong> identifica información que necesita actualización,<br>
-                    <strong>Entonces</strong> puede marcar campos como "requiere actualización",<br>
-                    <strong>Y</strong> puede enviar solicitudes de cambio con justificación,<br>
-                    <strong>Y</strong> recibe confirmación de que la solicitud fue recibida.
+                    <strong>Entonces</strong> puede marcar campos y enviar solicitudes de cambio con justificación.
                 </td>
             </tr>
             <tr>
@@ -255,18 +205,13 @@
                 <td>Como familiar de un adulto mayor quiero ver fotos de las actividades diarias de mi familiar para sentirme conectado con su día a día y verificar su participación social.</td>
                 <td>
                     <strong>Escenario 1: Acceso exitoso a galería de actividades</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado en el sistema,<br>
-                    <strong>Cuando</strong> accede a la galería de fotos de su familiar,<br>
-                    <strong>Entonces</strong> puede ver fotos organizadas por fecha y tipo de actividad,<br>
-                    <strong>Y</strong> cada foto incluye descripción de la actividad realizada,<br>
-                    <strong>Y</strong> puede filtrar por fechas o tipos de actividades,<br>
-                    <strong>Y</strong> las fotos se cargan correctamente y son de buena calidad.<br><br>
+                    <strong>Dado que</strong> un familiar está autenticado,<br>
+                    <strong>Cuando</strong> accede a la galería de fotos,<br>
+                    <strong>Entonces</strong> ve fotos organizadas por fecha/actividad, con descripción, y puede filtrar.<br><br>
                     <strong>Escenario 2: Sin actividades recientes registradas</strong><br>
-                    <strong>Dado que</strong> un familiar está consultando la galería,<br>
+                    <strong>Dado que</strong> un familiar consulta la galería,<br>
                     <strong>Cuando</strong> no hay fotos recientes de actividades,<br>
-                    <strong>Entonces</strong> se muestra un mensaje informativo sobre la situación,<br>
-                    <strong>Y</strong> se proporciona información sobre la frecuencia de actualización de fotos,<br>
-                    <strong>Y</strong> puede contactar al personal para consultas específicas.
+                    <strong>Entonces</strong> se muestra un mensaje informativo y la frecuencia de actualización.
                 </td>
             </tr>
         </tbody>
@@ -283,19 +228,13 @@
                 <td>Como administrador de casa de reposo quiero crear y mantener perfiles completos de cada residente para centralizar toda su información personal y médica.</td>
                 <td>
                     <strong>Escenario 1: Creación exitosa de perfil de residente</strong><br>
-                    <strong>Dado que</strong> un administrador está autenticado en el sistema,<br>
-                    <strong>Cuando</strong> accede al formulario de registro de nuevo residente,<br>
-                    <strong>Y</strong> completa toda la información requerida (datos personales, médicos, contactos de emergencia),<br>
-                    <strong>Entonces</strong> el perfil se crea exitosamente,<br>
-                    <strong>Y</strong> se genera un ID único para el residente,<br>
-                    <strong>Y</strong> toda la información queda almacenada y accesible para consultas futuras.<br><br>
+                    <strong>Dado que</strong> un administrador está autenticado,<br>
+                    <strong>Cuando</strong> completa el formulario de registro con toda la información requerida,<br>
+                    <strong>Entonces</strong> el perfil se crea exitosamente y se genera un ID único.<br><br>
                     <strong>Escenario 2: Error en datos requeridos para registro</strong><br>
-                    <strong>Dado que</strong> un administrador está creando un perfil de residente,<br>
-                    <strong>Cuando</strong> falta información crítica requerida,<br>
-                    <strong>Y</strong> intenta guardar el perfil incompleto,<br>
-                    <strong>Entonces</strong> se muestran mensajes específicos de campos faltantes,<br>
-                    <strong>Y</strong> se mantiene la información ya ingresada,<br>
-                    <strong>Y</strong> puede completar los datos faltantes y continuar.
+                    <strong>Dado que</strong> un administrador está creando un perfil,<br>
+                    <strong>Cuando</strong> falta información crítica requerida e intenta guardar,<br>
+                    <strong>Entonces</strong> se muestran mensajes específicos de campos faltantes y se mantiene la data ingresada.
                 </td>
             </tr>
             <tr>
@@ -306,16 +245,11 @@
                     <strong>Escenario 1: Gestión exitosa de historial médico completo</strong><br>
                     <strong>Dado que</strong> un administrador tiene permisos médicos,<br>
                     <strong>Cuando</strong> accede al historial médico de un residente,<br>
-                    <strong>Entonces</strong> puede ver, agregar y actualizar información médica completa,<br>
-                    <strong>Y</strong> puede registrar nuevos diagnósticos, tratamientos y evoluciones,<br>
-                    <strong>Y</strong> toda la información queda registrada con fecha, hora y responsable,<br>
-                    <strong>Y</strong> puede generar reportes médicos para autoridades sanitarias.<br><br>
+                    <strong>Entonces</strong> puede ver, agregar y actualizar información (diagnósticos, tratamientos), quedando registrado con fecha y responsable.<br><br>
                     <strong>Escenario 2: Acceso sin permisos médicos suficientes</strong><br>
-                    <strong>Dado que</strong> un usuario está intentando acceder a historial médico institucional,<br>
+                    <strong>Dado que</strong> un usuario intenta acceder al historial institucional,<br>
                     <strong>Cuando</strong> no posee los permisos necesarios,<br>
-                    <strong>Entonces</strong> se restringe el acceso con mensaje explicativo,<br>
-                    <strong>Y</strong> se proporciona información sobre cómo obtener permisos apropiados,<br>
-                    <strong>Y</strong> puede acceder solo a información no confidencial si corresponde.
+                    <strong>Entonces</strong> se restringe el acceso con un mensaje explicativo.
                 </td>
             </tr>
             <tr>
@@ -324,18 +258,13 @@
                 <td>Como administrador quiero controlar la administración de medicamentos de todos los residentes para garantizar cumplimiento de tratamientos y evitar errores médicos.</td>
                 <td>
                     <strong>Escenario 1: Control exitoso de administración de medicamentos</strong><br>
-                    <strong>Dado que</strong> un administrador se encuentra en el módulo de medicamentos,<br>
-                    <strong>Cuando</strong> registra la administración de medicamentos a residentes,<br>
-                    <strong>Entonces</strong> puede marcar medicamentos como administrados con hora exacta,<br>
-                    <strong>Y</strong> puede registrar observaciones sobre efectos o reacciones,<br>
-                    <strong>Y</strong> el sistema alerta sobre próximas dosis programadas,<br>
-                    <strong>Y</strong> mantiene historial completo de administración por residente.<br><br>
+                    <strong>Dado que</strong> un administrador está en el módulo de medicamentos,<br>
+                    <strong>Cuando</strong> registra la administración de medicamentos,<br>
+                    <strong>Entonces</strong> puede marcarla con hora exacta, registrar observaciones y el sistema alerta sobre próximas dosis.<br><br>
                     <strong>Escenario 2: Medicamento no disponible en inventario</strong><br>
-                    <strong>Dado que</strong> un administrador está intentando registrar la administración de medicamento,<br>
+                    <strong>Dado que</strong> un administrador intenta registrar una administración,<br>
                     <strong>Cuando</strong> el medicamento no está disponible en inventario,<br>
-                    <strong>Entonces</strong> el sistema muestra alerta de falta de stock,<br>
-                    <strong>Y</strong> proporciona opciones para contactar a farmacia o proveedor,<br>
-                    <strong>Y</strong> permite registrar la situación para seguimiento.
+                    <strong>Entonces</strong> el sistema muestra alerta de falta de stock y proporciona opciones de contacto.
                 </td>
             </tr>
             <tr>
@@ -344,18 +273,13 @@
                 <td>Como administrador quiero controlar y programar las visitas familiares a los residentes para mantener seguridad, orden y cumplir con los horarios establecidos.</td>
                 <td>
                     <strong>Escenario 1: Programación exitosa de visita familiar</strong><br>
-                    <strong>Dado que</strong> un administrador se encuentra en el módulo de visitas,<br>
-                    <strong>Cuando</strong> programa una nueva visita familiar,<br>
-                    <strong>Entonces</strong> puede asignar fecha, hora, visitantes y residente a visitar,<br>
-                    <strong>Y</strong> el sistema verifica disponibilidad de horarios,<br>
-                    <strong>Y</strong> genera confirmación para la familia y actualiza agenda institucional,<br>
-                    <strong>Y</strong> envía recordatorios automáticos antes de la visita.<br><br>
+                    <strong>Dado que</strong> un administrador está en el módulo de visitas,<br>
+                    <strong>Cuando</strong> programa una nueva visita (fecha, hora, visitantes, residente),<br>
+                    <strong>Entonces</strong> el sistema verifica disponibilidad, genera confirmación y envía recordatorios automáticos.<br><br>
                     <strong>Escenario 2: Conflicto de horarios en visitas</strong><br>
-                    <strong>Dado que</strong> un administrador está programando una visita familiar,<br>
+                    <strong>Dado que</strong> un administrador está programando una visita,<br>
                     <strong>Cuando</strong> el horario solicitado ya está ocupado,<br>
-                    <strong>Entonces</strong> el sistema muestra horarios alternativos disponibles,<br>
-                    <strong>Y</strong> permite reprogramar o sugerir opciones similares,<br>
-                    <strong>Y</strong> notifica a la familia sobre el cambio de horario.
+                    <strong>Entonces</strong> el sistema muestra horarios alternativos disponibles y permite reprogramar.
                 </td>
             </tr>
         </tbody>
@@ -372,17 +296,12 @@
                 <td>
                     <strong>Escenario 1: Envío exitoso de recordatorios automáticos</strong><br>
                     <strong>Dado que</strong> el sistema tiene citas médicas programadas,<br>
-                    <strong>Cuando</strong> se acerca una cita médica (24 horas antes),<br>
-                    <strong>Entonces</strong> se envía recordatorio automático a familiares vía email/SMS,<br>
-                    <strong>Y</strong> el recordatorio incluye fecha, hora, médico y tipo de consulta,<br>
-                    <strong>Y</strong> los familiares pueden confirmar asistencia o reagendar,<br>
-                    <strong>Y</strong> el sistema registra la confirmación recibida.<br><br>
+                    <strong>Cuando</strong> se acerca una cita (ej. 24 horas antes),<br>
+                    <strong>Entonces</strong> se envía recordatorio automático (email/SMS) a familiares con detalles, y pueden confirmar.<br><br>
                     <strong>Escenario 2: Falla en envío de recordatorios</strong><br>
-                    <strong>Dado que</strong> el sistema está intentando enviar recordatorios,<br>
+                    <strong>Dado que</strong> el sistema intenta enviar recordatorios,<br>
                     <strong>Cuando</strong> falla el servicio de notificaciones,<br>
-                    <strong>Entonces</strong> se registra el error en logs del sistema,<br>
-                    <strong>Y</strong> se intenta reenvío automático después de un tiempo,<br>
-                    <strong>Y</strong> se notifica al administrador sobre fallas en el sistema.
+                    <strong>Entonces</strong> se registra el error, se intenta reenvío automático y se notifica al administrador.
                 </td>
             </tr>
             <tr>
@@ -391,18 +310,13 @@
                 <td>Como familiar quiero ser notificado inmediatamente sobre cualquier cambio en la medicación de mi familiar para estar informado sobre su tratamiento médico.</td>
                 <td>
                     <strong>Escenario 1: Notificación inmediata de cambio en medicación</strong><br>
-                    <strong>Dado que</strong> ha ocurrido un cambio en la medicación de un residente,<br>
+                    <strong>Dado que</strong> ha ocurrido un cambio en la medicación,<br>
                     <strong>Cuando</strong> el médico actualiza el tratamiento farmacológico,<br>
-                    <strong>Entonces</strong> se envía notificación inmediata a familiares autorizados,<br>
-                    <strong>Y</strong> la notificación incluye detalles del cambio y justificación médica,<br>
-                    <strong>Y</strong> los familiares pueden contactar al médico para consultas,<br>
-                    <strong>Y</strong> el cambio queda registrado en el historial médico.<br><br>
+                    <strong>Entonces</strong> se envía notificación inmediata a familiares autorizados con detalles del cambio y justificación.<br><br>
                     <strong>Escenario 2: Familiar no autorizado para recibir información médica</strong><br>
-                    <strong>Dado que</strong> ha ocurrido un cambio en la medicación de un residente,<br>
-                    <strong>Cuando</strong> un familiar no está autorizado para recibir información médica,<br>
-                    <strong>Entonces</strong> no recibe notificación de cambios en medicación,<br>
-                    <strong>Y</strong> se respetan las preferencias de privacidad del residente,<br>
-                    <strong>Y</strong> solo familiares autorizados reciben las notificaciones.
+                    <strong>Dado que</strong> ha ocurrido un cambio en la medicación,<br>
+                    <strong>Cuando</strong> un familiar no está autorizado para recibir esa información,<br>
+                    <strong>Entonces</strong> no recibe la notificación, respetando las preferencias de privacidad.
                 </td>
             </tr>
             <tr>
@@ -413,16 +327,11 @@
                     <strong>Escenario 1: Recordatorio exitoso de visita programada</strong><br>
                     <strong>Dado que</strong> hay una visita familiar programada,<br>
                     <strong>Cuando</strong> faltan 2 horas para la visita,<br>
-                    <strong>Entonces</strong> se envía recordatorio automático al familiar,<br>
-                    <strong>Y</strong> el recordatorio incluye fecha, hora, nombre del residente e instrucciones de acceso,<br>
-                    <strong>Y</strong> el familiar puede confirmar asistencia o cancelar con anticipación,<br>
-                    <strong>Y</strong> el sistema actualiza el estado de la visita según la respuesta.<br><br>
+                    <strong>Entonces</strong> se envía recordatorio automático al familiar (fecha, hora, residente) y puede confirmar/cancelar.<br><br>
                     <strong>Escenario 2: Cancelación de visita por emergencia</strong><br>
                     <strong>Dado que</strong> hay una visita familiar programada,<br>
                     <strong>Cuando</strong> ocurre una emergencia que requiere cancelar la visita,<br>
-                    <strong>Entonces</strong> se envía notificación inmediata de cancelación,<br>
-                    <strong>Y</strong> se proporciona explicación de la situación,<br>
-                    <strong>Y</strong> se ofrecen alternativas de reprogramación.
+                    <strong>Entonces</strong> se envía notificación inmediata de cancelación con explicación y alternativas.
                 </td>
             </tr>
             <tr>
@@ -432,17 +341,12 @@
                 <td>
                     <strong>Escenario 1: Notificación exitosa de actualización de datos</strong><br>
                     <strong>Dado que</strong> ha ocurrido una actualización en los datos personales del residente,<br>
-                    <strong>Cuando</strong> se modifica información como contacto de emergencia, estado de salud, o preferencias,<br>
-                    <strong>Entonces</strong> se envía notificación automática a familiares autorizados,<br>
-                    <strong>Y</strong> la notificación especifica qué información fue actualizada,<br>
-                    <strong>Y</strong> incluye fecha y responsable de la actualización,<br>
-                    <strong>Y</strong> los familiares pueden revisar los cambios en el sistema.<br><br>
+                    <strong>Cuando</strong> se modifica información (ej. contacto de emergencia, estado de salud),<br>
+                    <strong>Entonces</strong> se envía notificación a familiares autorizados especificando qué información fue actualizada.<br><br>
                     <strong>Escenario 2: Actualización sin autorización para notificar</strong><br>
-                    <strong>Dado que</strong> ha ocurrido una actualización en los datos personales,<br>
-                    <strong>Cuando</strong> el familiar no tiene autorización para recibir cierto tipo de información,<br>
-                    <strong>Entonces</strong> no recibe notificación sobre datos restringidos,<br>
-                    <strong>Y</strong> solo recibe información sobre cambios que está autorizado a conocer,<br>
-                    <strong>Y</strong> se respetan las políticas de privacidad establecidas.
+                    <strong>Dado que</strong> ha ocurrido una actualización de datos,<br>
+                    <strong>Cuando</strong> el familiar no tiene autorización para recibir ese tipo de información,<br>
+                    <strong>Entonces</strong> no recibe notificación sobre datos restringidos, respetando la privacidad.
                 </td>
             </tr>
         </tbody>
@@ -459,17 +363,12 @@
                 <td>
                     <strong>Escenario 1: Envío exitoso de pregunta sobre cuidados</strong><br>
                     <strong>Dado que</strong> un familiar está autenticado en el sistema de comunicación,<br>
-                    <strong>Cuando</strong> redacta una pregunta específica sobre la rutina de cuidados de su familiar,<br>
-                    <strong>Entonces</strong> puede enviar la consulta al personal de cuidadores asignado,<br>
-                    <strong>Y</strong> recibe confirmación de que la pregunta fue enviada,<br>
-                    <strong>Y</strong> el sistema establece un tiempo estimado de respuesta,<br>
-                    <strong>Y</strong> puede hacer seguimiento del estado de su consulta.<br><br>
+                    <strong>Cuando</strong> redacta y envía una pregunta específica sobre cuidados,<br>
+                    <strong>Entonces</strong> la consulta se envía al personal asignado, recibe confirmación y tiempo estimado de respuesta.<br><br>
                     <strong>Escenario 2: Canal de comunicación no disponible</strong><br>
-                    <strong>Dado que</strong> un familiar está intentando enviar una pregunta sobre cuidados,<br>
+                    <strong>Dado que</strong> un familiar intenta enviar una pregunta,<br>
                     <strong>Cuando</strong> el sistema de comunicación no está disponible,<br>
-                    <strong>Entonces</strong> se muestra mensaje sobre la situación temporal,<br>
-                    <strong>Y</strong> se proporcionan números de teléfono alternativos para emergencias,<br>
-                    <strong>Y</strong> se permite guardar la pregunta para envío posterior.
+                    <strong>Entonces</strong> se muestra un mensaje temporal y se proporcionan números de teléfono alternativos.
                 </td>
             </tr>
             <tr>
@@ -478,18 +377,13 @@
                 <td>Como familiar quiero solicitar ajustes específicos en el cuidado de mi familiar basados en sus preferencias o necesidades particulares.</td>
                 <td>
                     <strong>Escenario 1: Solicitud exitosa de modificación de cuidados</strong><br>
-                    <strong>Dado que</strong> un familiar tiene permisos para solicitar cambios,<br>
-                    <strong>Cuando</strong> envía una petición detallada de modificación en cuidados específicos,<br>
-                    <strong>Entonces</strong> la solicitud se registra en el sistema con número de seguimiento,<br>
-                    <strong>Y</strong> se notifica al coordinador de cuidados correspondiente,<br>
-                    <strong>Y</strong> recibe confirmación con plazos estimados de evaluación,<br>
-                    <strong>Y</strong> puede hacer seguimiento del estado de su petición.<br><br>
+                    <strong>Dado que</strong> un familiar (con permisos) solicita un cambio en cuidados,<br>
+                    <strong>Cuando</strong> envía una petición detallada,<br>
+                    <strong>Entonces</strong> la solicitud se registra con N° de seguimiento, se notifica al coordinador y recibe plazos de evaluación.<br><br>
                     <strong>Escenario 2: Solicitud que requiere aprobación médica</strong><br>
-                    <strong>Dado que</strong> un familiar está solicitando una modificación que requiere aprobación médica,<br>
+                    <strong>Dado que</strong> un familiar solicita una modificación,<br>
                     <strong>Cuando</strong> la petición involucra aspectos médicos o terapéuticos,<br>
-                    <strong>Entonces</strong> se deriva automáticamente al equipo médico,<br>
-                    <strong>Y</strong> se informa al familiar sobre el proceso de evaluación médica,<br>
-                    <strong>Y</strong> se establecen plazos específicos para respuesta médica.
+                    <strong>Entonces</strong> se deriva automáticamente al equipo médico y se informa al familiar sobre el proceso.
                 </td>
             </tr>
             <tr>
@@ -498,18 +392,13 @@
                 <td>Como familiar quiero comunicarme con el personal sobre el estado emocional y psicológico de mi familiar para asegurar su bienestar integral.</td>
                 <td>
                     <strong>Escenario 1: Comunicación exitosa sobre estado emocional</strong><br>
-                    <strong>Dado que</strong> un familiar está preocupado por el bienestar emocional de su familiar,<br>
-                    <strong>Cuando</strong> envía consulta sobre estado anímico, interacción social o adaptación,<br>
-                    <strong>Entonces</strong> puede comunicarse directamente con el equipo de psicología/trabajo social,<br>
-                    <strong>Y</strong> recibe respuesta profesional sobre la situación emocional del residente,<br>
-                    <strong>Y</strong> se le proporcionan recomendaciones para apoyo emocional,<br>
-                    <strong>Y</strong> puede programar reuniones de seguimiento si es necesario.<br><br>
+                    <strong>Dado que</strong> un familiar está preocupado por el bienestar emocional,<br>
+                    <strong>Cuando</strong> envía consulta sobre estado anímico o adaptación,<br>
+                    <strong>Entonces</strong> se comunica con psicología/trabajo social y recibe respuesta profesional y recomendaciones.<br><br>
                     <strong>Escenario 2: Situación emocional que requiere atención inmediata</strong><br>
-                    <strong>Dado que</strong> un familiar está reportando cambios emocionales significativos,<br>
-                    <strong>Cuando</strong> la situación indica posible crisis emocional o depresión,<br>
-                    <strong>Entonces</strong> se escalona automáticamente a atención psicológica prioritaria,<br>
-                    <strong>Y</strong> se notifica al equipo médico y de trabajo social,<br>
-                    <strong>Y</strong> se contacta al familiar para coordinar intervención.
+                    <strong>Dado que</strong> un familiar reporta cambios emocionales significativos,<br>
+                    <strong>Cuando</strong> la situación indica posible crisis emocional,<br>
+                    <strong>Entonces</strong> se escalona a atención psicológica prioritaria y se coordina intervención con el familiar.
                 </td>
             </tr>
             <tr>
@@ -518,18 +407,13 @@
                 <td>Como familiar quiero coordinar con el personal la organización de eventos especiales o celebraciones para mi familiar dentro de las instalaciones.</td>
                 <td>
                     <strong>Escenario 1: Coordinación exitosa de evento familiar</strong><br>
-                    <strong>Dado que</strong> un familiar está planificando un evento especial para su familiar,<br>
-                    <strong>Cuando</strong> solicita coordinación para celebración de cumpleaños, aniversario u ocasión especial,<br>
-                    <strong>Entonces</strong> puede especificar fecha, número de invitados, requerimientos especiales,<br>
-                    <strong>Y</strong> el personal evalúa viabilidad según protocolos institucionales,<br>
-                    <strong>Y</strong> se coordinan espacios, horarios y recursos necesarios,<br>
-                    <strong>Y</strong> recibe confirmación con detalles finales del evento.<br><br>
+                    <strong>Dado que</strong> un familiar planifica un evento especial (ej. cumpleaños),<br>
+                    <strong>Cuando</strong> solicita coordinación especificando fecha, invitados y requerimientos,<br>
+                    <strong>Entonces</strong> el personal evalúa viabilidad, coordina espacios/recursos y envía confirmación.<br><br>
                     <strong>Escenario 2: Evento que no cumple con protocolos institucionales</strong><br>
-                    <strong>Dado que</strong> un familiar está solicitando un evento que no cumple protocolos,<br>
+                    <strong>Dado que</strong> un familiar solicita un evento,<br>
                     <strong>Cuando</strong> la solicitud involucra aspectos no permitidos por políticas institucionales,<br>
-                    <strong>Entonces</strong> se explican las limitaciones y razones institucionales,<br>
-                    <strong>Y</strong> se ofrecen alternativas que cumplan con protocolos,<br>
-                    <strong>Y</strong> se proporcionan opciones modificadas para el evento.
+                    <strong>Entonces</strong> se explican las limitaciones y se ofrecen alternativas que cumplan con protocolos.
                 </td>
             </tr>
         </tbody>
@@ -545,18 +429,13 @@
                 <td>Como administrador quiero registrar todos los medicamentos que ingresan al inventario con sus datos completos para mantener un catálogo actualizado.</td>
                 <td>
                     <strong>Escenario 1: Registro exitoso de medicamentos</strong><br>
-                    <strong>Dado que</strong> un administrador se encuentra en el módulo de inventario de medicamentos,<br>
-                    <strong>Cuando</strong> registra un nuevo medicamento con todos los datos requeridos (nombre, laboratorio, lote, fecha de vencimiento, cantidad),<br>
-                    <strong>Entonces</strong> el medicamento se añade correctamente al inventario,<br>
-                    <strong>Y</strong> se genera un código de identificación único,<br>
-                    <strong>Y</strong> se actualiza el stock total disponible,<br>
-                    <strong>Y</strong> el sistema registra fecha y responsable del ingreso.<br><br>
+                    <strong>Dado que</strong> un administrador está en el módulo de inventario,<br>
+                    <strong>Cuando</strong> registra un nuevo medicamento con datos requeridos (nombre, lote, vencimiento, cantidad),<br>
+                    <strong>Entonces</strong> se añade al inventario, se genera ID, se actualiza stock y se registra el ingreso (fecha, responsable).<br><br>
                     <strong>Escenario 2: Medicamento duplicado en inventario</strong><br>
                     <strong>Dado que</strong> un administrador está registrando un medicamento,<br>
                     <strong>Cuando</strong> intenta ingresar un medicamento que ya existe con el mismo lote,<br>
-                    <strong>Entonces</strong> el sistema detecta la duplicación y muestra alerta,<br>
-                    <strong>Y</strong> permite actualizar la cantidad del lote existente en lugar de crear un duplicado,<br>
-                    <strong>Y</strong> mantiene la integridad de datos en el inventario.
+                    <strong>Entonces</strong> el sistema detecta la duplicación, muestra alerta y permite actualizar la cantidad del lote existente.
                 </td>
             </tr>
             <tr>
@@ -567,16 +446,11 @@
                     <strong>Escenario 1: Generación de alerta por medicamentos próximos a vencer</strong><br>
                     <strong>Dado que</strong> hay medicamentos en inventario próximos a vencer,<br>
                     <strong>Cuando</strong> faltan 30 días para la fecha de vencimiento,<br>
-                    <strong>Entonces</strong> se genera alerta automática al administrador de farmacia,<br>
-                    <strong>Y</strong> la alerta incluye lista de medicamentos, cantidades y fechas exactas,<br>
-                    <strong>Y</strong> se sugieren acciones como uso prioritario o devolución a proveedor,<br>
-                    <strong>Y</strong> se programa seguimiento semanal hasta resolución.<br><br>
+                    <strong>Entonces</strong> se genera alerta automática al admin (lista, cantidades, fechas) y se sugieren acciones.<br><br>
                     <strong>Escenario 2: Medicamentos ya vencidos en inventario</strong><br>
                     <strong>Dado que</strong> hay medicamentos que han superado su fecha de vencimiento,<br>
                     <strong>Cuando</strong> el sistema detecta medicamentos vencidos,<br>
-                    <strong>Entonces</strong> se bloquea automáticamente su uso en el sistema,<br>
-                    <strong>Y</strong> se genera alerta crítica para remoción inmediata,<br>
-                    <strong>Y</strong> se registra como pérdida en reportes de inventario.
+                    <strong>Entonces</strong> se bloquea automáticamente su uso, se genera alerta crítica y se registra la pérdida.
                 </td>
             </tr>
             <tr>
@@ -585,18 +459,13 @@
                 <td>Como administrador quiero eliminar medicamentos del inventario de manera controlada para mantener la precisión del stock y cumplir con protocolos de disposición.</td>
                 <td>
                     <strong>Escenario 1: Eliminación controlada de medicamento</strong><br>
-                    <strong>Dado que</strong> un administrador necesita eliminar un medicamento del inventario,<br>
-                    <strong>Cuando</strong> selecciona el medicamento y especifica la razón (vencido, dañado, usado),<br>
-                    <strong>Entonces</strong> debe proporcionar justificación y autorización apropiada,<br>
-                    <strong>Y</strong> el sistema registra la eliminación con fecha, cantidad y responsable,<br>
-                    <strong>Y</strong> se actualiza automáticamente el stock disponible,<br>
-                    <strong>Y</strong> se genera reporte de eliminación para auditoría.<br><br>
+                    <strong>Dado que</strong> un administrador necesita eliminar un medicamento,<br>
+                    <strong>Cuando</strong> selecciona el medicamento, especifica la razón (vencido, dañado, usado) y justifica,<br>
+                    <strong>Entonces</strong> el sistema registra la eliminación (fecha, cantidad, responsable), actualiza stock y genera reporte.<br><br>
                     <strong>Escenario 2: Intento de eliminación sin autorización</strong><br>
-                    <strong>Dado que</strong> un usuario está intentando eliminar un medicamento sin permisos suficientes,<br>
-                    <strong>Cuando</strong> no posee los permisos necesarios para eliminación,<br>
-                    <strong>Entonces</strong> el sistema nega el acceso con mensaje explicativo,<br>
-                    <strong>Y</strong> se registra el intento en logs de seguridad,<br>
-                    <strong>Y</strong> se notifica al administrador sobre el intento no autorizado.
+                    <strong>Dado que</strong> un usuario intenta eliminar un medicamento,<br>
+                    <strong>Cuando</strong> no posee los permisos necesarios,<br>
+                    <strong>Entonces</strong> el sistema niega el acceso, registra el intento y notifica al administrador.
                 </td>
             </tr>
             <tr>
@@ -605,18 +474,13 @@
                 <td>Como administrador quiero filtrar y buscar medicamentos en el inventario para encontrar rápidamente información específica y generar reportes personalizados.</td>
                 <td>
                     <strong>Escenario 1: Búsqueda exitosa de medicamentos</strong><br>
-                    <strong>Dado que</strong> un administrador se encuentra en el módulo de inventario,<br>
-                    <strong>Cuando</strong> utiliza filtros de búsqueda por nombre, laboratorio, fecha de vencimiento o categoría,<br>
-                    <strong>Entonces</strong> obtiene resultados precisos que coinciden con los criterios,<br>
-                    <strong>Y</strong> puede ordenar resultados por diferentes campos,<br>
-                    <strong>Y</strong> puede exportar los resultados filtrados para reportes,<br>
-                    <strong>Y</strong> la búsqueda es rápida y eficiente.<br><br>
+                    <strong>Dado que</strong> un administrador está en el módulo de inventario,<br>
+                    <strong>Cuando</strong> utiliza filtros de búsqueda (nombre, laboratorio, vencimiento, categoría),<br>
+                    <strong>Entonces</strong> obtiene resultados precisos, ordenables y puede exportarlos.<br><br>
                     <strong>Escenario 2: Búsqueda sin resultados</strong><br>
-                    <strong>Dado que</strong> un administrador está buscando un medicamento específico,<br>
-                    <strong>Cuando</strong> los criterios de búsqueda no coinciden con ningún medicamento en inventario,<br>
-                    <strong>Entonces</strong> se muestra un mensaje claro de "sin resultados",<br>
-                    <strong>Y</strong> se sugieren búsquedas alternativas o similares,<br>
-                    <strong>Y</strong> se mantienen los filtros aplicados para fácil modificación.
+                    <strong>Dado que</strong> un administrador está buscando un medicamento,<br>
+                    <strong>Cuando</strong> los criterios de búsqueda no coinciden,<br>
+                    <strong>Entonces</strong> se muestra un mensaje "sin resultados" y se sugieren búsquedas alternativas.
                 </td>
             </tr>
             <tr>
@@ -625,18 +489,13 @@
                 <td>Como administrador quiero proporcionar información detallada sobre medicamentos al personal para asegurar administración segura y correcta.</td>
                 <td>
                     <strong>Escenario 1: Acceso exitoso a información detallada de medicamentos</strong><br>
-                    <strong>Dado que</strong> personal autorizado está consultando información de medicamento,<br>
-                    <strong>Cuando</strong> accede a detalles de medicamento específico,<br>
-                    <strong>Entonces</strong> puede ver información completa: dosificación, contraindicaciones, efectos secundarios, interacciones,<br>
-                    <strong>Y</strong> la información está actualizada y es confiable,<br>
-                    <strong>Y</strong> puede acceder a protocolos de administración específicos,<br>
-                    <strong>Y</strong> tiene enlaces a recursos adicionales si necesita más información.<br><br>
+                    <strong>Dado que</strong> personal autorizado está consultando información,<br>
+                    <strong>Cuando</strong> accede a detalles de un medicamento específico,<br>
+                    <strong>Entonces</strong> ve información completa (dosificación, contraindicaciones, etc.) y protocolos de administración.<br><br>
                     <strong>Escenario 2: Medicamento con alertas especiales</strong><br>
-                    <strong>Dado que</strong> personal está consultando un medicamento con requerimientos especiales,<br>
-                    <strong>Cuando</strong> el medicamento tiene alertas de seguridad o administración especial,<br>
-                    <strong>Entonces</strong> se muestran prominentemente todas las alertas y precauciones,<br>
-                    <strong>Y</strong> se requiere confirmación de lectura antes de proceder,<br>
-                    <strong>Y</strong> se proporcionan protocolos específicos de manejo.
+                    <strong>Dado que</strong> personal consulta un medicamento,<br>
+                    <strong>Cuando</strong> este tiene alertas de seguridad o administración especial,<br>
+                    <strong>Entonces</strong> se muestran las alertas prominentemente y se requiere confirmación de lectura.
                 </td>
             </tr>
         </tbody>
@@ -652,18 +511,13 @@
                 <td>Como administrador quiero registrar y mantener los perfiles completos del personal para tener información actualizada de todos los empleados.</td>
                 <td>
                     <strong>Escenario 1: Registro exitoso de empleado</strong><br>
-                    <strong>Dado que</strong> un administrador de RRHH está registrando un nuevo empleado,<br>
-                    <strong>Cuando</strong> completa información personal, profesional, contactos de emergencia y rol asignado,<br>
-                    <strong>Entonces</strong> el perfil se crea exitosamente en el sistema,<br>
-                    <strong>Y</strong> se genera ID de empleado único,<br>
-                    <strong>Y</strong> se asignan permisos según el rol especificado,<br>
-                    <strong>Y</strong> el empleado recibe credenciales de acceso al sistema.<br><br>
+                    <strong>Dado que</strong> un admin de RRHH registra un nuevo empleado,<br>
+                    <strong>Cuando</strong> completa la información requerida (personal, profesional, rol, contacto),<br>
+                    <strong>Entonces</strong> el perfil se crea, se genera ID de empleado y se asignan permisos según el rol.<br><br>
                     <strong>Escenario 2: Información incompleta de empleado</strong><br>
-                    <strong>Dado que</strong> un administrador está registrando un empleado con información faltante,<br>
-                    <strong>Cuando</strong> faltan datos críticos como certificaciones requeridas o contactos de emergencia,<br>
-                    <strong>Entonces</strong> el sistema indica específicamente qué información falta,<br>
-                    <strong>Y</strong> permite guardar como borrador para completar posteriormente,<br>
-                    <strong>Y</strong> no activa permisos hasta que toda la información requerida esté completa.
+                    <strong>Dado que</strong> un admin registra un empleado,<br>
+                    <strong>Cuando</strong> faltan datos críticos (ej. certificaciones requeridas),<br>
+                    <strong>Entonces</strong> el sistema indica qué información falta y no activa permisos hasta que esté completa.
                 </td>
             </tr>
             <tr>
@@ -672,18 +526,13 @@
                 <td>Como administrador quiero dar de baja empleados del sistema para mantener registros actualizados y gestionar finalizaciones de contratos.</td>
                 <td>
                     <strong>Escenario 1: Proceso exitoso de baja de empleado</strong><br>
-                    <strong>Dado que</strong> un administrador está procesando la baja de un empleado,<br>
-                    <strong>Cuando</strong> especifica fecha de terminación, motivo y procedimientos de entrega,<br>
-                    <strong>Entonces</strong> se desactivan automáticamente todos los accesos al sistema,<br>
-                    <strong>Y</strong> se genera un reporte de finalización con tareas pendientes,<br>
-                    <strong>Y</strong> se actualiza la estructura organizacional,<br>
-                    <strong>Y</strong> se notifica a supervisores y equipos afectados.<br><br>
+                    <strong>Dado que</strong> un admin procesa la baja de un empleado,<br>
+                    <strong>Cuando</strong> especifica fecha de terminación y motivo,<br>
+                    <strong>Entonces</strong> se desactivan accesos, se genera reporte de finalización y se notifica a supervisores.<br><br>
                     <strong>Escenario 2: Empleado con responsabilidades activas</strong><br>
-                    <strong>Dado que</strong> un administrador está intentando dar de baja a un empleado con responsabilidades activas,<br>
+                    <strong>Dado que</strong> un admin intenta dar de baja a un empleado,<br>
                     <strong>Cuando</strong> el empleado tiene residentes asignados o tareas críticas pendientes,<br>
-                    <strong>Entonces</strong> el sistema alerta sobre responsabilidades que requieren reasignación,<br>
-                    <strong>Y</strong> proporciona una lista de tareas y residentes que deben transferirse,<br>
-                    <strong>Y</strong> requiere reasignación completa antes de procesar la baja.
+                    <strong>Entonces</strong> el sistema alerta sobre responsabilidades y requiere reasignación completa antes de procesar.
                 </td>
             </tr>
             <tr>
@@ -692,18 +541,13 @@
                 <td>Como administrador quiero filtrar y buscar empleados según diferentes criterios para encontrar rápidamente personal específico.</td>
                 <td>
                     <strong>Escenario 1: Búsqueda exitosa de empleados</strong><br>
-                    <strong>Dado que</strong> un administrador se encuentra en el módulo de gestión de personal,<br>
-                    <strong>Cuando</strong> utiliza filtros por departamento, rol, turno, o estado de empleo,<br>
-                    <strong>Entonces</strong> obtiene una lista precisa de empleados que coinciden con criterios,<br>
-                    <strong>Y</strong> puede ver información básica de cada empleado en los resultados,<br>
-                    <strong>Y</strong> puede acceder a perfiles completos desde los resultados,<br>
-                    <strong>Y</strong> puede exportar la lista filtrada para reportes.<br><br>
+                    <strong>Dado que</strong> un admin se encuentra en gestión de personal,<br>
+                    <strong>Cuando</strong> utiliza filtros (departamento, rol, turno, estado),<br>
+                    <strong>Entonces</strong> obtiene una lista precisa de empleados y puede exportarla.<br><br>
                     <strong>Escenario 2: Filtros que no retornan resultados</strong><br>
-                    <strong>Dado que</strong> un administrador está aplicando filtros específicos,<br>
-                    <strong>Cuando</strong> la combinación de filtros no coincide con ningún empleado,<br>
-                    <strong>Entonces</strong> se muestra un mensaje claro indicando ausencia de resultados,<br>
-                    <strong>Y</strong> se sugiere modificar criterios de búsqueda,<br>
-                    <strong>Y</strong> se mantienen los filtros aplicados para fácil modificación.
+                    <strong>Dado que</strong> un admin aplica filtros específicos,<br>
+                    <strong>Cuando</strong> la combinación de filtros no coincide,<br>
+                    <strong>Entonces</strong> se muestra un mensaje "sin resultados" y se sugiere modificar criterios.
                 </td>
             </tr>
             <tr>
@@ -712,18 +556,13 @@
                 <td>Como administrador quiero controlar las horas extra trabajadas por el personal para gestionar costos laborales y cumplir con regulaciones de trabajo.</td>
                 <td>
                     <strong>Escenario 1: Registro exitoso de horas extra</strong><br>
-                    <strong>Dado que</strong> un administrador está registrando horas extra de empleado,<br>
-                    <strong>Cuando</strong> especifica empleado, fecha, horas trabajadas y justificación,<br>
-                    <strong>Entonces</strong> las horas se registran correctamente en el sistema,<br>
-                    <strong>Y</strong> se calculan automáticamente los montos según tarifas establecidas,<br>
-                    <strong>Y</strong> se actualiza el reporte mensual de horas extra,<br>
-                    <strong>Y</strong> se notifica al empleado sobre el registro.<br><br>
+                    <strong>Dado que</strong> un admin registra horas extra,<br>
+                    <strong>Cuando</strong> especifica empleado, fecha, horas y justificación,<br>
+                    <strong>Entonces</strong> las horas se registran, se calculan montos según tarifas y se notifica al empleado.<br><br>
                     <strong>Escenario 2: Horas extra que exceden límites permitidos</strong><br>
-                    <strong>Dado que</strong> un administrador está registrando horas extra que exceden límites legales,<br>
-                    <strong>Cuando</strong> las horas superan los máximos permitidos por regulaciones laborales,<br>
-                    <strong>Entonces</strong> el sistema muestra alerta sobre violación de límites,<br>
-                    <strong>Y</strong> requiere autorización especial y justificación,<br>
-                    <strong>Y</strong> se genera reporte para revisión de RRHH.
+                    <strong>Dado que</strong> un admin registra horas extra,<br>
+                    <strong>Cuando</strong> las horas superan los máximos permitidos por regulaciones,<br>
+                    <strong>Entonces</strong> el sistema muestra alerta sobre violación de límites y requiere autorización especial.
                 </td>
             </tr>
         </tbody>
@@ -739,18 +578,13 @@
                 <td>Como administrador quiero configurar los horarios de atención y servicios para informar claramente a familias sobre disponibilidad.</td>
                 <td>
                     <strong>Escenario 1: Configuración exitosa de horarios</strong><br>
-                    <strong>Dado que</strong> un administrador está configurando horarios de atención,<br>
-                    <strong>Cuando</strong> establece horarios por servicio, día de semana y disponibilidad de personal,<br>
-                    <strong>Entonces</strong> los horarios se actualizan en toda la plataforma,<br>
-                    <strong>Y</strong> las familias pueden ver horarios actualizados al programar visitas o servicios,<br>
-                    <strong>Y</strong> se generan calendarios de disponibilidad automáticamente,<br>
-                    <strong>Y</strong> se sincroniza con sistemas de programación de citas.<br><br>
+                    <strong>Dado que</strong> un admin configura horarios de atención,<br>
+                    <strong>Cuando</strong> establece horarios por servicio, día y disponibilidad,<br>
+                    <strong>Entonces</strong> los horarios se actualizan en la plataforma, las familias los ven y se sincronizan con citas.<br><br>
                     <strong>Escenario 2: Cambio de horarios por emergencia</strong><br>
-                    <strong>Dado que</strong> un administrador está modificando horarios por situación de emergencia,<br>
+                    <strong>Dado que</strong> un admin modifica horarios por emergencia,<br>
                     <strong>Cuando</strong> debe cambiar horarios por situaciones imprevistas,<br>
-                    <strong>Entonces</strong> puede realizar cambios inmediatos con notificación automática,<br>
-                    <strong>Y</strong> todas las partes afectadas reciben notificación instantánea,<br>
-                    <strong>Y</strong> se reprograman automáticamente citas afectadas.
+                    <strong>Entonces</strong> puede realizar cambios inmediatos con notificación automática a partes afectadas.
                 </td>
             </tr>
             <tr>
@@ -759,18 +593,13 @@
                 <td>Como administrador quiero gestionar la información de contacto de la casa de reposo para que familias y autoridades tengan acceso a datos actualizados.</td>
                 <td>
                     <strong>Escenario 1: Actualización exitosa de información de contacto</strong><br>
-                    <strong>Dado que</strong> un administrador está actualizando datos de contacto institucional,<br>
-                    <strong>Cuando</strong> modifica teléfonos, emails, dirección o personas de contacto,<br>
-                    <strong>Entonces</strong> la información se actualiza inmediatamente en toda la plataforma,<br>
-                    <strong>Y</strong> se refleja en landing page, aplicaciones y documentos oficiales,<br>
-                    <strong>Y</strong> se notifica automáticamente a familias sobre cambios importantes,<br>
-                    <strong>Y</strong> se mantiene historial de cambios para auditoría.<br><br>
+                    <strong>Dado que</strong> un admin actualiza datos de contacto institucional,<br>
+                    <strong>Cuando</strong> modifica teléfonos, emails o dirección,<br>
+                    <strong>Entonces</strong> la información se actualiza en toda la plataforma (landing, apps) y se notifica a familias.<br><br>
                     <strong>Escenario 2: Información de contacto de emergencia</strong><br>
-                    <strong>Dado que</strong> hay una situación que requiere contacto de emergencia,<br>
-                    <strong>Cuando</strong> familias necesitan contactar urgentemente a la institución,<br>
-                    <strong>Entonces</strong> tienen acceso inmediato a números de emergencia 24/7,<br>
-                    <strong>Y</strong> pueden identificar fácilmente el contacto apropiado según la situación,<br>
-                    <strong>Y</strong> reciben respuesta rápida según protocolos de emergencia.
+                    <strong>Dado que</strong> hay una situación de emergencia,<br>
+                    <strong>Cuando</strong> familias necesitan contactar urgentemente,<br>
+                    <strong>Entonces</strong> tienen acceso inmediato a números de emergencia 24/7 y reciben respuesta rápida.
                 </td>
             </tr>
             <tr>
@@ -779,18 +608,13 @@
                 <td>Como administrador quiero gestionar la información del personal directivo para transparencia hacia familias y autoridades.</td>
                 <td>
                     <strong>Escenario 1: Gestión de información de personal directivo</strong><br>
-                    <strong>Dado que</strong> un administrador está actualizando información de personal directivo,<br>
-                    <strong>Cuando</strong> modifica información de directores, coordinadores y personal clave,<br>
-                    <strong>Entonces</strong> la información se presenta profesionalmente a familias y autoridades,<br>
-                    <strong>Y</strong> incluye credenciales, experiencia y áreas de responsabilidad,<br>
-                    <strong>Y</strong> se actualiza automáticamente en materiales institucionales,<br>
-                    <strong>Y</strong> mantiene información siempre actualizada y verificable.<br><br>
+                    <strong>Dado que</strong> un admin actualiza información de personal directivo,<br>
+                    <strong>Cuando</strong> modifica información de directores o coordinadores clave,<br>
+                    <strong>Entonces</strong> la info (credenciales, experiencia, rol) se presenta a familias/autoridades y se mantiene verificable.<br><br>
                     <strong>Escenario 2: Acceso a información directiva por autoridades</strong><br>
-                    <strong>Dado que</strong> autoridades sanitarias están requiriendo información del personal directivo,<br>
+                    <strong>Dado que</strong> autoridades sanitarias requieren información,<br>
                     <strong>Cuando</strong> necesitan verificar credenciales y responsabilidades del personal clave,<br>
-                    <strong>Entonces</strong> pueden acceder a información completa y actualizada,<br>
-                    <strong>Y</strong> toda la documentación está organizada y es fácilmente verificable,<br>
-                    <strong>Y</strong> se proporciona información de contacto directo cuando es apropiado.
+                    <strong>Entonces</strong> pueden acceder a la información completa y actualizada.
                 </td>
             </tr>
             <tr>
@@ -799,18 +623,13 @@
                 <td>Como administrador quiero gestionar la información histórica y reconocimientos de la casa de reposo para generar confianza y credibilidad.</td>
                 <td>
                     <strong>Escenario 1: Presentación de historia y reconocimientos institucionales</strong><br>
-                    <strong>Dado que</strong> un administrador está gestionando información histórica institucional,<br>
-                    <strong>Cuando</strong> actualiza historia, reconocimientos, certificaciones y logros,<br>
-                    <strong>Entonces</strong> la información se presenta de manera atractiva y creíble,<br>
-                    <strong>Y</strong> incluye certificaciones vigentes y reconocimientos oficiales,<br>
-                    <strong>Y</strong> genera confianza en familias evaluando los servicios,<br>
-                    <strong>Y</strong> es fácilmente accesible para consulta de interesados.<br><br>
+                    <strong>Dado que</strong> un admin gestiona información histórica,<br>
+                    <strong>Cuando</strong> actualiza historia, certificaciones y logros,<br>
+                    <strong>Entonces</strong> la información se presenta de manera creíble, incluye certificaciones vigentes y genera confianza.<br><br>
                     <strong>Escenario 2: Verificación de certificaciones por autoridades</strong><br>
-                    <strong>Dado que</strong> autoridades están verificando certificaciones institucionales,<br>
-                    <strong>Cuando</strong> requieren confirmar validez de licencias y reconocimientos,<br>
-                    <strong>Entonces</strong> pueden acceder a información verificable y actualizada,<br>
-                    <strong>Y</strong> todos los documentos incluyen números de registro y fechas de vigencia,<br>
-                    <strong>Y</strong> se proporciona contacto directo con entidades certificadoras.
+                    <strong>Dado que</strong> autoridades verifican certificaciones institucionales,<br>
+                    <strong>Cuando</strong> requieren confirmar validez de licencias,<br>
+                    <strong>Entonces</strong> pueden acceder a información verificable (N° de registro, fechas) y contactos de entidades.
                 </td>
             </tr>
         </tbody>
@@ -826,19 +645,13 @@
                 <td>Como administrador quiero saber quién tiene acceso al sistema y qué información puede ver cada usuario para proteger la privacidad de los datos.</td>
                 <td>
                     <strong>Escenario 1: Configuración exitosa de permisos de usuario</strong><br>
-                    <strong>Dado que</strong> un administrador de sistema está gestionando accesos,<br>
-                    <strong>Cuando</strong> asigna roles y permisos específicos a usuarios (familiares, personal, administradores),<br>
-                    <strong>Entonces</strong> cada usuario accede únicamente a información autorizada para su rol,<br>
-                    <strong>Y</strong> los permisos se aplican consistentemente en toda la plataforma,<br>
-                    <strong>Y</strong> se registra toda actividad de acceso para auditoría,<br>
-                    <strong>Y</strong> se pueden modificar permisos sin afectar otros aspectos del sistema.<br><br>
+                    <strong>Dado que</strong> un admin de sistema gestiona accesos,<br>
+                    <strong>Cuando</strong> asigna roles y permisos específicos a usuarios (familiares, personal, etc.),<br>
+                    <strong>Entonces</strong> cada usuario accede únicamente a la información autorizada para su rol.<br><br>
                     <strong>Escenario 2: Intento de acceso no autorizado</strong><br>
-                    <strong>Dado que</strong> un usuario está intentando acceder a información fuera de sus permisos,<br>
-                    <strong>Cuando</strong> intenta acceder a datos que no le corresponden según su rol,<br>
-                    <strong>Entonces</strong> el sistema bloquea el acceso inmediatamente,<br>
-                    <strong>Y</strong> registra el intento en logs de seguridad,<br>
-                    <strong>Y</strong> notifica al administrador sobre el intento no autorizado,<br>
-                    <strong>Y</strong> proporciona mensaje claro sobre restricciones de acceso.
+                    <strong>Dado que</strong> un usuario intenta acceder a información,<br>
+                    <strong>Cuando</strong> intenta ver datos que no le corresponden según su rol,<br>
+                    <strong>Entonces</strong> el sistema bloquea el acceso, registra el intento y notifica al admin.
                 </td>
             </tr>
             <tr>
@@ -847,19 +660,13 @@
                 <td>Como administrador quiero que toda la información sensible esté cifrada para proteger los datos personales y médicos de accesos no autorizados.</td>
                 <td>
                     <strong>Escenario 1: Cifrado exitoso de datos sensibles</strong><br>
-                    <strong>Dado que</strong> el sistema está almacenando información personal y médica,<br>
-                    <strong>Cuando</strong> se guardan datos sensibles de residentes y familias,<br>
-                    <strong>Entonces</strong> toda la información se cifra automáticamente antes del almacenamiento,<br>
-                    <strong>Y</strong> las comunicaciones entre usuario y servidor están cifradas,<br>
-                    <strong>Y</strong> solo usuarios autorizados pueden descifrar información específica,<br>
-                    <strong>Y</strong> se mantienen estándares de seguridad médica requeridos.<br><br>
+                    <strong>Dado que</strong> el sistema almacena información personal y médica,<br>
+                    <strong>Cuando</strong> se guardan datos sensibles o se comunican (red),<br>
+                    <strong>Entonces</strong> toda la información se cifra automáticamente antes del almacenamiento y durante la transmisión.<br><br>
                     <strong>Escenario 2: Intento de acceso a datos cifrados sin autorización</strong><br>
                     <strong>Dado que</strong> hay un intento de acceso directo a datos cifrados,<br>
-                    <strong>Cuando</strong> alguien intenta acceder a información sin autorización apropiada,<br>
-                    <strong>Entonces</strong> los datos permanecen completamente inaccesibles,<br>
-                    <strong>Y</strong> se registra el intento de acceso no autorizado,<br>
-                    <strong>Y</strong> se activan alertas de seguridad automáticas,<br>
-                    <strong>Y</strong> se notifica inmediatamente al equipo de seguridad.
+                    <strong>Cuando</strong> alguien intenta acceder sin autorización apropiada,<br>
+                    <strong>Entonces</strong> los datos permanecen inaccesibles y se activan alertas de seguridad.
                 </td>
             </tr>
         </tbody>
@@ -875,18 +682,13 @@
                 <td>Como usuario quiero un menú de navegación claro y consistente en todas las páginas para encontrar fácilmente las funciones que necesito.</td>
                 <td>
                     <strong>Escenario 1: Navegación consistente en toda la plataforma</strong><br>
-                    <strong>Dado que</strong> un usuario se encuentra en cualquier página de la aplicación,<br>
+                    <strong>Dado que</strong> un usuario se encuentra en cualquier página,<br>
                     <strong>Cuando</strong> utiliza el menú de navegación,<br>
-                    <strong>Entonces</strong> encuentra las mismas opciones organizadas de manera idéntica,<br>
-                    <strong>Y</strong> puede acceder a funciones principales desde cualquier página,<br>
-                    <strong>Y</strong> el menú se adapta apropiadamente a diferentes tamaños de pantalla,<br>
-                    <strong>Y</strong> indica claramente la ubicación actual del usuario.<br><br>
+                    <strong>Entonces</strong> encuentra las mismas opciones organizadas idénticamente, adaptadas a la pantalla e indicando la ubicación.<br><br>
                     <strong>Escenario 2: Menú adaptado a permisos de usuario</strong><br>
                     <strong>Dado que</strong> usuarios con diferentes roles acceden al sistema,<br>
                     <strong>Cuando</strong> navegan por la plataforma,<br>
-                    <strong>Entonces</strong> ven solo opciones de menú apropiadas para su rol,<br>
-                    <strong>Y</strong> las opciones restringidas no aparecen para evitar confusión,<br>
-                    <strong>Y</strong> pueden identificar fácilmente todas las funciones disponibles para ellos.
+                    <strong>Entonces</strong> ven solo las opciones de menú apropiadas para su rol (las opciones restringidas no aparecen).
                 </td>
             </tr>
             <tr>
@@ -895,18 +697,13 @@
                 <td>Como usuario quiero una interfaz con colores y tipografía consistentes para tener una experiencia visual agradable y fácil de leer.</td>
                 <td>
                     <strong>Escenario 1: Aplicación consistente de diseño visual</strong><br>
-                    <strong>Dado que</strong> se muestra cualquier página de la plataforma Veyra,<br>
+                    <strong>Dado que</strong> se muestra cualquier página de la plataforma,<br>
                     <strong>Cuando</strong> un usuario navega por diferentes secciones,<br>
-                    <strong>Entonces</strong> encuentra colores y tipografía consistentes en toda la experiencia,<br>
-                    <strong>Y</strong> el diseño refleja profesionalismo apropiado para servicios de salud,<br>
-                    <strong>Y</strong> el contraste de colores cumple estándares de accesibilidad,<br>
-                    <strong>Y</strong> la tipografía es legible en diferentes dispositivos y tamaños.<br><br>
+                    <strong>Entonces</strong> encuentra colores y tipografía consistentes, legibles y con contraste que cumple estándares de accesibilidad.<br><br>
                     <strong>Escenario 2: Adaptación para usuarios con necesidades especiales</strong><br>
-                    <strong>Dado que</strong> usuarios con dificultades visuales acceden a la plataforma,<br>
+                    <strong>Dado que</strong> usuarios con dificultades visuales acceden,<br>
                     <strong>Cuando</strong> acceden a la plataforma,<br>
-                    <strong>Entonces</strong> pueden utilizar funciones de alto contraste o aumento de texto,<br>
-                    <strong>Y</strong> todos los elementos mantienen legibilidad en diferentes configuraciones,<br>
-                    <strong>Y</strong> los colores no son el único medio para transmitir información importante.
+                    <strong>Entonces</strong> pueden utilizar funciones de alto contraste o aumento de texto, manteniendo la legibilidad.
                 </td>
             </tr>
             <tr>
@@ -915,18 +712,13 @@
                 <td>Como usuario quiero formularios claros y fáciles de completar para ingresar información sin confusión ni errores.</td>
                 <td>
                     <strong>Escenario 1: Completar formularios de manera eficiente</strong><br>
-                    <strong>Dado que</strong> un usuario está completando cualquier formulario en la plataforma,<br>
+                    <strong>Dado que</strong> un usuario completa cualquier formulario,<br>
                     <strong>Cuando</strong> ingresa información requerida,<br>
-                    <strong>Entonces</strong> los campos están claramente etiquetados y organizados lógicamente,<br>
-                    <strong>Y</strong> recibe validación en tiempo real para campos incorrectos,<br>
-                    <strong>Y</strong> puede guardar progreso para completar posteriormente si es formulario largo,<br>
-                    <strong>Y</strong> recibe confirmación clara al completar exitosamente.<br><br>
+                    <strong>Entonces</strong> los campos están etiquetados, organizados, recibe validación en tiempo real y confirmación al enviar.<br><br>
                     <strong>Escenario 2: Formulario con errores de validación</strong><br>
-                    <strong>Dado que</strong> un usuario está enviando formulario con información incorrecta,<br>
+                    <strong>Dado que</strong> un usuario envía un formulario con información incorrecta,<br>
                     <strong>Cuando</strong> existen errores en los datos ingresados,<br>
-                    <strong>Entonces</strong> recibe mensajes de error específicos y constructivos,<br>
-                    <strong>Y</strong> se mantiene toda la información correcta ya ingresada,<br>
-                    <strong>Y</strong> puede corregir errores fácilmente sin empezar desde cero.
+                    <strong>Entonces</strong> recibe mensajes de error específicos y mantiene la información correcta ya ingresada.
                 </td>
             </tr>
             <tr>
@@ -935,18 +727,13 @@
                 <td>Como usuario quiero que todas las pantallas sigan patrones de diseño similares para predecir dónde encontrar funciones y cómo interactuar.</td>
                 <td>
                     <strong>Escenario 1: Interacción predecible en toda la plataforma</strong><br>
-                    <strong>Dado que</strong> un usuario está familiarizado con una sección de la plataforma,<br>
+                    <strong>Dado que</strong> un usuario está familiarizado con una sección,<br>
                     <strong>Cuando</strong> navega a nuevas secciones,<br>
-                    <strong>Entonces</strong> encuentra patrones de interacción similares y predecibles,<br>
-                    <strong>Y</strong> botones, enlaces y controles funcionan de manera consistente,<br>
-                    <strong>Y</strong> puede aplicar conocimiento previo para usar nuevas funcionalidades,<br>
-                    <strong>Y</strong> la experiencia se siente uniforme y profesional.<br><br>
+                    <strong>Entonces</strong> encuentra patrones de interacción similares (botones, controles) y predecibles.<br><br>
                     <strong>Escenario 2: Nuevos usuarios aprendiendo la interfaz</strong><br>
-                    <strong>Dado que</strong> un nuevo usuario está accediendo por primera vez,<br>
+                    <strong>Dado que</strong> un nuevo usuario accede por primera vez,<br>
                     <strong>Cuando</strong> explora diferentes funcionalidades,<br>
-                    <strong>Entonces</strong> puede predecir cómo funcionarán nuevas secciones basándose en experiencia previa,<br>
-                    <strong>Y</strong> encuentra elementos de interfaz en ubicaciones esperadas,<br>
-                    <strong>Y</strong> puede desarrollar eficiencia rápidamente en el uso del sistema.
+                    <strong>Entonces</strong> puede predecir cómo funcionarán nuevas secciones basándose en la consistencia de la interfaz.
                 </td>
             </tr>
             <tr>
@@ -955,19 +742,13 @@
                 <td>Como usuario quiero que los errores se presenten de forma clara y con soluciones sugeridas para resolver problemas sin frustración.</td>
                 <td>
                     <strong>Escenario 1: Error del sistema con guía de resolución</strong><br>
-                    <strong>Dado que</strong> ocurre un error técnico durante el uso de la plataforma,<br>
-                    <strong>Cuando</strong> ocurre un problema de sistema o conectividad,<br>
-                    <strong>Entonces</strong> el usuario recibe mensaje claro explicando qué ocurrió,<br>
-                    <strong>Y</strong> se proporcionan pasos específicos para resolver el problema,<br>
-                    <strong>Y</strong> se ofrecen alternativas de contacto si el problema persiste,<br>
-                    <strong>Y</strong> se registra el error para mejora continua del sistema.<br><br>
+                    <strong>Dado que</strong> ocurre un error técnico (sistema o conectividad),<br>
+                    <strong>Cuando</strong> el usuario lo experimenta,<br>
+                    <strong>Entonces</strong> recibe un mensaje claro explicando qué ocurrió, pasos para resolverlo y contacto alternativo.<br><br>
                     <strong>Escenario 2: Error de usuario con orientación educativa</strong><br>
-                    <strong>Dado que</strong> un usuario comete un error en el uso de la plataforma,<br>
-                    <strong>Cuando</strong> realiza una acción incorrecta o no permitida,<br>
-                    <strong>Entonces</strong> recibe explicación clara sobre por qué no se pudo completar la acción,<br>
-                    <strong>Y</strong> se le orienta sobre la forma correcta de proceder,<br>
-                    <strong>Y</strong> puede corregir fácilmente su acción sin frustración,<br>
-                    <strong>Y</strong> aprende a evitar el mismo error en el futuro.
+                    <strong>Dado que</strong> un usuario comete un error (acción incorrecta),<br>
+                    <strong>Cuando</strong> realiza una acción no permitida,<br>
+                    <strong>Entonces</strong> recibe una explicación clara del porqué y orientación sobre la forma correcta de proceder.
                 </td>
             </tr>
             <tr>
@@ -976,13 +757,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Delete para medicamentos para asegurar que el administrador de la casa de reposo pueda remover registros del inventario.</td>
                 <td>
                     <strong>Escenario 1: Eliminación exitosa</strong><br>
-                    <strong>Dado</strong> un administrador autenticado con permisos y un medicamentoId existente<br>
+                    <strong>Dado</strong> un admin autenticado con permisos y un {medicamentoId} existente<br>
                     <strong>Cuando</strong> envía DELETE /medicamentos/{medicamentoId}<br>
-                    <strong>Entonces</strong> el servicio responde 204 No Content, el registro queda como eliminado y se muestra que se borro en la base de datos.<br><br>
+                    <strong>Entonces</strong> el servicio responde 204 No Content y el registro queda como eliminado.<br><br>
                     <strong>Escenario 2: Eliminación fallida por inexistencia o falta de permisos</strong><br>
-                    <strong>Dado</strong> un usuario sin permisos o un medicamentoId inexistente<br>
+                    <strong>Dado</strong> un usuario sin permisos o un {medicamentoId} inexistente<br>
                     <strong>Cuando</strong> intenta DELETE /medicamentos/{medicamentoId}<br>
-                    <strong>Entonces</strong> el servicio responde 403 si no tiene permisos, o 404 Not Found si el id no existe, y el intento queda registrado en logs.
+                    <strong>Entonces</strong> responde 403 (permisos) o 404 Not Found (no existe) y registra en logs.
                 </td>
             </tr>
             <tr>
@@ -991,13 +772,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Post medicamentos para permitir que el administrador de la casa de reposo pueda agregar más medicamentos.</td>
                 <td>
                     <strong>Escenario 1: Creación exitosa</strong><br>
-                    <strong>Dado</strong> un administrador autenticado y un registro de datos válido en los campos obligatorios (nombre, lote, fechaVencimiento, cantidad)<br>
+                    <strong>Dado</strong> un admin autenticado y datos válidos (nombre, lote, fechaVencimiento, cantidad)<br>
                     <strong>Cuando</strong> envía POST /medicamentos<br>
-                    <strong>Entonces</strong> el servicio responde 201 Created y el medicamento queda persistido en base de datos.<br><br>
+                    <strong>Entonces</strong> responde 201 Created y persiste en base de datos.<br><br>
                     <strong>Escenario 2: Error de validación o duplicado</strong><br>
-                    <strong>Dado</strong> un registro con campos faltantes o que coincide con un medicamento existente.<br>
+                    <strong>Dado</strong> un registro con campos faltantes o que coincide con uno existente<br>
                     <strong>Cuando</strong> envía POST /medicamentos<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request para validaciones o 409 Conflict si es duplicado, con mensajes de error detallados.
+                    <strong>Entonces</strong> responde 400 (validación) o 409 (duplicado) con mensajes detallados.
                 </td>
             </tr>
             <tr>
@@ -1006,13 +787,13 @@
                 <td>Como desarrollador backend en NovaPeru Tech quiero crear una función para ver la información a través de una Api.</td>
                 <td>
                     <strong>Escenario 1: Consulta exitosa</strong><br>
-                    <strong>Dado</strong> un usuario autenticado y autorizado y un medicamentoId válido<br>
+                    <strong>Dado</strong> un usuario autorizado y un {medicamentoId} válido<br>
                     <strong>Cuando</strong> solicita GET /medicamentos/{medicamentoId}<br>
                     <strong>Entonces</strong> el servicio responde 200 OK con el JSON.<br><br>
                     <strong>Escenario 2: Recurso no encontrado o sin permisos</strong><br>
-                    <strong>Dado</strong> un medicamentoId inexistente o un usuario sin autorización<br>
+                    <strong>Dado</strong> un {medicamentoId} inexistente o un usuario sin autorización<br>
                     <strong>Cuando</strong> solicita GET /medicamentos/{medicamentoId}<br>
-                    <strong>Entonces</strong> el servicio responde 404 Not Found si no existe.
+                    <strong>Entonces</strong> el servicio responde 404 Not Found (si no existe) o 403 (permisos).
                 </td>
             </tr>
             <tr>
@@ -1021,13 +802,13 @@
                 <td>Como desarrollador de backend en NovaPeru Tech quiero crear una función para actualizar la información para asegurar que el administrador de la casa de reposos pueda mantener actualizada la inforción de cada medicamento.</td>
                 <td>
                     <strong>Escenario 1: Actualización exitosa con control de concurrencia</strong><br>
-                    <strong>Dado</strong> un usuario autorizado y un medicamentoId existente y registro de datos válido<br>
+                    <strong>Dado</strong> un usuario autorizado, {medicamentoId} existente y datos válidos<br>
                     <strong>Cuando</strong> envía PUT/PATCH /medicamentos/{medicamentoId}<br>
-                    <strong>Entonces</strong> el servicio responde 200 OK, aplica los cambios, registra la modificación en la base de datos.<br><br>
+                    <strong>Entonces</strong> el servicio responde 200 OK y aplica los cambios.<br><br>
                     <strong>Escenario 2: Conflicto o validación fallida</strong><br>
-                    <strong>Dado</strong> registro de la nueva información no es valida.<br>
+                    <strong>Dado</strong> registro de datos inválido<br>
                     <strong>Cuando</strong> intenta PUT/PATCH /medicamentos/{medicamentoId}<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request para datos inválidos.
+                    <strong>Entonces</strong> el servicio responde 400 Bad Request.
                 </td>
             </tr>
             <tr>
@@ -1036,13 +817,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para permitir que el administrador registre nuevos residentes con validaciones obligatorias y que se genere un ID único por residente.</td>
                 <td>
                     <strong>Escenario 1: Registro exitoso de residente</strong><br>
-                    <strong>Dado</strong> administrador autenticado y ingresa datos válidos<br>
+                    <strong>Dado</strong> un admin autenticado e ingresa datos válidos<br>
                     <strong>Cuando</strong> envía POST /residents<br>
-                    <strong>Entonces</strong> el servicio responde 201 Created, retorna residentId y persiste el registro en la base de datos.<br><br>
+                    <strong>Entonces</strong> responde 201 Created, retorna {residentId} y persiste en BBDD.<br><br>
                     <strong>Escenario 2: Duplicado o campos faltantes</strong><br>
-                    <strong>Dado</strong> un registro con documento de identidad ya registrado o campos obligatorios faltantes<br>
+                    <strong>Dado</strong> un DNI ya registrado o campos obligatorios faltantes<br>
                     <strong>Cuando</strong> envía POST /residents<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request si faltan datos, con detalles de error.
+                    <strong>Entonces</strong> responde 400 (faltan datos) o 409 (duplicado) con detalles.
                 </td>
             </tr>
             <tr>
@@ -1051,13 +832,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET que devuelva la información completa del residente para que el personal autorizado pueda consultar fácilmente el expediente.</td>
                 <td>
                     <strong>Escenario 1: Consulta autorizada</strong><br>
-                    <strong>Dado</strong> personal autorizado y residentId válido<br>
+                    <strong>Dado</strong> personal autorizado y {residentId} válido<br>
                     <strong>Cuando</strong> solicita GET /residents/{residentId}<br>
-                    <strong>Entonces</strong> recibe 200 OK con datos personales, contactos autorizados y resumen del historial médico.<br><br>
+                    <strong>Entonces</strong> recibe 200 OK con datos (personales, contactos, resumen médico).<br><br>
                     <strong>Escenario 2: Sin permisos o recurso inexistente</strong><br>
-                    <strong>Dado</strong> usuario sin permisos para ver datos médicos o residentId no existente<br>
+                    <strong>Dado</strong> usuario sin permisos o {residentId} no existente<br>
                     <strong>Cuando</strong> solicita GET /residents/{residentId}<br>
-                    <strong>Entonces</strong> el servicio responde 404 Not Found si el residente no existe.
+                    <strong>Entonces</strong> responde 404 Not Found (no existe) o 403 (permisos).
                 </td>
             </tr>
             <tr>
@@ -1066,13 +847,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE que realice una eliminación controlada del residente.</td>
                 <td>
                     <strong>Escenario 1: Baja controlada exitosa</strong><br>
-                    <strong>Dado</strong> administrador autenticado<br>
+                    <strong>Dado</strong> un admin autenticado<br>
                     <strong>Cuando</strong> envía DELETE /residents/{residentId}<br>
-                    <strong>Entonces</strong> el sistema marca inactive, revoca accesos asociados.<br><br>
+                    <strong>Entonces</strong> el sistema marca el residente como 'inactive' y revoca accesos asociados.<br><br>
                     <strong>Escenario 2: Eliminación fallida</strong><br>
-                    <strong>Dado</strong> Administrador con responsabilidades activas<br>
+                    <strong>Dado</strong> un {residentId} con responsabilidades activas<br>
                     <strong>Cuando</strong> intenta DELETE /residents/{residentId}<br>
-                    <strong>Entonces</strong> el servicio responde 409 Conflict y devuelve lista de acciones requeridas para completar la eliminación.
+                    <strong>Entonces</strong> el servicio responde 409 Conflict con la lista de acciones requeridas.
                 </td>
             </tr>
             <tr>
@@ -1081,13 +862,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar campos del perfil del residente para que las modificaciones queden registradas y sean reversibles si es necesario.</td>
                 <td>
                     <strong>Escenario 1: Actualización válida y registrada</strong><br>
-                    <strong>Dado</strong> Administrador autorizado y registro de datos permitidos correcto<br>
+                    <strong>Dado</strong> un admin autorizado y datos permitidos<br>
                     <strong>Cuando</strong> envía PATCH /residents/{residentId}<br>
-                    <strong>Entonces</strong> el servicio responde 200 OK, aplica los cambios permitidos y guarda un registro de auditoría con diff de cambios.<br><br>
+                    <strong>Entonces</strong> el servicio responde 200 OK, aplica cambios y guarda auditoría.<br><br>
                     <strong>Escenario 2: Intento de modificar campos restringidos o datos inválidos</strong><br>
-                    <strong>Dado</strong> registro de datos que incluye campos de solo lectura o formato inválido<br>
+                    <strong>Dado</strong> un registro con campos de solo lectura o formato inválido<br>
                     <strong>Cuando</strong> envía PATCH /residents/{residentId}<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request para validaciones, sin aplicar cambios.
+                    <strong>Entonces</strong> el servicio responde 400 Bad Request.
                 </td>
             </tr>
             <tr>
@@ -1096,13 +877,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que un administrador pueda registrar información institucional.</td>
                 <td>
                     <strong>Escenario 1: Creación de información institucional exitosa</strong><br>
-                    <strong>Dado</strong> administrador autenticado y registro de datos válido<br>
+                    <strong>Dado</strong> un admin autenticado y registro de datos válido<br>
                     <strong>Cuando</strong> envía POST /institution-info<br>
-                    <strong>Entonces</strong> el servicio responde 201 Created y los datos quedan disponibles en la app.<br><br>
+                    <strong>Entonces</strong> el servicio responde 201 Created y los datos quedan disponibles.<br><br>
                     <strong>Escenario 2: Error por falta de permisos o validación</strong><br>
-                    <strong>Dado</strong> usuario no administrador o registro de datos obligatorios faltantes<br>
+                    <strong>Dado</strong> un usuario no admin o datos obligatorios faltantes<br>
                     <strong>Cuando</strong> envía POST /institution-info<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request si faltan campos.
+                    <strong>Entonces</strong> responde 403 (permisos) o 400 (validación).
                 </td>
             </tr>
             <tr>
@@ -1111,13 +892,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PUT para mantener actualizados los datos institucionales.</td>
                 <td>
                     <strong>Escenario 1: Actualización exitosa y auditada</strong><br>
-                    <strong>Dado</strong> administrador autenticado, payload válido y versión coincidente<br>
+                    <strong>Dado</strong> un admin autenticado y payload válido<br>
                     <strong>Cuando</strong> envía PUT/PATCH /institution-info/{id}<br>
-                    <strong>Entonces</strong> el servicio responde 200 OK, actualiza los datos y registra quien y cuándo realizó el cambio.<br><br>
+                    <strong>Entonces</strong> el servicio responde 200 OK, actualiza datos y registra auditoría (quién, cuándo).<br><br>
                     <strong>Escenario 2: Conflicto de versión o datos inválidos</strong><br>
-                    <strong>Dado</strong> versión desincronizada o registro de datos inválido<br>
+                    <strong>Dado</strong> datos inválidos (ej. formato)<br>
                     <strong>Cuando</strong> intenta PUT/PATCH /institution-info/{id}<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request por validación.
+                    <strong>Entonces</strong> el servicio responde 400 Bad Request.
                 </td>
             </tr>
             <tr>
@@ -1126,13 +907,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que registre nuevos empleados.</td>
                 <td>
                     <strong>Escenario 1: Registro de empleado exitoso</strong><br>
-                    <strong>Dado</strong> Administrador autenticado y registro de datos válido<br>
+                    <strong>Dado</strong> un admin autenticado y datos válidos<br>
                     <strong>Cuando</strong> envía POST /employees<br>
-                    <strong>Entonces</strong> el servicio responde 201 Created, devuelve employeeId, asigna permisos iniciales y crea credenciales seguras.<br><br>
+                    <strong>Entonces</strong> responde 201 Created, retorna {employeeId}, asigna permisos y crea credenciales.<br><br>
                     <strong>Escenario 2: Error por email/ID duplicado o validación</strong><br>
-                    <strong>Dado</strong> email o documento ya registrado o campos inválidos<br>
+                    <strong>Dado</strong> un email o DNI ya registrado, o campos inválidos<br>
                     <strong>Cuando</strong> envía POST /employees<br>
-                    <strong>Entonces</strong> el servicio responde 409 Conflict para duplicados o 400 Bad Request para validaciones.
+                    <strong>Entonces</strong> responde 409 (duplicado) o 400 (validación).
                 </td>
             </tr>
             <tr>
@@ -1141,13 +922,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE para que el administrador de la casa de reposo revoque persmisos.</td>
                 <td>
                     <strong>Escenario 1: Baja controlada exitosa</strong><br>
-                    <strong>Dado</strong> administrador autenticado y empleado sin tareas críticas pendientes<br>
+                    <strong>Dado</strong> un admin autenticado y empleado sin tareas críticas pendientes<br>
                     <strong>Cuando</strong> envía DELETE /employees/{employeeId}<br>
-                    <strong>Entonces</strong> el servicio elmina empleado , registra la acción en base de datos.<br><br>
+                    <strong>Entonces</strong> el servicio elimina al empleado y registra la acción.<br><br>
                     <strong>Escenario 2: Baja bloqueada por responsabilidades activas o sin permisos</strong><br>
-                    <strong>Dado</strong> empleado con residentes/tareas asignadas o petición desde usuario sin permisos<br>
+                    <strong>Dado</strong> un empleado con tareas asignadas o un usuario sin permisos<br>
                     <strong>Cuando</strong> intenta DELETE /employees/{employeeId}<br>
-                    <strong>Entonces</strong> el servicio responde 409 Conflict indicando reasignaciones requeridas, o 403 Forbidden si el solicitante no está autorizado.
+                    <strong>Entonces</strong> responde 409 (requiere reasignación) o 403 (permisos).
                 </td>
             </tr>
             <tr>
@@ -1156,13 +937,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar datos de empleado.</td>
                 <td>
                     <strong>Escenario 1: Actualización válida con auditoría</strong><br>
-                    <strong>Dado</strong> Administrador autenticado y registra datos válido<br>
+                    <strong>Dado</strong> un admin autenticado y datos válidos<br>
                     <strong>Cuando</strong> envía PATCH /employees/{employeeId}<br>
-                    <strong>Entonces</strong> el servicio responde 200 OK y registra el cambio en la base de datos.<br><br>
+                    <strong>Entonces</strong> el servicio responde 200 OK y registra el cambio.<br><br>
                     <strong>Escenario 2: Intento de actualizar datos inválidos</strong><br>
-                    <strong>Dado</strong> intento de registrar datos inválido<br>
+                    <strong>Dado</strong> un intento de registrar datos inválidos<br>
                     <strong>Cuando</strong> envía PATCH /employees/{employeeId}<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request para datos inválidos.
+                    <strong>Entonces</strong> el servicio responde 400 Bad Request.
                 </td>
             </tr>
             <tr>
@@ -1171,13 +952,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET que muestre el perfil del empleado para que el administrador pueda observar cuantos empleados tiene.</td>
                 <td>
                     <strong>Escenario 1: Consulta autorizada del perfil</strong><br>
-                    <strong>Dado</strong> usuario autorizado y employeeId válido<br>
+                    <strong>Dado</strong> un usuario autorizado y un {employeeId} válido<br>
                     <strong>Cuando</strong> solicita GET /employees/{employeeId}<br>
-                    <strong>Entonces</strong> el servicio responde 200 OK , se filtran según permisos.<br><br>
+                    <strong>Entonces</strong> el servicio responde 200 OK (datos filtrados según permisos).<br><br>
                     <strong>Escenario 2: empleado no existe</strong><br>
-                    <strong>Dado</strong> employeeId inexistente<br>
+                    <strong>Dado</strong> un {employeeId} inexistente<br>
                     <strong>Cuando</strong> solicita GET /employees/{employeeId}<br>
-                    <strong>Entonces</strong> el servicio responde 404 Not Found si no existe.
+                    <strong>Entonces</strong> el servicio responde 404 Not Found.
                 </td>
             </tr>
             <tr>
@@ -1186,13 +967,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero consumir la API externa de medicamentos mediante un servicio de integración , para disponer de información confiable y actualizada de medicamentos en el sistema.</td>
                 <td>
                     <strong>Escenario 1: Sincronización exitosa y segura</strong><br>
-                    <strong>Dado</strong> credenciales válidas para la API externa y conectividad estable<br>
-                    <strong>Cuando</strong> se ejecuta sincronización programada o petición<br>
-                    <strong>Entonces</strong> los datos externos se mapean y normalizan al modelo interno, se guardan cambios.<br><br>
+                    <strong>Dado</strong> credenciales válidas y conectividad estable<br>
+                    <strong>Cuando</strong> se ejecuta la sincronización (programada o manual)<br>
+                    <strong>Entonces</strong> los datos externos se mapean, normalizan y guardan en la BBDD interna.<br><br>
                     <strong>Escenario 2: Fallo externo</strong><br>
-                    <strong>Dado</strong> timeout en la API externa o respuesta que no cumple el esquema esperado<br>
+                    <strong>Dado</strong> un timeout o respuesta inválida de la API externa<br>
                     <strong>Cuando</strong> intenta sincronizar<br>
-                    <strong>Entonces</strong> el servicio registra la incidencia en logs y no sobrescribe datos locales hasta validación.
+                    <strong>Entonces</strong> el servicio registra la incidencia y no sobrescribe los datos locales.
                 </td>
             </tr>
             <tr>
@@ -1201,13 +982,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un servicio de integración con Google Maps que proporcione verificación de direcciones y datos de localización para manejar errores.</td>
                 <td>
                     <strong>Escenario 1: Geocoding verificado vía proxy</strong><br>
-                    <strong>Dado</strong> API key protegida en backend y request válido (dirección)<br>
-                    <strong>Cuando</strong> solicita geocoding a través del proxy GET /maps/proxy?address=...<br>
-                    <strong>Entonces</strong> el proxy devuelve datos normalizados (lat/lng, formato) y la API key no se expone al frontend.<br><br>
+                    <strong>Dado</strong> una API key protegida en backend y una dirección válida<br>
+                    <strong>Cuando</strong> solicita geocoding vía GET /maps/proxy?address=...<br>
+                    <strong>Entonces</strong> el proxy devuelve datos normalizados (lat/lng) y la API key no se expone.<br><br>
                     <strong>Escenario 2: Rate limit o error del proveedor</strong><br>
-                    <strong>Dado</strong> Google Maps devuelve 429 o falla por timeout<br>
+                    <strong>Dado</strong> que Google Maps devuelve 429 (rate limit) o falla<br>
                     <strong>Cuando</strong> realiza la petición al proxy<br>
-                    <strong>Entonces</strong> el proxy responde 429 o 503 con mensaje controlado, aplica política de backoff y utiliza cache fallback si existe.
+                    <strong>Entonces</strong> el proxy responde 429/503 (controlado), aplica política de backoff y usa caché.
                 </td>
             </tr>
             <tr>
@@ -1216,13 +997,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un servicio de notificaciones para enviar recordatorios y alertas de visitas vía email/SMS.</td>
                 <td>
                     <strong>Escenario 1: Envío de recordatorio exitoso</strong><br>
-                    <strong>Dado</strong> visita programada y contactos válidos con preferencias de notificación<br>
-                    <strong>Cuando</strong> falta el tiempo configurado (p.ej. 2 horas) y la cola procesa el job<br>
-                    <strong>Entonces</strong> se envía notificación vía canal configurado (email/SMS/push), el sistema registra el estado delivered y actualiza el registro de visita.<br><br>
+                    <strong>Dado</strong> una visita programada y contactos válidos<br>
+                    <strong>Cuando</strong> falta el tiempo configurado (ej. 2h) y la cola procesa el job<br>
+                    <strong>Entonces</strong> se envía la notificación (email/SMS/push) y el sistema registra el estado 'delivered'.<br><br>
                     <strong>Escenario 2: Fallo en entrega y reintentos</strong><br>
-                    <strong>Dado</strong> fallo de entrega<br>
+                    <strong>Dado</strong> un fallo de entrega<br>
                     <strong>Cuando</strong> el worker intenta enviar la notificación<br>
-                    <strong>Entonces</strong> el sistema aplica reintentos configurados.
+                    <strong>Entonces</strong> el sistema aplica los reintentos configurados (y registra 'failed' si se agotan).
                 </td>
             </tr>
             <tr>
@@ -1231,13 +1012,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET con parámetros de búsqueda facilitar consultas rápidas y generación de reportes.</td>
                 <td>
                     <strong>Escenario 1: Búsqueda paginada exitosa</strong><br>
-                    <strong>Dado</strong> parámetros válidos<br>
-                    <strong>Cuando</strong> solicita GET /medicamentos<br>
-                    <strong>Entonces</strong> el servicio responde 200 OK con lista.<br><br>
+                    <strong>Dado</strong> parámetros de búsqueda válidos (paginación, filtros)<br>
+                    <strong>Cuando</strong> solicita GET /medicamentos?{params}<br>
+                    <strong>Entonces</strong> el servicio responde 200 OK con la lista paginada.<br><br>
                     <strong>Escenario 2: Parámetros inválidos o sin resultados</strong><br>
-                    <strong>Dado</strong> parámetros inválidos o criterio que no retorna matches<br>
-                    <strong>Cuando</strong> solicita GET /medicamentos<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request para parámetros inválidos o 200 OK con items: [] y totalItems: 0 si no hay resultados.
+                    <strong>Dado</strong> parámetros inválidos o un criterio que no retorna coincidencias<br>
+                    <strong>Cuando</strong> solicita GET /medicamentos?{params}<br>
+                    <strong>Entonces</strong> responde 400 (inválido) o 200 OK con items: [] (sin resultados).
                 </td>
             </tr>
             <tr>
@@ -1246,13 +1027,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET con filtros para que administradores y personal autorizado encuentren residentes fácilmente.</td>
                 <td>
                     <strong>Escenario 1: Consulta filtrada y autorizada</strong><br>
-                    <strong>Dado</strong> filtros válidos y usuario autorizado<br>
+                    <strong>Dado</strong> filtros válidos y un usuario autorizado<br>
                     <strong>Cuando</strong> solicita GET /residents?nombre=X&habitacion=Y<br>
-                    <strong>Entonces</strong> el servicio responde 200 OK con resultados paginados y campos conforme a permisos del solicitante.<br><br>
+                    <strong>Entonces</strong> responde 200 OK con resultados paginados (campos conforme a permisos).<br><br>
                     <strong>Escenario 2: Intento sin permisos o parámetros inválidos</strong><br>
-                    <strong>Dado</strong> usuario sin permiso para ver datos sensibles o parámetros mal formados<br>
-                    <strong>Cuando</strong> solicita GET /residents?<br>
-                    <strong>Entonces</strong> el servicio responde 400 Bad Request si los parámetros son inválidos.
+                    <strong>Dado</strong> un usuario sin permiso o parámetros mal formados<br>
+                    <strong>Cuando</strong> solicita GET /residents?{params}<br>
+                    <strong>Entonces</strong> responde 403 (permisos) o 400 (inválido).
                 </td>
             </tr>
             <tr>
@@ -1261,13 +1042,13 @@
                 <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET que permita buscar y filtrar por nombre, rol, turno que se pueda exportar para que vea el reporte de empleados el admnistrador o RRHH.</td>
                 <td>
                     <strong>Escenario 1: Búsqueda y exportación permitida</strong><br>
-                    <strong>Dado</strong> parámetros válidos y usuarios con permiso de exportación<br>
+                    <strong>Dado</strong> parámetros válidos y un usuario con permiso de exportación<br>
                     <strong>Cuando</strong> solicita GET /employees?rol=cuidador&export=true<br>
-                    <strong>Entonces</strong> el servicio responde 200 OK iniciando exportación (CSV) y devuelve enlace de descarga cuando esté listo.<br><br>
+                    <strong>Entonces</strong> responde 200 OK, inicia la exportación (CSV) y devuelve enlace de descarga.<br><br>
                     <strong>Escenario 2: Exportación denegada o sin resultados</strong><br>
-                    <strong>Dado</strong> filtros que no arrojan resultados<br>
-                    <strong>Cuando</strong> solicita GET /employees<br>
-                    <strong>Entonces</strong> el servicio responde 400 si no coincide.
+                    <strong>Dado</strong> filtros que no arrojan resultados o parámetros inválidos<br>
+                    <strong>Cuando</strong> solicita GET /employees?{params}<br>
+                    <strong>Entonces</strong> responde 400 (inválido) o 200 OK con lista vacía (sin resultados).
                 </td>
             </tr>
         </tbody>
