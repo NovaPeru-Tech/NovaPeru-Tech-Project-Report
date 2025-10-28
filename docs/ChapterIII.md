@@ -1063,7 +1063,7 @@
 
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
-    <td><strong>Orden</strong></td><td><strong>User Story Id</strong></td><td><strong>Título</strong></td><td><strong>Descripción</strong></td><td><strong>Story Points (1/2/3/5/8)</strong></td>
+    <td><strong>Orden</strong></td><td><strong>User Story Id</strong></td><td><strong>Título</strong></td><td><strong>Descripción</strong></td><td><strong>Story Points (1/2/3)</strong></td>
   </tr>
   <tr><td>1</td><td>US01</td><td>Menú de navegación</td><td>Como visitante de la landing page, quiero acceder a un menú superior con enlaces a “Log in”, “Sign up”, “Planes” y “Contacto”, para navegar rápidamente a secciones clave.</td><td>1</td></tr>
   <tr><td>2</td><td>US02</td><td>Visualización de Planes</td><td>Como visitante, quiero ver planes con precio, características y duración, para comparar y elegir el que mejor se adapte a mis necesidades.</td><td>2</td></tr>
@@ -1073,14 +1073,14 @@
   <tr><td>6</td><td>US06</td><td>Formulario de contacto</td><td>Como visitante, quiero enviar consultas mediante un formulario con validación, para recibir una respuesta personalizada.</td><td>3</td></tr>
   <tr><td>7</td><td>US07</td><td>Cambio de idioma</td><td>Como visitante, quiero cambiar entre español e inglés desde el menú, para entender mejor el contenido.</td><td>3</td></tr>
   <tr><td>8</td><td>US39</td><td>Términos y condiciones</td><td>Como visitante, quiero acceder a los términos y condiciones, para conocer las políticas legales antes de contratar.</td><td>2</td></tr>
-  <tr><td>9</td><td>US08</td><td>Historial médico</td><td>Como familiar de un adulto mayor, quiero acceder al historial médico completo, para conocer su evolución y diagnósticos actuales.</td><td>5</td></tr>
-  <tr><td>10</td><td>US09</td><td>Agenda de citas médicas</td><td>Como familiar, quiero consultar la agenda de citas médicas, para estar informada y planificar con anticipación.</td><td>5</td></tr>
+  <tr><td>9</td><td>US08</td><td>Historial médico</td><td>Como familiar de un adulto mayor, quiero acceder al historial médico completo, para conocer su evolución y diagnósticos actuales.</td><td>3</td></tr>
+  <tr><td>10</td><td>US09</td><td>Agenda de citas médicas</td><td>Como familiar, quiero consultar la agenda de citas médicas, para estar informada y planificar con anticipación.</td><td>3</td></tr>
   <tr><td>11</td><td>US10</td><td>Consulta de información personal</td><td>Como familiar, quiero ver la información personal del residente, para verificar que esté correcta o solicitar cambios.</td><td>3</td></tr>
   <tr><td>12</td><td>US11</td><td>Galería de fotos y actividades</td><td>Como familiar, quiero ver fotos de actividades organizadas por fecha y tipo, para sentirme conectada y verificar su participación social.</td><td>3</td></tr>
   <tr><td>13</td><td>US12</td><td>Registro de residentes</td><td>Como administradora de la casa de reposo, quiero crear perfiles completos de los residentes, para centralizar su información personal y médica.</td><td>3</td></tr>
-  <tr><td>14</td><td>US13</td><td>Historial médico institucional</td><td>Como administradora con permisos médicos, quiero gestionar el historial médico de cada residente, para asegurar continuidad de cuidado y cumplir regulaciones.</td><td>8</td></tr>
-  <tr><td>15</td><td>US14</td><td>Administración de medicamentos</td><td>Como administradora, quiero controlar la administración de medicamentos, para garantizar cumplimiento de tratamientos y evitar errores.</td><td>5</td></tr>
-  <tr><td>16</td><td>US15</td><td>Gestión de visitas familiares</td><td>Como administradora, quiero programar y controlar visitas familiares, para mantener seguridad, orden y horarios establecidos.</td><td>5</td></tr>
+  <tr><td>14</td><td>US13</td><td>Historial médico institucional</td><td>Como administradora con permisos médicos, quiero gestionar el historial médico de cada residente, para asegurar continuidad de cuidado y cumplir regulaciones.</td><td>3</td></tr>
+  <tr><td>15</td><td>US14</td><td>Administración de medicamentos</td><td>Como administradora, quiero controlar la administración de medicamentos, para garantizar cumplimiento de tratamientos y evitar errores.</td><td>3</td></tr>
+  <tr><td>16</td><td>US15</td><td>Gestión de visitas familiares</td><td>Como administradora, quiero programar y controlar visitas familiares, para mantener seguridad, orden y horarios establecidos.</td><td>3</td></tr>
   <tr><td>17</td><td>US16</td><td>Recordatorios de citas y consultas</td><td>Como familiar, quiero recibir recordatorios automáticos de citas médicas, para estar preparada y decidir si acompañaré.</td><td>3</td></tr>
   <tr><td>18</td><td>US17</td><td>Notificaciones de cambios en medicación</td><td>Como familiar, quiero ser notificada ante cambios en la medicación, para estar informada del tratamiento.</td><td>3</td></tr>
   <tr><td>19</td><td>US18</td><td>Recordatorios de visitas familiares</td><td>Como familiar, quiero recibir recordatorios de mis visitas programadas, para no olvidar y mantener regularidad en el contacto.</td><td>3</td></tr>
@@ -1088,7 +1088,7 @@
   <tr><td>21</td><td>US20</td><td>Preguntas sobre rutina de cuidados</td><td>Como familiar, quiero enviar preguntas a cuidadores sobre la rutina diaria, para resolver dudas puntuales.</td><td>3</td></tr>
   <tr><td>22</td><td>US21</td><td>Peticiones de modificación de cuidados</td><td>Como familiar, quiero solicitar ajustes específicos en el cuidado, para adecuarlo a preferencias o necesidades particulares.</td><td>3</td></tr>
   <tr><td>23</td><td>US22</td><td>Seguimiento del bienestar emocional</td><td>Como familiar, quiero comunicarme sobre el estado emocional y psicológico del residente, para asegurar su bienestar integral.</td><td>3</td></tr>
-  <tr><td>24</td><td>US23</td><td>Planificación de eventos familiares</td><td>Como familiar, quiero coordinar eventos o celebraciones dentro de la institución, para organizar ocasiones especiales del residente.</td><td>5</td></tr>
+  <tr><td>24</td><td>US23</td><td>Planificación de eventos familiares</td><td>Como familiar, quiero coordinar eventos o celebraciones dentro de la institución, para organizar ocasiones especiales del residente.</td><td>3</td></tr>
   <tr><td>25</td><td>US24</td><td>Registro de medicamentos en inventario</td><td>Como administradora, quiero registrar medicamentos con datos completos, para mantener un inventario actualizado.</td><td>3</td></tr>
   <tr><td>26</td><td>US25</td><td>Alertas de vencimiento</td><td>Como administradora, quiero recibir alertas sobre medicamentos próximos a vencer, para evitar pérdidas y riesgos de seguridad.</td><td>3</td></tr>
   <tr><td>27</td><td>US26</td><td>Eliminación de medicamentos</td><td>Como administradora, quiero eliminar medicamentos del inventario de forma controlada, para mantener la precisión del stock y cumplir protocolos.</td><td>3</td></tr>
@@ -1102,8 +1102,8 @@
   <tr><td>35</td><td>US34</td><td>Datos de contacto institucional</td><td>Como administradora, quiero actualizar los datos de contacto institucional, para que familias y autoridades accedan a información vigente.</td><td>2</td></tr>
   <tr><td>36</td><td>US35</td><td>Información del personal directivo</td><td>Como administradora, quiero gestionar la información del personal directivo, para dar transparencia a familias y autoridades.</td><td>2</td></tr>
   <tr><td>37</td><td>US36</td><td>Historia institucional</td><td>Como administradora, quiero gestionar historia y reconocimientos de la institución, para generar confianza y credibilidad.</td><td>2</td></tr>
-  <tr><td>38</td><td>US37</td><td>Gestión de usuarios y permisos</td><td>Como administradora, quiero configurar roles y permisos de acceso, para proteger la privacidad de los datos.</td><td>5</td></tr>
-  <tr><td>39</td><td>US38</td><td>Protección de datos mediante cifrado</td><td>Como administradora, quiero que los datos sensibles estén cifrados en almacenamiento y tránsito, para evitar accesos no autorizados.</td><td>5</td></tr>
+  <tr><td>38</td><td>US37</td><td>Gestión de usuarios y permisos</td><td>Como administradora, quiero configurar roles y permisos de acceso, para proteger la privacidad de los datos.</td><td>3</td></tr>
+  <tr><td>39</td><td>US38</td><td>Protección de datos mediante cifrado</td><td>Como administradora, quiero que los datos sensibles estén cifrados en almacenamiento y tránsito, para evitar accesos no autorizados.</td><td>3</td></tr>
   <tr><td>40</td><td>US40</td><td>Menú de navegación consistente</td><td>Como usuaria, quiero un menú claro y consistente en todas las páginas, para encontrar fácilmente las funciones que necesito.</td><td>2</td></tr>
   <tr><td>41</td><td>US41</td><td>Paleta de colores y tipografía</td><td>Como usuaria, quiero colores y tipografía consistentes y accesibles, para una experiencia visual agradable y legible.</td><td>2</td></tr>
   <tr><td>42</td><td>US42</td><td>Diseño de formularios usables</td><td>Como usuaria, quiero formularios claros con validación, para completar información sin confusión ni errores.</td><td>3</td></tr>
