@@ -25,14 +25,14 @@
                 <td>Menú de navegación</td>
                 <td>Como visitante de la Landing Page, quiero poder acceder a un menú de navegación en la parte superior de la página, para explorar fácilmente las secciones como "Log in", "Sign up", "Planes", "Contacto",etc.</td>
                 <td>
-                    <strong>Escenario 1: Menú visible y navegable</strong><br>
-                    <strong>Dado que</strong> el visitante está en la landing page,<br>
-                    <strong>Cuando</strong> la página carga y selecciona un enlace del menú,<br>
-                    <strong>Entonces</strong> el menú se muestra con enlaces principales ("Log in", "Sign up", "Planes", "Contacto") y redirige correctamente.<br><br>
-                    <strong>Escenario 2: Menú no carga o enlace roto</strong><br>
-                    <strong>Dado que</strong> el visitante está en la landing page,<br>
-                    <strong>Cuando</strong> el menú no se visualiza o un enlace falla,<br>
-                    <strong>Entonces</strong> se muestra un mensaje de error y se ofrecen enlaces alternativos.
+                    <strong>Escenario 1: Navegación exitosa a través del menú</strong><br>
+                    <strong>Dado que</strong> el visitante está en la landing page<br>
+                    <strong>Cuando</strong> el menú de navegación está disponible<br>
+                    <strong>Entonces</strong> el usuario puede ver los enlaces principales y navegar a las secciones correspondientes.<br><br>
+                    <strong>Escenario 2: Menú no disponible</strong><br>
+                    <strong>Dado que</strong> el visitante está en la landing page<br>
+                    <strong>Cuando</strong> el menú de navegación no se carga correctamente<br>
+                    <strong>Entonces</strong> el usuario recibe un mensaje de error y tiene opciones alternativas de navegación.
                 </td>
             </tr>
             <tr>
@@ -40,14 +40,14 @@
                 <td>Visualización de Planes</td>
                 <td>Como visitante de la Landing Page, quiero ver los planes de suscripción junto a su precio y características, para poder elegir el que mejor se adapte a mis necesidades.</td>
                 <td>
-                    <strong>Escenario 1: Visualización correcta de planes</strong><br>
-                    <strong>Dado que</strong> un visitante está en la sección de planes,<br>
-                    <strong>Cuando</strong> la página carga,<br>
-                    <strong>Entonces</strong> ve al menos 2 planes con precio, características y botón de selección, y puede compararlos.<br><br>
-                    <strong>Escenario 2: Error en carga de planes</strong><br>
-                    <strong>Dado que</strong> un visitante está en la sección de planes,<br>
-                    <strong>Cuando</strong> ocurre un error de carga,<br>
-                    <strong>Entonces</strong> se muestra un mensaje de error, una opción de recarga y contacto alternativo.
+                    <strong>Escenario 1: Visualización de planes disponibles</strong><br>
+                    <strong>Dado que</strong> el visitante navega a la sección de planes<br>
+                    <strong>Cuando</strong> los planes están disponibles en el sistema<br>
+                    <strong>Entonces</strong> el usuario puede ver la lista de planes con sus precios y características para compararlos.<br><br>
+                    <strong>Escenario 2: Planes no disponibles</strong><br>
+                    <strong>Dado que</strong> el visitante navega a la sección de planes<br>
+                    <strong>Cuando</strong> no hay planes disponibles o ocurre un error de carga<br>
+                    <strong>Entonces</strong> el usuario recibe un mensaje informativo sobre la indisponibilidad.
                 </td>
             </tr>
             <tr>
@@ -55,14 +55,14 @@
                 <td>Selección de Plan en Landing Page</td>
                 <td>Como visitante de la landing Page, quiero seleccionar un plan y finalizar la confirmación en la misma pantalla, para agilizar y simplificar el registro.</td>
                 <td>
-                    <strong>Escenario 1: Selección y confirmación exitosa</strong><br>
-                    <strong>Dado que</strong> un visitante ve los planes disponibles,<br>
-                    <strong>Cuando</strong> selecciona un plan y pulsa "Seleccionar",<br>
-                    <strong>Entonces</strong> se muestra un formulario en la misma pantalla con el plan seleccionado para completar y confirmar.<br><br>
-                    <strong>Escenario 2: Selección sin completar datos requeridos</strong><br>
-                    <strong>Dado que</strong> un visitante está en el formulario de confirmación,<br>
-                    <strong>Cuando</strong> intenta confirmar sin datos obligatorios,<br>
-                    <strong>Entonces</strong> se muestran mensajes de validación específicos y mantiene los datos ingresados.
+                    <strong>Escenario 1: Selección exitosa de plan</strong><br>
+                    <strong>Dado que</strong> el visitante ha seleccionado un plan disponible<br>
+                    <strong>Cuando</strong> confirma la selección<br>
+                    <strong>Entonces</strong> el sistema muestra el formulario de registro con el plan pre-seleccionado.<br><br>
+                    <strong>Escenario 2: Datos de registro incompletos</strong><br>
+                    <strong>Dado que</strong> el visitante está completando el formulario de registro<br>
+                    <strong>Cuando</strong> faltan datos obligatorios<br>
+                    <strong>Entonces</strong> el sistema muestra mensajes de validación específicos para los campos requeridos.
                 </td>
             </tr>
             <tr>
@@ -70,14 +70,14 @@
                 <td>Visualización de creadores</td>
                 <td>Como visitante de la Landing Page, quiero ver a los creadores de la aplicación, para conocer al equipo detrás del producto y generar confianza en el servicio.</td>
                 <td>
-                    <strong>Escenario 1: Acceso exitoso a información del equipo</strong><br>
-                    <strong>Dado que</strong> un visitante está en la landing page,<br>
-                    <strong>Cuando</strong> navega a la sección "Equipo",<br>
-                    <strong>Entonces</strong> ve la información de cada creador (nombre, foto, rol) y sus perfiles sociales si existen.<br><br>
-                    <strong>Escenario 2: Información de equipo no disponible</strong><br>
-                    <strong>Dado que</strong> un visitante está intentando acceder a la info del equipo,<br>
-                    <strong>Cuando</strong> la sección no carga correctamente,<br>
-                    <strong>Entonces</strong> se muestra un mensaje explicativo y contacto alternativo.
+                    <strong>Escenario 1: Acceso a información del equipo</strong><br>
+                    <strong>Dado que</strong> el visitante navega a la sección "Equipo"<br>
+                    <strong>Cuando</strong> la información del equipo está disponible<br>
+                    <strong>Entonces</strong> el usuario puede ver los detalles de los creadores incluyendo nombres, roles e información de contacto.<br><br>
+                    <strong>Escenario 2: Información del equipo no disponible</strong><br>
+                    <strong>Dado que</strong> el visitante navega a la sección "Equipo"<br>
+                    <strong>Cuando</strong> la información no está disponible<br>
+                    <strong>Entonces</strong> el usuario recibe un mensaje informativo sobre la indisponibilidad temporal.
                 </td>
             </tr>
             <tr>
@@ -86,13 +86,13 @@
                 <td>Como visitante del Landing Page quiero en el menú un botón para cambiar de idioma entre español e inglés para entender mejor de que trata Veyra.</td>
                 <td>
                     <strong>Escenario 1: Cambio exitoso de idioma</strong><br>
-                    <strong>Dado que</strong> un visitante está en la landing page en español,<br>
-                    <strong>Cuando</strong> selecciona la opción de cambio y elige inglés,<br>
-                    <strong>Entonces</strong> toda la interfaz cambia a inglés y la preferencia se mantiene al navegar.<br><br>
-                    <strong>Escenario 2: Idioma no disponible temporalmente</strong><br>
-                    <strong>Dado que</strong> un visitante intenta cambiar de idioma,<br>
-                    <strong>Cuando</strong> el servicio de traducción no está disponible,<br>
-                    <strong>Entonces</strong> se muestra un mensaje informativo y se mantiene el idioma actual.
+                    <strong>Dado que</strong> el visitante selecciona un idioma disponible<br>
+                    <strong>Cuando</strong> confirma el cambio de idioma<br>
+                    <strong>Entonces</strong> la interfaz se actualiza al idioma seleccionado y mantiene la preferencia.<br><br>
+                    <strong>Escenario 2: Idioma no disponible</strong><br>
+                    <strong>Dado que</strong> el visitante intenta cambiar a un idioma<br>
+                    <strong>Cuando</strong> el idioma seleccionado no está disponible<br>
+                    <strong>Entonces</strong> el sistema mantiene el idioma actual y muestra un mensaje informativo.
                 </td>
             </tr>
             <tr>
@@ -100,17 +100,16 @@
                 <td>Términos y condiciones</td>
                 <td>Como visitante de la landing page quiero poder acceder a los términos y condiciones de uso para conocer las políticas legales antes de contratar los servicios.</td>
                 <td>
-                    <strong>Escenario 1: Acceso exitoso a términos y condiciones</strong><br>
-                    <strong>Dado que</strong> un visitante se encuentra en la landing page,<br>
-                    <strong>Cuando</strong> busca los términos y condiciones de uso,<br>
-                    <strong>Entonces</strong> accede al documento completo (claro y actualizado) desde el footer o header.<br><br>
-                    <strong>Escenario 2: Aceptación requerida de términos actualizados</strong><br>
-                    <strong>Dado que</strong> los términos y condiciones han sido actualizados,<br>
-                    <strong>Cuando</strong> un usuario existente ingresa al sistema,<br>
-                    <strong>Entonces</strong> debe revisar y aceptar los nuevos términos (con cambios destacados) antes de continuar.
+                    <strong>Escenario 1: Acceso a términos y condiciones</strong><br>
+                    <strong>Dado que</strong> el visitante solicita ver los términos y condiciones<br>
+                    <strong>Cuando</strong> el documento está disponible<br>
+                    <strong>Entonces</strong> el usuario puede acceder al documento completo y actualizado.<br><br>
+                    <strong>Escenario 2: Términos actualizados requieren aceptación</strong><br>
+                    <strong>Dado que</strong> existen términos y condiciones actualizados<br>
+                    <strong>Cuando</strong> un usuario existente accede al sistema<br>
+                    <strong>Entonces</strong> el sistema requiere la revisión y aceptación de los nuevos términos antes de continuar.
                 </td>
             </tr>
-        </tbody>
            <tr>
                 <td>EP02</td>
                 <td>Soporte y contacto</td>
@@ -122,14 +121,14 @@
                 <td>Redes sociales</td>
                 <td>Como visitante del landing page quiero poder acceder fácilmente a sus redes sociales de Veyra para conocer más sobre la empresa y tener canales adicionales de contacto.</td>
                 <td>
-                    <strong>Escenario 1: Acceso exitoso a redes sociales</strong><br>
-                    <strong>Dado que</strong> un visitante está en la landing page,<br>
-                    <strong>Cuando</strong> busca enlaces de redes sociales (footer/header) y activa un ícono,<br>
-                    <strong>Entonces</strong> encuentra los íconos y se abre la página oficial en una nueva pestaña.<br><br>
-                    <strong>Escenario 2: Enlaces de redes sociales no funcionales</strong><br>
-                    <strong>Dado que</strong> un visitante intenta acceder a redes sociales,<br>
-                    <strong>Cuando</strong> interactúa con un ícono que no responde,<br>
-                    <strong>Entonces</strong> recibe un mensaje de error informativo y contacto alternativo.
+                    <strong>Escenario 1: Acceso a redes sociales</strong><br>
+                    <strong>Dado que</strong> el visitante busca los enlaces de redes sociales<br>
+                    <strong>Cuando</strong> los enlaces están disponibles<br>
+                    <strong>Entonces</strong> el usuario puede acceder a las páginas oficiales de las redes sociales.<br><br>
+                    <strong>Escenario 2: Enlaces no funcionales</strong><br>
+                    <strong>Dado que</strong> el visitante intenta acceder a una red social<br>
+                    <strong>Cuando</strong> el enlace no está funcionando<br>
+                    <strong>Entonces</strong> el usuario recibe un mensaje informativo sobre el problema.
                 </td>
             </tr>
             <tr>
@@ -138,13 +137,13 @@
                 <td>Como visitante del landing page quiero completar un formulario de contacto para enviar consultas específicas y recibir una respuesta personalizada de Veyra.</td>
                 <td>
                     <strong>Escenario 1: Envío exitoso de consulta</strong><br>
-                    <strong>Dado que</strong> un visitante está en el formulario de contacto,<br>
-                    <strong>Cuando</strong> completa campos requeridos (nombre, email, asunto, mensaje) y pulsa "Enviar",<br>
-                    <strong>Entonces</strong> recibe confirmación de envío, tiempo estimado de respuesta y copia por email.<br><br>
-                    <strong>Escenario 2: Formulario con datos inválidos</strong><br>
-                    <strong>Dado que</strong> un visitante está completando el formulario,<br>
-                    <strong>Cuando</strong> ingresa un email inválido o deja campos obligatorios vacíos e intenta enviar,<br>
-                    <strong>Entonces</strong> se muestran mensajes de validación específicos y se mantiene la información correcta.
+                    <strong>Dado que</strong> el visitante completa el formulario de contacto<br>
+                    <strong>Cuando</strong> todos los campos requeridos están completos y válidos<br>
+                    <strong>Entonces</strong> la consulta se envía exitosamente y el usuario recibe confirmación.<br><br>
+                    <strong>Escenario 2: Datos de contacto inválidos</strong><br>
+                    <strong>Dado que</strong> el visitante completa el formulario de contacto<br>
+                    <strong>Cuando</strong> existen campos inválidos o incompletos<br>
+                    <strong>Entonces</strong> el sistema muestra mensajes de validación específicos para los campos problemáticos.
                 </td>
             </tr>
         </tbody>
@@ -159,14 +158,14 @@
                 <td>Historial médico</td>
                 <td>Como familiar de un adulto mayor quiero acceder al historial médico completo de mi familiar para conocer su evolución de salud y diagnósticos actuales.</td>
                 <td>
-                    <strong>Escenario 1: Acceso exitoso al historial médico</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado,<br>
-                    <strong>Cuando</strong> navega a la sección "Historial Médico",<br>
-                    <strong>Entonces</strong> ve diagnósticos, evolución y actualizaciones, organizados cronológicamente y filtrables.<br><br>
-                    <strong>Escenario 2: Sin permisos para acceder a reportes</strong><br>
-                    <strong>Dado que</strong> un usuario intenta acceder al historial médico,<br>
-                    <strong>Cuando</strong> no tiene los permisos necesarios,<br>
-                    <strong>Entonces</strong> se muestra un mensaje de restricción e información para obtener permisos.
+                    <strong>Escenario 1: Acceso al historial médico</strong><br>
+                    <strong>Dado que</strong> el familiar está autenticado y tiene permisos<br>
+                    <strong>Cuando</strong> solicita ver el historial médico<br>
+                    <strong>Entonces</strong> el sistema muestra el historial médico completo organizado cronológicamente.<br><br>
+                    <strong>Escenario 2: Sin permisos para acceder al historial</strong><br>
+                    <strong>Dado que</strong> el usuario intenta acceder al historial médico<br>
+                    <strong>Cuando</strong> no tiene los permisos necesarios<br>
+                    <strong>Entonces</strong> el sistema muestra un mensaje de restricción de acceso.
                 </td>
             </tr>
             <tr>
@@ -174,14 +173,14 @@
                 <td>Agenda de citas Medicas</td>
                 <td>Como familiar de un adulto mayor quiero consultar la agenda de citas médicas de mi familiar para estar informado sobre sus próximos tratamientos.</td>
                 <td>
-                    <strong>Escenario 1: Visualización exitosa de citas programadas</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado,<br>
-                    <strong>Cuando</strong> accede a la agenda de citas,<br>
-                    <strong>Entonces</strong> ve todas las citas programadas (fecha, hora, médico, tipo) y puede filtrar por fechas.<br><br>
+                    <strong>Escenario 1: Visualización de citas programadas</strong><br>
+                    <strong>Dado que</strong> el familiar está autenticado<br>
+                    <strong>Cuando</strong> accede a la agenda de citas<br>
+                    <strong>Entonces</strong> el sistema muestra la lista de citas médicas programadas con sus detalles.<br><br>
                     <strong>Escenario 2: No hay citas programadas</strong><br>
-                    <strong>Dado que</strong> un familiar consulta la agenda,<br>
-                    <strong>Cuando</strong> no hay citas programadas,
-                    <strong>Entonces</strong> se muestra un mensaje informativo indicando que no hay citas y cómo programar.
+                    <strong>Dado que</strong> el familiar consulta la agenda de citas<br>
+                    <strong>Cuando</strong> no existen citas programadas<br>
+                    <strong>Entonces</strong> el sistema muestra un mensaje informativo sobre la ausencia de citas.
                 </td>
             </tr>
             <tr>
@@ -189,14 +188,14 @@
                 <td>Consulta de información personal</td>
                 <td>Como familiar de un adulto mayor quiero ver la información de mi familiar para estar seguro de que esté correcto o actualizado.</td>
                 <td>
-                    <strong>Escenario 1: Visualización exitosa de información personal</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado,<br>
-                    <strong>Cuando</strong> accede al perfil de información personal,<br>
-                    <strong>Entonces</strong> ve datos actualizados (nombre, edad, contacto emergencia, alergias, etc.) y tiene opciones para solicitar modificaciones.<br><br>
-                    <strong>Escenario 2: Información desactualizada detectada</strong><br>
-                    <strong>Dado que</strong> un familiar revisa información personal,<br>
-                    <strong>Cuando</strong> identifica información que necesita actualización,<br>
-                    <strong>Entonces</strong> puede marcar campos y enviar solicitudes de cambio con justificación.
+                    <strong>Escenario 1: Visualización de información personal</strong><br>
+                    <strong>Dado que</strong> el familiar está autenticado<br>
+                    <strong>Cuando</strong> accede al perfil de información personal<br>
+                    <strong>Entonces</strong> el sistema muestra la información personal actualizada del adulto mayor.<br><br>
+                    <strong>Escenario 2: Solicitud de actualización de información</strong><br>
+                    <strong>Dado que</strong> el familiar identifica información desactualizada<br>
+                    <strong>Cuando</strong> solicita una actualización<br>
+                    <strong>Entonces</strong> el sistema registra la solicitud de cambio con la justificación proporcionada.
                 </td>
             </tr>
             <tr>
@@ -204,14 +203,14 @@
                 <td>Galería de fotos y actividades</td>
                 <td>Como familiar de un adulto mayor quiero ver fotos de las actividades diarias de mi familiar para sentirme conectado con su día a día y verificar su participación social.</td>
                 <td>
-                    <strong>Escenario 1: Acceso exitoso a galería de actividades</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado,<br>
-                    <strong>Cuando</strong> accede a la galería de fotos,<br>
-                    <strong>Entonces</strong> ve fotos organizadas por fecha/actividad, con descripción, y puede filtrar.<br><br>
-                    <strong>Escenario 2: Sin actividades recientes registradas</strong><br>
-                    <strong>Dado que</strong> un familiar consulta la galería,<br>
-                    <strong>Cuando</strong> no hay fotos recientes de actividades,<br>
-                    <strong>Entonces</strong> se muestra un mensaje informativo y la frecuencia de actualización.
+                    <strong>Escenario 1: Acceso a galería de actividades</strong><br>
+                    <strong>Dado que</strong> el familiar está autenticado<br>
+                    <strong>Cuando</strong> accede a la galería de fotos<br>
+                    <strong>Entonces</strong> el sistema muestra las fotos organizadas por fecha y actividad.<br><br>
+                    <strong>Escenario 2: Sin actividades recientes</strong><br>
+                    <strong>Dado que</strong> el familiar consulta la galería<br>
+                    <strong>Cuando</strong> no hay fotos recientes disponibles<br>
+                    <strong>Entonces</strong> el sistema muestra un mensaje informativo sobre la frecuencia de actualización.
                 </td>
             </tr>
         </tbody>
@@ -227,14 +226,14 @@
                 <td>Registro de residentes</td>
                 <td>Como administrador de casa de reposo quiero crear y mantener perfiles completos de cada residente para centralizar toda su información personal y médica.</td>
                 <td>
-                    <strong>Escenario 1: Creación exitosa de perfil de residente</strong><br>
-                    <strong>Dado que</strong> un administrador está autenticado,<br>
-                    <strong>Cuando</strong> completa el formulario de registro con toda la información requerida,<br>
-                    <strong>Entonces</strong> el perfil se crea exitosamente y se genera un ID único.<br><br>
-                    <strong>Escenario 2: Error en datos requeridos para registro</strong><br>
-                    <strong>Dado que</strong> un administrador está creando un perfil,<br>
-                    <strong>Cuando</strong> falta información crítica requerida e intenta guardar,<br>
-                    <strong>Entonces</strong> se muestran mensajes específicos de campos faltantes y se mantiene la data ingresada.
+                    <strong>Escenario 1: Creación exitosa de perfil</strong><br>
+                    <strong>Dado que</strong> el administrador proporciona información completa del residente<br>
+                    <strong>Cuando</strong> envía el formulario de registro<br>
+                    <strong>Entonces</strong> el sistema crea el perfil y genera un ID único para el residente.<br><br>
+                    <strong>Escenario 2: Datos requeridos faltantes</strong><br>
+                    <strong>Dado que</strong> el administrador intenta crear un perfil<br>
+                    <strong>Cuando</strong> faltan datos críticos requeridos<br>
+                    <strong>Entonces</strong> el sistema muestra mensajes específicos indicando los campos obligatorios.
                 </td>
             </tr>
             <tr>
@@ -242,14 +241,14 @@
                 <td>Historial médico institucional</td>
                 <td>Como administrador quiero gestionar el historial médico completo de cada residente para asegurar continuidad en el cuidado y cumplir con regulaciones sanitarias.</td>
                 <td>
-                    <strong>Escenario 1: Gestión exitosa de historial médico completo</strong><br>
-                    <strong>Dado que</strong> un administrador tiene permisos médicos,<br>
-                    <strong>Cuando</strong> accede al historial médico de un residente,<br>
-                    <strong>Entonces</strong> puede ver, agregar y actualizar información (diagnósticos, tratamientos), quedando registrado con fecha y responsable.<br><br>
-                    <strong>Escenario 2: Acceso sin permisos médicos suficientes</strong><br>
-                    <strong>Dado que</strong> un usuario intenta acceder al historial institucional,<br>
-                    <strong>Cuando</strong> no posee los permisos necesarios,<br>
-                    <strong>Entonces</strong> se restringe el acceso con un mensaje explicativo.
+                    <strong>Escenario 1: Gestión de historial médico</strong><br>
+                    <strong>Dado que</strong> el administrador tiene permisos médicos<br>
+                    <strong>Cuando</strong> accede al historial médico de un residente<br>
+                    <strong>Entonces</strong> puede ver, agregar y actualizar información médica con registro de fecha y responsable.<br><br>
+                    <strong>Escenario 2: Acceso sin permisos médicos</strong><br>
+                    <strong>Dado que</strong> un usuario intenta acceder al historial médico<br>
+                    <strong>Cuando</strong> no tiene los permisos necesarios<br>
+                    <strong>Entonces</strong> el sistema restringe el acceso y muestra un mensaje explicativo.
                 </td>
             </tr>
             <tr>
@@ -257,14 +256,14 @@
                 <td>Administración de medicamentos</td>
                 <td>Como administrador quiero controlar la administración de medicamentos de todos los residentes para garantizar cumplimiento de tratamientos y evitar errores médicos.</td>
                 <td>
-                    <strong>Escenario 1: Control exitoso de administración de medicamentos</strong><br>
-                    <strong>Dado que</strong> un administrador está en el módulo de medicamentos,<br>
-                    <strong>Cuando</strong> registra la administración de medicamentos,<br>
-                    <strong>Entonces</strong> puede marcarla con hora exacta, registrar observaciones y el sistema alerta sobre próximas dosis.<br><br>
-                    <strong>Escenario 2: Medicamento no disponible en inventario</strong><br>
-                    <strong>Dado que</strong> un administrador intenta registrar una administración,<br>
-                    <strong>Cuando</strong> el medicamento no está disponible en inventario,<br>
-                    <strong>Entonces</strong> el sistema muestra alerta de falta de stock y proporciona opciones de contacto.
+                    <strong>Escenario 1: Registro de administración de medicamentos</strong><br>
+                    <strong>Dado que</strong> el administrador registra la administración de un medicamento<br>
+                    <strong>Cuando</strong> el medicamento está disponible en inventario<br>
+                    <strong>Entonces</strong> el sistema registra la administración con hora exacta y observaciones.<br><br>
+                    <strong>Escenario 2: Medicamento no disponible</strong><br>
+                    <strong>Dado que</strong> el administrador intenta registrar una administración<br>
+                    <strong>Cuando</strong> el medicamento no está disponible en inventario<br>
+                    <strong>Entonces</strong> el sistema muestra una alerta de falta de stock.
                 </td>
             </tr>
             <tr>
@@ -272,14 +271,14 @@
                 <td>Gestión de visitas familiares</td>
                 <td>Como administrador quiero controlar y programar las visitas familiares a los residentes para mantener seguridad, orden y cumplir con los horarios establecidos.</td>
                 <td>
-                    <strong>Escenario 1: Programación exitosa de visita familiar</strong><br>
-                    <strong>Dado que</strong> un administrador está en el módulo de visitas,<br>
-                    <strong>Cuando</strong> programa una nueva visita (fecha, hora, visitantes, residente),<br>
-                    <strong>Entonces</strong> el sistema verifica disponibilidad, genera confirmación y envía recordatorios automáticos.<br><br>
-                    <strong>Escenario 2: Conflicto de horarios en visitas</strong><br>
-                    <strong>Dado que</strong> un administrador está programando una visita,<br>
-                    <strong>Cuando</strong> el horario solicitado ya está ocupado,<br>
-                    <strong>Entonces</strong> el sistema muestra horarios alternativos disponibles y permite reprogramar.
+                    <strong>Escenario 1: Programación exitosa de visita</strong><br>
+                    <strong>Dado que</strong> el administrador programa una nueva visita<br>
+                    <strong>Cuando</strong> el horario solicitado está disponible<br>
+                    <strong>Entonces</strong> el sistema registra la visita y genera confirmación.<br><br>
+                    <strong>Escenario 2: Conflicto de horarios</strong><br>
+                    <strong>Dado que</strong> el administrador programa una visita<br>
+                    <strong>Cuando</strong> el horario solicitado ya está ocupado<br>
+                    <strong>Entonces</strong> el sistema muestra horarios alternativos disponibles.
                 </td>
             </tr>
         </tbody>
@@ -294,14 +293,14 @@
                 <td>Recordatorios de citas y consultas</td>
                 <td>Como familiar quiero recibir recordatorios automáticos sobre citas médicas y consultas programadas de mi familiar para estar preparado y decidir si deseo acompañarlo.</td>
                 <td>
-                    <strong>Escenario 1: Envío exitoso de recordatorios automáticos</strong><br>
-                    <strong>Dado que</strong> el sistema tiene citas médicas programadas,<br>
-                    <strong>Cuando</strong> se acerca una cita (ej. 24 horas antes),<br>
-                    <strong>Entonces</strong> se envía recordatorio automático (email/SMS) a familiares con detalles, y pueden confirmar.<br><br>
+                    <strong>Escenario 1: Envío de recordatorios automáticos</strong><br>
+                    <strong>Dado que</strong> existe una cita médica programada<br>
+                    <strong>Cuando</strong> se acerca la fecha de la cita<br>
+                    <strong>Entonces</strong> el sistema envía recordatorios automáticos a los familiares autorizados.<br><br>
                     <strong>Escenario 2: Falla en envío de recordatorios</strong><br>
-                    <strong>Dado que</strong> el sistema intenta enviar recordatorios,<br>
-                    <strong>Cuando</strong> falla el servicio de notificaciones,<br>
-                    <strong>Entonces</strong> se registra el error, se intenta reenvío automático y se notifica al administrador.
+                    <strong>Dado que</strong> el sistema intenta enviar recordatorios<br>
+                    <strong>Cuando</strong> falla el servicio de notificaciones<br>
+                    <strong>Entonces</strong> el sistema registra el error y notifica al administrador.
                 </td>
             </tr>
             <tr>
@@ -309,14 +308,14 @@
                 <td>Notificaciones de cambios en medicación</td>
                 <td>Como familiar quiero ser notificado inmediatamente sobre cualquier cambio en la medicación de mi familiar para estar informado sobre su tratamiento médico.</td>
                 <td>
-                    <strong>Escenario 1: Notificación inmediata de cambio en medicación</strong><br>
-                    <strong>Dado que</strong> ha ocurrido un cambio en la medicación,<br>
-                    <strong>Cuando</strong> el médico actualiza el tratamiento farmacológico,<br>
-                    <strong>Entonces</strong> se envía notificación inmediata a familiares autorizados con detalles del cambio y justificación.<br><br>
-                    <strong>Escenario 2: Familiar no autorizado para recibir información médica</strong><br>
-                    <strong>Dado que</strong> ha ocurrido un cambio en la medicación,<br>
-                    <strong>Cuando</strong> un familiar no está autorizado para recibir esa información,<br>
-                    <strong>Entonces</strong> no recibe la notificación, respetando las preferencias de privacidad.
+                    <strong>Escenario 1: Notificación de cambio en medicación</strong><br>
+                    <strong>Dado que</strong> ocurre un cambio en la medicación del residente<br>
+                    <strong>Cuando</strong> el médico actualiza el tratamiento<br>
+                    <strong>Entonces</strong> el sistema envía notificación inmediata a familiares autorizados.<br><br>
+                    <strong>Escenario 2: Familiar no autorizado</strong><br>
+                    <strong>Dado que</strong> ocurre un cambio en la medicación<br>
+                    <strong>Cuando</strong> un familiar no está autorizado para recibir esa información<br>
+                    <strong>Entonces</strong> el sistema no envía la notificación, respetando las preferencias de privacidad.
                 </td>
             </tr>
             <tr>
@@ -324,14 +323,14 @@
                 <td>Recordatorios de visitas familiares</td>
                 <td>Como familiar quiero recibir recordatorios automáticos sobre mis visitas programadas al adulto mayor para no olvidar las citas y mantener regularidad en el contacto.</td>
                 <td>
-                    <strong>Escenario 1: Recordatorio exitoso de visita programada</strong><br>
-                    <strong>Dado que</strong> hay una visita familiar programada,<br>
-                    <strong>Cuando</strong> faltan 2 horas para la visita,<br>
-                    <strong>Entonces</strong> se envía recordatorio automático al familiar (fecha, hora, residente) y puede confirmar/cancelar.<br><br>
-                    <strong>Escenario 2: Cancelación de visita por emergencia</strong><br>
-                    <strong>Dado que</strong> hay una visita familiar programada,<br>
-                    <strong>Cuando</strong> ocurre una emergencia que requiere cancelar la visita,<br>
-                    <strong>Entonces</strong> se envía notificación inmediata de cancelación con explicación y alternativas.
+                    <strong>Escenario 1: Recordatorio de visita programada</strong><br>
+                    <strong>Dado que</strong> existe una visita familiar programada<br>
+                    <strong>Cuando</strong> se acerca la hora de la visita<br>
+                    <strong>Entonces</strong> el sistema envía recordatorio automático al familiar.<br><br>
+                    <strong>Escenario 2: Cancelación de visita</strong><br>
+                    <strong>Dado que</strong> existe una visita programada<br>
+                    <strong>Cuando</strong> ocurre una emergencia que requiere cancelación<br>
+                    <strong>Entonces</strong> el sistema envía notificación inmediata de cancelación.
                 </td>
             </tr>
             <tr>
@@ -339,14 +338,14 @@
                 <td>Alertas de actualización de datos personales</td>
                 <td>Como familiar quiero recibir notificaciones automáticas cuando se actualice la información personal o de mi familiar para mantenerme informado de cualquier cambio en su perfil.</td>
                 <td>
-                    <strong>Escenario 1: Notificación exitosa de actualización de datos</strong><br>
-                    <strong>Dado que</strong> ha ocurrido una actualización en los datos personales del residente,<br>
-                    <strong>Cuando</strong> se modifica información (ej. contacto de emergencia, estado de salud),<br>
-                    <strong>Entonces</strong> se envía notificación a familiares autorizados especificando qué información fue actualizada.<br><br>
+                    <strong>Escenario 1: Notificación de actualización de datos</strong><br>
+                    <strong>Dado que</strong> se actualiza información personal del residente<br>
+                    <strong>Cuando</strong> se modifican datos relevantes<br>
+                    <strong>Entonces</strong> el sistema envía notificación a familiares autorizados especificando los cambios.<br><br>
                     <strong>Escenario 2: Actualización sin autorización para notificar</strong><br>
-                    <strong>Dado que</strong> ha ocurrido una actualización de datos,<br>
-                    <strong>Cuando</strong> el familiar no tiene autorización para recibir ese tipo de información,<br>
-                    <strong>Entonces</strong> no recibe notificación sobre datos restringidos, respetando la privacidad.
+                    <strong>Dado que</strong> se actualiza información personal<br>
+                    <strong>Cuando</strong> el familiar no tiene autorización para recibir esa información<br>
+                    <strong>Entonces</strong> el sistema no envía notificación sobre datos restringidos.
                 </td>
             </tr>
         </tbody>
@@ -361,14 +360,14 @@
                 <td>Preguntas sobre rutina de cuidados</td>
                 <td>Como familiar quiero hacer preguntas específicas sobre la rutina diaria y cuidados de mi familiar para entender mejor su día a día y resolver dudas puntuales.</td>
                 <td>
-                    <strong>Escenario 1: Envío exitoso de pregunta sobre cuidados</strong><br>
-                    <strong>Dado que</strong> un familiar está autenticado en el sistema de comunicación,<br>
-                    <strong>Cuando</strong> redacta y envía una pregunta específica sobre cuidados,<br>
-                    <strong>Entonces</strong> la consulta se envía al personal asignado, recibe confirmación y tiempo estimado de respuesta.<br><br>
+                    <strong>Escenario 1: Envío de pregunta sobre cuidados</strong><br>
+                    <strong>Dado que</strong> el familiar está autenticado<br>
+                    <strong>Cuando</strong> envía una pregunta sobre cuidados<br>
+                    <strong>Entonces</strong> la consulta se envía al personal asignado y recibe confirmación.<br><br>
                     <strong>Escenario 2: Canal de comunicación no disponible</strong><br>
-                    <strong>Dado que</strong> un familiar intenta enviar una pregunta,<br>
-                    <strong>Cuando</strong> el sistema de comunicación no está disponible,<br>
-                    <strong>Entonces</strong> se muestra un mensaje temporal y se proporcionan números de teléfono alternativos.
+                    <strong>Dado que</strong> el familiar intenta enviar una pregunta<br>
+                    <strong>Cuando</strong> el sistema de comunicación no está disponible<br>
+                    <strong>Entonces</strong> el usuario recibe un mensaje temporal con opciones alternativas.
                 </td>
             </tr>
             <tr>
@@ -376,14 +375,14 @@
                 <td>Peticiones de modificación de cuidados</td>
                 <td>Como familiar quiero solicitar ajustes específicos en el cuidado de mi familiar basados en sus preferencias o necesidades particulares.</td>
                 <td>
-                    <strong>Escenario 1: Solicitud exitosa de modificación de cuidados</strong><br>
-                    <strong>Dado que</strong> un familiar (con permisos) solicita un cambio en cuidados,<br>
-                    <strong>Cuando</strong> envía una petición detallada,<br>
-                    <strong>Entonces</strong> la solicitud se registra con N° de seguimiento, se notifica al coordinador y recibe plazos de evaluación.<br><br>
+                    <strong>Escenario 1: Solicitud de modificación de cuidados</strong><br>
+                    <strong>Dado que</strong> el familiar tiene permisos para solicitar cambios<br>
+                    <strong>Cuando</strong> envía una petición detallada<br>
+                    <strong>Entonces</strong> el sistema registra la solicitud con número de seguimiento.<br><br>
                     <strong>Escenario 2: Solicitud que requiere aprobación médica</strong><br>
-                    <strong>Dado que</strong> un familiar solicita una modificación,<br>
-                    <strong>Cuando</strong> la petición involucra aspectos médicos o terapéuticos,<br>
-                    <strong>Entonces</strong> se deriva automáticamente al equipo médico y se informa al familiar sobre el proceso.
+                    <strong>Dado que</strong> el familiar solicita una modificación<br>
+                    <strong>Cuando</strong> la petición involucra aspectos médicos<br>
+                    <strong>Entonces</strong> el sistema deriva automáticamente la solicitud al equipo médico.
                 </td>
             </tr>
             <tr>
@@ -391,14 +390,14 @@
                 <td>Seguimiento del bienestar emocional</td>
                 <td>Como familiar quiero comunicarme con el personal sobre el estado emocional y psicológico de mi familiar para asegurar su bienestar integral.</td>
                 <td>
-                    <strong>Escenario 1: Comunicación exitosa sobre estado emocional</strong><br>
-                    <strong>Dado que</strong> un familiar está preocupado por el bienestar emocional,<br>
-                    <strong>Cuando</strong> envía consulta sobre estado anímico o adaptación,<br>
-                    <strong>Entonces</strong> se comunica con psicología/trabajo social y recibe respuesta profesional y recomendaciones.<br><br>
-                    <strong>Escenario 2: Situación emocional que requiere atención inmediata</strong><br>
-                    <strong>Dado que</strong> un familiar reporta cambios emocionales significativos,<br>
-                    <strong>Cuando</strong> la situación indica posible crisis emocional,<br>
-                    <strong>Entonces</strong> se escalona a atención psicológica prioritaria y se coordina intervención con el familiar.
+                    <strong>Escenario 1: Comunicación sobre estado emocional</strong><br>
+                    <strong>Dado que</strong> el familiar está preocupado por el bienestar emocional<br>
+                    <strong>Cuando</strong> envía consulta sobre estado anímico<br>
+                    <strong>Entonces</strong> el sistema comunica la consulta al área de psicología/trabajo social.<br><br>
+                    <strong>Escenario 2: Situación que requiere atención inmediata</strong><br>
+                    <strong>Dado que</strong> el familiar reporta cambios emocionales significativos<br>
+                    <strong>Cuando</strong> la situación indica posible crisis emocional<br>
+                    <strong>Entonces</strong> el sistema escala la situación a atención psicológica prioritaria.
                 </td>
             </tr>
             <tr>
@@ -406,14 +405,14 @@
                 <td>Planificación de eventos familiares</td>
                 <td>Como familiar quiero coordinar con el personal la organización de eventos especiales o celebraciones para mi familiar dentro de las instalaciones.</td>
                 <td>
-                    <strong>Escenario 1: Coordinación exitosa de evento familiar</strong><br>
-                    <strong>Dado que</strong> un familiar planifica un evento especial (ej. cumpleaños),<br>
-                    <strong>Cuando</strong> solicita coordinación especificando fecha, invitados y requerimientos,<br>
-                    <strong>Entonces</strong> el personal evalúa viabilidad, coordina espacios/recursos y envía confirmación.<br><br>
-                    <strong>Escenario 2: Evento que no cumple con protocolos institucionales</strong><br>
-                    <strong>Dado que</strong> un familiar solicita un evento,<br>
-                    <strong>Cuando</strong> la solicitud involucra aspectos no permitidos por políticas institucionales,<br>
-                    <strong>Entonces</strong> se explican las limitaciones y se ofrecen alternativas que cumplan con protocolos.
+                    <strong>Escenario 1: Coordinación de evento familiar</strong><br>
+                    <strong>Dado que</strong> el familiar planifica un evento especial<br>
+                    <strong>Cuando</strong> solicita coordinación especificando requerimientos<br>
+                    <strong>Entonces</strong> el personal evalúa viabilidad y coordina los recursos necesarios.<br><br>
+                    <strong>Escenario 2: Evento no permitido por protocolos</strong><br>
+                    <strong>Dado que</strong> el familiar solicita un evento<br>
+                    <strong>Cuando</strong> la solicitud no cumple con políticas institucionales<br>
+                    <strong>Entonces</strong> el sistema explica las limitaciones y ofrece alternativas.
                 </td>
             </tr>
         </tbody>
@@ -428,14 +427,14 @@
                 <td>Registro de medicamentos en inventario</td>
                 <td>Como administrador quiero registrar todos los medicamentos que ingresan al inventario con sus datos completos para mantener un catálogo actualizado.</td>
                 <td>
-                    <strong>Escenario 1: Registro exitoso de medicamentos</strong><br>
-                    <strong>Dado que</strong> un administrador está en el módulo de inventario,<br>
-                    <strong>Cuando</strong> registra un nuevo medicamento con datos requeridos (nombre, lote, vencimiento, cantidad),<br>
-                    <strong>Entonces</strong> se añade al inventario, se genera ID, se actualiza stock y se registra el ingreso (fecha, responsable).<br><br>
-                    <strong>Escenario 2: Medicamento duplicado en inventario</strong><br>
-                    <strong>Dado que</strong> un administrador está registrando un medicamento,<br>
-                    <strong>Cuando</strong> intenta ingresar un medicamento que ya existe con el mismo lote,<br>
-                    <strong>Entonces</strong> el sistema detecta la duplicación, muestra alerta y permite actualizar la cantidad del lote existente.
+                    <strong>Escenario 1: Registro exitoso de medicamento</strong><br>
+                    <strong>Dado que</strong> el administrador registra un nuevo medicamento<br>
+                    <strong>Cuando</strong> proporciona todos los datos requeridos<br>
+                    <strong>Entonces</strong> el sistema añade el medicamento al inventario y actualiza el stock.<br><br>
+                    <strong>Escenario 2: Medicamento duplicado</strong><br>
+                    <strong>Dado que</strong> el administrador registra un medicamento<br>
+                    <strong>Cuando</strong> intenta ingresar un medicamento con lote duplicado<br>
+                    <strong>Entonces</strong> el sistema detecta la duplicación y muestra alerta.
                 </td>
             </tr>
             <tr>
@@ -443,14 +442,14 @@
                 <td>Alertas de vencimiento</td>
                 <td>Como administrador quiero recibir alertas automáticas sobre medicamentos próximos a vencer para evitar pérdidas y riesgos de seguridad.</td>
                 <td>
-                    <strong>Escenario 1: Generación de alerta por medicamentos próximos a vencer</strong><br>
-                    <strong>Dado que</strong> hay medicamentos en inventario próximos a vencer,<br>
-                    <strong>Cuando</strong> faltan 30 días para la fecha de vencimiento,<br>
-                    <strong>Entonces</strong> se genera alerta automática al admin (lista, cantidades, fechas) y se sugieren acciones.<br><br>
-                    <strong>Escenario 2: Medicamentos ya vencidos en inventario</strong><br>
-                    <strong>Dado que</strong> hay medicamentos que han superado su fecha de vencimiento,<br>
-                    <strong>Cuando</strong> el sistema detecta medicamentos vencidos,<br>
-                    <strong>Entonces</strong> se bloquea automáticamente su uso, se genera alerta crítica y se registra la pérdida.
+                    <strong>Escenario 1: Alerta por medicamentos próximos a vencer</strong><br>
+                    <strong>Dado que</strong> existen medicamentos próximos a vencer<br>
+                    <strong>Cuando</strong> faltan 30 días para la fecha de vencimiento<br>
+                    <strong>Entonces</strong> el sistema genera alerta automática al administrador.<br><br>
+                    <strong>Escenario 2: Medicamentos vencidos en inventario</strong><br>
+                    <strong>Dado que</strong> existen medicamentos vencidos<br>
+                    <strong>Cuando</strong> el sistema detecta medicamentos vencidos<br>
+                    <strong>Entonces</strong> el sistema bloquea automáticamente su uso y genera alerta crítica.
                 </td>
             </tr>
             <tr>
@@ -459,13 +458,13 @@
                 <td>Como administrador quiero eliminar medicamentos del inventario de manera controlada para mantener la precisión del stock y cumplir con protocolos de disposición.</td>
                 <td>
                     <strong>Escenario 1: Eliminación controlada de medicamento</strong><br>
-                    <strong>Dado que</strong> un administrador necesita eliminar un medicamento,<br>
-                    <strong>Cuando</strong> selecciona el medicamento, especifica la razón (vencido, dañado, usado) y justifica,<br>
-                    <strong>Entonces</strong> el sistema registra la eliminación (fecha, cantidad, responsable), actualiza stock y genera reporte.<br><br>
+                    <strong>Dado que</strong> el administrador necesita eliminar un medicamento<br>
+                    <strong>Cuando</strong> especifica la razón y justificación<br>
+                    <strong>Entonces</strong> el sistema registra la eliminación y actualiza el stock.<br><br>
                     <strong>Escenario 2: Intento de eliminación sin autorización</strong><br>
-                    <strong>Dado que</strong> un usuario intenta eliminar un medicamento,<br>
-                    <strong>Cuando</strong> no posee los permisos necesarios,<br>
-                    <strong>Entonces</strong> el sistema niega el acceso, registra el intento y notifica al administrador.
+                    <strong>Dado que</strong> un usuario intenta eliminar un medicamento<br>
+                    <strong>Cuando</strong> no posee los permisos necesarios<br>
+                    <strong>Entonces</strong> el sistema niega el acceso y registra el intento.
                 </td>
             </tr>
             <tr>
@@ -473,14 +472,14 @@
                 <td>Búsqueda y filtrado de inventario</td>
                 <td>Como administrador quiero filtrar y buscar medicamentos en el inventario para encontrar rápidamente información específica y generar reportes personalizados.</td>
                 <td>
-                    <strong>Escenario 1: Búsqueda exitosa de medicamentos</strong><br>
-                    <strong>Dado que</strong> un administrador está en el módulo de inventario,<br>
-                    <strong>Cuando</strong> utiliza filtros de búsqueda (nombre, laboratorio, vencimiento, categoría),<br>
-                    <strong>Entonces</strong> obtiene resultados precisos, ordenables y puede exportarlos.<br><br>
+                    <strong>Escenario 1: Búsqueda de medicamentos</strong><br>
+                    <strong>Dado que</strong> el administrador busca medicamentos<br>
+                    <strong>Cuando</strong> utiliza filtros de búsqueda<br>
+                    <strong>Entonces</strong> el sistema retorna resultados precisos según los criterios.<br><br>
                     <strong>Escenario 2: Búsqueda sin resultados</strong><br>
-                    <strong>Dado que</strong> un administrador está buscando un medicamento,<br>
-                    <strong>Cuando</strong> los criterios de búsqueda no coinciden,<br>
-                    <strong>Entonces</strong> se muestra un mensaje "sin resultados" y se sugieren búsquedas alternativas.
+                    <strong>Dado que</strong> el administrador busca medicamentos<br>
+                    <strong>Cuando</strong> los criterios no coinciden con ningún medicamento<br>
+                    <strong>Entonces</strong> el sistema muestra mensaje de "sin resultados".
                 </td>
             </tr>
             <tr>
@@ -488,14 +487,14 @@
                 <td>Información de medicamentos para personal</td>
                 <td>Como administrador quiero proporcionar información detallada sobre medicamentos al personal para asegurar administración segura y correcta.</td>
                 <td>
-                    <strong>Escenario 1: Acceso exitoso a información detallada de medicamentos</strong><br>
-                    <strong>Dado que</strong> personal autorizado está consultando información,<br>
-                    <strong>Cuando</strong> accede a detalles de un medicamento específico,<br>
-                    <strong>Entonces</strong> ve información completa (dosificación, contraindicaciones, etc.) y protocolos de administración.<br><br>
+                    <strong>Escenario 1: Acceso a información de medicamentos</strong><br>
+                    <strong>Dado que</strong> personal autorizado consulta información<br>
+                    <strong>Cuando</strong> accede a detalles de un medicamento<br>
+                    <strong>Entonces</strong> el sistema muestra información completa y protocolos de administración.<br><br>
                     <strong>Escenario 2: Medicamento con alertas especiales</strong><br>
-                    <strong>Dado que</strong> personal consulta un medicamento,<br>
-                    <strong>Cuando</strong> este tiene alertas de seguridad o administración especial,<br>
-                    <strong>Entonces</strong> se muestran las alertas prominentemente y se requiere confirmación de lectura.
+                    <strong>Dado que</strong> personal consulta un medicamento<br>
+                    <strong>Cuando</strong> el medicamento tiene alertas de seguridad<br>
+                    <strong>Entonces</strong> el sistema muestra las alertas prominentemente.
                 </td>
             </tr>
         </tbody>
@@ -511,13 +510,13 @@
                 <td>Como administrador quiero registrar y mantener los perfiles completos del personal para tener información actualizada de todos los empleados.</td>
                 <td>
                     <strong>Escenario 1: Registro exitoso de empleado</strong><br>
-                    <strong>Dado que</strong> un admin de RRHH registra un nuevo empleado,<br>
-                    <strong>Cuando</strong> completa la información requerida (personal, profesional, rol, contacto),<br>
-                    <strong>Entonces</strong> el perfil se crea, se genera ID de empleado y se asignan permisos según el rol.<br><br>
+                    <strong>Dado que</strong> el administrador registra un nuevo empleado<br>
+                    <strong>Cuando</strong> completa la información requerida<br>
+                    <strong>Entonces</strong> el sistema crea el perfil y asigna permisos según el rol.<br><br>
                     <strong>Escenario 2: Información incompleta de empleado</strong><br>
-                    <strong>Dado que</strong> un admin registra un empleado,<br>
-                    <strong>Cuando</strong> faltan datos críticos (ej. certificaciones requeridas),<br>
-                    <strong>Entonces</strong> el sistema indica qué información falta y no activa permisos hasta que esté completa.
+                    <strong>Dado que</strong> el administrador registra un empleado<br>
+                    <strong>Cuando</strong> faltan datos críticos requeridos<br>
+                    <strong>Entonces</strong> el sistema indica qué información falta y no activa permisos.
                 </td>
             </tr>
             <tr>
@@ -525,14 +524,14 @@
                 <td>Baja de personal</td>
                 <td>Como administrador quiero dar de baja empleados del sistema para mantener registros actualizados y gestionar finalizaciones de contratos.</td>
                 <td>
-                    <strong>Escenario 1: Proceso exitoso de baja de empleado</strong><br>
-                    <strong>Dado que</strong> un admin procesa la baja de un empleado,<br>
-                    <strong>Cuando</strong> especifica fecha de terminación y motivo,<br>
-                    <strong>Entonces</strong> se desactivan accesos, se genera reporte de finalización y se notifica a supervisores.<br><br>
+                    <strong>Escenario 1: Proceso de baja de empleado</strong><br>
+                    <strong>Dado que</strong> el administrador procesa la baja de un empleado<br>
+                    <strong>Cuando</strong> especifica fecha de terminación y motivo<br>
+                    <strong>Entonces</strong> el sistema desactiva accesos y genera reporte de finalización.<br><br>
                     <strong>Escenario 2: Empleado con responsabilidades activas</strong><br>
-                    <strong>Dado que</strong> un admin intenta dar de baja a un empleado,<br>
-                    <strong>Cuando</strong> el empleado tiene residentes asignados o tareas críticas pendientes,<br>
-                    <strong>Entonces</strong> el sistema alerta sobre responsabilidades y requiere reasignación completa antes de procesar.
+                    <strong>Dado que</strong> el administrador intenta dar de baja a un empleado<br>
+                    <strong>Cuando</strong> el empleado tiene responsabilidades activas<br>
+                    <strong>Entonces</strong> el sistema alerta sobre responsabilidades y requiere reasignación.
                 </td>
             </tr>
             <tr>
@@ -540,14 +539,14 @@
                 <td>Búsqueda y filtrado de empleados</td>
                 <td>Como administrador quiero filtrar y buscar empleados según diferentes criterios para encontrar rápidamente personal específico.</td>
                 <td>
-                    <strong>Escenario 1: Búsqueda exitosa de empleados</strong><br>
-                    <strong>Dado que</strong> un admin se encuentra en gestión de personal,<br>
-                    <strong>Cuando</strong> utiliza filtros (departamento, rol, turno, estado),<br>
-                    <strong>Entonces</strong> obtiene una lista precisa de empleados y puede exportarla.<br><br>
-                    <strong>Escenario 2: Filtros que no retornan resultados</strong><br>
-                    <strong>Dado que</strong> un admin aplica filtros específicos,<br>
-                    <strong>Cuando</strong> la combinación de filtros no coincide,<br>
-                    <strong>Entonces</strong> se muestra un mensaje "sin resultados" y se sugiere modificar criterios.
+                    <strong>Escenario 1: Búsqueda de empleados</strong><br>
+                    <strong>Dado que</strong> el administrador busca empleados<br>
+                    <strong>Cuando</strong> utiliza filtros de búsqueda<br>
+                    <strong>Entonces</strong> el sistema retorna lista precisa de empleados según criterios.<br><br>
+                    <strong>Escenario 2: Filtros sin resultados</strong><br>
+                    <strong>Dado que</strong> el administrador aplica filtros específicos<br>
+                    <strong>Cuando</strong> la combinación no coincide con empleados<br>
+                    <strong>Entonces</strong> el sistema muestra mensaje "sin resultados".
                 </td>
             </tr>
             <tr>
@@ -555,14 +554,14 @@
                 <td>Gestión de horas extra</td>
                 <td>Como administrador quiero controlar las horas extra trabajadas por el personal para gestionar costos laborales y cumplir con regulaciones de trabajo.</td>
                 <td>
-                    <strong>Escenario 1: Registro exitoso de horas extra</strong><br>
-                    <strong>Dado que</strong> un admin registra horas extra,<br>
-                    <strong>Cuando</strong> especifica empleado, fecha, horas y justificación,<br>
-                    <strong>Entonces</strong> las horas se registran, se calculan montos según tarifas y se notifica al empleado.<br><br>
-                    <strong>Escenario 2: Horas extra que exceden límites permitidos</strong><br>
-                    <strong>Dado que</strong> un admin registra horas extra,<br>
-                    <strong>Cuando</strong> las horas superan los máximos permitidos por regulaciones,<br>
-                    <strong>Entonces</strong> el sistema muestra alerta sobre violación de límites y requiere autorización especial.
+                    <strong>Escenario 1: Registro de horas extra</strong><br>
+                    <strong>Dado que</strong> el administrador registra horas extra<br>
+                    <strong>Cuando</strong> especifica empleado, fecha, horas y justificación<br>
+                    <strong>Entonces</strong> el sistema registra las horas y calcula montos según tarifas.<br><br>
+                    <strong>Escenario 2: Horas que exceden límites permitidos</strong><br>
+                    <strong>Dado que</strong> el administrador registra horas extra<br>
+                    <strong>Cuando</strong> las horas superan los máximos permitidos<br>
+                    <strong>Entonces</strong> el sistema muestra alerta y requiere autorización especial.
                 </td>
             </tr>
         </tbody>
@@ -577,14 +576,14 @@
                 <td>Gestión de horarios de atención</td>
                 <td>Como administrador quiero configurar los horarios de atención y servicios para informar claramente a familias sobre disponibilidad.</td>
                 <td>
-                    <strong>Escenario 1: Configuración exitosa de horarios</strong><br>
-                    <strong>Dado que</strong> un admin configura horarios de atención,<br>
-                    <strong>Cuando</strong> establece horarios por servicio, día y disponibilidad,<br>
-                    <strong>Entonces</strong> los horarios se actualizan en la plataforma, las familias los ven y se sincronizan con citas.<br><br>
+                    <strong>Escenario 1: Configuración de horarios</strong><br>
+                    <strong>Dado que</strong> el administrador configura horarios de atención<br>
+                    <strong>Cuando</strong> establece horarios por servicio y día<br>
+                    <strong>Entonces</strong> el sistema actualiza los horarios en la plataforma.<br><br>
                     <strong>Escenario 2: Cambio de horarios por emergencia</strong><br>
-                    <strong>Dado que</strong> un admin modifica horarios por emergencia,<br>
-                    <strong>Cuando</strong> debe cambiar horarios por situaciones imprevistas,<br>
-                    <strong>Entonces</strong> puede realizar cambios inmediatos con notificación automática a partes afectadas.
+                    <strong>Dado que</strong> el administrador modifica horarios por emergencia<br>
+                    <strong>Cuando</strong> debe cambiar horarios por situaciones imprevistas<br>
+                    <strong>Entonces</strong> el sistema permite cambios inmediatos con notificación automática.
                 </td>
             </tr>
             <tr>
@@ -592,14 +591,14 @@
                 <td>Datos de contacto institucional</td>
                 <td>Como administrador quiero gestionar la información de contacto de la casa de reposo para que familias y autoridades tengan acceso a datos actualizados.</td>
                 <td>
-                    <strong>Escenario 1: Actualización exitosa de información de contacto</strong><br>
-                    <strong>Dado que</strong> un admin actualiza datos de contacto institucional,<br>
-                    <strong>Cuando</strong> modifica teléfonos, emails o dirección,<br>
-                    <strong>Entonces</strong> la información se actualiza en toda la plataforma (landing, apps) y se notifica a familias.<br><br>
+                    <strong>Escenario 1: Actualización de información de contacto</strong><br>
+                    <strong>Dado que</strong> el administrador actualiza datos de contacto<br>
+                    <strong>Cuando</strong> modifica teléfonos, emails o dirección<br>
+                    <strong>Entonces</strong> el sistema actualiza la información en toda la plataforma.<br><br>
                     <strong>Escenario 2: Información de contacto de emergencia</strong><br>
-                    <strong>Dado que</strong> hay una situación de emergencia,<br>
-                    <strong>Cuando</strong> familias necesitan contactar urgentemente,<br>
-                    <strong>Entonces</strong> tienen acceso inmediato a números de emergencia 24/7 y reciben respuesta rápida.
+                    <strong>Dado que</strong> existe una situación de emergencia<br>
+                    <strong>Cuando</strong> familias necesitan contactar urgentemente<br>
+                    <strong>Entonces</strong> tienen acceso inmediato a números de emergencia 24/7.
                 </td>
             </tr>
             <tr>
@@ -607,13 +606,13 @@
                 <td>Información del personal directivo</td>
                 <td>Como administrador quiero gestionar la información del personal directivo para transparencia hacia familias y autoridades.</td>
                 <td>
-                    <strong>Escenario 1: Gestión de información de personal directivo</strong><br>
-                    <strong>Dado que</strong> un admin actualiza información de personal directivo,<br>
-                    <strong>Cuando</strong> modifica información de directores o coordinadores clave,<br>
-                    <strong>Entonces</strong> la info (credenciales, experiencia, rol) se presenta a familias/autoridades y se mantiene verificable.<br><br>
-                    <strong>Escenario 2: Acceso a información directiva por autoridades</strong><br>
-                    <strong>Dado que</strong> autoridades sanitarias requieren información,<br>
-                    <strong>Cuando</strong> necesitan verificar credenciales y responsabilidades del personal clave,<br>
+                    <strong>Escenario 1: Gestión de información directiva</strong><br>
+                    <strong>Dado que</strong> el administrador actualiza información de personal directivo<br>
+                    <strong>Cuando</strong> modifica información de directores o coordinadores<br>
+                    <strong>Entonces</strong> el sistema actualiza la información para familias y autoridades.<br><br>
+                    <strong>Escenario 2: Acceso a información por autoridades</strong><br>
+                    <strong>Dado que</strong> autoridades requieren información directiva<br>
+                    <strong>Cuando</strong> necesitan verificar credenciales y responsabilidades<br>
                     <strong>Entonces</strong> pueden acceder a la información completa y actualizada.
                 </td>
             </tr>
@@ -622,14 +621,14 @@
                 <td>Historia institucional</td>
                 <td>Como administrador quiero gestionar la información histórica y reconocimientos de la casa de reposo para generar confianza y credibilidad.</td>
                 <td>
-                    <strong>Escenario 1: Presentación de historia y reconocimientos institucionales</strong><br>
-                    <strong>Dado que</strong> un admin gestiona información histórica,<br>
-                    <strong>Cuando</strong> actualiza historia, certificaciones y logros,<br>
-                    <strong>Entonces</strong> la información se presenta de manera creíble, incluye certificaciones vigentes y genera confianza.<br><br>
-                    <strong>Escenario 2: Verificación de certificaciones por autoridades</strong><br>
-                    <strong>Dado que</strong> autoridades verifican certificaciones institucionales,<br>
-                    <strong>Cuando</strong> requieren confirmar validez de licencias,<br>
-                    <strong>Entonces</strong> pueden acceder a información verificable (N° de registro, fechas) y contactos de entidades.
+                    <strong>Escenario 1: Presentación de historia institucional</strong><br>
+                    <strong>Dado que</strong> el administrador gestiona información histórica<br>
+                    <strong>Cuando</strong> actualiza historia, certificaciones y logros<br>
+                    <strong>Entonces</strong> el sistema presenta la información de manera creíble.<br><br>
+                    <strong>Escenario 2: Verificación de certificaciones</strong><br>
+                    <strong>Dado que</strong> autoridades verifican certificaciones<br>
+                    <strong>Cuando</strong> requieren confirmar validez de licencias<br>
+                    <strong>Entonces</strong> pueden acceder a información verificable y contactos de entidades.
                 </td>
             </tr>
         </tbody>
@@ -644,14 +643,14 @@
                 <td>Gestión de usuarios y permisos</td>
                 <td>Como administrador quiero saber quién tiene acceso al sistema y qué información puede ver cada usuario para proteger la privacidad de los datos.</td>
                 <td>
-                    <strong>Escenario 1: Configuración exitosa de permisos de usuario</strong><br>
-                    <strong>Dado que</strong> un admin de sistema gestiona accesos,<br>
-                    <strong>Cuando</strong> asigna roles y permisos específicos a usuarios (familiares, personal, etc.),<br>
+                    <strong>Escenario 1: Configuración de permisos de usuario</strong><br>
+                    <strong>Dado que</strong> el administrador gestiona accesos<br>
+                    <strong>Cuando</strong> asigna roles y permisos específicos a usuarios<br>
                     <strong>Entonces</strong> cada usuario accede únicamente a la información autorizada para su rol.<br><br>
                     <strong>Escenario 2: Intento de acceso no autorizado</strong><br>
-                    <strong>Dado que</strong> un usuario intenta acceder a información,<br>
-                    <strong>Cuando</strong> intenta ver datos que no le corresponden según su rol,<br>
-                    <strong>Entonces</strong> el sistema bloquea el acceso, registra el intento y notifica al admin.
+                    <strong>Dado que</strong> un usuario intenta acceder a información<br>
+                    <strong>Cuando</strong> intenta ver datos que no le corresponden según su rol<br>
+                    <strong>Entonces</strong> el sistema bloquea el acceso y registra el intento.
                 </td>
             </tr>
             <tr>
@@ -659,13 +658,13 @@
                 <td>Protección de datos mediante cifrado</td>
                 <td>Como administrador quiero que toda la información sensible esté cifrada para proteger los datos personales y médicos de accesos no autorizados.</td>
                 <td>
-                    <strong>Escenario 1: Cifrado exitoso de datos sensibles</strong><br>
-                    <strong>Dado que</strong> el sistema almacena información personal y médica,<br>
-                    <strong>Cuando</strong> se guardan datos sensibles o se comunican (red),<br>
-                    <strong>Entonces</strong> toda la información se cifra automáticamente antes del almacenamiento y durante la transmisión.<br><br>
+                    <strong>Escenario 1: Cifrado de datos sensibles</strong><br>
+                    <strong>Dado que</strong> el sistema almacena información personal y médica<br>
+                    <strong>Cuando</strong> se guardan datos sensibles o se comunican<br>
+                    <strong>Entonces</strong> toda la información se cifra automáticamente antes del almacenamiento y transmisión.<br><br>
                     <strong>Escenario 2: Intento de acceso a datos cifrados sin autorización</strong><br>
-                    <strong>Dado que</strong> hay un intento de acceso directo a datos cifrados,<br>
-                    <strong>Cuando</strong> alguien intenta acceder sin autorización apropiada,<br>
+                    <strong>Dado que</strong> hay un intento de acceso directo a datos cifrados<br>
+                    <strong>Cuando</strong> alguien intenta acceder sin autorización apropiada<br>
                     <strong>Entonces</strong> los datos permanecen inaccesibles y se activan alertas de seguridad.
                 </td>
             </tr>
@@ -681,14 +680,14 @@
                 <td>Menú de navegación consistente</td>
                 <td>Como usuario quiero un menú de navegación claro y consistente en todas las páginas para encontrar fácilmente las funciones que necesito.</td>
                 <td>
-                    <strong>Escenario 1: Navegación consistente en toda la plataforma</strong><br>
-                    <strong>Dado que</strong> un usuario se encuentra en cualquier página,<br>
-                    <strong>Cuando</strong> utiliza el menú de navegación,<br>
-                    <strong>Entonces</strong> encuentra las mismas opciones organizadas idénticamente, adaptadas a la pantalla e indicando la ubicación.<br><br>
-                    <strong>Escenario 2: Menú adaptado a permisos de usuario</strong><br>
-                    <strong>Dado que</strong> usuarios con diferentes roles acceden al sistema,<br>
-                    <strong>Cuando</strong> navegan por la plataforma,<br>
-                    <strong>Entonces</strong> ven solo las opciones de menú apropiadas para su rol (las opciones restringidas no aparecen).
+                    <strong>Escenario 1: Navegación consistente</strong><br>
+                    <strong>Dado que</strong> el usuario se encuentra en cualquier página<br>
+                    <strong>Cuando</strong> utiliza el menú de navegación<br>
+                    <strong>Entonces</strong> encuentra las mismas opciones organizadas idénticamente.<br><br>
+                    <strong>Escenario 2: Menú adaptado a permisos</strong><br>
+                    <strong>Dado que</strong> usuarios con diferentes roles acceden al sistema<br>
+                    <strong>Cuando</strong> navegan por la plataforma<br>
+                    <strong>Entonces</strong> ven solo las opciones de menú apropiadas para su rol.
                 </td>
             </tr>
             <tr>
@@ -697,13 +696,13 @@
                 <td>Como usuario quiero una interfaz con colores y tipografía consistentes para tener una experiencia visual agradable y fácil de leer.</td>
                 <td>
                     <strong>Escenario 1: Aplicación consistente de diseño visual</strong><br>
-                    <strong>Dado que</strong> se muestra cualquier página de la plataforma,<br>
-                    <strong>Cuando</strong> un usuario navega por diferentes secciones,<br>
-                    <strong>Entonces</strong> encuentra colores y tipografía consistentes, legibles y con contraste que cumple estándares de accesibilidad.<br><br>
-                    <strong>Escenario 2: Adaptación para usuarios con necesidades especiales</strong><br>
-                    <strong>Dado que</strong> usuarios con dificultades visuales acceden,<br>
-                    <strong>Cuando</strong> acceden a la plataforma,<br>
-                    <strong>Entonces</strong> pueden utilizar funciones de alto contraste o aumento de texto, manteniendo la legibilidad.
+                    <strong>Dado que</strong> se muestra cualquier página de la plataforma<br>
+                    <strong>Cuando</strong> el usuario navega por diferentes secciones<br>
+                    <strong>Entonces</strong> encuentra colores y tipografía consistentes y legibles.<br><br>
+                    <strong>Escenario 2: Adaptación para necesidades especiales</strong><br>
+                    <strong>Dado que</strong> usuarios con dificultades visuales acceden<br>
+                    <strong>Cuando</strong> acceden a la plataforma<br>
+                    <strong>Entonces</strong> pueden utilizar funciones de alto contraste o aumento de texto.
                 </td>
             </tr>
             <tr>
@@ -711,14 +710,14 @@
                 <td>Diseño de formularios usables</td>
                 <td>Como usuario quiero formularios claros y fáciles de completar para ingresar información sin confusión ni errores.</td>
                 <td>
-                    <strong>Escenario 1: Completar formularios de manera eficiente</strong><br>
-                    <strong>Dado que</strong> un usuario completa cualquier formulario,<br>
-                    <strong>Cuando</strong> ingresa información requerida,<br>
-                    <strong>Entonces</strong> los campos están etiquetados, organizados, recibe validación en tiempo real y confirmación al enviar.<br><br>
+                    <strong>Escenario 1: Completar formularios</strong><br>
+                    <strong>Dado que</strong> el usuario completa un formulario<br>
+                    <strong>Cuando</strong> ingresa información requerida<br>
+                    <strong>Entonces</strong> recibe validación en tiempo real y confirmación al enviar.<br><br>
                     <strong>Escenario 2: Formulario con errores de validación</strong><br>
-                    <strong>Dado que</strong> un usuario envía un formulario con información incorrecta,<br>
-                    <strong>Cuando</strong> existen errores en los datos ingresados,<br>
-                    <strong>Entonces</strong> recibe mensajes de error específicos y mantiene la información correcta ya ingresada.
+                    <strong>Dado que</strong> el usuario envía un formulario con información incorrecta<br>
+                    <strong>Cuando</strong> existen errores en los datos ingresados<br>
+                    <strong>Entonces</strong> recibe mensajes de error específicos para cada campo.
                 </td>
             </tr>
             <tr>
@@ -726,14 +725,14 @@
                 <td>Patrones de diseño coherentes</td>
                 <td>Como usuario quiero que todas las pantallas sigan patrones de diseño similares para predecir dónde encontrar funciones y cómo interactuar.</td>
                 <td>
-                    <strong>Escenario 1: Interacción predecible en toda la plataforma</strong><br>
-                    <strong>Dado que</strong> un usuario está familiarizado con una sección,<br>
-                    <strong>Cuando</strong> navega a nuevas secciones,<br>
-                    <strong>Entonces</strong> encuentra patrones de interacción similares (botones, controles) y predecibles.<br><br>
+                    <strong>Escenario 1: Interacción predecible</strong><br>
+                    <strong>Dado que</strong> el usuario está familiarizado con una sección<br>
+                    <strong>Cuando</strong> navega a nuevas secciones<br>
+                    <strong>Entonces</strong> encuentra patrones de interacción similares y predecibles.<br><br>
                     <strong>Escenario 2: Nuevos usuarios aprendiendo la interfaz</strong><br>
-                    <strong>Dado que</strong> un nuevo usuario accede por primera vez,<br>
-                    <strong>Cuando</strong> explora diferentes funcionalidades,<br>
-                    <strong>Entonces</strong> puede predecir cómo funcionarán nuevas secciones basándose en la consistencia de la interfaz.
+                    <strong>Dado que</strong> un nuevo usuario accede por primera vez<br>
+                    <strong>Cuando</strong> explora diferentes funcionalidades<br>
+                    <strong>Entonces</strong> puede predecir cómo funcionarán nuevas secciones.
                 </td>
             </tr>
             <tr>
@@ -742,13 +741,13 @@
                 <td>Como usuario quiero que los errores se presenten de forma clara y con soluciones sugeridas para resolver problemas sin frustración.</td>
                 <td>
                     <strong>Escenario 1: Error del sistema con guía de resolución</strong><br>
-                    <strong>Dado que</strong> ocurre un error técnico (sistema o conectividad),<br>
-                    <strong>Cuando</strong> el usuario lo experimenta,<br>
-                    <strong>Entonces</strong> recibe un mensaje claro explicando qué ocurrió, pasos para resolverlo y contacto alternativo.<br><br>
-                    <strong>Escenario 2: Error de usuario con orientación educativa</strong><br>
-                    <strong>Dado que</strong> un usuario comete un error (acción incorrecta),<br>
-                    <strong>Cuando</strong> realiza una acción no permitida,<br>
-                    <strong>Entonces</strong> recibe una explicación clara del porqué y orientación sobre la forma correcta de proceder.
+                    <strong>Dado que</strong> ocurre un error técnico<br>
+                    <strong>Cuando</strong> el usuario lo experimenta<br>
+                    <strong>Entonces</strong> recibe un mensaje claro explicando qué ocurrió y pasos para resolverlo.<br><br>
+                    <strong>Escenario 2: Error de usuario con orientación</strong><br>
+                    <strong>Dado que</strong> el usuario comete un error<br>
+                    <strong>Cuando</strong> realiza una acción no permitida<br>
+                    <strong>Entonces</strong> recibe una explicación clara y orientación sobre la forma correcta.
                 </td>
             </tr>
             <tr>
