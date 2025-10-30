@@ -81,11 +81,11 @@ Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores e
 
 <tr>
     <td width="140" valign="top" align="center">
-      <img src="../images/Jhordi.jpeg" alt="Jhordi Photo" width="120" />
+      <img src="../images/Aqc.jpeg" alt="Adrian Photo" width="120" />
     </td>
     <td valign="top">
-      <strong>Jhordi Luis Carranza Pérez - (U20191E835)</strong> - Ingeniería de Software<br><br>
-      Soy Jhordi Carranza y actualmente curso el sexto ciclo de Ingeniería de Software. Tengo experiencia en desarrollo web, especialmente en frontend. Además, soy músico trompetista y practico deportes de resistencia y al aire libre. Me quiero enfocar más adelante en Telecomunicaciones o Neurociencia computacional. Mis habilidades incluyen empatía, compromiso y colaboración. Me comprometo a desarrollar un proyecto con buena salida en el mundo y que ayude a muchas personas.
+      <strong>Adrian Alonso Quiroz Cáceres - (U202214864)</strong> - Ingeniería de Software<br><br>
+      Soy Adrian Quiroz, tengo 21 años y actualmente curso el quinto ciclo de Ingeniería de Software. Poseo conocimientos en C++ y bases de datos, áreas que me permiten contribuir al desarrollo de soluciones digitales.
     </td>
   </tr>
   
