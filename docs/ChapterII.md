@@ -528,31 +528,31 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 
 **1) Segmento 1: Administradores de casas de reposo**
 
-Para los administradores se elaboró el User Persona **Recoba Funciyu Valenzuela Huaynillo**. Se consideraron factores como su edad, rol en la gestión de una casa de reposo, experiencia en la administración del cuidado de adultos mayores y su necesidad de optimizar procesos de comunicación y gestión de la información. Sus principales frustraciones giran en torno a la falta de un sistema centralizado para el control de historias clínicas, medicamentos y citas médicas, lo que genera demoras en la comunicación con familiares y dificultades en el seguimiento de residentes. Asimismo, se tomó en cuenta su familiaridad con herramientas digitales básicas y la necesidad de contar con una plataforma moderna, intuitiva y segura que le permita centralizar toda la información de manera ágil y confiable.
+Para los administradores se elaboró el User Persona **Mauricio Sánchez Valencia**. Se consideraron factores como su edad, rol en la gestión de una casa de reposo, experiencia en la administración del cuidado de adultos mayores y su necesidad de optimizar procesos de comunicación y gestión de la información. Sus principales frustraciones giran en torno a la falta de un sistema centralizado para el control de historias clínicas, medicamentos y citas médicas, lo que genera demoras en la comunicación con familiares y dificultades en el seguimiento de residentes. Asimismo, se tomó en cuenta su familiaridad con herramientas digitales básicas y la necesidad de contar con una plataforma moderna, intuitiva y segura que le permita centralizar toda la información de manera ágil y confiable.
 
-<img src="../images/User Persona Segmento 1.png" alt="User Persona 1" width="auto" height="1900"/>
+<img src="../images/User Persona Segmento_1.png" alt="User Persona 1" width="auto" height="1900"/>
 
 <br>
 
 **2) Segmento 2: Familiares de adultos mayores**
 
-Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se consideraron aspectos como su edad, ocupación y su rol como familiar de un adulto mayor residente en una casa de reposo. Sus principales motivaciones están orientadas a mantenerse informada en tiempo real sobre el estado de salud, el tratamiento y la administración de medicamentos de su familiar, incluso mientras desarrolla sus actividades laborales. Entre sus frustraciones se encuentra la falta de información clara, la demora en las notificaciones sobre urgencias y la necesidad de depender de llamadas o visitas presenciales. Su perfil refleja una predisposición positiva hacia el uso de soluciones digitales, siempre que estas sean rápidas, confiables y fáciles de utilizar.
+Para los familiares se elaboró el User Persona **Carmen Morales Quispe**. Se consideraron aspectos como su edad, ocupación y su rol como familiar de un adulto mayor residente en una casa de reposo. Sus principales motivaciones están orientadas a mantenerse informada en tiempo real sobre el estado de salud, el tratamiento y la administración de medicamentos de su familiar, incluso mientras desarrolla sus actividades laborales. Entre sus frustraciones se encuentra la falta de información clara, la demora en las notificaciones sobre urgencias y la necesidad de depender de llamadas o visitas presenciales. Su perfil refleja una predisposición positiva hacia el uso de soluciones digitales, siempre que estas sean rápidas, confiables y fáciles de utilizar.
 
-<img src="../images/User Persona Segmento 2.png" alt="User Persona 2" width="auto" height="1900"/>
+<img src="../images/User Persona Segmento_2.png" alt="User Persona 2" width="auto" height="1900"/>
 
 <h3>2.3.2. User Task Matrix</h3>
 <p>
 El <em>User Task Matrix</em> concentra las tareas que realizan los segmentos considerados de este proyecto, independientemente de la existencia del software. 
 Se evalúan con dos criterios por cada User Persona: <strong>Frecuencia</strong> (Rarely / Occasionally / Often) e <strong>Importancia</strong> (Low / Medium / High).<br>
-Segmentos considerados: <strong>Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong> y <strong>Familiar de adulto mayor (Yvonne Madrid Risco)</strong>.
+Segmentos considerados: <strong>Administrador de casa de reposo (Mauricio Sánchez Valencia)</strong> y <strong>Familiar de adulto mayor (Carmen Morales Quispe)</strong>.
 </p>
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
   <thead>
     <tr style="background-color:#eef3f7;">
       <th rowspan="2">Tarea</th>
-      <th colspan="2">Administrador – Recoba Funciyu Valenzuela</th>
-      <th colspan="2">Familiar – Yvonne Madrid Risco</th>
+      <th colspan="2">Administrador – Mauricio Sánchez Valencia</th>
+      <th colspan="2">Familiar – Carmen Morales Quispe</th>
     </tr>
     <tr style="background-color:#eef3f7;">
       <th>Frecuencia</th>
@@ -628,54 +628,54 @@ Las principales diferencias: el Administrador es dueño de procesos (creación/g
 
 ### 2.3.3. User Journey Mapping
 
-<p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
+<p><strong>Segmento 1 – Administrador de casa de reposo (Mauricio Sánchez Valencia)</strong></p>
 
-El User Journey Map de Recoba representa el recorrido actual que experimenta como administrador de una casa de reposo, en la gestión diaria de información médica, coordinación con el personal y comunicación con familiares de los residentes.
+El User Journey Mapping de Mauricio representa el recorrido actual que experimenta como administrador de una casa de reposo, en la gestión diaria de información médica, coordinación con el personal y comunicación con familiares de los residentes.
 El mapa ilustra el proceso end-to-end, desde la recolección de datos de los pacientes hasta la generación de reportes y la respuesta a consultas externas.
 
-En la situación **As-Is**, Recoba enfrenta un flujo de trabajo manual y fragmentado: revisa documentos físicos, consolida información en hojas de cálculo y mantiene la comunicación por canales informales como llamadas o mensajes.
+En la situación **As-Is**, Mauricio enfrenta un flujo de trabajo manual y fragmentado: revisa documentos físicos, consolida información en hojas de cálculo y mantiene la comunicación por canales informales como llamadas o mensajes.
 Esto genera demoras, sobrecarga de tareas y posibles errores en la actualización de datos.
 
 El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando las emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Decision-Making).
 Este análisis servirá como base para diseñar una solución tecnológica que automatice procesos, mejore la eficiencia y facilite la interacción entre administración, personal y familiares.
 
-<img src="../images/Journey Map Segmento 1.png" alt="Journey Map Segmento 1" width="auto" height="450"/>
+<img src="../images/Journey Map Segmento_1.png" alt="Journey Map Segmento 1" width="auto" height="450"/>
 
 <br>
 
 
-<p><strong>Segmento 2 – Familiar de adulto mayor (Yvonne Madrid Risco)</strong></p>
+<p><strong>Segmento 2 – Familiar de adulto mayor (Carmen Morales Quispe)</strong></p>
 
-El User Journey Map de Ivonne describe la experiencia completa que vive como familiar de un adulto mayor residente en la casa de reposo, desde el momento en que busca información sobre su ser querido hasta que recibe actualizaciones sobre su estado de salud.
+El User Journey Mapping de Carmen describe la experiencia completa que vive como familiar de un adulto mayor residente en la casa de reposo, desde el momento en que busca información sobre su ser querido hasta que recibe actualizaciones sobre su estado de salud.
 El mapa detalla las etapas de su recorrido end-to-end, reflejando las acciones, pensamientos, emociones y frustraciones que enfrenta actualmente sin contar con una plataforma digital centralizada.
 
-En la situación **As-Is**, Yvonne depende de medios tradicionales como llamadas telefónicas, correos o mensajes de WhatsApp para comunicarse con el personal del centro.
+En la situación **As-Is**, Carmen depende de medios tradicionales como llamadas telefónicas, correos o mensajes de WhatsApp para comunicarse con el personal del centro.
 Esto provoca demoras, pérdida de información y una sensación constante de incertidumbre sobre el bienestar de su familiar.
 
 El Journey permite comprender su perspectiva emocional y sus puntos de dolor, mostrando los momentos clave en los que necesita información rápida, confiable y accesible.
 Este análisis busca sentar las bases para una futura solución tecnológica que le brinde tranquilidad, transparencia y confianza, fortaleciendo su vínculo con el centro y con el cuidado de su familiar.
 
-<img src="../images/Journey Map Segmento 2.png" alt="Journey Map Segmento 2" width="auto" height="450"/>
+<img src="../images/Journey Map Segmento_2.png" alt="Journey Map Segmento 2" width="auto" height="450"/>
 
 <br>
 
 ### 2.3.4. Empathy Mapping
 
-Para la elaboración de los *Empathy Maps*, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Recoba Funciyu Valenzuela y Yvonne Madrid Risco) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
+Para la elaboración de los *Empathy Maps*, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Mauricio Sánchez Valencia y Carmen Morales Quispe) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
 
 **Segmento 1: Administradores de casas de reposo**
 
-<img src="../images/Empathy map Segmento 1.png" alt="Empathy Mapping 1" width="auto" height="1400"/>
+<img src="../images/Empathy map Segmento_1.png" alt="Empathy Mapping 1" width="auto" height="1400"/>
 
-En este mapa se analizó a Recoba Funciyu Valenzuela, un administrador joven con la responsabilidad de garantizar la calidad del servicio en una casa de reposo. Se identificó que piensa constantemente en la necesidad de organizar y centralizar la información médica y operativa de los residentes, ya que le preocupa que los procesos manuales generen errores y retrasos. Escucha las quejas de familiares por falta de comunicación oportuna y observa cómo sus colegas deben invertir tiempo en tareas repetitivas en lugar de enfocarse en el bienestar de los residentes. Recoba expresa la necesidad de contar con una solución moderna que mejore la gestión y actúa implementando estrategias de control básicas con las herramientas disponibles, aunque estas son limitadas. Su dolor principal es la sobrecarga administrativa y la falta de un sistema ágil, mientras que su ganancia esperada es lograr eficiencia en la gestión, confianza de los familiares y un mejor control de la información.
+En este mapa se analizó a Mauricio Sánchez Valencia, un administrador joven con la responsabilidad de garantizar la calidad del servicio en una casa de reposo. Se identificó que piensa constantemente en la necesidad de organizar y centralizar la información médica y operativa de los residentes, ya que le preocupa que los procesos manuales generen errores y retrasos. Escucha las quejas de familiares por falta de comunicación oportuna y observa cómo sus colegas deben invertir tiempo en tareas repetitivas en lugar de enfocarse en el bienestar de los residentes. Mauricio expresa la necesidad de contar con una solución moderna que mejore la gestión y actúa implementando estrategias de control básicas con las herramientas disponibles, aunque estas son limitadas. Su dolor principal es la sobrecarga administrativa y la falta de un sistema ágil, mientras que su ganancia esperada es lograr eficiencia en la gestión, confianza de los familiares y un mejor control de la información.
 
 <br>
 
 **Segmento 2: Familiares de adultos mayores**
 
-<img src="../images/Empathy map Segmento 2.png" alt="Empathy Mapping 2" width="auto" height="1400"/>
+<img src="../images/Empathy map Segmento_2.png" alt="Empathy Mapping 2" width="auto" height="1400"/>
 
-En este mapa se analizó a Yvonne Madrid Risco, una comerciante que busca mantenerse informada sobre el estado de salud de su familiar mientras desarrolla sus actividades diarias. Ella piensa en la tranquilidad que le daría tener acceso rápido y claro a la evolución médica, medicación y tratamientos de su ser querido. Escucha a otros familiares compartir la frustración por la falta de información y observa que depender de llamadas o visitas no siempre es suficiente. Yvonne suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa buscando cualquier canal de comunicación disponible para mantenerse al tanto. Su dolor principal es la incertidumbre y la demora en recibir notificaciones sobre emergencias, mientras que su ganancia esperada es tener confianza, tranquilidad y control al poder consultar la información médica en tiempo real desde cualquier lugar.
+En este mapa se analizó a Carmen Morales Quispe, una comerciante que busca mantenerse informada sobre el estado de salud de su familiar mientras desarrolla sus actividades diarias. Ella piensa en la tranquilidad que le daría tener acceso rápido y claro a la evolución médica, medicación y tratamientos de su ser querido. Escucha a otros familiares compartir la frustración por la falta de información y observa que depender de llamadas o visitas no siempre es suficiente. Carmen suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa buscando cualquier canal de comunicación disponible para mantenerse al tanto. Su dolor principal es la incertidumbre y la demora en recibir notificaciones sobre emergencias, mientras que su ganancia esperada es tener confianza, tranquilidad y control al poder consultar la información médica en tiempo real desde cualquier lugar.
 
 
 ## 2.4. Big Picture Event Storming
