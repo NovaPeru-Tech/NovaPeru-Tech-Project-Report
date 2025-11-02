@@ -1274,7 +1274,7 @@
 
 ## 3.2. Impact Mapping
 
-<img src="../images/Impact map 1.png" alt="Impact map 1" width="auto" height="auto"/>
+<img src="../images/Impact_map.png" alt="Impact map 1" width="auto" height="auto"/>
 
 ## 3.3. Product Backlog
 
