@@ -1069,7 +1069,10 @@
             </td>
         </tr>
         <tr>
-            <td colspan="4">EPIC SIN DEFINIR - Actividades</td>
+            <td>EP12</td>
+            <td>Gestión de Actividades</td>
+            <td>Como administrador de la casa de reposo, quiero planificar, publicar y gestionar actividades (recreativas, médicas, sociales) para residentes, con inscripción y control de aforo, para mejorar adherencia y bienestar.</td>
+            <td></td>
         </tr>
         <tr>
             <td>TS-A001</td>
@@ -1141,7 +1144,10 @@
             </td>
         </tr>
         <tr>
-            <td colspan="4">EPIC SIN DEFINIR - Estadísticas</td>
+            <td>EP13</td>
+            <td>Analítica y Estadísticas Operativas</td>
+            <td>Como administrador de la casa de reposo, quiero un panel con métricas clave (residentes, personal, inventario, ocupación, actividades) para tomar decisiones informadas y priorizar acciones.</td>
+            <td></td>
         </tr>
         <tr>
             <td>TS-ST001</td>
@@ -1180,7 +1186,10 @@
             </td>
         </tr>
         <tr>
-            <td colspan="4">EPIC SIN DEFINIR - Integraciones Externas</td>
+            <td>EP14</td>
+            <td>Integraciones Externas</td>
+            <td>Como administrador de la casa de reposo, quiero que el sistema integre servicios externos (Google Maps, Stripe y SMS/TOTP) para validar direcciones, procesar pagos seguros y proteger el acceso con MFA, de modo que la operación sea confiable y trazable con auditoría y métricas unificadas.</td>
+            <td></td>
         </tr>
         <tr>
             <td>TS16</td>
