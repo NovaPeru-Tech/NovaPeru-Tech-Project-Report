@@ -788,7 +788,7 @@
         </tr>
         <tr>
             <td>TS-RM003</td>
-            <td>Ver toda información detallada de los pacientes</td>
+            <td>Ver  información detallada de todo  los pacientes</td>
             <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET para listar todos los residentes de un nursing home.</td>
             <td>
                 <strong>Escenario: Listar todos los residentes del nursing home</strong><br>
