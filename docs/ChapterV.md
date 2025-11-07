@@ -250,52 +250,33 @@ let edadAitor: number = 18;
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 <p>
-En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) para el Sprint 1, donde se detallan los aspectos principales del Sprint, y para cada aspecto se indica quién es el líder (L) y quiénes son colaboradores (C). Esto tiene como objetivo brindar mayor claridad y efectividad en la comunicación interna del equipo y facilitar la asignación y seguimiento de tareas.
+En esta sección se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong> correspondiente al Sprint 1. 
+Su propósito es identificar claramente los aspectos principales del sprint y asignar responsabilidades de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) para fortalecer la comunicación, coordinación y trazabilidad del trabajo dentro del equipo.
 </p>
 
 <p>
-Para el Sprint 1, se han definido los siguientes aspectos:
+Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 1 Goal, asegurando cobertura total de los entregables planificados.
 </p>
 
 <ul>
-  <li><strong>Desarrollo de la Landing Page:</strong> Diseño, estructura, contenido y funcionalidad de la página principal del proyecto.</li>
-  <li><strong>Generación y presentación del Reporte:</strong> Implementación del módulo que permita crear, visualizar y exportar el reporte requerido.</li>
+  <li><strong>Landing Page Development & Deployment:</strong> Diseño, estructura, contenido y funcionalidad de la página principal del proyecto, incluyendo su despliegue.</li>
+  <li><strong>Report Module Implementation:</strong> Desarrollo y presentación del módulo que permitirá crear, visualizar y exportar el reporte requerido.</li>
 </ul>
 
-<table border="1" cellpadding="4" cellspacing="0">
+<table border="1" cellpadding="4" cellspacing="0" align="center">
   <thead>
     <tr>
       <th>Team Member (Last Name, First Name)</th>
-      <th>Aspecto: Landing Page</th>
-      <th>Aspecto: Reporte</th>
+      <th>Aspect: Landing Page</th>
+      <th>Aspect: Report Module</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Calvo Yalan, Renato Guillermo</td>
-      <td>L</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Oscar Javier Armas Sánchez</td>
-      <td>C</td>
-      <td>L</td>
-    </tr>
-    <tr>
-      <td>Ariana Lizeth Ramirez Carrasco</td>
-      <td>C</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Miguel Angel Junior Roman Lopez</td>
-      <td>C</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Billy Jake Ruiz Madrid</td>
-      <td>C</td>
-      <td>C</td>
-    </tr>
+    <tr><td>Calvo Yalan, Renato Guillermo</td><td>L</td><td>C</td></tr>
+    <tr><td>Armas Sánchez, Oscar Javier</td><td>C</td><td>L</td></tr>
+    <tr><td>Ramirez Carrasco, Ariana Lizeth</td><td>C</td><td>C</td></tr>
+    <tr><td>Roman Lopez, Miguel Angel Junior</td><td>C</td><td>C</td></tr>
+    <tr><td>Ruiz Madrid, Billy Jake</td><td>C</td><td>C</td></tr>
   </tbody>
 </table>
 
@@ -305,9 +286,9 @@ Para el Sprint 1, se han definido los siguientes aspectos:
 </ul>
 
 <p>
-La organización de roles de líderes y colaboradores está alineada con la posterior selección y asignación de tareas en el Sprint, permitiendo que cada líder lleve el seguimiento y gestión de su aspecto con apoyo de sus colaboradores, mejorando así la coordinación y efectividad del equipo.
+Esta organización de roles está alineada con la posterior asignación de tareas del Sprint Backlog, permitiendo que cada líder supervise la ejecución de su aspecto con apoyo de sus colaboradores. 
+Con ello, se garantiza una gestión más eficiente del progreso y una mejor sincronización entre los miembros del equipo.
 </p>
-
 
 #### 5.2.1.3. Sprint Backlog 1
 
