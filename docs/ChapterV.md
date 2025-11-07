@@ -468,33 +468,53 @@ Los miembros del equipo actualizan el estado de las tareas (To-do, In-Process, T
 
 #### 5.2.2.1. Sprint Planning 2
 
-<table>
-  <thead>
-    <tr><th>Sprint #</th><th>Sprint 2</th></tr>
-  </thead>
-  <tbody>
-    <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
-    <tr><td>Date</td><td>28-09-2025</td></tr>
-    <tr><td>Time</td><td>09:30 p.m</td></tr>
-    <tr><td>Location</td><td>Discord</td></tr>
-    <tr><td>Prepared By</td><td>Oscar Javier Armas Sánchez</td></tr>
-    <tr>
-      <td>Attendees (to planning meeting)</td>
-      <td>
-        Calvo Yalan, Renato Guillermo<br>
-        Oscar Javier Armas Sánchez<br>
-        Ariana Lizeth Ramirez Carrasco<br>
-        Miguel Angel Junior Roman Lopez<br>
-        Billy Jake Ruiz Madrid
-      </td>
-    </tr>
-    <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
-    <tr><td>Sprint 2 Goal</td><td>Implementar el módulo frontend de gestión de tareas, miembros y grupos, estableciendo la conexión con la API de backend local y asegurando la correcta visualización y filtrado dinámico de los datos.</td></tr>
-    <tr><td>Sprint 2 Velocity</td><td>16 Story Points</td></tr>
-    <tr><td>Sum of Story Points</td><td>16 SP (≈ 64 horas estimadas)</td></tr>
-  </tbody>
-</table>
-
+  <table>
+    <thead>
+      <tr><th>Sprint #</th><th>Sprint 2</th></tr>
+    </thead>
+    <tbody>
+      <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
+      <tr><td>Date</td><td>28/09/2025</td></tr>
+      <tr><td>Time</td><td>09:30 p.m.</td></tr>
+      <tr><td>Location</td><td>Discord</td></tr>
+      <tr><td>Prepared By</td><td>Oscar Javier Armas Sánchez</td></tr>
+      <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+          Calvo Yalan, Renato Guillermo<br>
+          Armas Sánchez, Oscar Javier<br>
+          Ramirez Carrasco, Ariana Lizeth<br>
+          Roman Lopez, Miguel Angel Junior<br>
+          Ruiz Madrid, Billy Jake
+        </td>
+      </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint 1 Review Summary</td></tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          Se completó el desarrollo y despliegue de la Landing Page, incluyendo todas las secciones planificadas y la funcionalidad de cambio de idioma.<br>
+          Quedaron pendientes pequeños ajustes visuales en la sección de “Planes” y optimizaciones de carga, los cuales se trasladarán al Sprint 2 para su refinamiento.
+        </td>
+      </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint 1 Retrospective Summary</td></tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          El equipo identificó la necesidad de mejorar la comunicación diaria y la asignación de sub-tareas en Jira para evitar solapamientos.<br>
+          Se acordó utilizar etiquetas más claras por responsable y realizar revisiones de código colaborativas al cierre de cada día.
+        </td>
+      </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
+      <tr>
+        <td>Sprint 2 Goal (Outcome–Impact–Customer–Confirmation)</td>
+        <td>
+          <em>Our focus is to develop the frontend module for task, member, and group management integrated with the local backend API.</em><br>
+          <em>We believe this will provide a functional and interactive interface that allows users to visualize and filter project data dynamically.</em><br>
+          <em>This will be confirmed when users can access, create, and view task information synchronized with the backend without display or performance issues.</em>
+        </td>
+      </tr>
+      <tr><td>Sprint 2 Velocity</td><td>16 Story Points</td></tr>
+      <tr><td>Sum of Story Points</td><td>16 SP (≈ 64 horas estimadas)</td></tr>
+    </tbody>
+  </table>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
