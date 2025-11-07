@@ -215,22 +215,33 @@ let edadAitor: number = 18;
     </thead>
     <tbody>
       <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
-      <tr><td>Date</td><td>14-09-2025</td></tr>
-      <tr><td>Time</td><td>10:00 p.m</td></tr>
+      <tr><td>Date</td><td>14/09/2025</td></tr>
+      <tr><td>Time</td><td>10:00 p.m.</td></tr>
       <tr><td>Location</td><td>Discord</td></tr>
       <tr><td>Prepared By</td><td>Renato Calvo</td></tr>
       <tr>
         <td>Attendees (to planning meeting)</td>
         <td>
           Calvo Yalan, Renato Guillermo<br>
-          Oscar Javier Armas Sánchez<br>
-          Ariana Lizeth Ramirez Carrasco<br>
-          Miguel Angel Junior Roman Lopez<br>
-          Billy Jake Ruiz Madrid
+          Armas Sánchez, Oscar Javier<br>
+          Ramirez Carrasco, Ariana Lizeth<br>
+          Roman Lopez, Miguel Angel Junior<br>
+          Ruiz Madrid, Billy Jake
         </td>
       </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint 0 Review Summary</td></tr>
+      <tr><td colspan="2">N/A (Este es el primer sprint del proyecto)</td></tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint 0 Retrospective Summary</td></tr>
+      <tr><td colspan="2">N/A (Este es el primer sprint del proyecto)</td></tr>
       <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
-      <tr><td>Sprint 1 Goal</td><td>Implementar la landing page incluyendo las distintas secciones acordadas y el requisito de cambio de idioma para la aplicación de VEYRA</td></tr>
+      <tr>
+        <td>Sprint 1 Goal</td>
+        <td>
+          <em>Our focus is on delivering the first deployed version of VEYRA’s landing page, featuring all defined sections and bilingual support (Spanish/English).</em><br>
+          <em>We believe it delivers a clear and accessible introduction to VEYRA for first-time visitors.</em><br>
+          <em>This will be confirmed when users can navigate through all sections in both languages without interface errors.</em>
+        </td>
+      </tr>
       <tr><td>Sprint 1 Velocity</td><td>13 Story Points</td></tr>
       <tr><td>Sum of Story Points</td><td>13 SP (≈ 53 horas estimadas)</td></tr>
     </tbody>
