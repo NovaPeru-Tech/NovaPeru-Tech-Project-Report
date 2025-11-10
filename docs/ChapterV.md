@@ -797,9 +797,345 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 
 ## 5.3. Validation Interviews
 
+
+Para validar nuestros entregables (Landing Page y aplicación web), realizaremos entrevistas con nuestros segmentos objetivo: **Administradores de casas de reposo y Familiares de adultos mayores.**
+El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de la solución propuesta por el Team Veyra, así como detectar mejoras a nivel de UI/UX y funcionalidad.
+
+Las preguntas se plantean de forma cercana pero estructurada, buscando obtener feedback sobre navegación, claridad, accesibilidad y valor percibido en su experiencia diaria.
+
+
 ### 5.3.1. Diseño de Entrevistas
 
+**Preguntas Segmento 1 — Administradores de Casas de Reposo:**
+
+1. ¿Qué tan fácil te fue registrar nuevos residentes en el sistema?
+
+2. ¿Pudiste acceder rápidamente al historial clínico de cada residente?
+
+3. ¿La información disponible es suficiente para gestionar el cuidado diario?
+
+4. ¿Qué tan intuitivo te pareció registrar actividades o tratamientos?
+
+5. ¿Te resultó clara la forma en que se muestran alertas o notificaciones?
+
+6. ¿Consideras que Veyra facilita la comunicación con los familiares? ¿Cómo?
+
+7. ¿Crees que el sistema podría reducir carga administrativa? ¿De qué manera?
+
+8. ¿Hay funciones que te gustaría automatizar (por ejemplo: recordatorios, reportes, actividades)?
+
+9. En comparación con tus métodos actuales, ¿Veyra mejora la organización?
+
+10. ¿Sentiste que el flujo para buscar información es natural o requiere muchos pasos?
+
+
+**Preguntas Segmento 2 — Familiares de Adultos Mayores**
+
+1. ¿Qué tan fácil fue registrarte e ingresar a la plataforma?
+
+2. ¿Pudiste encontrar rápidamente la información sobre tu familiar?
+
+3. ¿La información sobre salud, medicación y actividades fue clara?
+
+4. ¿Con qué frecuencia te gustaría recibir notificaciones o actualizaciones?
+
+5. ¿Te resultó útil tener un registro de actividades diarias? ¿Por qué?
+
+6. ¿La interfaz te transmite confianza y seguridad respecto al manejo de datos?
+
+7. ¿Qué tan útil sería para ti recibir alertas en tiempo real sobre emergencias?
+
+8. ¿Consideras sencillo contactar al personal desde la plataforma?
+
+9. ¿Hay información o funciones que te gustaría ver agregadas?
+
+10. ¿Te ayudó Veyra a sentir mayor tranquilidad sobre el bienestar del adulto mayor?
+
+
 ### 5.3.2. Registro de Entrevistas
+
+En esta sección presentamos los registros de las entrevistas que hicimos para cada segmento objetivo de nuestra aplicación.
+
+**Segmento 1: Administradores de casas de reposo** 
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Milagros Beatriz</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Caycho Mata</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>59 años</td>
+  </tr>
+  <tr>
+    <td>Rol</td>
+    <td>Gerente administrativa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 04:28 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		....
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Oscar Alberto</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Navarrete Mendoza</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>54 años</td>
+  </tr>
+  <tr>
+    <td>Rol</td>
+    <td>Gerente general de residencia geriátrica</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>04:29 min - 08:16 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		.....
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Recoba Funciyu</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Valenzuela Huaynillo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>27 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>08:16 min - 12:20 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		.....
+</td>
+  </tr>
+</tbody>
+</table>
+
+**Segmento 2: Familiares de adultos mayores** 
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Ivonne</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Madrid Ruisco</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>49 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Sullana</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>12:21 min - 14:46 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		.....
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Leo Gerardo</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Gómez Ferrua</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>30 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Chorrillos</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>14:47 min - 19:27 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		.....
+
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Jonathan</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Ramirez</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>40 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>19:28 min - 22:33 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		.....
+</td>
+  </tr>
+</tbody>
+</table>
 
 ### 5.3.3. Evaluaciones según heurísticas
 
