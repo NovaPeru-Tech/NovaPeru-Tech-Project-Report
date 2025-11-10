@@ -857,7 +857,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 <h3>Profiles Diagram (Backend)</h3>
 
-![profile Diagram](../images/platform-profiles.svg)
+![profile Diagram](../images/profiles-Profiles_BC___Detallado__vertical_.svg)
 
 <ul>
   <li>
