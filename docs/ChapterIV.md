@@ -877,9 +877,9 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
     <strong>Integración:</strong> conecta el dominio con APIs, control de acceso y transformación interna para una gestión segura y consistente de perfiles.</li>
 </ul>
 
-<h3>Nursing Home Diagram (Backend)</h3>
+<h3>Nursing Diagram (Backend)</h3>
 
-![Nursing Home Diagram](../images/NursingHome.svg)
+![Nursing Diagram](../images/nursing-Nursing_Bounded_Context.svg)
 
 <ul>
   <li>
@@ -887,7 +887,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
   <li>
     <strong>Módulos principales:</strong>
     <ul>
-      <li>Dominio: agregado principal "NursingHome", entidades asociadas (admin, facility) y objetos valor (Name, PhoneNumber, Address, Ruc, Description, Email).</li>
+      <li>Dominio: agregado principal "Nursing", entidades asociadas (admin, facility) y objetos valor (Name, PhoneNumber, Address, Ruc, Description, Email).</li>
       <li>Aplicación: servicios internos para consultas y comandos administrativos, y servicios outbound para integración con sistemas externos.</li>
       <li>Infraestructura: persistencia de entidades mediante repositorios JPA.</li>
       <li>Interfaces: API REST, manejo de recursos, transformaciones y control de acceso.</li>
