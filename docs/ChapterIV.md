@@ -594,84 +594,84 @@ http://bit.ly/4q6AhWP
 
 Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
 
-El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://bit.ly/433FTaw
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://shorturl.at/xkBtx
 
 
 1. Bounded Context **IAM**
 
    El bounded context IAM (Identity and Access Management) se encarga de la autenticación, autorización y gestión de credenciales dentro del ecosistema Veyra. Administra procesos como el registro de usuarios, inicio de sesión, recuperación de contraseñas y asignación de permisos según el rol (administrador, personal de salud, familiar o institución). Su propósito es garantizar accesos seguros, confiables y alineados con las políticas de protección de la información en toda la plataforma.
    
-   <img src="../images/iam-event-storming.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/iam-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
    
 2. Bounded Context **Profiles**
 
    El bounded context Profiles gestiona toda la información relacionada con los perfiles dentro de Veyra: perfiles de personas (empleados, familiares), perfiles institucionales y perfiles de las casas de reposo. Administra creación, actualización y mantenimiento de datos básicos, demográficos y de contacto. Su propósito es centralizar la ficha principal de cada actor del sistema y servir como base para otros contextos como IAM, Nursing, HCM y Payments.
    
-   <img src="../images/inventory-event-storming.png" alt="Bounded Context Inventories" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/profile-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 3. Bounded Context **Nursing**
 
    El bounded context Nursing representa el núcleo operativo de la institución de cuidado. Administra información institucional, recursos clínicos, asignación de empleados, programación de cuidados, registro de actividades internas y coordinación con familiares. Conecta flujos con Profiles, HCM, Health y Tracking para garantizar un cuidado integral del residente. Su objetivo es ordenar la operación diaria, asegurar la continuidad del servicio y mantener una atención de alta calidad.
    
-   <img src="../images/employee-event-storming.png" alt="Bounded Context Employees" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/nursing-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 4. Bounded Context **HCM (Human Capital Management)**
 
    El bounded context HCM gestiona al personal de salud y al personal administrativo de la institución. Incluye registro de empleados, validación de certificaciones, asignación de roles, control de turnos y seguimiento de desempeño. Se integra con Nursing para coordinar tareas operativas y con IAM para gestionar permisos. Su propósito es asegurar una administración eficiente del talento humano, garantizando que el personal adecuado esté disponible para las actividades correspondientes.
    
-   <img src="../images/nursinghome-event-storming.png" alt="Bounded Context Nursing Home" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/hcm-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 5. Bounded Context **Activity**
 
    El bounded context Activity administra la creación, gestión y programación de actividades recreativas, terapéuticas o sociales para los residentes. Permite definir actividades como bingo, talleres, dinámicas cognitivas, visitas familiares o eventos internos. Se conecta con Communication para notificar actividades próximas. Su propósito es fomentar la calidad de vida del residente mediante actividades organizadas, seguras y adaptadas a sus necesidades.
    
-   <img src="../images/resident-event-storming.png" alt="Bounded Context Residents" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/activity-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 6. Bounded Context **Communication**
 
    El bounded context Communication gestiona el envío de notificaciones, alertas, recordatorios y avisos a los diferentes usuarios del sistema. Centraliza mensajes críticos (alertas de salud), mensajes operativos (actividades programadas) y mensajes administrativos (pagos, vencimientos). Su propósito es garantizar una comunicación clara, oportuna y multicanal entre el sistema, la institución, los familiares y el personal de salud.
    
-   <img src="../images/familiar-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/communication-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 7. Bounded Context **Health**
   
    El bounded context Health procesa, interpreta y evalúa la información médica del residente, especialmente datos provenientes de Tracking (signos vitales). Detecta anomalías, estados críticos y recomendaciones clínicas. También permite registrar diagnósticos, evaluaciones y seguimiento médico. Su propósito es ofrecer una capa de análisis clínico que permita detectar riesgos y mejorar la calidad del cuidado.
 
-   <img src="../images/analytics-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/health-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 8. Bounded Context **Tracking**
   
    El bounded context Tracking captura, sincroniza y almacena datos biométricos de los residentes mediante dispositivos wearables u otros sensores. Registra signos vitales como frecuencia cardiaca, temperatura, presión o actividad física. Estos datos son enviados a Health para su evaluación y a Analytics para análisis históricos. Su propósito es brindar monitoreo continuo y en tiempo real del estado fisiológico del residente.
 
-   <img src="../images/analytics-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/tracking-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 9. Bounded Context **Analytics**
   
    El bounded context Analytics recopila información de múltiples fuentes (Health, Tracking, Nursing, Payments) para generar indicadores, reportes y visualizaciones. Permite análisis de tendencias, consumo de recursos, estados de salud, métricas operativas y rendimiento institucional. Su propósito es ofrecer una visión estratégica basada en datos que permita mejorar la toma de decisiones en la institución.
 
-   <img src="../images/analytics-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/analytics-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 10. Bounded Context **Payments**
   
    El bounded context Payments gestiona la contratación de planes, procesamiento de pagos, facturación y seguimiento de estados financieros. Administra los dos modelos de pago de Veyra: el plan familiar y el plan institucional, con modalidades mensual o anual. Se integra con Profiles para asignación del nivel de suscripción y con Communication para notificaciones de cobro. Su propósito es garantizar una gestión financiera clara, ordenada y automatizada.
 
-   <img src="../images/analytics-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/payments-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
 
 11. Bounded Context **Shared**
   
    El bounded context Shared contiene elementos reutilizables y transversales usados por todos los demás contextos, como configuraciones globales, catálogos, constantes, plantillas de comunicación o políticas comunes. Su propósito es evitar duplicidad de lógica y asegurar coherencia en datos y reglas compartidas entre contextos.
 
-   <img src="../images/analytics-event-storming.png" alt="Bounded Context Familiar" style="width:auto; height:auto; border:2px solid #00bfff;">
+   <img src="../images/shared-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
    
 ### 4.6.2. Software Architecture Context Diagram
