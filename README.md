@@ -567,6 +567,51 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 <img src="images/ramificacion2.png" alt="Veyra" style="width:auto;">
 
 
+**Reporte de colaboración de la entrega del TB2**:
+
+En esta tercera fase, el equipo Veyra centró sus esfuerzos en la consolidación final del proyecto antes de la evaluación integradora. Esta etapa se caracterizó por una coordinación técnica más madura, una revisión exhaustiva de los artefactos producidos en versiones previas y la integración coherente entre UX, frontend, backend y documentación. Además, se incorporaron mejoras solicitadas por el profesor y se completaron los ajustes necesarios para garantizar que el informe final reflejara una propuesta sólida, funcional y bien fundamentada.
+
+A continuación se describen los aportes individuales de cada miembro durante esta entrega:
+
+**Ariana Ramírez Carrasco**
+
+Ariana se enfocó en el refinamiento visual y estructural del documento final, reorganizando capítulos, jerarquías textuales y la estructura narrativa del informe. Realizó una mejora completa del apartado visual correspondiente al Bounded Context de Payment, ajustando pantallas, flujos de pago y accesibilidad visual para garantizar consistencia con las guías WCAG 2.1. Además, consolidó los artefactos visuales (logos, íconos, paletas cromáticas y assets optimizados) para la presentación final en Keynote. Finalmente, participó en la revisión transversal del documento asegurando coherencia entre la arquitectura visual, la navegación y la documentación técnica.
+
+**Renato Calvo Yalán**
+
+Renato reforzó la estabilidad técnica del proyecto revisando la arquitectura del sistema, la estructura de carpetas, los diagramas UML y la documentación del Bounded Context Nursing, desarrollado en conjunto con Adrián. Asimismo, ajustó procesos de despliegue, verificando rutas, logs y funcionamiento de servicios. Su aporte también incluyó la corrección final de la Information Architecture y la verificación de compatibilidad entre el contenido del informe, los servicios backend y la interfaz. Lideró la revisión integradora final de los entregables antes de la presentación oficial del TB2.
+
+**Billy Jake Ruiz Madrid**
+
+Billy centró sus esfuerzos en complementar los artefactos del Bounded Context Activity, ajustando pantallas y flujos de actividades para mejorar claridad y usabilidad. Amplió la documentación de validación del Lean UX, incorporando métricas de evaluación y resultados contrastados con entrevistas previas. También refinó los registros de pruebas funcionales del Sprint 2 y 3, ensamblando capturas, logs y trazabilidad por historia de usuario. Su aporte reforzó la conexión entre la visión del usuario, el diseño interactivo y la evidencia técnica del desarrollo.
+
+**Oscar Armas Sánchez**
+
+Oscar se encargó de consolidar los apartados relacionados al despliegue del proyecto, trabajando junto con Renato en la verificación del entorno, la estabilidad del servidor y preparación del registro de evidencias (capturas, comandos, scripts). Refinó los Problem Statements y Hypotheses del informe, asegurando su alineación con los hallazgos actuales del proyecto. Finalmente, redactó la sección final de Team Collaboration Insights, donde organizó los aprendizajes del equipo, las incidencias durante el proceso y la evolución del flujo de trabajo durante TB2.
+
+**Miguel Ángel Junior Román López**
+
+Miguel reforzó la sección de entrevistas y análisis contextual, complementando hallazgos previos e integrando nuevas observaciones relacionadas con la experiencia del adulto mayor y sus familiares. Elaboró una versión extendida del cronograma consolidado del proyecto, especificando entregables por fase y participación individual. Además, verificó nuevamente el cumplimiento de los Student Outcomes, garantizando que las evidencias producidas en TB2 documentaran adecuadamente las competencias logradas por el equipo. Su aporte cerró la fase con una integración documental clara y coherente.
+
+**Adrian Alonso Quiroz Caceres**
+
+Adrián se encargó de la revisión técnica profunda del backend, completando ajustes finales en controladores, entidades y servicios. Refinó el Bounded Context Nursing junto con Renato, asegurando la correcta definición de agregados, repositorios y conectividad con el frontend. Realizó pruebas finales de los endpoints, optimizó respuestas JSON y verificó la integración con los módulos Activity y Payment implementados por Billy y Ariana. Además, consolidó la documentación técnica de la API para el informe y participó en la revisión del Sprint Backlog correspondiente a la integración final del sistema.
+
+Durante esta tercera fase se evidenció una colaboración madura entre los equipos de UX, frontend, backend e investigación. Las contribuciones en GitHub demostraron un incremento en commits, revisiones cruzadas y validaciones técnicas compartidas. Esta integración fortaleció la consistencia entre los artefactos visuales, la arquitectura del sistema y la documentación técnica, consolidando una entrega final cohesionada, estable y alineada con los objetivos del curso.
+
+<img src="images/commits1tb2.png" alt="Veyra" style="width:830px;">
+
+
+<img src="images/commits2tb2.png" alt="Veyra" style="width:auto;">
+
+
+**Ramificación del proyecto usando GitFlow:**
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+<img src="images/ramificacion3.png" alt="Veyra" style="width:auto;">
+
+
 ## ABET – EAC - Student Outcome 3
 
 **Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias*
