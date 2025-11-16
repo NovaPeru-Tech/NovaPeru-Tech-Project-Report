@@ -33,8 +33,10 @@
     <br><br>
       Billy Jake Ruiz Madrid - U202116401
     <br><br>
+    Adrian Alonso Quiroz Caceres - U202214864
+    <br><br>
   </p>
-  <h3>Septiembre, 2025</h3>
+  <h3>Noviembre, 2025</h3>
 </div>
 
 <br>
@@ -300,6 +302,183 @@
         Se dejó constancia de todas las correcciones aplicadas entre el 22/09/2025 y 10/10/2025 y se preparó la versión lista para entrega formal al docente.
       </td>
     </tr>
+<tr>
+  <td>3.0</td>
+  <td>10/10/2025</td>
+  <td>Ariana Ramírez Carrasco</td>
+  <td>
+    Actualización visual de la arquitectura de contenidos. Ariana reorganizó secciones clave de la Landing Page 
+    (Hero, What We Offer, Features y Benefits), aplicando jerarquía visual y mejora de lectura. Documentó las 
+    decisiones en la Web Style Guidelines e incluyó mockups para desktop y mobile.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>18/10/2025</td>
+  <td>Ariana Ramírez Carrasco</td>
+  <td>
+    Responsable del Bounded Context <strong>Payment</strong>, diseñando y estructurando el flujo de pagos, historial y gestión de cuotas.
+    Diseño de pantallas, mejora de accesibilidad, guía de estilo y arquitectura visual del proyecto.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>25/10/2025</td>
+  <td>Ariana Ramírez Carrasco</td>
+  <td>
+    Preparación de artefactos visuales para el Keynote y el Video About-the-Product. 
+    Se generaron assets optimizados, se validaron pantallas del flujo de Payment y 
+    se definió la narrativa audiovisual inicial del video promocional. Todo se integró en los anexos finales.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>12/10/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Implementación de la infraestructura base del backend. Incluyó creación del proyecto, configuración de dependencias,
+    estructura multicapa, controladores iniciales y pruebas de conexión con servicios de Nursing y Activity.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>20/10/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Desarrollo de Web Services del Sprint 3. Se implementaron endpoints de consulta, registro y actualización para entidades clave.
+    Además, se documentó su funcionamiento y respuesta JSON en el capítulo 5.2.3.4 como parte del Sprint Review.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>16/11/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Revisión técnica final del backend. Adrián optimizó endpoints, verificó la correcta integración con los módulos Nursing,
+    Activity y Payment y registró evidencias de consumo desde el frontend para el Sprint Review 3.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>11/10/2025</td>
+  <td>Renato Calvo Yalán</td>
+  <td>
+    Desarrollo inicial del módulo Nursing. Renato estructuró sus entidades, rutas y servicios, 
+    además de definir flujos críticos como registro de residentes y supervisión. 
+    Documentó el comportamiento esperado y dependencias del bounded context.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>29/10/2025</td>
+  <td>Renato Calvo Yalán</td>
+  <td>
+    Despliegue actualizado del Landing Page y Web App. Renato realizó pruebas de compatibilidad, validó rutas, 
+    verificó el funcionamiento general y registró capturas y logs en el capítulo 5.2.3.5.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>12/11/2025</td>
+  <td>Renato Calvo Yalan</td>
+  <td>
+    Elaboración del Sprint Planning 3. Renato documentó objetivos, criterios de éxito y tareas priorizadas. 
+    Coordinó además la verificación final del despliegue de Web Services junto con Adrián.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>13/10/2025</td>
+  <td>Oscar Armas Sánchez</td>
+  <td>
+    Recopilación de evidencias del Sprint 1 y 2. Oscar consolidó commits, capturas y 
+    documentación generada por el equipo, asegurando consistencia entre entregables y el Sprint Backlog.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>01/11/2025</td>
+  <td>Oscar Armas Sánchez</td>
+  <td>
+    Elaboración del apartado Sprint 3 – Development & Execution Evidence. 
+    Oscar organizó las pruebas, integró resultados y validó que la documentación técnica estuviera alineada al avance real del equipo.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>14/11/2025</td>
+  <td>Oscar Armas Sánchez</td>
+  <td>
+    Responsable del <strong>despliegue</strong> del proyecto junto con Renato, configurando entorno, dependencias y scripts.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>09/10/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Desarrollo del bounded context Activity. Billy definió entidades, rutas y servicios principales, 
+    además de documentar la lógica relacionada con registros y seguimiento de actividades.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>03/11/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Documentación del Sprint Backlog 3 y definición de Aspect Leaders & Collaborators. 
+    Asignó responsabilidades por bounded context y organizó dependencias internas del equipo.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>15/11/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Responsable del Bounded Context <strong>Activity</strong>, implementando interfaces de actividades, rutinas y reportes diarios.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>08/10/2025</td>
+  <td>Miguel Ángel Junior Román López</td>
+  <td>
+    Elaboración inicial del Journey Mapping de usuarios familiares. 
+    Miguel analizó puntos de fricción, oportunidades de mejora y propuso sugerencias para 
+    un flujo más intuitivo dentro de Veyra.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>26/10/2025</td>
+  <td>Miguel Ángel Junior Román López</td>
+  <td>
+    Redacción del borrador de Conclusiones del informe. 
+    Miguel estructuró logros, aprendizajes y resultados del equipo, preparando la base del cierre oficial del documento.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>07/11/2025</td>
+  <td>Miguel Ángel Junior Román López</td>
+  <td>
+    Preparación del apartado About the Team. 
+    Redactó perfiles, roles y contribuciones del equipo para el video About-the-Team 
+    y dejó la documentación lista para ser incluida en los anexos del informe.
+  </td>
+</tr>
   </tbody>
 </table>
 
