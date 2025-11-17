@@ -1131,6 +1131,60 @@ funcionalidades críticas del Frontend desplegado contribuyan directamente al cu
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+
+En esta sección se describen los procesos de despliegue de la base de datos y el Web Service realizados durante el Sprint. Para la base de datos, se utilizó **Azure**, donde se creó una instancia de [Azure SQL Database o Azure Database for MySQL/PostgreSQL]. El Web Service se desplegó en **Azure App Service**, configurando un plan de servicio, activando el centro de implementación y publicando directamente desde **IntelliJ IDEA** con el plugin de Azure. Ambos componentes quedaron listos para su uso.
+
+### Despliegue de la base de datos
+
+Para el despliegue de la base de datos se utilizó **Azure**.
+
+1.  Inicio sesión en el portal de Azure, me dirijo a "Bases de datos" y selecciono "Crear" [ej. Azure SQL Database].
+    ![](../assets/img/chapter-V/db-azure-1.png)
+
+2.  Se selecciona la suscripción, el grupo de recursos y se especifican los detalles de la base de datos (nombre, servidor).
+    ![](../assets/img/chapter-V/db-azure-2.png)
+
+3.  Se crea un nuevo servidor (si no existe) y se configuran las credenciales de administrador.
+    ![](../assets/img/chapter-V/db-azure-3.png)
+
+4.  Se elige el plan de servicio (ej. Básico o un plan de desarrollo) y se revisan las configuraciones.
+    ![](../assets/img/chapter-V/db-azure-4.png)
+
+5.  Se confirma la creación y se espera a que el recurso esté disponible.
+    ![](../assets/img/chapter-V/db-azure-5.png)
+
+6.  Finalmente, se configura el **Firewall** del servidor de la base de datos para permitir las conexiones desde el Web Service y el acceso local.
+    ![](../assets/img/chapter-V/db-azure-6.png)
+
+### Despliegue del Web Service
+
+1.  En **IntelliJ IDEA**, se completa el archivo de configuración (ej. `application.properties` o `.yml`) con los datos (URL, usuario, contraseña) de la base de datos creada en Azure.
+    ![](../assets/img/chapter-V/deploy-intellij-1.png)
+
+2.  Se ejecuta el proyecto localmente para probar y verificar que la conexión al servicio de base de datos de Azure es exitosa.
+    ![](../assets/img/chapter-V/deploy-intellij-2.png)
+
+3.  Una vez validado, se busca en el explorador de proyecto, se hace clic derecho y se selecciona "Azure" -> "Deploy to Azure Web Apps".
+    ![](../assets/img/chapter-V/deploy-intellij-3.png)
+
+4.  Se completa la ventana de configuración: se inicia sesión en Azure, se selecciona la suscripción y el App Service (ej. "veyrav01") creado previamente.
+    ![](../assets/img/chapter-V/deploy-intellij-4.png)
+
+5.  En la configuración de runtime, se selecciona **Java 17**, ya que no es posible desplegar con Java 25 [o la versión deseada] en el plan actual.
+    ![](../assets/img/chapter-V/deploy-intellij-5.png)
+
+6. .  Se presiona "Run" y se espera a que el proceso de despliegue compile, empaquete y suba el artefacto a Azure.
+    ![](../assets/img/chapter-V/deploy-intellij-6.png)
+
+7.  Al finalizar, la consola de IntelliJ muestra "Successfully deployed..." y provee el link del sitio.
+    ![](../assets/img/chapter-V/deploy-intellij-7.png)
+
+8.  Para verificar el despliegue, se toma el link (ej. `https://veyrav01.azurewebsites.net`) y se le agrega la ruta `/swagger-ui/index.html` en el navegador.
+    ![](../assets/img/chapter-V/deploy-azure-final.png)
+
+**Link del Web Service desplegado:** [https://veyrav01.azurewebsites.net/swagger-ui/index.html](https://veyrav01.azurewebsites.net/swagger-ui/index.html)
+
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 
