@@ -1187,6 +1187,10 @@ Para el despliegue de la base de datos se utilizó **Azure**.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+![](../assets/img/chapter-V/teamColaboration1.jpeg)
+![](../assets/img/chapter-V/teamColaboration2.jpeg)
+![](../assets/img/chapter-V/teamColaboration3.jpeg)
+
 
 ## 5.3. Validation Interviews
 
