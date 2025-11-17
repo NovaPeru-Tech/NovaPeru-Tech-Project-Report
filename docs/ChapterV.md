@@ -877,10 +877,16 @@ Los aspectos clave se centran en el despliegue y la implementación del Backend,
 Los líderes de aspecto son responsables de guiar las decisiones técnicas en su área y asegurar que los entregables cumplan con los estándares definidos, utilizando <strong>GitLab o GitHub Actions</strong> para gestionar los procesos de despliegue.
 </p>
 
+#### 5.2.3.3. Sprint Backlog 3
+
 #### 5.2.3.4. Development Evidence for Sprint Review
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 
