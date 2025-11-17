@@ -879,6 +879,166 @@ Los líderes de aspecto son responsables de guiar las decisiones técnicas en su
 
 #### 5.2.3.3. Sprint Backlog 3
 
+<p>
+El siguiente Sprint Backlog presenta las historias de usuario y <em>technical stories</em> planificadas para el Sprint 3.  
+El foco estuvo en implementar los módulos de gestión de residentes, medicamentos, empleados, casas de reposo y actividades en el
+<strong>Backend</strong> (Java Spring Boot), así como las estadísticas, notificaciones e integraciones externas necesarias para el despliegue
+de VEYRA en un entorno funcional.  
+Todos los ítems fueron gestionados y monitoreados en <strong>Jira Software</strong>, utilizando el tablero Scrum del proyecto con los estados
+<em>To-do</em>, <em>In-Process</em>, <em>To-Review</em> y <em>Done</em>, de acuerdo con la <em>velocity</em> planificada de 18 Story Points para este sprint.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Epic / User Story</th>
+      <th>Work-Item / Task (Sprint 3)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        EP04 – Gestión de Administración<br>
+        <strong>Módulo de Residentes y su información clínica</strong>
+      </td>
+      <td>
+        <strong>TS-RM001</strong> Agregar pacientes — To-do<br>
+        <strong>TS-RM002</strong> Ver información detallada de los pacientes — To-do<br>
+        <strong>TS-RM003</strong> Ver información detallada de todos los pacientes — To-do<br>
+        <strong>TS-RM004</strong> Eliminar paciente — To-do<br>
+        <strong>TS-RM005</strong> Actualizar información de los pacientes — To-do<br>
+        <strong>US08</strong> Historial médico — To-do<br>
+        <strong>US10</strong> Consulta de información personal — To-do<br>
+        <strong>US15</strong> Gestión de visitas familiares — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP07 – Gestión de Medicamentos<br>
+        <strong>Módulo de Inventario y manejo de medicación</strong>
+      </td>
+      <td>
+        <strong>TS-I001</strong> Eliminar medicamentos — To-do<br>
+        <strong>TS-I002</strong> Agregar medicamentos — To-do<br>
+        <strong>TS-I003</strong> Ver información de un medicamento — To-do<br>
+        <strong>TS-I004</strong> Ver todos los medicamentos — To-do<br>
+        <strong>TS-I005</strong> Actualizar información de medicamentos — To-do<br>
+        <strong>US17</strong> Notificaciones de cambios en medicación — To-do<br>
+        <strong>US25</strong> Alertas de vencimiento — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP08 – Gestión de Personal<br>
+        <strong>Módulo de Empleados y gestión de turnos</strong>
+      </td>
+      <td>
+        <strong>TS-EM001</strong> Agregar empleado — To-do<br>
+        <strong>TS-EM002</strong> Eliminar empleado — To-do<br>
+        <strong>TS-EM003</strong> Actualizar información del empleado — To-do<br>
+        <strong>TS-EM004</strong> Ver información de un empleado — To-do<br>
+        <strong>TS-EM005</strong> Ver información de todos los empleados — To-do<br>
+        <strong>US30</strong> Baja de personal — To-do<br>
+        <strong>US31</strong> Búsqueda y filtrado de empleados — To-do<br>
+        <strong>US32</strong> Gestión de horas extra — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP09 – Gestión de Infraestructura<br>
+        <strong>Módulo de Casas de Reposo (Nursing Home)</strong>
+      </td>
+      <td>
+        <strong>TS-NH001</strong> Crear Nursing Home (después del registro) — To-do<br>
+        <strong>TS-NH002</strong> Obtener casa de reposo para el administrador — To-do<br>
+        <strong>TS-NH003</strong> Obtener Nursing Home por ID — To-do<br>
+        <strong>TS-NH004</strong> Listar Nursing Homes — To-do<br>
+        <strong>TS-NH005</strong> Actualizar Nursing Home — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP12 – Gestión de Actividades<br>
+        <strong>Módulo de actividades y agenda</strong>
+      </td>
+      <td>
+        <strong>TS-A001</strong> Crear Actividad — To-do<br>
+        <strong>TS-A002</strong> Listar Actividades — To-do<br>
+        <strong>TS-A003</strong> Ver información de una Actividad — To-do<br>
+        <strong>TS-A004</strong> Eliminar una Actividad — To-do<br>
+        <strong>TS-A005</strong> Inscribir residente a Actividad — To-do<br>
+        <strong>US09</strong> Agenda de citas médicas — To-do<br>
+        <strong>US11</strong> Galería de fotos y actividades — To-do<br>
+        <strong>US23</strong> Planificación de eventos familiares — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP13 – Analítica y Estadísticas<br>
+        <strong>Módulo de reportes y métricas</strong>
+      </td>
+      <td>
+        <strong>TS-ST001</strong> Obtener estadísticas generales — To-do<br>
+        <strong>TS-ST002</strong> Obtener estadísticas de inventario — To-do<br>
+        <strong>TS-ST003</strong> Obtener estadísticas de residentes — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP14 – Integraciones Externas<br>
+        <strong>Integraciones con servicios de terceros</strong>
+      </td>
+      <td>
+        <strong>TS16</strong> Consumir API de Google Maps — To-do<br>
+        <strong>TS18</strong> Integración con Stripe (pagos) — To-do<br>
+        <strong>TS19</strong> Autenticación y 2FA (MFA) — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP03 – Acceso a Información<br>
+        <strong>Acceso a datos clínicos y de agenda</strong>
+      </td>
+      <td>
+        <strong>US09</strong> Agenda de citas médicas — To-do<br>
+        <strong>US11</strong> Galería de fotos y actividades — To-do<br>
+        <strong>US13</strong> Historial médico institucional — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP05 – Notificaciones<br>
+        EP06 – Comunicación Familia–Residencia<br>
+        <strong>Recordatorios, alertas y comunicación con familiares</strong>
+      </td>
+      <td>
+        <strong>US16</strong> Recordatorios de citas y consultas — To-do<br>
+        <strong>US18</strong> Recordatorios de visitas familiares — To-do<br>
+        <strong>US19</strong> Alertas de actualización de datos personales — To-do<br>
+        <strong>US20</strong> Preguntas sobre rutina de cuidados — To-do<br>
+        <strong>US21</strong> Peticiones de modificación de cuidados — To-do<br>
+        <strong>US22</strong> Seguimiento del bienestar emocional — To-do
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EP10 – Seguridad y Privacidad<br>
+        <strong>Protección de datos y cumplimiento</strong>
+      </td>
+      <td>
+        <strong>US38</strong> Protección de datos mediante cifrado — To-do
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+Este Sprint Backlog permitió organizar el trabajo del equipo alrededor de los módulos centrales del sistema (residentes, medicamentos,
+empleados, infraestructura, actividades, analítica, integraciones y seguridad), asegurando que cada <em>feature</em> del Backend y las
+funcionalidades críticas del Frontend desplegado contribuyan directamente al cumplimiento del Sprint Goal definido para el Sprint 3.
+</p>
+
+
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
