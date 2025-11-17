@@ -33,8 +33,10 @@
     <br><br>
       Billy Jake Ruiz Madrid - U202116401
     <br><br>
+    Adrian Alonso Quiroz Caceres - U202214864
+    <br><br>
   </p>
-  <h3>Septiembre, 2025</h3>
+  <h3>Noviembre, 2025</h3>
 </div>
 
 <br>
@@ -300,6 +302,183 @@
         Se dejó constancia de todas las correcciones aplicadas entre el 22/09/2025 y 10/10/2025 y se preparó la versión lista para entrega formal al docente.
       </td>
     </tr>
+<tr>
+  <td>3.0</td>
+  <td>10/10/2025</td>
+  <td>Ariana Ramírez Carrasco</td>
+  <td>
+    Actualización visual de la arquitectura de contenidos. Ariana reorganizó secciones clave de la Landing Page 
+    (Hero, What We Offer, Features y Benefits), aplicando jerarquía visual y mejora de lectura. Documentó las 
+    decisiones en la Web Style Guidelines e incluyó mockups para desktop y mobile.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>18/10/2025</td>
+  <td>Ariana Ramírez Carrasco</td>
+  <td>
+    Responsable del Bounded Context <strong>Payment</strong>, diseñando y estructurando el flujo de pagos, historial y gestión de cuotas.
+    Diseño de pantallas, mejora de accesibilidad, guía de estilo y arquitectura visual del proyecto.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>25/10/2025</td>
+  <td>Ariana Ramírez Carrasco</td>
+  <td>
+    Preparación de artefactos visuales para el Keynote y el Video About-the-Product. 
+    Se generaron assets optimizados, se validaron pantallas del flujo de Payment y 
+    se definió la narrativa audiovisual inicial del video promocional. Todo se integró en los anexos finales.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>12/10/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Implementación de la infraestructura base del backend. Incluyó creación del proyecto, configuración de dependencias,
+    estructura multicapa, controladores iniciales y pruebas de conexión con servicios de Nursing y Activity.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>20/10/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Desarrollo de Web Services del Sprint 3. Se implementaron endpoints de consulta, registro y actualización para entidades clave.
+    Además, se documentó su funcionamiento y respuesta JSON en el capítulo 5.2.3.4 como parte del Sprint Review.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>16/11/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Revisión técnica final del backend. Adrián optimizó endpoints, verificó la correcta integración con los módulos Nursing,
+    Activity y Payment y registró evidencias de consumo desde el frontend para el Sprint Review 3.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>11/10/2025</td>
+  <td>Renato Calvo Yalán</td>
+  <td>
+    Desarrollo inicial del módulo Nursing. Renato estructuró sus entidades, rutas y servicios, 
+    además de definir flujos críticos como registro de residentes y supervisión. 
+    Documentó el comportamiento esperado y dependencias del bounded context.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>29/10/2025</td>
+  <td>Renato Calvo Yalán</td>
+  <td>
+    Despliegue actualizado del Landing Page y Web App. Renato realizó pruebas de compatibilidad, validó rutas, 
+    verificó el funcionamiento general y registró capturas y logs en el capítulo 5.2.3.5.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>12/11/2025</td>
+  <td>Renato Calvo Yalan</td>
+  <td>
+    Elaboración del Sprint Planning 3. Renato documentó objetivos, criterios de éxito y tareas priorizadas. 
+    Coordinó además la verificación final del despliegue de Web Services junto con Adrián.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>13/10/2025</td>
+  <td>Oscar Armas Sánchez</td>
+  <td>
+    Recopilación de evidencias del Sprint 1 y 2. Oscar consolidó commits, capturas y 
+    documentación generada por el equipo, asegurando consistencia entre entregables y el Sprint Backlog.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>01/11/2025</td>
+  <td>Oscar Armas Sánchez</td>
+  <td>
+    Elaboración del apartado Sprint 3 – Development & Execution Evidence. 
+    Oscar organizó las pruebas, integró resultados y validó que la documentación técnica estuviera alineada al avance real del equipo.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>14/11/2025</td>
+  <td>Oscar Armas Sánchez</td>
+  <td>
+    Responsable del <strong>despliegue</strong> del proyecto junto con Renato, configurando entorno, dependencias y scripts.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>09/10/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Desarrollo del bounded context Activity. Billy definió entidades, rutas y servicios principales, 
+    además de documentar la lógica relacionada con registros y seguimiento de actividades.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>03/11/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Documentación del Sprint Backlog 3 y definición de Aspect Leaders & Collaborators. 
+    Asignó responsabilidades por bounded context y organizó dependencias internas del equipo.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>15/11/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Responsable del Bounded Context <strong>Activity</strong>, implementando interfaces de actividades, rutinas y reportes diarios.
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>08/10/2025</td>
+  <td>Miguel Ángel Junior Román López</td>
+  <td>
+    Elaboración inicial del Journey Mapping de usuarios familiares. 
+    Miguel analizó puntos de fricción, oportunidades de mejora y propuso sugerencias para 
+    un flujo más intuitivo dentro de Veyra.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>26/10/2025</td>
+  <td>Miguel Ángel Junior Román López</td>
+  <td>
+    Redacción del borrador de Conclusiones del informe. 
+    Miguel estructuró logros, aprendizajes y resultados del equipo, preparando la base del cierre oficial del documento.
+  </td>
+</tr>
+
+<tr>
+  <td>3.0</td>
+  <td>07/11/2025</td>
+  <td>Miguel Ángel Junior Román López</td>
+  <td>
+    Preparación del apartado About the Team. 
+    Redactó perfiles, roles y contribuciones del equipo para el video About-the-Team 
+    y dejó la documentación lista para ser incluida en los anexos del informe.
+  </td>
+</tr>
   </tbody>
 </table>
 
@@ -388,6 +567,51 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 <img src="images/ramificacion2.png" alt="Veyra" style="width:auto;">
 
 
+**Reporte de colaboración de la entrega del TB2**:
+
+En esta tercera fase, el equipo Veyra centró sus esfuerzos en la consolidación final del proyecto antes de la evaluación integradora. Esta etapa se caracterizó por una coordinación técnica más madura, una revisión exhaustiva de los artefactos producidos en versiones previas y la integración coherente entre UX, frontend, backend y documentación. Además, se incorporaron mejoras solicitadas por el profesor y se completaron los ajustes necesarios para garantizar que el informe final reflejara una propuesta sólida, funcional y bien fundamentada.
+
+A continuación se describen los aportes individuales de cada miembro durante esta entrega:
+
+**Ariana Ramírez Carrasco**
+
+Ariana se enfocó en el refinamiento visual y estructural del documento final, reorganizando capítulos, jerarquías textuales y la estructura narrativa del informe. Realizó una mejora completa del apartado visual correspondiente al Bounded Context de Payment, ajustando pantallas, flujos de pago y accesibilidad visual para garantizar consistencia con las guías WCAG 2.1. Además, consolidó los artefactos visuales (logos, íconos, paletas cromáticas y assets optimizados) para la presentación final en Keynote. Finalmente, participó en la revisión transversal del documento asegurando coherencia entre la arquitectura visual, la navegación y la documentación técnica.
+
+**Renato Calvo Yalán**
+
+Renato reforzó la estabilidad técnica del proyecto revisando la arquitectura del sistema, la estructura de carpetas, los diagramas UML y la documentación del Bounded Context Nursing, desarrollado en conjunto con Adrián. Asimismo, ajustó procesos de despliegue, verificando rutas, logs y funcionamiento de servicios. Su aporte también incluyó la corrección final de la Information Architecture y la verificación de compatibilidad entre el contenido del informe, los servicios backend y la interfaz. Lideró la revisión integradora final de los entregables antes de la presentación oficial del TB2.
+
+**Billy Jake Ruiz Madrid**
+
+Billy centró sus esfuerzos en complementar los artefactos del Bounded Context Activity, ajustando pantallas y flujos de actividades para mejorar claridad y usabilidad. Amplió la documentación de validación del Lean UX, incorporando métricas de evaluación y resultados contrastados con entrevistas previas. También refinó los registros de pruebas funcionales del Sprint 2 y 3, ensamblando capturas, logs y trazabilidad por historia de usuario. Su aporte reforzó la conexión entre la visión del usuario, el diseño interactivo y la evidencia técnica del desarrollo.
+
+**Oscar Armas Sánchez**
+
+Oscar se encargó de consolidar los apartados relacionados al despliegue del proyecto, trabajando junto con Renato en la verificación del entorno, la estabilidad del servidor y preparación del registro de evidencias (capturas, comandos, scripts). Refinó los Problem Statements y Hypotheses del informe, asegurando su alineación con los hallazgos actuales del proyecto. Finalmente, redactó la sección final de Team Collaboration Insights, donde organizó los aprendizajes del equipo, las incidencias durante el proceso y la evolución del flujo de trabajo durante TB2.
+
+**Miguel Ángel Junior Román López**
+
+Miguel reforzó la sección de entrevistas y análisis contextual, complementando hallazgos previos e integrando nuevas observaciones relacionadas con la experiencia del adulto mayor y sus familiares. Elaboró una versión extendida del cronograma consolidado del proyecto, especificando entregables por fase y participación individual. Además, verificó nuevamente el cumplimiento de los Student Outcomes, garantizando que las evidencias producidas en TB2 documentaran adecuadamente las competencias logradas por el equipo. Su aporte cerró la fase con una integración documental clara y coherente.
+
+**Adrian Alonso Quiroz Caceres**
+
+Adrián se encargó de la revisión técnica profunda del backend, completando ajustes finales en controladores, entidades y servicios. Refinó el Bounded Context Nursing junto con Renato, asegurando la correcta definición de agregados, repositorios y conectividad con el frontend. Realizó pruebas finales de los endpoints, optimizó respuestas JSON y verificó la integración con los módulos Activity y Payment implementados por Billy y Ariana. Además, consolidó la documentación técnica de la API para el informe y participó en la revisión del Sprint Backlog correspondiente a la integración final del sistema.
+
+Durante esta tercera fase se evidenció una colaboración madura entre los equipos de UX, frontend, backend e investigación. Las contribuciones en GitHub demostraron un incremento en commits, revisiones cruzadas y validaciones técnicas compartidas. Esta integración fortaleció la consistencia entre los artefactos visuales, la arquitectura del sistema y la documentación técnica, consolidando una entrega final cohesionada, estable y alineada con los objetivos del curso.
+
+<img src="images/commits1tb2.png" alt="Veyra" style="width:830px;">
+
+
+<img src="images/commits2tb2.png" alt="Veyra" style="width:auto;">
+
+
+**Ramificación del proyecto usando GitFlow:**
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+<img src="images/ramificacion3.png" alt="Veyra" style="width:auto;">
+
+
 ## ABET – EAC - Student Outcome 3
 
 **Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias*
@@ -395,48 +619,136 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
 
 <table border="1" cellpadding="5" cellspacing="0" width="100%"> 
-  <thead> <tr> <th width="25%">Criterio específico</th> <th width="55%">Acciones realizadas</th> <th width="20%">Conclusiones</th> </tr> </thead> <tbody> <tr> <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia.</strong></td> <td> <strong>Miguel Ángel Junior Román López:</strong> <br><br> <strong>TB1:</strong> Transformé los hallazgos de entrevistas y los wireframes en mensajes claros durante las sesiones grupales, permitiendo que cada miembro comprendiera la intención detrás de cada decisión de diseño. Además, participé en la exposición del proceso Lean UX, transmitiendo de forma ordenada los principales descubrimientos del equipo. <br><br> <strong>TP1:</strong> Expuse los avances del análisis de entrevistas y la sección “Project Report Collaboration Insights”, organizando la información para distintos tipos de audiencia, desde diseñadores hasta revisores técnicos, logrando una comunicación transversal y efectiva. <br><br> <strong>Ariana Lizeth Ramírez Carrasco:</strong> <br><br> <strong>TB1:</strong> Presenté los resultados del Lean UX Canvas y Empathy Mapping en reuniones, adaptando el lenguaje a públicos técnicos y no técnicos. Esto facilitó la comprensión del enfoque centrado en el usuario y la alineación del equipo. <br><br> <strong>TP1:</strong> Dirigí la presentación de los entregables visuales finales (Landing Page y Keynote), utilizando una narrativa clara que resaltó los aspectos visuales y conceptuales del proyecto frente a distintos grupos de evaluación. <br><br> <strong>Billy Jake Ruiz Madrid:</strong> <br><br> <strong>TB1:</strong> Comunicado las hipótesis de diseño y validación de entrevistas en exposiciones internas, facilitando el alineamiento del equipo respecto a los hallazgos principales del proceso de Needfinding. <br><br> <strong>TP1:</strong> Durante el Sprint Review, presentó los resultados de validación de hipótesis y pruebas funcionales ante el equipo y docente, explicando con claridad el impacto de cada funcionalidad implementada y las mejoras sugeridas. <br><br> <strong>Oscar Armas Sánchez:</strong> <br><br> <strong>TB1:</strong> Explicó la arquitectura visual del proyecto y los diagramas técnicos durante las sesiones de revisión, utilizando lenguaje comprensible para diseñadores y programadores, logrando así una comprensión conjunta de la estructura del sistema. <br><br> <strong>TP1:</strong> Encabezó la exposición sobre el proceso de despliegue y la configuración del entorno, comunicando los aspectos técnicos con precisión y coherencia frente a audiencias diversas, lo que facilitó la validación del entorno de desarrollo. <br><br> <strong>Renato Calvo Yalán:</strong> <br><br> <strong>TB1:</strong> Presentó el diagrama de clases y la arquitectura del sistema en reuniones de equipo, adaptando el nivel de detalle según el perfil del público. Esto contribuyó a la integración de los componentes en la arquitectura general. <br><br> <strong>TP1:</strong> Lideró la presentación del despliegue y la validación del entorno técnico, utilizando lenguaje claro y visualizaciones precisas para explicar la relación entre módulos y componentes del sistema. </td> <td> <strong>Conclusión TB1:</strong><br> La comunicación oral fue clave para unificar criterios y garantizar que todos los integrantes comprendieran los objetivos del proyecto. Las presentaciones internas y discusiones guiadas permitieron consolidar decisiones de diseño y técnica de manera efectiva.<br><br> <strong>Conclusión TP1:</strong><br> En esta etapa, la comunicación oral evolucionó hacia un nivel más técnico y estructurado. El equipo demostró fluidez al exponer resultados, defender propuestas y articular información compleja frente a públicos mixtos, fortaleciendo su capacidad argumentativa y colaborativa. </td> </tr>
-<tr>
-  <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia.</strong></td>
-  <td>
-    <strong>Miguel Ángel Junior Román López:</strong>
-    <br><br>
-    <strong>TB1:</strong> Redacté los análisis de entrevistas y los resúmenes de hallazgos, empleando un lenguaje accesible para todas las áreas del equipo. Los documentos sirvieron como guía para estructurar el Problem Statement y las Assumptions.
-    <br><br>
-    <strong>TP1:</strong> Elaboré la documentación del apartado “Project Report Collaboration Insights” y actualicé los Student Outcomes, asegurando consistencia en la estructura, claridad en el lenguaje y alineación con los objetivos de aprendizaje.
-    <br><br>
-    <strong>Ariana Lizeth Ramírez Carrasco:</strong>
-    <br><br>
-    <strong>TB1:</strong> Documenté el proceso de Lean UX y los entregables visuales con un formato técnico y comprensible, generando insumos reutilizables para posteriores entregas. Además, redacté la descripción del dominio y la organización de contenidos para el capítulo 4.
-    <br><br>
-    <strong>TP1:</strong> Redacté los informes de revisión visual y accesibilidad, así como las directrices gráficas para el despliegue final, manteniendo una comunicación escrita clara y profesional, acorde con los estándares del curso.
-    <br><br>
-    <strong>Billy Jake Ruiz Madrid:</strong>
-    <br><br>
-    <strong>TB1:</strong> Elaboré reportes que relacionaban tareas de usuario con módulos funcionales, utilizando un lenguaje técnico unificado con el lenguaje ubicuo del dominio. Esto ayudó a mantener coherencia entre las áreas de negocio y desarrollo.
-    <br><br>
-    <strong>TP1:</strong> Documenté la ejecución del Sprint 2, registrando pruebas funcionales, evidencias y resultados en un formato detallado y comprensible para el equipo técnico y docente.
-    <br><br>
-    <strong>Oscar Armas Sánchez:</strong>
-    <br><br>
-    <strong>TB1:</strong> Documenté la arquitectura visual y técnica del proyecto con descripciones precisas y ejemplos ilustrativos, adecuando el contenido para distintas audiencias. Asimismo, organicé las secciones de diseño web con redacción técnica y clara.
-    <br><br>
-    <strong>TP1:</strong> Redacté el informe de Sprint Review y la documentación de despliegue, empleando un tono profesional, estructurado y coherente con los estándares del curso. Incluí detalles técnicos que facilitaron la validación de los resultados.
-    <br><br>
-    <strong>Renato Calvo Yalán:</strong>
-    <br><br>
-    <strong>TB1:</strong> Elaboré diagramas explicativos del funcionamiento del sistema y sus componentes, acompañados de textos que facilitaban su comprensión tanto a nivel técnico como conceptual. Esto fortaleció la claridad del Capítulo 4.
-    <br><br>
-    <strong>TP1:</strong> Redacté la documentación técnica de despliegue, organizando los procedimientos de instalación, logs y evidencias de configuración en un formato detallado y legible, complementando el informe de validación de entorno.
-  </td>
-  <td>
-    <strong>Conclusión TB1:</strong><br>
-    La redacción técnica y descriptiva permitió estructurar el conocimiento de manera ordenada, asegurando que todos los miembros y revisores comprendieran los avances y objetivos del proyecto. La claridad escrita mejoró la trazabilidad de decisiones y artefactos.<br><br>
-    <strong>Conclusión TP1:</strong><br>
-    En esta fase, el equipo fortaleció su capacidad para redactar documentación técnica integral. Cada entrega reflejó precisión, cohesión y adaptación del lenguaje al público objetivo, lo cual consolidó la calidad del informe final y su comprensión transversal.
-  </td>
-</tr>
-</tbody></table>
+  <thead> 
+    <tr> 
+      <th width="25%">Criterio específico</th> 
+      <th width="55%">Acciones realizadas</th> 
+      <th width="20%">Conclusiones</th> 
+    </tr> 
+  </thead> 
+
+  <tbody> 
+    <tr> 
+      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia.</strong></td> 
+      <td> 
+        <strong>Miguel Ángel Junior Román López:</strong> 
+        <br><br>
+        <strong>TB1:</strong> Transformé los hallazgos de entrevistas y los wireframes en mensajes claros durante las sesiones grupales, permitiendo que cada miembro comprendiera la intención detrás de cada decisión de diseño. Además, participé en la exposición del proceso Lean UX, transmitiendo de forma ordenada los principales descubrimientos del equipo.
+        <br><br>
+        <strong>TP1:</strong> Expuse los avances del análisis de entrevistas y la sección “Project Report Collaboration Insights”, organizando la información para distintos tipos de audiencia, desde diseñadores hasta revisores técnicos, logrando una comunicación transversal y efectiva.
+        <br><br>
+        <strong>TB2:</strong> Expuse los resultados del Sprint 3 ante el equipo, explicando los cambios aplicados al flujo del usuario y aclarando las dependencias entre módulos, para asegurar que el equipo mantuviera una visión unificada del sistema.
+        <br><br><br>
+        <strong>Ariana Lizeth Ramírez Carrasco:</strong> 
+        <br><br>
+        <strong>TB1:</strong> Presenté los resultados del Lean UX Canvas y Empathy Mapping en reuniones, adaptando el lenguaje a públicos técnicos y no técnicos. Esto facilitó la comprensión del enfoque centrado en el usuario y la alineación del equipo.
+        <br><br>
+        <strong>TP1:</strong> Dirigí la presentación de los entregables visuales finales (Landing Page y Keynote), utilizando una narrativa clara que resaltó los aspectos visuales y conceptuales del proyecto frente a distintos grupos de evaluación.
+        <br><br>
+        <strong>TB2:</strong> Comunqué el funcionamiento del Bounded Context de Payment, explicando la lógica de validación y la usabilidad del flujo de pagos, asegurando que los miembros comprendieran la importancia del diseño centrado en el usuario.
+        <br><br><br>
+        <strong>Billy Jake Ruiz Madrid:</strong> 
+        <br><br>
+        <strong>TB1:</strong> Comunicado las hipótesis de diseño y validación de entrevistas en exposiciones internas, facilitando el alineamiento del equipo respecto a los hallazgos principales del proceso de Needfinding.
+        <br><br>
+        <strong>TP1:</strong> Durante el Sprint Review, presentó los resultados de validación de hipótesis y pruebas funcionales ante el equipo y docente, explicando con claridad el impacto de cada funcionalidad implementada y las mejoras sugeridas.
+        <br><br>
+        <strong>TB2:</strong> Expuso la estructura del Bounded Context de Activity y cómo sus funcionalidades se integran con Nursing y Payment, permitiendo que los evaluadores entendieran la importancia del módulo dentro del sistema.
+        <br><br><br>
+        <strong>Oscar Armas Sánchez:</strong> 
+        <br><br>
+        <strong>TB1:</strong> Explicó la arquitectura visual del proyecto y los diagramas técnicos durante las sesiones de revisión, utilizando lenguaje comprensible para diseñadores y programadores, logrando así una comprensión conjunta de la estructura del sistema.
+        <br><br>
+        <strong>TP1:</strong> Encabezó la exposición sobre el proceso de despliegue y la configuración del entorno, comunicando los aspectos técnicos con precisión y coherencia frente a audiencias diversas, lo que facilitó la validación del entorno de desarrollo.
+        <br><br>
+        <strong>TB2:</strong> Presentó el impacto del despliegue final del Sprint 3 y explicó la coordinación con Renato para asegurar que todas las rutas y servicios estuvieran alineados antes del cierre del ciclo.
+        <br><br><br>
+        <strong>Renato Calvo Yalán:</strong> 
+        <br><br>
+        <strong>TB1:</strong> Presentó el diagrama de clases y la arquitectura del sistema en reuniones de equipo, adaptando el nivel de detalle según el perfil del público. Esto contribuyó a la integración de los componentes en la arquitectura general.
+        <br><br>
+        <strong>TP1:</strong> Lideró la presentación del despliegue y la validación del entorno técnico, utilizando lenguaje claro y visualizaciones precisas para explicar la relación entre módulos y componentes del sistema.
+        <br><br>
+        <strong>TB2:</strong> Explicó los avances del Bounded Context de Nursing, detallando su integración con Activity y Payment, destacando su relevancia dentro de la estructura del proyecto.
+        <br><br>
+        <strong>Adrian Alonso Quiroz Caceres:</strong> 
+        <br><br>
+        <strong>TB2:</strong> Durante el Sprint 3 expuse ante el equipo los avances del desarrollo del backend y la consolidación de los Web Services. Expliqué el funcionamiento de los endpoints, las dependencias entre módulos y los ajustes realizados para asegurar la correcta integración con el bounded context de Nursing. Además, comuniqué de manera clara los criterios técnicos utilizados para optimizar las respuestas del servidor y la estructura final del API, permitiendo al equipo comprender el flujo completo de comunicación entre frontend y backend.
+        <br><br>
+      </td>
+      <td> 
+        <strong>Conclusión TB1:</strong><br> 
+        La comunicación oral fue clave para unificar criterios y garantizar que todos los integrantes comprendieran los objetivos del proyecto. Las presentaciones internas y discusiones guiadas permitieron consolidar decisiones de diseño y técnica de manera efectiva.
+        <br><br> 
+        <strong>Conclusión TP1:</strong><br> 
+        En esta etapa, la comunicación oral evolucionó hacia un nivel más técnico y estructurado. El equipo demostró fluidez al exponer resultados, defender propuestas y articular información compleja frente a públicos mixtos, fortaleciendo su capacidad argumentativa y colaborativa. 
+        <br><br> 
+        <strong>Conclusión TB2:</strong><br> 
+        Durante esta etapa, la comunicación oral se consolidó como un elemento clave para coordinar dependencias técnicas entre módulos y asegurar la coherencia del sistema. Las exposiciones del Sprint 3 permitieron al equipo expresar con claridad los avances, justificar decisiones y mantener la alineación entre frontend, backend y diseño, fortaleciendo la comprensión compartida del proyecto.
+      </td> 
+    </tr>
+    <tr>
+      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia.</strong></td>
+      <td>
+        <strong>Miguel Ángel Junior Román López:</strong>
+        <br><br>
+        <strong>TB1:</strong> Redacté los análisis de entrevistas y los resúmenes de hallazgos, empleando un lenguaje accesible para todas las áreas del equipo. Los documentos sirvieron como guía para estructurar el Problem Statement y las Assumptions.
+        <br><br>
+        <strong>TP1:</strong> Elaboré la documentación del apartado “Project Report Collaboration Insights” y actualicé los Student Outcomes, asegurando consistencia en la estructura, claridad en el lenguaje y alineación con los objetivos de aprendizaje.
+        <br><br>
+        <strong>TB2:</strong> Redacté el capítulo correspondiente al Sprint Review 3, documentando evidencias, conclusiones y el análisis del progreso técnico del equipo de manera organizada.
+        <br><br><br>
+        <strong>Ariana Lizeth Ramírez Carrasco:</strong>
+        <br><br>
+        <strong>TB1:</strong> Documenté el proceso de Lean UX y los entregables visuales con un formato técnico y comprensible, generando insumos reutilizables para posteriores entregas. Además, redacté la descripción del dominio y la organización de contenidos para el capítulo 4.
+        <br><br>
+        <strong>TP1:</strong> Redacté los informes de revisión visual y accesibilidad, así como las directrices gráficas para el despliegue final, manteniendo una comunicación escrita clara y profesional, acorde con los estándares del curso.
+        <br><br>
+        <strong>TB2:</strong> Escribí la documentación del Bounded Context de Payment, incluyendo las validaciones, flujos de usuario y la estructura del módulo, asegurando claridad conceptual y técnica.
+        <br><br><br>
+        <strong>Billy Jake Ruiz Madrid:</strong>
+        <br><br>
+        <strong>TB1:</strong> Elaboré reportes que relacionaban tareas de usuario con módulos funcionales, utilizando un lenguaje técnico unificado con el lenguaje ubicuo del dominio. Esto ayudó a mantener coherencia entre las áreas de negocio y desarrollo.
+        <br><br>
+        <strong>TP1:</strong> Documenté la ejecución del Sprint 2, registrando pruebas funcionales, evidencias y resultados en un formato detallado y comprensible para el equipo técnico y docente.
+        <br><br>
+        <strong>TB2:</strong> Redacté la sección del Bounded Context de Activity, explicando la funcionalidad central, sus dependencias y las reglas del dominio, garantizando una comprensión clara del módulo.
+        <br><br><br>
+        <strong>Oscar Armas Sánchez:</strong>
+        <br><br>
+        <strong>TB1:</strong> Documenté la arquitectura visual y técnica del proyecto con descripciones precisas y ejemplos ilustrativos, adecuando el contenido para distintas audiencias. Asimismo, organicé las secciones de diseño web con redacción técnica y clara.
+        <br><br>
+        <strong>TP1:</strong> Redacté el informe de Sprint Review y la documentación de despliegue, empleando un tono profesional, estructurado y coherente con los estándares del curso. Incluí detalles técnicos que facilitaron la validación de los resultados.
+        <br><br>
+        <strong>TB2:</strong> Redacté el documento final del despliegue del Sprint 3, integrando las evidencias recopiladas por el equipo de backend y frontend, manteniendo una redacción clara y técnica.
+        <br><br><br>
+        <strong>Renato Calvo Yalán:</strong>
+        <br><br>
+        <strong>TB1:</strong> Elaboré diagramas explicativos del funcionamiento del sistema y sus componentes, acompañados de textos que facilitaban su comprensión tanto a nivel técnico como conceptual. Esto fortaleció la claridad del Capítulo 4.
+        <br><br>
+        <strong>TP1:</strong> Redacté la documentación técnica de despliegue, organizando los procedimientos de instalación, logs y evidencias de configuración en un formato detallado y legible, complementando el informe de validación de entorno.
+        <br><br>
+        <strong>TB2:</strong> Documenté la integración del Bounded Context de Nursing y su relación con los demás módulos, explicando sus responsabilidades y justificación técnica dentro del sistema.
+        <br><br>
+        <strong>Adrian Alonso Quiroz Caceres:</strong> 
+        <br><br>
+        <strong>TB2:</strong> Documenté la actualización de los Web Services, detallando los endpoints implementados, los parámetros requeridos, los esquemas JSON y las validaciones incorporadas. Asimismo, registré las pruebas realizadas para garantizar la integración con los módulos del frontend, describiendo evidencias técnicas, capturas, logs y resultados de pruebas. La redacción permitió que el equipo tuviera una referencia clara para consumir los servicios y que los revisores comprendieran la estructura final del backend.
+        <br><br>
+      </td>
+      <td>
+        <strong>Conclusión TB1:</strong><br>
+        La redacción técnica y descriptiva permitió estructurar el conocimiento de manera ordenada, asegurando que todos los miembros y revisores comprendieran los avances y objetivos del proyecto. La claridad escrita mejoró la trazabilidad de decisiones y artefactos.
+        <br><br>
+        <strong>Conclusión TP1:</strong><br>
+        En esta fase, el equipo fortaleció su capacidad para redactar documentación técnica integral. Cada entrega reflejó precisión, cohesión y adaptación del lenguaje al público objetivo, lo cual consolidó la calidad del informe final y su comprensión transversal.
+        <br><br>
+        <strong>Conclusión TB2:</strong><br> 
+        La documentación generada en esta fase permitió detallar con precisión la evolución técnica del proyecto, registrando integraciones, cambios y dependencias entre los módulos. La claridad en la redacción facilitó que el equipo y los revisores comprendieran el aporte de cada sprint, mejorando la coherencia del informe final y la trazabilidad de los artefactos desarrollados.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 <h2>Contenido</h2>
 
