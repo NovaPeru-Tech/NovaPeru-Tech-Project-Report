@@ -1140,8 +1140,8 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 ### 5.3.3. Evaluaciones según heurísticas
 
 <div align='center'>
-    <h2>UX Heuristics & Principles Evaluation</h2>
-    <h3>Usability – Inclusive Design – Information Architecture</h3>
+    <h2>UX Heuristics & Principles Evaluation</h2>
+    <h3>Usability – Inclusive Design – Information Architecture</h3>
 </div>
 
 <p><strong>CARRERA:</strong> Ingeniería de Software</p>
@@ -1149,7 +1149,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <p><strong>SECCIÓN:</strong> 7338</p>
 <p><strong>PROFESORES: Angel Augusto Velasquez Nuñez</strong> </p>
 <p><strong>AUDITOR: El equipo de Veyra</strong> </p>
-<p><strong>CLIENTE(S):</strong> ....</p>
+<p><strong>CLIENTE(S):</strong> [Información del Cliente]</p>
 
 <hr>
 
@@ -1164,171 +1164,247 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <p>El alcance de esta evaluación incluye la revisión de las siguientes tareas:</p>
 
 <ol>
-    <li>................</li>
-    <li>....................</em></li>
-    <li>Comprobar si el diseño transmite confianza y profesionalismo</li>
-    <li>Validar si la información presentada resulta atractiva y relevante para posibles usuarios</li>
-    <li>....</li>
-    <li>................</li>
-    <li>...............</li>
-    <li>..............</li>
+    <li>Revisión de la consistencia de lenguaje (Inglés/Español)</li>
+    <li>Validación de los flujos de registro y acceso</li>
+    <li>Comprobar si el diseño transmite confianza y profesionalismo</li>
+        <li>Validar si la información presentada resulta atractiva y relevante para posibles usuarios</li>
+    <li>Evaluar la gestión de errores en vistas de tabla</li>
+    <li>Revisión de la usabilidad de formularios de inventario</li>
+    <li>Evaluación de la carga de información crítica (habitaciones)</li>
+    <li>Revisión de la claridad de los botones de acción (CTAs)</li>
 </ol>
 
 <br>
 
 <p>No están incluidas en esta versión de la evaluación las siguientes tareas:</p>
 <ol>
-    <li>.............</li>
-    <li>.............</li>
-    <li>.........</li>
-    <li>..............</li>
-    <li>.........a</li>
-    <li>........./li>
-
+    <li>Pruebas de estrés y rendimiento.</li>
+    <li>Revisión de código fuente.</li>
+    <li>Análisis de seguridad.</li>
+    <li>Evaluación de accesibilidad para usuarios con discapacidades visuales.</li>
+    <li>Test A/B de diseño.</li>
+    <li>Análisis de <em>feedback</em> de usuarios reales.</li>
 </ol>
-
-<br>
 
 <strong>ESCALA DE SEVERIDAD:</strong>
 <p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad</p>
 
 <table>
-    <tr>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
-    </tr>
+    <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
 </table>
 
-<br>
 
 <strong>TABLA RESUMEN:</strong>
 
-<br>
-
 <table>
-    <tr>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">#</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Problema</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Escala de severidad</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Heurística/Principio violada(o)</th>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">El mensaje principal, ubicado en nuestro <stron>Hero Section</strong> denota confusión y/o algún detalle de caracter genérico.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Information Architecture: <strong>Is it clear?</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Falta de estructura lógica al momento de redireccionar a las secciones dentro de Landing Page (orden no fluido).</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: User Satisfaction - <strong>Do users like to use your website and recommend it to others?</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">El Landing Page presenta un diseño mal adaptado para los dispositivos móviles.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: Effectiveness - <strong>Can users achieve the desired objectives on your website?</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Se desconoce como se destacará dicha solución en casos de uso reales o problemas que resuelve.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Information Architecture: <strong>Is it communicative?</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Falta de claridad sobre qué representa una <q>flota</q> en el sistema.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Information Architecture: <strong>Is it communicative?</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">6</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Posibilidad de ingresar datos (como placas repetidas o formatos inválidos) no gestionados correctamente.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: Error Handling - <strong>How does the website help users recover from errors?</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">7</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Falta de claridad al momento de registrar los campos obligatorios para agregar a un nuevo conductor.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Information Architecture: <strong>Is it clear?</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">8</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Dudas sobre la confiabilidad o fuente de los datos utilizados para el análisis predictivo con la Inteligencia Artificial.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Architecture Information: <strong>Is it valuable?</strong></td>
-    </tr>
+    <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">#</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Problema</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Escala de severidad</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Heurística/Principio violada(o)</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;"><strong>Confusión de rol en formulario de registro</strong> (Staff vs. Resident) y mezcla de idiomas en campos obligatorios.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Visibility of system status</strong> y <strong>Consistency and standards</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;"><strong>Error de carga de datos críticos</strong> de Habitaciones ("Failed to fetch entities") sin mensaje amigable o acción de recuperación.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Help users recognize, diagnose, and recover from errors</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Botón de acción con <strong>etiqueta de código</strong> ("medication.add") en el formulario de inventario.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Match between system and the real world</strong> y <strong>Consistency and standards</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;"><strong>Llamadas a la acción (CTAs) técnicas</strong> en la página de inicio de sesión (e.g., `auth.sign-in`).</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Match between system and the real world</strong> y <strong>Aesthetic and minimalist design</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Uso de <strong>"0" como valor inicial</strong> en campos de entrada numérica y mezcla de idiomas en títulos de sección de Inventario.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Error Prevention</strong> y <strong>Consistency and standards</strong></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">6</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Etiqueta <strong>"Optional" redundante</strong> en el campo 'Barcode' e inconsistencia de idioma en la sección de Lote y Proveedor.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Consistency and standards</strong> y <strong>Flexibility and efficiency of use</strong></td>
+    </tr>
 </table>
 
 <br>
 
 <strong>DESCRIPCIÓN DE PROBLEMAS:</strong>
 
-<p><strong>Problema #1:</strong> ............</p>
+<p><strong>Problema #1:</strong> <strong>Confusión de rol en formulario de registro y mezcla de idiomas</strong></p>
 
-<p><strong>Severidad:</strong> 1</p>
+<p><strong>Severidad:</strong> 3</p>
 
-<p><strong>Heurística/Principio violada(o):</strong> Information Architecture: <strong>Is it clear?</strong></p>
+<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Visibility of system status</strong> y <strong>Consistency and standards</strong></p>
 
 <strong>Problema:</strong>
 
-<p>	..........</p>
+<p>El contexto de la navegación lateral indica "Staff", pero el botón de acción dice "Register Resident" (Registrar Residente), confundiendo al usuario sobre qué rol está registrando. Además, el formulario utiliza una mezcla de inglés y español para las etiquetas de los campos (`dni*`, `birthdate*`, `phone number*`).</p>
 
 <div align='center'>
-    <img src="../images/..." alt="Problem-#1-Audit" style="width:600;height:auto;">
+    <img src="../images/problem1.png" alt="Captura de pantalla 2025-11-16 193615.png" style="width:600;height:auto;">
 </div>
 
 <br>
 
 <strong>Recomendación:</strong>
 
-<p>.....</p>
+<p>Corregir la <strong>consistencia</strong> del sistema. Si la sección es "Staff", el botón debe ser "Register Staff" o "Registrar Personal". <strong>Estandarizar el idioma de todos los campos</strong> a español para mantener la coherencia lingüística en la interfaz y mejorar la experiencia del usuario.</p>
 
 <hr>
 
 <br>
 
-<p><strong>Problema #2:</strong> .........</p>
+<p><strong>Problema #2:</strong> <strong>Error de carga de datos críticos de Habitaciones</strong></p>
+
+<p><strong>Severidad:</strong> 4</p>
+
+<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Help users recognize, diagnose, and recover from errors</strong></p>
+
+<strong>Problema:</strong>
+
+<p>La vista de "Rooms" (Habitaciones) muestra un error técnico grave: "Resource not found: Failed to fetch entities", que impide la carga de información fundamental. El mensaje técnico no es útil para el usuario, no explica qué sucedió y no ofrece una solución. Adicionalmente, los encabezados de la tabla presentan inconsistencia lingüística.</p>
+
+<div align='center'>
+    <img src="../images/problem2.png" alt="Captura de pantalla 2025-11-16 193540.png" style="width:600;height:auto;">
+</div>
+
+<br>
+
+<strong>Recomendación:</strong>
+
+<p>Reemplazar el error técnico por un mensaje amigable y orientador, como <strong>"No se pudieron cargar las habitaciones. Por favor, intente recargar la página o contacte a soporte."</strong> Asegurar que las columnas de la tabla tengan una <strong>nomenclatura consistente</strong> (ej. "Número", "Tipo", "Estado").</p>
+
+<hr>
+
+<br>
+
+<p><strong>Problema #3:</strong> <strong>Botón de acción con etiqueta de código en inventario</strong></p>
+
+<p><strong>Severidad:</strong> 3</p>
+
+<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Match between system and the real world</strong> y <strong>Consistency and standards</strong></p>
+
+<strong>Problema:</strong>
+
+<p>El botón de acción principal al final del formulario de inventario muestra la etiqueta de código <strong>"medication.add"</strong>. Este error impide la usabilidad, rompe la confianza y es una inconsistencia grave. También persiste la mezcla de idiomas en los botones, como <strong>"Cancel"</strong>.</p>
+
+<div align='center'>
+    <img src="../images/problem3.png" alt="Captura de pantalla 2025-11-16 193720.png" style="width:600;height:auto;">
+</div>
+
+<br>
+
+<strong>Recomendación:</strong>
+
+<p>Corregir la etiqueta del botón de acción principal a un texto claro y legible, como <strong>"Añadir Medicamento"</strong> o <strong>"Guardar"</strong>. Estandarizar el idioma de todos los botones de acción a español (ej. <strong>"Cancelar"</strong>).</p>
+
+<hr>
+
+<br>
+
+<p><strong>Problema #4:</strong> <strong>Llamadas a la acción (CTAs) con etiquetas de desarrollo en Login</strong></p>
+
+<p><strong>Severidad:</strong> 4</p>
+
+<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Match between system and the real world</strong> y <strong>Aesthetic and minimalist design</strong></p>
+
+<strong>Problema:</strong>
+
+<p>La página de inicio de sesión muestra etiquetas de código como <strong>`auth.already-have-account`</strong>, <strong>`-> auth.sign-in`</strong> y <strong>`AUTH.OR-CREATE-ACCOUNT`</strong> en lugar del texto destinado al usuario. Esto es un error de alto impacto que impide la tarea fundamental de acceso al sistema y afecta la credibilidad.</p>
+
+<div align='center'>
+    <img src="../images/problem4.png" alt="Captura de pantalla 2025-11-16 193736.jpg" style="width:600;height:auto;">
+</div>
+
+<br>
+
+<strong>Recomendación:</strong>
+
+<p>Corregir las etiquetas de localización/texto a frases amigables y claras, como <strong>"¿Ya tienes una cuenta?"</strong>, el botón debe decir <strong>"Iniciar Sesión"</strong>, y el separador <strong>"O crear una cuenta"</strong>.</p>
+
+<hr>
+
+<br>
+
+<p><strong>Problema #5:</strong> <strong>"0" como valor inicial y mezcla de idiomas en Inventario</strong></p>
 
 <p><strong>Severidad:</strong> 2</p>
 
-<p><strong>Heurística/Principio violada(o):</strong> Usability: User Satisfaction - <strong>Do users like to use your website and recommend it to others?</strong></p>
+<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Error Prevention</strong> y <strong>Consistency and standards</strong></p>
 
 <strong>Problema:</strong>
 
-<p>.........</p>
+<p>El uso del valor "0" como valor inicial en campos de entrada numérica (`Quantity*`, `Unit Cost*`, etc.) puede confundir al usuario, quien podría no borrarlo o pensar que es un <em>placeholder</em>. La inconsistencia en los títulos de las secciones (`Stock Status`, `Value`) en inglés es un problema constante.</p>
 
 <div align='center'>
-    <img src="../images/....." alt="Problem-#2-Audit" style="width:600;height:auto;">
+    <img src="../images/problem5.png" alt="Captura de pantalla 2025-11-16 193646.png" style="width:600;height:auto;">
 </div>
 
 <br>
 
 <strong>Recomendación:</strong>
 
-<p>..........</p>
+<p>Asegurarse de que los campos de entrada de datos estén <strong>vacíos o utilicen un <em>placeholder</em> de texto</strong> para evitar confusiones. Estandarizar la nomenclatura de las secciones a español (ej. <strong>"Estado de Stock"</strong> y <strong>"Valoración"</strong>).</p>
 
 <hr>
 
 <br>
+
+<p><strong>Problema #6:</strong> <strong>Etiqueta 'Optional' redundante en Barcode</strong></p>
+
+<p><strong>Severidad:</strong> 1</p>
+
+<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Consistency and standards</strong> y <strong>Flexibility and efficiency of use</strong></p>
+
+<strong>Problema:</strong>
+
+<p>El campo <strong>`Barcode`</strong> está etiquetado como "Optional", lo cual es redundante si la convención para indicar campos obligatorios es el asterisco (`*`). Esto rompe la uniformidad visual. El título de la sección <strong>"Batch and Supplier Information"</strong> está en inglés.</p>
+
+<div align='center'>
+    <img src="../images/problem6.png" alt="Captura de pantalla 2025-11-16 193703.png" style="width:600;height:auto;">
+</div>
+
+<br>
+
+<strong>Recomendación:</strong>
+
+<p>Estandarizar el idioma del título de la sección a español (ej. <strong>"Información de Lote y Proveedor"</strong>). Eliminar la etiqueta redundante <strong>"Optional"</strong> del campo `Barcode` para mantener la consistencia en el formulario.</p>
+
+<hr>
 
 ## Video About-the-Product
 
