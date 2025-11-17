@@ -488,14 +488,14 @@ Los miembros del equipo actualizan el estado de las tareas (To-do, In-Process, T
           Ruiz Madrid, Billy Jake
         </td>
       </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint 1 Review Summary</td></tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint 2 Review Summary</td></tr>
       <tr>
         <td colspan="2" style="text-align:center;">
           Se completó el desarrollo y despliegue de la Landing Page, incluyendo todas las secciones planificadas y la funcionalidad de cambio de idioma.<br>
           Quedaron pendientes pequeños ajustes visuales en la sección de “Planes” y optimizaciones de carga, los cuales se trasladarán al Sprint 2 para su refinamiento.
         </td>
       </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint 1 Retrospective Summary</td></tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint 2 Retrospective Summary</td></tr>
       <tr>
         <td colspan="2" style="text-align:center;">
           El equipo identificó la necesidad de mejorar la comunicación diaria y la asignación de sub-tareas en Jira para evitar solapamientos.<br>
@@ -677,7 +677,6 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 </p>
 
 
-
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 <table>
@@ -775,28 +774,117 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 ![network-graph-sprint2.jpg](../images/network-graph-sprint2.jpg)
 ![visitors-sprint2.jpg](../images/visitors-sprint2.jpg)
 
+
 ### 5.2.3. Sprint 3
+<p>
+Durante el Sprint 3, el equipo se enfocó en dos pilares críticos: la implementación de la capa de persistencia y lógica de negocio en el <strong>Backend</strong> utilizando Java Spring Boot y el <strong>Despliegue (Deploy) del Frontend</strong> desarrollado previamente. Este sprint fue crucial para establecer la infraestructura de la aplicación Veyra en un entorno de producción, sentando las bases para las pruebas de integración.
+</p>
+<p>
+Repositorio Frontend: <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a> <br>
+Repositorio Backend: <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+</p>
+
 #### 5.2.3.1. Sprint Planning 3
+<table>
+    <thead>
+      <tr><th>Sprint #</th><th>Sprint 3</th></tr>
+    </thead>
+    <tbody>
+      <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
+      <tr><td>Date</td><td>10/11/2025</td></tr>
+      <tr><td>Time</td><td>10:00 p.m.</td></tr>
+      <tr><td>Location</td><td>Discord</td></tr>
+      <tr><td>Prepared By</td><td>Ramirez Carrasco, Ariana Lizeth</td></tr>
+      <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+          Calvo Yalan, Renato Guillermo<br>
+          Armas Sánchez, Oscar Javier<br>
+          Ramirez Carrasco, Ariana Lizeth<br>
+          Roman Lopez, Miguel Angel Junior<br>
+          Ruiz Madrid, Billy Jake<br>
+          Quiroz Caceres, Adrian Alonso
+        </td>
+      </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint 3 Review Summary</td></tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          Se completó el desarrollo del Frontend para los módulos de Tareas, Miembros y Grupos. La interfaz está lista para el usuario y se integró satisfactoriamente con los servicios mockeados.<br>
+          Quedó pendiente la implementación del sistema de autenticación y la configuración de las variables de entorno para el despliegue final.
+        </td>
+      </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint 3 Retrospective Summary</td></tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          Se mejoró la comunicación, pero se identificó la necesidad de estandarizar la nomenclatura de los servicios y DTOs en el Backend, lo cual se abordará antes de iniciar la programación.<br>
+          El equipo acordó asignar un “guardián de la calidad” (Quality Keeper) rotativo para el Backend en cada sprint.
+        </td>
+      </tr>
+      <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
+      <tr>
+        <td>Sprint 3 Goal (Outcome–Impact–Customer–Confirmation)</td>
+        <td>
+          <em>Our focus is to deploy the VEYRA frontend to a live environment and establish the core data management capabilities in the backend (Registration, Login, User Data).</em><br>
+          <em>We believe this will provide the entire team with a stable environment for integration and testing, permitiendo a los stakeholders ver el progreso real.</em><br>
+          <em>This will be confirmed when the live URL is accessible and the backend is capable of managing user registration and basic entity data (CRUD) en local y desarrollo.</em>
+        </td>
+      </tr>
+      <tr><td>Sprint 3 Velocity</td><td>18 Story Points</td></tr>
+      <tr><td>Sum of Story Points</td><td>18 SP (≈ 72 horas estimadas)</td></tr>
+    </tbody>
+  </table>
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
-#### 5.2.3.3. Sprint Backlog 3
+
+<p>
+Para el Sprint 3 se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong>, donde se definen los roles de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) por aspecto clave del desarrollo.
+</p>
+<p>
+Los aspectos clave se centran en el despliegue y la implementación del Backend, que son la prioridad de este sprint. El nuevo participante se integra en el rol de colaboración dentro del equipo.
+</p>
+
+<ul>
+  <li><strong>Despliegue & Configuración (DevOps):</strong> Configuración de variables de entorno, pipeline CI/CD y monitoreo del frontend desplegado.</li>
+  <li><strong>Desarrollo Backend (Core):</strong> Implementación de la arquitectura MVC/Capas para la gestión de datos (Java Spring Boot, JPA).</li>
+  <li><strong>Autenticación & Seguridad:</strong> Desarrollo de los endpoints de registro/login, JWT generation y configuración de seguridad.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspect: DevOps & Deploy</th>
+      <th>Aspect: Backend Core (CRUD)</th>
+      <th>Aspect: Auth & Security</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Armas Sánchez, Oscar Javier</td><td>L</td><td>C</td><td>C</td></tr>
+    <tr><td>Calvo Yalan, Renato Guillermo</td><td>C</td><td>C</td><td>L</td></tr>
+    <tr><td>Ramirez Carrasco, Ariana Lizeth</td><td>C</td><td>L</td><td>C</td></tr>
+    <tr><td>Roman Lopez, Miguel Angel Junior</td><td>C</td><td>C</td><td>C</td></tr>
+    <tr><td>Ruiz Madrid, Billy Jake</td><td>C</td><td>C</td><td>C</td></tr>
+    <tr><td>Quiroz Caceres, Adrian Alonso</td><td>C</td><td>C</td><td>C</td></tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+Los líderes de aspecto son responsables de guiar las decisiones técnicas en su área y asegurar que los entregables cumplan con los estándares definidos, utilizando <strong>GitLab o GitHub Actions</strong> para gestionar los procesos de despliegue.
+</p>
+
 #### 5.2.3.4. Development Evidence for Sprint Review
 #### 5.2.3.5. Execution Evidence for Sprint Review
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-### 5.2.4. Sprint 4
-#### 5.2.4.1. Sprint Planning 4
-#### 5.2.4.2. Aspect Leaders and Collaborators
-#### 5.2.4.3. Sprint Backlog 4
-#### 5.2.4.4. Development Evidence for Sprint Review
-#### 5.2.4.5. Execution Evidence for Sprint Review
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
-#### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
-
 
 Para validar nuestros entregables (Landing Page y aplicación web), realizaremos entrevistas con nuestros segmentos objetivo: **Administradores de casas de reposo y Familiares de adultos mayores.**
 El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de la solución propuesta por el Team Veyra, así como detectar mejoras a nivel de UI/UX y funcionalidad.
