@@ -78,7 +78,15 @@ Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores e
       Tengo 21 años. Soy puntual, responsable y con experiencia en gestión de proyectos y desarrollo web. Espero aprender y aportar para que el proyecto sea exitoso.
     </td>
   </tr>
-  
+<tr>
+    <td width="140" valign="top" align="center">
+      <img src="../images/Aqc.jpeg" alt="Adrian Photo" width="120" />
+    </td>
+    <td valign="top">
+      <strong>Adrian Alonso Quiroz Cáceres - (U202214864)</strong> - Ingeniería de Software<br><br>
+      Soy Adrian Quiroz, tengo 21 años y actualmente curso el quinto ciclo de Ingeniería de Software. Poseo conocimientos en C++ y bases de datos, áreas que me permiten contribuir al desarrollo de soluciones digitales.
+    </td>
+  </tr>  
 </table>
 
 
