@@ -1757,6 +1757,16 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 
 ## Video About-the-Team
 
+<div align="center">
+    <img src="../images/AboutTheTeam-image.png" alt="Veyra About the Team" style="width:500;" />
+</div>
+<br>
+
+<p align="center">
+   Enlace del <strong>Video About-the-Team</strong>: <a href="https://youtu.be/-tBBZ8lwbts">https://youtu.be/-tBBZ8lwbts</a>
+</p>
+
+
 ## Bibliografía
   <ul>
     <li>Refactoring.Guru. <em>Design patterns</em>. <a href="https://refactoring.guru/es/design-patterns">refactoring.guru</a></li>
@@ -1774,7 +1784,8 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
     - Video de Exposición TB2: http://bit.ly/4h2grbc <br>
     - Video About the Product en Youtube: https://youtu.be/DCPqVW0C2Po <br>
 	- Video About the Product en Microsoft Stream: https://shorturl.at/W0vMy <br>
-    - Video About the Team en Youtube: 
+    - Video About the Team en Youtube: https://youtu.be/-tBBZ8lwbts <br>
+	- Video About the Team en Microsoft Stream: https://shorturl.at/jAp77
 
   </ul>
 </body>
