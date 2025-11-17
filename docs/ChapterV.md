@@ -1148,7 +1148,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 <p><strong>CURSO: Desarrollo de Aplicaciones Open Source </strong> </p>
 <p><strong>SECCIÓN:</strong> 7338</p>
 <p><strong>PROFESORES: Angel Augusto Velasquez Nuñez</strong> </p>
-<p><strong>AUDITOR:....</strong> </p>
+<p><strong>AUDITOR: El equipo de Veyra</strong> </p>
 <p><strong>CLIENTE(S):</strong> ....</p>
 
 <hr>
@@ -1330,7 +1330,16 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 
 <br>
 
+## Video About-the-Product
 
+<div align="center">
+    <img src="../images/AboutTheProduct-image.png" alt="Veyra Promotional Banner" style="width:500;" />
+</div>
+<br>
+
+<p align="center">
+   Enlace del <strong>Video About-the-Product</strong>: <a href="https://youtu.be/DCPqVW0C2Po">https://youtu.be/DCPqVW0C2Po</a>
+</p>
 
 ## Video About-the-Team
 
@@ -1346,7 +1355,12 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 ## Anexos
   <ul>
     - Deploy de Landing Page: https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/ <br>
-    - Video de Exposición: http://bit.ly/4h2grbc
+    - Video de Exposición TB1: http://bit.ly/4h2grbc <br>
+    - Video de Exposición TB2: http://bit.ly/4h2grbc <br>
+    - Video About the Product en Youtube: https://youtu.be/DCPqVW0C2Po <br>
+	- Video About the Product en Microsoft Stream: https://shorturl.at/W0vMy <br>
+    - Video About the Team en Youtube: 
+
   </ul>
 </body>
 </html>
