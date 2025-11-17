@@ -1431,6 +1431,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 ## Anexos
   <ul>
     - Deploy de Landing Page: https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/ <br>
+    - Deploy del Backend: https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ <br>
     - Video de Exposición TB1: http://bit.ly/4h2grbc <br>
     - Video de Exposición TB2: http://bit.ly/4h2grbc <br>
     - Video About the Product en Youtube: https://youtu.be/DCPqVW0C2Po <br>
