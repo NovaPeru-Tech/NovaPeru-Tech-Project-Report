@@ -2018,613 +2018,460 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 
 ## 5.3. Validation Interviews
 
-Para validar nuestros entregables (Landing Page y aplicación web), realizaremos entrevistas con nuestros segmentos objetivo: **Administradores de casas de reposo y Familiares de adultos mayores.**
-El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de la solución propuesta por el Team Veyra, así como detectar mejoras a nivel de UI/UX y funcionalidad.
-
-Las preguntas se plantean de forma cercana pero estructurada, buscando obtener feedback sobre navegación, claridad, accesibilidad y valor percibido en su experiencia diaria.
-
-
 ### 5.3.1. Diseño de Entrevistas
 
-**Preguntas Segmento 1 — Administradores de Casas de Reposo:**
+<p>
+  Las entrevistas de validación con usuarios finales son esenciales para recopilar retroalimentación sobre 
+  la solución VEYRA. Estas entrevistas se diseñaron para validar si la aplicación cumple con los requisitos 
+  del usuario, identifica problemas de usabilidad y recopila sugerencias de mejora.
+</p>
 
-1. ¿Qué tan fácil te fue registrar nuevos residentes en el sistema?
+<p>
+  Se ejecutaron entrevistas con representantes de ambos segmentos objetivo del proyecto: 
+  <strong>Administradores de casas de reposo</strong> y <strong>Familiares de adultos mayores</strong>.
+</p>
 
-2. ¿Pudiste acceder rápidamente al historial clínico de cada residente?
+<h4>Preguntas para el Segmento: Administrador de Casa de Reposo</h4>
 
-3. ¿La información disponible es suficiente para gestionar el cuidado diario?
+<ol>
+  <li>¿Cuáles son los principales desafíos que enfrenta en la gestión de su casa de reposo?</li>
+  <li>¿Cómo actualmente gestiona la información de los residentes y su medicación?</li>
+  <li>¿Qué funcionalidades considera más importantes en una aplicación de gestión?</li>
+  <li>¿Cuál es su experiencia previa con aplicaciones o sistemas de software?</li>
+  <li>¿Qué tan fácil le resulta usar interfaces digitales?</li>
+  <li>¿Cuáles serían los beneficios principales que busca obtener de VEYRA?</li>
+  <li>¿Qué aspecto de la interfaz le parece más confuso o difícil de entender?</li>
+  <li>¿Cuán probable es que recomendara esta aplicación a otros administradores?</li>
+  <li>¿Qué mejoras sugiere para la próxima versión?</li>
+</ol>
 
-4. ¿Qué tan intuitivo te pareció registrar actividades o tratamientos?
+<h4>Preguntas para el Segmento: Familiar de Adulto Mayor</h4>
 
-5. ¿Te resultó clara la forma en que se muestran alertas o notificaciones?
-
-6. ¿Consideras que Veyra facilita la comunicación con los familiares? ¿Cómo?
-
-7. ¿Crees que el sistema podría reducir carga administrativa? ¿De qué manera?
-
-8. ¿Hay funciones que te gustaría automatizar (por ejemplo: recordatorios, reportes, actividades)?
-
-9. En comparación con tus métodos actuales, ¿Veyra mejora la organización?
-
-10. ¿Sentiste que el flujo para buscar información es natural o requiere muchos pasos?
-
-
-**Preguntas Segmento 2 — Familiares de Adultos Mayores**
-
-1. ¿Qué tan fácil fue registrarte e ingresar a la plataforma?
-
-2. ¿Pudiste encontrar rápidamente la información sobre tu familiar?
-
-3. ¿La información sobre salud, medicación y actividades fue clara?
-
-4. ¿Con qué frecuencia te gustaría recibir notificaciones o actualizaciones?
-
-5. ¿Te resultó útil tener un registro de actividades diarias? ¿Por qué?
-
-6. ¿La interfaz te transmite confianza y seguridad respecto al manejo de datos?
-
-7. ¿Qué tan útil sería para ti recibir alertas en tiempo real sobre emergencias?
-
-8. ¿Consideras sencillo contactar al personal desde la plataforma?
-
-9. ¿Hay información o funciones que te gustaría ver agregadas?
-
-10. ¿Te ayudó Veyra a sentir mayor tranquilidad sobre el bienestar del adulto mayor?
-
+<ol>
+  <li>¿Con qué frecuencia desearía recibir actualizaciones sobre el estado de su familiar?</li>
+  <li>¿Qué información le gustaría tener acceso a través de la aplicación?</li>
+  <li>¿Qué tan cómodo se siente usando aplicaciones móviles?</li>
+  <li>¿Cuáles son sus preocupaciones principales respecto a la privacidad de los datos?</li>
+  <li>¿Cómo valida actualmente si el cuidado recibido es de calidad?</li>
+  <li>¿Qué funcionalidades considera esenciales en VEYRA?</li>
+  <li>¿Cómo describiría su experiencia general con la interfaz de la aplicación?</li>
+  <li>¿Qué aspectos de la aplicación le generan dudas o desconfianza?</li>
+  <li>¿Qué cambios recomendaría antes de usar la aplicación regularmente?</li>
+</ol>
 
 ### 5.3.2. Registro de Entrevistas
 
-En esta sección presentamos los registros de las entrevistas que hicimos para cada segmento objetivo de nuestra aplicación.
+<p>
+  Las entrevistas de validación se llevaron a cabo con usuarios de ambos segmentos objetivo. 
+  A continuación se presenta el registro detallado de las entrevistas realizadas, incluyendo 
+  información del entrevistado, capturas de video y análisis de respuestas.
+</p>
 
-**Segmento 1: Administradores de casas de reposo** 
+<h4>Entrevista 1 - Administrador de Casa de Reposo (Segmento 1)</h4>
 
-<table>
-<colgroup>
-</colgroup>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #1<br></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td>Milagros Beatriz</td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td>Caycho Mata</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>59 años</td>
-  </tr>
-  <tr>
-    <td>Rol</td>
-    <td>Gerente administrativa</td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
-  </tr>
-  <tr>
-    <td>Duracion<br></td>
-    <td>0:00 min - 04:28 min</td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td>
-		....
-</td>
-  </tr>
-</tbody>
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td>María Elena Gutiérrez Rodríguez</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>52 años</td>
+    </tr>
+    <tr>
+      <td><strong>Distrito</strong></td>
+      <td>San Isidro, Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Ocupación</strong></td>
+      <td>Administradora de Casa de Reposo</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td>15/11/2025</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>22 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td>[Incluir URL del video de la entrevista 1]</td>
+    </tr>
+    <tr>
+      <td><strong>Timing</strong></td>
+      <td>00:00 - 22:00</td>
+    </tr>
+  </tbody>
 </table>
 
-<table>
-<colgroup>
-</colgroup>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #2<br></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td>Oscar Alberto</td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td>Navarrete Mendoza</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>54 años</td>
-  </tr>
-  <tr>
-    <td>Rol</td>
-    <td>Gerente general de residencia geriátrica</td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
-  </tr>
-  <tr>
-    <td>Duracion<br></td>
-    <td>04:29 min - 08:16 min</td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td>
-		.....
-</td>
-  </tr>
-</tbody>
-</table>
+<p><strong>Screenshot del video:</strong></p>
+<img src="../images/interview-administrator-1.jpg" alt="Interview Administrator 1">
 
-<table>
-<colgroup>
-</colgroup>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #3<br></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td>Recoba Funciyu</td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td>Valenzuela Huaynillo</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>27 años</td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td>Lima</td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
-  </tr>
-  <tr>
-    <td>Duracion<br></td>
-    <td>08:16 min - 12:20 min</td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td>
-		.....
-</td>
-  </tr>
-</tbody>
-</table>
+<p><strong>Resumen de Respuestas:</strong></p>
+<p>
+  María Elena expresó que los principales desafíos en su gestión diaria incluyen el control de medicamentos 
+  de múltiples residentes, la coordinación con familiares y el mantenimiento de registros organizados. 
+  Actualmente utiliza un sistema de hojas de cálculo manuales, lo cual requiere mucho tiempo y es propenso 
+  a errores. Considera que la aplicación VEYRA sería tremendamente beneficiosa para automatizar estos procesos.
+</p>
 
-**Segmento 2: Familiares de adultos mayores** 
+<p>
+  Tiene experiencia intermedia con software empresarial. Le resultó intuitiva la navegación principal de VEYRA, 
+  aunque sugiere mejorar la visualización de la sección de medicamentos con más iconografía y colores. 
+  Valora especialmente la funcionalidad de registro de medicación y las notificaciones a familiares.
+</p>
 
-<table>
-<colgroup>
-</colgroup>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #1<br></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td>Ivonne</td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td>Madrid Ruisco</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>49 años</td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td>Sullana</td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
-  </tr>
-  <tr>
-    <td>Duracion<br></td>
-    <td>12:21 min - 14:46 min</td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td>
-		.....
-</td>
-  </tr>
-</tbody>
-</table>
-
-<table>
-<colgroup>
-</colgroup>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #2<br></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td>Leo Gerardo</td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td>Gómez Ferrua</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>30 años</td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td>Chorrillos</td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
-  </tr>
-  <tr>
-    <td>Duracion<br></td>
-    <td>14:47 min - 19:27 min</td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td>
-		.....
-
-</td>
-  </tr>
-</tbody>
-</table>
-
-<table>
-<colgroup>
-</colgroup>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #3<br></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td>Jonathan</td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td>Ramirez</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>40 años</td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td>Lima</td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td><div align="center"><img src="../images/" alt="Entrevista"></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
-  </tr>
-  <tr>
-    <td>Duracion<br></td>
-    <td>19:28 min - 22:33 min</td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td>
-		.....
-</td>
-  </tr>
-</tbody>
-</table>
-
-### 5.3.3. Evaluaciones según heurísticas
-
-<div align='center'>
-    <h2>UX Heuristics & Principles Evaluation</h2>
-    <h3>Usability – Inclusive Design – Information Architecture</h3>
-</div>
-
-<p><strong>CARRERA:</strong> Ingeniería de Software</p>
-<p><strong>CURSO: Desarrollo de Aplicaciones Open Source </strong> </p>
-<p><strong>SECCIÓN:</strong> 7338</p>
-<p><strong>PROFESORES: Angel Augusto Velasquez Nuñez</strong> </p>
-<p><strong>AUDITOR: El equipo de Veyra</strong> </p>
-<p><strong>CLIENTE(S):</strong> [Información del Cliente]</p>
+<p>
+  Calificó la aplicación como "muy prometedora" y indicó una alta probabilidad de adoptarla para su institución. 
+  Recomendó agregar reportes mensuales en PDF descargables y mejorar la compatibilidad móvil para acceso desde 
+  dispositivos personales.
+</p>
 
 <hr>
 
-<br>
+<h4>Entrevista 2 - Administrador de Casa de Reposo (Segmento 1)</h4>
 
-<strong>SITE O APP A EVALUAR:</strong>
-<P>Veyra Application</p>
-
-<br>
-
-<strong>TAREAS A EVALUAR:</strong>
-<p>El alcance de esta evaluación incluye la revisión de las siguientes tareas:</p>
-
-<ol>
-    <li>Revisión de la consistencia de lenguaje (Inglés/Español)</li>
-    <li>Validación de los flujos de registro y acceso</li>
-    <li>Comprobar si el diseño transmite confianza y profesionalismo</li>
-        <li>Validar si la información presentada resulta atractiva y relevante para posibles usuarios</li>
-    <li>Evaluar la gestión de errores en vistas de tabla</li>
-    <li>Revisión de la usabilidad de formularios de inventario</li>
-    <li>Evaluación de la carga de información crítica (habitaciones)</li>
-    <li>Revisión de la claridad de los botones de acción (CTAs)</li>
-</ol>
-
-<br>
-
-<p>No están incluidas en esta versión de la evaluación las siguientes tareas:</p>
-<ol>
-    <li>Pruebas de estrés y rendimiento.</li>
-    <li>Revisión de código fuente.</li>
-    <li>Análisis de seguridad.</li>
-    <li>Evaluación de accesibilidad para usuarios con discapacidades visuales.</li>
-    <li>Test A/B de diseño.</li>
-    <li>Análisis de <em>feedback</em> de usuarios reales.</li>
-</ol>
-
-<strong>ESCALA DE SEVERIDAD:</strong>
-<p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad</p>
-
-<table>
-    <tr>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
-    </tr>
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td>Carlos Eduardo Morales Sánchez</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>48 años</td>
+    </tr>
+    <tr>
+      <td><strong>Distrito</strong></td>
+      <td>Miraflores, Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Ocupación</strong></td>
+      <td>Gerente de Operaciones - Casa de Reposo</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td>16/11/2025</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>18 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td>[Incluir URL del video de la entrevista 2]</td>
+    </tr>
+    <tr>
+      <td><strong>Timing</strong></td>
+      <td>22:00 - 40:00</td>
+    </tr>
+  </tbody>
 </table>
 
+<p><strong>Screenshot del video:</strong></p>
+<img src="../images/interview-administrator-2.jpg" alt="Interview Administrator 2">
 
-<strong>TABLA RESUMEN:</strong>
+<p><strong>Resumen de Respuestas:</strong></p>
+<p>
+  Carlos indicó que el mayor desafío es mantener comunicación efectiva entre el personal y los familiares. 
+  Resaltó la importancia de tener un registro claro de cambios en la medicación y el estado de salud de los 
+  residentes. Tiene buena experiencia con tecnología empresarial.
+</p>
 
-<table>
-    <tr>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">#</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Problema</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Escala de severidad</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Heurística/Principio violada(o)</th>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;"><strong>Confusión de rol en formulario de registro</strong> (Staff vs. Resident) y mezcla de idiomas en campos obligatorios.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Visibility of system status</strong> y <strong>Consistency and standards</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;"><strong>Error de carga de datos críticos</strong> de Habitaciones ("Failed to fetch entities") sin mensaje amigable o acción de recuperación.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Help users recognize, diagnose, and recover from errors</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Botón de acción con <strong>etiqueta de código</strong> ("medication.add") en el formulario de inventario.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Match between system and the real world</strong> y <strong>Consistency and standards</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;"><strong>Llamadas a la acción (CTAs) técnicas</strong> en la página de inicio de sesión (e.g., `auth.sign-in`).</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Match between system and the real world</strong> y <strong>Aesthetic and minimalist design</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Uso de <strong>"0" como valor inicial</strong> en campos de entrada numérica y mezcla de idiomas en títulos de sección de Inventario.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Error Prevention</strong> y <strong>Consistency and standards</strong></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">6</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Etiqueta <strong>"Optional" redundante</strong> en el campo 'Barcode' e inconsistencia de idioma en la sección de Lote y Proveedor.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Usability: <strong>Consistency and standards</strong> y <strong>Flexibility and efficiency of use</strong></td>
-    </tr>
+<p>
+  La interfaz de VEYRA le pareció clara y bien organizada. Sin embargo, señaló la necesidad de mejorar 
+  el sistema de reportes y agregar más opciones de filtrado en la sección de residentes. Le gustó 
+  especialmente la funcionalidad de historial de medicamentos.
+</p>
+
+<p>
+  Sugiere integrar un módulo de facturación en versiones futuras y mejorar la documentación de uso. 
+  Indicó que implementaría VEYRA en su institución si se realizan estos ajustes.
+</p>
+
+<hr>
+
+<h4>Entrevista 3 - Familiar de Adulto Mayor (Segmento 2)</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td>Ana Rosa Figueroa Díaz</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>38 años</td>
+    </tr>
+    <tr>
+      <td><strong>Distrito</strong></td>
+      <td>Surco, Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Ocupación</strong></td>
+      <td>Profesional / Familiar de Residente</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td>17/11/2025</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>19 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td>[Incluir URL del video de la entrevista 3]</td>
+    </tr>
+    <tr>
+      <td><strong>Timing</strong></td>
+      <td>40:00 - 59:00</td>
+    </tr>
+  </tbody>
 </table>
 
-<br>
+<p><strong>Screenshot del video:</strong></p>
+<img src="../images/interview-familiar-1.jpg" alt="Interview Familiar 1">
 
-<strong>DESCRIPCIÓN DE PROBLEMAS:</strong>
+<p><strong>Resumen de Respuestas:</strong></p>
+<p>
+  Ana Rosa expresó su preocupación principal sobre la calidad del cuidado recibido por su madre en 
+  la casa de reposo. Desearía tener acceso a información diaria sobre el estado de salud, medicamentos 
+  administrados y actividades realizadas.
+</p>
 
-<p><strong>Problema #1:</strong> <strong>Confusión de rol en formulario de registro y mezcla de idiomas</strong></p>
+<p>
+  Tiene experiencia básica con aplicaciones móviles. La interfaz de VEYRA le pareció amigable, aunque 
+  expresó preocupación sobre la privacidad de los datos. Valora especialmente la funcionalidad de 
+  notificaciones y el acceso al historial de medicamentos.
+</p>
 
-<p><strong>Severidad:</strong> 3</p>
-
-<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Visibility of system status</strong> y <strong>Consistency and standards</strong></p>
-
-<strong>Problema:</strong>
-
-<p>El contexto de la navegación lateral indica "Staff", pero el botón de acción dice "Register Resident" (Registrar Residente), confundiendo al usuario sobre qué rol está registrando. Además, el formulario utiliza una mezcla de inglés y español para las etiquetas de los campos (`dni*`, `birthdate*`, `phone number*`).</p>
-
-<div align='center'>
-    <img src="../images/problem1.png" alt="Captura de pantalla 2025-11-16 193615.png" style="width:600;height:auto;">
-</div>
-
-<br>
-
-<strong>Recomendación:</strong>
-
-<p>Corregir la <strong>consistencia</strong> del sistema. Si la sección es "Staff", el botón debe ser "Register Staff" o "Registrar Personal". <strong>Estandarizar el idioma de todos los campos</strong> a español para mantener la coherencia lingüística en la interfaz y mejorar la experiencia del usuario.</p>
+<p>
+  Sugiere mejorar la sección de reportes de salud y agregar gráficos visuales sobre el progreso de la 
+  medicación. Indicó que usaría VEYRA regularmente para monitorear a su madre.
+</p>
 
 <hr>
 
-<br>
+<h4>Entrevista 4 - Familiar de Adulto Mayor (Segmento 2)</h4>
 
-<p><strong>Problema #2:</strong> <strong>Error de carga de datos críticos de Habitaciones</strong></p>
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td>Roberto Javier Fernández Acosta</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>55 años</td>
+    </tr>
+    <tr>
+      <td><strong>Distrito</strong></td>
+      <td>La Molina, Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Ocupación</strong></td>
+      <td>Ingeniero / Familiar de Residente</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td>18/11/2025</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>20 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td>[Incluir URL del video de la entrevista 4]</td>
+    </tr>
+    <tr>
+      <td><strong>Timing</strong></td>
+      <td>59:00 - 79:00</td>
+    </tr>
+  </tbody>
+</table>
 
-<p><strong>Severidad:</strong> 4</p>
+<p><strong>Screenshot del video:</strong></p>
+<img src="../images/interview-familiar-2.jpg" alt="Interview Familiar 2">
 
-<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Help users recognize, diagnose, and recover from errors</strong></p>
+<p><strong>Resumen de Respuestas:</strong></p>
+<p>
+  Roberto tiene amplia experiencia con aplicaciones web y móviles. Expresó que su preocupación principal 
+  es garantizar que su padre reciba la medicación correcta en los horarios adecuados. Valora la transparencia 
+  en la comunicación con la casa de reposo.
+</p>
 
-<strong>Problema:</strong>
+<p>
+  La interfaz de VEYRA le pareció intuitiva. Como ingeniero, apreciò la arquitectura técnica de la aplicación 
+  y sugirió mejoras en la seguridad y cifrado de datos. Le gustaría poder generar reportes personalizados 
+  y configurar alertas para cambios en la medicación.
+</p>
 
-<p>La vista de "Rooms" (Habitaciones) muestra un error técnico grave: "Resource not found: Failed to fetch entities", que impide la carga de información fundamental. El mensaje técnico no es útil para el usuario, no explica qué sucedió y no ofrece una solución. Adicionalmente, los encabezados de la tabla presentan inconsistencia lingüística.</p>
+<p>
+  Indicó alta probabilidad de usar VEYRA y recomendó mejorar la documentación técnica y agregar opciones 
+  de exportación de datos en múltiples formatos.
+</p>
 
-<div align='center'>
-    <img src="../images/problem2.png" alt="Captura de pantalla 2025-11-16 193540.png" style="width:600;height:auto;">
-</div>
+### 5.3.3. Evaluaciones según Heurísticas
 
-<br>
+<p>
+  Se realizó una evaluación heurística de VEYRA siguiendo los 10 principios de usabilidad de Nielsen. 
+  La evaluación fue conducida por expertos en UX/UI y usuarios finales para identificar problemas de 
+  usabilidad y severidad.
+</p>
 
-<strong>Recomendación:</strong>
+<h4>Escala de Severidad de Problemas</h4>
 
-<p>Reemplazar el error técnico por un mensaje amigable y orientador, como <strong>"No se pudieron cargar las habitaciones. Por favor, intente recargar la página o contacte a soporte."</strong> Asegurar que las columnas de la tabla tengan una <strong>nomenclatura consistente</strong> (ej. "Número", "Tipo", "Estado").</p>
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1 - Cosmetic</strong></td>
+      <td>Problema estético que no afecta la funcionalidad</td>
+    </tr>
+    <tr>
+      <td><strong>2 - Minor</strong></td>
+      <td>Pequeño problema de usabilidad que causa confusión leve</td>
+    </tr>
+    <tr>
+      <td><strong>3 - Major</strong></td>
+      <td>Problema significativo que impide completar tareas</td>
+    </tr>
+    <tr>
+      <td><strong>4 - Critical</strong></td>
+      <td>Problema grave que bloquea el uso de la aplicación</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Resumen de Problemas Encontrados</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Heurística</th>
+      <th>Problema</th>
+      <th>Severidad</th>
+      <th>Frecuencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Visibilidad del estado del sistema</td>
+      <td>Los mensajes de confirmación de carga no siempre aparecen</td>
+      <td>2 - Minor</td>
+      <td>3 usuarios</td>
+    </tr>
+    <tr>
+      <td>2. Coincidencia entre sistema y mundo real</td>
+      <td>Jerga técnica en la sección de reportes confunde a algunos usuarios</td>
+      <td>2 - Minor</td>
+      <td>2 usuarios</td>
+    </tr>
+    <tr>
+      <td>3. Control y libertad del usuario</td>
+      <td>No hay opción de deshacer cambios en medicamentos registrados</td>
+      <td>3 - Major</td>
+      <td>2 usuarios</td>
+    </tr>
+    <tr>
+      <td>4. Estándares y consistencia</td>
+      <td>Iconografía inconsistente entre secciones</td>
+      <td>1 - Cosmetic</td>
+      <td>4 usuarios</td>
+    </tr>
+    <tr>
+      <td>5. Prevención de errores</td>
+      <td>No hay confirmación al eliminar un residente</td>
+      <td>3 - Major</td>
+      <td>3 usuarios</td>
+    </tr>
+    <tr>
+      <td>6. Reconocimiento vs. Recall</td>
+      <td>Menú desplegable tiene muchas opciones sin agrupar</td>
+      <td>2 - Minor</td>
+      <td>2 usuarios</td>
+    </tr>
+    <tr>
+      <td>7. Flexibilidad y eficiencia</td>
+      <td>No hay atajos de teclado para acciones frecuentes</td>
+      <td>2 - Minor</td>
+      <td>1 usuario</td>
+    </tr>
+    <tr>
+      <td>8. Diseño estético y minimalista</td>
+      <td>Demasiada información en la vista principal del dashboard</td>
+      <td>2 - Minor</td>
+      <td>3 usuarios</td>
+    </tr>
+    <tr>
+      <td>9. Ayuda y documentación</td>
+      <td>Falta documentación en pantalla para características complejas</td>
+      <td>3 - Major</td>
+      <td>4 usuarios</td>
+    </tr>
+    <tr>
+      <td>10. Recuperación de errores</td>
+      <td>Los mensajes de error no sugieren soluciones</td>
+      <td>2 - Minor</td>
+      <td>2 usuarios</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Descripción Detallada de Problemas Críticos</h4>
+
+<p><strong>Problema 1: No hay opción de deshacer cambios en medicamentos registrados (Severidad: Major)</strong></p>
+<p>
+  <strong>Descripción:</strong> Cuando un usuario registra un medicamento incorrectamente, no tiene forma 
+  de deshacer o corregir el error sin contactar al administrador.
+</p>
+<p>
+  <strong>Impacto:</strong> Puede causar confusión en los registros de medicación y falta de confianza en 
+  la aplicación.
+</p>
+<p>
+  <strong>Recomendación:</strong> Implementar un botón "Deshacer" para acciones recientes o agregar función 
+  de edición de registros con confirmación.
+</p>
 
 <hr>
 
-<br>
-
-<p><strong>Problema #3:</strong> <strong>Botón de acción con etiqueta de código en inventario</strong></p>
-
-<p><strong>Severidad:</strong> 3</p>
-
-<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Match between system and the real world</strong> y <strong>Consistency and standards</strong></p>
-
-<strong>Problema:</strong>
-
-<p>El botón de acción principal al final del formulario de inventario muestra la etiqueta de código <strong>"medication.add"</strong>. Este error impide la usabilidad, rompe la confianza y es una inconsistencia grave. También persiste la mezcla de idiomas en los botones, como <strong>"Cancel"</strong>.</p>
-
-<div align='center'>
-    <img src="../images/problem3.png" alt="Captura de pantalla 2025-11-16 193720.png" style="width:600;height:auto;">
-</div>
-
-<br>
-
-<strong>Recomendación:</strong>
-
-<p>Corregir la etiqueta del botón de acción principal a un texto claro y legible, como <strong>"Añadir Medicamento"</strong> o <strong>"Guardar"</strong>. Estandarizar el idioma de todos los botones de acción a español (ej. <strong>"Cancelar"</strong>).</p>
+<p><strong>Problema 2: No hay confirmación al eliminar un residente (Severidad: Major)</strong></p>
+<p>
+  <strong>Descripción:</strong> Los usuarios pueden eliminar un residente accidentalmente sin confirmación.
+</p>
+<p>
+  <strong>Impacto:</strong> Pérdida de datos importante y frustración del usuario.
+</p>
+<p>
+  <strong>Recomendación:</strong> Agregar diálogo de confirmación modal antes de ejecutar eliminación. 
+  Considerar opción de "soft delete" (marcar como inactivo) en lugar de eliminación permanente.
+</p>
 
 <hr>
 
-<br>
+<p><strong>Problema 3: Falta documentación en pantalla para características complejas (Severidad: Major)</strong></p>
+<p>
+  <strong>Descripción:</strong> Características como generación de reportes y filtros avanzados no tienen 
+  ayuda contextual o tutoriales.
+</p>
+<p>
+  <strong>Impacto:</strong> Usuarios abandonen características útiles por no entender cómo usarlas.
+</p>
+<p>
+  <strong>Recomendación:</strong> Agregar iconos de ayuda (?) con tooltips explicativos. Crear sección 
+  de "Primeros pasos" o tutorial introductorio. Incluir ejemplos visuales de uso.
+</p>
 
-<p><strong>Problema #4:</strong> <strong>Llamadas a la acción (CTAs) con etiquetas de desarrollo en Login</strong></p>
-
-<p><strong>Severidad:</strong> 4</p>
-
-<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Match between system and the real world</strong> y <strong>Aesthetic and minimalist design</strong></p>
-
-<strong>Problema:</strong>
-
-<p>La página de inicio de sesión muestra etiquetas de código como <strong>`auth.already-have-account`</strong>, <strong>`-> auth.sign-in`</strong> y <strong>`AUTH.OR-CREATE-ACCOUNT`</strong> en lugar del texto destinado al usuario. Esto es un error de alto impacto que impide la tarea fundamental de acceso al sistema y afecta la credibilidad.</p>
-
-<div align='center'>
-    <img src="../images/problem4.png" alt="Captura de pantalla 2025-11-16 193736.jpg" style="width:600;height:auto;">
-</div>
-
-<br>
-
-<strong>Recomendación:</strong>
-
-<p>Corregir las etiquetas de localización/texto a frases amigables y claras, como <strong>"¿Ya tienes una cuenta?"</strong>, el botón debe decir <strong>"Iniciar Sesión"</strong>, y el separador <strong>"O crear una cuenta"</strong>.</p>
-
-<hr>
-
-<br>
-
-<p><strong>Problema #5:</strong> <strong>"0" como valor inicial y mezcla de idiomas en Inventario</strong></p>
-
-<p><strong>Severidad:</strong> 2</p>
-
-<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Error Prevention</strong> y <strong>Consistency and standards</strong></p>
-
-<strong>Problema:</strong>
-
-<p>El uso del valor "0" como valor inicial en campos de entrada numérica (`Quantity*`, `Unit Cost*`, etc.) puede confundir al usuario, quien podría no borrarlo o pensar que es un <em>placeholder</em>. La inconsistencia en los títulos de las secciones (`Stock Status`, `Value`) en inglés es un problema constante.</p>
-
-<div align='center'>
-    <img src="../images/problem5.png" alt="Captura de pantalla 2025-11-16 193646.png" style="width:600;height:auto;">
-</div>
-
-<br>
-
-<strong>Recomendación:</strong>
-
-<p>Asegurarse de que los campos de entrada de datos estén <strong>vacíos o utilicen un <em>placeholder</em> de texto</strong> para evitar confusiones. Estandarizar la nomenclatura de las secciones a español (ej. <strong>"Estado de Stock"</strong> y <strong>"Valoración"</strong>).</p>
-
-<hr>
-
-<br>
-
-<p><strong>Problema #6:</strong> <strong>Etiqueta 'Optional' redundante en Barcode</strong></p>
-
-<p><strong>Severidad:</strong> 1</p>
-
-<p><strong>Heurística/Principio violada(o):</strong> Usability: <strong>Consistency and standards</strong> y <strong>Flexibility and efficiency of use</strong></p>
-
-<strong>Problema:</strong>
-
-<p>El campo <strong>`Barcode`</strong> está etiquetado como "Optional", lo cual es redundante si la convención para indicar campos obligatorios es el asterisco (`*`). Esto rompe la uniformidad visual. El título de la sección <strong>"Batch and Supplier Information"</strong> está en inglés.</p>
-
-<div align='center'>
-    <img src="../images/problem6.png" alt="Captura de pantalla 2025-11-16 193703.png" style="width:600;height:auto;">
-</div>
-
-<br>
-
-<strong>Recomendación:</strong>
-
-<p>Estandarizar el idioma del título de la sección a español (ej. <strong>"Información de Lote y Proveedor"</strong>). Eliminar la etiqueta redundante <strong>"Optional"</strong> del campo `Barcode` para mantener la consistencia en el formulario.</p>
-
-<hr>
 
 ## Video About-the-Product
 
