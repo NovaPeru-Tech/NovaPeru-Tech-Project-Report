@@ -2317,39 +2317,83 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 
 ### 5.3.3. Evaluaciones según Heurísticas
 
-<p>
-  Se realizó una evaluación heurística de VEYRA siguiendo los 10 principios de usabilidad de Nielsen. 
-  La evaluación fue conducida por expertos en UX/UI y usuarios finales para identificar problemas de 
-  usabilidad y severidad.
-</p>
 
-<h4>Escala de Severidad de Problemas</h4>
+<div align='center'>
+    <h2>UX Heuristics & Principles Evaluation</h2>
+    <h3>Usability – Inclusive Design – Information Architecture</h3>
+</div>
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nivel</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>1 - Cosmetic</strong></td>
-      <td>Problema estético que no afecta la funcionalidad</td>
-    </tr>
-    <tr>
-      <td><strong>2 - Minor</strong></td>
-      <td>Pequeño problema de usabilidad que causa confusión leve</td>
-    </tr>
-    <tr>
-      <td><strong>3 - Major</strong></td>
-      <td>Problema significativo que impide completar tareas</td>
-    </tr>
-    <tr>
-      <td><strong>4 - Critical</strong></td>
-      <td>Problema grave que bloquea el uso de la aplicación</td>
-    </tr>
-  </tbody>
+<p><strong>CARRERA:</strong> Ingeniería de Software</p>
+<p><strong>CURSO: Desarrollo de Aplicaciones Open Source </strong> </p>
+<p><strong>NRC:</strong> 7338</p>
+<p><strong>PROFESOR: Angel Augusto Velasquez Nuñez</strong> </p>
+<p><strong>AUDITOR: El equipo de Veyra</strong> </p>
+<p><strong>CLIENTE(S):</strong> [Información del Cliente]</p>
+
+<br>
+
+<strong>TAREAS A EVALUAR:</strong>
+<p>El alcance de esta evaluación incluye la revisión de las siguientes tareas:</p>
+
+ - Revisión de la consistencia de lenguaje (Inglés/Español)
+   
+ - Validación de los flujos de registro y acceso
+   
+ - Comprobar si el diseño transmite confianza y profesionalismo
+   
+ - Validar si la información presentada resulta atractiva y relevante para posibles usuarios
+   
+ - Evaluar la gestión de errores en vistas de tabla
+   
+ - Revisión de la usabilidad de formularios de inventario
+   
+ - Evaluación de la carga de información crítica (habitaciones)
+   
+ - Revisión de la claridad de los botones de acción (CTAs)
+ 
+<br>
+
+
+<p>No están incluidas en esta versión de la evaluación las siguientes tareas:</p>
+
+  - Pruebas de estrés y rendimiento.
+  
+  - Revisión de código fuente.
+  
+  - Análisis de seguridad.
+  
+  - Evaluación de accesibilidad para usuarios con discapacidades visuales.
+  
+  - Test A/B de diseño.
+  
+  - Análisis de <em>feedback</em> de usuarios reales.
+
+<br>
+
+<strong>ESCALA DE SEVERIDAD:</strong>
+<p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad</p>
+
+<table>
+    <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
 </table>
 
 <h4>Resumen de Problemas Encontrados</h4>
