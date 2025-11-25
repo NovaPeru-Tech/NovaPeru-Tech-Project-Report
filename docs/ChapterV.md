@@ -5,7 +5,7 @@
 # Capítulo V: Product Implementation, Validation & Deployment
   
 ## 5.1. Software Configuration Management
-  <p>En este punto del informe se describe las decisiones y los principios que ayudarán al equipo a garantizar la coherencia durante el desarrollo de la solución.</p>
+  <p>En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución Veyra. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue.</p>
   
 ### 5.1.1. Software Development Environment Configuration
   <p>En este apartado se proporcionan los enlaces a las aplicaciones y productos de software creados durante el ciclo del proyecto utilizando los programas correspondientes.</p>
