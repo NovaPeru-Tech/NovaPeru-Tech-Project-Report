@@ -2572,39 +2572,263 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
   <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/#about-product">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/#about-product</a>
 </p>
 
-## Video About-the-Team
+## 5.5. Video About-the-Team
 
-<div align="center">
-    <img src="../images/AboutTheTeam-image.png" alt="Veyra About the Team" style="width:500;" />
-</div>
-<br>
-
-<p align="center">
-   Enlace del <strong>Video About-the-Team</strong>: <a href="https://youtu.be/-tBBZ8lwbts">https://youtu.be/-tBBZ8lwbts</a>
+<p>
+  El video "About the Team" presenta al equipo de desarrollo de NovaPeru-Tech, destacando las habilidades, 
+  roles y contribuciones de cada miembro en el proyecto VEYRA. Este video complementa la documentación del 
+  proyecto mostrando el lado humano detrás del desarrollo de la solución.
 </p>
 
+<h4>Información General del Video</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Título del Video</strong></td>
+      <td>NovaPeru-Tech: Meet the Team Behind VEYRA</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>[Incluir duración del video en formato MM:SS]</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Grabación</strong></td>
+      <td>[Incluir fecha de grabación]</td>
+    </tr>
+    <tr>
+      <td><strong>URL YouTube</strong></td>
+      <td><a href="https://youtu.be/-tBBZ8lwbts">https://youtu.be/-tBBZ8lwbts</a></td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream (Privado)</strong></td>
+      <td><a href="https://shorturl.at/jAp77">https://shorturl.at/jAp77</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Screenshot del video:</strong></p>
+<img src="../images/AboutTheTeam-image.png" alt="Veyra About the Team">
+
+<h4>Contenido del Video</h4>
+
+<p>
+  El video incluye presentaciones individuales de cada miembro del equipo, destacando:
+</p>
+
+<ul>
+  <li>Nombre completo y rol en el proyecto</li>
+  <li>Responsabilidades principales durante el desarrollo</li>
+  <li>Tecnologías y herramientas utilizadas</li>
+  <li>Aprendizajes clave del proyecto VEYRA</li>
+  <li>Expectativas para futuras iteraciones</li>
+</ul>
+
+<h4>Miembros del Equipo</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre Completo</th>
+      <th>Rol Principal</th>
+      <th>Contribuciones Destacadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calvo Yalan, Renato Guillermo</td>
+      <td>Backend Developer</td>
+      <td>Implementación de servicios REST, arquitectura del Backend</td>
+    </tr>
+    <tr>
+      <td>Armas Sánchez, Oscar Javier</td>
+      <td>DevOps & Deployment Specialist</td>
+      <td>Configuración de Azure, Vercel y GitHub Pages</td>
+    </tr>
+    <tr>
+      <td>Ramirez Carrasco, Ariana Lizeth</td>
+      <td>UX/UI Designer & Frontend Developer</td>
+      <td>Diseño de interfaces, implementación de componentes Angular</td>
+    </tr>
+    <tr>
+      <td>Roman Lopez, Miguel Angel Junior</td>
+      <td>Frontend Developer</td>
+      <td>Desarrollo de vistas, integración con API Backend</td>
+    </tr>
+    <tr>
+      <td>Ruiz Madrid, Billy Jake</td>
+      <td>QA & Documentation Specialist</td>
+      <td>Validación de funcionalidades, documentación técnica</td>
+    </tr>
+    <tr>
+      <td>Quiroz Caceres, Adrian Alonso</td>
+      <td>Backend Developer</td>
+      <td>Implementación de entidades y repositorios JPA</td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 ## Bibliografía
-  <ul>
-    <li>Refactoring.Guru. <em>Design patterns</em>. <a href="https://refactoring.guru/es/design-patterns">refactoring.guru</a></li>
-    <li>Gothelf, J., &amp; Seiden, J. (2021). <em>Lean UX: Designing great products with agile teams</em> (3rd ed.). O’Reilly Media.</li>
-    <li>Evans, E. (2004). <em>Domain-driven design</em>. Addison-Wesley.</li>
-    <li>Vernon, V. <em>Domain-driven design reference</em>. <a href="https://domainlanguage.com/ddd/reference/">domainlanguage.com</a></li>
-    <li>Martin, R. C. (2017). <em>Clean architecture</em>. Prentice Hall.</li>
-  </ul>
+
+<ul>
+  <li>
+    Refactoring.Guru. (s.f.). <em>Design Patterns</em>. 
+    Recuperado de <a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>
+  </li>
+  <li>
+    Gothelf, J., & Seiden, J. (2021). <em>Lean UX: Designing Great Products with Agile Teams</em> (3rd ed.). 
+    O'Reilly Media.
+  </li>
+  <li>
+    Evans, E. (2004). <em>Domain-Driven Design: Tackling Complexity in the Heart of Software</em>. 
+    Addison-Wesley Professional.
+  </li>
+  <li>
+    Vernon, V. (2016). <em>Domain-Driven Design Distilled</em>. Addison-Wesley Professional.
+  </li>
+  <li>
+    Vernon, V. (s.f.). <em>Domain-Driven Design Reference</em>. 
+    Recuperado de <a href="https://domainlanguage.com/ddd/reference/">https://domainlanguage.com/ddd/reference/</a>
+  </li>
+  <li>
+    Martin, R. C. (2017). <em>Clean Architecture: A Craftsman's Guide to Software Structure and Design</em>. 
+    Prentice Hall.
+  </li>
+  <li>
+    Google. (s.f.). <em>Google HTML/CSS Style Guide</em>. 
+    Recuperado de <a href="https://google.github.io/styleguide/htmlcssguide.html">https://google.github.io/styleguide/htmlcssguide.html</a>
+  </li>
+  <li>
+    Google. (s.f.). <em>Google JavaScript Style Guide</em>. 
+    Recuperado de <a href="https://google.github.io/styleguide/jsguide.html">https://google.github.io/styleguide/jsguide.html</a>
+  </li>
+  <li>
+    Google. (s.f.). <em>Google TypeScript Style Guide</em>. 
+    Recuperado de <a href="https://google.github.io/styleguide/tsguide.html">https://google.github.io/styleguide/tsguide.html</a>
+  </li>
+  <li>
+    Google. (s.f.). <em>Google Java Style Guide</em>. 
+    Recuperado de <a href="https://google.github.io/styleguide/javaguide.html">https://google.github.io/styleguide/javaguide.html</a>
+  </li>
+  <li>
+    Angular. (s.f.). <em>Angular Coding Style Guide</em>. 
+    Recuperado de <a href="https://angular.io/guide/styleguide">https://angular.io/guide/styleguide</a>
+  </li>
+  <li>
+    Spring. (s.f.). <em>Spring Boot Reference Documentation</em>. 
+    Recuperado de <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/">https://docs.spring.io/spring-boot/docs/current/reference/html/</a>
+  </li>
+  <li>
+    Cucumber. (s.f.). <em>Gherkin Reference</em>. 
+    Recuperado de <a href="https://cucumber.io/docs/gherkin/reference/">https://cucumber.io/docs/gherkin/reference/</a>
+  </li>
+  <li>
+    Nielsen Norman Group. (1994). <em>10 Usability Heuristics for User Interface Design</em>. 
+    Recuperado de <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">https://www.nngroup.com/articles/ten-usability-heuristics/</a>
+  </li>
+</ul>
+
+---
 
 ## Anexos
-  <ul>
-    - Deploy de Landing Page: https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/ <br>
-    - Deploy del Backend: https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ <br>
-    - Video de Exposición TB1: http://bit.ly/4h2grbc <br>
-    - Video de Exposición TB2: http://bit.ly/4h2grbc <br>
-    - Video About the Product en Youtube: https://youtu.be/DCPqVW0C2Po <br>
-	- Video About the Product en Microsoft Stream: https://shorturl.at/W0vMy <br>
-    - Video About the Team en Youtube: https://youtu.be/-tBBZ8lwbts <br>
-	- Video About the Team en Microsoft Stream: https://shorturl.at/jAp77
 
-  </ul>
+<h4>Enlaces de Despliegue y Repositorios</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Recurso</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Landing Page (Desplegado)</strong></td>
+      <td><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a></td>
+    </tr>
+    <tr>
+      <td><strong>Frontend Web Application (Desplegado)</strong></td>
+      <td><a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a></td>
+    </tr>
+    <tr>
+      <td><strong>Backend API (Desplegado)</strong></td>
+      <td><a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a></td>
+    </tr>
+    <tr>
+      <td><strong>Backend Swagger UI (Documentación API)</strong></td>
+      <td><a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a></td>
+    </tr>
+    <tr>
+      <td><strong>Repositorio Landing Page</strong></td>
+      <td><a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</a></td>
+    </tr>
+    <tr>
+      <td><strong>Repositorio Frontend</strong></td>
+      <td><a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a></td>
+    </tr>
+    <tr>
+      <td><strong>Repositorio Backend</strong></td>
+      <td><a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</a></td>
+    </tr>
+    <tr>
+      <td><strong>Repositorio Project Report</strong></td>
+      <td><a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report">https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Videos del Proyecto</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Video</th>
+      <th>Plataforma</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición TB1</strong></td>
+      <td>YouTube</td>
+      <td><a href="http://bit.ly/4h2grbc">http://bit.ly/4h2grbc</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td>[Incluir URL de Microsoft Stream]</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición TB2</strong></td>
+      <td>YouTube</td>
+      <td>[Incluir URL de YouTube TB2]</td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td>[Incluir URL de Microsoft Stream]</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video About the Product</strong></td>
+      <td>YouTube</td>
+      <td><a href="https://youtu.be/DCPqVW0C2Po">https://youtu.be/DCPqVW0C2Po</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="https://shorturl.at/W0vMy">https://shorturl.at/W0vMy</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video About the Team</strong></td>
+      <td>YouTube</td>
+      <td><a href="https://youtu.be/-tBBZ8lwbts">https://youtu.be/-tBBZ8lwbts</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="https://shorturl.at/jAp77">https://shorturl.at/jAp77</a></td>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
 
