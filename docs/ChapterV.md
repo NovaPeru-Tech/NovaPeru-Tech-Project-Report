@@ -1106,58 +1106,102 @@ Los miembros del equipo actualizan el estado de las tareas (To-do, In-Process, T
 
 ### 5.2.2. Sprint 2
 
-<p>Durante el Sprint 2 se desarrolló la interfaz frontend del módulo de gestión de tareas, miembros y grupos de la aplicación web “VEYRA”. Este sprint se centró en integrar los componentes con el backend mediante servicios REST, crear flujos de navegación funcionales entre vistas y aplicar mejoras en la interfaz visual con Angular y Angular Material.</p> 
-<p>Repositorio: <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeruTech/NovaPeruTech-Frontend</a></p> <p>Backend Localhost API: <a href="http://localhost:8080/swagger-ui/index.html">http://localhost:8080/swagger-ui/index.html</a></p>
+<p>
+  Durante el Sprint 2, el equipo se enfocó en el desarrollo del módulo frontend de gestión de tareas, 
+  miembros y grupos de la aplicación web VEYRA. Este sprint se centró en integrar componentes con el 
+  backend mediante servicios REST, crear flujos de navegación funcionales entre vistas y aplicar mejoras 
+  en la interfaz visual con Angular y Angular Material.
+</p>
+
+<p>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a>
+</p>
+
+<p>
+  <strong>Backend API (Local):</strong> <a href="http://localhost:8080/swagger-ui/index.html">http://localhost:8080/swagger-ui/index.html</a>
+</p>
 
 #### 5.2.2.1. Sprint Planning 2
 
-  <table>
-    <thead>
-      <tr><th>Sprint #</th><th>Sprint 2</th></tr>
-    </thead>
-    <tbody>
-      <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
-      <tr><td>Date</td><td>28/09/2025</td></tr>
-      <tr><td>Time</td><td>09:30 p.m.</td></tr>
-      <tr><td>Location</td><td>Discord</td></tr>
-      <tr><td>Prepared By</td><td>Oscar Javier Armas Sánchez</td></tr>
-      <tr>
-        <td>Attendees (to planning meeting)</td>
-        <td>
-          Calvo Yalan, Renato Guillermo<br>
-          Armas Sánchez, Oscar Javier<br>
-          Ramirez Carrasco, Ariana Lizeth<br>
-          Roman Lopez, Miguel Angel Junior<br>
-          Ruiz Madrid, Billy Jake
-        </td>
-      </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint 2 Review Summary</td></tr>
-      <tr>
-        <td colspan="2" style="text-align:center;">
-          Se completó el desarrollo y despliegue de la Landing Page, incluyendo todas las secciones planificadas y la funcionalidad de cambio de idioma.<br>
-          Quedaron pendientes pequeños ajustes visuales en la sección de “Planes” y optimizaciones de carga, los cuales se trasladarán al Sprint 2 para su refinamiento.
-        </td>
-      </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint 2 Retrospective Summary</td></tr>
-      <tr>
-        <td colspan="2" style="text-align:center;">
-          El equipo identificó la necesidad de mejorar la comunicación diaria y la asignación de sub-tareas en Jira para evitar solapamientos.<br>
-          Se acordó utilizar etiquetas más claras por responsable y realizar revisiones de código colaborativas al cierre de cada día.
-        </td>
-      </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
-      <tr>
-        <td>Sprint 2 Goal (Outcome–Impact–Customer–Confirmation)</td>
-        <td>
-          <em>Our focus is to develop the frontend module for task, member, and group management integrated with the local backend API.</em><br>
-          <em>We believe this will provide a functional and interactive interface that allows users to visualize and filter project data dynamically.</em><br>
-          <em>This will be confirmed when users can access, create, and view task information synchronized with the backend without display or performance issues.</em>
-        </td>
-      </tr>
-      <tr><td>Sprint 2 Velocity</td><td>16 Story Points</td></tr>
-      <tr><td>Sum of Story Points</td><td>16 SP (≈ 64 horas estimadas)</td></tr>
-    </tbody>
-  </table>
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>28/09/2025</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>09:30 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Oscar Javier Armas Sánchez</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Calvo Yalan, Renato Guillermo<br>
+        Armas Sánchez, Oscar Javier<br>
+        Ramirez Carrasco, Ariana Lizeth<br>
+        Roman Lopez, Miguel Angel Junior<br>
+        Ruiz Madrid, Billy Jake
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 1 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Se completó el desarrollo y despliegue de la Landing Page, incluyendo todas las secciones planificadas 
+        y la funcionalidad de cambio de idioma. Quedaron pendientes pequeños ajustes visuales en la sección 
+        de "Planes" y optimizaciones de carga, los cuales se trasladarán al Sprint 2 para su refinamiento.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 1 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        El equipo identificó la necesidad de mejorar la comunicación diaria y la asignación de sub-tareas 
+        en Jira para evitar solapamientos. Se acordó utilizar etiquetas más claras por responsable y realizar 
+        revisiones de código colaborativas al cierre de cada día.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 2 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+        <em>Our focus is to develop the frontend module for task, member, and group management integrated 
+        with the local backend API.</em><br><br>
+        <em>We believe this will provide a functional and interactive interface that allows users to visualize 
+        and filter project data dynamically.</em><br><br>
+        <em>This will be confirmed when users can access, create, and view task information synchronized with 
+        the backend without display or performance issues.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Velocity</td>
+      <td>16 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>16 SP (≈ 64 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
@@ -1322,7 +1366,7 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-<table>
+<table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
       <th>Repository</th>
@@ -1337,85 +1381,165 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
       <td rowspan="9">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</td>
       <td>main</td>
       <td>d2e8b00</td>
-      <td>Feature/jam</td>
+      <td>feat(jam): add JAM module scaffolding</td>
       <td>29-09-2025</td>
     </tr>
-    <tr><td>main</td><td>ff01fea</td><td>feat: SignIn component added</td><td>29-09-2025</td></tr>
-    <tr><td>main</td><td>fa75547</td><td>feat: Familiar and SignUpFamiliar components added</td><td>29-09-2025</td></tr>
-    <tr><td>main</td><td>ec5cece</td><td>feat: add Welcome component</td><td>29-09-2025</td></tr>
-    <tr><td>main</td><td>0fbc1ac</td><td>feat: AuthenticationSection component added</td><td>29-09-2025</td></tr>
-    <tr><td>main</td><td>b8cb684</td><td>feat: add Administrator and SignUpAdministrator components with associated HTML and CSS files</td><td>29-09-2025</td></tr>
-    <tr><td>main</td><td>4e12667</td><td>feat: add English and Spanish language support files</td><td>29-09-2025</td></tr>
-    <tr><td>main</td><td>9763508</td><td>feat: add language switcher, layout nursing home, and toolbar components</td><td>29-09-2025</td></tr>
-    <tr><td>main</td><td>4ccacbc</td><td>chore: default setup</td><td>28-09-2025</td></tr>
-    <tr><td>main</td><td>40695f2</td><td>initial commit</td><td>28-09-2025</td></tr>
+    <tr>
+      <td>main</td>
+      <td>ff01fea</td>
+      <td>feat: add SignIn component with validation</td>
+      <td>29-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>fa75547</td>
+      <td>feat: add Familiar and SignUpFamiliar components</td>
+      <td>29-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>ec5cece</td>
+      <td>feat: add Welcome component with greeting</td>
+      <td>29-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>0fbc1ac</td>
+      <td>feat: add AuthenticationSection component</td>
+      <td>29-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>b8cb684</td>
+      <td>feat: add Administrator and SignUpAdministrator components</td>
+      <td>29-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>4e12667</td>
+      <td>feat(i18n): add English and Spanish language support</td>
+      <td>29-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>9763508</td>
+      <td>feat: add language switcher and layout components</td>
+      <td>29-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>4ccacbc</td>
+      <td>chore: default Angular setup</td>
+      <td>28-09-2025</td>
+    </tr>
     <tr>
       <td rowspan="4">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</td>
       <td>develop</td>
       <td>5f14512</td>
-      <td>feat(env): update API base URL for development and production environments</td>
+      <td>feat(env): update API base URL for development and production</td>
       <td>10-10-2025</td>
     </tr>
-    <tr><td>develop</td><td>2886e0b</td><td>feat(firebase): update hosting configuration and change destination to app.html</td><td>10-10-2025</td></tr>
-    <tr><td>develop</td><td>251c8a9</td><td>feat(env): add employee endpoint to development environment</td><td>10-10-2025</td></tr>
-    <tr><td>develop</td><td>ee86134</td><td>feat(firebase): configure Firebase hosting and update budget limits</td><td>10-10-2025</td></tr>
+    <tr>
+      <td>develop</td>
+      <td>2886e0b</td>
+      <td>feat(firebase): update hosting configuration</td>
+      <td>10-10-2025</td>
+    </tr>
+    <tr>
+      <td>develop</td>
+      <td>251c8a9</td>
+      <td>feat(env): add employee endpoint to development</td>
+      <td>10-10-2025</td>
+    </tr>
+    <tr>
+      <td>develop</td>
+      <td>ee86134</td>
+      <td>feat(firebase): configure Firebase hosting</td>
+      <td>10-10-2025</td>
+    </tr>
   </tbody>
 </table>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+<p>
+  Durante el Sprint 2, se logró implementar completamente el módulo de gestión de tareas con integración 
+  a la API Backend. El frontend permite listar, filtrar y navegar entre tareas por miembro y estado, 
+  así como visualizar detalles asociados. Además, se mejoró la navegación y el diseño visual adaptando 
+  elementos con Angular Material.
+</p>
 
-<p>Durante el Sprint 2, se logró implementar completamente el módulo de gestión de tareas con integración a la Fake API. El frontend permite listar, filtrar y navegar entre tareas por miembro y estado, así como visualizar detalles asociados. Además, se mejoró la navegación y el diseño visual adaptando elementos con Angular Material.</p>
+<h5>Video de demostración de funcionalidad:</h5>
+<p>
+  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 2]<br>
+  <strong>Duración:</strong> [HH:MM:SS]
+</p>
 
-<h5>Capturas :</h5>
+<h5>Capturas de pantalla principales:</h5>
 
-<p>New-Resident:</p>
-  <img src="../images/New-Resident1.jpg" alt="New-Resident1">
+<p><strong>Módulo de Residentes - Nueva entrada:</strong></p>
+<img src="../images/New-Resident1.jpg" alt="New-Resident1">
 
-  <img src="../images/New-Resident2.jpg" alt="New-Resident2">
+<img src="../images/New-Resident2.jpg" alt="New-Resident2">
 
-  <p>Resident-List:</p>
-  <img src="../images/Resident-List.jpg" alt="Resident-List">
+<p><strong>Módulo de Residentes - Listado:</strong></p>
+<img src="../images/Resident-List.jpg" alt="Resident-List">
 
-  <p>Resident:</p>
-  <img src="../images/Resident.jpg" alt="Resident">
+<p><strong>Módulo de Residentes - Detalle:</strong></p>
+<img src="../images/Resident.jpg" alt="Resident">
 
-  <p>Medication-List:</p>
-  <img src="../images/Medication-List.jpg" alt="Medication-List">
+<p><strong>Módulo de Medicamentos - Listado:</strong></p>
+<img src="../images/Medication-List.jpg" alt="Medication-List">
 
-  <p>Medication:</p>
-  <img src="../images/Medication.jpg" alt="Medication">
+<p><strong>Módulo de Medicamentos - Detalle:</strong></p>
+<img src="../images/Medication.jpg" alt="Medication">
 
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-  <p>En el segundo Sprint el equipo diseñó, programó y puso en funcionamiento el Front-end para presentar la aplicación web "Veyra".</p>
+<p>
+  En el Sprint 2, el equipo diseñó, programó e integró el módulo frontend con la API Backend de VEYRA. 
+  Se estableció la comunicación entre el Frontend y los servicios REST proporcionados por el Backend.
+</p>
 
-  <table>
-    <thead>
-      <tr><th>End Point</th><th>Funciones</th></tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</td>
-        <td>Mostrar el Front-end Desplegado</td>
-      </tr>
-    </tbody>
-  </table>
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>End Point</th>
+      <th>Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>http://localhost:8080/api/v1/residents</td>
+      <td>Obtener listado de residentes, crear, actualizar y eliminar residentes</td>
+    </tr>
+    <tr>
+      <td>http://localhost:8080/api/v1/medications</td>
+      <td>Obtener listado de medicamentos, crear, actualizar y eliminar medicamentos</td>
+    </tr>
+    <tr>
+      <td>http://localhost:8080/api/v1/employees</td>
+      <td>Obtener listado de empleados, crear, actualizar y eliminar empleados</td>
+    </tr>
+  </tbody>
+</table>
   
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 <p>
-  <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">Front-end NovaPeru-Tech</a> -
+  <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">Frontend NovaPeru-Tech</a> — 
   <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a>
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-![overview-sprint2.jpg](../images/overview-sprint2.jpg)
-![network-graph-sprint2.jpg](../images/network-graph-sprint2.jpg)
-![visitors-sprint2.jpg](../images/visitors-sprint2.jpg)
+<img src="../images/overview-sprint2.jpg" alt="overview-sprint2">
+
+<img src="../images/network-graph-sprint2.jpg" alt="network-graph-sprint2">
+
+<img src="../images/visitors-sprint2.jpg" alt="visitors-sprint2">
 
 
 ### 5.2.3. Sprint 3
