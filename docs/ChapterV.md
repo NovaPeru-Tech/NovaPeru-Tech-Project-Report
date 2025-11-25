@@ -364,83 +364,237 @@ chore(config): update environment variables for production
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-  <p>Pautas, convenciones y estilos para los lenguajes usados: HTML, CSS, JavaScript, C#, TypeScript y Gherkin.</p>
+  <p>
+	  En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto Veyra: HTML, CSS, JavaScript, TypeScript, Java y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio.
+  </p>
+
+<h4>Referencias de Guías de Estilo Adoptadas</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lenguaje/Tecnología</th>
+      <th>Guía de Estilo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML/CSS</td>
+      <td><a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td><a href="https://google.github.io/styleguide/jsguide.html">Google JavaScript Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>TypeScript</td>
+      <td><a href="https://google.github.io/styleguide/tsguide.html">Google TypeScript Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Angular</td>
+      <td><a href="https://angular.io/guide/styleguide">Angular Coding Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td><a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Spring Boot</td>
+      <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/features.html">Spring Boot Reference Documentation</a></td>
+    </tr>
+    <tr>
+      <td>Gherkin</td>
+      <td><a href="https://cucumber.io/docs/gherkin/reference/">Gherkin Reference</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <h4>Nomenclatura General</h4>
-  <p>Se usará inglés relacionado con la entidad representada, en minúsculas. Ejemplos:</p>
-  <pre><code>.gallery {}
-.video {}
-.login {}
-</code></pre>
+
+<p>
+  Se utiliza nomenclatura en inglés para todos los elementos del código, relacionada con la entidad que representan dentro del dominio del negocio.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Convención</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clases (Java/TypeScript)</td>
+      <td>PascalCase</td>
+      <td><code>ResidentService</code>, <code>MedicationController</code></td>
+    </tr>
+    <tr>
+      <td>Interfaces (TypeScript)</td>
+      <td>PascalCase</td>
+      <td><code>IResidentRepository</code>, <code>Resident</code></td>
+    </tr>
+    <tr>
+      <td>Métodos/Funciones</td>
+      <td>camelCase</td>
+      <td><code>getResidentById()</code>, <code>createMedication()</code></td>
+    </tr>
+    <tr>
+      <td>Variables</td>
+      <td>camelCase</td>
+      <td><code>residentName</code>, <code>medicationList</code></td>
+    </tr>
+    <tr>
+      <td>Constantes</td>
+      <td>SCREAMING_SNAKE_CASE</td>
+      <td><code>MAX_RESIDENTS</code>, <code>API_BASE_URL</code></td>
+    </tr>
+    <tr>
+      <td>Archivos de componentes Angular</td>
+      <td>kebab-case</td>
+      <td><code>resident-list.component.ts</code></td>
+    </tr>
+    <tr>
+      <td>Clases CSS</td>
+      <td>kebab-case</td>
+      <td><code>.resident-card</code>, <code>.medication-form</code></td>
+    </tr>
+    <tr>
+      <td>Endpoints REST</td>
+      <td>kebab-case (plural)</td>
+      <td><code>/api/v1/residents</code>, <code>/api/v1/medications</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <h4>Sangría</h4>
-  <p>Espaciado de dos espacios dentro de bloques. Ejemplo HTML:</p>
-  <pre><code>&lt;!DOCTYPE html&gt;
+
+<p>Se aplica un espaciado de dos espacios para la indentación en todos los archivos HTML, CSS, JavaScript y TypeScript.</p>
+
+<p><strong>Ejemplo HTML:</strong></p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
-    &lt;title&gt;Título del Documento&lt;/title&gt;
+    &lt;title&gt;VEYRA - Nursing Home Management&lt;/title&gt;
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;h1&gt;Encabezado Principal&lt;/h1&gt;
-    &lt;p&gt;Este es un párrafo dentro del cuerpo del documento.&lt;/p&gt;
+    &lt;header&gt;
+      &lt;h1&gt;Welcome to VEYRA&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+      &lt;p&gt;Comprehensive care management platform.&lt;/p&gt;
+    &lt;/main&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
-<h4>Especificaciones generales por lenguaje</h4>
+<h4>Convenciones por Lenguaje</h4>
 
 <h5>HTML</h5>
-  <ul>
-    <li>Declarar <code>&lt;!DOCTYPE html&gt;</code> en la primera línea.</li>
-    <li>Usar líneas en blanco para separar bloques largos.</li>
-    <li>Usar comillas dobles para atributos: <code>&lt;table class="striped"&gt;</code></li>
-    <li>No omitir el elemento <code>&lt;title&gt;</code>.</li>
-    <li>Evitar líneas de código extremadamente largas; usar saltos y sangrías.</li>
-  </ul>
+
+<ul>
+  <li>Declarar <code>&lt;!DOCTYPE html&gt;</code> en la primera línea.</li>
+  <li>Utilizar minúsculas para nombres de elementos y atributos.</li>
+  <li>Utilizar comillas dobles para valores de atributos: <code>&lt;div class="container"&gt;</code></li>
+  <li>Incluir atributos <code>alt</code> en todas las imágenes para accesibilidad.</li>
+  <li>No omitir elementos <code>&lt;title&gt;</code> y meta tags.</li>
+  <li>Usar líneas en blanco para separar bloques de código extensos.</li>
+</ul>
 
 <h5>CSS</h5>
-  <ul>
-    <li>Preferir shorthand properties cuando sea posible.</li>
-    <li>Declaraciones terminadas con punto y coma.</li>
-    <li>Un espacio después de ":" en propiedades.</li>
-    <li>Usar comillas simples para valores (p. ej. <code>font-family: 'open sans', arial, sans-serif;</code>).</li>
-  </ul>
 
-<h5>JavaScript</h5>
-  <ul>
-    <li>Espacios alrededor de operadores.</li>
-    <li>Instrucciones simples terminan con punto y coma.</li>
-    <li>Llaves de función en la misma línea de la declaración.</li>
-    <li>Objetos con llave final seguida de punto y coma.</li>
-  </ul>
+<ul>
+  <li>Utilizar shorthand properties cuando sea posible: <code>margin: 10px 20px;</code></li>
+  <li>Terminar todas las declaraciones con punto y coma.</li>
+  <li>Un espacio después de los dos puntos en propiedades: <code>color: #333;</code></li>
+  <li>Usar comillas simples para valores de font-family: <code>font-family: 'Open Sans', sans-serif;</code></li>
+  <li>Organizar propiedades alfabéticamente dentro de cada selector.</li>
+</ul>
 
-<h5>Gherkin</h5>
-  <p>Reglas de sangrado y ejemplos:</p>
-  <pre><code>Scenario: Ingreso de requisitos con claridad
-  Given que en el formulario de ingreso de oferta laboral
-  When escribo claramente los requisitos
-  Then se mostrará el mensaje
-  And mi oferta solo aparecerá a quienes cumplan con estos
-</code></pre>
+<h5>JavaScript / TypeScript</h5>
 
-<h5>C#</h5>
-  <p>Pautas y ejemplos breves:</p>
-  <pre><code>// Interpolación de cadenas
-string displayName = $"{nameList[n].LastName}, {nameList[n].FirstName}";
+<ul>
+  <li>Usar <code>const</code> y <code>let</code> en lugar de <code>var</code>.</li>
+  <li>Espacios alrededor de operadores: <code>const result = a + b;</code></li>
+  <li>Punto y coma al final de instrucciones.</li>
+  <li>Llaves de apertura en la misma línea de la declaración.</li>
+  <li>Usar arrow functions para callbacks: <code>items.map(item => item.name)</code></li>
+</ul>
 
-// StringBuilder para concatenaciones grandes
-var manyPhrases = new StringBuilder();
-for (var i = 0; i &lt; 10000; i++) {
-manyPhrases.Append(phrase);
+<p><strong>Ejemplo TypeScript:</strong></p>
+
+<pre><code>export class ResidentService {
+  private residents: Resident[] = [];
+
+  getResidentById(id: number): Resident | undefined {
+    return this.residents.find(resident => resident.id === id);
+  }
+
+  createResident(resident: Resident): void {
+    this.residents.push(resident);
+  }
 }
 </code></pre>
 
-<h5>Typescript</h5>
-  <p>Ejemplos de declaración de variables:</p>
-  <pre><code>let edad: number;
-edad = 20;
+<h5>Java</h5>
 
-let edadAitor: number = 18;
+<ul>
+  <li>Seguir convenciones de nomenclatura de Spring Boot.</li>
+  <li>Documentar clases y métodos públicos con Javadoc.</li>
+  <li>Organizar imports alfabéticamente, separando imports de java.*, javax.*, org.*, com.*</li>
+  <li>Máximo 120 caracteres por línea.</li>
+  <li>Usar anotaciones de Spring en líneas separadas.</li>
+</ul>
+
+<p><strong>Ejemplo Java:</strong></p>
+
+<pre><code>@RestController
+@RequestMapping("/api/v1/residents")
+public class ResidentController {
+
+    private final ResidentService residentService;
+
+    public ResidentController(ResidentService residentService) {
+        this.residentService = residentService;
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity&lt;Resident&gt; getResidentById(@PathVariable Long id) {
+        return residentService.findById(id)
+            .map(ResponseEntity::ok)
+            .orElse(ResponseEntity.notFound().build());
+    }
+}
+</code></pre>
+
+<h5>Gherkin</h5>
+
+<ul>
+  <li>Escribir escenarios en inglés.</li>
+  <li>Un escenario por comportamiento específico.</li>
+  <li>Mantener pasos atómicos y reutilizables.</li>
+  <li>Usar indentación de dos espacios para los pasos.</li>
+</ul>
+
+<p><strong>Ejemplo Gherkin:</strong></p>
+
+<pre><code>Feature: Resident Management
+
+  Scenario: Successfully register a new resident
+    Given the administrator is authenticated
+    And the administrator is on the resident registration form
+    When the administrator enters valid resident information
+    And clicks the "Register" button
+    Then the system should display a success message
+    And the new resident should appear in the residents list
+
+  Scenario: Attempt to register resident with missing required fields
+    Given the administrator is authenticated
+    And the administrator is on the resident registration form
+    When the administrator submits the form with empty required fields
+    Then the system should display validation error messages
+    And the resident should not be registered
 </code></pre>
 
 ### 5.1.4. Software Deployment Configuration
