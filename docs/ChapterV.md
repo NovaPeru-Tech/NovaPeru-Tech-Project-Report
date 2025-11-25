@@ -728,49 +728,92 @@ public class ResidentController {
 
 ### 5.2.1. Sprint 1
 
-  <p>Implementación del diseño de la Landing Page en WebStorm. Se espera completar Home, Services, Pricing, Testimonials y About Us al concluir el Sprint.</p>
+<p>
+  Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del Landing Page de VEYRA, 
+  incluyendo todas las secciones de presentación del negocio con soporte bilingüe (español/inglés) y 
+  despliegue mediante GitHub Pages.
+</p>
 
-  <p>Repositorio: <a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</a></p>
-  <p>Landing Page Deployed: <a href="https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-NovaPeru-Tech-LandingPage/</a></p>
+<p>
+  <strong>Repositorio:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</a>
+</p>
+
+<p>
+  <strong>Landing Page Desplegada:</strong> <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a>
+</p>
 
 #### 5.2.1.1. Sprint Planning
-  <table>
-    <thead>
-      <tr><th>Sprint #</th><th>Sprint 1</th></tr>
-    </thead>
-    <tbody>
-      <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
-      <tr><td>Date</td><td>14/09/2025</td></tr>
-      <tr><td>Time</td><td>10:00 p.m.</td></tr>
-      <tr><td>Location</td><td>Discord</td></tr>
-      <tr><td>Prepared By</td><td>Renato Calvo</td></tr>
-      <tr>
-        <td>Attendees (to planning meeting)</td>
-        <td>
-          Calvo Yalan, Renato Guillermo<br>
-          Armas Sánchez, Oscar Javier<br>
-          Ramirez Carrasco, Ariana Lizeth<br>
-          Roman Lopez, Miguel Angel Junior<br>
-          Ruiz Madrid, Billy Jake
-        </td>
-      </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint 0 Review Summary</td></tr>
-      <tr><td colspan="2">N/A (Este es el primer sprint del proyecto)</td></tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint 0 Retrospective Summary</td></tr>
-      <tr><td colspan="2">N/A (Este es el primer sprint del proyecto)</td></tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
-      <tr>
-        <td>Sprint 1 Goal</td>
-        <td>
-          <em>Our focus is on delivering the first deployed version of VEYRA’s landing page, featuring all defined sections and bilingual support (Spanish/English).</em><br>
-          <em>We believe it delivers a clear and accessible introduction to VEYRA for first-time visitors.</em><br>
-          <em>This will be confirmed when users can navigate through all sections in both languages without interface errors.</em>
-        </td>
-      </tr>
-      <tr><td>Sprint 1 Velocity</td><td>13 Story Points</td></tr>
-      <tr><td>Sum of Story Points</td><td>13 SP (≈ 53 horas estimadas)</td></tr>
-    </tbody>
-  </table>
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>14/09/2025</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>10:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Renato Calvo Yalan</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Calvo Yalan, Renato Guillermo<br>
+        Armas Sánchez, Oscar Javier<br>
+        Ramirez Carrasco, Ariana Lizeth<br>
+        Roman Lopez, Miguel Angel Junior<br>
+        Ruiz Madrid, Billy Jake
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 1 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+        <em>Our focus is on delivering the first deployed version of VEYRA's Landing Page with all core sections 
+        (Hero, Services, Pricing, About Us, Team, Contact) and bilingual support (Spanish/English).</em><br><br>
+        <em>We believe it delivers a clear and professional introduction to VEYRA for first-time visitors from both 
+        target segments (Nursing Home Administrators and Family Members).</em><br><br>
+        <em>This will be confirmed when users can navigate through all sections in both languages without interface 
+        errors and the page is accessible via GitHub Pages with proper performance metrics.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Velocity</td>
+      <td>13 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>13 SP (≈ 53 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -896,89 +939,164 @@ Los miembros del equipo actualizan el estado de las tareas (To-do, In-Process, T
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-  <table>
-    <thead>
-      <tr>
-        <th>Repository</th>
-        <th>Branch</th>
-        <th>Commit Id</th>
-        <th>Commit Message</th>
-        <th>Committed on (Date)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="11">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</td>
-        <td>main</td>
-        <td>5499fe0fb5d24b7e18b29f76616d3751d1b05056</td>
-        <td>Initial commit</td>
-        <td>[10-09-2025]</td>
-      </tr>
-      <tr><td>main</td><td>741b864bf4d3adb5c285c2b57266cc2eef9aad35</td><td>chore: add hero and home section.</td><td>[12-09-2025]</td></tr>
-      <tr><td>main</td><td>84569edd53373a0dda20fae41a127d0a6573953f</td><td>chore: add home and what we offer section style.</td><td>13-09-2025</td></tr>
-      <tr><td>main</td><td>66d1d439ba86f7a9f2be00a27b65f59550b595f7</td><td>feat(section):added css Features Section</td><td>14-09-2025</td></tr>
-      <tr><td>main</td><td>e3f8b84b35396c70673120464c4eebc57a843fd3</td><td>chore: added Features Section</td><td>15-09-2025</td></tr>
-      <tr><td>main</td><td>cfe8b66050e1c25e4b62a06c413192ef09406a45</td><td>chore: add about us section and benefits</td><td>16-09-2025</td></tr>
-      <tr><td>main</td><td>fe01ab208e248862dd8f260f18750bed27d0d528</td><td>chore: added Our Team Section</td><td>17-09-2025</td></tr>
-      <tr><td>main</td><td>f3da531e6de86e8d2737d29d0586d7947f8eb0e9</td><td>feat(section):added css Plans Section</td><td>18-09-2025</td></tr>
-      <tr><td>main</td><td>ca8bf2e835f2ad94d068573c5fc7533e38c68f04</td><td>chore:added hero section</td><td>19-09-2025</td></tr>
-      <tr><td>main</td><td>ea08eae9d315d89fa351c5abf6bfd4cda57fd278</td><td>chore:added style</td><td>20-09-2025</td></tr>
-      <tr><td>main</td><td>dcd349d3cb0a5f40146aac3fd9edf1684b39d308</td><td>fix: update asset paths to include public directory</td><td>21-09-2025</td></tr>
-    </tbody>
-  </table>
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="11">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</td>
+      <td>main</td>
+      <td>5499fe0fb5d24b7e18b29f76616d3751d1b05056</td>
+      <td>Initial commit</td>
+      <td>10-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>741b864bf4d3adb5c285c2b57266cc2eef9aad35</td>
+      <td>chore: add hero and home section</td>
+      <td>12-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>84569edd53373a0dda20fae41a127d0a6573953f</td>
+      <td>chore: add home and services section styling</td>
+      <td>13-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>66d1d439ba86f7a9f2be00a27b65f59550b595f7</td>
+      <td>feat(section): add features section with CSS</td>
+      <td>14-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>e3f8b84b35396c70673120464c4eebc57a843fd3</td>
+      <td>chore: add features section</td>
+      <td>15-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>cfe8b66050e1c25e4b62a06c413192ef09406a45</td>
+      <td>chore: add about us section and benefits</td>
+      <td>16-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>fe01ab208e248862dd8f260f18750bed27d0d528</td>
+      <td>chore: add team section</td>
+      <td>17-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>f3da531e6de86e8d2737d29d0586d7947f8eb0e9</td>
+      <td>feat(section): add pricing section with CSS</td>
+      <td>18-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>ca8bf2e835f2ad94d068573c5fc7533e38c68f04</td>
+      <td>chore: add hero section styling</td>
+      <td>19-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>ea08eae9d315d89fa351c5abf6bfd4cda57fd278</td>
+      <td>chore: add responsive styling improvements</td>
+      <td>20-09-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>dcd349d3cb0a5f40146aac3fd9edf1684b39d308</td>
+      <td>fix: update asset paths to include public directory</td>
+      <td>21-09-2025</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
-  <p>Después de completar el Sprint 1, logramos implementar todas las secciones de nuestra Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo y añadimos navegación interna con botones de desplazamiento.</p>
+<p>
+  Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VEYRA, 
+  incluyendo navegación responsiva, soporte bilingüe y despliegue en GitHub Pages. A continuación se presentan 
+  evidencias de ejecución mediante capturas de pantalla de las principales vistas.
+</p>
 
-<h5>Capturas (referencias):</h5>
-  <p>Encabezado y botones de desplazamiento:</p>
-  <img src="/assets/img/chapter-V/header-landing-page.png" alt="header landing page">
+<h5>Video de demostración de navegación:</h5>
+<p>
+  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 1]<br>
+  <strong>Duración:</strong> [HH:MM:SS]
+</p>
 
-  <p>Sección Hero:</p>
-  <img src="../assets/img/chapter-V/hero-landing-page.png" alt="hero landing page">
+<h5>Capturas de las principales secciones:</h5>
 
-  <p>Sección Services:</p>
-  <img src="../assets/img/chapter-V/services-landing-page.png" alt="services landing page">
+<p><strong>Encabezado y menú de navegación:</strong></p>
+<img src="/assets/img/chapter-V/header-landing-page.png" alt="header landing page">
 
-  <p>Sección Pricing:</p>
-  <img src="../assets/img/chapter-V/plans-landing-page.png" alt="plans landing page">
+<p><strong>Sección Hero:</strong></p>
+<img src="../assets/img/chapter-V/hero-landing-page.png" alt="hero landing page">
 
-  <p>Sección About the App:</p>
-  <img src="/assets/img/chapter-V/about-the-app-landing-page.png" alt="about the app landing page">
+<p><strong>Sección Services:</strong></p>
+<img src="../assets/img/chapter-V/services-landing-page.png" alt="services landing page">
 
-  <p>Sección Testimonials:</p>
-  <img src="/assets/img/chapter-V/testimonials-landing-page.png" alt="testimonials landing page">
+<p><strong>Sección Pricing:</strong></p>
+<img src="../assets/img/chapter-V/plans-landing-page.png" alt="plans landing page">
 
-  <p>Sección About the Team:</p>
-  <img src="/assets/img/chapter-V/about-the-team-landing-page.png" alt="about the team landing page">
+<p><strong>Sección About the App:</strong></p>
+<img src="/assets/img/chapter-V/about-the-app-landing-page.png" alt="about the app landing page">
 
-  <p>Sección Contact:</p>
-  <img src="/assets/img/chapter-V/contact-landing-page.png" alt="contact landing page">
+<p><strong>Sección Testimonials:</strong></p>
+<img src="/assets/img/chapter-V/testimonials-landing-page.png" alt="testimonials landing page">
 
-  <p>Footer:</p>
-  <img src="/assets/img/chapter-V/footer-landing-page.png" alt="footer landing page">
+<p><strong>Sección About the Team:</strong></p>
+<img src="/assets/img/chapter-V/about-the-team-landing-page.png" alt="about the team landing page">
+
+<p><strong>Sección Contact:</strong></p>
+<img src="/assets/img/chapter-V/contact-landing-page.png" alt="contact landing page">
+
+<p><strong>Footer:</strong></p>
+<img src="/assets/img/chapter-V/footer-landing-page.png" alt="footer landing page">
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
-  <p>En el primer Sprint el equipo diseñó, programó y puso en funcionamiento la Landing Page para presentar la aplicación web "Veyra".</p>
+<p>
+  En el Sprint 1, el equipo diseñó, programó y desplegó el Landing Page de VEYRA. Esta es una página web estática, 
+  por lo que no hay Web Services disponibles en este sprint.
+</p>
 
-  <table>
-    <thead>
-      <tr><th>End Point</th><th>Funciones</th></tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</td>
-        <td>Mostrar la Landing Page Desplegada</td>
-      </tr>
-    </tbody>
-  </table>
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>End Point</th>
+      <th>Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>N/A</td>
+      <td>No hay Web Services implementados en el Sprint 1 (Landing Page estático)</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
 <p>
-  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page NovaPeru-Tech</a> -
+  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">Landing Page NovaPeru-Tech</a> — 
   <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a>
 </p>
 
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+<img src="../assets/img/chapter-V/overview-sprint1.png" alt="overview-sprint1">
+
+<img src="../assets/img/chapter-V/network-graph-sprint1.png" alt="network-graph-sprint1">
+
+<img src="../assets/img/chapter-V/visitors-sprint1.png" alt="visitors-sprint1">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
