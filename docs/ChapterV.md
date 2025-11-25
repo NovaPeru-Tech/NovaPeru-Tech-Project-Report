@@ -2498,17 +2498,17 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
     </tr>
     <tr>
       <td><strong>URL YouTube</strong></td>
-      <td><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a></td>
+      <td><a href="https://youtu.be/DCPqVW0C2Po">https://youtu.be/DCPqVW0C2Po</a></td>
     </tr>
     <tr>
-      <td><strong>URL Microsoft Stream (Privado)</strong></td>
-      <td><a href="https://web.microsoftstream.com/video/example-video-id">[Incluir URL del Stream]</a></td>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td><a href="https://shorturl.at/W0vMy">https://shorturl.at/W0vMy</a></td>
     </tr>
   </tbody>
 </table>
 
 <p><strong>Screenshot del video:</strong></p>
-<img src="/assets/img/chapter-V/about-the-product-thumbnail.png" alt="About the Product Video">
+<img src="../images/AboutTheProduct-image.png" alt="About the Product Video">
 
 <h4>Contenido del Video</h4>
 
@@ -2569,7 +2569,7 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 
 <p>
   <strong>URL del Landing Page donde está el video:</strong> 
-  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/#about-product">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/#about-product</a>
+  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage</a>
 </p>
 
 ## 5.5. Video About-the-Team
@@ -2590,18 +2590,18 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>[Incluir duración del video en formato MM:SS]</td>
+      <td>8 minutos 59 segundos</td>
     </tr>
     <tr>
       <td><strong>Fecha de Grabación</strong></td>
-      <td>[Incluir fecha de grabación]</td>
+      <td>19/11/2015</td>
     </tr>
     <tr>
       <td><strong>URL YouTube</strong></td>
       <td><a href="https://youtu.be/-tBBZ8lwbts">https://youtu.be/-tBBZ8lwbts</a></td>
     </tr>
     <tr>
-      <td><strong>URL Microsoft Stream (Privado)</strong></td>
+      <td><strong>URL Microsoft Stream</strong></td>
       <td><a href="https://shorturl.at/jAp77">https://shorturl.at/jAp77</a></td>
     </tr>
   </tbody>
@@ -2734,7 +2734,7 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 
 ## Anexos
 
-<h4>Enlaces de Despliegue y Repositorios</h4>
+<h4>Anexo A: Enlaces de Despliegue y Repositorios</h4>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -2779,7 +2779,7 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
   </tbody>
 </table>
 
-<h4>Videos del Proyecto</h4>
+<h4>Anexo B: Videos del Proyecto</h4>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
