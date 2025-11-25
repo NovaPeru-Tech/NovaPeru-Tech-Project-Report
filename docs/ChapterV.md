@@ -2490,7 +2490,7 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>4 minutos 32 segundos</td>
+      <td>2 minutos 0 segundos</td>
     </tr>
     <tr>
       <td><strong>Fecha de Grabación</strong></td>
@@ -2544,20 +2544,6 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
   </li>
 </ol>
 
-<h4>Producción y Calidad</h4>
-
-<p>
-  El video fue producido con:
-</p>
-
-<ul>
-  <li><strong>Resolución:</strong> 1920x1080 (Full HD)</li>
-  <li><strong>Fps:</strong> 30 fps</li>
-  <li><strong>Formato:</strong> MP4 (H.264 codec)</li>
-  <li><strong>Audio:</strong> Narración clara en español e inglés (con subtítulos)</li>
-  <li><strong>Música:</strong> Fondo musical libre de derechos de autor</li>
-  <li><strong>Edición:</strong> Adobe Premiere Pro</li>
-</ul>
 
 <h4>Inscripción en Landing Page</h4>
 
@@ -2572,7 +2558,16 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
   <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage</a>
 </p>
 
-## 5.5. Video About-the-Team
+
+---
+
+## Conclusiones
+
+Conclusiones y recomendaciones
+
+
+
+## Video About-the-Team
 
 <p>
   El video "About the Team" presenta al equipo de desarrollo de NovaPeru-Tech, destacando las habilidades, 
@@ -2668,7 +2663,6 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
   </tbody>
 </table>
 
----
 
 ## Bibliografía
 
