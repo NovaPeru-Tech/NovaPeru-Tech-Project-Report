@@ -1,18 +1,21 @@
 <div align="center">
+  <img src="./images/UPC.png" alt="UPC Logo" width="auto" height="120"/>  
+  <br> 
   <h1>Universidad Peruana de Ciencias Aplicadas</h1>
   <br>
-  <img src="./images/UPC.png" alt="UPC Logo" width="auto" height="120"/>
   <p>
     <br>
+    <strong>Facultad:</strong> Ingeniería
+    <br><br>    
     <strong>Carrera:</strong> Ingeniería de Software
     <br><br>
     <strong>Ciclo:</strong> 5° Ciclo
     <br><br>
-    1ASI0729-Desarrollo de Aplicaciones Open Source
+    1ASI0729-2520-Desarrollo de Aplicaciones Open Source
     <br><br>
-    <strong>Sección:</strong> 7338.
+    <strong>NRC:</strong> 7338
     <br><br>
-    <strong>Nombre del profesor:</strong> Angel Augusto Velasquez Nuñez
+    <strong>Nombre del profesor:</strong> Ángel Augusto Velásquez Nuñez
   </p>
   <h3>"Informe de Trabajo Final"</h3>
   <p>
@@ -27,9 +30,9 @@
     <br><br>
       Oscar Javier Armas Sánchez - U20211G192
     <br><br>
-     Ariana Lizeth Ramirez Carrasco - U202312932
+     Ariana Lizeth Ramírez Carrasco - U202312932
     <br><br>
-     Miguel Angel Junior Roman Lopez - U202212897
+     Miguel Angel Junior Román Lopez - U202212897
     <br><br>
       Billy Jake Ruiz Madrid - U202116401
     <br><br>
