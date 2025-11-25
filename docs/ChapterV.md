@@ -161,50 +161,206 @@
 
 ### 5.1.2. Source Code Management
 
-  <p>Se describe la gestión del código fuente (SCM). Usaremos GitHub como sistema de control de versiones.</p>
+  <p>
+	  En esta sección se establecen los medios y esquemas de organización aplicados para el seguimiento de modificaciones del código fuente. Se utiliza GitHub como plataforma y sistema de control de versiones distribuido.
+  </p>
 
-  <ol>
-    <li>URL de la organización: NovaPeru Tech - <a href="https://github.com/NovaPeru-Tech">https://github.com/NovaPeru-Tech</a></li>
-    <li>URL del repositorio de la Landing Page: <a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">NovaPeru-Tech-LandingPage</a></li>
-  </ol>
+<h4>Repositorios del Proyecto</h4>
 
-<h4>GitFlow</h4>
-  <p>GitFlow es un modelo de ramas para Git. Ramas principales y de soporte:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Producto</th>
+      <th>URL del Repositorio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Organización NovaPeru-Tech</td>
+      <td><a href="https://github.com/NovaPeru-Tech">https://github.com/NovaPeru-Tech</a></td>
+    </tr>
+    <tr>
+      <td>Landing Page</td>
+      <td><a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage">https://github.com/NovaPeru-Tech/NovaPeru-Tech-LandingPage</a></td>
+    </tr>
+    <tr>
+      <td>Frontend Web Application</td>
+      <td><a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a></td>
+    </tr>
+    <tr>
+      <td>Backend Web Services</td>
+      <td><a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</a></td>
+    </tr>
+    <tr>
+      <td>Project Report</td>
+      <td><a href="https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report">https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report</a></td>
+    </tr>
+  </tbody>
+</table>
 
-  <ul>
-    <li><strong>Main:</strong> rama principal (history oficial de versiones).</li>
-    <li><strong>Develop:</strong> integración de features estables.</li>
-    <li><strong>Feature branches:</strong> se ramifican de <code>develop</code> y vuelven a fusionarse en <code>develop</code>.</li>
-  </ul>
+<h4>GitFlow Workflow</h4>
 
-  <p><strong>Convenciones para naming de Features y Conventional Commits:</strong></p>
-  <pre><code>&lt;type&gt;[optional scope]: &lt;description&gt;
+<p>
+  Se implementa GitFlow como modelo de flujo de trabajo para el control de versiones, estableciendo una estructura de ramas que facilita el desarrollo paralelo y la gestión de releases.
+</p>
 
-Tipos comunes:
-feat: nuevo feature
-fix: corrección
-build: cambios en build/deps
-chore: tareas internas
-docs: documentación
-refractor: refactor
-perf: mejoras de rendimiento
-style: estilo
-test: pruebas
-</pre></code>
+<p><strong>Ramas Principales:</strong></p>
 
-  <p>Ejemplos:</p>
-  <pre><code>feat(welcome): add welcome section
-build(release): bump version to 1.0.0
-style: remove empty line
+<ul>
+  <li>
+    <strong>main:</strong> Rama principal que contiene el historial oficial de versiones estables listas para producción. Solo recibe merges de release branches y hotfix branches.
+  </li>
+  <li>
+    <strong>develop:</strong> Rama de integración donde se consolidan los features completados y probados. Sirve como base para la creación de release branches.
+  </li>
+</ul>
+
+<p><strong>Ramas de Soporte:</strong></p>
+
+<ul>
+  <li>
+    <strong>feature/&lt;feature-name&gt;:</strong> Ramas creadas a partir de develop para implementar nuevas funcionalidades. Se fusionan de vuelta a develop una vez completadas y revisadas.
+  </li>
+  <li>
+    <strong>release/&lt;version&gt;:</strong> Ramas creadas a partir de develop para preparar una nueva versión de producción. Permiten correcciones menores y ajustes antes del merge a main.
+  </li>
+  <li>
+    <strong>hotfix/&lt;issue&gt;:</strong> Ramas creadas a partir de main para correcciones urgentes en producción. Se fusionan tanto a main como a develop.
+  </li>
+</ul>
+
+<h4>Convenciones de Nomenclatura para Ramas</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de Rama</th>
+      <th>Formato</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Feature</td>
+      <td><code>feature/&lt;bounded-context&gt;-&lt;feature-description&gt;</code></td>
+      <td><code>feature/residents-add-medical-history</code></td>
+    </tr>
+    <tr>
+      <td>Release</td>
+      <td><code>release/&lt;major.minor.patch&gt;</code></td>
+      <td><code>release/1.0.0</code></td>
+    </tr>
+    <tr>
+      <td>Hotfix</td>
+      <td><code>hotfix/&lt;issue-description&gt;</code></td>
+      <td><code>hotfix/fix-login-validation</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Conventional Commits</h4>
+
+<p>
+  Se aplica la especificación Conventional Commits para los mensajes de commit, siguiendo la estructura:
+</p>
+
+<pre><code>&lt;type&gt;[optional scope]: &lt;description&gt;
+
+[optional body]
+
+[optional footer(s)]
 </code></pre>
 
-  <p>Instrucciones rápidas para vincular WebStorm con GitHub (resumen):</p>
-  <ol>
-    <li>VCS &gt; Enable Version Control Integration (seleccionar Git).</li>
-    <li>Agregar cuenta de GitHub desde Settings.</li>
-    <li>Configurar nombre de usuario y realizar commits.</li>
-    <li>Manage Remotes &gt; pegar URL del repositorio.</li>
-  </ol>
+<p><strong>Tipos de Commit:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>feat</code></td>
+      <td>Nueva funcionalidad para el usuario</td>
+    </tr>
+    <tr>
+      <td><code>fix</code></td>
+      <td>Corrección de un bug</td>
+    </tr>
+    <tr>
+      <td><code>docs</code></td>
+      <td>Cambios en documentación</td>
+    </tr>
+    <tr>
+      <td><code>style</code></td>
+      <td>Cambios de formato (espacios, comas, etc.) sin afectar lógica</td>
+    </tr>
+    <tr>
+      <td><code>refactor</code></td>
+      <td>Refactorización de código sin cambiar funcionalidad</td>
+    </tr>
+    <tr>
+      <td><code>perf</code></td>
+      <td>Mejoras de rendimiento</td>
+    </tr>
+    <tr>
+      <td><code>test</code></td>
+      <td>Adición o corrección de pruebas</td>
+    </tr>
+    <tr>
+      <td><code>build</code></td>
+      <td>Cambios en sistema de build o dependencias externas</td>
+    </tr>
+    <tr>
+      <td><code>chore</code></td>
+      <td>Tareas de mantenimiento sin afectar código de producción</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Ejemplos de Commits:</strong></p>
+
+<pre><code>feat(residents): add medical history registration form
+fix(auth): resolve token expiration validation issue
+docs(readme): update deployment instructions
+build(deps): upgrade Angular to version 17
+chore(config): update environment variables for production
+</code></pre>
+
+<h4>Semantic Versioning</h4>
+
+<p>
+  Se aplica Semantic Versioning 2.0.0 para el versionado de releases, siguiendo el formato <code>MAJOR.MINOR.PATCH</code>:
+</p>
+
+<ul>
+  <li><strong>MAJOR:</strong> Cambios incompatibles con versiones anteriores (breaking changes)</li>
+  <li><strong>MINOR:</strong> Nuevas funcionalidades compatibles con versiones anteriores</li>
+  <li><strong>PATCH:</strong> Correcciones de bugs compatibles con versiones anteriores</li>
+</ul>
+
+<p><strong>Ejemplo de evolución de versiones:</strong></p>
+
+<ul>
+  <li><code>1.0.0</code> → Primera versión estable</li>
+  <li><code>1.1.0</code> → Nueva funcionalidad agregada</li>
+  <li><code>1.1.1</code> → Corrección de bug</li>
+  <li><code>2.0.0</code> → Cambio incompatible en API</li>
+</ul>
+
+<h4>Configuración de GitHub en WebStorm</h4>
+
+<p>Instrucciones para vincular WebStorm con GitHub:</p>
+
+<ol>
+  <li>Abrir WebStorm y navegar a <strong>VCS &gt; Enable Version Control Integration</strong>, seleccionar Git.</li>
+  <li>Ir a <strong>File &gt; Settings &gt; Version Control &gt; GitHub</strong> y agregar la cuenta de GitHub.</li>
+  <li>Configurar el nombre de usuario en <strong>File &gt; Settings &gt; Version Control &gt; Git</strong>.</li>
+  <li>Para conectar con el repositorio remoto: <strong>Git &gt; Manage Remotes</strong> y agregar la URL del repositorio.</li>
+  <li>Realizar commits con <strong>Ctrl+K</strong> y push con <strong>Ctrl+Shift+K</strong>.</li>
+</ol>
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
