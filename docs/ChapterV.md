@@ -599,13 +599,130 @@ public class ResidentController {
 
 ### 5.1.4. Software Deployment Configuration
 
-  <p>Para desplegar la Landing Page desde GitHub Pages hay que seguir estos pasos:</p>
+  <p>
+	  En esta sección se especifica la configuración de despliegue para cada uno de los producto digitales de la solución Veyra: Landing Page, Frontend Web Application y Backend Web Services. 
+  </p>
 
-  <ol>
-    <li>Ubicar el repositorio y dirigirse a <strong>Settings</strong>.</li>
-    <li>Seleccionar la sección <strong>Pages</strong>.</li>
-    <li>Configurar la rama que será usada para deploy.</li>
-  </ol>
+<h4>Landing Page - GitHub Pages</h4>
+
+<p>
+  El Landing Page se despliega mediante GitHub Pages directamente desde el repositorio, aprovechando el hosting gratuito para sitios estáticos.
+</p>
+
+<p><strong>Pasos de configuración:</strong></p>
+
+<ol>
+  <li>Acceder al repositorio <code>NovaPeru-Tech-LandingPage</code> en GitHub.</li>
+  <li>Navegar a <strong>Settings &gt; Pages</strong> en el menú lateral.</li>
+  <li>En la sección "Source", seleccionar la rama <code>main</code> y carpeta <code>/ (root)</code>.</li>
+  <li>Hacer clic en <strong>Save</strong> y esperar la generación del sitio (1-2 minutos).</li>
+  <li>Verificar el despliegue accediendo a la URL generada.</li>
+</ol>
+
+<p><strong>URL de despliegue:</strong> <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a></p>
+
+<h4>Frontend Web Application - Vercel</h4>
+
+<p>
+  El Frontend desarrollado con Angular se despliega en Vercel, plataforma que ofrece hosting optimizado para aplicaciones frontend con CDN global y despliegue automático.
+</p>
+
+<p><strong>Pasos de configuración:</strong></p>
+
+<ol>
+  <li>Crear cuenta en <a href="https://vercel.com">Vercel</a> y vincular con GitHub.</li>
+  <li>Importar el repositorio <code>NovaPeruTech-Frontend</code> desde GitHub.</li>
+  <li>Configurar el proyecto:
+    <ul>
+      <li><strong>Framework Preset:</strong> Angular</li>
+      <li><strong>Build Command:</strong> <code>ng build --configuration production</code></li>
+      <li><strong>Output Directory:</strong> <code>dist/nova-peru-tech-frontend</code></li>
+    </ul>
+  </li>
+  <li>Configurar variables de entorno:
+    <ul>
+      <li><code>API_BASE_URL</code>: URL del Backend API</li>
+    </ul>
+  </li>
+  <li>Habilitar despliegue automático en cada push a la rama <code>main</code>.</li>
+  <li>Hacer clic en <strong>Deploy</strong> y esperar la compilación.</li>
+</ol>
+
+<p><strong>URL de despliegue:</strong> <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a></p>
+
+<h4>Backend Web Services - Azure App Service</h4>
+
+<p>
+  El Backend desarrollado con Spring Boot se despliega en Azure App Service, servicio de plataforma como servicio (PaaS) que facilita el hosting de aplicaciones web Java.
+</p>
+
+<p><strong>Pasos de configuración:</strong></p>
+
+<p><strong>1. Creación del Azure App Service:</strong></p>
+<ol>
+  <li>Acceder al <a href="https://portal.azure.com">Portal de Azure</a>.</li>
+  <li>Crear un nuevo recurso: <strong>App Service</strong>.</li>
+  <li>Configurar:
+    <ul>
+      <li><strong>Runtime stack:</strong> Java 17</li>
+      <li><strong>Operating System:</strong> Linux</li>
+      <li><strong>Region:</strong> East US (o región más cercana)</li>
+      <li><strong>App Service Plan:</strong> Seleccionar o crear plan según necesidades</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>2. Configuración de Base de Datos (Azure SQL Database):</strong></p>
+<ol>
+  <li>Crear instancia de Azure SQL Database o MySQL.</li>
+  <li>Configurar reglas de firewall para permitir conexiones desde App Service.</li>
+  <li>Obtener cadena de conexión JDBC.</li>
+</ol>
+
+<p><strong>3. Configuración de Variables de Entorno:</strong></p>
+<p>En <strong>App Service &gt; Configuration &gt; Application settings</strong>, agregar:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>SPRING_DATASOURCE_URL</code></td>
+      <td>Cadena de conexión JDBC a la base de datos</td>
+    </tr>
+    <tr>
+      <td><code>SPRING_DATASOURCE_USERNAME</code></td>
+      <td>Usuario de la base de datos</td>
+    </tr>
+    <tr>
+      <td><code>SPRING_DATASOURCE_PASSWORD</code></td>
+      <td>Contraseña de la base de datos</td>
+    </tr>
+    <tr>
+      <td><code>SPRING_PROFILES_ACTIVE</code></td>
+      <td><code>prod</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>4. Despliegue desde IntelliJ IDEA:</strong></p>
+<ol>
+  <li>Instalar el plugin <strong>Azure Toolkit for IntelliJ</strong>.</li>
+  <li>Autenticarse con la cuenta de Azure.</li>
+  <li>Clic derecho en el proyecto &gt; <strong>Azure &gt; Deploy to Azure Web Apps</strong>.</li>
+  <li>Seleccionar el App Service de destino.</li>
+  <li>Ejecutar el despliegue y verificar en los logs.</li>
+</ol>
+
+<p><strong>URLs de despliegue:</strong></p>
+<ul>
+  <li><strong>API Base URL:</strong> <a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a></li>
+  <li><strong>Documentación Swagger UI:</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a></li>
+</ul>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
