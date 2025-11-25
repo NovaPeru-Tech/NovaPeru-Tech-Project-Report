@@ -9,13 +9,15 @@
     <br><br>    
     <strong>Carrera:</strong> Ingeniería de Software
     <br><br>
+    <strong>Periodo:</strong> 2025-20
+    <br><br>    
     <strong>Ciclo:</strong> 5° Ciclo
     <br><br>
     1ASI0729-2520-Desarrollo de Aplicaciones Open Source
     <br><br>
     <strong>NRC:</strong> 7338
     <br><br>
-    <strong>Nombre del profesor:</strong> Ángel Augusto Velásquez Nuñez
+    <strong>Nombre del profesor:</strong> Ángel Augusto Velásquez Núñez
   </p>
   <h3>"Informe de Trabajo Final"</h3>
   <p>
@@ -26,17 +28,17 @@
     <br><br>
     <strong>Integrantes:</strong>
     <br><br>
-    Calvo Yalan, Renato Guillermo - U202217053
+    Calvo Yalán, Renato Guillermo - U202217053
     <br><br>
-      Oscar Javier Armas Sánchez - U20211G192
+    Óscar Javier Armas Sánchez - U20211G192
     <br><br>
-     Ariana Lizeth Ramírez Carrasco - U202312932
+    Ariana Lizeth Ramírez Carrasco - U202312932
     <br><br>
-     Miguel Angel Junior Román Lopez - U202212897
+    Miguel Ángel Junior Román López - U202212897
     <br><br>
-      Billy Jake Ruiz Madrid - U202116401
+    Billy Jake Ruiz Madrid - U202116401
     <br><br>
-    Adrian Alonso Quiroz Caceres - U202214864
+    Adrián Alonso Quiroz Cáceres - U202214864
     <br><br>
   </p>
   <h3>Noviembre, 2025</h3>
@@ -636,7 +638,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <td> 
         <strong>Miguel Ángel Junior Román López:</strong> 
         <br><br>
-        <strong>TB1:</strong> Transformé los hallazgos de entrevistas y los wireframes en mensajes claros durante las sesiones grupales, permitiendo que cada miembro comprendiera la intención detrás de cada decisión de diseño. Además, participé en la exposición del proceso Lean UX, transmitiendo de forma ordenada los principales descubrimientos del equipo.
+        <strong>TB1:</strong> Realizé los hallazgos de entrevistas y los wireframes en mensajes claros durante las sesiones grupales, permitiendo que cada miembro comprendiera la intención detrás de cada decisión de diseño. Además, participé en la exposición del proceso Lean UX, transmitiendo de forma ordenada los principales descubrimientos del equipo.
         <br><br>
         <strong>TP1:</strong> Expuse los avances del análisis de entrevistas y la sección “Project Report Collaboration Insights”, organizando la información para distintos tipos de audiencia, desde diseñadores hasta revisores técnicos, logrando una comunicación transversal y efectiva.
         <br><br>
@@ -648,31 +650,31 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>TP1:</strong> Dirigí la presentación de los entregables visuales finales (Landing Page y Keynote), utilizando una narrativa clara que resaltó los aspectos visuales y conceptuales del proyecto frente a distintos grupos de evaluación.
         <br><br>
-        <strong>TB2:</strong> Comunqué el funcionamiento del Bounded Context de Payment, explicando la lógica de validación y la usabilidad del flujo de pagos, asegurando que los miembros comprendieran la importancia del diseño centrado en el usuario.
+        <strong>TB2:</strong> Comuniqué el funcionamiento del Bounded Context de Payment, explicando la lógica de validación y la usabilidad del flujo de pagos, asegurando que los miembros comprendieran la importancia del diseño centrado en el usuario.
         <br><br><br>
         <strong>Billy Jake Ruiz Madrid:</strong> 
         <br><br>
-        <strong>TB1:</strong> Comunicado las hipótesis de diseño y validación de entrevistas en exposiciones internas, facilitando el alineamiento del equipo respecto a los hallazgos principales del proceso de Needfinding.
+        <strong>TB1:</strong> Comunqué las hipótesis de diseño y validación de entrevistas en exposiciones internas, facilitando el alineamiento del equipo respecto a los hallazgos principales del proceso de Needfinding.
         <br><br>
-        <strong>TP1:</strong> Durante el Sprint Review, presentó los resultados de validación de hipótesis y pruebas funcionales ante el equipo y docente, explicando con claridad el impacto de cada funcionalidad implementada y las mejoras sugeridas.
+        <strong>TP1:</strong> Durante el Sprint Review, presenté los resultados de validación de hipótesis y pruebas funcionales ante el equipo y docente, explicando con claridad el impacto de cada funcionalidad implementada y las mejoras sugeridas.
         <br><br>
-        <strong>TB2:</strong> Expuso la estructura del Bounded Context de Activity y cómo sus funcionalidades se integran con Nursing y Payment, permitiendo que los evaluadores entendieran la importancia del módulo dentro del sistema.
+        <strong>TB2:</strong> Expuse la estructura del Bounded Context de Activity y cómo sus funcionalidades se integran con Nursing y Payment, permitiendo que los evaluadores entendieran la importancia del módulo dentro del sistema.
         <br><br><br>
         <strong>Oscar Armas Sánchez:</strong> 
         <br><br>
-        <strong>TB1:</strong> Explicó la arquitectura visual del proyecto y los diagramas técnicos durante las sesiones de revisión, utilizando lenguaje comprensible para diseñadores y programadores, logrando así una comprensión conjunta de la estructura del sistema.
+        <strong>TB1:</strong> Expliqué la arquitectura visual del proyecto y los diagramas técnicos durante las sesiones de revisión, utilizando lenguaje comprensible para diseñadores y programadores, logrando así una comprensión conjunta de la estructura del sistema.
         <br><br>
-        <strong>TP1:</strong> Encabezó la exposición sobre el proceso de despliegue y la configuración del entorno, comunicando los aspectos técnicos con precisión y coherencia frente a audiencias diversas, lo que facilitó la validación del entorno de desarrollo.
+        <strong>TP1:</strong> Realizé la exposición sobre el proceso de despliegue y la configuración del entorno, comunicando los aspectos técnicos con precisión y coherencia frente a audiencias diversas, lo que facilitó la validación del entorno de desarrollo.
         <br><br>
-        <strong>TB2:</strong> Presentó el impacto del despliegue final del Sprint 3 y explicó la coordinación con Renato para asegurar que todas las rutas y servicios estuvieran alineados antes del cierre del ciclo.
+        <strong>TB2:</strong> Presenté el impacto del despliegue final del Sprint 3 y explicó la coordinación con Renato para asegurar que todas las rutas y servicios estuvieran alineados antes del cierre del ciclo.
         <br><br><br>
         <strong>Renato Calvo Yalán:</strong> 
         <br><br>
-        <strong>TB1:</strong> Presentó el diagrama de clases y la arquitectura del sistema en reuniones de equipo, adaptando el nivel de detalle según el perfil del público. Esto contribuyó a la integración de los componentes en la arquitectura general.
+        <strong>TB1:</strong> Presenté el diagrama de clases y la arquitectura del sistema en reuniones de equipo, adaptando el nivel de detalle según el perfil del público. Esto contribuyó a la integración de los componentes en la arquitectura general.
         <br><br>
-        <strong>TP1:</strong> Lideró la presentación del despliegue y la validación del entorno técnico, utilizando lenguaje claro y visualizaciones precisas para explicar la relación entre módulos y componentes del sistema.
+        <strong>TP1:</strong> Lideré la presentación del despliegue y la validación del entorno técnico, utilizando lenguaje claro y visualizaciones precisas para explicar la relación entre módulos y componentes del sistema.
         <br><br>
-        <strong>TB2:</strong> Explicó los avances del Bounded Context de Nursing, detallando su integración con Activity y Payment, destacando su relevancia dentro de la estructura del proyecto.
+        <strong>TB2:</strong> Expliqué los avances del Bounded Context de Nursing, detallando su integración con Activity y Payment, destacando su relevancia dentro de la estructura del proyecto.
         <br><br>
         <strong>Adrian Alonso Quiroz Caceres:</strong> 
         <br><br>
