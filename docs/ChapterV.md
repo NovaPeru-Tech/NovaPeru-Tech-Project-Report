@@ -2473,15 +2473,103 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 </p>
 
 
-## Video About-the-Product
+## 5.4. Video About-the-Product
 
-<div align="center">
-    <img src="../images/AboutTheProduct-image.png" alt="Veyra Promotional Banner" style="width:500;" />
-</div>
-<br>
+<p>
+  El video "About the Product" presenta de manera clara y atractiva la propuesta de valor de VEYRA, 
+  los problemas que resuelve y cómo funciona la solución para ambos segmentos objetivo.
+</p>
 
-<p align="center">
-   Enlace del <strong>Video About-the-Product</strong>: <a href="https://youtu.be/DCPqVW0C2Po">https://youtu.be/DCPqVW0C2Po</a>
+<h4>Información General del Video</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Título del Video</strong></td>
+      <td>VEYRA: Comprehensive Care Management for Nursing Homes</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>4 minutos 32 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Grabación</strong></td>
+      <td>19/11/2025</td>
+    </tr>
+    <tr>
+      <td><strong>URL YouTube</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a></td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream (Privado)</strong></td>
+      <td><a href="https://web.microsoftstream.com/video/example-video-id">[Incluir URL del Stream]</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Screenshot del video:</strong></p>
+<img src="/assets/img/chapter-V/about-the-product-thumbnail.png" alt="About the Product Video">
+
+<h4>Contenido del Video</h4>
+
+<p>
+  El video está estructurado en las siguientes secciones:
+</p>
+
+<ol>
+  <li>
+    <strong>Introducción (0:00 - 0:30):</strong> Presentación del problema - Complejidad en la gestión 
+    de casas de reposo y preocupaciones de familiares sobre el cuidado de sus seres queridos.
+  </li>
+  <li>
+    <strong>Propuesta de Solución (0:30 - 1:45):</strong> Presentación de VEYRA como la solución integral 
+    para la gestión de residentes, medicamentos, empleados y comunicación con familiares.
+  </li>
+  <li>
+    <strong>Funcionalidades Principales (1:45 - 3:15):</strong> Demostración de las características clave:
+    <ul>
+      <li>Gestión de residentes y datos de salud</li>
+      <li>Control de medicamentos y recordatorios</li>
+      <li>Portal para familiares</li>
+      <li>Generación de reportes</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Beneficios (3:15 - 4:00):</strong> Énfasis en beneficios para ambos segmentos - Eficiencia 
+    operacional, transparencia y tranquilidad para familiares.
+  </li>
+  <li>
+    <strong>Llamada a la Acción (4:00 - 4:32):</strong> Invitación a visitar el Landing Page y conocer 
+    más sobre VEYRA.
+  </li>
+</ol>
+
+<h4>Producción y Calidad</h4>
+
+<p>
+  El video fue producido con:
+</p>
+
+<ul>
+  <li><strong>Resolución:</strong> 1920x1080 (Full HD)</li>
+  <li><strong>Fps:</strong> 30 fps</li>
+  <li><strong>Formato:</strong> MP4 (H.264 codec)</li>
+  <li><strong>Audio:</strong> Narración clara en español e inglés (con subtítulos)</li>
+  <li><strong>Música:</strong> Fondo musical libre de derechos de autor</li>
+  <li><strong>Edición:</strong> Adobe Premiere Pro</li>
+</ul>
+
+<h4>Inscripción en Landing Page</h4>
+
+<p>
+  El video "About the Product" está embebido en el Landing Page en la sección de "Acerca del Producto", 
+  permitiendo que visitantes del sitio vean una introducción visual de VEYRA antes de registrarse o 
+  solicitar más información.
+</p>
+
+<p>
+  <strong>URL del Landing Page donde está el video:</strong> 
+  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/#about-product">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/#about-product</a>
 </p>
 
 ## Video About-the-Team
