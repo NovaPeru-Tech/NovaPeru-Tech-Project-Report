@@ -1543,421 +1543,478 @@ Durante las reuniones diarias (<em>Daily Scrum</em>), el equipo actualiza el pro
 
 
 ### 5.2.3. Sprint 3
+
 <p>
-Durante el Sprint 3, el equipo se enfocó en dos pilares críticos: la implementación de la capa de persistencia y lógica de negocio en el <strong>Backend</strong> utilizando Java Spring Boot y el <strong>Despliegue (Deploy) del Frontend</strong> desarrollado previamente. Este sprint fue crucial para establecer la infraestructura de la aplicación Veyra en un entorno de producción, sentando las bases para las pruebas de integración.
-</p>
-<p>
-Repositorio Frontend: <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a> <br>
-Repositorio Backend: <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+  Durante el Sprint 3, el equipo se enfocó en dos pilares críticos: la implementación de la capa de 
+  persistencia y lógica de negocio en el Backend utilizando Java Spring Boot y el despliegue del Frontend 
+  desarrollado previamente. Este sprint fue crucial para establecer la infraestructura de la aplicación 
+  VEYRA en un entorno de producción, sentando las bases para las pruebas de integración.
 </p>
 
-#### 5.2.3.1. Sprint Planning 3
-<table>
-    <thead>
-      <tr><th>Sprint #</th><th>Sprint 3</th></tr>
-    </thead>
-    <tbody>
-      <tr><td colspan="2" style="text-align:center;">Sprint Planning Background</td></tr>
-      <tr><td>Date</td><td>10/11/2025</td></tr>
-      <tr><td>Time</td><td>10:00 p.m.</td></tr>
-      <tr><td>Location</td><td>Discord</td></tr>
-      <tr><td>Prepared By</td><td>Ramirez Carrasco, Ariana Lizeth</td></tr>
-      <tr>
-        <td>Attendees (to planning meeting)</td>
-        <td>
-          Calvo Yalan, Renato Guillermo<br>
-          Armas Sánchez, Oscar Javier<br>
-          Ramirez Carrasco, Ariana Lizeth<br>
-          Roman Lopez, Miguel Angel Junior<br>
-          Ruiz Madrid, Billy Jake<br>
-          Quiroz Caceres, Adrian Alonso
-        </td>
-      </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint 3 Review Summary</td></tr>
-      <tr>
-        <td colspan="2" style="text-align:center;">
-          Se completó el desarrollo del Frontend para los módulos de Tareas, Miembros y Grupos. La interfaz está lista para el usuario y se integró satisfactoriamente con los servicios mockeados.<br>
-          Quedó pendiente la implementación del sistema de autenticación y la configuración de las variables de entorno para el despliegue final.
-        </td>
-      </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint 3 Retrospective Summary</td></tr>
-      <tr>
-        <td colspan="2" style="text-align:center;">
-          Se mejoró la comunicación, pero se identificó la necesidad de estandarizar la nomenclatura de los servicios y DTOs en el Backend, lo cual se abordará antes de iniciar la programación.<br>
-          El equipo acordó asignar un “guardián de la calidad” (Quality Keeper) rotativo para el Backend en cada sprint.
-        </td>
-      </tr>
-      <tr><td colspan="2" style="text-align:center;">Sprint Goal &amp; User Stories</td></tr>
-      <tr>
-        <td>Sprint 3 Goal (Outcome–Impact–Customer–Confirmation)</td>
-        <td>
-          <em>Our focus is to deploy the VEYRA frontend to a live environment and establish the core data management capabilities in the backend (Registration, Login, User Data).</em><br>
-          <em>We believe this will provide the entire team with a stable environment for integration and testing, permitiendo a los stakeholders ver el progreso real.</em><br>
-          <em>This will be confirmed when the live URL is accessible and the backend is capable of managing user registration and basic entity data (CRUD) en local y desarrollo.</em>
-        </td>
-      </tr>
-      <tr><td>Sprint 3 Velocity</td><td>18 Story Points</td></tr>
-      <tr><td>Sum of Story Points</td><td>18 SP (≈ 72 horas estimadas)</td></tr>
-    </tbody>
-  </table>
+<p>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a>
+</p>
+
+<p>
+  <strong>Repositorio Backend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</a>
+</p>
+
+<p>
+  <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+</p>
+
+#### 5.2.3.1. Sprint Planning
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>10:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Ariana Lizeth Ramirez Carrasco</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Calvo Yalan, Renato Guillermo<br>
+        Armas Sánchez, Oscar Javier<br>
+        Ramirez Carrasco, Ariana Lizeth<br>
+        Roman Lopez, Miguel Angel Junior<br>
+        Ruiz Madrid, Billy Jake<br>
+        Quiroz Caceres, Adrian Alonso
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 2 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Se completó el desarrollo del Frontend para los módulos de Tareas, Miembros y Grupos. La interfaz 
+        está lista para el usuario y se integró satisfactoriamente con los servicios mockeados. Quedó pendiente 
+        la implementación del sistema de autenticación y la configuración de las variables de entorno para el 
+        despliegue final.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 2 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Se mejoró la comunicación, pero se identificó la necesidad de estandarizar la nomenclatura de los 
+        servicios y DTOs en el Backend, lo cual se abordará antes de iniciar la programación. El equipo 
+        acordó asignar un "guardián de la calidad" (Quality Keeper) rotativo para el Backend en cada sprint.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 3 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+        <em>Our focus is to deploy the VEYRA frontend to a live environment and establish the core data 
+        management capabilities in the backend (Registration, Login, User Data).</em><br><br>
+        <em>We believe this will provide the entire team with a stable environment for integration and testing, 
+        permitiendo a los stakeholders ver el progreso real del proyecto.</em><br><br>
+        <em>This will be confirmed when the live URL is accessible and the backend is capable of managing user 
+        registration and basic entity data (CRUD) en local y desarrollo.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Velocity</td>
+      <td>18 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>18 SP (≈ 72 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 <p>
-Para el Sprint 3 se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong>, donde se definen los roles de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) por aspecto clave del desarrollo.
+  Para el Sprint 3 se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong>, 
+  donde se definen los roles de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) 
+  por aspecto clave del desarrollo.
 </p>
+
 <p>
-Los aspectos clave se centran en el despliegue y la implementación del Backend, que son la prioridad de este sprint. El nuevo participante se integra en el rol de colaboración dentro del equipo.
+  Los aspectos clave se centran en el despliegue y la implementación del Backend, que son la prioridad 
+  de este sprint. El nuevo participante (Adrian Alonso Quiroz Caceres) se integra en el rol de 
+  colaboración dentro del equipo.
 </p>
 
 <ul>
-  <li><strong>Despliegue & Configuración (DevOps):</strong> Configuración de variables de entorno, pipeline CI/CD y monitoreo del frontend desplegado.</li>
-  <li><strong>Desarrollo Backend (Core):</strong> Implementación de la arquitectura MVC/Capas para la gestión de datos (Java Spring Boot, JPA).</li>
-  <li><strong>Autenticación & Seguridad:</strong> Desarrollo de los endpoints de registro/login, JWT generation y configuración de seguridad.</li>
+  <li><strong>DevOps & Deployment:</strong> Configuración de variables de entorno, pipeline CI/CD y 
+  monitoreo del frontend desplegado.</li>
+  <li><strong>Backend Core (CRUD Operations):</strong> Implementación de la arquitectura MVC/Capas para 
+  la gestión de datos (Java Spring Boot, JPA).</li>
+  <li><strong>Authentication & Security:</strong> Desarrollo de los endpoints de registro/login, JWT 
+  generation y configuración de seguridad.</li>
 </ul>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
-  <thead>
-    <tr>
-      <th>Team Member (Last Name, First Name)</th>
-      <th>Aspect: DevOps & Deploy</th>
-      <th>Aspect: Backend Core (CRUD)</th>
-      <th>Aspect: Auth & Security</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Armas Sánchez, Oscar Javier</td><td>L</td><td>C</td><td>C</td></tr>
-    <tr><td>Calvo Yalan, Renato Guillermo</td><td>C</td><td>C</td><td>L</td></tr>
-    <tr><td>Ramirez Carrasco, Ariana Lizeth</td><td>C</td><td>L</td><td>C</td></tr>
-    <tr><td>Roman Lopez, Miguel Angel Junior</td><td>C</td><td>C</td><td>C</td></tr>
-    <tr><td>Ruiz Madrid, Billy Jake</td><td>C</td><td>C</td><td>C</td></tr>
-    <tr><td>Quiroz Caceres, Adrian Alonso</td><td>C</td><td>C</td><td>C</td></tr>
-  </tbody>
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspect: DevOps & Deploy</th>
+      <th>Aspect: Backend Core</th>
+      <th>Aspect: Auth & Security</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Armas Sánchez, Oscar Javier</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Calvo Yalan, Renato Guillermo</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ramirez Carrasco, Ariana Lizeth</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Roman Lopez, Miguel Angel Junior</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ruiz Madrid, Billy Jake</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Quiroz Caceres, Adrian Alonso</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
 </table>
 
 <ul>
-  <li><strong>L</strong> = Líder del aspecto</li>
-  <li><strong>C</strong> = Colaborador en el aspecto</li>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
 </ul>
 
 <p>
-Los líderes de aspecto son responsables de guiar las decisiones técnicas en su área y asegurar que los entregables cumplan con los estándares definidos, utilizando <strong>GitLab o GitHub Actions</strong> para gestionar los procesos de despliegue.
+  Esta organización de roles garantiza que los aspectos críticos de despliegue y backend sean cubiertos 
+  con especialización, mientras se mantiene la flexibilidad para que todos colaboren según sea necesario.
 </p>
 
 #### 5.2.3.3. Sprint Backlog 3
 
 <p>
-El siguiente Sprint Backlog presenta las historias de usuario y <em>technical stories</em> planificadas para el Sprint 3.  
-El foco estuvo en implementar los módulos de gestión de residentes, medicamentos, empleados, casas de reposo y actividades en el
-<strong>Backend</strong> (Java Spring Boot), así como las estadísticas, notificaciones e integraciones externas necesarias para el despliegue
-de VEYRA en un entorno funcional.  
-Todos los ítems fueron gestionados y monitoreados en <strong>Jira Software</strong>, utilizando el tablero Scrum del proyecto con los estados
-<em>To-do</em>, <em>In-Process</em>, <em>To-Review</em> y <em>Done</em>, de acuerdo con la <em>velocity</em> planificada de 18 Story Points para este sprint.
+  El Sprint Backlog 3 incluye las historias de usuario y tareas planificadas para el despliegue del 
+  frontend en Vercel y la implementación del backend en Azure App Service, con énfasis en autenticación 
+  y operaciones CRUD.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
-      <th>Epic / User Story</th>
-      <th>Work-Item / Task (Sprint 3)</th>
+      <th>User Story</th>
+      <th>Work Item / Task</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>US-015<br><strong>Despliegue Frontend en Vercel</strong></td>
       <td>
-        EP04 – Gestión de Administración<br>
-        <strong>Módulo de Residentes y su información clínica</strong>
-      </td>
-      <td>
-        <strong>TS-RM001</strong> Agregar pacientes — To-do<br>
-        <strong>TS-RM002</strong> Ver información detallada de los pacientes — To-do<br>
-        <strong>TS-RM003</strong> Ver información detallada de todos los pacientes — To-do<br>
-        <strong>TS-RM004</strong> Eliminar paciente — To-do<br>
-        <strong>TS-RM005</strong> Actualizar información de los pacientes — To-do<br>
-        <strong>US08</strong> Historial médico — To-do<br>
-        <strong>US10</strong> Consulta de información personal — To-do<br>
-        <strong>US15</strong> Gestión de visitas familiares — To-do
+        <strong>T043</strong> Configurar proyecto en Vercel (2h) — Done<br>
+        <strong>T044</strong> Configurar build pipeline (2h) — Done<br>
+        <strong>T045</strong> Validar despliegue y DNS (1h) — Done
       </td>
     </tr>
     <tr>
+      <td>US-016<br><strong>Implementación Backend CRUD - Residentes</strong></td>
       <td>
-        EP07 – Gestión de Medicamentos<br>
-        <strong>Módulo de Inventario y manejo de medicación</strong>
-      </td>
-      <td>
-        <strong>TS-I001</strong> Eliminar medicamentos — To-do<br>
-        <strong>TS-I002</strong> Agregar medicamentos — To-do<br>
-        <strong>TS-I003</strong> Ver información de un medicamento — To-do<br>
-        <strong>TS-I004</strong> Ver todos los medicamentos — To-do<br>
-        <strong>TS-I005</strong> Actualizar información de medicamentos — To-do<br>
-        <strong>US17</strong> Notificaciones de cambios en medicación — To-do<br>
-        <strong>US25</strong> Alertas de vencimiento — To-do
+        <strong>T046</strong> Crear Entity y Repository (3h) — Done<br>
+        <strong>T047</strong> Implementar Service layer (3h) — Done<br>
+        <strong>T048</strong> Crear Controller y endpoints (3h) — Done<br>
+        <strong>T049</strong> Pruebas unitarias (2h) — Done
       </td>
     </tr>
     <tr>
+      <td>US-017<br><strong>Implementación Backend CRUD - Medicamentos</strong></td>
       <td>
-        EP08 – Gestión de Personal<br>
-        <strong>Módulo de Empleados y gestión de turnos</strong>
-      </td>
-      <td>
-        <strong>TS-EM001</strong> Agregar empleado — To-do<br>
-        <strong>TS-EM002</strong> Eliminar empleado — To-do<br>
-        <strong>TS-EM003</strong> Actualizar información del empleado — To-do<br>
-        <strong>TS-EM004</strong> Ver información de un empleado — To-do<br>
-        <strong>TS-EM005</strong> Ver información de todos los empleados — To-do<br>
-        <strong>US30</strong> Baja de personal — To-do<br>
-        <strong>US31</strong> Búsqueda y filtrado de empleados — To-do<br>
-        <strong>US32</strong> Gestión de horas extra — To-do
+        <strong>T050</strong> Crear Entity y Repository (3h) — Done<br>
+        <strong>T051</strong> Implementar Service layer (3h) — Done<br>
+        <strong>T052</strong> Crear Controller y endpoints (3h) — Done<br>
+        <strong>T053</strong> Pruebas unitarias (2h) — Done
       </td>
     </tr>
     <tr>
+      <td>US-018<br><strong>Implementación Backend CRUD - Empleados</strong></td>
       <td>
-        EP09 – Gestión de Infraestructura<br>
-        <strong>Módulo de Casas de Reposo (Nursing Home)</strong>
-      </td>
-      <td>
-        <strong>TS-NH001</strong> Crear Nursing Home (después del registro) — To-do<br>
-        <strong>TS-NH002</strong> Obtener casa de reposo para el administrador — To-do<br>
-        <strong>TS-NH003</strong> Obtener Nursing Home por ID — To-do<br>
-        <strong>TS-NH004</strong> Listar Nursing Homes — To-do<br>
-        <strong>TS-NH005</strong> Actualizar Nursing Home — To-do
+        <strong>T054</strong> Crear Entity y Repository (3h) — Done<br>
+        <strong>T055</strong> Implementar Service layer (3h) — Done<br>
+        <strong>T056</strong> Crear Controller y endpoints (3h) — Done<br>
+        <strong>T057</strong> Pruebas unitarias (2h) — Done
       </td>
     </tr>
     <tr>
+      <td>US-019<br><strong>Sistema de Autenticación (Login/Registro)</strong></td>
       <td>
-        EP12 – Gestión de Actividades<br>
-        <strong>Módulo de actividades y agenda</strong>
-      </td>
-      <td>
-        <strong>TS-A001</strong> Crear Actividad — To-do<br>
-        <strong>TS-A002</strong> Listar Actividades — To-do<br>
-        <strong>TS-A003</strong> Ver información de una Actividad — To-do<br>
-        <strong>TS-A004</strong> Eliminar una Actividad — To-do<br>
-        <strong>TS-A005</strong> Inscribir residente a Actividad — To-do<br>
-        <strong>US09</strong> Agenda de citas médicas — To-do<br>
-        <strong>US11</strong> Galería de fotos y actividades — To-do<br>
-        <strong>US23</strong> Planificación de eventos familiares — To-do
+        <strong>T058</strong> Implementar JWT generation (3h) — Done<br>
+        <strong>T059</strong> Crear endpoint de registro (3h) — Done<br>
+        <strong>T060</strong> Crear endpoint de login (3h) — Done<br>
+        <strong>T061</strong> Configurar Spring Security (2h) — Done
       </td>
     </tr>
     <tr>
+      <td>US-020<br><strong>Despliegue Backend en Azure App Service</strong></td>
       <td>
-        EP13 – Analítica y Estadísticas<br>
-        <strong>Módulo de reportes y métricas</strong>
-      </td>
-      <td>
-        <strong>TS-ST001</strong> Obtener estadísticas generales — To-do<br>
-        <strong>TS-ST002</strong> Obtener estadísticas de inventario — To-do<br>
-        <strong>TS-ST003</strong> Obtener estadísticas de residentes — To-do
-      </td>
-    </tr>
-    <tr>
-      <td>
-        EP14 – Integraciones Externas<br>
-        <strong>Integraciones con servicios de terceros</strong>
-      </td>
-      <td>
-        <strong>TS16</strong> Consumir API de Google Maps — To-do<br>
-        <strong>TS18</strong> Integración con Stripe (pagos) — To-do<br>
-        <strong>TS19</strong> Autenticación y 2FA (MFA) — To-do
-      </td>
-    </tr>
-    <tr>
-      <td>
-        EP03 – Acceso a Información<br>
-        <strong>Acceso a datos clínicos y de agenda</strong>
-      </td>
-      <td>
-        <strong>US09</strong> Agenda de citas médicas — To-do<br>
-        <strong>US11</strong> Galería de fotos y actividades — To-do<br>
-        <strong>US13</strong> Historial médico institucional — To-do
-      </td>
-    </tr>
-    <tr>
-      <td>
-        EP05 – Notificaciones<br>
-        EP06 – Comunicación Familia–Residencia<br>
-        <strong>Recordatorios, alertas y comunicación con familiares</strong>
-      </td>
-      <td>
-        <strong>US16</strong> Recordatorios de citas y consultas — To-do<br>
-        <strong>US18</strong> Recordatorios de visitas familiares — To-do<br>
-        <strong>US19</strong> Alertas de actualización de datos personales — To-do<br>
-        <strong>US20</strong> Preguntas sobre rutina de cuidados — To-do<br>
-        <strong>US21</strong> Peticiones de modificación de cuidados — To-do<br>
-        <strong>US22</strong> Seguimiento del bienestar emocional — To-do
-      </td>
-    </tr>
-    <tr>
-      <td>
-        EP10 – Seguridad y Privacidad<br>
-        <strong>Protección de datos y cumplimiento</strong>
-      </td>
-      <td>
-        <strong>US38</strong> Protección de datos mediante cifrado — To-do
+        <strong>T062</strong> Crear Azure App Service (2h) — Done<br>
+        <strong>T063</strong> Configurar Azure SQL Database (2h) — Done<br>
+        <strong>T064</strong> Configurar variables de entorno (1h) — Done<br>
+        <strong>T065</strong> Validar despliegue y acceso (1h) — Done
       </td>
     </tr>
   </tbody>
 </table>
 
-<p>
-Este Sprint Backlog permitió organizar el trabajo del equipo alrededor de los módulos centrales del sistema (residentes, medicamentos,
-empleados, infraestructura, actividades, analítica, integraciones y seguridad), asegurando que cada <em>feature</em> del Backend y las
-funcionalidades críticas del Frontend desplegado contribuyan directamente al cumplimiento del Sprint Goal definido para el Sprint 3.
-</p>
-
-
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="12">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</td>
+      <td>main</td>
+      <td>3a8c12f</td>
+      <td>feat(init): initialize Spring Boot project scaffolding</td>
+      <td>02-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>7b2e45c</td>
+      <td>feat(entities): add Resident entity with JPA annotations</td>
+      <td>03-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>9d6f89e</td>
+      <td>feat(repository): add ResidentRepository interface</td>
+      <td>03-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>1c4d67a</td>
+      <td>feat(service): implement ResidentService with CRUD operations</td>
+      <td>04-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>8e5a23b</td>
+      <td>feat(controller): add ResidentController with REST endpoints</td>
+      <td>04-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>5f3c90d</td>
+      <td>feat(medication): add Medication entity and CRUD operations</td>
+      <td>05-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>2a7b18f</td>
+      <td>feat(employee): add Employee entity and CRUD operations</td>
+      <td>05-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>c8e3a19</td>
+      <td>feat(auth): implement JWT token generation and validation</td>
+      <td>06-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>4f9d52e</td>
+      <td>feat(auth): add authentication endpoints (login/register)</td>
+      <td>06-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>6a2c71b</td>
+      <td>feat(security): configure Spring Security with JWT filters</td>
+      <td>07-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>9e4f63c</td>
+      <td>feat(docs): add Swagger/OpenAPI documentation</td>
+      <td>07-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>3d8f94c</td>
+      <td>chore(deploy): configure Azure deployment pipeline</td>
+      <td>08-11-2025</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+<p>
+  Durante el Sprint 3, se completó exitosamente la implementación del Backend con Spring Boot, incluyendo 
+  todos los módulos de gestión de residentes, medicamentos, empleados y sistema de autenticación. Se logró 
+  el despliegue en Azure App Service con base de datos en Azure SQL Database.
+</p>
+
+<h5>Video de demostración del Backend:</h5>
+<p>
+  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 3]<br>
+  <strong>Duración:</strong> [HH:MM:SS]
+</p>
+
+<h5>Capturas de pantalla - Swagger UI del Backend:</h5>
+
+<p><strong>Swagger UI - Documentación de API:</strong></p>
+<img src="../images/swagger-ui-overview.jpg" alt="swagger-ui-overview">
+
+<p><strong>Endpoints de Residentes:</strong></p>
+<img src="../images/swagger-residents-endpoints.jpg" alt="swagger-residents-endpoints">
+
+<p><strong>Endpoints de Autenticación:</strong></p>
+<img src="../images/swagger-auth-endpoints.jpg" alt="swagger-auth-endpoints">
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-### Medications
+<p>
+  Durante el Sprint 3, se implementó la capa de servicios REST del Backend de VEYRA, con documentación 
+  completa en Swagger/OpenAPI. Todos los endpoints están disponibles y documentados.
+</p>
 
-| URL | Endpoint | HTTP Verb | Acción Implementada | Sintaxis de Llamada | Parámetros Posibles | Ejemplo de Response | Explicación del Response |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/medications/{medicationId}` | GET | Get medication by ID | `'accept: application/json'` | `medicationId (path)` | `{ "id": 0, "residentId": 0, "name": "string", "description": "string", "amount": 0, "expirationDate": "2025-11-17", "drugPresentation": "string", "dosage": "string" }` | Retorna un objeto con los detalles de la medicación. |
-
----
-
-### Person profiles
-
-| URL | Endpoint | HTTP Verb | Acción Implementada | Sintaxis de Llamada | Parámetros Posibles | Ejemplo de Response | Explicación del Response |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/person-profiles/{personProfileId}` | GET | Get person profile by id | `'accept: application/json'` | `personProfileId (path)` | `{ "id": 0, "fullName": "string", "dni": "string", "birthDate": "2025-11-17", "age": 0, "photo": "string", "phoneNumber": "string", "emailAddress": "string", "StreetAddress": "string" }` | Retorna un objeto con los detalles del perfil de persona. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/person-profiles/{personProfileId}` | PUT | Person profile updated by id | `'Content-Type: application/json' -d '{ "dni": "string", "firstName": "string", ... }'` | `personProfileId (path)` y `JSON con datos del perfil` | `{ "id": 0, "fullName": "string", "dni": "string", "birthDate": "2025-11-17", "age": 0, ... }` | Retorna el objeto del perfil de persona actualizado. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/person-profiles/{personProfileId}` | DELETE | Person profile delete by id | `'accept: application/json'` | `personProfileId (path)` | `{}` | Retorna una respuesta vacía confirmando la eliminación. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/person-profiles` | GET | Get all person profiles | `'accept: application/json'` | `Ninguno` | `[ { "id": 0, "fullName": "string", "dni": "string", ... } ]` | Retorna un array con todos los perfiles de persona. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/person-profiles` | POST | Create a new person profile | `'Content-Type: application/json' -d '{ "dni": "string", "firstName": "string", ... }'` | `JSON con datos del perfil` | `{ "id": 123, "fullName": "string", "dni": "string", ... }` | Retorna el objeto del perfil de persona recién creado. |
-
----
-
-### Nursing Homes
-
-| URL | Endpoint | HTTP Verb | Acción Implementada | Sintaxis de Llamada | Parámetros Posibles | Ejemplo de Response | Explicación del Response |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/nursing-homes` | GET | Get all nursing homes | `'accept: application/json'` | `Ninguno` | `[ { "id": 0, "businessProfileId": 0 } ]` | Retorna un array con todos los nursing homes. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/nursing-homes` | POST | Create a new nursing home | `'Content-Type: application/json' -d '{ "businessName": "Veyra Tech SAC", ... }'` | `JSON con datos del nursing home` | `{ "id": 1, "businessProfileId": 123 }` | Retorna el objeto nursing home recién creado. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/nursing-homes/{nursingHomeId}/residents` | GET | Get residents for nursing home | `'accept: application/json'` | `nursingHomeId (path)` | `[ { "id": 0, "personProfileId": 0, "status": "string", ... } ]` | Retorna un array de residentes para un nursing home específico. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/nursing-homes/{nursingHomeId}/residents` | POST | Create a new resident in a nursing home | `'Content-Type: application/json' -d '{ "dni": "string", "firstName": "string", ... }'` | `nursingHomeId (path)` y `JSON con datos del residente` | `{ "id": 1, "personProfileId": 456, "status": "ACTIVE", ... }` | Retorna el objeto residente recién creado. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/nursing-homes/{nursingHomeId}` | GET | Get Nursing Home by ID | `'accept: application/json'` | `nursingHomeId (path)` | `{ "id": 0, "businessProfileId": 0 }` | Retorna un objeto con los detalles de un nursing home. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/nursing-homes/{nursingHomeId}/residents/active` | GET | Get all active residents by nursing home | `'accept: application/json'` | `nursingHomeId (path)` | `[ { "id": 0, "personProfileId": 0, "status": "ACTIVE", ... } ]` | Retorna un array de los residentes activos de un nursing home. |
-
----
-
-### Business Profiles
-
-| URL | Endpoint | HTTP Verb | Acción Implementada | Sintaxis de Llamada | Parámetros Posibles | Ejemplo de Response | Explicación del Response |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/business-profiles` | GET | Get all business profiles | `'accept: application/json'` | `Ninguno` | `[ { "id": 0, "businessName": "string", "ruc": "string", ... } ]` | Retorna un array con todos los perfiles de negocio. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/business-profiles` | POST | Create a new business profile | `'Content-Type: application/json' -d '{ "businessName": "string", ... }'` | `JSON con datos del perfil de negocio` | `{ "id": 1, "businessName": "string", "ruc": "string", ... }` | Retorna el objeto del perfil de negocio recién creado. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/business-profiles/{businessId}` | GET | Get business profile by Id | `'accept: application/json'` | `businessId (path)` | `{ "id": 0, "businessName": "string", "ruc": "string", ... }` | Retorna un objeto con los detalles de un perfil de negocio. |
-
----
-
-### Contracts Endpoints
-
-| URL | Endpoint | HTTP Verb | Acción Implementada | Sintaxis de Llamada | Parámetros Posibles | Ejemplo de Response | Explicación del Response |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/staff/{staffMemberId}/contract` | GET | Get contracts for staff member | `'accept: application/json'` | `staffMemberId (path)` | `[ { "id": 0, "staffId": 0, "startDate": "2025-11-17", ... } ]` | Retorna un array con los contratos de un miembro del personal. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/staff/{staffMemberId}/contract` | POST | Add a contract to the contract | `'Content-Type: application/json' -d '{ "startDate": "2025-11-17", ... }'` | `staffMemberId (path)` y `JSON con datos del contrato` | `{ "id": 1, "staffId": 0, "startDate": "2025-11-17", "status": "ACTIVE", ... }` | Retorna el objeto del contrato recién creado. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/staff/{staffMemberId}/contract/{contractId}` | GET | Get a specific contract of a staff member | `'accept: application/json'` | `staffMemberId (path)`, `contractId (path)` | `{ "id": 0, "staffId": 0, "startDate": "2025-11-17", ... }` | Retorna un objeto con los detalles de un contrato específico. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/staff/{staffMemberId}/contract/{contractId}` | PATCH | Update contract status | `'Content-Type: application/json' -d '{ "newStatus": "string" }'` | `staffMemberId (path)`, `contractId (path)`, `JSON con nuevo status` | `{ "id": 0, "staffId": 0, "status": "INACTIVE", ... }` | Retorna el objeto del contrato con el estado actualizado. |
-
----
-
-### Staff Endpoint
-
-| URL | Endpoint | HTTP Verb | Acción Implementada | Sintaxis de Llamada | Parámetros Posibles | Ejemplo de Response | Explicación del Response |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/staff/{staffId}` | PUT | Staff updated by ID | `'Content-Type: application/json' -d '{ "dni": "string", "firstName": "string", ... }'` | `staffId (path)` y `JSON con datos del staff` | `{ "id": 0, "profileId": 0, "emergencyContactFirstName": "string", ... }` | Retorna el objeto del staff actualizado. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/staff` | GET | Get all staff | `'accept: application/json'` | `Ninguno` | `[ { "id": 0, "profileId": 0, "emergencyContactFirstName": "string", ... } ]` | Retorna un array con todo el personal. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/staff` | POST | Create new Staff | `'Content-Type: application/json' -d '{ "dni": "string", "firstName": "string", ... }'` | `JSON con datos del staff` | `{ "id": 1, "profileId": 123, "emergencyContactFirstName": "string", ... }` | Retorna el objeto del staff recién creado. |
-
----
-
-### Residents
-
-| URL | Endpoint | HTTP Verb | Acción Implementada | Sintaxis de Llamada | Parámetros Posibles | Ejemplo de Response | Explicación del Response |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/residents/{residentId}` | GET | Get resident by ID | `'accept: application/json'` | `residentId (path)` | `{ "id": 1, "personProfileId": 1, "status": "ACTIVE", ... }` | Retorna un objeto con los detalles de un residente. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/residents/{residentId}` | PUT | Update resident by ID | `'Content-Type: application/json' -d '{ "dni": "string", "firstName": "string", ... }'` | `residentId (path)` y `JSON con datos del residente` | `{ "id": 1, "personProfileId": 1, "status": "ACTIVE", ... }` | Retorna el objeto del residente actualizado. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/residents/{residentId}` | DELETE | Delete resident by ID | `'accept: application/json'` | `residentId (path)` | `{}` | Retorna una respuesta vacía confirmando la eliminación. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/residents/{residentId}/medications` | GET | Get medications for resident | `'accept: application/json'` | `residentId (path)` | `[ { "id": 0, "residentId": 0, "name": "string", ... } ]` | Retorna un array con las medicaciones de un residente. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/residents/{residentId}/medications` | POST | Create a new medication for resident | `'Content-Type: application/json' -d '{ "name": "string", "description": "string", ... }'` | `residentId (path)` y `JSON con datos de la medicación` | `{ "id": 1, "residentId": 0, "name": "string", ... }` | Retorna el objeto de la medicación recién creada. |
-
----
-
-### analytics-controller
-
-| URL | Endpoint | HTTP Verb | Acción Implementada | Sintaxis de Llamada | Parámetros Posibles | Ejemplo de Response | Explicación del Response |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/analytics/{nursingHomeId}` | GET | Get general analytics | `'accept: application/json'` | `nursingHomeId (path)` | `{ "totalResidents": 0, "activeResidents": 0, "totalEmployees": 0, ... }` | Retorna un objeto con las analíticas generales del nursing home. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/analytics/{nursingHomeId}/statistics/residents` | GET | Get resident statistics | `'accept: application/json'` | `nursingHomeId (path)` | `{ "totalResidents": 0, "byGender": { ... }, "byAgeRange": { ... }, ... }` | Retorna un objeto con estadísticas detalladas de residentes. |
-| https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ | `/api/v1/analytics/{nursingHomeId}/inventory` | GET | Get inventory analytics | `'accept: application/json'` | `nursingHomeId (path)` | `{ "totalMedications": 0, "totalValue": 0, "expiringThisMonth": 0, ... }` | Retorna un objeto con analíticas del inventario de medicación. |
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Método HTTP</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/residents</td>
+      <td>GET</td>
+      <td>Obtener listado de todos los residentes</td>
+    </tr>
+    <tr>
+      <td>/api/v1/residents/{id}</td>
+      <td>GET</td>
+      <td>Obtener detalle de un residente específico</td>
+    </tr>
+    <tr>
+      <td>/api/v1/residents</td>
+      <td>POST</td>
+      <td>Crear un nuevo residente</td>
+    </tr>
+    <tr>
+      <td>/api/v1/residents/{id}</td>
+      <td>PUT</td>
+      <td>Actualizar información de un residente</td>
+    </tr>
+    <tr>
+      <td>/api/v1/residents/{id}</td>
+      <td>DELETE</td>
+      <td>Eliminar un residente</td>
+    </tr>
+    <tr>
+      <td>/api/v1/medications</td>
+      <td>GET</td>
+      <td>Obtener listado de medicamentos</td>
+    </tr>
+    <tr>
+      <td>/api/v1/medications</td>
+      <td>POST</td>
+      <td>Crear un nuevo medicamento</td>
+    </tr>
+    <tr>
+      <td>/api/v1/employees</td>
+      <td>GET</td>
+      <td>Obtener listado de empleados</td>
+    </tr>
+    <tr>
+      <td>/api/v1/employees</td>
+      <td>POST</td>
+      <td>Crear un nuevo empleado</td>
+    </tr>
+    <tr>
+      <td>/api/auth/register</td>
+      <td>POST</td>
+      <td>Registrar nuevo usuario</td>
+    </tr>
+    <tr>
+      <td>/api/auth/login</td>
+      <td>POST</td>
+      <td>Autenticación y generación de JWT token</td>
+    </tr>
+    <tr>
+      <td>/swagger-ui.html</td>
+      <td>GET</td>
+      <td>Documentación interactiva de API</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+<p>
+  <strong>Frontend Desplegado:</strong> <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a>
+</p>
 
-En esta sección se describen los procesos de despliegue de la base de datos y el Web Service realizados durante el Sprint. Para la base de datos, se utilizó **Azure**, donde se creó una instancia de [Azure SQL Database o Azure Database for MySQL/PostgreSQL]. El Web Service se desplegó en **Azure App Service**, configurando un plan de servicio, activando el centro de implementación y publicando directamente desde **IntelliJ IDEA** con el plugin de Azure. Ambos componentes quedaron listos para su uso.
+<p>
+  <strong>Backend Desplegado:</strong> <a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a>
+</p>
 
-### Despliegue de la base de datos
-
-Para el despliegue de la base de datos se utilizó **Azure**.
-
-1.  Inicio sesión en el portal de Azure, me dirijo a "Bases de datos" y selecciono "Crear" [ej. Azure SQL Database].
-    ![](../assets/img/chapter-V/db-azure-1.png)
-
-2.  Se selecciona la suscripción, el grupo de recursos y se especifican los detalles de la base de datos (nombre, servidor).
-    ![](../assets/img/chapter-V/db-azure-2.png)
-
-3.  Se crea un nuevo servidor (si no existe) y se configuran las credenciales de administrador.
-    ![](../assets/img/chapter-V/db-azure-3.png)
-
-4.  Se elige el plan de servicio (ej. Básico o un plan de desarrollo) y se revisan las configuraciones.
-    ![](../assets/img/chapter-V/db-azure-4.png)
-
-5.  Se confirma la creación y se espera a que el recurso esté disponible.
-    ![](../assets/img/chapter-V/db-azure-5.png)
-
-6.  Finalmente, se configura el **Firewall** del servidor de la base de datos para permitir las conexiones desde el Web Service y el acceso local.
-    ![](../assets/img/chapter-V/db-azure-6.png)
-
-### Despliegue del Web Service
-
-1.  En **IntelliJ IDEA**, se completa el archivo de configuración (ej. `application.properties` o `.yml`) con los datos (URL, usuario, contraseña) de la base de datos creada en Azure.
-    ![](../assets/img/chapter-V/deploy-intellij-1.png)
-
-2.  Se ejecuta el proyecto localmente para probar y verificar que la conexión al servicio de base de datos de Azure es exitosa.
-    ![](../assets/img/chapter-V/deploy-intellij-2.png)
-
-3.  Una vez validado, se busca en el explorador de proyecto, se hace clic derecho y se selecciona "Azure" -> "Deploy to Azure Web Apps".
-    ![](../assets/img/chapter-V/deploy-intellij-3.png)
-
-4.  Se completa la ventana de configuración: se inicia sesión en Azure, se selecciona la suscripción y el App Service (ej. "veyrav01") creado previamente.
-    ![](../assets/img/chapter-V/deploy-intellij-4.png)
-
-5.  En la configuración de runtime, se selecciona **Java 17**, ya que no es posible desplegar con Java 25 [o la versión deseada] en el plan actual.
-    ![](../assets/img/chapter-V/deploy-intellij-5.png)
-
-6. .  Se presiona "Run" y se espera a que el proceso de despliegue compile, empaquete y suba el artefacto a Azure.
-    ![](../assets/img/chapter-V/deploy-intellij-6.png)
-
-7.  Al finalizar, la consola de IntelliJ muestra "Successfully deployed..." y provee el link del sitio.
-    ![](../assets/img/chapter-V/deploy-intellij-7.png)
-
-8.  Para verificar el despliegue, se toma el link (ej. `https://veyrav01.azurewebsites.net`) y se le agrega la ruta `/swagger-ui/index.html` en el navegador.
-    ![](../assets/img/chapter-V/deploy-azure-final.png)
-
-**Link del Web Service desplegado:** [https://veyrav01.azurewebsites.net/swagger-ui/index.html](https://veyrav01.azurewebsites.net/swagger-ui/index.html)
-
+<p>
+  <strong>API Documentation (Swagger UI):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a>
+</p>
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-![](../assets/img/chapter-V/teamColaboration1.jpeg)
-![](../assets/img/chapter-V/teamColaboration2.jpeg)
-![](../assets/img/chapter-V/teamColaboration3.jpeg)
+<img src="../images/overview-sprint3.jpg" alt="overview-sprint3">
 
+<img src="../images/network-graph-sprint3.jpg" alt="network-graph-sprint3">
+
+<img src="../images/contributors-sprint3.jpg" alt="contributors-sprint3">
 
 ## 5.3. Validation Interviews
 
