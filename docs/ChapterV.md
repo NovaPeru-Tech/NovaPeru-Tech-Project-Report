@@ -1442,32 +1442,119 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 <p>
   En el Sprint 2, el equipo diseñó, programó e integró el módulo frontend con la API Backend de VEYRA. 
-  Se estableció la comunicación entre el Frontend y los servicios REST proporcionados por el Backend.
+  Se estableció la comunicación con éxito entre el Frontend y los servicios REST proporcionados por el Backend, 
+  implementando las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las principales entidades. 
+  La documentación del servicio se presenta a continuación, cumpliendo con los lineamientos de especificación 
+  de Endpoints, verbos HTTP, sintaxis de llamada y explicación del response.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
-      <th>End Point</th>
-      <th>Funciones</th>
+      <th>End Point Base</th>
+      <th>Método HTTP</th>
+      <th>Acción Implementada (Funciones)</th>
+      <th>Sintaxis de Llamada (Ejemplo y Parámetros)</th>
+      <th>Explicación del Response</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>http://localhost:8080/api/v1/residents</td>
-      <td>Obtener listado de residentes, crear, actualizar y eliminar residentes</td>
+      <td rowspan="5"><strong>http://localhost:8080/api/v1/residents</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener el listado completo de residentes.</td>
+      <td><code>GET /api/v1/residents</code></td>
+      <td><code>200 OK</code>: Retorna un array JSON con la lista de objetos Residentes.</td>
     </tr>
     <tr>
-      <td>http://localhost:8080/api/v1/medications</td>
-      <td>Obtener listado de medicamentos, crear, actualizar y eliminar medicamentos</td>
+      <td><strong>GET</strong></td>
+      <td>Obtener el detalle de un residente por su ID.</td>
+      <td><code>GET /api/v1/residents/{id}</code> (Ej: <code>/api/v1/residents/123</code>)</td>
+      <td><code>200 OK</code>: Retorna el objeto Residente solicitado. <code>404 Not Found</code> si el ID no existe.</td>
     </tr>
     <tr>
-      <td>http://localhost:8080/api/v1/employees</td>
-      <td>Obtener listado de empleados, crear, actualizar y eliminar empleados</td>
+      <td><strong>POST</strong></td>
+      <td>Crear un nuevo residente.</td>
+      <td><code>POST /api/v1/residents</code> (Requiere Objeto Residente en el Body)</td>
+      <td><code>201 Created</code>: Retorna el objeto Residente creado, incluyendo el ID asignado.</td>
+    </tr>
+    <tr>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar completamente un residente existente por su ID.</td>
+      <td><code>PUT /api/v1/residents/{id}</code> (Requiere Objeto Residente en el Body)</td>
+      <td><code>200 OK</code>: Retorna el objeto Residente actualizado.</td>
+    </tr>
+    <tr>
+      <td><strong>DELETE</strong></td>
+      <td>Eliminar un residente por su ID.</td>
+      <td><code>DELETE /api/v1/residents/{id}</code></td>
+      <td><code>204 No Content</code>: Indica la eliminación exitosa.</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>http://localhost:8080/api/v1/medications</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener el listado completo de medicamentos.</td>
+      <td><code>GET /api/v1/medications</code></td>
+      <td><code>200 OK</code>: Retorna un array JSON con la lista de objetos Medicamentos.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener el detalle de un medicamento por su ID.</td>
+      <td><code>GET /api/v1/medications/{id}</code> (Ej: <code>/api/v1/medications/456</code>)</td>
+      <td><code>200 OK</code>: Retorna el objeto Medicamento solicitado. <code>404 Not Found</code> si el ID no existe.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Crear un nuevo medicamento.</td>
+      <td><code>POST /api/v1/medications</code> (Requiere Objeto Medicamento en el Body)</td>
+      <td><code>201 Created</code>: Retorna el objeto Medicamento creado, incluyendo el ID asignado.</td>
+    </tr>
+    <tr>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar completamente un medicamento existente por su ID.</td>
+      <td><code>PUT /api/v1/medications/{id}</code> (Requiere Objeto Medicamento en el Body)</td>
+      <td><code>200 OK</code>: Retorna el objeto Medicamento actualizado.</td>
+    </tr>
+    <tr>
+      <td><strong>DELETE</strong></td>
+      <td>Eliminar un medicamento por su ID.</td>
+      <td><code>DELETE /api/v1/medications/{id}</code></td>
+      <td><code>204 No Content</code>: Indica la eliminación exitosa.</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>http://localhost:8080/api/v1/employees</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener el listado completo de empleados.</td>
+      <td><code>GET /api/v1/employees</code></td>
+      <td><code>200 OK</code>: Retorna un array JSON con la lista de objetos Empleados.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener el detalle de un empleado por su ID.</td>
+      <td><code>GET /api/v1/employees/{id}</code> (Ej: <code>/api/v1/employees/789</code>)</td>
+      <td><code>200 OK</code>: Retorna el objeto Empleado solicitado. <code>404 Not Found</code> si el ID no existe.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Crear un nuevo empleado.</td>
+      <td><code>POST /api/v1/employees</code> (Requiere Objeto Empleado en el Body)</td>
+      <td><code>201 Created</code>: Retorna el objeto Empleado creado, incluyendo el ID asignado.</td>
+    </tr>
+    <tr>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar completamente un empleado.</td>
+      <td><code>PUT /api/v1/employees/{id}</code> (Requiere Objeto Empleado en el Body)</td>
+      <td><code>200 OK</code>: Retorna el objeto Empleado actualizado.</td>
+    </tr>
+    <tr>
+      <td><strong>DELETE</strong></td>
+      <td>Eliminar un empleado.</td>
+      <td><code>DELETE /api/v1/employees/{id}</code></td>
+      <td><code>204 No Content</code>: Indica la eliminación exitosa.</td>
     </tr>
   </tbody>
 </table>
-  
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 <p>
