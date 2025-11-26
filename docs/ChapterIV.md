@@ -698,281 +698,130 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 ### 4.7.1. Class Diagrams
 
-<h3>IAM Diagram (Frontend)</h3>
+#### Diagrama de clases frontend
 
-![IAM Diagram](../images/webapp-iam.svg)
+#### Diagrama de backend completo:
+![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml)
 
-<ul>
-<li>
-<strong>Contexto:</strong> Gestión de la interfaz de usuario para la identidad y acceso (IAM), siguiendo una arquitectura limpia (Clean Architecture) en Angular.
-</li>
-<li>
-<strong>Módulos principales:</strong>
-<ul>
-<li>Domain: Modela las entidades <code>SignIn</code> y <code>SignUp</code> como objetos de negocio puros, sin dependencias de frameworks.</li>
-<li>Application: El <code>IamStore</code> centraliza el estado (usuario autenticado, carga, errores) usando Angular Signals y orquesta los casos de uso.</li>
-<li>Infrastructure: Gestiona la comunicación con la API a través de una fachada (<code>IamApi</code>), endpoints especializados y traductores (<code>Assemblers</code>) que convierten los datos de la API en entidades de dominio.</li>
-<li>Presentation: Incluye componentes de UI (<code>SignInComponent</code>, <code>SignUpComponent</code>), componentes reutilizables (<code>AuthenticationSection</code>) y la configuración de rutas (<code>IamRouters</code>) que utiliza carga perezosa (lazy loading).</li>
-</ul>
-</li>
-<li>
-<strong>Operaciones clave:</strong> Flujos de inicio de sesión y registro desacoplados, validación de formularios reactivos y manejo de estado centralizado y reactivo (loading, error) que se refleja automáticamente en la UI.
-</li>
-<li>
-<strong>Característica destacada:</strong> Reutilización del <code>SignUpComponent</code> para diferentes roles ('administrator', 'familiar') mediante el paso de datos estáticos en la configuración de rutas, optimizando el código y la mantenibilidad.
-</li>
-</ul>
+<h3><strong>Diagrama de backend dividido por contextos:</strong></h3>
 
-<h3>Nursing Home Diagram (Frontend)</h3>
+<h4>nursing backend:</h4>
+<p><strong>Responsabilidad:</strong> Lógica de hogares, habitaciones, asignaciones y servicios de cuidado.</p>
 
-![Nursing Home Diagram](../images/webapp-nursingHome.svg)
+![Nursing Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-backend-diagram.puml)
 
-<ul>
-<li>
-<strong>Contexto:</strong> Interfaz de usuario para la gestión y registro de residencias geriátricas.
-</li>
-<li>
-<strong>Módulos principales:</strong>
-<ul>
-<li>Domain: Define la entidad <code>NursingHome</code> con sus propiedades de negocio.</li>
-<li>Application: El <code>NursingHomeStore</code> gestiona el estado de la lista de residencias y las operaciones CRUD.</li>
-<li>Infrastructure: Capa de comunicación con la API, siguiendo el patrón de fachada, endpoint y assembler.</li>
-<li>Presentation: Proporciona el componente <code>NursingHomeForm</code> para el registro de nuevas residencias y su enrutador asociado.</li>
-</ul>
-</li>
-<li>
-<strong>Operaciones clave:</strong> Creación de una nueva residencia a través de un formulario reactivo. El componente de UI delega la lógica de negocio al <code>NursingHomeStore</code>, que a su vez se comunica con la capa de infraestructura.
-</li>
-</ul>
+<h4>hcm backend:</h4>
+<p><strong>Responsabilidad:</strong> Gestión de personal, contratos, turnos y organización interna.</p>
 
-<h3>Employees Diagram (Frontend)</h3>
+![HCM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-backend-diagram.puml)
 
-![Employees Diagram](../images/webapp-employees.svg)
+<h4>iam backend:</h4>
+<p><strong>Responsabilidad:</strong> Usuarios, autenticación, roles y permisos.</p>
 
-<ul>
-<li>
-<strong>Contexto:</strong> Interfaz de usuario para la gestión completa del personal (empleados) de la residencia.
-</li>
-<li>
-<strong>Módulos principales:</strong>
-<ul>
-<li>Domain: Define la entidad <code>Staff</code> con toda la información personal y contractual del empleado.</li>
-<li>Application: <code>EmployeesStore</code> actúa como el gestor de estado central para la lista de empleados.</li>
-<li>Infrastructure: Capa de comunicación con la API REST de empleados.</li>
-<li>Presentation: Proporciona un conjunto completo de componentes para el CRUD de empleados (<code>StaffFormCreate</code>, <code>StaffFormList</code>, <code>StaffFormEdit</code>, <code>StaffDetail</code>) y su enrutador.</li>
-</ul>
-</li>
-<li>
-<strong>Operaciones clave:</strong> Registro, edición, eliminación y listado de empleados. El estado se gestiona en el <code>EmployeesStore</code>, asegurando que la UI siempre refleje los datos más recientes de forma reactiva.
-</li>
-</ul>
+![IAM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-backend-diagram.puml)
 
-<h3>Residents Diagram (Frontend)</h3>
+<h4>analytics backend:</h4>
+<p><strong>Responsabilidad:</strong> Manejo de métricas, auditoría y análisis de eventos.</p>
 
-![Resident Diagram](../images/webapp-resident.svg)
+![Analytics Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-backend-diagram.puml)
 
-<ul>
-<li>
-<strong>Contexto:</strong> Interfaz de usuario para la gestión integral de residentes, abarcando su información personal, médica y administrativa.
-</li>
-<li>
-<strong>Módulos principales:</strong>
-<ul>
-<li>Domain: Una entidad <code>Residents</code> muy detallada que modela toda la información relevante de un residente.</li>
-<li>Application: <code>ResidentStore</code> gestiona el estado de los residentes, proveyendo una única fuente de verdad para toda la UI.</li>
-<li>Infrastructure: Capa de comunicación que interactúa con la API de residentes.</li>
-<li>Presentation: Un conjunto completo de vistas para listar, ver detalles, crear y editar residentes, cada una interactuando con el <code>ResidentStore</code>.</li>
-</ul>
-</li>
-<li>
-<strong>Operaciones clave:</strong> CRUD completo para la gestión de residentes. La arquitectura reactiva asegura que cualquier cambio (ej. editar un residente) se propague inmediatamente a todas las vistas relevantes (como la lista de residentes).
-</li>
-</ul>
+<h4>health backend:</h4>
+<p><strong>Responsabilidad:</strong> Evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
-<h3>Shared Diagram (Frontend)</h3>
+![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml)
 
-![Shared Diagram](../images/webapp-shared.svg)
+<h4>communication backend:</h4>
+<p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicación interna del sistema.</p>
 
-<ul>
-<li>
-<strong>Contexto:</strong> Proporciona un conjunto de clases base, interfaces y patrones reutilizables que actúan como el fundamento para todos los demás módulos del frontend.
-</li>
-<li>
-<strong>Módulos principales:</strong>
-<ul>
-<li>Domain: Define <code>BaseEntity</code> para estandarizar las entidades de negocio.</li>
-<li>Infrastructure: Contiene la lógica genérica para la comunicación con APIs. <code>BaseApiEndpoint</code> es la pieza central, implementando las operaciones CRUD (Crear, Leer, Actualizar, Borrar) de forma reutilizable para cualquier entidad.</li>
-<li>Presentation: Incluye <code>BaseForm</code>, una clase con utilidades para simplificar la gestión de errores y validaciones en los formularios de toda la aplicación.</li>
-</ul>
-</li>
-<li>
-<strong>Operaciones clave:</strong> El propósito de este módulo es ofrecer herramientas para reducir el código duplicado y forzar una arquitectura consistente. No implementa lógica de negocio, sino el andamiaje sobre el cual se construye dicha lógica.
-</li>
-</ul>
+![Communication Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-backend-diagram.puml)
 
-<h3>Employees diagram (Backend)</h3>
+<h4>profiles backend:</h4>
+<p><strong>Responsabilidad:</strong> Perfiles personales, empresariales y datos asociados.</p>
 
-![Employees Diagram](../images/Employee.svg)
+![Profiles Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-backend-diagram.puml)
 
-<ul>
-  <li>
-    <strong>Contexto:</strong> Gestión de empleados bajo el contexto "Employees Bounded Context".
-  </li>
-  <li>
-    <strong>Módulos principales:</strong>
-    <ul>
-      <li>Domain: Agrega la entidad Employee, objetos valor (Position, WorkShift, TypeOfContract, ProfileId), y excepciones de negocio.</li>
-      <li>Application: Define servicios de consulta y comando para operaciones CRUD y filtros.</li>
-      <li>Infrastructure: Maneja persistencia y repositorios (JPA).</li>
-      <li>Interfaces: Expone API REST y recursos externos.</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Operaciones clave:</strong> Consultar empleados por posición o contrato, asignación de turnos, creación, edición y borrado.
-  </li>
-  <li>
-    <strong>Manejo de errores:</strong> Excepciones a nivel de dominio como empleado no encontrado, contrato inválido, conflictos en horarios.
-  </li>
-</ul>
+<h4>tracking backend:</h4>
+<p><strong>Responsabilidad:</strong> Bandas médicas, sensores y trazabilidad de residentes.</p>
 
-<h3>Medications diagram (Backend)</h3>
+![Tracking Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-backend-diagram.puml)
 
-![Medications Diagram](../images/platform-Medications.svg)
+<h4>payments backend:</h4>
+<p><strong>Responsabilidad:</strong> Pagos, facturación, transacciones y conciliaciones.</p>
 
-<ul>
-  <li>
-    <strong>Contexto:</strong> Gestión de medicamentos bajo el "Medication Bounded Context".
-  </li>
-  <li>
-    <strong>Módulos principales:</strong>
-    <ul>
-      <li>Domain: Agregado central "Medication", con objetos valor (Stock, Type, Brand, Laboratory, Dosage, ExpireDate, etc.), y excepciones específicas del dominio.</li>
-      <li>Application: Servicios y comandos para crear, actualizar, eliminar y consultar medicamentos, así como operaciones que incluyen filtros por tipo, marca, laboratorio y expiración.</li>
-      <li>Infrastructure: Incluye repositorios para persistencia de entidades.</li>
-      <li>Interfaces: Controlador REST para exponer las operaciones CRUD de medicamentos.</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Operaciones clave:</strong> Consultar medicamentos por laboratorio, tipo, marca, fecha de expiración, stock bajo, así como comandos para mantenimiento y eliminación.</li>
-  <li>
-    <strong>Manejo de errores:</strong> Excepciones para situaciones como medicamento no encontrado, laboratorio inválido, tipo inválido y stock inválido.</li>
-</ul>
+![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml)
 
-<h3>IAM diagram (Backend)</h3>
+<h4>activities backend:</h4>
+<p><strong>Responsabilidad:</strong> Actividades, programación, horarios y participación de residentes.</p>
 
-![IAM Diagram](../images/platform-IAM.svg)
+![Activities Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-backend-diagram.puml)
 
-<ul>
-  <li>
-    <strong>Contexto:</strong> Gestión de identidades y accesos bajo el dominio IAM (Identity and Access Management).
-  </li>
-  <li>
-    <strong>Módulos principales:</strong>
-    <ul>
-      <li>Domain: Modela entidades como Usuario, Rol y Permisos, relacionando usuarios con roles y controles de acceso.</li>
-      <li>Application: Incluye servicios de aplicación para la gestión de usuarios y roles (creación, actualización, asignación).</li>
-      <li>Infrastructure: Implementa mecanismos de persistencia y repositorios para entidades de Seguridad.</li>
-      <li>Interfaces: Expone controladores y recursos API REST para autenticación y autorización.</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Operaciones clave:</strong> Alta, edición y consulta de usuarios; asignación de roles y permisos; flujos de autenticación y autorización.
-  </li>
-  <li>
-    <strong>Manejo de relaciones:</strong> Conexión entre usuarios, roles, y permisos, respaldado por servicios y controladores específicos.
-  </li>
-</ul>
+<h4>shared backend:</h4>
+<p><strong>Responsabilidad:</strong> Componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
-<h3>Profiles Diagram (Backend)</h3>
+![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml)
 
-![profile Diagram](../images/profiles-Profiles_BC___Detallado__vertical_.svg)
 
-<ul>
-  <li>
-    <strong>Contexto:</strong> gestión de perfiles dentro de un contexto delimitado especializado.</li>
-  <li>
-    <strong>Módulos principales:</strong>
-    <ul>
-      <li>Dominio: agregado central "Profile", incluye objetos valor (FullName, EmailAddress, Address, etc.) y comandos relacionados al manejo de perfiles.</li>
-      <li>Aplicación: servicios internos para consultas y comandos de crear, actualizar y recuperar perfiles; módulo ACL para control de acceso.</li>
-      <li>Infraestructura: persistencia en repositorios JPA y utilidades para transformación de datos.</li>
-      <li>Interfaces: controlador REST y recursos para acceso vía API, más una capa facade para integrar los servicios de consulta.</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Operaciones clave:</strong> crear, actualizar y recuperar perfiles usando capas de servicio y repositorio, con utilidades para mapear objetos de solicitud/respuesta al dominio.</li>
-  <li>
-    <strong>Integración:</strong> conecta el dominio con APIs, control de acceso y transformación interna para una gestión segura y consistente de perfiles.</li>
-</ul>
 
-<h3>Nursing Diagram (Backend)</h3>
-
-![Nursing Diagram](../images/nursing-Nursing_Bounded_Context.svg)
-
-<ul>
-  <li>
-    <strong>Contexto:</strong> gestión de residencias geriátricas en un contexto delimitado.</li>
-  <li>
-    <strong>Módulos principales:</strong>
-    <ul>
-      <li>Dominio: agregado principal "Nursing", entidades asociadas (admin, facility) y objetos valor (Name, PhoneNumber, Address, Ruc, Description, Email).</li>
-      <li>Aplicación: servicios internos para consultas y comandos administrativos, y servicios outbound para integración con sistemas externos.</li>
-      <li>Infraestructura: persistencia de entidades mediante repositorios JPA.</li>
-      <li>Interfaces: API REST, manejo de recursos, transformaciones y control de acceso.</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Operaciones clave:</strong> creación, administración y consulta de residencias y administradores utilizando un diseño modular y seguro.</li>
-</ul>
 
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
-![Database](../images/DataBase-Diagram.png)
+#### Diagrama de base de datos completo:
+![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml)
 
-<h3><strong>Contextos principales:</strong></h3>
+<h3><strong>Diagrama de base de datos dividido por contextos:</strong></h3>
 
-<h4>IAM Context:</h4>
+<h4>nursing base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Gestión de hogares, habitaciones y asignaciones.</p>
+
+![Nursing Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-database-diagram.puml)
+
+<h4>hcm base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Almacena información para recursos humanos  y sus contratos.</p>
+
+![HCM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-database-diagram.puml)
+
+<h4>iam base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
 
-![IAM Context](../images/IAM-Context.png)
+![IAM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-database-diagram.puml)
 
-<h4>Platform-Profiles Context:</h4>
-<p><strong>Responsabilidad:</strong> Administra los perfiles de todas las personas en el sistema (residentes, empleados, familiares) y la información específica de los residentes.</p>
+<h4>analytics base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Métricas, eventos y datos para análisis.</p>
 
-![IAM Context](../images/Platform-Profiles-Context.png)
+![Analytics Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-database-diagram.puml)
 
-<h4>Employee Context:</h4>
-<p><strong>Responsabilidad:</strong> Almacena información contractual y laboral de los empleados, vinculándolos a un perfil y una residencia.</p>
+<h4>health base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Historiales médicos, evaluaciones y registros clínicos.</p>
 
-![Employee Context](../images/Employee-Context.png)
+![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml)
 
-<h4>Medications Context:</h4>
-<p><strong>Responsabilidad:</strong> Gestión del catálogo de medicamentos, las prescripciones asignadas a residentes y el registro de cada administración.</p>
+<h4>communication base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicaciones internas.</p>
 
-![Medications Context](../images/Medications-Context.png)
+![Communication Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-database-diagram.puml)
 
-<h4>ResidentFamily Context:</h4>
-<p><strong>Responsabilidad:</strong> Define los vínculos entre residentes y sus familiares, especificando el tipo de relación.</p>
+<h4>profiles base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Perfiles, datos personales de las personas y de las empresas.</p>
 
-![ResidentFamily Context](../images/ResidentFamily-Context.png)
+![Profiles Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-database-diagram.puml)
 
-<h4>IAM Context:</h4>
-<p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
+<h4>tracking base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Manejo de data de bandas medicas  y trazabilidad.</p>
 
-![IAM Context](../images/IAM-Context.png)
+![Tracking Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-database-diagram.puml)
 
-<h4>Platform-Appointments Context:</h4>
-<p><strong>Responsabilidad:</strong> Agenda y gestión de citas para los residentes, registrando quiénes asisten (empleados o familiares).</p>
+<h4>payments base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Facturación, pagos y transacciones.</p>
 
-![Platform-Appointments Context](../images/Platform-Appointments-Context.png)
+![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml)
 
-<h4>Shared Context:</h4>
-<p><strong>Responsabilidad:</strong> Contiene entidades transversales como las notificaciones, que pueden ser generadas desde cualquier otro contexto y dirigidas a un usuario.</p>
+<h4>activities base de datos:</h4>
+<p><strong>Responsabilidad:</strong> Actividades, horarios y participación.</p>
 
-![Shared Context](../images/Shared-Context.png)
+![Activities Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-database-diagram.puml)
 
-<strong>Relaciones clave:</strong> Integración flexible entre usuarios, perfiles, residentes, familiares y empleados; trazabilidad para médicos, medicamentos, citas, notificaciones y administración de entidades residenciales.</li>
-</ul>
+
+
