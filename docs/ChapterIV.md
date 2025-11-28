@@ -701,67 +701,64 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 #### Diagrama de clases frontend
 
 #### Diagrama de backend completo:
-![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml)
+![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml&v=1)
 
 <h3><strong>Diagrama de backend dividido por contextos:</strong></h3>
 
 <h4>nursing backend:</h4>
 <p><strong>Responsabilidad:</strong> Lógica de hogares, habitaciones, asignaciones y servicios de cuidado.</p>
 
-![Nursing Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-backend-diagram.puml)
+![Nursing Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-backend-diagram.puml&v=1)
 
 <h4>hcm backend:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de personal, contratos, turnos y organización interna.</p>
 
-![HCM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-backend-diagram.puml)
+![HCM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-backend-diagram.puml&v=1)
 
 <h4>iam backend:</h4>
 <p><strong>Responsabilidad:</strong> Usuarios, autenticación, roles y permisos.</p>
 
-![IAM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-backend-diagram.puml)
+![IAM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-backend-diagram.puml&v=1)
 
 <h4>analytics backend:</h4>
 <p><strong>Responsabilidad:</strong> Manejo de métricas, auditoría y análisis de eventos.</p>
 
-![Analytics Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-backend-diagram.puml)
+![Analytics Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-backend-diagram.puml&v=1)
 
 <h4>health backend:</h4>
 <p><strong>Responsabilidad:</strong> Evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
-![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml)
+![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml&v=1)
 
 <h4>communication backend:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicación interna del sistema.</p>
 
-![Communication Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-backend-diagram.puml)
+![Communication Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-backend-diagram.puml&v=1)
 
 <h4>profiles backend:</h4>
 <p><strong>Responsabilidad:</strong> Perfiles personales, empresariales y datos asociados.</p>
 
-![Profiles Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-backend-diagram.puml)
+![Profiles Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-backend-diagram.puml&v=1)
 
 <h4>tracking backend:</h4>
 <p><strong>Responsabilidad:</strong> Bandas médicas, sensores y trazabilidad de residentes.</p>
 
-![Tracking Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-backend-diagram.puml)
+![Tracking Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-backend-diagram.puml&v=1)
 
 <h4>payments backend:</h4>
 <p><strong>Responsabilidad:</strong> Pagos, facturación, transacciones y conciliaciones.</p>
 
-![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml)
+![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml&v=1)
 
 <h4>activities backend:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, programación, horarios y participación de residentes.</p>
 
-![Activities Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-backend-diagram.puml)
+![Activities Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-backend-diagram.puml&v=1)
 
 <h4>shared backend:</h4>
 <p><strong>Responsabilidad:</strong> Componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
-![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml)
-
-
-
+![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml&v=1)
 
 
 ## 4.8. Database Design
@@ -769,59 +766,59 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ### 4.8.1. Database Diagrams
 
 #### Diagrama de base de datos completo:
-![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml)
+![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml&v=1)
 
 <h3><strong>Diagrama de base de datos dividido por contextos:</strong></h3>
 
 <h4>nursing base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de hogares, habitaciones y asignaciones.</p>
 
-![Nursing Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-database-diagram.puml)
+![Nursing Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-database-diagram.puml&v=1)
 
 <h4>hcm base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Almacena información para recursos humanos  y sus contratos.</p>
 
-![HCM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-database-diagram.puml)
+![HCM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-database-diagram.puml&v=1)
 
 <h4>iam base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
 
-![IAM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-database-diagram.puml)
+![IAM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-database-diagram.puml&v=1)
 
 <h4>analytics base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Métricas, eventos y datos para análisis.</p>
 
-![Analytics Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-database-diagram.puml)
+![Analytics Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-database-diagram.puml&v=1)
 
 <h4>health base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Historiales médicos, evaluaciones y registros clínicos.</p>
 
-![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml)
+![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml&v=1)
 
 <h4>communication base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicaciones internas.</p>
 
-![Communication Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-database-diagram.puml)
+![Communication Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-database-diagram.puml&v=1)
 
 <h4>profiles base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Perfiles, datos personales de las personas y de las empresas.</p>
 
-![Profiles Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-database-diagram.puml)
+![Profiles Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-database-diagram.puml&v=1)
 
 <h4>tracking base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Manejo de data de bandas medicas  y trazabilidad.</p>
 
-![Tracking Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-database-diagram.puml)
+![Tracking Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-database-diagram.puml&v=1)
 
 <h4>payments base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Facturación, pagos y transacciones.</p>
 
-![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml)
+![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&v=1)
 
 <h4>activities base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, horarios y participación.</p>
 
-![Activities Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-database-diagram.puml)
+![Activities Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-database-diagram.puml&v=1)
 
 
 
