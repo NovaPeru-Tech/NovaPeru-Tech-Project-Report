@@ -698,12 +698,74 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 ### 4.7.1. Class Diagrams
 
-#### Diagrama de clases frontend
+### Diagrama de clases del frontend
 
-#### Diagrama de backend completo:
+### Diagrama del frontend completo:
+![Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h3><strong>Diagrama del frontend dividido por contextos:</strong></h3>
+
+<h4>nursing frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de hogares, habitaciones, asignaciones y servicios de cuidado. </p>
+
+![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>hcm frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de la gestión de personal, contratos, turnos y organización interna.</p>
+
+![HCM Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>iam frontend:</h4>
+<p><strong>Responsabilidad:</strong>Maneja las vistas de Usuarios, autenticación, roles y permisos.</p>
+
+![IAM Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>analytics frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de métricas, auditoría y análisis de eventos.</p>
+
+![Analytics Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>health frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de evaluaciones médicas, historiales clínicos y servicios de salud.</p>
+
+![Health Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>communication frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de notificaciones, mensajes y comunicación interna del sistema.</p>
+
+![Communication Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>profiles frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de perfiles personales, empresariales y datos asociados.</p>
+
+![Profiles Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>tracking frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de bandas médicas, sensores y trazabilidad de residentes.</p>
+
+![Tracking Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>payments frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de pagos, facturación, transacciones y conciliaciones.</p>
+
+![Payments Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>activities frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja las vistas de actividades, programación, horarios y participación de residentes.</p>
+
+![Activities Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+<h4>shared frontend:</h4>
+<p><strong>Responsabilidad:</strong> Maneja los componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
+
+![Shared Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+
+### Diagrama de clases del backend
+
+### Diagrama del backend completo:
 ![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml&v=2)
 
-<h3><strong>Diagrama de backend dividido por contextos:</strong></h3>
+<h3><strong>Diagrama del backend dividido por contextos:</strong></h3>
 
 <h4>nursing backend:</h4>
 <p><strong>Responsabilidad:</strong> Lógica de hogares, habitaciones, asignaciones y servicios de cuidado.</p>
@@ -759,7 +821,6 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <p><strong>Responsabilidad:</strong> Componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
 ![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml&v=1)
-
 
 ## 4.8. Database Design
 
@@ -819,6 +880,3 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <p><strong>Responsabilidad:</strong> Actividades, horarios y participación.</p>
 
 ![Activities Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-database-diagram.puml&v=1)
-
-
-
