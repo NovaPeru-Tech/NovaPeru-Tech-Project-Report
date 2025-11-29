@@ -1202,64 +1202,51 @@ La asignación de roles busca optimizar la ejecución del sprint, favoreciendo l
 Cada líder coordina las tareas relacionadas con su aspecto a través de <strong>Jira Software</strong>, supervisando avances, revisiones de código y validaciones funcionales con sus colaboradores.
 </p>
 
-## 5.2.2.3. Sprint Backlog 2
+### 5.2.2.3. Sprint Backlog 2  
 
-Una sección de Sprint Backlog debe iniciar con una introducción que resuma el **objetivo principal del Sprint** y a continuación presente un *screenshot* del Board para el Sprint en la herramienta de control indicada (por ejemplo, Trello), junto con el URL público del Board. A continuación, debe incluir una tabla donde se especifique los *User Stories* asignados al Sprint, junto con los *Work-items/Tasks* resultantes de la descomposición de los *User Stories* o *Tasks* adicionales que no dependen de un *User Story* en particular (por ejemplo, un task que debe realizarse para satisfacer un constraint general).
-
-El siguiente **Sprint Backlog** presenta las historias de usuario y tareas planificadas para el **Sprint 2**.
+El siguiente Sprint Backlog presenta las historias de usuario y tareas planificadas para el **Sprint 2**, orientado a la implementación del frontend en Angular y Angular Material, la integración con el backend, la mejora de la experiencia de usuario y la consistencia visual de la landing page.  
 
 Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
 
 A continuación, la estructura de la tabla de control de estado para el Sprint:
 
-| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **Id** | **Id** | | | | |
-| **Title** | **Title** | | | | |
-| **US-01** | **T022** | Definir estructura del menú para frontend | 2h | [Asignado] | To-do |
-| **Menú de navegación** | Implementar menú en Angular y Angular Material | 3h | [Asignado] | To-do |
-| | **T023** | Añadir navegación dinámica y pruebas | 2h | [Asignado] | In-Process |
-| | **T024** | | | | |
-| **US-02** | **T025** | Crear componentes para mostrar planes | 3h | [Asignado] | To-do |
-| **Visualización de Planes** | Integrar datos de planes desde backend | 4h | [Asignado] | In-Process |
-| | **T026** | Pruebas funcionales y de UI | 2h | [Asignado] | To-do |
-| | **T027** | | | | |
-| **US-03** | **T028** | Implementar formulario de selección y validación | 3h | [Asignado] | To-do |
-| **Selección de Plan en Landing Page** | Manejar envío y confirmación de plan | 4h | [Asignado] | To-do |
-| | **T029** | Validar interacción usuario y feedback visual | 2h | [Asignado] | To-do |
-| | **T030** | | | | |
-| **US-04** | **T031** | Diseñar componente para mostrar equipo | 2h | [Asignado] | To-do |
-| **Visualización de creadores** | Integrar datos y pruebas | 3h | [Asignado] | To-do |
-| | **T032** | Ajustar estilos para responsividad | 2h | [Asignado] | To-do |
-| | **T033** | | | | |
-| **US-05** | **T034** | Incorporar íconos sociales en header y footer | 2h | [Asignado] | To-do |
-| **Redes sociales** | Configurar enlaces y pruebas | 1h | [Asignado] | To-do |
-| | **T035** | | | | |
-| **US-06** | **T036** | Crear formulario con validación Angular | 2h | [Asignado] | To-do |
-| **Formulario de contacto** | Integrar envío y confirmación | 3h | [Asignado] | To-do |
-| | **T037** | Test de funcionalidad y usabilidad | 2h | [Asignado] | To-do |
-| | **T038** | | | | |
-| **US-07** | **T039** | Añadir selector de idioma en menú | 3h | [Asignado] | To-do |
-| **Cambio de idioma** | Configurar textos traducidos en frontend | 4h | [Asignado] | In-Process |
-| | **T040** | Validar cambio dinámico y pruebas | 2h | [Asignado] | To-do |
-| | **T041** | | | | |
-| **US-40** | **T042** | Asegurar estilo uniforme en todas las páginas | 2h | [Asignado] | To-do |
-| **Menú de navegación consistente** | Ajustar comportamiento de menú en rutas | 2h | [Asignado] | To-do |
-| | **T043** | | | | |
-| **US-41** | **T044** | Aplicar esquema de colores accesible | 2h | [Asignado] | To-do |
-| **Paleta de colores y tipografía** | Configurar tipografía coherente en estilos globales | 2h | [Asignado] | To-do |
-| | **T045** | | | | |
-| **US-42** | **T046** | Crear formularios con validación clara | 3h | [Asignado] | To-do |
-| **Diseño de formularios usables** | Pruebas de usabilidad y accesibilidad | 2h | [Asignado] | To-do |
-| | **T047** | | | | |
-| **US-43** | **T048** | Definir y aplicar patrones UI comunes | 2h | [Asignado] | To-do |
-| **Patrones de diseño coherentes** | Revisar consistencia en todos los componentes | 2h | [Asignado] | To-do |
-| | **T049** | | | | |
-| **US-44** | **T050** | Implementar mensajes de error amigables | 3h | [Asignado] | To-do |
-| **Manejo de errores comprensible** | Pruebas de errores y soluciones claras | 2h | [Asignado] | To-do |
-| | **T051** | | | | |
+| Sprint # | Sprint 2 |   |   |   |   |   |   |
+|---------|----------|---|---|---|---|---|---|
+| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US-01 | Menú de navegación | T022 | Definir estructura del menú para frontend | Definir la estructura del menú de navegación en Angular para la landing page. | 2h | [Asignado] | To-do |
+| US-01 | Menú de navegación | T023 | Implementar menú en Angular y Angular Material | Implementar el menú de navegación utilizando Angular y Angular Material. | 3h | [Asignado] | To-do |
+| US-01 | Menú de navegación | T024 | Añadir navegación dinámica y pruebas | Añadir navegación dinámica entre secciones y ejecutar pruebas básicas del menú. | 2h | [Asignado] | In-Process |
+| US-02 | Visualización de Planes | T025 | Crear componentes para mostrar planes | Crear componentes de Angular para visualizar los planes disponibles. | 3h | [Asignado] | To-do |
+| US-02 | Visualización de Planes | T026 | Integrar datos de planes desde backend | Integrar los datos de planes consumiendo los servicios del backend. | 4h | [Asignado] | In-Process |
+| US-02 | Visualización de Planes | T027 | Pruebas funcionales y de UI | Realizar pruebas funcionales y de interfaz sobre la visualización de planes. | 2h | [Asignado] | To-do |
+| US-03 | Selección de Plan en Landing Page | T028 | Implementar formulario de selección y validación | Implementar el formulario de selección de plan con validaciones en Angular. | 3h | [Asignado] | To-do |
+| US-03 | Selección de Plan en Landing Page | T029 | Manejar envío y confirmación de plan | Implementar la lógica de envío y confirmación del plan seleccionado. | 4h | [Asignado] | To-do |
+| US-03 | Selección de Plan en Landing Page | T030 | Validar interacción usuario y feedback visual | Probar la interacción del usuario y el feedback visual al seleccionar un plan. | 2h | [Asignado] | To-do |
+| US-04 | Visualización de creadores | T031 | Diseñar componente para mostrar equipo | Diseñar el componente para mostrar la información del equipo/creadores. | 2h | [Asignado] | To-do |
+| US-04 | Visualización de creadores | T032 | Integrar datos y pruebas | Integrar datos del equipo y realizar pruebas de visualización. | 3h | [Asignado] | To-do |
+| US-04 | Visualización de creadores | T033 | Ajustar estilos para responsividad | Ajustar estilos para asegurar que la sección del equipo sea responsive. | 2h | [Asignado] | To-do |
+| US-05 | Redes sociales | T034 | Incorporar íconos sociales en header y footer | Incorporar íconos de redes sociales en el header y footer de la landing page. | 2h | [Asignado] | To-do |
+| US-05 | Redes sociales | T035 | Configurar enlaces y pruebas | Configurar los enlaces a redes sociales y realizar pruebas de navegación. | 1h | [Asignado] | To-do |
+| US-06 | Formulario de contacto | T036 | Crear formulario con validación Angular | Crear el formulario de contacto con validaciones en Angular. | 2h | [Asignado] | To-do |
+| US-06 | Formulario de contacto | T037 | Integrar envío y confirmación | Integrar el envío de datos y mensajes de confirmación del formulario. | 3h | [Asignado] | To-do |
+| US-06 | Formulario de contacto | T038 | Test de funcionalidad y usabilidad | Realizar pruebas de funcionamiento y usabilidad del formulario de contacto. | 2h | [Asignado] | To-do |
+| US-07 | Cambio de idioma | T039 | Añadir selector de idioma en menú | Añadir un selector de idioma en el menú principal. | 3h | [Asignado] | To-do |
+| US-07 | Cambio de idioma | T040 | Configurar textos traducidos en frontend | Configurar y gestionar los textos traducidos en el frontend. | 4h | [Asignado] | In-Process |
+| US-07 | Cambio de idioma | T041 | Validar cambio dinámico y pruebas | Probar el cambio dinámico de idioma y validar su comportamiento. | 2h | [Asignado] | To-do |
+| US-40 | Menú de navegación consistente | T042 | Asegurar estilo uniforme en todas las páginas | Asegurar que el menú mantenga un estilo uniforme en todas las páginas. | 2h | [Asignado] | To-do |
+| US-40 | Menú de navegación consistente | T043 | Ajustar comportamiento de menú en rutas | Ajustar el comportamiento del menú al navegar entre diferentes rutas. | 2h | [Asignado] | To-do |
+| US-41 | Paleta de colores y tipografía | T044 | Aplicar esquema de colores accesible | Aplicar un esquema de colores accesible conforme a buenas prácticas de UX. | 2h | [Asignado] | To-do |
+| US-41 | Paleta de colores y tipografía | T045 | Configurar tipografía coherente en estilos globales | Configurar tipografías coherentes en los estilos globales del proyecto. | 2h | [Asignado] | To-do |
+| US-42 | Diseño de formularios usables | T046 | Crear formularios con validación clara | Diseñar formularios con validación clara y mensajes comprensibles. | 3h | [Asignado] | To-do |
+| US-42 | Diseño de formularios usables | T047 | Pruebas de usabilidad y accesibilidad | Realizar pruebas de usabilidad y accesibilidad en los formularios. | 2h | [Asignado] | To-do |
+| US-43 | Patrones de diseño coherentes | T048 | Definir y aplicar patrones UI comunes | Definir y aplicar patrones de interfaz reutilizables en el frontend. | 2h | [Asignado] | To-do |
+| US-43 | Patrones de diseño coherentes | T049 | Revisar consistencia en todos los componentes | Revisar la consistencia visual y de interacción en todos los componentes. | 2h | [Asignado] | To-do |
+| US-44 | Manejo de errores comprensible | T050 | Implementar mensajes de error amigables | Implementar mensajes de error claros y amigables para el usuario. | 3h | [Asignado] | To-do |
+| US-44 | Manejo de errores comprensible | T051 | Pruebas de errores y soluciones claras | Probar escenarios de error y validar que las soluciones mostradas sean claras. | 2h | [Asignado] | To-do |
 
-El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (*To-do*, *In-Process*, *To-Review*, *Done*). Durante las reuniones diarias (*Daily Scrum*), el equipo actualiza el progreso y revisa bloqueos para garantizar el cumplimiento de la *velocity* planificada de 16 Story Points.
+El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (**To-do, In-Process, To-Review, Done**). Durante las reuniones diarias (**Daily Scrum**), el equipo actualiza el progreso y revisa posibles bloqueos para garantizar el cumplimiento.
+
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
