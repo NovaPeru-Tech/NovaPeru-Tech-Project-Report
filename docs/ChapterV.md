@@ -1700,77 +1700,43 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   con especialización, mientras se mantiene la flexibilidad para que todos colaboren según sea necesario.
 </p>
 
-#### 5.2.3.3. Sprint Backlog 3
+### 5.2.3.3. Sprint Backlog 3  
 
-<p>
-  El Sprint Backlog 3 incluye las historias de usuario y tareas planificadas para el despliegue del 
-  frontend en Vercel y la implementación del backend en Azure App Service, con énfasis en autenticación 
-  y operaciones CRUD.
-</p>
+El Sprint Backlog 3 incluye las historias de usuario y tareas planificadas para el despliegue del frontend en **Vercel** y del backend en **Azure App Service**, con énfasis en la implementación de operaciones **CRUD** y el sistema de autenticación (login/registro).
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th>User Story</th>
-      <th>Work Item / Task</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US-015<br><strong>Despliegue Frontend en Vercel</strong></td>
-      <td>
-        <strong>T043</strong> Configurar proyecto en Vercel (2h) — Done<br>
-        <strong>T044</strong> Configurar build pipeline (2h) — Done<br>
-        <strong>T045</strong> Validar despliegue y DNS (1h) — Done
-      </td>
-    </tr>
-    <tr>
-      <td>US-016<br><strong>Implementación Backend CRUD - Residentes</strong></td>
-      <td>
-        <strong>T046</strong> Crear Entity y Repository (3h) — Done<br>
-        <strong>T047</strong> Implementar Service layer (3h) — Done<br>
-        <strong>T048</strong> Crear Controller y endpoints (3h) — Done<br>
-        <strong>T049</strong> Pruebas unitarias (2h) — Done
-      </td>
-    </tr>
-    <tr>
-      <td>US-017<br><strong>Implementación Backend CRUD - Medicamentos</strong></td>
-      <td>
-        <strong>T050</strong> Crear Entity y Repository (3h) — Done<br>
-        <strong>T051</strong> Implementar Service layer (3h) — Done<br>
-        <strong>T052</strong> Crear Controller y endpoints (3h) — Done<br>
-        <strong>T053</strong> Pruebas unitarias (2h) — Done
-      </td>
-    </tr>
-    <tr>
-      <td>US-018<br><strong>Implementación Backend CRUD - Empleados</strong></td>
-      <td>
-        <strong>T054</strong> Crear Entity y Repository (3h) — Done<br>
-        <strong>T055</strong> Implementar Service layer (3h) — Done<br>
-        <strong>T056</strong> Crear Controller y endpoints (3h) — Done<br>
-        <strong>T057</strong> Pruebas unitarias (2h) — Done
-      </td>
-    </tr>
-    <tr>
-      <td>US-019<br><strong>Sistema de Autenticación (Login/Registro)</strong></td>
-      <td>
-        <strong>T058</strong> Implementar JWT generation (3h) — Done<br>
-        <strong>T059</strong> Crear endpoint de registro (3h) — Done<br>
-        <strong>T060</strong> Crear endpoint de login (3h) — Done<br>
-        <strong>T061</strong> Configurar Spring Security (2h) — Done
-      </td>
-    </tr>
-    <tr>
-      <td>US-020<br><strong>Despliegue Backend en Azure App Service</strong></td>
-      <td>
-        <strong>T062</strong> Crear Azure App Service (2h) — Done<br>
-        <strong>T063</strong> Configurar Azure SQL Database (2h) — Done<br>
-        <strong>T064</strong> Configurar variables de entorno (1h) — Done<br>
-        <strong>T065</strong> Validar despliegue y acceso (1h) — Done
-      </td>
-    </tr>
-  </tbody>
-</table>
+Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+
+A continuación, la tabla de control de estado para el Sprint 3:
+
+| Sprint # | Sprint 3 |   |   |   |   |   |   |
+|---------|----------|---|---|---|---|---|---|
+| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US-015 | Despliegue Frontend en Vercel | T043 | Configurar proyecto en Vercel | Configurar el proyecto del frontend en la plataforma Vercel. | 2h | [Asignado] | Done |
+| US-015 | Despliegue Frontend en Vercel | T044 | Configurar build pipeline | Configurar el pipeline de build y despliegue automático en Vercel. | 2h | [Asignado] | Done |
+| US-015 | Despliegue Frontend en Vercel | T045 | Validar despliegue y DNS | Validar el despliegue del frontend, dominio y configuración DNS. | 1h | [Asignado] | Done |
+| US-016 | Implementación Backend CRUD - Residentes | T046 | Crear Entity y Repository | Crear la entidad y el repositorio para la gestión de residentes. | 3h | [Asignado] | Done |
+| US-016 | Implementación Backend CRUD - Residentes | T047 | Implementar Service layer | Implementar la capa de servicios para operaciones CRUD de residentes. | 3h | [Asignado] | Done |
+| US-016 | Implementación Backend CRUD - Residentes | T048 | Crear Controller y endpoints | Crear el controlador y endpoints REST para residentes. | 3h | [Asignado] | Done |
+| US-016 | Implementación Backend CRUD - Residentes | T049 | Pruebas unitarias | Desarrollar y ejecutar pruebas unitarias para los endpoints de residentes. | 2h | [Asignado] | Done |
+| US-017 | Implementación Backend CRUD - Medicamentos | T050 | Crear Entity y Repository | Crear la entidad y el repositorio para la gestión de medicamentos. | 3h | [Asignado] | Done |
+| US-017 | Implementación Backend CRUD - Medicamentos | T051 | Implementar Service layer | Implementar la capa de servicios para operaciones CRUD de medicamentos. | 3h | [Asignado] | Done |
+| US-017 | Implementación Backend CRUD - Medicamentos | T052 | Crear Controller y endpoints | Crear el controlador y endpoints REST para medicamentos. | 3h | [Asignado] | Done |
+| US-017 | Implementación Backend CRUD - Medicamentos | T053 | Pruebas unitarias | Desarrollar y ejecutar pruebas unitarias para los endpoints de medicamentos. | 2h | [Asignado] | Done |
+| US-018 | Implementación Backend CRUD - Empleados | T054 | Crear Entity y Repository | Crear la entidad y el repositorio para la gestión de empleados. | 3h | [Asignado] | Done |
+| US-018 | Implementación Backend CRUD - Empleados | T055 | Implementar Service layer | Implementar la capa de servicios para operaciones CRUD de empleados. | 3h | [Asignado] | Done |
+| US-018 | Implementación Backend CRUD - Empleados | T056 | Crear Controller y endpoints | Crear el controlador y endpoints REST para empleados. | 3h | [Asignado] | Done |
+| US-018 | Implementación Backend CRUD - Empleados | T057 | Pruebas unitarias | Desarrollar y ejecutar pruebas unitarias para los endpoints de empleados. | 2h | [Asignado] | Done |
+| US-019 | Sistema de Autenticación (Login/Registro) | T058 | Implementar generación de JWT | Implementar la generación y validación de tokens JWT para autenticación. | 3h | [Asignado] | Done |
+| US-019 | Sistema de Autenticación (Login/Registro) | T059 | Crear endpoint de registro | Crear el endpoint para registro de usuarios. | 3h | [Asignado] | Done |
+| US-019 | Sistema de Autenticación (Login/Registro) | T060 | Crear endpoint de login | Crear el endpoint para inicio de sesión de usuarios. | 3h | [Asignado] | Done |
+| US-019 | Sistema de Autenticación (Login/Registro) | T061 | Configurar Spring Security | Configurar Spring Security para proteger los endpoints del backend. | 2h | [Asignado] | Done |
+| US-020 | Despliegue Backend en Azure App Service | T062 | Crear Azure App Service | Crear el recurso de Azure App Service para el backend. | 2h | [Asignado] | Done |
+| US-020 | Despliegue Backend en Azure App Service | T063 | Configurar Azure SQL Database | Configurar la base de datos Azure SQL para la aplicación. | 2h | [Asignado] | Done |
+| US-020 | Despliegue Backend en Azure App Service | T064 | Configurar variables de entorno | Configurar variables de entorno y cadenas de conexión en Azure. | 1h | [Asignado] | Done |
+| US-020 | Despliegue Backend en Azure App Service | T065 | Validar despliegue y acceso | Validar el despliegue del backend y el acceso a los servicios. | 1h | [Asignado] | Done |
+
+El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (**To-do, In-Process, To-Review, Done**). Durante las reuniones diarias (**Daily Scrum**), el equipo actualiza el progreso y revisa posibles bloqueos para garantizar el cumplimiento de los objetivos del **Sprint 3**.
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
