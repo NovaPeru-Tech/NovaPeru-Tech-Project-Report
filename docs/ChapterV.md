@@ -2768,11 +2768,11 @@ Conclusiones y recomendaciones
     <tr>
       <td rowspan="2"><strong>Video de Exposición TB1</strong></td>
       <td>YouTube</td>
-      <td><a href="http://bit.ly/4h2grbc">http://bit.ly/4h2grbc</a></td>
+      <td><a href="https://youtu.be/_7f8dKl5zGs">https://youtu.be/_7f8dKl5zGs</a></td>
     </tr>
     <tr>
       <td>Microsoft Stream</td>
-      <td>[Incluir URL de Microsoft Stream]</td>
+      <td><a href="http://bit.ly/4h2grbc">http://bit.ly/4h2grbc</a></td>
     </tr>
     <tr>
       <td rowspan="2"><strong>Video de Exposición TB2</strong></td>
