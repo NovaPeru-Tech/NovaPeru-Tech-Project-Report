@@ -796,12 +796,9 @@ public class ResidentController {
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 1 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-        <em>Our focus is on delivering the first deployed version of VEYRA's Landing Page with all core sections 
-        (Hero, Services, Pricing, About Us, Team, Contact) and bilingual support (Spanish/English).</em><br><br>
-        <em>We believe it delivers a clear and professional introduction to VEYRA for first-time visitors from both 
-        target segments (Nursing Home Administrators and Family Members).</em><br><br>
-        <em>This will be confirmed when users can navigate through all sections in both languages without interface 
-        errors and the page is accessible via GitHub Pages with proper performance metrics.</em>
+<em>Our focus is on delivering the first bilingual marketing Landing Page of VEYRA that clearly communicates the value proposition and service offering to first-time visitors.</em><br><br>
+<em>We believe it delivers a clear and trustworthy first impression for Nursing Home Administrators and Family Members, helping them quickly understand what VEYRA does and how to contact the team.</em><br><br>
+<em>This will be confirmed when users from both segments can navigate through all core sections (Hero, Services, Pricing, About Us, Team, Contact) in Spanish and English and can reach the Contact section in no more than three clicks from the home view.</em>
       </td>
     </tr>
     <tr>
@@ -1139,12 +1136,9 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 2 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-        <em>Our focus is to develop the frontend module for task, member, and group management integrated 
-        with the local backend API.</em><br><br>
-        <em>We believe this will provide a functional and interactive interface that allows users to visualize 
-        and filter project data dynamically.</em><br><br>
-        <em>This will be confirmed when users can access, create, and view task information synchronized with 
-        the backend without display or performance issues.</em>
+<em>Our focus is on enabling administrators to manage tasks, members, and groups from a unified web interface connected to VEYRA’s backend services.</em><br><br>
+<em>We believe it delivers better visibility and coordination of daily activities to Nursing Home Administrators and internal staff, by centralizing operational information in a single place.</em><br><br>
+<em>This will be confirmed when an administrator can create, update, and view tasks linked to members and groups, and filter them by status from the web application, with data persisted and retrieved through the backend API.</em>
       </td>
     </tr>
     <tr>
@@ -1534,7 +1528,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
 </p>
 
-#### 5.2.3.1. Sprint Planning
+#### 5.2.3.1. Sprint Planning 3
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -1599,12 +1593,9 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 3 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-        <em>Our focus is to deploy the VEYRA frontend to a live environment and establish the core data 
-        management capabilities in the backend (Registration, Login, User Data).</em><br><br>
-        <em>We believe this will provide the entire team with a stable environment for integration and testing, 
-        permitiendo a los stakeholders ver el progreso real del proyecto.</em><br><br>
-        <em>This will be confirmed when the live URL is accessible and the backend is capable of managing user 
-        registration and basic entity data (CRUD) en local y desarrollo.</em>
+<em>Our focus is on providing a live VEYRA environment where authenticated users can sign up, log in, and manage core data through the deployed web application.</em><br><br>
+<em>We believe it delivers a realistic and reliable experience to Nursing Home Administrators and Family Members, allowing them to access VEYRA from anywhere and trust that their information is safely stored and available.</em><br><br>
+<em>This will be confirmed when the production URL is publicly accessible and at least one test administrator can register, log in, and perform basic CRUD operations on key entities (for example, residents and tasks) using the deployed frontend connected to the Azure-hosted backend.</em>
       </td>
     </tr>
     <tr>
