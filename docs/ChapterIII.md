@@ -1278,6 +1278,86 @@
                 - <strong>Entonces</strong> la API almacena hashes de los códigos y responde <code>200 OK</code> con instrucciones para guardarlos.
             </td>
         </tr>
+        <tr>
+            <td>EP15</td>
+            <td>Monitoreo IoT y Wearables</td>
+            <td>Como personal médico, quiero que el sistema procese la información de las bandas médicas y la compare con los registros de salud para detectar inestabilidades automáticamente.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US45</td>
+            <td>Vinculación de banda de monitoreo</td>
+            <td>Como enfermero quiero vincular una banda médica al perfil de un residente para asegurar que los datos de signos vitales recolectados correspondan al paciente correcto.</td>
+            <td>
+                <strong>Escenario 1: Vinculación de dispositivo disponible</strong><br>
+                <strong>Dado que</strong> la banda médica está activa y sin asignación previa<br>
+                <strong>Cuando</strong> el enfermero asocia el identificador de la banda al perfil del residente<br>
+                <strong>Entonces</strong> el sistema confirma la vinculación y habilita la recepción de datos para ese paciente.<br><br>
+                <strong>Escenario 2: Banda ya asignada</strong><br>
+                <strong>Dado que</strong> se intenta vincular una banda que ya pertenece a otro residente<br>
+                <strong>Cuando</strong> el sistema verifica el estado del dispositivo<br>
+                <strong>Entonces</strong> se rechaza la operación informando el conflicto de asignación.
+            </td>
+        </tr>
+        <tr>
+            <td>US46</td>
+            <td>Validación de estabilidad de signos vitales</td>
+            <td>Como médico quiero que el sistema compare continuamente los datos de las bandas contra los parámetros de salud registrados ("health") para determinar si el residente se encuentra estable.</td>
+            <td>
+                <strong>Escenario 1: Signos vitales estables</strong><br>
+                <strong>Dado que</strong> el sistema recibe datos de la banda médica<br>
+                <strong>Cuando</strong> los valores recibidos coinciden con los rangos de salud registrados en el perfil del paciente<br>
+                <strong>Entonces</strong> el sistema registra el estado como "estable" sin generar incidencias.<br><br>
+                <strong>Escenario 2: Detección de inestabilidad</strong><br>
+                <strong>Dado que</strong> se reciben datos de signos vitales<br>
+                <strong>Cuando</strong> los valores difieren significativamente de los parámetros de salud registrados<br>
+                <strong>Entonces</strong> el sistema marca el registro como "inestable" e inicia el protocolo de notificación.
+            </td>
+        </tr>
+        <tr>
+            <td>US47</td>
+            <td>Alertas de inestabilidad de salud</td>
+            <td>Como enfermero quiero recibir una alerta inmediata cuando la comparación de datos indique inestabilidad en un residente para acudir a brindarle atención.</td>
+            <td>
+                <strong>Escenario 1: Notificación de inestabilidad confirmada</strong><br>
+                <strong>Dado que</strong> el sistema ha detectado inestabilidad al comparar los datos<br>
+                <strong>Cuando</strong> se confirma la desviación de los parámetros de salud<br>
+                <strong>Entonces</strong> se envía una alerta prioritaria al personal asignado indicando el residente y el valor crítico.<br><br>
+                <strong>Escenario 2: Ausencia de datos críticos</strong><br>
+                <strong>Dado que</strong> la comparación de datos resulta en valores estables<br>
+                <strong>Cuando</strong> el sistema finaliza el análisis<br>
+                <strong>Entonces</strong> no se emite ninguna alerta, manteniendo el flujo operativo normal.
+            </td>
+        </tr>
+        <tr>
+            <td>TS-IOT01</td>
+            <td>Ingesta de Datos de Bandas Médicas</td>
+            <td>Como desarrollador backend quiero implementar un endpoint para recibir la telemetría de las bandas médicas y persistirla para su posterior análisis.</td>
+            <td>
+                <strong>Escenario: Recepción de paquete de datos</strong><br>
+                - <strong>Dado</strong> que la banda envía un <code>POST /api/v1/iot/telemetry</code> con <code>{bandId, vitalsData, timestamp}</code><br>
+                - <strong>Cuando</strong> la API valida que la banda está vinculada a un residente activo<br>
+                - <strong>Entonces</strong> la API responde con <code>202 Accepted</code> y almacena los datos crudos.<br><br>
+                <strong>Escenario: Banda no reconocida</strong><br>
+                - <strong>Dado</strong> que llega información de un <code>bandId</code> no registrado<br>
+                - <strong>Entonces</strong> la API responde con <code>404 Not Found</code> o <code>403 Forbidden</code>.
+            </td>
+        </tr>
+        <tr>
+            <td>TS-IOT02</td>
+            <td>Servicio de Comparación de Salud (Health Check)</td>
+            <td>Como desarrollador backend quiero implementar un servicio que compare los datos entrantes contra los registros de salud ("Health Records") del residente para disparar eventos de alerta si hay discrepancias.</td>
+            <td>
+                <strong>Escenario: Comparación detecta inestabilidad</strong><br>
+                - <strong>Dado</strong> que ingresan nuevos signos vitales para un residente<br>
+                - <strong>Cuando</strong> el servicio recupera los rangos de salud configurados para ese residente específico y detecta que los nuevos datos están fuera de rango<br>
+                - <strong>Entonces</strong> el sistema genera un evento de dominio <code>PatientUnstableEvent</code> y dispara el servicio de notificaciones.<br><br>
+                <strong>Escenario: Datos dentro de rango (Estable)</strong><br>
+                - <strong>Dado</strong> que los datos entrantes están dentro de los límites configurados en el registro de salud<br>
+                - <strong>Cuando</strong> el servicio realiza la comparación<br>
+                - <strong>Entonces</strong> el sistema finaliza el proceso sin disparar eventos de alerta.
+            </td>
+        </tr>
     </table>
 
 
