@@ -2243,158 +2243,134 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   de exportación de datos en múltiples formatos.
 </p>
 
-### 5.3.3. Evaluaciones según Heurísticas
-
+### 5.3.3. Evaluaciones según heurísticas.
 
 <div align='center'>
-    <h2>UX Heuristics & Principles Evaluation</h2>
-    <h3>Usability – Inclusive Design – Information Architecture</h3>
+    <h2>UX Heuristics & Principles Evaluation</h2>
+    <h3>Usability – Inclusive Design – Information Architecture</h3>
 </div>
 
 <p><strong>CARRERA:</strong> Ingeniería de Software</p>
-<p><strong>CURSO: Desarrollo de Aplicaciones Open Source </strong> </p>
+<p><strong>CURSO:</strong> Desarrollo de Aplicaciones Open Source</p>
 <p><strong>NRC:</strong> 7338</p>
-<p><strong>PROFESOR: Angel Augusto Velasquez Nuñez</strong> </p>
-<p><strong>AUDITOR: El equipo de Veyra</strong> </p>
-<p><strong>CLIENTE(S):</strong> [Información del Cliente]</p>
+<p><strong>PROFESOR:</strong> Ángel Augusto Velasquez Nuñez</p>
+<p><strong>AUDITOR:</strong> El equipo de Veyra</p>
+<p><strong>CLIENTE(S):</strong> Administradores de Casas de Reposo y Familiares</p>
 
 <br>
 
 <strong>TAREAS A EVALUAR:</strong>
 <p>El alcance de esta evaluación incluye la revisión de las siguientes tareas:</p>
-
- - Revisión de la consistencia de lenguaje (Inglés/Español)
-   
- - Validación de los flujos de registro y acceso
-   
- - Comprobar si el diseño transmite confianza y profesionalismo
-   
- - Validar si la información presentada resulta atractiva y relevante para posibles usuarios
-   
- - Evaluar la gestión de errores en vistas de tabla
-   
- - Revisión de la usabilidad de formularios de inventario
-   
- - Evaluación de la carga de información crítica (habitaciones)
-   
- - Revisión de la claridad de los botones de acción (CTAs)
- 
-<br>
-
-
-<p>No están incluidas en esta versión de la evaluación las siguientes tareas:</p>
-
-  - Pruebas de estrés y rendimiento.
-  
-  - Revisión de código fuente.
-  
-  - Análisis de seguridad.
-  
-  - Evaluación de accesibilidad para usuarios con discapacidades visuales.
-  
-  - Test A/B de diseño.
-  
-  - Análisis de <em>feedback</em> de usuarios reales.
+<ul>
+  <li>Revisión de la consistencia de lenguaje (Inglés/Español)</li>
+  <li>Validación de los flujos de registro y acceso</li>
+  <li>Comprobar si el diseño transmite confianza y profesionalismo</li>
+  <li>Validar si la información presentada resulta atractiva y relevante</li>
+  <li>Evaluar la gestión de errores en vistas de tabla</li>
+  <li>Revisión de la usabilidad de formularios de inventario</li>
+  <li>Evaluación de la carga de información crítica (habitaciones)</li>
+  <li>Revisión de la claridad de los botones de acción (CTAs)</li>
+</ul>
 
 <br>
 
 <strong>ESCALA DE SEVERIDAD:</strong>
-<p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad</p>
+<p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:</p>
 
 <table>
-    <tr>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
-    </tr>
+    <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
 </table>
 
-<h4>Resumen de Problemas Encontrados</h4>
+<strong>TABLA RESUMEN:</strong>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
-      <th>Heurística</th>
+      <th>#</th>
       <th>Problema</th>
-      <th>Severidad</th>
-      <th>Frecuencia</th>
+      <th>Escala de severidad</th>
+      <th>Heurística/Principio violada(o)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1. Visibilidad del estado del sistema</td>
-      <td>Los mensajes de confirmación de carga no siempre aparecen</td>
-      <td>2 - Minor</td>
-      <td>3 usuarios</td>
+      <td>1</td>
+      <td>Los mensajes de confirmación de carga no siempre aparecen, dejando al usuario con duda sobre si la acción se completó.</td>
+      <td>2</td>
+      <td>Usability: Visibility of system status</td>
     </tr>
     <tr>
-      <td>2. Coincidencia entre sistema y mundo real</td>
-      <td>Jerga técnica en la sección de reportes confunde a algunos usuarios</td>
-      <td>2 - Minor</td>
-      <td>2 usuarios</td>
+      <td>2</td>
+      <td>Jerga técnica en la sección de reportes ("Fetch entities", "Null Pointer") confunde a los usuarios administradores sin perfil técnico.</td>
+      <td>2</td>
+      <td>Usability: Match between system and the real world</td>
     </tr>
     <tr>
-      <td>3. Control y libertad del usuario</td>
-      <td>No hay opción de deshacer cambios en medicamentos registrados</td>
-      <td>3 - Major</td>
-      <td>2 usuarios</td>
+      <td>3</td>
+      <td>No hay opción de deshacer cambios inmediatamente después de registrar un medicamento erróneo en el inventario.</td>
+      <td>3</td>
+      <td>Usability: User control and freedom</td>
     </tr>
     <tr>
-      <td>4. Estándares y consistencia</td>
-      <td>Iconografía inconsistente entre secciones</td>
-      <td>1 - Cosmetic</td>
-      <td>4 usuarios</td>
+      <td>4</td>
+      <td>Iconografía inconsistente entre la sección de "Residentes" y "Personal" para acciones similares (editar/borrar).</td>
+      <td>1</td>
+      <td>Usability: Consistency and standards</td>
     </tr>
     <tr>
-      <td>5. Prevención de errores</td>
-      <td>No hay confirmación al eliminar un residente</td>
-      <td>3 - Major</td>
-      <td>3 usuarios</td>
+      <td>5</td>
+      <td>No hay una ventana de confirmación (modal) al presionar el botón de eliminar un perfil de residente, lo que puede causar pérdida de datos accidental.</td>
+      <td>3</td>
+      <td>Usability: Error prevention</td>
     </tr>
     <tr>
-      <td>6. Reconocimiento vs. Recall</td>
-      <td>Menú desplegable tiene muchas opciones sin agrupar</td>
-      <td>2 - Minor</td>
-      <td>2 usuarios</td>
+      <td>6</td>
+      <td>El menú desplegable de "Tipos de Medicamentos" tiene muchas opciones sin agrupar, obligando al usuario a recordar nombres exactos en lugar de reconocer categorías.</td>
+      <td>2</td>
+      <td>Usability: Recognition rather than recall</td>
     </tr>
     <tr>
-      <td>7. Flexibilidad y eficiencia</td>
-      <td>No hay atajos de teclado para acciones frecuentes</td>
-      <td>2 - Minor</td>
-      <td>1 usuario</td>
+      <td>7</td>
+      <td>No existen atajos de teclado para acciones frecuentes como "Guardar" o "Nuevo Registro", reduciendo la eficiencia para usuarios expertos.</td>
+      <td>2</td>
+      <td>Usability: Flexibility and efficiency of use</td>
     </tr>
     <tr>
-      <td>8. Diseño estético y minimalista</td>
-      <td>Demasiada información en la vista principal del dashboard</td>
-      <td>2 - Minor</td>
-      <td>3 usuarios</td>
+      <td>8</td>
+      <td>Demasiada información y columnas irrelevantes en la vista principal del dashboard dificultan la lectura rápida de métricas clave.</td>
+      <td>2</td>
+      <td>Usability: Aesthetic and minimalist design</td>
     </tr>
     <tr>
-      <td>9. Ayuda y documentación</td>
-      <td>Falta documentación en pantalla para características complejas</td>
-      <td>3 - Major</td>
-      <td>4 usuarios</td>
+      <td>9</td>
+      <td>Falta documentación en pantalla (tooltips) para explicar campos complejos como "Dosificación por intervalo".</td>
+      <td>3</td>
+      <td>Usability: Help and documentation</td>
     </tr>
     <tr>
-      <td>10. Recuperación de errores</td>
-      <td>Los mensajes de error no sugieren soluciones</td>
-      <td>2 - Minor</td>
-      <td>2 usuarios</td>
+      <td>10</td>
+      <td>Los mensajes de error en el login (ej: "Error 401") no sugieren si el problema fue la contraseña o el usuario, impidiendo la recuperación rápida.</td>
+      <td>2</td>
+      <td>Usability: Help users recognize, diagnose, and recover from errors</td>
     </tr>
   </tbody>
 </table>
