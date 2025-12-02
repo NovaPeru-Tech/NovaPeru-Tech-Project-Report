@@ -2558,7 +2558,46 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 ## Conclusiones
 
-Conclusiones y recomendaciones
+### Conclusiones y recomendaciones
+
+<p>
+  Al finalizar el ciclo de desarrollo y validación de la solución <strong>Veyra</strong>, el equipo ha llegado a las siguientes conclusiones, contrastando los resultados obtenidos con los planteamientos iniciales del proceso Lean UX:
+</p>
+
+<p><strong>1. Validación de Problem Statements y Supuestos (Assumptions):</strong></p>
+<p>
+  Inicialmente, se estableció como <em>Problem Statement</em> que los administradores de casas de reposo sufrían de ineficiencia operativa debido a la gestión manual. Tras las pruebas de validación, se confirmó que la digitalización de expedientes y el control de inventarios reducen significativamente la carga administrativa, validando nuestra suposición de que el mercado objetivo está dispuesto a migrar a soluciones digitales si estas son intuitivas. Sin embargo, el supuesto sobre la baja alfabetización digital de los familiares fue desafiado; las entrevistas demostraron que este segmento demanda una alta interactividad y notificaciones en tiempo real, lo que nos obligó a priorizar la experiencia móvil.
+</p>
+
+<p><strong>2. Contrastación de Hipótesis (Hypothesis Statements):</strong></p>
+<ul>
+  <li>
+    <strong>Hipótesis de Valor para Administradores:</strong> Se planteó que "Si proporcionamos un dashboard centralizado, los administradores podrán reducir errores de medicación". Los resultados del Sprint 3 y las pruebas de usabilidad confirmaron esta hipótesis, ya que las alertas de inventario y horarios fueron las funcionalidades mejor valoradas.
+  </li>
+  <li>
+    <strong>Hipótesis de Valor para Familiares:</strong> Creíamos que "El acceso a un reporte semanal aumentaría la confianza". La validación indicó que el reporte semanal es insuficiente; los usuarios requieren actualizaciones diarias o en tiempo real (IoT), lo que valida la necesidad de integrar las bandas de monitoreo como característica <em>core</em> y no opcional.
+  </li>
+</ul>
+
+<p><strong>3. Cumplimiento de Criterios de Éxito:</strong></p>
+<p>
+  Se logró desplegar la solución en un entorno productivo (Azure y Vercel) cumpliendo con los criterios de aceptación técnicos. Sin embargo, las métricas de éxito relacionadas con la "Autonomía del usuario" mostraron que ciertas funciones avanzadas (como la configuración de alertas IoT) requieren una curva de aprendizaje mayor a la esperada, sugiriendo la necesidad de mejorar el <em>onboarding</em>.
+</p>
+
+<p><strong>Recomendaciones (Roadmap):</strong></p>
+<p>
+  Basados en los hallazgos y limitaciones actuales, se recomienda para las siguientes etapas del proyecto:
+</p>
+<ul>
+  <li>
+    <strong>Implementación de Facturación Electrónica:</strong> Durante las entrevistas, el 60% de los administradores solicitó la integración con SUNAT para emitir comprobantes directamente desde la plataforma.
+  </li>
+  <li>
+    <strong>Desarrollo de Aplicación Nativa Móvil:</strong> Dado el alto uso de dispositivos móviles por parte de los familiares, se recomienda migrar el módulo de familiares a una app nativa (React Native/Flutter) para mejorar la gestión de notificaciones push.
+  </li>
+  <li>
+    <strong>Refinamiento del Módulo IoT:</strong> Ampliar la compatibilidad de las bandas de monitoreo para incluir dispositivos de terceros genéricos, reduciendo la barrera de entrada de hardware para las casas de reposo.
+  </li>
 
 
 
