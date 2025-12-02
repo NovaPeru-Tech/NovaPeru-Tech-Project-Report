@@ -2775,13 +2775,13 @@ Conclusiones y recomendaciones
       <td><a href="http://bit.ly/4h2grbc">http://bit.ly/4h2grbc</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video de Exposición TB2</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TP</strong></td>
       <td>YouTube</td>
-      <td>[Incluir URL de YouTube TB2]</td>
+      <td><a href="https://youtu.be/_7f8dKl5zGs">https://youtu.be/_7f8dKl5zGs</a></td>
     </tr>
     <tr>
       <td>Microsoft Stream</td>
-      <td>[Incluir URL de Microsoft Stream]</td>
+      <td><a href="https://shorturl.at/UfvsR">https://shorturl.at/UfvsR</a></td>
     </tr>
     <tr>
       <td rowspan="2"><strong>Video About the Product</strong></td>
