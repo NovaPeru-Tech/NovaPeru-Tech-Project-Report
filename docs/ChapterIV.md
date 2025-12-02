@@ -708,7 +708,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <h4>nursing frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de hogares, habitaciones, asignaciones y servicios de cuidado. </p>
 
-![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/nursing/nursing-frontend-diagram.puml)
+![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/nursing/nursing-frontend-diagram.puml&fmt=svg)
 
 <h4>hcm frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de la gestión de personal, contratos, turnos y organización interna.</p>
