@@ -701,64 +701,64 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ### Diagrama de clases del frontend
 
 ### Diagrama del frontend completo:
-![Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/veyra/veyra-frontend-diagram.puml)
 
 <h3><strong>Diagrama del frontend dividido por contextos:</strong></h3>
 
 <h4>nursing frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de hogares, habitaciones, asignaciones y servicios de cuidado. </p>
 
-![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/nursing/nursing-frontend-diagram.puml)
 
 <h4>hcm frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de la gestión de personal, contratos, turnos y organización interna.</p>
 
-![HCM Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![HCM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/hcm/hcm-frontend-diagram.puml)
 
 <h4>iam frontend:</h4>
 <p><strong>Responsabilidad:</strong>Maneja las vistas de Usuarios, autenticación, roles y permisos.</p>
 
-![IAM Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![IAM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/iam/iam-frontend-diagram.puml)
 
 <h4>analytics frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de métricas, auditoría y análisis de eventos.</p>
 
-![Analytics Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Analytics Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/analytics/analytics-frontend-diagram.puml)
 
 <h4>health frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
-![Health Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Health Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/health/health-frontend-diagram.puml)
 
 <h4>communication frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de notificaciones, mensajes y comunicación interna del sistema.</p>
 
-![Communication Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Communication Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/communication/communication-frontend-diagram.puml)
 
 <h4>profiles frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de perfiles personales, empresariales y datos asociados.</p>
 
-![Profiles Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Profiles Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/profiles/profiles-frontend-diagram.puml)
 
 <h4>tracking frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de bandas médicas, sensores y trazabilidad de residentes.</p>
 
-![Tracking Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Tracking Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/tracking/tracking-frontend-diagram.puml)
 
 <h4>payments frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de pagos, facturación, transacciones y conciliaciones.</p>
 
-![Payments Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Payments Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/payments/payments-frontend-diagram.puml)
 
 <h4>activities frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de actividades, programación, horarios y participación de residentes.</p>
 
-![Activities Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Activities Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/activities/activities-frontend-diagram.puml)
 
 <h4>shared frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja los componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
-![Shared Frontend](https://www.plantuml.com/plantuml/proxy?src=)
+![Shared Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/shared/shared-frontend-diagram.puml)
 
 ### Diagrama de clases del backend
 
