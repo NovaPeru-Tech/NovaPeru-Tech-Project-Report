@@ -2410,49 +2410,96 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 <h4>Descripción Detallada de Problemas Críticos</h4>
 
-<p><strong>Problema 1: No hay opción de deshacer cambios en medicamentos registrados (Severidad: Major)</strong></p>
+<p><strong>Problema 1: Confusión de rol en formulario de registro y mezcla de idiomas.</strong></p>
 <p>
-  <strong>Descripción:</strong> Cuando un usuario registra un medicamento incorrectamente, no tiene forma 
-  de deshacer o corregir el error sin contactar al administrador.
+<p><strong>Severidad: 3</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Visibility of system status y Consistency and standards.
 </p>
 <p>
-  <strong>Impacto:</strong> Puede causar confusión en los registros de medicación y falta de confianza en 
-  la aplicación.
+  <strong>Problema:</strong> El contexto de la navegación lateral indica "Staff", pero el botón de acción dice "Register Resident" (Registrar Residente), confundiendo al usuario sobre qué rol está registrando. Además, el formulario utiliza una mezcla de inglés y español para las etiquetas de los campos (`dni*`, `birthdate*`, `phone number*`).
 </p>
+
+<img src="../images/problem1.png" alt="image of problem 1">
+
 <p>
-  <strong>Recomendación:</strong> Implementar un botón "Deshacer" para acciones recientes o agregar función 
-  de edición de registros con confirmación.
+  <strong>Recomendación:</strong> Corregir la consistencia del sistema. Si la sección es "Staff", el botón debe ser "Register Staff" o "Registrar Personal". Estandarizar el idioma de todos los campos a español para mantener la coherencia lingüística en la interfaz y mejorar la experiencia del usuario.
 </p>
 
 <hr>
 
-<p><strong>Problema 2: No hay confirmación al eliminar un residente (Severidad: Major)</strong></p>
+<p><strong>Problema 2: Error de carga de datos críticos de Habitaciones.</strong></p>
 <p>
-  <strong>Descripción:</strong> Los usuarios pueden eliminar un residente accidentalmente sin confirmación.
+<p><strong>Severidad: 4</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Help users recognize, diagnose, and recover from errors.
 </p>
 <p>
-  <strong>Impacto:</strong> Pérdida de datos importante y frustración del usuario.
+  <strong>Problema:</strong> La vista de "Rooms" (Habitaciones) muestra un error técnico grave: "Resource not found: Failed to fetch entities", que impide la carga de información fundamental. El mensaje técnico no es útil para el usuario, no explica qué sucedió y no ofrece una solución. Adicionalmente, los encabezados de la tabla presentan inconsistencia lingüística.
 </p>
+
+<img src="../images/problem2.png" alt="image of problem 2">
+
 <p>
-  <strong>Recomendación:</strong> Agregar diálogo de confirmación modal antes de ejecutar eliminación. 
-  Considerar opción de "soft delete" (marcar como inactivo) en lugar de eliminación permanente.
+  <strong>Recomendación:</strong> Reemplazar el error técnico por un mensaje amigable y orientador, como "No se pudieron cargar las habitaciones. Por favor, intente recargar la página o contacte a soporte." Asegurar que las columnas de la tabla tengan una nomenclatura consistente (ej. "Número", "Tipo", "Estado").
 </p>
 
 <hr>
 
-<p><strong>Problema 3: Falta documentación en pantalla para características complejas (Severidad: Major)</strong></p>
+
+<p><strong>Problema 3: Botón de acción con etiqueta de código en inventario.</strong></p>
 <p>
-  <strong>Descripción:</strong> Características como generación de reportes y filtros avanzados no tienen 
-  ayuda contextual o tutoriales.
+<p><strong>Severidad: 3</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Match between system and the real world y Consistency and standards.
 </p>
 <p>
-  <strong>Impacto:</strong> Usuarios abandonen características útiles por no entender cómo usarlas.
-</p>
-<p>
-  <strong>Recomendación:</strong> Agregar iconos de ayuda (?) con tooltips explicativos. Crear sección 
-  de "Primeros pasos" o tutorial introductorio. Incluir ejemplos visuales de uso.
+  <strong>Problema:</strong> El botón de acción principal al final del formulario de inventario muestra la etiqueta de código "medication.add". Este error impide la usabilidad, rompe la confianza y es una inconsistencia grave. También persiste la mezcla de idiomas en los botones, como "Cancel".
 </p>
 
+<img src="../images/problem3.png" alt="image of problem 3">
+
+<p>
+  <strong>Recomendación:</strong> Corregir la etiqueta del botón de acción principal a un texto claro y legible, como "Añadir Medicamento" o "Guardar". Estandarizar el idioma de todos los botones de acción a español (ej. "Cancelar").
+</p>
+
+<hr>
+
+<p><strong>Problema 4: Llamadas a la acción (CTAs) con etiquetas de desarrollo en Login.</strong></p>
+<p>
+<p><strong>Severidad: 4</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Match between system and the real world y Aesthetic and minimalist design.
+</p>
+<p>
+  <strong>Problema:</strong> La página de inicio de sesión muestra etiquetas de código como `auth.already-have-account`, `-> auth.sign-in` y `AUTH.OR-CREATE-ACCOUNT` en lugar del texto destinado al usuario. Esto es un error de alto impacto que impide la tarea fundamental de acceso al sistema y afecta la credibilidad.
+</p>
+
+<img src="../images/problem4.png" alt="image of problem 4">
+
+<p>
+  <strong>Recomendación:</strong> Corregir las etiquetas de localización/texto a frases amigables y claras, como "¿Ya tienes una cuenta?", el botón debe decir "Iniciar Sesión", y el separador "O crear una cuenta".
+</p>
+
+<hr>
+
+<p><strong>Problema 5: "0" como valor inicial y mezcla de idiomas en Inventario.</strong></p>
+<p>
+<p><strong>Severidad: 2</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Error Prevention y Consistency and standards.
+</p>
+<p>
+  <strong>Problema:</strong> El uso del valor "0" como valor inicial en campos de entrada numérica (`Quantity*`, `Unit Cost*`, etc.) puede confundir al usuario, quien podría no borrarlo o pensar que es un placeholder. La inconsistencia en los títulos de las secciones (`Stock Status`, `Value`) en inglés es un problema constante.
+</p>
+
+<img src="../images/problem5.png" alt="image of problem 5">
+
+<p>
+  <strong>Recomendación:</strong> Asegurarse de que los campos de entrada de datos estén vacíos o utilicen un placeholder de texto para evitar confusiones. Estandarizar la nomenclatura de las secciones a español (ej. "Estado de Stock" y "Valoración").
+</p>
+
+<hr>
 
 ## 5.4. Video About-the-Product
 
