@@ -2768,7 +2768,7 @@ Conclusiones y recomendaciones
     <tr>
       <td rowspan="2"><strong>Video de Exposición TB1</strong></td>
       <td>YouTube</td>
-      <td><a href="https://youtu.be/_7f8dKl5zGs">https://youtu.be/_7f8dKl5zGs</a></td>
+      <td><a href="https://youtu.be/PONdZOKZofI">https://youtu.be/PONdZOKZofI</a></td>
     </tr>
     <tr>
       <td>Microsoft Stream</td>
