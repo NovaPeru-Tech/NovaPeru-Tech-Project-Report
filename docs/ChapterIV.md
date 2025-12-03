@@ -395,6 +395,8 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Web-Applications-Wireflow-Diagrams.jpg" alt="Web-Applications-Wireflow-Diagrams" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ### 4.4.3. Web Applications Mock-ups
 <p>
 En esta sección se presentan los <strong>mock-ups diseñados para la aplicación web de NovaPeru Tech (Veyra)</strong>. 
@@ -469,6 +471,8 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ### Mock-ups Version Mobile
 <p>En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.</p>
 
@@ -508,6 +512,8 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 <img src="../images/Mobil34.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
 <img src="../images/Mobil35-corregido.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
 <img src="../images/Mobil36.png" alt="Detalles del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+<div style="page-break-after: always;"></div>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
