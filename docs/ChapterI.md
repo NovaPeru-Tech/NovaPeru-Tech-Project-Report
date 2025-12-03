@@ -28,6 +28,8 @@ Desarrollar soluciones tecnológicas seguras, accesibles y centradas en la exper
 Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores en Latinoamérica, integrando tecnologías emergentes como el Internet de las Cosas y el análisis de datos en tiempo real. Aspiramos a transformar el cuidado geriátrico en un proceso transparente, confiable y humano, acompañando a familias e instituciones en la creación de una nueva era de atención integral.
 #### 1.1.2. Perfiles de integrantes del equipo
 
+<div style="page-break-after: always;"></div>
+
 <table border="1" width="100%">
   <tr>
     <td width="140" valign="top" align="center">
