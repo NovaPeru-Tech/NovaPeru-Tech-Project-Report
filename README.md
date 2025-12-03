@@ -633,6 +633,8 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 <img src="images/ramificacion3.png" alt="Veyra" style="width:auto;">
 
+<div style="page-break-after: always;"></div>
+
 <h2>Tabla de contenido</h2>
 
 - [Capítulo I: Introducción](https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report/blob/main/docs/ChapterI.md#cap%C3%ADtulo-i-introducci%C3%B3n)
@@ -758,6 +760,8 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 - [Bibliografía](https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report/blob/main/docs/ChapterV.md#bibliograf%C3%ADa)
 - [Anexos](https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report/blob/main/docs/ChapterV.md#anexos)
+
+<div style="page-break-after: always;"></div>
 
 ## ABET – EAC - Student Outcome 3
 
