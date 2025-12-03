@@ -573,19 +573,16 @@ Para los familiares se elaboró el User Persona **Carmen Morales Quispe**. Se co
 
 <img src="../images/User Persona Segmento_2.png" alt="User Persona 2" width="auto" height="1900"/>
 
-<h3>2.3.2. User Task Matrix</h3>
-<p>
-El <em>User Task Matrix</em> concentra las tareas que realizan los segmentos considerados de este proyecto, independientemente de la existencia del software. 
-Se evalúan con dos criterios por cada User Persona: <strong>Frecuencia</strong> (Rarely / Occasionally / Often) e <strong>Importancia</strong> (Low / Medium / High).<br>
-Segmentos considerados: <strong>Administrador de casa de reposo (Mauricio Sánchez Valencia)</strong> y <strong>Familiar de adulto mayor (Carmen Morales Quispe)</strong>.
-</p>
+### 2.3.2. User Task Matrix
+
+El User Task Matrix presenta las tareas que realizan los User Persona para cumplir sus objetivos en su día a día, independientemente de si usan nuestro software o no. Se evalúa la frecuencia y la importancia de cada tarea para identificar dónde aportar valor.
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
   <thead>
     <tr style="background-color:#eef3f7;">
-      <th rowspan="2">Tarea</th>
-      <th colspan="2">Administrador – Mauricio Sánchez Valencia</th>
-      <th colspan="2">Familiar – Carmen Morales Quispe</th>
+      <th rowspan="2">Tarea (Task)</th>
+      <th colspan="2">Administrador (Mauricio)</th>
+      <th colspan="2">Familiar (Carmen)</th>
     </tr>
     <tr style="background-color:#eef3f7;">
       <th>Frecuencia</th>
@@ -596,68 +593,45 @@ Segmentos considerados: <strong>Administrador de casa de reposo (Mauricio Sánch
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left;">Registrar y actualizar residentes</td>
+      <td style="text-align:left;">Mantener actualizado el registro de residentes</td>
       <td>Often</td><td>High</td>
       <td>Rarely</td><td>Low</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Programar citas y agenda médica</td>
+      <td style="text-align:left;">Planificar citas médicas y terapias</td>
       <td>Often</td><td>High</td>
-      <td>Occasionally</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Generar y descargar reportes</td>
-      <td>Occasionally</td><td>High</td>
       <td>Occasionally</td><td>Medium</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Notificar a familiares sobre cambios</td>
+      <td style="text-align:left;">Comunicar incidencias o urgencias a la familia</td>
       <td>Occasionally</td><td>High</td>
-      <td>—</td><td>—</td>
+      <td>Rarely</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Coordinar al personal de cuidado</td>
-      <td>Occasionally</td><td>Medium</td>
-      <td>Rarely</td><td>Medium</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Consultar historial médico digital</td>
-      <td>Occasionally</td><td>High</td>
-      <td>Often</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Recibir notificaciones en tiempo real</td>
-      <td>Rarely</td><td>Medium</td>
-      <td>Often</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Revisar agenda y recordatorios</td>
+      <td style="text-align:left;">Supervisar el cumplimiento de la medicación</td>
       <td>Often</td><td>High</td>
       <td>Often</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Comunicarse con el personal de cuidado</td>
+      <td style="text-align:left;">Consultar el estado de salud y evolución</td>
+      <td>Often</td><td>Medium</td>
       <td>Often</td><td>High</td>
-      <td>Occasionally</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Descargar reportes clínicos en PDF</td>
-      <td>Occasionally</td><td>High</td>
-      <td>Occasionally</td><td>Medium</td>
+      <td style="text-align:left;">Coordinar turnos del personal de cuidado</td>
+      <td>Often</td><td>Medium</td>
+      <td>Rarely</td><td>Low</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Realizar pagos o cobros de mensualidad</td>
+      <td>Monthly</td><td>High</td>
+      <td>Monthly</td><td>High</td>
     </tr>
   </tbody>
 </table>
 
-<p style="font-size:12px; color:#555; margin-top:6px;">
-Leyenda: “—” indica que la tarea no aplica para el segmento.
-</p>
-
-<p><strong>Análisis:</strong><br>
-El Administrador concentra tareas operativas y de control con <em>alta frecuencia e importancia</em>, destacando: registrar/actualizar residentes, programar agenda, revisar agenda y coordinar al personal, además de notificar a familiares sobre cambios. 
-El Familiar prioriza tareas de <em>seguimiento y comunicación</em> con alta frecuencia e importancia: consultar historial médico, recibir notificaciones en tiempo real y revisar agenda; además, mantiene comunicación con el personal cuando requiere aclaraciones. 
-Como coincidencia crítica para ambos, “revisar agenda y recordatorios” es <em>Often–High</em>, lo que justifica diseñar vistas de calendario claras y recordatorios fiables. 
-Las principales diferencias: el Administrador es dueño de procesos (creación/gestión de datos y notificación), mientras que el Familiar es consumidor de información (consulta, seguimiento y validación), lo que implica perfiles y permisos diferenciados en la solución.
-</p>
+**Análisis del Task Matrix:**
+Se observa que la tarea **"Supervisar cumplimiento de medicación"** y **"Consultar estado de salud"** tienen una Importancia **High** y Frecuencia **Often** para ambos segmentos (el administrador para controlar, el familiar para saber). Esto confirma que estas tareas son el "Core" del negocio y deben ser priorizadas. Además, la tarea crítica de **"Comunicar incidencias"** es de alta importancia para ambos, validando la necesidad de un sistema de alertas.
 
 <div style="page-break-after: always;"></div>
 
