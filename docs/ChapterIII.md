@@ -1370,6 +1370,8 @@
 
 ## 3.3. Product Backlog
 
+En esta sección se presenta el Product Backlog priorizado, el cual contiene las Historias de Usuario y Technical Stories estimadas en Story Points. El orden de los elementos ha sido determinado por el valor que aportan al negocio, priorizando en las primeras iteraciones los elementos de la Landing Page y las funcionalidades core del sistema.
+
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
     <td><strong>Orden</strong></td><td><strong>User Story Id</strong></td><td><strong>Título</strong></td><td><strong>Descripción</strong></td><td><strong>Story Points (1/2/3)</strong></td>
@@ -1424,3 +1426,15 @@
  <tr><td>79</td><td>TS-IOT01</td><td>Ingesta de Datos de Bandas Médicas</td><td>Como desarrollador backend quiero implementar un endpoint para recibir la telemetría de las bandas.</td><td>3</td></tr>
  <tr><td>80</td><td>TS-IOT02</td><td>Servicio de Comparación de Salud (Health Check)</td><td>Como desarrollador backend quiero implementar un servicio que compare los datos entrantes contra los registros de salud.</td><td>5</td></tr>
 </table>
+
+**Evidencia de Product Backlog en Jira:**
+
+A continuación, se muestra la gestión del backlog en la herramienta Jira Software, evidenciando la priorización y estimación de las historias.
+
+<div align="center">
+  <img src="../images/Product Backlog screenshot.jpg" alt="Evidence Product Backlog Jira" width="90%">
+  <p><em>Figura: Captura del Product Backlog en Jira Software.</em></p>
+</div>
+
+**Enlace al Product Backlog:**
+(https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog?atlOrigin=eyJpIjoiYTFlZGM3NTRjMWUyNDQ2N2E5YzY4MThhM2FmZTcxMjQiLCJwIjoiaiJ9)
