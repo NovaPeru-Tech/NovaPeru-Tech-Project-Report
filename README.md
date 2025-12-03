@@ -77,7 +77,7 @@
   </thead>
   <tbody>
     <tr>
-      <td>1.0</td>
+      <td>1.0.0</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -85,7 +85,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.1</td>
       <td>13/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -93,7 +93,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.2</td>
       <td>13/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -101,7 +101,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.3</td>
       <td>14/09/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -109,7 +109,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.4</td>
       <td>15/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -117,7 +117,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.5</td>
       <td>20/09/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -125,7 +125,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.0</td>
       <td>17/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -133,7 +133,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.1</td>
       <td>19/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -141,7 +141,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.2</td>
       <td>20/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -149,7 +149,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.3</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -157,7 +157,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.4</td>
       <td>12/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -165,7 +165,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.5</td>
       <td>16/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -173,7 +173,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.6</td>
       <td>19/09/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -181,7 +181,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.7</td>
       <td>18/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -189,7 +189,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.0</td>
       <td>22/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -197,7 +197,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.1</td>
       <td>28/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -205,7 +205,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.2</td>
       <td>05/10/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -213,7 +213,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.3</td>
       <td>23/09/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -221,7 +221,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.4</td>
       <td>01/10/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -229,7 +229,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.5</td>
       <td>10/10/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -237,7 +237,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.0</td>
       <td>24/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -245,7 +245,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.1</td>
       <td>30/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -253,7 +253,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.2</td>
       <td>07/10/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -261,7 +261,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.3</td>
       <td>25/09/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -269,7 +269,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.4</td>
       <td>01/10/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -277,7 +277,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.5</td>
       <td>08/10/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -285,7 +285,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.6</td>
       <td>26/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -293,7 +293,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.2.0</td>
       <td>02/10/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -301,7 +301,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.2.1</td>
       <td>09/10/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -309,7 +309,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.2.2</td>
       <td>10/10/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -324,7 +324,7 @@
       </td>
     </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.0.0</td>
   <td>10/10/2025</td>
   <td>Ariana Ramírez Carrasco</td>
   <td>
@@ -335,7 +335,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.0.1</td>
   <td>18/10/2025</td>
   <td>Ariana Ramírez Carrasco</td>
   <td>
@@ -345,7 +345,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.0.2</td>
   <td>25/10/2025</td>
   <td>Ariana Ramírez Carrasco</td>
   <td>
@@ -355,7 +355,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.0.3</td>
   <td>12/10/2025</td>
   <td>Adrián Alonso Quiroz Cáceres</td>
   <td>
@@ -365,7 +365,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.0.4</td>
   <td>20/10/2025</td>
   <td>Adrián Alonso Quiroz Cáceres</td>
   <td>
@@ -375,7 +375,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.0.5</td>
   <td>16/11/2025</td>
   <td>Adrián Alonso Quiroz Cáceres</td>
   <td>
@@ -384,7 +384,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.0.6</td>
   <td>11/10/2025</td>
   <td>Renato Calvo Yalán</td>
   <td>
@@ -395,7 +395,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.0</td>
   <td>29/10/2025</td>
   <td>Renato Calvo Yalán</td>
   <td>
@@ -405,7 +405,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.1</td>
   <td>12/11/2025</td>
   <td>Renato Calvo Yalan</td>
   <td>
@@ -414,7 +414,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.1.2</td>
   <td>13/10/2025</td>
   <td>Oscar Armas Sánchez</td>
   <td>
@@ -424,7 +424,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.3</td>
   <td>01/11/2025</td>
   <td>Oscar Armas Sánchez</td>
   <td>
@@ -434,7 +434,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.4</td>
   <td>14/11/2025</td>
   <td>Oscar Armas Sánchez</td>
   <td>
@@ -442,7 +442,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.1.5</td>
   <td>09/10/2025</td>
   <td>Billy Jake Ruiz Madrid</td>
   <td>
@@ -452,7 +452,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.6</td>
   <td>03/11/2025</td>
   <td>Billy Jake Ruiz Madrid</td>
   <td>
@@ -462,7 +462,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.2.0</td>
   <td>15/11/2025</td>
   <td>Billy Jake Ruiz Madrid</td>
   <td>
@@ -470,7 +470,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.2.1</td>
   <td>08/10/2025</td>
   <td>Miguel Ángel Junior Román López</td>
   <td>
@@ -481,7 +481,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.2.2</td>
   <td>26/10/2025</td>
   <td>Miguel Ángel Junior Román López</td>
   <td>
@@ -491,7 +491,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.2.3</td>
   <td>07/11/2025</td>
   <td>Miguel Ángel Junior Román López</td>
   <td>
