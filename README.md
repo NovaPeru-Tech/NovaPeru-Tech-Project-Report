@@ -60,7 +60,7 @@
   <h3>Diciembre, 2025</h3>
 </div>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 <hr>
 
@@ -503,6 +503,7 @@
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
 
