@@ -131,6 +131,7 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
 | **Fortalezas (F)**<br>1. Especialización regional en normativa y necesidades de LATAM.<br>2. Diseño centrado en familias: acceso bidireccional familia ↔ residencia y comunicación en tiempo real.<br>3. Modelo modular de precios proyectado (freemium → estándar → premium). | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Alianzas académicas/institucionales con asociaciones geriátricas y universidades para certificación, formación y co-marketing.<br>2. Priorizar integraciones IoT/telemedicina en el roadmap (conectores para wearables, sensores de caída, medidores de signos vitales) y ofrecer paquetes piloto conjuntos con proveedores de hardware.<br>3. Implementar estrategia freemium → up-sell: plan entry para residencias pequeñas que permita adopción rápida y rutas de crecimiento a planes institucionales premium.<br>4. Campañas de posicionamiento como especialista LATAM destacando cumplimiento normativo local y enfoque humano-familiar. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Implementar y documentar políticas de protección de datos y seguridad adaptadas a LATAM, y comunicarlo claramente a clientes e instituciones.<br>2. Ofrecer soporte local y SLAs competitivos que las grandes plataformas globales no siempre proporcionan en la región.<br>3. Enfatizar diferenciadores de valor (transparencia con familias, formación continua, soporte local) en la comunicación para competir por valor, no solo por precio.<br>4. Diseñar funcionalidades con modo offline/parcial (sincronización cuando haya conectividad) para minimizar la fricción en zonas con conectividad limitada en LATAM.<br>5. Difundir resultados de pilotos y testimonios para contrarrestar la ventaja presupuestal y reputacional de competidores globales. |
 | **Debilidades (D)**<br>1. Bajo reconocimiento de marca (proyecto nuevo).<br>2. Recursos limitados (equipo y presupuesto) frente a los competidores.<br>3. Madurez limitada en integraciones empresariales completas (Facturación, contabilidad).<br>4. Necesidad de localización y validación en múltiples países de LATAM.| **Estrategia (DO) — Reorientación**<br>1. Validación rápida con Lean UX: ejecutar pruebas de usabilidad y pilotos documentados (usar wireframes, mockups y Product Backlog del repo) para generar testimonios y material comercial publicable.<br>2. Buscar subvenciones, programas públicos y fondos de digitalización para financiar pilotos y reducir el coste inicial para residencias piloto.<br>3. Generar contenido técnico y autoridad: whitepapers, casos de estudio y guías para decisores (directores clínicos / gerentes de casas de reposo) enfatizando seguridad.<br>4. Priorizar desarrollo de APIs públicas y conectores básicos (facturación, contabilidad, laboratorios) y ofrecer SDKs/documentación para integradores; esto reduce fricción de adopción en clientes con sistemas legados.<br>5. Crear un programa de partners/implementadores locales (consultoras e integradores) que permitan escalar despliegues sin aumentar fuertemente la plantilla interna. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar seguridad e infraestructura crítica: backups automáticos, alta disponibilidad, pruebas de penetración periódicas y planes de recuperación ante desastres para minimizar riesgos operacionales.<br>2. Aplicar una política de precios defensiva inicial: oferta entry-level competitiva y promociones temporales para ganar masa crítica en mercados clave y bloquear nichos frente a competidores low-cost.<br>3. Contratar auditorías externas y obtener certificaciones de seguridad/compliance que sirvan como sello de confianza ante reguladores y clientes institucionales.<br>4. Buscar aceleradoras, grants o socios estratégicos (capital/mentoría) que aporten recursos sin diluir el control del producto; negociar alianzas que incluyan soporte de implementación.<br>5. Formalizar un plan de gestión de incidentes y comunicación (scripts, FAQs, canales dedicados) para notificar rápidamente a residencias y familias y reducir impacto reputacional. |
 
+<div style="page-break-after: always;"></div>
 
 ## 2.2. Entrevistas
 
@@ -177,6 +178,8 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
  Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
  
 ¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo? 
+
+<div style="page-break-after: always;"></div>
 
 ### 2.2.2. Registro de entrevistas
 
@@ -505,6 +508,8 @@ Expresa que confiaría en un sistema como Veyra siempre que sea rápido, confiab
 </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ### 2.2.3. Análisis de entrevistas
 
 El objetivo de las entrevistas fue identificar los problemas, necesidades y expectativas de los **administradores de casas de reposo** y los **familiares de adultos mayores**, con el fin de validar hipótesis sobre la comunicación, gestión de información y funciones necesarias en una aplicación que facilite la coordinación y el cuidado.
@@ -519,6 +524,7 @@ El objetivo de las entrevistas fue identificar los problemas, necesidades y expe
 3. Las soluciones más esperadas giran en torno a **notificaciones automáticas, centralización de información y facilidad de uso**, lo que indica que la aplicación debe ser intuitiva y accesible.  
 4. Se valida la hipótesis de que tanto administradores como familiares requieren un sistema **integrado y confiable** para comunicación, gestión de información y alertas inmediatas.  
 
+<div style="page-break-after: always;"></div>
 
 ## 2.3. Needfinding
 
@@ -626,6 +632,8 @@ Como coincidencia crítica para ambos, “revisar agenda y recordatorios” es <
 Las principales diferencias: el Administrador es dueño de procesos (creación/gestión de datos y notificación), mientras que el Familiar es consumidor de información (consulta, seguimiento y validación), lo que implica perfiles y permisos diferenciados en la solución.
 </p>
 
+<div style="page-break-after: always;"></div>
+
 ### 2.3.3. User Journey Mapping
 
 <p><strong>Segmento 1 – Administrador de casa de reposo (Mauricio Sánchez Valencia)</strong></p>
@@ -658,6 +666,8 @@ Este análisis busca sentar las bases para una futura solución tecnológica que
 <img src="../images/Journey Map Segmento_2.png" alt="Journey Map Segmento 2" width="auto" height="450"/>
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.4. Empathy Mapping
 
@@ -694,6 +704,8 @@ Después de listar los eventos, el equipo los organizó en flujos de negocio ló
 Esta estructura ayudó a identificar los procesos clave y las áreas de mejora que posteriormente podrían abordarse mediante soluciones digitales o de gestión.
 
 <img src="../images/step2-big picture event storming.png" alt="bigpicture" style="width:1000px;">
+
+<div style="page-break-after: always;"></div>
 
 ## 2.5. Ubiquitous Language
 <p>
