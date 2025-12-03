@@ -159,6 +159,8 @@
   </li>
 </ul>
 
+<div style="page-break-after: always;"></div>
+
 ### 5.1.2. Source Code Management
 
   <p>
@@ -597,6 +599,8 @@ public class ResidentController {
     And the resident should not be registered
 </code></pre>
 
+<div style="page-break-after: always;"></div>
+
 ### 5.1.4. Software Deployment Configuration
 
   <p>
@@ -972,6 +976,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 <p>
   Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VEYRA, 
@@ -1049,6 +1055,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 <img src="../assets/img/chapter-V/network-graph-sprint1.png" alt="network-graph-sprint1">
 
 <img src="../assets/img/chapter-V/visitors-sprint1.png" alt="visitors-sprint1">
+
+<div style="page-break-after: always;"></div>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2697,6 +2705,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 ## Bibliografía
 
@@ -2758,7 +2767,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   </li>
 </ul>
 
----
+<div style="page-break-after: always;"></div>
 
 ## Anexos
 
@@ -2806,6 +2815,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <h4>Anexo B: Videos del Proyecto</h4>
 
