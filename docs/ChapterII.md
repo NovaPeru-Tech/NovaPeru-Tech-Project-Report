@@ -512,17 +512,44 @@ Expresa que confiaría en un sistema como Veyra siempre que sea rápido, confiab
 
 ### 2.2.3. Análisis de entrevistas
 
-El objetivo de las entrevistas fue identificar los problemas, necesidades y expectativas de los **administradores de casas de reposo** y los **familiares de adultos mayores**, con el fin de validar hipótesis sobre la comunicación, gestión de información y funciones necesarias en una aplicación que facilite la coordinación y el cuidado.
-<td><img src="../images/Administradores.png" alt="Administradores"></td>
-<td><img src="../images/Familiares.png" alt="Administradores"></td>
-<td><img src="../images/Comparativo-SegmentosObjetivos.png" alt="Administradores"></td>
+En esta sección se presenta el análisis detallado de la información recolectada. Para cada segmento, se explican primero los hallazgos estadísticos objetivos y subjetivos, seguidos de la evidencia gráfica correspondiente.
 
+#### Segmento 1: Administradores de Casas de Reposo
 
-### Conclusiones  
-1. Existe una **fuerte necesidad de digitalización**: todavía se depende de llamadas, papel o Excel, lo que genera ineficiencia.  
-2. Los problemas más críticos se relacionan con **la falta de aviso en urgencias y la duplicidad de procesos**, lo que impacta directamente en la seguridad de los adultos mayores.  
-3. Las soluciones más esperadas giran en torno a **notificaciones automáticas, centralización de información y facilidad de uso**, lo que indica que la aplicación debe ser intuitiva y accesible.  
-4. Se valida la hipótesis de que tanto administradores como familiares requieren un sistema **integrado y confiable** para comunicación, gestión de información y alertas inmediatas.  
+**Análisis de Características Objetivas y Subjetivas:**
+El análisis revela una digitalización precaria. Como se detalla en el gráfico a continuación, el **100%** de los administradores utiliza **WhatsApp** como canal principal y el **100%** gestiona la información clínica en **sistemas físicos** (papel). Si bien un **67%** se apoya en **Excel**, la falta de integración es crítica.
+A nivel subjetivo, el **100%** valora la **comunicación rápida** y la **digitalización**. Sin embargo, existe una restricción clara: el **67%** demanda **soluciones sencillas**, rechazando herramientas complejas, y un **33%** aún prioriza la gestión personal directa.
+
+<div align="center"><img src="../images/Administradores.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
+<br>
+
+#### Segmento 2: Familiares de Adultos Mayores
+
+**Análisis de Características Objetivas y Subjetivas:**
+Los datos confirman una experiencia actual deficiente. El **100%** reporta **dificultad para acceder a información** y el **100%** indica que se enteran de las **urgencias mediante llamadas**, lo cual consideran tardío e ineficiente. Un **100%** manifiesta la necesidad de ver la **info de medicación**.
+Subjetivamente, el dolor principal es la incertidumbre: el **67%** siente **preocupación por demoras**, por lo que el **100%** solicita la **centralización** de datos. Afortunadamente, el **67%** se siente **cómodo usando apps**, validando la viabilidad de una solución móvil.
+
+<div align="center"><img src="../images/Familiares.png" alt="Gráfico Estadístico Familiares" width="80%"></div>
+<br>
+
+#### Análisis Comparativo
+
+**Contrastación de Segmentos:**
+Al comparar ambos grupos, encontramos coincidencias vitales para el producto: ambos tienen un **100% de necesidad de centralización** de información. Sin embargo, existe una brecha notable en la percepción de "preocupación": mientras los administradores priorizan la operatividad (0% de preocupación personal por demoras), para el **67%** de los familiares es una fuente de ansiedad crítica. Esto define nuestra propuesta de valor: eficiencia para el administrador y tranquilidad para el familiar.
+
+<div align="center"><img src="../images/Comparativo-SegmentosObjetivos.png" alt="Gráfico Comparativo Segmentos" width="80%"></div>
+<br>
+
+### Conclusiones y Definición de Arquetipos
+
+Basado en el análisis estadístico, se definen los siguientes perfiles para los User Personas:
+
+1.  **User Persona Administrador ("El Gestor Operativo"):**
+    * **Rasgo clave:** Busca eficiencia pero teme a la tecnología compleja.
+    * **Sustento:** El 67% exige "soluciones sencillas" y el 100% ya usa WhatsApp. La solución debe tener una curva de aprendizaje mínima.
+2.  **User Persona Familiar ("El Monitor Preocupado"):**
+    * **Rasgo clave:** Necesita control y transparencia para reducir ansiedad.
+    * **Sustento:** El 100% pide información de medicación y el 67% sufre por la demora en noticias. La solución debe centrarse en notificaciones en tiempo real.
 
 <div style="page-break-after: always;"></div>
 
