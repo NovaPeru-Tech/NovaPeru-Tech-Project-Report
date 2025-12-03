@@ -211,6 +211,8 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 
 * **Navegación Secundaria:** Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
 
+<div style="page-break-after: always;"></div>
+
 ## 4.3. Landing Page UI Design
 
 El diseño de la interfaz de usuario (UI) de la página de inicio de Veyra es fundamental para captar la atención de los visitantes y guiarlos hacia una acción clara: conectar con el cuidado de sus seres queridos. Nos hemos centrado en la creación de una experiencia intuitiva y fluida, garantizando que cada elemento de la página sea interactivo y fácil de usar, reflejando el compromiso de Veyra con la simplicidad y la transparencia.
@@ -257,6 +259,8 @@ El pie de página es un elemento crucial para la usabilidad. Contiene enlaces a 
 <img src="../images/footer-section-landing-wireframe.png" alt="Landing Page Mockup" style="max-width: 100%; height: auto; border: 2px solid #00bfff;">
 
 Este wireframe sienta las bases para un diseño visual que no solo se ve bien, sino que también guía al usuario de manera intuitiva a través de nuestra propuesta de valor, reforzando la confianza y la conexión que Veyra promete.
+
+<div style="page-break-after: always;"></div>
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -307,6 +311,8 @@ En la sección de "Plans", ofrecemos los detalles de nuestros planes de precios.
 El "Footer" de nuestra landing page contiene enlaces útiles y recursos adicionales. Un formulario de suscripción invita a los usuarios a unirse a nuestra comunidad. El logo de Veyra, enlaces de contacto, información legal y de derechos de autor se encuentran aquí, asegurando que toda la información relevante esté fácilmente accesible para los usuarios.
 
 <img src="../images/footer-section-landing.png" alt="Landing Page Mockup" style="width: auto; height: auto; border: 2px solid #00bfff;">
+
+<div style="page-break-after: always;"></div>
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -581,6 +587,8 @@ El *user flow* es la representación visual del camino que un usuario sigue dent
 
   <img src="../images/UserFlowObjetivo5-parte2.png" alt="UnHappy Path-Objetivo5" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ## 4.5. Web Applications Prototyping
 
 
@@ -673,6 +681,7 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
    <img src="../images/shared-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
    
 ### 4.6.2. Software Architecture Context Diagram
 
@@ -693,6 +702,8 @@ Este nivel de diseño se centra en los módulos internos de cada contenedor defi
 mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunican entre sí.
 
 ![ContainerDiagram Diagram](../images/structurizr-Components.png)
+
+<div style="page-break-after: always;"></div>
 
 ## 4.7. Software Object-Oriented Design
 
@@ -760,6 +771,8 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 ![Shared Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/shared/shared-frontend-diagram.puml)
 
+<div style="page-break-after: always;"></div>
+
 ### Diagrama de clases del backend
 
 ### Diagrama del backend completo:
@@ -821,6 +834,8 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <p><strong>Responsabilidad:</strong> Componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
 ![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml&v=1)
+
+<div style="page-break-after: always;"></div>
 
 ## 4.8. Database Design
 
