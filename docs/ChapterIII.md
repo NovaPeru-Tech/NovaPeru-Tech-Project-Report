@@ -1360,10 +1360,13 @@
         </tr>
     </table>
 
+<div style="page-break-after: always;"></div>
 
 ## 3.2. Impact Mapping
 
 <img src="../images/Impact_map.png" alt="Impact map 1" width="auto" height="auto"/>
+
+<div style="page-break-after: always;"></div>
 
 ## 3.3. Product Backlog
 
