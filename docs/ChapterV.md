@@ -1963,9 +1963,21 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+<p>
+Durante el Sprint 3, los analíticos de colaboración de los repositorios NovaPeruTech-Frontend y NovaPeruTech-Backend evidencian una participación activa y distribuida de todos los integrantes del equipo sobre los dos productos principales del proyecto: la Web Application (Frontend) y los Web Services (Backend). El gráfico de Overview muestra un volumen sostenido de commits a lo largo del sprint, asociado a la implementación de la capa de persistencia, la lógica de negocio en Spring Boot y los ajustes finales de integración y despliegue del Frontend. Esto refleja que las tareas no se concentraron en una sola persona, sino que cada miembro asumió responsabilidades específicas (servicios, entidades, controladores, componentes de UI, integración con la API en producción) y realizó aportes continuos hasta completar el objetivo del sprint, alineado con el enfoque en Backend y despliegue descrito en la sección de Sprint 3.
+</p>
+
 <img src="../images/overview-sprint3.jpg" alt="overview-sprint3">
 
+<p>
+El Network Graph de ambos repositorios refuerza esta visión de trabajo colaborativo mediante la presencia de múltiples ramas de tipo feature/ que parten de develop o main y luego son fusionadas una vez completadas, siguiendo el GitFlow definido para el proyecto. Se observan ciclos de creación de ramas, desarrollo de funcionalidades (endpoints REST, servicios de negocio, integración del Frontend con la API de Azure) y merges controlados, lo que confirma que la coordinación entre líderes y colaboradores permitió avanzar en paralelo sin perder trazabilidad ni calidad del código.
+</p>
+
 <img src="../images/network-graph-sprint3.jpg" alt="network-graph-sprint3">
+
+<p>
+Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repositorios a medida que se acercan las fechas de pruebas e integración con el entorno de producción (https://veyrav01.azurewebsites.net/swagger-ui/index.html#/), indicando que el equipo utilizó GitHub como punto central para revisar avances, validar el comportamiento de la API desplegada y preparar la Sprint Review. En conjunto, estos analíticos de Overview, Network Graph y Visitors demuestran que, durante el Sprint 3, todos los miembros del equipo participaron efectivamente en la implementación y despliegue de los Web Services y la Web Application, cumpliendo con el principio establecido de involucrar a todos los integrantes en los productos clave del proyecto (Landing Page, Web Applications y Web Services) a lo largo de los sprints.
+</p>
 
 <img src="../images/contributors-sprint3.jpg" alt="contributors-sprint3">
 
