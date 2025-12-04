@@ -211,6 +211,8 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 
 * **Navegación Secundaria:** Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
 
+<div style="page-break-after: always;"></div>
+
 ## 4.3. Landing Page UI Design
 
 El diseño de la interfaz de usuario (UI) de la página de inicio de Veyra es fundamental para captar la atención de los visitantes y guiarlos hacia una acción clara: conectar con el cuidado de sus seres queridos. Nos hemos centrado en la creación de una experiencia intuitiva y fluida, garantizando que cada elemento de la página sea interactivo y fácil de usar, reflejando el compromiso de Veyra con la simplicidad y la transparencia.
@@ -257,6 +259,8 @@ El pie de página es un elemento crucial para la usabilidad. Contiene enlaces a 
 <img src="../images/footer-section-landing-wireframe.png" alt="Landing Page Mockup" style="max-width: 100%; height: auto; border: 2px solid #00bfff;">
 
 Este wireframe sienta las bases para un diseño visual que no solo se ve bien, sino que también guía al usuario de manera intuitiva a través de nuestra propuesta de valor, reforzando la confianza y la conexión que Veyra promete.
+
+<div style="page-break-after: always;"></div>
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -307,6 +311,8 @@ En la sección de "Plans", ofrecemos los detalles de nuestros planes de precios.
 El "Footer" de nuestra landing page contiene enlaces útiles y recursos adicionales. Un formulario de suscripción invita a los usuarios a unirse a nuestra comunidad. El logo de Veyra, enlaces de contacto, información legal y de derechos de autor se encuentran aquí, asegurando que toda la información relevante esté fácilmente accesible para los usuarios.
 
 <img src="../images/footer-section-landing.png" alt="Landing Page Mockup" style="width: auto; height: auto; border: 2px solid #00bfff;">
+
+<div style="page-break-after: always;"></div>
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -389,6 +395,8 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Web-Applications-Wireflow-Diagrams.jpg" alt="Web-Applications-Wireflow-Diagrams" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ### 4.4.3. Web Applications Mock-ups
 <p>
 En esta sección se presentan los <strong>mock-ups diseñados para la aplicación web de NovaPeru Tech (Veyra)</strong>. 
@@ -463,6 +471,8 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ### Mock-ups Version Mobile
 <p>En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.</p>
 
@@ -502,6 +512,8 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 <img src="../images/Mobil34.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
 <img src="../images/Mobil35-corregido.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
 <img src="../images/Mobil36.png" alt="Detalles del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+<div style="page-break-after: always;"></div>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -580,6 +592,8 @@ El *user flow* es la representación visual del camino que un usuario sigue dent
   Si el usuario ingresa un correo electrónico que no está registrado en la base de datos de Veyra, el sistema le informará que el correo no fue encontrado, protegiendo la seguridad de los datos y pidiéndole que verifique la dirección ingresada.
 
   <img src="../images/UserFlowObjetivo5-parte2.png" alt="UnHappy Path-Objetivo5" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+<div style="page-break-after: always;"></div>
 
 ## 4.5. Web Applications Prototyping
 
@@ -673,6 +687,7 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
    <img src="../images/shared-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
    
 ### 4.6.2. Software Architecture Context Diagram
 
@@ -694,6 +709,8 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 
 ![ContainerDiagram Diagram](../images/structurizr-Components.png)
 
+<div style="page-break-after: always;"></div>
+
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
@@ -701,111 +718,113 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ### Diagrama de clases del frontend
 
 ### Diagrama del frontend completo:
-![Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/veyra/veyra-frontend-diagram.puml)
+![Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/veyra/veyra-frontend-diagram.puml&fmt=svg)
 
 <h3><strong>Diagrama del frontend dividido por contextos:</strong></h3>
 
 <h4>nursing frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de hogares, habitaciones, asignaciones y servicios de cuidado. </p>
 
-![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/nursing/nursing-frontend-diagram.puml)
+![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/nursing/nursing-frontend-diagram.puml&fmt=svg)
 
 <h4>hcm frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de la gestión de personal, contratos, turnos y organización interna.</p>
 
-![HCM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/hcm/hcm-frontend-diagram.puml)
+![HCM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/hcm/hcm-frontend-diagram.puml&fmt=svg)
 
 <h4>iam frontend:</h4>
 <p><strong>Responsabilidad:</strong>Maneja las vistas de Usuarios, autenticación, roles y permisos.</p>
 
-![IAM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/iam/iam-frontend-diagram.puml)
+![IAM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/iam/iam-frontend-diagram.puml&fmt=svg)
 
 <h4>analytics frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de métricas, auditoría y análisis de eventos.</p>
 
-![Analytics Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/analytics/analytics-frontend-diagram.puml)
+![Analytics Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/analytics/analytics-frontend-diagram.puml&fmt=svg)
 
 <h4>health frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
-![Health Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/health/health-frontend-diagram.puml)
+![Health Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/health/health-frontend-diagram.puml&fmt=svg)
 
 <h4>communication frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de notificaciones, mensajes y comunicación interna del sistema.</p>
 
-![Communication Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/communication/communication-frontend-diagram.puml)
+![Communication Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/communication/communication-frontend-diagram.puml&fmt=svg)
 
 <h4>profiles frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de perfiles personales, empresariales y datos asociados.</p>
 
-![Profiles Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/profiles/profiles-frontend-diagram.puml)
+![Profiles Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/profiles/profiles-frontend-diagram.puml&fmt=svg)
 
 <h4>tracking frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de bandas médicas, sensores y trazabilidad de residentes.</p>
 
-![Tracking Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/tracking/tracking-frontend-diagram.puml)
+![Tracking Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/tracking/tracking-frontend-diagram.puml&fmt=svg)
 
 <h4>payments frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de pagos, facturación, transacciones y conciliaciones.</p>
 
-![Payments Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/payments/payments-frontend-diagram.puml)
+![Payments Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/payments/payments-frontend-diagram.puml&fmt=svg)
 
 <h4>activities frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de actividades, programación, horarios y participación de residentes.</p>
 
-![Activities Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/activities/activities-frontend-diagram.puml)
+![Activities Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/activities/activities-frontend-diagram.puml&fmt=svg)
 
 <h4>shared frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja los componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
-![Shared Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/shared/shared-frontend-diagram.puml)
+![Shared Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/shared/shared-frontend-diagram.puml&fmt=svg)
+
+<div style="page-break-after: always;"></div>
 
 ### Diagrama de clases del backend
 
 ### Diagrama del backend completo:
-![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml&v=2)
+![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml&fmt=svg)
 
 <h3><strong>Diagrama del backend dividido por contextos:</strong></h3>
 
 <h4>nursing backend:</h4>
 <p><strong>Responsabilidad:</strong> Lógica de hogares, habitaciones, asignaciones y servicios de cuidado.</p>
 
-![Nursing Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-backend-diagram.puml&v=2)
+![Nursing Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>hcm backend:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de personal, contratos, turnos y organización interna.</p>
 
-![HCM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-backend-diagram.puml&v=2)
+![HCM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>iam backend:</h4>
 <p><strong>Responsabilidad:</strong> Usuarios, autenticación, roles y permisos.</p>
 
-![IAM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-backend-diagram.puml&v=2)
+![IAM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>analytics backend:</h4>
 <p><strong>Responsabilidad:</strong> Manejo de métricas, auditoría y análisis de eventos.</p>
 
-![Analytics Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-backend-diagram.puml&v=2)
+![Analytics Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>health backend:</h4>
 <p><strong>Responsabilidad:</strong> Evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
-![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml&v=2)
+![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml&fmt=svg)
 
 <h4>communication backend:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicación interna del sistema.</p>
 
-![Communication Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-backend-diagram.puml&v=2)
+![Communication Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>profiles backend:</h4>
 <p><strong>Responsabilidad:</strong> Perfiles personales, empresariales y datos asociados.</p>
 
-![Profiles Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-backend-diagram.puml&v=2)
+![Profiles Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>tracking backend:</h4>
 <p><strong>Responsabilidad:</strong> Bandas médicas, sensores y trazabilidad de residentes.</p>
 
-![Tracking Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-backend-diagram.puml&v=2)
+![Tracking Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>payments backend:</h4>
 <p><strong>Responsabilidad:</strong> Pagos, facturación, transacciones y conciliaciones.</p>
@@ -815,68 +834,70 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <h4>activities backend:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, programación, horarios y participación de residentes.</p>
 
-![Activities Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-backend-diagram.puml&v=2)
+![Activities Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>shared backend:</h4>
 <p><strong>Responsabilidad:</strong> Componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
-![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml&v=1)
+![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml&v=1&fmt=svg)
+
+<div style="page-break-after: always;"></div>
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
 #### Diagrama de base de datos completo:
-![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml&v=1)
+![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml&v=1&fmt=svg)
 
 <h3><strong>Diagrama de base de datos dividido por contextos:</strong></h3>
 
 <h4>nursing base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de hogares, habitaciones y asignaciones.</p>
 
-![Nursing Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-database-diagram.puml&v=1)
+![Nursing Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-database-diagram.puml&v=1&fmt=svg)
 
 <h4>hcm base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Almacena información para recursos humanos  y sus contratos.</p>
 
-![HCM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-database-diagram.puml&v=1)
+![HCM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-database-diagram.puml&v=1&fmt=svg)
 
 <h4>iam base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
 
-![IAM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-database-diagram.puml&v=1)
+![IAM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-database-diagram.puml&v=1&fmt=svg)
 
 <h4>analytics base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Métricas, eventos y datos para análisis.</p>
 
-![Analytics Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-database-diagram.puml&v=1)
+![Analytics Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-database-diagram.puml&v=1&fmt=svg)
 
 <h4>health base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Historiales médicos, evaluaciones y registros clínicos.</p>
 
-![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml&v=1)
+![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml&fmt=svg)
 
 <h4>communication base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicaciones internas.</p>
 
-![Communication Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-database-diagram.puml&v=1)
+![Communication Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-database-diagram.puml&v=1&fmt=svg)
 
 <h4>profiles base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Perfiles, datos personales de las personas y de las empresas.</p>
 
-![Profiles Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-database-diagram.puml&v=1)
+![Profiles Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-database-diagram.puml&v=1&fmt=svg)
 
 <h4>tracking base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Manejo de data de bandas medicas  y trazabilidad.</p>
 
-![Tracking Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-database-diagram.puml&v=1)
+![Tracking Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-database-diagram.puml&v=1&fmt=svg)
 
 <h4>payments base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Facturación, pagos y transacciones.</p>
 
-![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&v=1)
+![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&v=1&fmt=svg)
 
 <h4>activities base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, horarios y participación.</p>
 
-![Activities Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-database-diagram.puml&v=1)
+![Activities Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-database-diagram.puml&v=1&fmt=svg)
