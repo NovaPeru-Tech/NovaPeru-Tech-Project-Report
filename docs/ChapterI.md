@@ -151,9 +151,9 @@ Nuestro producto, **Veyra**, abordará esta brecha mediante una **plataforma web
 
 - Ofrece reportes visuales, alertas automáticas y seguimiento en tiempo real.
 
-Nuestro enfoque inicial estará dirigido a **casas de reposo privadas medianas ubicadas en zonas urbanas,** con entre **20 y 80 residentes,** que ya utilicen herramientas digitales básicas. También se orientará a **familiares y apoderados** que busquen un **seguimiento transparente y continuo** del estado de salud de sus seres queridos.
+Nuestro enfoque inicial estará dirigido a **los administradores de casas de reposo privadas ubicadas en zonas urbanas,** con entre **20 y 80 residentes,** que ya utilicen herramientas digitales básicas. También se orientará a **familiares y apoderados** que busquen un **seguimiento transparente y continuo** del estado de salud de sus seres queridos.
 
-Sabremos que tenemos éxito cuando observemos **mayor transparencia y confianza entre casas de reposo y familiares, tiempos de respuesta más rápidos ante eventos médicos, mayor participación de los usuarios en la plataforma y una reducción medible de los errores de comunicación.**
+Sabremos que tenemos éxito cuando observemos **mayor transparencia y confianza entre los administradores de casas de reposo y familiares de los adultos mayores, tiempos de respuesta más rápidos ante eventos médicos, mayor participación de los usuarios en la plataforma y una reducción medible de los errores de comunicación.**
 
 #### 1.2.2.2. Lean UX Assumptions
 
