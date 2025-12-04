@@ -1,8 +1,8 @@
 
-<h2 id="requirementsElicitation">Capítulo II: Requirements Elicitation & Analysis</h2>
+# Capítulo II: Requirements Elicitation & Analysis
 
-<h3 id="competitors">2.1. Competidores</h3>
-<h4 id="competitiveAnalysis">2.1.1. Análisis competitivo</h4>
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif;">
     <tr>
@@ -21,7 +21,7 @@
         <td colspan="3"></td>
         <td style="text-align:center;">
             <strong>Veyra</strong><br>
-            <img src="../images/VEYRA.jpg" alt="Veyra" style="width:100px;">
+            <img src="../images/veyralogo.jpeg" alt="Veyra" style="width:100px;">
         </td>
         <td style="text-align:center;">
             <strong>StoriiCare</strong><br>
@@ -120,26 +120,21 @@
     </tr>
 </table>
 
-<h4 id="competitiveStrategies">2.1.2. Estrategias y tácticas frente a competidores</h4>
-<table border="1" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td>Estrategia</td><td>Tácticas Concretas </td>
-  </tr>
-  <tr>
-    <td>Diferenciación por especialización </td><td>Desarrollar funcionalidades específicas para adultos mayores: alertas de medicación, dietas especiales, permisos diferenciados para familiares, e integración futura con sensores IoT. </td>
-  </tr>
-  <tr>
-    <td>Enfoque en transparencia</td><td>Implementar acceso en tiempo real para familiares, reportes detallados, y notificaciones automáticas para generar confianza.</td>
-  </tr>
-  <tr>
-    <td>Integración con normativas locales</td><td>Asegurar cumplimiento con regulaciones latinoamericanas (ej. estándares de cuidado en México ), lo que competidores globales como StoriiCare no hacen.</td>
-  </tr>
-  <tr>
-    <td>Precios escalables y flexibles</td><td>Ofrecer planes modulares (Individual, Estándar, Premium) adaptados a distintos tamaños de residencias, con precios más competitivos que soluciones genéricas como CareCloud.</td>
-  </tr>
-</table>
-<h3 id="interviews">2.2. Entrevistas</h3>
-<h4 id="interviewDesign">2.2.1. Diseño de entrevistas</h4>
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Luego de haber realizado el análisis de nuestra solución con respecto a soluciones ya existentes, nuestro equipo procederá a plantear estrategias y tácticas que debemos poner en marcha para sobresalir de las otras soluciones.
+
+**Matriz CAME para el desarrollo de estrategias en base al análisis FODA**
+
+| **Análisis FODA cruzado** | **Oportunidades** | **Amenazas** |
+|---|---|---|
+| **Fortalezas (F)**<br>1. Especialización regional en normativa y necesidades de LATAM.<br>2. Diseño centrado en familias: acceso bidireccional familia ↔ residencia y comunicación en tiempo real.<br>3. Modelo modular de precios proyectado (freemium → estándar → premium). | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Alianzas académicas/institucionales con asociaciones geriátricas y universidades para certificación, formación y co-marketing.<br>2. Priorizar integraciones IoT/telemedicina en el roadmap (conectores para wearables, sensores de caída, medidores de signos vitales) y ofrecer paquetes piloto conjuntos con proveedores de hardware.<br>3. Implementar estrategia freemium → up-sell: plan entry para residencias pequeñas que permita adopción rápida y rutas de crecimiento a planes institucionales premium.<br>4. Campañas de posicionamiento como especialista LATAM destacando cumplimiento normativo local y enfoque humano-familiar. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Implementar y documentar políticas de protección de datos y seguridad adaptadas a LATAM, y comunicarlo claramente a clientes e instituciones.<br>2. Ofrecer soporte local y SLAs competitivos que las grandes plataformas globales no siempre proporcionan en la región.<br>3. Enfatizar diferenciadores de valor (transparencia con familias, formación continua, soporte local) en la comunicación para competir por valor, no solo por precio.<br>4. Diseñar funcionalidades con modo offline/parcial (sincronización cuando haya conectividad) para minimizar la fricción en zonas con conectividad limitada en LATAM.<br>5. Difundir resultados de pilotos y testimonios para contrarrestar la ventaja presupuestal y reputacional de competidores globales. |
+| **Debilidades (D)**<br>1. Bajo reconocimiento de marca (proyecto nuevo).<br>2. Recursos limitados (equipo y presupuesto) frente a los competidores.<br>3. Madurez limitada en integraciones empresariales completas (Facturación, contabilidad).<br>4. Necesidad de localización y validación en múltiples países de LATAM.| **Estrategia (DO) — Reorientación**<br>1. Validación rápida con Lean UX: ejecutar pruebas de usabilidad y pilotos documentados (usar wireframes, mockups y Product Backlog del repo) para generar testimonios y material comercial publicable.<br>2. Buscar subvenciones, programas públicos y fondos de digitalización para financiar pilotos y reducir el coste inicial para residencias piloto.<br>3. Generar contenido técnico y autoridad: whitepapers, casos de estudio y guías para decisores (directores clínicos / gerentes de casas de reposo) enfatizando seguridad.<br>4. Priorizar desarrollo de APIs públicas y conectores básicos (facturación, contabilidad, laboratorios) y ofrecer SDKs/documentación para integradores; esto reduce fricción de adopción en clientes con sistemas legados.<br>5. Crear un programa de partners/implementadores locales (consultoras e integradores) que permitan escalar despliegues sin aumentar fuertemente la plantilla interna. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar seguridad e infraestructura crítica: backups automáticos, alta disponibilidad, pruebas de penetración periódicas y planes de recuperación ante desastres para minimizar riesgos operacionales.<br>2. Aplicar una política de precios defensiva inicial: oferta entry-level competitiva y promociones temporales para ganar masa crítica en mercados clave y bloquear nichos frente a competidores low-cost.<br>3. Contratar auditorías externas y obtener certificaciones de seguridad/compliance que sirvan como sello de confianza ante reguladores y clientes institucionales.<br>4. Buscar aceleradoras, grants o socios estratégicos (capital/mentoría) que aporten recursos sin diluir el control del producto; negociar alianzas que incluyan soporte de implementación.<br>5. Formalizar un plan de gestión de incidentes y comunicación (scripts, FAQs, canales dedicados) para notificar rápidamente a residencias y familias y reducir impacto reputacional. |
+
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
 <h4 id="Segment" >Segmento objetivo: Administrador de casa de reposo</h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
 ¿Cuál es su nombre?.
@@ -182,7 +177,8 @@
  Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
  
 ¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo? 
-<h4 id="registerInterview">2.2.2. Registro de entrevistas</h4>
+
+### 2.2.2. Registro de entrevistas
 
 En esta sección presentamos los registros de las entrevistas que hicimos para cada segmento objetivo de nuestra aplicación.
 
@@ -219,16 +215,24 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>0:00 min - 10:35 min</td>
+    <td>0:00 min - 04:28 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		La entrevistada tiene 26 años de experiencia en la gestión de casas de reposo. Su rol combina labores administrativas con la supervisión del personal asistencial. La comunicación con familiares se realiza de forma permanente por teléfono, WhatsApp y videollamadas. Entre los principales desafíos, destacó la pandemia, que exigió un control minucioso y protocolos estrictos de bioseguridad. La gestión de la información se lleva en expedientes físicos y bases de datos básicas, donde registran evolución del paciente, medicación, higiene, actividades recreativas y útiles de aseo. Mantienen comunicación constante con las familias e incentivan su participación.
+		La Lic. Milagros Caycho Mata es una profesional con 26 años de experiencia en la gestión del centro residencial “La Virgen de la Medalla Milagrosa”. Se caracteriza por una personalidad metódica, organizada y de liderazgo colaborativo, con un enfoque claro hacia la mejora continua y la innovación gradual. Su tono comunicativo es sereno y reflexivo, evidenciando una alta empatía hacia los adultos mayores y su personal de trabajo.
+
+En su rol, coordina tanto la parte administrativa como la supervisión asistencial, lo cual la mantiene en contacto constante con distintos actores (médicos, cuidadores, familiares). Destaca que la comunicación con las familias es fundamental y se realiza principalmente mediante llamadas telefónicas, mensajes de WhatsApp y videollamadas, sobre todo en casos donde los familiares viven en el extranjero. Promueve además las visitas presenciales como parte del vínculo emocional entre residente y familia.
+
+En cuanto a tecnología, utiliza una base de datos local para registrar la información de los residentes, aunque sin un sistema especializado. Complementa esta gestión con expedientes físicos y planillas digitales elaboradas en programas de ofimática, principalmente Microsoft Excel. Su nivel de alfabetización digital es intermedio: domina las herramientas básicas de oficina y comunicación, pero reconoce que la integración tecnológica total aún es un desafío. Utiliza una computadora de escritorio para gestión administrativa y un smartphone (probablemente Android) para mensajería. Se infiere que su navegador habitual es Google Chrome.
+
+Entre las marcas o herramientas que influyen en su trabajo, menciona indirectamente los servicios de Microsoft y WhatsApp como indispensables. Durante la pandemia, implementó por iniciativa propia la comunicación por videollamada, lo que demuestra una capacidad de adaptación y resiliencia frente a la crisis sanitaria.
+
+Los principales desafíos que enfrenta son la duplicidad de registros (físicos y digitales), la fragmentación de la información y la dificultad para mantener la trazabilidad de los datos clínicos de cada residente. Considera vital una herramienta que le permita centralizar toda la información en un solo lugar y mejorar la comunicación con los familiares.
 </td>
   </tr>
 </tbody>
@@ -265,16 +269,24 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>10:35 min - 24:55 min</td>
+    <td>04:29 min - 08:16 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado, con 21 años de experiencia, dirige tres casas de reposo. La comunicación con familiares se realiza mediante grupos de WhatsApp, lo que permite informar de forma inmediata y a todos los miembros a la vez. Señala que el mayor inconveniente está en la rotación de personal, más que en la organización interna. Actualmente gestionan la información en formato físico (historias clínicas, contratos, tarjetas de medicación), mientras que los temas administrativos los maneja en Excel, donde lleva un control detallado de gastos e ingresos. Considera necesario digitalizar el sistema para evitar pérdida de documentos y optimizar procesos. Para una plataforma de gestión, sugiere incluir secciones simples para contratos, historias clínicas, informes médicos, archivos adjuntos y un módulo de información básica accesible a los familiares.
+		El Sr. Oscar Navarrete, gerente general con 21 años de experiencia en la administración de una residencia geriátrica, muestra una personalidad estructurada, disciplinada y altamente orientada al control y la eficiencia. Se autodescribe como alguien “de cuadros y procesos”, lo que refleja su estilo de gestión metódico y basado en la planificación.
+
+Su canal de comunicación principal con los familiares es WhatsApp, donde organiza grupos por cada residente para enviar información de manera simultánea y transparente. Valora la inmediatez, la trazabilidad de los mensajes y la participación colectiva de los familiares, incluso aquellos que residen fuera del país.
+
+Tecnológicamente, Navarrete se considera usuario experimentado de Microsoft Excel, herramienta con la cual gestiona desde finanzas hasta control de inventario y pagos. Sin embargo, el manejo de las historias clínicas sigue siendo completamente físico. Reconoce que le cuesta adaptarse a nuevas plataformas (“más difícil que me metan otras cosas”), aunque manifiesta interés en digitalizar los expedientes médicos para mejorar el orden y la accesibilidad. Utiliza una laptop personal y un smartphone Android, con navegadores como Microsoft Edge y Google Chrome.
+
+Su marca de referencia es Microsoft, por la estabilidad de sus herramientas. En términos de influencias, menciona que toma como modelo de organización los sistemas hospitalarios del MINSA, aunque considera que estos son “muy complejos” para el entorno residencial.
+
+Entre sus principales problemas se encuentran la falta de digitalización clínica, la dependencia excesiva del personal técnico y la dificultad para estandarizar la comunicación con familiares. Considera esencial una plataforma de gestión digital sencilla, funcional y adaptada al contexto de residencias, que no requiera conocimientos técnicos avanzados y permita acceso rápido a información relevante.
 </td>
   </tr>
 </tbody>
@@ -311,16 +323,24 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>24:55 min - 30:21 min</td>
+    <td>08:16 min - 12:20 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado señaló que el principal desafío es personalizar la atención, ya que cada adulto mayor tiene necesidades diferentes. En comunicación, un problema frecuente es que los familiares no siempre están disponibles. Actualmente gestionan la información en un sistema propio de la casa de reposo, aunque este resulta complejo y presenta limitaciones, especialmente en la gestión de recetas médicas, que no siempre están integradas. Considera esencial que una plataforma de gestión sea amplia, integrando todos los aspectos médicos y administrativos en un solo lugar, incluyendo recetas externas. También destacó la importancia de notificaciones claras y rápidas a los familiares.
+		Recoba Valenzuela es un cuidador joven con experiencia previa en entornos hospitalarios. Su personalidad es práctica, empática y centrada en la acción, con una visión operativa del trabajo diario. Se enfoca en atender las necesidades individuales de los adultos mayores, destacando la importancia de la personalización del cuidado.
+
+Indica que la comunicación con los familiares se da mediante llamadas, SMS y WhatsApp, aunque a veces depende de un solo contacto que no siempre responde, lo que genera retrasos y confusiones.
+
+Respecto al uso tecnológico, maneja un nivel básico a intermedio: utiliza smartphone para comunicación y una computadora compartida en el centro. Comenta que en su trabajo anterior se implementó un sistema digital “muy complejo”, con una mala experiencia debido a su baja usabilidad y la falta de integración de módulos (por ejemplo, las recetas no estaban sincronizadas con los registros médicos).
+
+No menciona marcas específicas, pero deja claro que valora la simplicidad, accesibilidad y rapidez en una herramienta digital. Considera que una plataforma adecuada debe centralizar toda la información del residente (recetas, citas, informes, alertas) y permitir múltiples canales de notificación para mantener informada a la familia.
+
+Su experiencia revela la necesidad de interfaces intuitivas y accesibles al personal operativo, con funcionalidades que faciliten su labor sin sobrecargarla con tareas digitales complejas.
 </td>
   </tr>
 </tbody>
@@ -359,16 +379,22 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>30:21 min - 32:48 min</td>
+    <td>12:21 min - 14:46 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		La entrevistada, comerciante de Sullana, señala que le gustaría tener información del tratamiento y evolucion de su familiar mientras está trabajando. También menciona que cuando ocurre una urgencia médica, nunca se entera de lo sucedido a tiempo. Finalmente, le gustaría que la plataforma sea intuitiva y sencillo de usar.
+		Ivonne Madrid es una comerciante de 49 años, residente en Sullana, de personalidad práctica, empática y orientada a la familia. Muestra un nivel intermedio de competencia digital: utiliza constantemente su smartphone para negocios y redes sociales, pero no es usuaria avanzada de sistemas especializados.
+
+Su principal frustración es la falta de acceso inmediato y confiable a la información médica de su familiar residente. Señala que cuando ocurre una urgencia médica, suele enterarse con mucho retraso o solo cuando logra comunicarse con el personal, lo que le genera ansiedad y desconfianza.
+
+Ivonne utiliza principalmente WhatsApp, llamadas y Facebook Messenger para comunicarse. Usa Google Chrome como navegador en su laptop personal y aplicaciones móviles en su teléfono Android.
+
+Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tratamientos, medicamentos, citas médicas, actividades y alertas. Subraya que su confianza aumentaría si la plataforma es segura, intuitiva y actualizada en tiempo real. Su motivación principal es poder monitorear la salud de su familiar sin depender de intermediarios.
 </td>
   </tr>
 </tbody>
@@ -405,16 +431,22 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>32:48 min - 38:59 min</td>
+    <td>14:47 min - 19:27 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado, señaló que tiene dificultades para obtener información clara y oportuna, pues debe llamar varias veces y recibe datos breves o inconsistentes. Le gustaría acceder de forma organizada al estado de salud, medicación, citas, resultados médicos y reportes de alimentación o actividades. Indicó que se sentiría cómodo usando una plataforma web segura, fácil y accesible desde cualquier dispositivo. Sobre las urgencias, comentó que hoy se entera solo por llamadas, a veces con demoras, y preferiría notificaciones inmediatas por varios canales. Finalmente, resaltó que confiaría en la plataforma si garantiza seguridad, acceso restringido, información actualizada, comunicación directa con el personal y protocolos claros en emergencias.
+		Leo Gómez, de 30 años, es un profesional joven encargado del cuidado de su abuela. Posee una personalidad analítica, racional y metódica, con alta afinidad por la tecnología. Considera que la comunicación con el centro geriátrico es ineficiente, pues debe llamar varias veces para recibir información fragmentada.
+
+Utiliza smartphone, laptop y tablet en su vida diaria, tanto para el trabajo como para el seguimiento familiar. Sus navegadores principales son Google Chrome y Safari, y está habituado al uso de herramientas digitales como Google Drive, Zoom y Gmail.
+
+Su frustración radica en la falta de reportes médicos completos y oportunos. Quiere acceder a información sobre medicación, chequeos médicos, alimentación y actividades recreativas en una plataforma segura. Le gustaría recibir notificaciones inmediatas ante cambios en el estado de salud o emergencias.
+
+Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acceso restringido y comunicación directa con el personal. Representa al segmento de usuarios jóvenes, digitales y demandantes de transparencia.
 
 </td>
   </tr>
@@ -452,392 +484,295 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312932_upc_edu_pe/EaQiu80hMRRHqX6_496l0K4BlrFUbLLE_l3BdRLyircE6Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iLdPe9" title="Title">Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td>38:59 min - 41:57 min</td>
+    <td>19:28 min - 22:33 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El entrevistado señaló que enfrenta dificultades para acceder a información sobre la salud de su familiar, ya que debe esperar llamadas de la casa de reposo y muchas veces la información no llega de manera inmediata, lo que le genera preocupación, sobre todo en temas médicos o de medicación. Expresó que le gustaría consultar de forma organizada la medicación diaria, informes de chequeos médicos, citas programadas y cambios en el tratamiento. Indicó sentirse cómodo utilizando plataformas web para este propósito, ya que está familiarizado con herramientas digitales en su trabajo y considera que centralizar la información sería de gran ayuda. Respecto a las urgencias médicas, comentó que suele enterarse por teléfono, pero no siempre de inmediato, lo cual le provoca ansiedad al no poder estar informado en tiempo real. Finalmente, afirmó que una plataforma de este tipo le generaría confianza si es segura, rápida, confiable, con información actualizada y con alertas instantáneas ante urgencias o cambios en la salud de su mamá.
+		Jonathan Ramírez, de 40 años, es apoderado legal de su madre residente. Posee una personalidad responsable, reflexiva y tecnológica, con experiencia en el uso de plataformas digitales en su entorno laboral.
+
+Actualmente recibe información sobre su madre solo mediante llamadas telefónicas, las cuales suelen demorar. Esto le genera incertidumbre, especialmente en temas médicos y de medicación. Utiliza laptop, smartphone y correo electrónico, y su navegador principal es Google Chrome.
+
+Su perfil tecnológico es alto: maneja herramientas como Microsoft Teams, Google Drive y aplicaciones de comunicación corporativa. Busca una plataforma que le ofrezca transparencia, inmediatez y trazabilidad de la información médica, incluyendo medicación diaria, resultados de exámenes, citas programadas y alertas ante urgencias.
+
+Expresa que confiaría en un sistema como Veyra siempre que sea rápido, confiable, seguro y con interfaz clara, destacando la importancia de las alertas automáticas para mantener la tranquilidad familiar.
 </td>
   </tr>
 </tbody>
 </table>
 
-<h4 id="analysisInterview">2.2.3. Análisis de entrevistas</h4>
+### 2.2.3. Análisis de entrevistas
 
 El objetivo de las entrevistas fue identificar los problemas, necesidades y expectativas de los **administradores de casas de reposo** y los **familiares de adultos mayores**, con el fin de validar hipótesis sobre la comunicación, gestión de información y funciones necesarias en una aplicación que facilite la coordinación y el cuidado.
+<td><img src="../images/Administradores.png" alt="Administradores"></td>
+<td><img src="../images/Familiares.png" alt="Administradores"></td>
+<td><img src="../images/Comparativo-SegmentosObjetivos.png" alt="Administradores"></td>
 
-### Síntesis de hallazgos  
-
-#### Canales de comunicación  
-Actualmente predominan las **llamadas telefónicas (50%)** y **WhatsApp (33.3%)**, mientras que las videollamadas son poco frecuentes (16.7%). Esto indica la necesidad de centralizar la comunicación en un único sistema confiable.  
-
-**Tabla de resultados:**
-
-| Canal         | Porcentaje |
-|---------------|------------|
-| Llamadas      | 50%        |
-| WhatsApp      | 33.3%      |
-| Videollamadas | 16.7%      |
-
-#### Gestión de información  
-Un **33.3% aún depende de papel o Excel**, un **16.7% usa sistemas propios** y el resto emplea métodos variados. Esto evidencia falta de estandarización en la gestión de datos.  
-
-**Tabla de resultados:**
-
-| Método           | Porcentaje |
-|------------------|------------|
-| Papel/Excel      | 33.3%      |
-| Sistema propio   | 16.7%      |
-| Otros            | 50%        |
-
-#### Problemas más frecuentes  
-Los principales problemas reportados fueron:  
-
-- **Urgencias sin aviso (50%)**  
-- **Procesos manuales y duplicados (33.3%)**  
-- **Rotación de personal y dificultad de continuidad (16.7%)**  
-- **Sistemas complejos que dificultan el uso (16.7%)**  
-
-**Tabla de resultados:**
-
-| Problema                      | Porcentaje |
-|-------------------------------|------------|
-| Urgencias sin aviso           | 50%        |
-| Procesos manuales/duplicados  | 33.3%      |
-| Rotación de personal          | 16.7%      |
-| Sistemas complejos            | 16.7%      |
-
-#### Funciones más valoradas  
-Las funciones que los entrevistados consideran más útiles son:  
-
-- **Acceso organizado a la información (83.3%)**  
-- **Notificaciones inmediatas (66.7%)**  
-- **Interfaz sencilla (50%)**  
-- **Módulos para contratos y documentos (16.7%)**  
-
-**Tabla de resultados:**
-
-| Función                        | Porcentaje |
-|--------------------------------|------------|
-| Acceso organizado a la info    | 83.3%      |
-| Notificaciones inmediatas      | 66.7%      |
-| Interfaz sencilla              | 50%        |
-| Módulos contratos/documentos   | 16.7%      |
 
 ### Conclusiones  
-
 1. Existe una **fuerte necesidad de digitalización**: todavía se depende de llamadas, papel o Excel, lo que genera ineficiencia.  
 2. Los problemas más críticos se relacionan con **la falta de aviso en urgencias y la duplicidad de procesos**, lo que impacta directamente en la seguridad de los adultos mayores.  
 3. Las soluciones más esperadas giran en torno a **notificaciones automáticas, centralización de información y facilidad de uso**, lo que indica que la aplicación debe ser intuitiva y accesible.  
 4. Se valida la hipótesis de que tanto administradores como familiares requieren un sistema **integrado y confiable** para comunicación, gestión de información y alertas inmediatas.  
 
 
-<h3 id="needfinding">2.3. Needfinding</h3>
-<h4 id="userPersonas">2.3.1. User Personas</h4>
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
 
 A partir del análisis de entrevistas y la recolección de información sobre las dinámicas en casas de reposo, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Veyra. Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de gestión operativa como la necesidad de acceso confiable a información médica en tiempo real. La construcción de los *User Persona* permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
 
 **1) Segmento 1: Administradores de casas de reposo**
 
-Para los administradores se elaboró el User Persona **Recoba Funciyu Valenzuela Huaynillo**. Se consideraron factores como su edad, rol en la gestión de una casa de reposo, experiencia en la administración del cuidado de adultos mayores y su necesidad de optimizar procesos de comunicación y gestión de la información. Sus principales frustraciones giran en torno a la falta de un sistema centralizado para el control de historias clínicas, medicamentos y citas médicas, lo que genera demoras en la comunicación con familiares y dificultades en el seguimiento de residentes. Asimismo, se tomó en cuenta su familiaridad con herramientas digitales básicas y la necesidad de contar con una plataforma moderna, intuitiva y segura que le permita centralizar toda la información de manera ágil y confiable.
+Para los administradores se elaboró el User Persona **Mauricio Sánchez Valencia**. Se consideraron factores como su edad, rol en la gestión de una casa de reposo, experiencia en la administración del cuidado de adultos mayores y su necesidad de optimizar procesos de comunicación y gestión de la información. Sus principales frustraciones giran en torno a la falta de un sistema centralizado para el control de historias clínicas, medicamentos y citas médicas, lo que genera demoras en la comunicación con familiares y dificultades en el seguimiento de residentes. Asimismo, se tomó en cuenta su familiaridad con herramientas digitales básicas y la necesidad de contar con una plataforma moderna, intuitiva y segura que le permita centralizar toda la información de manera ágil y confiable.
 
-<img src="../images/User Persona 1.png" alt="User Persona 1" width="auto" height="480"/>
-
-<br>
-
-**2) Segmento 2: Familiares de adultos mayores**
-
-Para los familiares se elaboró el User Persona **Yvonne Madrid Risco**. Se consideraron aspectos como su edad, ocupación y su rol como familiar de un adulto mayor residente en una casa de reposo. Sus principales motivaciones están orientadas a mantenerse informada en tiempo real sobre el estado de salud, el tratamiento y la administración de medicamentos de su familiar, incluso mientras desarrolla sus actividades laborales. Entre sus frustraciones se encuentra la falta de información clara, la demora en las notificaciones sobre urgencias y la necesidad de depender de llamadas o visitas presenciales. Su perfil refleja una predisposición positiva hacia el uso de soluciones digitales, siempre que estas sean rápidas, confiables y fáciles de utilizar.
-
-<img src="../images/User Persona 2.png" alt="User Persona 2" width="auto" height="480"/>
-
-
-<h4 id="userTaskMatrix">2.3.2. User Task Matrix</h4>
-<p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#d9ead3;">
-    <th>Tarea</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
-  </tr>
-  <tr>
-    <td>Registrar y actualizar residentes</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Programar citas y agenda médica</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Generar y descargar reportes</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Notificar a familiares sobre cambios</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Coordinar al personal de cuidado</td>
-    <td>Occasionally</td>
-    <td>Medium</td>
-  </tr>
-</table>
-
-<br>
-
-<p><strong>Segmento 2 – Familiar de adulto mayor (Yvonne Madrid Risco)</strong></p>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#cfe2f3;">
-    <th>Tarea</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
-  </tr>
-  <tr>
-    <td>Consultar historial médico digital</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Recibir notificaciones en tiempo real</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Revisar agenda y recordatorios</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Comunicarse con el personal de cuidado</td>
-    <td>Occasionally</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Descargar reportes clínicos en PDF</td>
-    <td>Occasionally</td>
-    <td>Medium</td>
-  </tr>
-</table>
-
-<h4 id="userJourneyMapping">2.3.3. User Journey Mapping</h4>
-
-<p><strong>Segmento 1 – Administrador de casa de reposo (Recoba Funciyu Valenzuela)</strong></p>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#d9ead3;">
-    <th></th>
-    <th>AWARENESS</th>
-    <th>CONSIDERATION</th>
-    <th>PURCHASE</th>
-    <th>SERVICE</th>
-    <th>LOYALTY</th>
-  </tr>
-  <tr>
-    <td><strong>CUSTOMER ACTIONS</strong></td>
-    <td>Detecta la necesidad de digitalizar la gestión de residentes y mejorar la comunicación con familiares.</td>
-    <td>Evalúa si Veyra cumple con las normativas locales y se adapta a su flujo de trabajo.</td>
-    <td>Se registra en Veyra y configura su primera casa de reposo.</td>
-    <td>Usa el panel para gestionar residentes, citas y generar reportes.</td>
-    <td>Se beneficia de la eficiencia lograda, mantiene su suscripción y recomienda la plataforma.</td>
-  </tr>
-  <tr>
-    <td><strong>TOUCH POINTS</strong></td>
-    <td>Publicidad en redes sociales, recomendaciones de colegas, ferias del sector salud.</td>
-    <td>Webinars, demo guiada, comparativa con métodos tradicionales.</td>
-    <td>Sitio web de Veyra, registro en línea, onboarding inicial.</td>
-    <td>Panel web, soporte técnico, capacitaciones online.</td>
-    <td>Comunidad de usuarios, reportes avanzados, comunicación directa con soporte.</td>
-  </tr>
-  <tr>
-    <td><strong>CUSTOMER EXPERIENCE</strong></td>
-    <td>🤔</td>
-    <td>😐</td>
-    <td>😅</td>
-    <td>😃</td>
-    <td>😄</td>
-  </tr>
-  <tr>
-    <td><strong>PAIN POINTS</strong></td>
-    <td>Duda en abandonar su sistema manual con Excel y papeles.</td>
-    <td>No sabe si todo su personal se adaptará al nuevo sistema.</td>
-    <td>Al inicio le cuesta cargar información médica al sistema.</td>
-    <td>Necesita generar reportes rápidos y confiables para familiares.</td>
-    <td>Quiere personalización de métricas e integración futura con IoT.</td>
-  </tr>
-  <tr>
-    <td><strong>SOLUTIONS</strong></td>
-    <td>Mostrar casos de éxito locales y testimonios de otros administradores.</td>
-    <td>Ofrecer capacitaciones y soporte en la migración de datos.</td>
-    <td>Importación asistida de historiales médicos y residentes.</td>
-    <td>Reportes automáticos y notificaciones configurables.</td>
-    <td>Módulos avanzados, precios escalables y comunidad de soporte.</td>
-  </tr>
-</table>
-
-<br>
-
-<p><strong>Segmento 2 – Familiar de adulto mayor (Yvonne Madrid Risco)</strong></p>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
-  <tr style="background-color:#cfe2f3;">
-    <th></th>
-    <th>AWARENESS</th>
-    <th>CONSIDERATION</th>
-    <th>PURCHASE</th>
-    <th>SERVICE</th>
-    <th>LOYALTY</th>
-  </tr>
-  <tr>
-    <td><strong>CUSTOMER ACTIONS</strong></td>
-    <td>Se da cuenta de que no tiene información en tiempo real sobre la salud de su familiar.</td>
-    <td>Evalúa si la plataforma le permite acceder de forma fácil y rápida a reportes médicos.</td>
-    <td>Descarga la app Veyra e ingresa con el código asignado por el administrador.</td>
-    <td>Consulta el historial, recibe notificaciones y accede a la agenda de su familiar.</td>
-    <td>Usa la app con frecuencia, confía en la información recibida y recomienda la plataforma.</td>
-  </tr>
-  <tr>
-    <td><strong>TOUCH POINTS</strong></td>
-    <td>Recomendación del administrador, publicidad digital, boca a boca entre familiares.</td>
-    <td>Demo en la web, video explicativo de funciones familiares.</td>
-    <td>App móvil de Veyra (iOS/Android), registro con credenciales.</td>
-    <td>Interfaz móvil con notificaciones push y acceso a reportes.</td>
-    <td>Soporte en línea, comunidad de usuarios, nuevas funcionalidades.</td>
-  </tr>
-  <tr>
-    <td><strong>CUSTOMER EXPERIENCE</strong></td>
-    <td>😢</td>
-    <td>🤔</td>
-    <td>🙂</td>
-    <td>😃</td>
-    <td>😄</td>
-  </tr>
-  <tr>
-    <td><strong>PAIN POINTS</strong></td>
-    <td>Frustración por depender de llamadas para obtener información.</td>
-    <td>Duda si la información será confiable y segura.</td>
-    <td>Le cuesta familiarizarse con la app al inicio.</td>
-    <td>Desea información clara y notificaciones inmediatas.</td>
-    <td>Quiere más funciones como exportar reportes o seguimiento personalizado.</td>
-  </tr>
-  <tr>
-    <td><strong>SOLUTIONS</strong></td>
-    <td>Mostrar la seguridad de la plataforma y testimonios de otros familiares.</td>
-    <td>Explicar beneficios con ejemplos claros de uso.</td>
-    <td>Onboarding simple y tutorial interactivo en la app.</td>
-    <td>Alertas en tiempo real y reportes visuales fáciles de entender.</td>
-    <td>Lanzamiento de nuevas funcionalidades y precios accesibles.</td>
-  </tr>
-</table>
-
-<h4 id="empathyMap">2.3.4. Empathy Mapping</h4>
-
-Para la elaboración de los *Empathy Maps*, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Recoba Funciyu Valenzuela y Yvonne Madrid Risco) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
-
-**1) Segmento 1: Administradores de casas de reposo**
-
-<img src="../images/Empathy Mapping segmento 1.png" alt="Empathy Mapping 1" width="auto" height="370"/>
-
-En este mapa se analizó a Recoba Funciyu Valenzuela, un administrador joven con la responsabilidad de garantizar la calidad del servicio en una casa de reposo. Se identificó que piensa constantemente en la necesidad de organizar y centralizar la información médica y operativa de los residentes, ya que le preocupa que los procesos manuales generen errores y retrasos. Escucha las quejas de familiares por falta de comunicación oportuna y observa cómo sus colegas deben invertir tiempo en tareas repetitivas en lugar de enfocarse en el bienestar de los residentes. Recoba expresa la necesidad de contar con una solución moderna que mejore la gestión y actúa implementando estrategias de control básicas con las herramientas disponibles, aunque estas son limitadas. Su dolor principal es la sobrecarga administrativa y la falta de un sistema ágil, mientras que su ganancia esperada es lograr eficiencia en la gestión, confianza de los familiares y un mejor control de la información.
+<img src="../images/User Persona Segmento_1.png" alt="User Persona 1" width="auto" height="1900"/>
 
 <br>
 
 **2) Segmento 2: Familiares de adultos mayores**
 
-<img src="../images/Empathy Mapping segmento 2.png" alt="Empathy Mapping 2" width="auto" height="370"/>
+Para los familiares se elaboró el User Persona **Carmen Morales Quispe**. Se consideraron aspectos como su edad, ocupación y su rol como familiar de un adulto mayor residente en una casa de reposo. Sus principales motivaciones están orientadas a mantenerse informada en tiempo real sobre el estado de salud, el tratamiento y la administración de medicamentos de su familiar, incluso mientras desarrolla sus actividades laborales. Entre sus frustraciones se encuentra la falta de información clara, la demora en las notificaciones sobre urgencias y la necesidad de depender de llamadas o visitas presenciales. Su perfil refleja una predisposición positiva hacia el uso de soluciones digitales, siempre que estas sean rápidas, confiables y fáciles de utilizar.
 
-En este mapa se analizó a Yvonne Madrid Risco, una comerciante que busca mantenerse informada sobre el estado de salud de su familiar mientras desarrolla sus actividades diarias. Ella piensa en la tranquilidad que le daría tener acceso rápido y claro a la evolución médica, medicación y tratamientos de su ser querido. Escucha a otros familiares compartir la frustración por la falta de información y observa que depender de llamadas o visitas no siempre es suficiente. Yvonne suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa buscando cualquier canal de comunicación disponible para mantenerse al tanto. Su dolor principal es la incertidumbre y la demora en recibir notificaciones sobre emergencias, mientras que su ganancia esperada es tener confianza, tranquilidad y control al poder consultar la información médica en tiempo real desde cualquier lugar.
+<img src="../images/User Persona Segmento_2.png" alt="User Persona 2" width="auto" height="1900"/>
 
-
-<h3 id="bigPictureEventStorming">2.4. Big Picture Event Storming</h3>
-
-<h3 id="ubiquitousLanguage">2.5. Ubiquitous Language</h3>
+<h3>2.3.2. User Task Matrix</h3>
 <p>
-En este proyecto, cuyo objetivo principal es mejorar la transparencia y eficiencia en el cuidado de adultos mayores en casas de reposo mediante una plataforma web, 
-se ha definido el siguiente <strong>lenguaje ubicuo</strong> para garantizar claridad y consistencia entre usuarios, desarrolladores y stakeholders:
+El <em>User Task Matrix</em> concentra las tareas que realizan los segmentos considerados de este proyecto, independientemente de la existencia del software. 
+Se evalúan con dos criterios por cada User Persona: <strong>Frecuencia</strong> (Rarely / Occasionally / Often) e <strong>Importancia</strong> (Low / Medium / High).<br>
+Segmentos considerados: <strong>Administrador de casa de reposo (Mauricio Sánchez Valencia)</strong> y <strong>Familiar de adulto mayor (Carmen Morales Quispe)</strong>.
+</p>
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
+  <thead>
+    <tr style="background-color:#eef3f7;">
+      <th rowspan="2">Tarea</th>
+      <th colspan="2">Administrador – Mauricio Sánchez Valencia</th>
+      <th colspan="2">Familiar – Carmen Morales Quispe</th>
+    </tr>
+    <tr style="background-color:#eef3f7;">
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left;">Registrar y actualizar residentes</td>
+      <td>Often</td><td>High</td>
+      <td>Rarely</td><td>Low</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Programar citas y agenda médica</td>
+      <td>Often</td><td>High</td>
+      <td>Occasionally</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Generar y descargar reportes</td>
+      <td>Occasionally</td><td>High</td>
+      <td>Occasionally</td><td>Medium</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Notificar a familiares sobre cambios</td>
+      <td>Occasionally</td><td>High</td>
+      <td>—</td><td>—</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Coordinar al personal de cuidado</td>
+      <td>Occasionally</td><td>Medium</td>
+      <td>Rarely</td><td>Medium</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Consultar historial médico digital</td>
+      <td>Occasionally</td><td>High</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Recibir notificaciones en tiempo real</td>
+      <td>Rarely</td><td>Medium</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Revisar agenda y recordatorios</td>
+      <td>Often</td><td>High</td>
+      <td>Often</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Comunicarse con el personal de cuidado</td>
+      <td>Often</td><td>High</td>
+      <td>Occasionally</td><td>High</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Descargar reportes clínicos en PDF</td>
+      <td>Occasionally</td><td>High</td>
+      <td>Occasionally</td><td>Medium</td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="font-size:12px; color:#555; margin-top:6px;">
+Leyenda: “—” indica que la tarea no aplica para el segmento.
+</p>
+
+<p><strong>Análisis:</strong><br>
+El Administrador concentra tareas operativas y de control con <em>alta frecuencia e importancia</em>, destacando: registrar/actualizar residentes, programar agenda, revisar agenda y coordinar al personal, además de notificar a familiares sobre cambios. 
+El Familiar prioriza tareas de <em>seguimiento y comunicación</em> con alta frecuencia e importancia: consultar historial médico, recibir notificaciones en tiempo real y revisar agenda; además, mantiene comunicación con el personal cuando requiere aclaraciones. 
+Como coincidencia crítica para ambos, “revisar agenda y recordatorios” es <em>Often–High</em>, lo que justifica diseñar vistas de calendario claras y recordatorios fiables. 
+Las principales diferencias: el Administrador es dueño de procesos (creación/gestión de datos y notificación), mientras que el Familiar es consumidor de información (consulta, seguimiento y validación), lo que implica perfiles y permisos diferenciados en la solución.
+</p>
+
+### 2.3.3. User Journey Mapping
+
+<p><strong>Segmento 1 – Administrador de casa de reposo (Mauricio Sánchez Valencia)</strong></p>
+
+El User Journey Mapping de Mauricio representa el recorrido actual que experimenta como administrador de una casa de reposo, en la gestión diaria de información médica, coordinación con el personal y comunicación con familiares de los residentes.
+El mapa ilustra el proceso end-to-end, desde la recolección de datos de los pacientes hasta la generación de reportes y la respuesta a consultas externas.
+
+En la situación **As-Is**, Mauricio enfrenta un flujo de trabajo manual y fragmentado: revisa documentos físicos, consolida información en hojas de cálculo y mantiene la comunicación por canales informales como llamadas o mensajes.
+Esto genera demoras, sobrecarga de tareas y posibles errores en la actualización de datos.
+
+El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando las emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Decision-Making).
+Este análisis servirá como base para diseñar una solución tecnológica que automatice procesos, mejore la eficiencia y facilite la interacción entre administración, personal y familiares.
+
+<img src="../images/Journey Map Segmento_1.png" alt="Journey Map Segmento 1" width="auto" height="450"/>
+
+<br>
+
+
+<p><strong>Segmento 2 – Familiar de adulto mayor (Carmen Morales Quispe)</strong></p>
+
+El User Journey Mapping de Carmen describe la experiencia completa que vive como familiar de un adulto mayor residente en la casa de reposo, desde el momento en que busca información sobre su ser querido hasta que recibe actualizaciones sobre su estado de salud.
+El mapa detalla las etapas de su recorrido end-to-end, reflejando las acciones, pensamientos, emociones y frustraciones que enfrenta actualmente sin contar con una plataforma digital centralizada.
+
+En la situación **As-Is**, Carmen depende de medios tradicionales como llamadas telefónicas, correos o mensajes de WhatsApp para comunicarse con el personal del centro.
+Esto provoca demoras, pérdida de información y una sensación constante de incertidumbre sobre el bienestar de su familiar.
+
+El Journey permite comprender su perspectiva emocional y sus puntos de dolor, mostrando los momentos clave en los que necesita información rápida, confiable y accesible.
+Este análisis busca sentar las bases para una futura solución tecnológica que le brinde tranquilidad, transparencia y confianza, fortaleciendo su vínculo con el centro y con el cuidado de su familiar.
+
+<img src="../images/Journey Map Segmento_2.png" alt="Journey Map Segmento 2" width="auto" height="450"/>
+
+<br>
+
+### 2.3.4. Empathy Mapping
+
+Para la elaboración de los *Empathy Maps*, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Mauricio Sánchez Valencia y Carmen Morales Quispe) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
+
+**Segmento 1: Administradores de casas de reposo**
+
+<img src="../images/Empathy map Segmento_1.png" alt="Empathy Mapping 1" width="auto" height="1400"/>
+
+En este mapa se analizó a Mauricio Sánchez Valencia, un administrador joven con la responsabilidad de garantizar la calidad del servicio en una casa de reposo. Se identificó que piensa constantemente en la necesidad de organizar y centralizar la información médica y operativa de los residentes, ya que le preocupa que los procesos manuales generen errores y retrasos. Escucha las quejas de familiares por falta de comunicación oportuna y observa cómo sus colegas deben invertir tiempo en tareas repetitivas en lugar de enfocarse en el bienestar de los residentes. Mauricio expresa la necesidad de contar con una solución moderna que mejore la gestión y actúa implementando estrategias de control básicas con las herramientas disponibles, aunque estas son limitadas. Su dolor principal es la sobrecarga administrativa y la falta de un sistema ágil, mientras que su ganancia esperada es lograr eficiencia en la gestión, confianza de los familiares y un mejor control de la información.
+
+<br>
+
+**Segmento 2: Familiares de adultos mayores**
+
+<img src="../images/Empathy map Segmento_2.png" alt="Empathy Mapping 2" width="auto" height="1400"/>
+
+En este mapa se analizó a Carmen Morales Quispe, una comerciante que busca mantenerse informada sobre el estado de salud de su familiar mientras desarrolla sus actividades diarias. Ella piensa en la tranquilidad que le daría tener acceso rápido y claro a la evolución médica, medicación y tratamientos de su ser querido. Escucha a otros familiares compartir la frustración por la falta de información y observa que depender de llamadas o visitas no siempre es suficiente. Carmen suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa buscando cualquier canal de comunicación disponible para mantenerse al tanto. Su dolor principal es la incertidumbre y la demora en recibir notificaciones sobre emergencias, mientras que su ganancia esperada es tener confianza, tranquilidad y control al poder consultar la información médica en tiempo real desde cualquier lugar.
+
+
+## 2.4. Big Picture Event Storming
+
+**Step 1 – Free Exploration**
+
+En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para capturar todos los eventos relevantes dentro del dominio, sin preocuparse por el orden o la jerarquía.
+El objetivo principal fue representar los acontecimientos reales del negocio, de manera independiente a cualquier función técnica o relacionada con un sistema.
+
+<img src="../images/step1-big picture event storming.png" alt="bigpicture" style="width:1000px;">
+
+
+**Step 2 – Structured Organization**
+
+Después de listar los eventos, el equipo los organizó en flujos de negocio lógicos que reflejan las principales etapas en la operación de una casa de reposo.
+Esta estructura ayudó a identificar los procesos clave y las áreas de mejora que posteriormente podrían abordarse mediante soluciones digitales o de gestión.
+
+<img src="../images/step2-big picture event storming.png" alt="bigpicture" style="width:1000px;">
+
+## 2.5. Ubiquitous Language
+<p>
+In this project, whose main objective is to improve transparency and efficiency in elderly care within nursing homes through a web platform, 
+the following <strong>ubiquitous language</strong> has been defined to ensure clarity and consistency among users, developers, and stakeholders:
 </p>
 
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
-    <td><strong>Término</strong></td>
-    <td><strong>Definición</strong></td>
+    <td><strong>Term</strong></td>
+    <td><strong>Definition</strong></td>
   </tr>
   <tr>
-    <td>Residente</td>
-    <td>Persona adulta mayor que vive en una casa de reposo y cuyo cuidado clínico, actividades y bienestar son gestionados en la plataforma.</td>
+    <td>Resident</td>
+    <td>Elderly person living in a nursing home whose clinical care, activities, and well-being are managed on the platform.</td>
   </tr>
   <tr>
-    <td>Familiar</td>
-    <td>Usuario autorizado que accede a la información del residente, recibe notificaciones y participa en la supervisión del cuidado.</td>
+    <td>Family Member</td>
+    <td>Authorized user who accesses the resident’s information, receives notifications, and participates in the supervision of care.</td>
   </tr>
   <tr>
-    <td>Administrador</td>
-    <td>Responsable de la gestión global de la casa de reposo; gestiona residentes, personal, planes de suscripción y reportes.</td>
+    <td>Administrator</td>
+    <td>Responsible for the overall management of the nursing home; manages residents, staff, subscription plans, and reports.</td>
   </tr>
   <tr>
-    <td>Personal de cuidado</td>
-    <td>Médicos, enfermeras o cuidadores que registran en la plataforma datos de salud, tratamientos, citas y observaciones.</td>
+    <td>Care Staff</td>
+    <td>Doctors, nurses, or caregivers who record health data, treatments, appointments, and observations in the platform.</td>
   </tr>
   <tr>
-    <td>Historia clínica digital</td>
-    <td>Registro centralizado con información médica del residente (diagnósticos, alergias, medicamentos, controles, notas).</td>
+    <td>Digital Medical Record</td>
+    <td>Centralized record with the resident’s medical information (diagnoses, allergies, medications, check-ups, notes).</td>
   </tr>
   <tr>
-    <td>Tratamiento</td>
-    <td>Plan médico prescrito que puede incluir medicamentos, terapias y citas periódicas.</td>
+    <td>Treatment</td>
+    <td>Prescribed medical plan that may include medications, therapies, and periodic appointments.</td>
   </tr>
   <tr>
-    <td>Agenda médica</td>
-    <td>Conjunto de citas, recordatorios y actividades programadas para el residente; accesible a personal y familiares.</td>
+    <td>Medical Schedule</td>
+    <td>Set of appointments, reminders, and scheduled activities for the resident; accessible to staff and family members.</td>
   </tr>
   <tr>
-    <td>Alerta médica</td>
-    <td>Notificación automática generada por el sistema (ej. recordatorio de medicación, emergencia, cita próxima).</td>
+    <td>Medical Alert</td>
+    <td>Automatic notification generated by the system (e.g., medication reminder, emergency, upcoming appointment).</td>
   </tr>
   <tr>
-    <td>Reporte clínico</td>
-    <td>Documento digital generado automáticamente con información consolidada de la atención y evolución del residente.</td>
+    <td>Clinical Report</td>
+    <td>Digital document automatically generated with consolidated information on the resident’s care and progress.</td>
   </tr>
   <tr>
-    <td>Notificación</td>
-    <td>Mensaje emitido a familiares o personal sobre eventos relevantes (medicación, visitas, cambios clínicos).</td>
+    <td>Notification</td>
+    <td>Message sent to family members or staff about relevant events (medication, visits, clinical changes).</td>
   </tr>
   <tr>
-    <td>Panel de control</td>
-    <td>Vista principal para administradores y personal, que muestra métricas, reportes y estado general de los residentes.</td>
+    <td>Control Panel</td>
+    <td>Main view for administrators and staff, showing metrics, reports, and the overall status of residents.</td>
   </tr>
   <tr>
-    <td>Plan de suscripción</td>
-    <td>Modalidad de acceso a la plataforma (Individual, Estándar, Premium) que determina funcionalidades disponibles según la residencia.</td>
+    <td>Subscription Plan</td>
+    <td>Access modality to the platform (Individual, Standard, Premium) that defines available functionalities depending on the residence.</td>
   </tr>
   <tr>
-    <td>Módulo IoT (futuro)</td>
-    <td>Integración con dispositivos de monitoreo (brazaletes, sensores biométricos) para capturar datos de salud en tiempo real.</td>
+    <td>Session</td>
+    <td>Authenticated period in which a user (administrator, family member, or staff) accesses the system with secure credentials.</td>
   </tr>
   <tr>
-    <td>Sesión</td>
-    <td>Período autenticado en el que un usuario (administrador, familiar o personal) accede al sistema mediante credenciales seguras.</td>
+    <td>Family Dashboard</td>
+    <td>Simplified interface for family members, where they can check health status, appointments, and relevant notifications.</td>
   </tr>
   <tr>
-    <td>Dashboard familiar</td>
-    <td>Interfaz simplificada para familiares, donde pueden consultar estado de salud, citas y notificaciones relevantes.</td>
-  </tr>
-  <tr>
-    <td>Roles y permisos</td>
-    <td>Validaciones que garantizan que cada perfil (administrador, personal, familiar) acceda solo a las operaciones permitidas.</td>
+    <td>Roles and Permissions</td>
+    <td>Validations that ensure each profile (administrator, staff, family) only accesses the operations they are authorized for.</td>
   </tr>
 </table>
 
-<p><strong>Beneficios esperados del lenguaje ubicuo:</strong></p>
+<p><strong>Expected benefits of the ubiquitous language:</strong></p>
 <ul>
-  <li>Facilita la comunicación entre desarrolladores, usuarios y administradores del sistema.</li>
-  <li>Mejora la comprensión de las funcionalidades principales del sistema.</li>
-  <li>Evita ambigüedades y errores de interpretación en el diseño y la implementación.</li>
-  <li>Asegura consistencia en la documentación, interfaces y procesos del proyecto.</li>
+  <li>Facilitates communication among developers, users, and system administrators.</li>
+  <li>Improves understanding of the system’s main functionalities.</li>
+  <li>Avoids ambiguities and interpretation errors in design and implementation.</li>
+  <li>Ensures consistency in documentation, interfaces, and project processes.</li>
 </ul>
+
