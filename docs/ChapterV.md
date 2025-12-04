@@ -1981,6 +1981,220 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
 
 <img src="../images/contributors-sprint3.jpg" alt="contributors-sprint3">
 
+### 5.2.4. Sprint 4
+
+<p>
+  Durante el Sprint 4, el equipo se enfocó ...
+</p>
+
+<p>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a>
+</p>
+
+<p>
+  <strong>Repositorio Backend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</a>
+</p>
+
+<p>
+  <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+</p>
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>04/12/2025</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>12:50 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Ruiz Madrid, Billy Jake</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Calvo Yalan, Renato Guillermo<br>
+        Armas Sánchez, Oscar Javier<br>
+        Ramirez Carrasco, Ariana Lizeth<br>
+        Roman Lopez, Miguel Angel Junior<br>
+        Ruiz Madrid, Billy Jake<br>
+        Quiroz Caceres, Adrian Alonso
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 3 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 3 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 4 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+<em></em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 4 Velocity</td>
+      <td>18 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>18 SP (≈ 72 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+<p>
+  Para el Sprint 4 se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong>, 
+  donde se definen los roles de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) 
+  por aspecto clave del desarrollo.
+</p>
+
+<p>
+  Los aspectos clave se centran en el despliegue y la implementación del Backend, que son la prioridad 
+  de este sprint.
+</p>
+
+<ul>
+  <li><strong>DevOps & Deployment:</strong> Configuración de variables de entorno, pipeline CI/CD y 
+  monitoreo del frontend desplegado.</li>
+  <li><strong>Backend Core (CRUD Operations):</strong> Implementación de la arquitectura MVC/Capas para 
+  la gestión de datos (Java Spring Boot, JPA).</li>
+  <li><strong>Authentication & Security:</strong> Desarrollo de los endpoints de registro/login, JWT 
+  generation y configuración de seguridad.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspect: DevOps & Deploy</th>
+      <th>Aspect: Backend Core</th>
+      <th>Aspect: Auth & Security</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Armas Sánchez, Oscar Javier</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Calvo Yalan, Renato Guillermo</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ramirez Carrasco, Ariana Lizeth</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Roman Lopez, Miguel Angel Junior</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ruiz Madrid, Billy Jake</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Quiroz Caceres, Adrian Alonso</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+  Esta organización de roles garantiza que los aspectos críticos de despliegue y backend sean cubiertos 
+  con especialización, mientras se mantiene la flexibilidad para que todos colaboren según sea necesario.
+</p>
+
+### 5.2.4.3. Sprint Backlog 4  
+
+El Sprint Backlog 4 incluye las ...
+
+Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+
+A continuación, la tabla de control de estado para el Sprint 4:
+
+| Sprint # | Sprint 4 |   |   |   |   |   |   |
+|---------|----------|---|---|---|---|---|---|
+| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+|  |  |  |  |  |  | [Asignado] | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+<p>
+
+</p>
+
+<img src="../images/overview-sprint4.jpg" alt="overview-sprint4">
+
+<p>
+
+</p>
+
+<img src="../images/network-graph-sprint4.jpg" alt="network-graph-sprint4">
+
+<p>
+
+</p>
+
+<img src="../images/contributors-sprint4.jpg" alt="contributors-sprint4">
+
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
