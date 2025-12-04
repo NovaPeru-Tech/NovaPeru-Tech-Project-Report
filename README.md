@@ -500,6 +500,122 @@
     y dejó la documentación lista para ser incluida en los anexos del informe.
   </td>
 </tr>
+<tr>
+  <td>4.0.0</td>
+  <td>09/11/2025</td>
+  <td>Ariana Ramirez Carrasco</td>
+  <td>
+    Se añadió la sección de <strong>Validation Interviews</strong> en el capítulo 5, documentando las entrevistas de validación con usuarios y sus principales hallazgos cualitativos. Este trabajo permitió cerrar el ciclo del Lean UX, conectando las hipótesis iniciales con la retroalimentación real y dejando trazabilidad de las mejoras sugeridas sobre la experiencia de uso de Veyra.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.1</td>
+  <td>16/11/2025</td>
+  <td>Oscar Armas Sánchez</td>
+  <td>
+    Se elaboró y amplió la <strong>documentación detallada de la API</strong> para residentes, medicamentos, perfiles de persona, casas de reposo, contratos, personal, residentes y endpoints de analytics, incorporando ejemplos de peticiones y respuestas JSON. Además, se documentó el <strong>proceso de despliegue en Azure</strong> y se añadieron imágenes para la sección <em>Team Collaboration Insights during Sprint</em>, fortaleciendo la evidencia técnica y de colaboración del capítulo 5.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.2</td>
+  <td>24/11/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Se reestructuraron las secciones del capítulo 5 relacionadas con los videos, añadiendo la sección <strong>5.4 Video About-the-Product</strong> con detalles de producción, así como la sección de <strong>Video About-the-Team</strong>, bibliografía y anexos. Esta actualización organizó de forma clara los recursos audiovisuales y de referencia del informe, dejando preparado el esqueleto final del documento.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.3</td>
+  <td>25/11/2025</td>
+  <td>Renato Calvo Yalan</td>
+  <td>
+    Se completó y refinó la documentación de los <strong>Sprints 1, 2 y 3</strong> en el capítulo 5, incorporando detalles de objetivos, planificación, ejecución y despliegue. Asimismo, se mejoró la descripción de la <strong>Software Configuration Management</strong>, del entorno de desarrollo, del manejo de código fuente y de la guía de estilos, dejando una versión robusta y coherente de la sección 5.1 y 5.2.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.4</td>
+  <td>26/11/2025</td>
+  <td>Renato Calvo Yalan</td>
+  <td>
+    Se actualizaron los <strong>diagramas de clases y de base de datos</strong> en el capítulo 4 para incluir de forma explícita los detalles de los bounded contexts de backend. Además, se ajustaron los enlaces a los diagramas (por ejemplo, el diagrama de Nursing Frontend en formato SVG), garantizando que las referencias visuales del diseño estuvieran alineadas con la implementación final.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.5</td>
+  <td>29/11/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Se corrigieron y consolidaron los <strong>Sprint Backlog 1, 2 y 3</strong> del capítulo 5, ajustando tareas, IDs de User Stories, tiempos estimados y estados. Esta revisión aseguró la trazabilidad entre el Product Backlog, los Sprints y la evidencia de desarrollo, alineando la documentación con el trabajo realmente ejecutado por el equipo.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.6</td>
+  <td>01/12/2025</td>
+  <td>Ariana Ramirez Carrasco</td>
+  <td>
+    Se revisó la sección de <strong>problemas críticos y recomendaciones</strong> del capítulo 5, afinando la redacción de los hallazgos de usabilidad y las propuestas de mejora. Asimismo, se actualizaron los enlaces y títulos de los videos (incluyendo el correspondiente al TB1), asegurando consistencia entre el informe escrito y los recursos audiovisuales entregados.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.0</td>
+  <td>02/12/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Se añadieron las <strong>Conclusiones y Recomendaciones</strong> del capítulo 1, cerrando la argumentación del informe con un balance de logros, limitaciones y trabajo futuro. En paralelo, se corrigieron las <strong>evaluaciones según heurísticas</strong> del capítulo 5, alineando la redacción de los resultados con la escala y criterios utilizados durante la evaluación de usabilidad.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.1</td>
+  <td>02/12/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Se unificó la <strong>estructura del capítulo 5</strong> y se corrigieron las secciones de <em>Sprint Planning 1, 2 y 3</em>, asegurando coherencia en títulos, numeración y redacción. Esta intervención dejó el capítulo listo para incorporar la documentación del Sprint 4 y facilitó la lectura secuencial de la implementación de la Landing Page, la Web Application y los Web Services.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.2</td>
+  <td>03/12/2025</td>
+  <td>Miguel Angel Junior Roman Lopez</td>
+  <td>
+    Se extendió el <strong>Product Backlog</strong> del capítulo 3 incorporando ítems relacionados con <strong>IoT y wearables para monitoreo de salud</strong>, junto con nuevas User Stories y requerimientos técnicos. Además, se actualizó la descripción general del backlog, se añadió la captura del artefacto y se ajustaron el <strong>análisis de entrevistas</strong> y la <strong>User Task Matrix</strong> en el capítulo 2, reforzando la alineación entre necesidades identificadas y funcionalidades priorizadas.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.3</td>
+  <td>04/12/2025</td>
+  <td>Ariana Ramirez Carrasco</td>
+  <td>
+    Se realizaron correcciones finales al <strong>Lean UX Process</strong> del capítulo 1, ajustando las suposiciones de negocio y la redacción de las Lean UX Features y Assumptions. De igual forma, se refinaron las secciones del capítulo 2 relacionadas con el <strong>diseño de entrevistas</strong>, tiempos y redacción de preguntas, y se corrigieron enlaces internos, garantizando consistencia conceptual y navegabilidad dentro del documento.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.4</td>
+  <td>04/12/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Se perfeccionó la sección de <strong>Impact Mapping</strong> del capítulo 3 y se ajustaron los diagramas del capítulo 4, asegurando que los deliverables y user stories reflejen fielmente los objetivos de negocio. Además, se añadió y documentó el <strong>Sprint 4</strong> en el capítulo 5, y se corrigieron los apartados de <em>Team Collaboration Insights during Sprint</em> para los Sprints 1, 2 y 3, dejando una visión completa y coherente de la colaboración del equipo a lo largo del proyecto.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.5</td>
+  <td>04/12/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Se actualizó la <strong>bibliografía y las referencias</strong> del capítulo 5, normalizando el formato de citación y verificando la concordancia entre las referencias utilizadas en los distintos capítulos y la lista final. Con esta tarea se cerró la depuración del documento, dejando el informe listo para su entrega como versión final.
+  </td>
+</tr>
   </tbody>
 </table>
 
