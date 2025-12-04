@@ -635,6 +635,46 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 <div style="page-break-after: always;"></div>
 
+**Reporte de colaboración de la entrega del TF**:
+
+En esta fase final, el equipo Veyra centró sus esfuerzos en la consolidación final del proyecto. Esta etapa se caracterizó por una coordinación técnica más madura, una revisión exhaustiva de los artefactos producidos en versiones previas y la integración coherente entre UX, frontend, backend y documentación. Además, se incorporaron mejoras solicitadas por el profesor y se completaron los ajustes necesarios para garantizar que el informe final reflejara una propuesta sólida, funcional y bien fundamentada.
+
+A continuación se describen los aportes individuales de cada miembro durante esta entrega:
+
+**Ariana Ramírez Carrasco**
+
+
+**Renato Calvo Yalán**
+
+
+**Billy Jake Ruiz Madrid**
+
+
+**Oscar Armas Sánchez**
+
+
+**Miguel Ángel Junior Román López**
+
+
+**Adrian Alonso Quiroz Caceres**
+
+
+Durante la fase final se evidenció una colaboración madura entre los equipos de UX, frontend, backend e investigación. Las contribuciones en GitHub demostraron un incremento en commits, revisiones cruzadas y validaciones técnicas compartidas. Esta integración fortaleció la consistencia entre los artefactos visuales, la arquitectura del sistema y la documentación técnica, consolidando una entrega final cohesionada, estable y alineada con los objetivos del curso.
+
+<img src="images/commits1tf.png" alt="Veyra" style="width:830px;">
+
+
+<img src="images/commits2tf.png" alt="Veyra" style="width:auto;">
+
+
+**Ramificación del proyecto usando GitFlow:**
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+<img src="images/ramificacion4.png" alt="Veyra" style="width:auto;">
+
+<div style="page-break-after: always;"></div>
+
 <h2>Tabla de contenido</h2>
 
 - [Capítulo I: Introducción](https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report/blob/main/docs/ChapterI.md#cap%C3%ADtulo-i-introducci%C3%B3n)
