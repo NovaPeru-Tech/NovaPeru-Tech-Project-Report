@@ -159,6 +159,8 @@
   </li>
 </ul>
 
+<div style="page-break-after: always;"></div>
+
 ### 5.1.2. Source Code Management
 
   <p>
@@ -597,6 +599,8 @@ public class ResidentController {
     And the resident should not be registered
 </code></pre>
 
+<div style="page-break-after: always;"></div>
+
 ### 5.1.4. Software Deployment Configuration
 
   <p>
@@ -972,6 +976,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 <p>
   Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VEYRA, 
@@ -1042,18 +1048,26 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a>
 </p>
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+<div style="page-break-after: always;"></div>
 
-<img src="../assets/img/chapter-V/overview-sprint1.png" alt="overview-sprint1">
-
-<img src="../assets/img/chapter-V/network-graph-sprint1.png" alt="network-graph-sprint1">
-
-<img src="../assets/img/chapter-V/visitors-sprint1.png" alt="visitors-sprint1">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 1, los analíticos de colaboración de GitHub muestran una participación activa y continua de todos los miembros del equipo sobre el repositorio de la Landing Page. En el panel de Overview se observa un flujo constante de commits distribuidos a lo largo de los días del sprint, lo que evidencia que las tareas de implementación de las distintas secciones (hero, servicios, planes, equipo, testimonios, contacto y footer) se desarrollaron de manera incremental y coordinada. Cada integrante realizó aportes directos al código, ya sea mediante la creación de nuevas secciones, ajustes de estilos responsivos o correcciones derivadas de las revisiones entre pares, asegurando así que el entregable del sprint se construyera de forma colaborativa y no centralizada en una sola persona.
+</p>
 
 ![overview-spring1.png](../assets/img/chapter-V/overview-spring1.png)
+<p>
+El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio. De este modo, la colaboración no solo se dio a nivel de cantidad de commits, sino también en la forma de trabajo estructurada y compatible con las prácticas ágiles del equipo.
+</p>
+
 ![network-graph-sprint1.png](../assets/img/chapter-V/network-graph-sprint1.png)
+
+<p>
+Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Landing Page, el repositorio comenzó a recibir visitas y visualizaciones, lo que sugiere interés progresivo en el producto por parte de stakeholders y del propio equipo durante las actividades de revisión y validación. En conjunto, estos analíticos de colaboración y actividad en GitHub demuestran que todos los integrantes tuvieron participación efectiva en la implementación del producto del Sprint (Landing Page) y sientan la base para replicar este mismo patrón de trabajo en los siguientes sprints, donde se abordarán la Web Application y los Web Services.
+</p>
+
 ![visitors-sprint1.png](../assets/img/chapter-V/visitors-sprint1.png)
 
 ### 5.2.2. Sprint 2
@@ -1500,12 +1514,23 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
+<p>
+Durante el Sprint 2, los analíticos de colaboración del repositorio NovaPeruTech-Frontend evidencian una participación constante de todos los integrantes del equipo sobre el código de la aplicación web VEYRA. A lo largo del sprint se registran commits frecuentes asociados a la implementación de los módulos de gestión de tareas, miembros y grupos, así como a la integración con los servicios REST del backend y a las mejoras visuales con Angular y Angular Material. Esta actividad distribuida confirma que la construcción de la Web Application se realizó de forma incremental, respetando las responsabilidades definidas en el Sprint 2 Goal y la matriz LACX (API Integration, Task UI, Members & Groups), y evitando la concentración del desarrollo en un solo miembro.
+</p>
+
 <img src="../images/overview-sprint2.jpg" alt="overview-sprint2">
+
+<p>
+El Network Graph correspondiente al Sprint 2 muestra un uso activo del flujo de trabajo basado en GitFlow, con ramas de características (features) creadas para la integración Frontend–Backend, la interfaz de gestión de tareas y los componentes de miembros y grupos, que luego son fusionadas a la rama principal tras las respectivas revisiones de código. Este patrón de ramas y merges refleja que los líderes de cada aspecto coordinaron el trabajo con sus colaboradores, alineados con las prácticas definidas para el proyecto (feature branches, revisiones colaborativas y consolidación en main/develop), reforzando la trazabilidad y la calidad del código entregado durante el sprint.
+</p>
 
 <img src="../images/network-graph-sprint2.jpg" alt="network-graph-sprint2">
 
-<img src="../images/visitors-sprint2.jpg" alt="visitors-sprint2">
+<p>
+Finalmente, el gráfico de Visitors del repositorio frontend muestra un incremento de visitas y vistas de página conforme se acercan las fechas de integración y despliegue del producto, lo que sugiere que el equipo utilizó activamente el repositorio como punto central para revisar avances, validar funcionalidades y preparar la Sprint Review. En conjunto, estos analíticos de overview, network graph y visitors demuestran que, durante el Sprint 2, todos los miembros del equipo participaron efectivamente en la implementación del producto web (Web Application) y en su integración con los Web Services, cumpliendo con el principio de que cada integrante contribuya a los distintos productos definidos en el proyecto (Landing Page, Web Applications, Web Services) según el alcance de cada sprint.
+</p>
 
+<img src="../images/visitors-sprint2.jpg" alt="visitors-sprint2">
 
 ### 5.2.3. Sprint 3
 
@@ -1938,11 +1963,237 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+<p>
+Durante el Sprint 3, los analíticos de colaboración de los repositorios NovaPeruTech-Frontend y NovaPeruTech-Backend evidencian una participación activa y distribuida de todos los integrantes del equipo sobre los dos productos principales del proyecto: la Web Application (Frontend) y los Web Services (Backend). El gráfico de Overview muestra un volumen sostenido de commits a lo largo del sprint, asociado a la implementación de la capa de persistencia, la lógica de negocio en Spring Boot y los ajustes finales de integración y despliegue del Frontend. Esto refleja que las tareas no se concentraron en una sola persona, sino que cada miembro asumió responsabilidades específicas (servicios, entidades, controladores, componentes de UI, integración con la API en producción) y realizó aportes continuos hasta completar el objetivo del sprint, alineado con el enfoque en Backend y despliegue descrito en la sección de Sprint 3.
+</p>
+
 <img src="../images/overview-sprint3.jpg" alt="overview-sprint3">
+
+<p>
+El Network Graph de ambos repositorios refuerza esta visión de trabajo colaborativo mediante la presencia de múltiples ramas de tipo feature/ que parten de develop o main y luego son fusionadas una vez completadas, siguiendo el GitFlow definido para el proyecto. Se observan ciclos de creación de ramas, desarrollo de funcionalidades (endpoints REST, servicios de negocio, integración del Frontend con la API de Azure) y merges controlados, lo que confirma que la coordinación entre líderes y colaboradores permitió avanzar en paralelo sin perder trazabilidad ni calidad del código.
+</p>
 
 <img src="../images/network-graph-sprint3.jpg" alt="network-graph-sprint3">
 
+<p>
+Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repositorios a medida que se acercan las fechas de pruebas e integración con el entorno de producción (https://veyrav01.azurewebsites.net/swagger-ui/index.html#/), indicando que el equipo utilizó GitHub como punto central para revisar avances, validar el comportamiento de la API desplegada y preparar la Sprint Review. En conjunto, estos analíticos de Overview, Network Graph y Visitors demuestran que, durante el Sprint 3, todos los miembros del equipo participaron efectivamente en la implementación y despliegue de los Web Services y la Web Application, cumpliendo con el principio establecido de involucrar a todos los integrantes en los productos clave del proyecto (Landing Page, Web Applications y Web Services) a lo largo de los sprints.
+</p>
+
 <img src="../images/contributors-sprint3.jpg" alt="contributors-sprint3">
+
+### 5.2.4. Sprint 4
+
+<p>
+  Durante el Sprint 4, el equipo se enfocó ...
+</p>
+
+<p>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a>
+</p>
+
+<p>
+  <strong>Repositorio Backend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</a>
+</p>
+
+<p>
+  <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+</p>
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>04/12/2025</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>12:50 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Ruiz Madrid, Billy Jake</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Calvo Yalan, Renato Guillermo<br>
+        Armas Sánchez, Oscar Javier<br>
+        Ramirez Carrasco, Ariana Lizeth<br>
+        Roman Lopez, Miguel Angel Junior<br>
+        Ruiz Madrid, Billy Jake<br>
+        Quiroz Caceres, Adrian Alonso
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 3 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 3 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 4 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+<em></em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 4 Velocity</td>
+      <td>18 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>18 SP (≈ 72 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+<p>
+  Para el Sprint 4 se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong>, 
+  donde se definen los roles de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) 
+  por aspecto clave del desarrollo.
+</p>
+
+<p>
+  Los aspectos clave se centran en el despliegue y la implementación del Backend, que son la prioridad 
+  de este sprint.
+</p>
+
+<ul>
+  <li><strong>DevOps & Deployment:</strong> Configuración de variables de entorno, pipeline CI/CD y 
+  monitoreo del frontend desplegado.</li>
+  <li><strong>Backend Core (CRUD Operations):</strong> Implementación de la arquitectura MVC/Capas para 
+  la gestión de datos (Java Spring Boot, JPA).</li>
+  <li><strong>Authentication & Security:</strong> Desarrollo de los endpoints de registro/login, JWT 
+  generation y configuración de seguridad.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspect: DevOps & Deploy</th>
+      <th>Aspect: Backend Core</th>
+      <th>Aspect: Auth & Security</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Armas Sánchez, Oscar Javier</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Calvo Yalan, Renato Guillermo</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ramirez Carrasco, Ariana Lizeth</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Roman Lopez, Miguel Angel Junior</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ruiz Madrid, Billy Jake</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Quiroz Caceres, Adrian Alonso</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+  Esta organización de roles garantiza que los aspectos críticos de despliegue y backend sean cubiertos 
+  con especialización, mientras se mantiene la flexibilidad para que todos colaboren según sea necesario.
+</p>
+
+### 5.2.4.3. Sprint Backlog 4  
+
+El Sprint Backlog 4 incluye las ...
+
+Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+
+A continuación, la tabla de control de estado para el Sprint 4:
+
+| Sprint # | Sprint 4 |   |   |   |   |   |   |
+|---------|----------|---|---|---|---|---|---|
+| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+|  |  |  |  |  |  | [Asignado] | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+<p>
+
+</p>
+
+<img src="../images/overview-sprint4.jpg" alt="overview-sprint4">
+
+<p>
+
+</p>
+
+<img src="../images/network-graph-sprint4.jpg" alt="network-graph-sprint4">
+
+<p>
+
+</p>
+
+<img src="../images/contributors-sprint4.jpg" alt="contributors-sprint4">
+
 
 ## 5.3. Validation Interviews
 
@@ -2697,32 +2948,58 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 ## Bibliografía
 
 <ul>
   <li>
-    Refactoring.Guru. (s.f.). <em>Design Patterns</em>. 
-    Recuperado de <a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>
+    Adzic, G. (s.f.). <em>Impact Mapping</em>. 
+    Recuperado de <a href="https://www.impactmapping.org/">https://www.impactmapping.org/</a>
   </li>
   <li>
-    Gothelf, J., & Seiden, J. (2021). <em>Lean UX: Designing Great Products with Agile Teams</em> (3rd ed.). 
-    O'Reilly Media.
+    Angular. (s.f.). <em>Angular Coding Style Guide</em>. 
+    Recuperado de <a href="https://angular.io/guide/styleguide">https://angular.io/guide/styleguide</a>
   </li>
   <li>
-    Evans, E. (2004). <em>Domain-Driven Design: Tackling Complexity in the Heart of Software</em>. 
-    Addison-Wesley Professional.
+    Brandolini, A. (s.f.). <em>Introducing EventStorming</em>. 
+    Recuperado de <a href="https://www.eventstorming.com/">https://www.eventstorming.com/</a>
   </li>
   <li>
-    Vernon, V. (2016). <em>Domain-Driven Design Distilled</em>. Addison-Wesley Professional.
+    CareerFoundry. (s.f.). <em>What are User Flows in User Experience (UX) Design?</em>. 
+    Recuperado de <a href="https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/">https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/</a>
   </li>
   <li>
-    Vernon, V. (s.f.). <em>Domain-Driven Design Reference</em>. 
-    Recuperado de <a href="https://domainlanguage.com/ddd/reference/">https://domainlanguage.com/ddd/reference/</a>
+    Cohn, M. (s.f.). <em>User Stories</em>. Mountain Goat Software. 
+    Recuperado de <a href="https://www.mountaingoatsoftware.com/agile/user-stories">https://www.mountaingoatsoftware.com/agile/user-stories</a>
   </li>
   <li>
-    Martin, R. C. (2017). <em>Clean Architecture: A Craftsman's Guide to Software Structure and Design</em>. 
-    Prentice Hall.
+    Cone, M. (s.f.). <em>The Markdown Guide</em>. 
+    Recuperado de <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
+  </li>
+  <li>
+    Conventional Commits. (s.f.). <em>Conventional Commits</em>. 
+    Recuperado de <a href="https://www.conventionalcommits.org/">https://www.conventionalcommits.org/</a>
+  </li>
+  <li>
+    Cucumber. (s.f.). <em>Gherkin Reference</em>. 
+    Recuperado de <a href="https://cucumber.io/docs/gherkin/reference/">https://cucumber.io/docs/gherkin/reference/</a>
+  </li>
+  <li>
+    Driessen, V. (2010). <em>A successful Git branching model</em>. nvie.com. 
+    Recuperado de <a href="https://nvie.com/posts/a-successful-git-branching-model/">https://nvie.com/posts/a-successful-git-branching-model/</a>
+  </li>
+  <li>
+    DZone. (s.f.). <em>Acceptance Criteria in Scrum: Explanation, Examples, and Template</em>. 
+    Recuperado de <a href="https://dzone.com/articles/acceptance-criteria-in-software-explanation-exampl">https://dzone.com/articles/acceptance-criteria-in-software-explanation-exampl</a>
+  </li>
+  <li>
+    Evans, E. (2004). <em>Domain-Driven Design: Tackling Complexity in the Heart of Software</em>. Addison-Wesley Professional.
+    Recuperado de <a href="https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/">https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/</a>
+  </li>
+  <li>
+    Fowler, M. (2006). <em>Ubiquitous Language</em>. 
+    Recuperado de <a href="https://martinfowler.com/bliki/UbiquitousLanguage.html">https://martinfowler.com/bliki/UbiquitousLanguage.html</a>
   </li>
   <li>
     Google. (s.f.). <em>Google HTML/CSS Style Guide</em>. 
@@ -2741,24 +3018,68 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
     Recuperado de <a href="https://google.github.io/styleguide/javaguide.html">https://google.github.io/styleguide/javaguide.html</a>
   </li>
   <li>
-    Angular. (s.f.). <em>Angular Coding Style Guide</em>. 
-    Recuperado de <a href="https://angular.io/guide/styleguide">https://angular.io/guide/styleguide</a>
+    Gothelf, J., & Seiden, J. (2021). <em>Lean UX: Designing Great Products with Agile Teams</em> (3rd ed.). O'Reilly Media.
+    Recuperado de <a href="https://www.oreilly.com/library/view/lean-ux-2nd/9781491953594/">https://www.oreilly.com/library/view/lean-ux-2nd/9781491953594/</a>
+  </li>
+  <li>
+    HubSpot. (s.f.). <em>Full List of Meta Tags, Why They Matter for SEO & How to Write Them</em>. 
+    Recuperado de <a href="https://blog.hubspot.com/marketing/meta-tags">https://blog.hubspot.com/marketing/meta-tags</a>
+  </li>
+  <li>
+    IBM Design. (s.f.). <em>Empathy Map</em>. Enterprise Design Thinking. 
+    Recuperado de <a href="https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map">https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map</a>
+  </li>
+  <li>
+    IBM Design. (s.f.). <em>As-is Scenario Map</em>. Enterprise Design Thinking. 
+    Recuperado de <a href="https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map">https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map</a>
+  </li>
+  <li>
+    Martin, R. C. (2017). <em>Clean Architecture: A Craftsman's Guide to Software Structure and Design</em>. Prentice Hall.
+    Recuperado de <a href="https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/">https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/</a>
+  </li>
+  <li>
+    Mendel, J. (s.f.). <em>Seriously, what's your (startup's) problem?</em>. Medium. 
+    Recuperado de <a href="https://medium.com/@jakemendel/seriously-whats-your-startup-s-problem-b3a884c54ab4">https://medium.com/@jakemendel/seriously-whats-your-startup-s-problem-b3a884c54ab4</a>
+  </li>
+  <li>
+    Nielsen Norman Group. (1994). <em>10 Usability Heuristics for User Interface Design</em>. 
+    Recuperado de <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">https://www.nngroup.com/articles/ten-usability-heuristics/</a>
+  </li>
+  <li>
+    Nielsen Norman Group. (2016). <em>The Four Dimensions of Tone of Voice</em>. 
+    Recuperado de <a href="https://www.nngroup.com/articles/tone-of-voice-dimensions/">https://www.nngroup.com/articles/tone-of-voice-dimensions/</a>
+  </li>
+  <li>
+    Preston-Werner, T. (s.f.). <em>Semantic Versioning 2.0.0</em>. 
+    Recuperado de <a href="https://semver.org/">https://semver.org/</a>
+  </li>
+  <li>
+    Progressa Lean. (s.f.). <em>5W+2H - Técnica de análisis de problemas</em>. 
+    Recuperado de <a href="https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/">https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/</a>
+  </li>
+  <li>
+    Refactoring.Guru. (s.f.). <em>Design Patterns</em>. 
+    Recuperado de <a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>
   </li>
   <li>
     Spring. (s.f.). <em>Spring Boot Reference Documentation</em>. 
     Recuperado de <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/">https://docs.spring.io/spring-boot/docs/current/reference/html/</a>
   </li>
   <li>
-    Cucumber. (s.f.). <em>Gherkin Reference</em>. 
-    Recuperado de <a href="https://cucumber.io/docs/gherkin/reference/">https://cucumber.io/docs/gherkin/reference/</a>
+    UXPressia. (s.f.). <em>User vs. Buyer Persona: Differences and free template</em>. 
+    Recuperado de <a href="https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference">https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference</a>
   </li>
   <li>
-    Nielsen Norman Group. (1994). <em>10 Usability Heuristics for User Interface Design</em>. 
-    Recuperado de <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">https://www.nngroup.com/articles/ten-usability-heuristics/</a>
+    Vernon, V. (2016). <em>Domain-Driven Design Distilled</em>. Addison-Wesley Professional.
+    Recuperado de <a href="https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/">https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/</a>
+  </li>
+  <li>
+    Vernon, V. (s.f.). <em>Domain-Driven Design Reference</em>. 
+    Recuperado de <a href="https://domainlanguage.com/ddd/reference/">https://domainlanguage.com/ddd/reference/</a>
   </li>
 </ul>
 
----
+<div style="page-break-after: always;"></div>
 
 ## Anexos
 
@@ -2806,6 +3127,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 <h4>Anexo B: Videos del Proyecto</h4>
 
