@@ -1984,7 +1984,7 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
 ### 5.2.4. Sprint 4
 
 <p>
-  Durante el Sprint 4, el equipo se enfocó ...
+Durante el Sprint 4, el equipo se enfocó en la estabilización final del producto (Release Candidate), priorizando la corrección de los errores de severidad alta detectados durante las entrevistas de validación y la evaluación heurística. Se realizaron optimizaciones de rendimiento en el Backend y se unificó la localización (idioma) en el Frontend para garantizar una experiencia de usuario consistente en el lanzamiento final.
 </p>
 
 <p>
@@ -2017,7 +2017,7 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
     </tr>
     <tr>
       <td>Time</td>
-      <td>12:50 p.m.</td>
+      <td>09:00 a.m.</td>
     </tr>
     <tr>
       <td>Location</td>
@@ -2043,6 +2043,9 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
     </tr>
     <tr>
       <td colspan="2">
+        Se logró el despliegue exitoso del Backend en Azure y la integración base con el Frontend. 
+        Sin embargo, las pruebas de usuario revelaron inconsistencias críticas en el idioma (mezcla de inglés/español) 
+        y errores técnicos visibles ("Fetch Error") en el módulo de habitaciones que deben ser resueltos antes del lanzamiento.
       </td>
     </tr>
     <tr>
@@ -2050,6 +2053,9 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
     </tr>
     <tr>
       <td colspan="2">
+        El equipo notó que la calidad del código UI bajó por la prisa del despliegue. Se acordó dedicar 
+        este último sprint exclusivamente a "Bug Fixing" y "Polishing" (pulido), deteniendo el desarrollo 
+        de nuevas funcionalidades complejas (Code Freeze).
       </td>
     </tr>
     <tr>
@@ -2057,16 +2063,18 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 4 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-<em></em>
+      <em>Our focus is on delivering a polished, production-ready version of VEYRA by resolving all critical usability and technical issues identified in validation.</em><br><br>
+      <em>We believe it delivers a professional and trustworthy experience to our end-users, eliminating confusion caused by technical errors or mixed languages.</em><br><br>
+      <em>This will be confirmed when the "Fetch entities" error is handled gracefully, all interface labels are 100% in Spanish, and no Severity 3 or 4 bugs remain open in the backlog.</em>
       </td>
     </tr>
     <tr>
       <td>Sprint 4 Velocity</td>
-      <td>18 Story Points</td>
+      <td>14 Story Points</td>
     </tr>
     <tr>
       <td>Sum of Story Points</td>
-      <td>18 SP (≈ 72 horas estimadas)</td>
+      <td>14 SP (≈ 56 horas estimadas)</td>
     </tr>
   </tbody>
 </table>
@@ -2152,48 +2160,198 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
   con especialización, mientras se mantiene la flexibilidad para que todos colaboren según sea necesario.
 </p>
 
-### 5.2.4.3. Sprint Backlog 4  
+### 5.2.4.3. Sprint Backlog 4
 
-El Sprint Backlog 4 incluye las ...
+El objetivo principal de este Sprint Backlog fue gestionar las tareas de estabilización final del producto ("Hardening"). Se priorizó la resolución de deuda técnica crítica (bugs de severidad alta), la estandarización completa de la internacionalización (i18n) al español y la configuración del entorno de producción definitivo. El tablero refleja un flujo de trabajo enfocado en "Bug Fixing" y validación de calidad (QA) antes del despliegue final.
 
-Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+<div align="center">
+  <img src="../images/sprint4-board.png" alt="Sprint 4 Board Screenshot" width="100%">
+  <p><em>Figura: Tablero del Sprint 4 en Jira Software (Proyecto VEYRA)</em></p>
+</div>
 
-A continuación, la tabla de control de estado para el Sprint 4:
+<p>
+  <strong>URL del Board:</strong> <a href="https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog">https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog</a>
+</p>
 
-| Sprint # | Sprint 4 |   |   |   |   |   |   |
-|---------|----------|---|---|---|---|---|---|
-| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-|  |  |  |  |  |  | [Asignado] | Done |
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2">Sprint #</th>
+      <th colspan="6">Sprint 4</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">US-BUG-01</td>
+      <td rowspan="2">Corrección de Idioma</td>
+      <td>T066</td>
+      <td>Estandarizar etiquetas a Español</td>
+      <td>Reemplazar todas las etiquetas hardcodeadas en inglés por claves i18n en español en los formularios de registro.</td>
+      <td>3h</td>
+      <td>Ramirez Carrasco, Ariana</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T067</td>
+      <td>Validar archivos de traducción</td>
+      <td>Verificar que los archivos JSON de i18n contengan todas las claves necesarias sin duplicados.</td>
+      <td>1h</td>
+      <td>Ruiz Madrid, Billy</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US-BUG-02</td>
+      <td rowspan="2">Manejo de Errores</td>
+      <td>T068</td>
+      <td>Implementar Error Interceptor</td>
+      <td>Crear un interceptor HTTP global para capturar errores 4xx/5xx y formatear la respuesta.</td>
+      <td>4h</td>
+      <td>Calvo Yalan, Renato</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T069</td>
+      <td>Integrar Toastr Notifications</td>
+      <td>Reemplazar alertas nativas por componentes visuales Toastr para feedback de error no intrusivo.</td>
+      <td>2h</td>
+      <td>Roman Lopez, Miguel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-BUG-03</td>
+      <td>Fix Módulo Habitaciones</td>
+      <td>T070</td>
+      <td>Corregir carga de Habitaciones</td>
+      <td>Investigar y corregir el error "Null Pointer" en el endpoint GET /rooms cuando la lista está vacía.</td>
+      <td>3h</td>
+      <td>Quiroz Caceres, Adrian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-BUG-04</td>
+      <td>UX Inventario</td>
+      <td>T071</td>
+      <td>Corregir valor default "0"</td>
+      <td>Modificar los inputs numéricos para que inicien vacíos (placeholder) en lugar de "0" para evitar errores de tipeo.</td>
+      <td>1h</td>
+      <td>Ramirez Carrasco, Ariana</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-OPS-01</td>
+      <td>Optimización Final</td>
+      <td>T072</td>
+      <td>Habilitar compresión GZIP</td>
+      <td>Configurar el servidor o CDN para servir assets estáticos comprimidos y mejorar tiempos de carga.</td>
+      <td>2h</td>
+      <td>Armas Sánchez, Oscar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-OPS-02</td>
+      <td>Despliegue Final</td>
+      <td>T073</td>
+      <td>Release a Producción (v1.0.0)</td>
+      <td>Ejecutar pipeline final de despliegue en Azure/Vercel y verificar propagación de DNS.</td>
+      <td>1h</td>
+      <td>Armas Sánchez, Oscar</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
+Durante el Sprint 4, la actividad se centró en la estabilización ("Hardening"). A continuación, se detallan los commits que evidencian este trabajo.
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">NovaPeruTech-Frontend</td>
+      <td>main</td>
+      <td>[HASH]</td>
+      <td>fix(i18n): update all labels to spanish</td>
+      <td>Replaced hardcoded English text with es-419 keys for final release.</td>
+      <td>25-11-2025</td>
+    </tr>
+    <tr>
+      <td>develop</td>
+      <td>[HASH]</td>
+      <td>feat(core): add global error handler</td>
+      <td>Implemented interceptor to show user-friendly toastr messages on API errors.</td>
+      <td>26-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>[HASH]</td>
+      <td>chore(release): merge v1.0.0</td>
+      <td>Final merge for production deployment on Vercel.</td>
+      <td>28-11-2025</td>
+    </tr>
+    <tr>
+      <td rowspan="2">NovaPeruTech-Backend</td>
+      <td>hotfix/rooms</td>
+      <td>[HASH]</td>
+      <td>fix(api): handle null room list</td>
+      <td>Added null check to prevent 500 error on empty room retrieval.</td>
+      <td>27-11-2025</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>[HASH]</td>
+      <td>docs(readme): update deployment instructions</td>
+      <td>Updated documentation for final Azure deployment steps.</td>
+      <td>28-11-2025</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
+<p>
+  Se logró la versión estable 1.0.0. La interfaz ahora es consistente en español y los errores técnicos se manejan visualmente.
+</p>
+<p><strong>URL Video Sprint 4:</strong> [Insertar URL Microsoft Stream Sprint 4]</p>
+<img src="../images/sprint4-final-ui.jpg" alt="Interfaz Final Veyra Sprint 4">
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+<p>Se actualizaron los esquemas de respuesta de error en Swagger para reflejar el estándar de producción.</p>
+<p><strong>URL Swagger:</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a></p>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+<p>
+  <strong>Frontend Final:</strong> <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app">https://nova-peru-tech-frontend-v1-2w9r.vercel.app</a><br>
+  <strong>Backend Final:</strong> <a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a>
+</p>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
-
 <p>
-
+  El equipo colaboró intensamente en corrección de bugs (Hotfixes) y revisión de calidad (QA) antes del cierre.
 </p>
-
 <img src="../images/overview-sprint4.jpg" alt="overview-sprint4">
-
-<p>
-
-</p>
-
-<img src="../images/network-graph-sprint4.jpg" alt="network-graph-sprint4">
-
-<p>
-
-</p>
-
-<img src="../images/contributors-sprint4.jpg" alt="contributors-sprint4">
-
 
 ## 5.3. Validation Interviews
 
