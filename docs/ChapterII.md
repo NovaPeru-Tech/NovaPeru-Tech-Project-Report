@@ -131,52 +131,69 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
 | **Fortalezas (F)**<br>1. Especialización regional en normativa y necesidades de LATAM.<br>2. Diseño centrado en familias: acceso bidireccional familia ↔ residencia y comunicación en tiempo real.<br>3. Modelo modular de precios proyectado (freemium → estándar → premium). | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Alianzas académicas/institucionales con asociaciones geriátricas y universidades para certificación, formación y co-marketing.<br>2. Priorizar integraciones IoT/telemedicina en el roadmap (conectores para wearables, sensores de caída, medidores de signos vitales) y ofrecer paquetes piloto conjuntos con proveedores de hardware.<br>3. Implementar estrategia freemium → up-sell: plan entry para residencias pequeñas que permita adopción rápida y rutas de crecimiento a planes institucionales premium.<br>4. Campañas de posicionamiento como especialista LATAM destacando cumplimiento normativo local y enfoque humano-familiar. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Implementar y documentar políticas de protección de datos y seguridad adaptadas a LATAM, y comunicarlo claramente a clientes e instituciones.<br>2. Ofrecer soporte local y SLAs competitivos que las grandes plataformas globales no siempre proporcionan en la región.<br>3. Enfatizar diferenciadores de valor (transparencia con familias, formación continua, soporte local) en la comunicación para competir por valor, no solo por precio.<br>4. Diseñar funcionalidades con modo offline/parcial (sincronización cuando haya conectividad) para minimizar la fricción en zonas con conectividad limitada en LATAM.<br>5. Difundir resultados de pilotos y testimonios para contrarrestar la ventaja presupuestal y reputacional de competidores globales. |
 | **Debilidades (D)**<br>1. Bajo reconocimiento de marca (proyecto nuevo).<br>2. Recursos limitados (equipo y presupuesto) frente a los competidores.<br>3. Madurez limitada en integraciones empresariales completas (Facturación, contabilidad).<br>4. Necesidad de localización y validación en múltiples países de LATAM.| **Estrategia (DO) — Reorientación**<br>1. Validación rápida con Lean UX: ejecutar pruebas de usabilidad y pilotos documentados (usar wireframes, mockups y Product Backlog del repo) para generar testimonios y material comercial publicable.<br>2. Buscar subvenciones, programas públicos y fondos de digitalización para financiar pilotos y reducir el coste inicial para residencias piloto.<br>3. Generar contenido técnico y autoridad: whitepapers, casos de estudio y guías para decisores (directores clínicos / gerentes de casas de reposo) enfatizando seguridad.<br>4. Priorizar desarrollo de APIs públicas y conectores básicos (facturación, contabilidad, laboratorios) y ofrecer SDKs/documentación para integradores; esto reduce fricción de adopción en clientes con sistemas legados.<br>5. Crear un programa de partners/implementadores locales (consultoras e integradores) que permitan escalar despliegues sin aumentar fuertemente la plantilla interna. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar seguridad e infraestructura crítica: backups automáticos, alta disponibilidad, pruebas de penetración periódicas y planes de recuperación ante desastres para minimizar riesgos operacionales.<br>2. Aplicar una política de precios defensiva inicial: oferta entry-level competitiva y promociones temporales para ganar masa crítica en mercados clave y bloquear nichos frente a competidores low-cost.<br>3. Contratar auditorías externas y obtener certificaciones de seguridad/compliance que sirvan como sello de confianza ante reguladores y clientes institucionales.<br>4. Buscar aceleradoras, grants o socios estratégicos (capital/mentoría) que aporten recursos sin diluir el control del producto; negociar alianzas que incluyan soporte de implementación.<br>5. Formalizar un plan de gestión de incidentes y comunicación (scripts, FAQs, canales dedicados) para notificar rápidamente a residencias y familias y reducir impacto reputacional. |
 
+<div style="page-break-after: always;"></div>
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 <h4 id="Segment" >Segmento objetivo: Administrador de casa de reposo</h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
-¿Cuál es su nombre?.
 
-¿Cuál es su edad?.
+¿Cuál es su nombre?
 
-¿Cuál es su rol en la casa de reposo?. 
+¿Cuál es su edad?
 
-¿Cuál es su experiencia en la industria de las casas de reposo?.
+¿Cuál es su rol dentro de la casa de reposo?
 
-<h4 id="PreguntComplement">Preguntas Complementarias</h4>
+¿Cuántos años de experiencia tiene en el sector de casas de reposo?
 
-¿Cómo se comunican actualmente con los familiares para informarles sobre el estado de salud, citas médicas o incidencias?.
+
 <h4 id="PreguntEspe">Preguntas específicas:</h4> 
+
+¿Cómo se comunican actualmente con los familiares para informarles sobre el estado de salud, citas médicas o incidencias?
+
+¿Qué tipo de dispositivo, sistema o servicio (PC, laptop, tablet, teléfono, sistema interno, apps) utiliza para realizar sus actividades administrativas diarias?
 
 ¿Cuáles son los mayores desafíos o inconvenientes que enfrentan en la gestión diaria de la información y el cuidado de los residentes?
 
-¿Qué sistema o método utilizan actualmente para gestionar la información de los residentes (historias clínicas, medicamentos, citas)?  .
+¿Qué sistema o método utilizan actualmente para gestionar la información de los residentes (historias clínicas, medicamentos, citas, alertas)?
 
-¿Qué funcionalidades consideran  esenciales en una plataforma de gestión?.
+¿Qué funcionalidades consideran esenciales en una plataforma de gestión para mejorar sus operaciones?
+
+¿Qué procesos considera más urgentes de digitalizar o automatizar dentro de la casa de reposo?
+
+
 <h4 id="Segment" >Segmento objetivo: Familiares de adultos mayores </h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
-¿Cuál es su nombre?.
 
-¿Cuál es su edad?.
+¿Cuál es su nombre?
 
-¿Cuál es su rol en la casa de reposo?. 
+¿Cuál es su edad?
 
-¿Cuál es su ocupación?.
+¿Cuál es su relación con el adulto mayor que reside en la casa de reposo?
 
-¿Donde reside actualmente?.
+¿Cuál es su ocupación?
+
+¿Dónde reside actualmente?
+
 
 <h4 id="PreguntESP">Preguntas específicas :</h4> 
+
 ¿Qué dificultades ha tenido para acceder a información sobre la salud o atención de su familiar?
 
-¿Qué tipo de información le gustaría poder consultar de manera más frecuente y organizada? 
+¿Qué tipo de información le gustaría poder consultar de manera más frecuente y organizada?
 
- ¿Qué tan cómodo se sentiría  utilizando plataformas web para consultar información médica sobre su aduelto mayor?
+¿Qué tan cómodo se sentiría utilizando plataformas web o aplicaciones móviles para consultar información médica sobre su adulto mayor?
 
- Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
- 
-¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo? 
+Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
+
+¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo?
+
+¿Qué tipo de dispositivo utiliza con más frecuencia para comunicarse con la casa de reposo o revisar información (celular, laptop, tablet, PC)?
+
+¿Por qué medio prefiere recibir notificaciones importantes? (WhatsApp, SMS, llamada, correo, app)
+
+<div style="page-break-after: always;"></div>
 
 ### 2.2.2. Registro de entrevistas
 
@@ -215,12 +232,14 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
+  </tr>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>0:00 min - 04:28 min</td>
-  </tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   <tr>
     <td>Resumen</td>
     <td>
@@ -269,11 +288,15 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>04:29 min - 08:16 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>04:29 min</td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -323,11 +346,15 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>08:16 min - 12:20 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>08:16 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -379,11 +406,15 @@ Su experiencia revela la necesidad de interfaces intuitivas y accesibles al pers
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>12:21 min - 14:46 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>12:21 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -431,11 +462,15 @@ Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tra
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>14:47 min - 19:27 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>14:47 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -484,11 +519,15 @@ Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acces
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>19:28 min - 22:33 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>19:28 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -505,20 +544,50 @@ Expresa que confiaría en un sistema como Veyra siempre que sea rápido, confiab
 </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ### 2.2.3. Análisis de entrevistas
 
-El objetivo de las entrevistas fue identificar los problemas, necesidades y expectativas de los **administradores de casas de reposo** y los **familiares de adultos mayores**, con el fin de validar hipótesis sobre la comunicación, gestión de información y funciones necesarias en una aplicación que facilite la coordinación y el cuidado.
-<td><img src="../images/Administradores.png" alt="Administradores"></td>
-<td><img src="../images/Familiares.png" alt="Administradores"></td>
-<td><img src="../images/Comparativo-SegmentosObjetivos.png" alt="Administradores"></td>
+En esta sección se presenta el análisis detallado de la información recolectada. Para cada segmento, se explican primero los hallazgos estadísticos objetivos y subjetivos, seguidos de la evidencia gráfica correspondiente.
 
+#### Segmento 1: Administradores de Casas de Reposo
 
-### Conclusiones  
-1. Existe una **fuerte necesidad de digitalización**: todavía se depende de llamadas, papel o Excel, lo que genera ineficiencia.  
-2. Los problemas más críticos se relacionan con **la falta de aviso en urgencias y la duplicidad de procesos**, lo que impacta directamente en la seguridad de los adultos mayores.  
-3. Las soluciones más esperadas giran en torno a **notificaciones automáticas, centralización de información y facilidad de uso**, lo que indica que la aplicación debe ser intuitiva y accesible.  
-4. Se valida la hipótesis de que tanto administradores como familiares requieren un sistema **integrado y confiable** para comunicación, gestión de información y alertas inmediatas.  
+**Análisis de Características Objetivas y Subjetivas:**
+El análisis revela una digitalización precaria. Como se detalla en el gráfico a continuación, el **100%** de los administradores utiliza **WhatsApp** como canal principal y el **100%** gestiona la información clínica en **sistemas físicos** (papel). Si bien un **67%** se apoya en **Excel**, la falta de integración es crítica.
+A nivel subjetivo, el **100%** valora la **comunicación rápida** y la **digitalización**. Sin embargo, existe una restricción clara: el **67%** demanda **soluciones sencillas**, rechazando herramientas complejas, y un **33%** aún prioriza la gestión personal directa.
 
+<div align="center"><img src="../images/Administradores.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
+<br>
+
+#### Segmento 2: Familiares de Adultos Mayores
+
+**Análisis de Características Objetivas y Subjetivas:**
+Los datos confirman una experiencia actual deficiente. El **100%** reporta **dificultad para acceder a información** y el **100%** indica que se enteran de las **urgencias mediante llamadas**, lo cual consideran tardío e ineficiente. Un **100%** manifiesta la necesidad de ver la **info de medicación**.
+Subjetivamente, el dolor principal es la incertidumbre: el **67%** siente **preocupación por demoras**, por lo que el **100%** solicita la **centralización** de datos. Afortunadamente, el **67%** se siente **cómodo usando apps**, validando la viabilidad de una solución móvil.
+
+<div align="center"><img src="../images/Familiares.png" alt="Gráfico Estadístico Familiares" width="80%"></div>
+<br>
+
+#### Análisis Comparativo
+
+**Contrastación de Segmentos:**
+Al comparar ambos grupos, encontramos coincidencias vitales para el producto: ambos tienen un **100% de necesidad de centralización** de información. Sin embargo, existe una brecha notable en la percepción de "preocupación": mientras los administradores priorizan la operatividad (0% de preocupación personal por demoras), para el **67%** de los familiares es una fuente de ansiedad crítica. Esto define nuestra propuesta de valor: eficiencia para el administrador y tranquilidad para el familiar.
+
+<div align="center"><img src="../images/Comparativo-SegmentosObjetivos.png" alt="Gráfico Comparativo Segmentos" width="80%"></div>
+<br>
+
+### Conclusiones y Definición de Arquetipos
+
+Basado en el análisis estadístico, se definen los siguientes perfiles para los User Personas:
+
+1.  **User Persona Administrador ("El Gestor Operativo"):**
+    * **Rasgo clave:** Busca eficiencia pero teme a la tecnología compleja.
+    * **Sustento:** El 67% exige "soluciones sencillas" y el 100% ya usa WhatsApp. La solución debe tener una curva de aprendizaje mínima.
+2.  **User Persona Familiar ("El Monitor Preocupado"):**
+    * **Rasgo clave:** Necesita control y transparencia para reducir ansiedad.
+    * **Sustento:** El 100% pide información de medicación y el 67% sufre por la demora en noticias. La solución debe centrarse en notificaciones en tiempo real.
+
+<div style="page-break-after: always;"></div>
 
 ## 2.3. Needfinding
 
@@ -540,19 +609,16 @@ Para los familiares se elaboró el User Persona **Carmen Morales Quispe**. Se co
 
 <img src="../images/User Persona Segmento_2.png" alt="User Persona 2" width="auto" height="1900"/>
 
-<h3>2.3.2. User Task Matrix</h3>
-<p>
-El <em>User Task Matrix</em> concentra las tareas que realizan los segmentos considerados de este proyecto, independientemente de la existencia del software. 
-Se evalúan con dos criterios por cada User Persona: <strong>Frecuencia</strong> (Rarely / Occasionally / Often) e <strong>Importancia</strong> (Low / Medium / High).<br>
-Segmentos considerados: <strong>Administrador de casa de reposo (Mauricio Sánchez Valencia)</strong> y <strong>Familiar de adulto mayor (Carmen Morales Quispe)</strong>.
-</p>
+### 2.3.2. User Task Matrix
+
+El User Task Matrix presenta las tareas que realizan los User Persona para cumplir sus objetivos en su día a día, independientemente de si usan nuestro software o no. Se evalúa la frecuencia y la importancia de cada tarea para identificar dónde aportar valor.
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
   <thead>
     <tr style="background-color:#eef3f7;">
-      <th rowspan="2">Tarea</th>
-      <th colspan="2">Administrador – Mauricio Sánchez Valencia</th>
-      <th colspan="2">Familiar – Carmen Morales Quispe</th>
+      <th rowspan="2">Tarea (Task)</th>
+      <th colspan="2">Administrador (Mauricio)</th>
+      <th colspan="2">Familiar (Carmen)</th>
     </tr>
     <tr style="background-color:#eef3f7;">
       <th>Frecuencia</th>
@@ -563,68 +629,47 @@ Segmentos considerados: <strong>Administrador de casa de reposo (Mauricio Sánch
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left;">Registrar y actualizar residentes</td>
+      <td style="text-align:left;">Mantener actualizado el registro de residentes</td>
       <td>Often</td><td>High</td>
       <td>Rarely</td><td>Low</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Programar citas y agenda médica</td>
+      <td style="text-align:left;">Planificar citas médicas y terapias</td>
       <td>Often</td><td>High</td>
-      <td>Occasionally</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Generar y descargar reportes</td>
-      <td>Occasionally</td><td>High</td>
       <td>Occasionally</td><td>Medium</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Notificar a familiares sobre cambios</td>
+      <td style="text-align:left;">Comunicar incidencias o urgencias a la familia</td>
       <td>Occasionally</td><td>High</td>
-      <td>—</td><td>—</td>
+      <td>Rarely</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Coordinar al personal de cuidado</td>
-      <td>Occasionally</td><td>Medium</td>
-      <td>Rarely</td><td>Medium</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Consultar historial médico digital</td>
-      <td>Occasionally</td><td>High</td>
-      <td>Often</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Recibir notificaciones en tiempo real</td>
-      <td>Rarely</td><td>Medium</td>
-      <td>Often</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Revisar agenda y recordatorios</td>
+      <td style="text-align:left;">Supervisar el cumplimiento de la medicación</td>
       <td>Often</td><td>High</td>
       <td>Often</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Comunicarse con el personal de cuidado</td>
+      <td style="text-align:left;">Consultar el estado de salud y evolución</td>
+      <td>Often</td><td>Medium</td>
       <td>Often</td><td>High</td>
-      <td>Occasionally</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Descargar reportes clínicos en PDF</td>
-      <td>Occasionally</td><td>High</td>
-      <td>Occasionally</td><td>Medium</td>
+      <td style="text-align:left;">Coordinar turnos del personal de cuidado</td>
+      <td>Often</td><td>Medium</td>
+      <td>Rarely</td><td>Low</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Realizar pagos o cobros de mensualidad</td>
+      <td>Monthly</td><td>High</td>
+      <td>Monthly</td><td>High</td>
     </tr>
   </tbody>
 </table>
 
-<p style="font-size:12px; color:#555; margin-top:6px;">
-Leyenda: “—” indica que la tarea no aplica para el segmento.
-</p>
+**Análisis del Task Matrix:**
+Se observa que la tarea **"Supervisar cumplimiento de medicación"** y **"Consultar estado de salud"** tienen una Importancia **High** y Frecuencia **Often** para ambos segmentos (el administrador para controlar, el familiar para saber). Esto confirma que estas tareas son el "Core" del negocio y deben ser priorizadas. Además, la tarea crítica de **"Comunicar incidencias"** es de alta importancia para ambos, validando la necesidad de un sistema de alertas.
 
-<p><strong>Análisis:</strong><br>
-El Administrador concentra tareas operativas y de control con <em>alta frecuencia e importancia</em>, destacando: registrar/actualizar residentes, programar agenda, revisar agenda y coordinar al personal, además de notificar a familiares sobre cambios. 
-El Familiar prioriza tareas de <em>seguimiento y comunicación</em> con alta frecuencia e importancia: consultar historial médico, recibir notificaciones en tiempo real y revisar agenda; además, mantiene comunicación con el personal cuando requiere aclaraciones. 
-Como coincidencia crítica para ambos, “revisar agenda y recordatorios” es <em>Often–High</em>, lo que justifica diseñar vistas de calendario claras y recordatorios fiables. 
-Las principales diferencias: el Administrador es dueño de procesos (creación/gestión de datos y notificación), mientras que el Familiar es consumidor de información (consulta, seguimiento y validación), lo que implica perfiles y permisos diferenciados en la solución.
-</p>
+<div style="page-break-after: always;"></div>
 
 ### 2.3.3. User Journey Mapping
 
@@ -658,6 +703,8 @@ Este análisis busca sentar las bases para una futura solución tecnológica que
 <img src="../images/Journey Map Segmento_2.png" alt="Journey Map Segmento 2" width="auto" height="450"/>
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.4. Empathy Mapping
 
@@ -694,6 +741,8 @@ Después de listar los eventos, el equipo los organizó en flujos de negocio ló
 Esta estructura ayudó a identificar los procesos clave y las áreas de mejora que posteriormente podrían abordarse mediante soluciones digitales o de gestión.
 
 <img src="../images/step2-big picture event storming.png" alt="bigpicture" style="width:1000px;">
+
+<div style="page-break-after: always;"></div>
 
 ## 2.5. Ubiquitous Language
 <p>
