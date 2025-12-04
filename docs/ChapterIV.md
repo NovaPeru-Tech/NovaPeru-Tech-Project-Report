@@ -809,7 +809,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <h4>health backend:</h4>
 <p><strong>Responsabilidad:</strong> Evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
-![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml&v=2&fmt=svg)
+![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml&fmt=svg)
 
 <h4>communication backend:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicación interna del sistema.</p>
@@ -875,7 +875,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <h4>health base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Historiales médicos, evaluaciones y registros clínicos.</p>
 
-![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml&v=1&fmt=svg)
+![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml&fmt=svg)
 
 <h4>communication base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicaciones internas.</p>
