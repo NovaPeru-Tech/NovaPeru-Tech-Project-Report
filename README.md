@@ -60,7 +60,7 @@
   <h3>Diciembre, 2025</h3>
 </div>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 <hr>
 
@@ -77,7 +77,7 @@
   </thead>
   <tbody>
     <tr>
-      <td>1.0</td>
+      <td>1.0.0</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -85,7 +85,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.1</td>
       <td>13/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -93,7 +93,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.2</td>
       <td>13/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -101,7 +101,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.3</td>
       <td>14/09/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -109,7 +109,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.4</td>
       <td>15/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -117,7 +117,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.0.5</td>
       <td>20/09/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -125,7 +125,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.0</td>
       <td>17/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -133,7 +133,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.1</td>
       <td>19/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -141,7 +141,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.2</td>
       <td>20/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -149,7 +149,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.3</td>
       <td>19/09/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -157,7 +157,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.4</td>
       <td>12/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -165,7 +165,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.5</td>
       <td>16/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -173,7 +173,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.6</td>
       <td>19/09/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -181,7 +181,7 @@
       </td>
     </tr>
     <tr>
-      <td>1.0</td>
+      <td>1.1.7</td>
       <td>18/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -189,7 +189,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.0</td>
       <td>22/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -197,7 +197,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.1</td>
       <td>28/09/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -205,7 +205,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.2</td>
       <td>05/10/2025</td>
       <td>Ariana Ramirez Carrasco</td>
       <td>
@@ -213,7 +213,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.3</td>
       <td>23/09/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -221,7 +221,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.4</td>
       <td>01/10/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -229,7 +229,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.0.5</td>
       <td>10/10/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -237,7 +237,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.0</td>
       <td>24/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -245,7 +245,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.1</td>
       <td>30/09/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -253,7 +253,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.2</td>
       <td>07/10/2025</td>
       <td>Billy Jake Ruiz Madrid</td>
       <td>
@@ -261,7 +261,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.3</td>
       <td>25/09/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -269,7 +269,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.4</td>
       <td>01/10/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -277,7 +277,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.5</td>
       <td>08/10/2025</td>
       <td>Oscar Armas Sánchez</td>
       <td>
@@ -285,7 +285,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.1.6</td>
       <td>26/09/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -293,7 +293,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.2.0</td>
       <td>02/10/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -301,7 +301,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.2.1</td>
       <td>09/10/2025</td>
       <td>Miguel Angel Junior Roman Lopez</td>
       <td>
@@ -309,7 +309,7 @@
       </td>
     </tr>
     <tr>
-      <td>2.0</td>
+      <td>2.2.2</td>
       <td>10/10/2025</td>
       <td>Renato Calvo Yalan</td>
       <td>
@@ -324,7 +324,7 @@
       </td>
     </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.0.0</td>
   <td>10/10/2025</td>
   <td>Ariana Ramírez Carrasco</td>
   <td>
@@ -335,7 +335,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.0.1</td>
   <td>18/10/2025</td>
   <td>Ariana Ramírez Carrasco</td>
   <td>
@@ -345,7 +345,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.0.2</td>
   <td>25/10/2025</td>
   <td>Ariana Ramírez Carrasco</td>
   <td>
@@ -355,7 +355,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.0.3</td>
   <td>12/10/2025</td>
   <td>Adrián Alonso Quiroz Cáceres</td>
   <td>
@@ -365,7 +365,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.0.4</td>
   <td>20/10/2025</td>
   <td>Adrián Alonso Quiroz Cáceres</td>
   <td>
@@ -375,7 +375,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.0.5</td>
   <td>16/11/2025</td>
   <td>Adrián Alonso Quiroz Cáceres</td>
   <td>
@@ -384,7 +384,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.0.6</td>
   <td>11/10/2025</td>
   <td>Renato Calvo Yalán</td>
   <td>
@@ -395,7 +395,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.0</td>
   <td>29/10/2025</td>
   <td>Renato Calvo Yalán</td>
   <td>
@@ -405,7 +405,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.1</td>
   <td>12/11/2025</td>
   <td>Renato Calvo Yalan</td>
   <td>
@@ -414,7 +414,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.1.2</td>
   <td>13/10/2025</td>
   <td>Oscar Armas Sánchez</td>
   <td>
@@ -424,7 +424,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.3</td>
   <td>01/11/2025</td>
   <td>Oscar Armas Sánchez</td>
   <td>
@@ -434,7 +434,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.4</td>
   <td>14/11/2025</td>
   <td>Oscar Armas Sánchez</td>
   <td>
@@ -442,7 +442,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.1.5</td>
   <td>09/10/2025</td>
   <td>Billy Jake Ruiz Madrid</td>
   <td>
@@ -452,7 +452,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.1.6</td>
   <td>03/11/2025</td>
   <td>Billy Jake Ruiz Madrid</td>
   <td>
@@ -462,7 +462,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.2.0</td>
   <td>15/11/2025</td>
   <td>Billy Jake Ruiz Madrid</td>
   <td>
@@ -470,7 +470,7 @@
   </td>
 </tr>
 <tr>
-  <td>3.0</td>
+  <td>3.2.1</td>
   <td>08/10/2025</td>
   <td>Miguel Ángel Junior Román López</td>
   <td>
@@ -481,7 +481,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.2.2</td>
   <td>26/10/2025</td>
   <td>Miguel Ángel Junior Román López</td>
   <td>
@@ -491,7 +491,7 @@
 </tr>
 
 <tr>
-  <td>3.0</td>
+  <td>3.2.3</td>
   <td>07/11/2025</td>
   <td>Miguel Ángel Junior Román López</td>
   <td>
@@ -500,9 +500,126 @@
     y dejó la documentación lista para ser incluida en los anexos del informe.
   </td>
 </tr>
+<tr>
+  <td>4.0.0</td>
+  <td>09/11/2025</td>
+  <td>Ariana Ramirez Carrasco</td>
+  <td>
+    Se añadió la sección de <strong>Validation Interviews</strong> en el capítulo 5, documentando las entrevistas de validación con usuarios y sus principales hallazgos cualitativos. Este trabajo permitió cerrar el ciclo del Lean UX, conectando las hipótesis iniciales con la retroalimentación real y dejando trazabilidad de las mejoras sugeridas sobre la experiencia de uso de Veyra.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.1</td>
+  <td>16/11/2025</td>
+  <td>Oscar Armas Sánchez</td>
+  <td>
+    Se elaboró y amplió la <strong>documentación detallada de la API</strong> para residentes, medicamentos, perfiles de persona, casas de reposo, contratos, personal, residentes y endpoints de analytics, incorporando ejemplos de peticiones y respuestas JSON. Además, se documentó el <strong>proceso de despliegue en Azure</strong> y se añadieron imágenes para la sección <em>Team Collaboration Insights during Sprint</em>, fortaleciendo la evidencia técnica y de colaboración del capítulo 5.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.2</td>
+  <td>24/11/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Se reestructuraron las secciones del capítulo 5 relacionadas con los videos, añadiendo la sección <strong>5.4 Video About-the-Product</strong> con detalles de producción, así como la sección de <strong>Video About-the-Team</strong>, bibliografía y anexos. Esta actualización organizó de forma clara los recursos audiovisuales y de referencia del informe, dejando preparado el esqueleto final del documento.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.3</td>
+  <td>25/11/2025</td>
+  <td>Renato Calvo Yalan</td>
+  <td>
+    Se completó y refinó la documentación de los <strong>Sprints 1, 2 y 3</strong> en el capítulo 5, incorporando detalles de objetivos, planificación, ejecución y despliegue. Asimismo, se mejoró la descripción de la <strong>Software Configuration Management</strong>, del entorno de desarrollo, del manejo de código fuente y de la guía de estilos, dejando una versión robusta y coherente de la sección 5.1 y 5.2.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.4</td>
+  <td>26/11/2025</td>
+  <td>Renato Calvo Yalan</td>
+  <td>
+    Se actualizaron los <strong>diagramas de clases y de base de datos</strong> en el capítulo 4 para incluir de forma explícita los detalles de los bounded contexts de backend. Además, se ajustaron los enlaces a los diagramas (por ejemplo, el diagrama de Nursing Frontend en formato SVG), garantizando que las referencias visuales del diseño estuvieran alineadas con la implementación final.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.5</td>
+  <td>29/11/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Se corrigieron y consolidaron los <strong>Sprint Backlog 1, 2 y 3</strong> del capítulo 5, ajustando tareas, IDs de User Stories, tiempos estimados y estados. Esta revisión aseguró la trazabilidad entre el Product Backlog, los Sprints y la evidencia de desarrollo, alineando la documentación con el trabajo realmente ejecutado por el equipo.
+  </td>
+</tr>
+
+<tr>
+  <td>4.0.6</td>
+  <td>01/12/2025</td>
+  <td>Ariana Ramirez Carrasco</td>
+  <td>
+    Se revisó la sección de <strong>problemas críticos y recomendaciones</strong> del capítulo 5, afinando la redacción de los hallazgos de usabilidad y las propuestas de mejora. Asimismo, se actualizaron los enlaces y títulos de los videos (incluyendo el correspondiente al TB1), asegurando consistencia entre el informe escrito y los recursos audiovisuales entregados.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.0</td>
+  <td>02/12/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Se añadieron las <strong>Conclusiones y Recomendaciones</strong> del capítulo 1, cerrando la argumentación del informe con un balance de logros, limitaciones y trabajo futuro. En paralelo, se corrigieron las <strong>evaluaciones según heurísticas</strong> del capítulo 5, alineando la redacción de los resultados con la escala y criterios utilizados durante la evaluación de usabilidad.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.1</td>
+  <td>02/12/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Se unificó la <strong>estructura del capítulo 5</strong> y se corrigieron las secciones de <em>Sprint Planning 1, 2 y 3</em>, asegurando coherencia en títulos, numeración y redacción. Esta intervención dejó el capítulo listo para incorporar la documentación del Sprint 4 y facilitó la lectura secuencial de la implementación de la Landing Page, la Web Application y los Web Services.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.2</td>
+  <td>03/12/2025</td>
+  <td>Miguel Angel Junior Roman Lopez</td>
+  <td>
+    Se extendió el <strong>Product Backlog</strong> del capítulo 3 incorporando ítems relacionados con <strong>IoT y wearables para monitoreo de salud</strong>, junto con nuevas User Stories y requerimientos técnicos. Además, se actualizó la descripción general del backlog, se añadió la captura del artefacto y se ajustaron el <strong>análisis de entrevistas</strong> y la <strong>User Task Matrix</strong> en el capítulo 2, reforzando la alineación entre necesidades identificadas y funcionalidades priorizadas.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.3</td>
+  <td>04/12/2025</td>
+  <td>Ariana Ramirez Carrasco</td>
+  <td>
+    Se realizaron correcciones finales al <strong>Lean UX Process</strong> del capítulo 1, ajustando las suposiciones de negocio y la redacción de las Lean UX Features y Assumptions. De igual forma, se refinaron las secciones del capítulo 2 relacionadas con el <strong>diseño de entrevistas</strong>, tiempos y redacción de preguntas, y se corrigieron enlaces internos, garantizando consistencia conceptual y navegabilidad dentro del documento.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.4</td>
+  <td>04/12/2025</td>
+  <td>Billy Jake Ruiz Madrid</td>
+  <td>
+    Se perfeccionó la sección de <strong>Impact Mapping</strong> del capítulo 3 y se ajustaron los diagramas del capítulo 4, asegurando que los deliverables y user stories reflejen fielmente los objetivos de negocio. Además, se añadió y documentó el <strong>Sprint 4</strong> en el capítulo 5, y se corrigieron los apartados de <em>Team Collaboration Insights during Sprint</em> para los Sprints 1, 2 y 3, dejando una visión completa y coherente de la colaboración del equipo a lo largo del proyecto.
+  </td>
+</tr>
+
+<tr>
+  <td>4.1.5</td>
+  <td>04/12/2025</td>
+  <td>Adrián Alonso Quiroz Cáceres</td>
+  <td>
+    Se actualizó la <strong>bibliografía y las referencias</strong> del capítulo 5, normalizando el formato de citación y verificando la concordancia entre las referencias utilizadas en los distintos capítulos y la lista final. Con esta tarea se cerró la depuración del documento, dejando el informe listo para su entrega como versión final.
+  </td>
+</tr>
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
 
@@ -632,6 +749,48 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 <img src="images/ramificacion3.png" alt="Veyra" style="width:auto;">
 
+<div style="page-break-after: always;"></div>
+
+**Reporte de colaboración de la entrega del TF**:
+
+En esta fase final, el equipo Veyra centró sus esfuerzos en la consolidación final del proyecto. Esta etapa se caracterizó por una coordinación técnica más madura, una revisión exhaustiva de los artefactos producidos en versiones previas y la integración coherente entre UX, frontend, backend y documentación. Además, se incorporaron mejoras solicitadas por el profesor y se completaron los ajustes necesarios para garantizar que el informe final reflejara una propuesta sólida, funcional y bien fundamentada.
+
+A continuación se describen los aportes individuales de cada miembro durante esta entrega:
+
+**Ariana Ramírez Carrasco**
+
+
+**Renato Calvo Yalán**
+
+
+**Billy Jake Ruiz Madrid**
+
+
+**Oscar Armas Sánchez**
+
+
+**Miguel Ángel Junior Román López**
+
+
+**Adrian Alonso Quiroz Caceres**
+
+
+Durante la fase final se evidenció una colaboración madura entre los equipos de UX, frontend, backend e investigación. Las contribuciones en GitHub demostraron un incremento en commits, revisiones cruzadas y validaciones técnicas compartidas. Esta integración fortaleció la consistencia entre los artefactos visuales, la arquitectura del sistema y la documentación técnica, consolidando una entrega final cohesionada, estable y alineada con los objetivos del curso.
+
+<img src="images/commits1tf.png" alt="Veyra" style="width:830px;">
+
+
+<img src="images/commits2tf.png" alt="Veyra" style="width:auto;">
+
+
+**Ramificación del proyecto usando GitFlow:**
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+<img src="images/ramificacion4.png" alt="Veyra" style="width:auto;">
+
+<div style="page-break-after: always;"></div>
+
 <h2>Tabla de contenido</h2>
 
 - [Capítulo I: Introducción](https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report/blob/main/docs/ChapterI.md#cap%C3%ADtulo-i-introducci%C3%B3n)
@@ -758,11 +917,16 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 - [Bibliografía](https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report/blob/main/docs/ChapterV.md#bibliograf%C3%ADa)
 - [Anexos](https://github.com/NovaPeru-Tech/NovaPeru-Tech-Project-Report/blob/main/docs/ChapterV.md#anexos)
 
+<div style="page-break-after: always;"></div>
+
 ## ABET – EAC - Student Outcome 3
 
-**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias*
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET - EAC - Student Outcome 3**
 
-En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 3.
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET - EAC - Student Outcome 3.
 
 <table border="1" cellpadding="5" cellspacing="0" width="100%"> 
   <thead> 
