@@ -232,7 +232,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
     <td>Timing donde inicia la entrevista<br></td>
     <td>00:00 min</td>
@@ -288,7 +288,7 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
     <td>Timing donde inicia la entrevista<br></td>
@@ -346,7 +346,7 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
     <td>Timing donde inicia la entrevista<br></td>
@@ -406,7 +406,7 @@ Su experiencia revela la necesidad de interfaces intuitivas y accesibles al pers
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
     <td>Timing donde inicia la entrevista<br></td>
@@ -462,7 +462,7 @@ Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tra
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
     <td>Timing donde inicia la entrevista<br></td>
@@ -519,7 +519,7 @@ Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acces
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
     <td>Timing donde inicia la entrevista<br></td>
