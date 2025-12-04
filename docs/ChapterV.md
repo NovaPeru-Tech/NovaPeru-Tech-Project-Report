@@ -1048,15 +1048,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a>
 </p>
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-<img src="../assets/img/chapter-V/overview-sprint1.png" alt="overview-sprint1">
-
-<img src="../assets/img/chapter-V/network-graph-sprint1.png" alt="network-graph-sprint1">
-
-<img src="../assets/img/chapter-V/visitors-sprint1.png" alt="visitors-sprint1">
-
 <div style="page-break-after: always;"></div>
+
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
