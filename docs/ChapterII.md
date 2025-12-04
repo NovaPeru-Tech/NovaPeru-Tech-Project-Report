@@ -234,10 +234,12 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
     <td>Link</td>
     <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
-  <tr>
-    <td>Duracion<br></td>
-    <td>0:00 min - 04:28 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   <tr>
     <td>Resumen</td>
     <td>
@@ -289,8 +291,12 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
     <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>04:29 min - 08:16 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>04:29 min</td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -343,8 +349,12 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
     <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>08:16 min - 12:20 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>08:16 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -399,8 +409,12 @@ Su experiencia revela la necesidad de interfaces intuitivas y accesibles al pers
     <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>12:21 min - 14:46 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>12:21 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -451,8 +465,12 @@ Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tra
     <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>14:47 min - 19:27 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>14:47 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -504,8 +522,12 @@ Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acces
     <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>19:28 min - 22:33 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>19:28 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
