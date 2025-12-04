@@ -138,46 +138,60 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
 ### 2.2.1. Diseño de entrevistas
 <h4 id="Segment" >Segmento objetivo: Administrador de casa de reposo</h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
-¿Cuál es su nombre?.
 
-¿Cuál es su edad?.
+¿Cuál es su nombre?
 
-¿Cuál es su rol en la casa de reposo?. 
+¿Cuál es su edad?
 
-¿Cuál es su experiencia en la industria de las casas de reposo?.
+¿Cuál es su rol dentro de la casa de reposo?
 
-<h4 id="PreguntComplement">Preguntas Complementarias</h4>
+¿Cuántos años de experiencia tiene en el sector de casas de reposo?
 
-¿Cómo se comunican actualmente con los familiares para informarles sobre el estado de salud, citas médicas o incidencias?.
+
 <h4 id="PreguntEspe">Preguntas específicas:</h4> 
+
+¿Cómo se comunican actualmente con los familiares para informarles sobre el estado de salud, citas médicas o incidencias?
+
+¿Qué tipo de dispositivo, sistema o servicio (PC, laptop, tablet, teléfono, sistema interno, apps) utiliza para realizar sus actividades administrativas diarias?
 
 ¿Cuáles son los mayores desafíos o inconvenientes que enfrentan en la gestión diaria de la información y el cuidado de los residentes?
 
-¿Qué sistema o método utilizan actualmente para gestionar la información de los residentes (historias clínicas, medicamentos, citas)?  .
+¿Qué sistema o método utilizan actualmente para gestionar la información de los residentes (historias clínicas, medicamentos, citas, alertas)?
 
-¿Qué funcionalidades consideran  esenciales en una plataforma de gestión?.
+¿Qué funcionalidades consideran esenciales en una plataforma de gestión para mejorar sus operaciones?
+
+¿Qué procesos considera más urgentes de digitalizar o automatizar dentro de la casa de reposo?
+
+
 <h4 id="Segment" >Segmento objetivo: Familiares de adultos mayores </h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
-¿Cuál es su nombre?.
 
-¿Cuál es su edad?.
+¿Cuál es su nombre?
 
-¿Cuál es su rol en la casa de reposo?. 
+¿Cuál es su edad?
 
-¿Cuál es su ocupación?.
+¿Cuál es su relación con el adulto mayor que reside en la casa de reposo?
 
-¿Donde reside actualmente?.
+¿Cuál es su ocupación?
+
+¿Dónde reside actualmente?
+
 
 <h4 id="PreguntESP">Preguntas específicas :</h4> 
+
 ¿Qué dificultades ha tenido para acceder a información sobre la salud o atención de su familiar?
 
-¿Qué tipo de información le gustaría poder consultar de manera más frecuente y organizada? 
+¿Qué tipo de información le gustaría poder consultar de manera más frecuente y organizada?
 
- ¿Qué tan cómodo se sentiría  utilizando plataformas web para consultar información médica sobre su aduelto mayor?
+¿Qué tan cómodo se sentiría utilizando plataformas web o aplicaciones móviles para consultar información médica sobre su adulto mayor?
 
- Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
- 
-¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo? 
+Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
+
+¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo?
+
+¿Qué tipo de dispositivo utiliza con más frecuencia para comunicarse con la casa de reposo o revisar información (celular, laptop, tablet, PC)?
+
+¿Por qué medio prefiere recibir notificaciones importantes? (WhatsApp, SMS, llamada, correo, app)
 
 <div style="page-break-after: always;"></div>
 
