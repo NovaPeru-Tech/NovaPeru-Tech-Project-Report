@@ -948,6 +948,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <strong>TP1:</strong> Expuse los avances del análisis de entrevistas y la sección “Project Report Collaboration Insights”, organizando la información para distintos tipos de audiencia, desde diseñadores hasta revisores técnicos, logrando una comunicación transversal y efectiva.
         <br><br>
         <strong>TB2:</strong> Expuse los resultados del Sprint 3 ante el equipo, explicando los cambios aplicados al flujo del usuario y aclarando las dependencias entre módulos, para asegurar que el equipo mantuviera una visión unificada del sistema.
+        <br><br>
+        <strong>TF:</strong> Participé en la revisión oral del análisis de entrevistas y en las discusiones grupales sobre la alineación entre necesidades detectadas y funcionalidades priorizadas para Veyra.
         <br><br><br>
         <strong>Ariana Lizeth Ramírez Carrasco:</strong> 
         <br><br>
@@ -956,6 +958,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <strong>TP1:</strong> Dirigí la presentación de los entregables visuales finales (Landing Page y Keynote), utilizando una narrativa clara que resaltó los aspectos visuales y conceptuales del proyecto frente a distintos grupos de evaluación.
         <br><br>
         <strong>TB2:</strong> Comuniqué el funcionamiento del Bounded Context de Payment, explicando la lógica de validación y la usabilidad del flujo de pagos, asegurando que los miembros comprendieran la importancia del diseño centrado en el usuario.
+        <br><br>
+        <strong>TF:</strong> Participé activamente en la conducción de las entrevistas de validación con usuarios, obteniendo información de administradores y familiares sobre la experiencia de uso y las necesidades reales en torno al cuidado de adultos mayores. Su participación permitió obtener insumos directos para el desarrollo de Veyra.
         <br><br><br>
         <strong>Billy Jake Ruiz Madrid:</strong> 
         <br><br>
@@ -964,7 +968,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <strong>TP1:</strong> Durante el Sprint Review, presenté los resultados de validación de hipótesis y pruebas funcionales ante el equipo y docente, explicando con claridad el impacto de cada funcionalidad implementada y las mejoras sugeridas.
         <br><br>
         <strong>TB2:</strong> Expuse la estructura del Bounded Context de Activity y cómo sus funcionalidades se integran con Nursing y Payment, permitiendo que los evaluadores entendieran la importancia del módulo dentro del sistema.
-        <br><br><br>
+        <br><br>
+        <strong>TF:</strong> Apoyé en el análisis de la retroalimentación oral recibida en las entrevistas de validación, utilizando los comentarios de los usuarios para reorganizar secciones del informe y ajustar contenidos audiovisuales.
+        <br><br>
+        <br>
         <strong>Oscar Armas Sánchez:</strong> 
         <br><br>
         <strong>TB1:</strong> Expliqué la arquitectura visual del proyecto y los diagramas técnicos durante las sesiones de revisión, utilizando lenguaje comprensible para diseñadores y programadores, logrando así una comprensión conjunta de la estructura del sistema.
@@ -972,6 +979,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <strong>TP1:</strong> Realizé la exposición sobre el proceso de despliegue y la configuración del entorno, comunicando los aspectos técnicos con precisión y coherencia frente a audiencias diversas, lo que facilitó la validación del entorno de desarrollo.
         <br><br>
         <strong>TB2:</strong> Presenté el impacto del despliegue final del Sprint 3 y explicó la coordinación con Renato para asegurar que todas las rutas y servicios estuvieran alineados antes del cierre del ciclo.
+        <br><br>
+        <strong>TF:</strong> Contribuí en la interpretación y documentación de hallazgos obtenidos durante las entrevistas de validación, colaborando en la síntesis de insights compartidos durante las sesiones orales con usuarios.
         <br><br><br>
         <strong>Renato Calvo Yalán:</strong> 
         <br><br>
@@ -981,9 +990,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         <strong>TB2:</strong> Expliqué los avances del Bounded Context de Nursing, detallando su integración con Activity y Payment, destacando su relevancia dentro de la estructura del proyecto.
         <br><br>
+        <strong>TF:</strong> Participé en las sesiones de revisión oral del avance de Sprints y en la discusión de hallazgos provenientes de las entrevistas de validación, asegurando que estos fueran correctamente integrados en la planificación y documentación del informe.
+        <br><br>
+        <br>
         <strong>Adrian Alonso Quiroz Caceres:</strong> 
         <br><br>
         <strong>TB2:</strong> Durante el Sprint 3 expuse ante el equipo los avances del desarrollo del backend y la consolidación de los Web Services. Expliqué el funcionamiento de los endpoints, las dependencias entre módulos y los ajustes realizados para asegurar la correcta integración con el bounded context de Nursing. Además, comuniqué de manera clara los criterios técnicos utilizados para optimizar las respuestas del servidor y la estructura final del API, permitiendo al equipo comprender el flujo completo de comunicación entre frontend y backend.
+        <br><br>
+        <strong>TF:</strong> Participé en la interpretación colectiva de los resultados obtenidos en las entrevistas de validación, compartiendo análisis verbales sobre los puntos críticos de usabilidad y su relación con las funcionalidades del sistema de Veyra.
         <br><br>
       </td>
       <td> 
@@ -995,6 +1009,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br> 
         <strong>Conclusión TB2:</strong><br> 
         Durante esta etapa, la comunicación oral se consolidó como un elemento clave para coordinar dependencias técnicas entre módulos y asegurar la coherencia del sistema. Las exposiciones del Sprint 3 permitieron al equipo expresar con claridad los avances, justificar decisiones y mantener la alineación entre frontend, backend y diseño, fortaleciendo la comprensión compartida del proyecto.
+        <br><br>
+        <strong>Conclusión TF:</strong><br> 
+        La participación en las entrevistas de validación fortaleció la capacidad del equipo para comunicarse de manera efectiva con usuarios reales. A través del diálogo directo, se obtuvieron necesidades, expectativas y problemas desde la perspectiva del usuario, permitiendo ajustar decisiones de diseño y priorización. Asimismo, el intercambio verbal dentro del equipo durante las revisiones de sprint mejoró la coordinación y facilitó acuerdos rápidos, contribuyendo a mantener un flujo de trabajo coherente y alineado con los objetivos del proyecto.
       </td> 
     </tr>
     <tr>
@@ -1007,6 +1024,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <strong>TP1:</strong> Elaboré la documentación del apartado “Project Report Collaboration Insights” y actualicé los Student Outcomes, asegurando consistencia en la estructura, claridad en el lenguaje y alineación con los objetivos de aprendizaje.
         <br><br>
         <strong>TB2:</strong> Redacté el capítulo correspondiente al Sprint Review 3, documentando evidencias, conclusiones y el análisis del progreso técnico del equipo de manera organizada.
+        <br><br>
+        <strong>TF:</strong> Extendí el Product Backlog incluyendo ítems relacionados con IoT y wearables, añadí nuevas User Stories y ajusté la descripción del backlog general. Asimismo, actualizé el análisis de entrevistas y la User Task Matrix en el capítulo 2, reforzando la conexión entre datos de usuario y decisiones del diseño.
         <br><br><br>
         <strong>Ariana Lizeth Ramírez Carrasco:</strong>
         <br><br>
@@ -1015,6 +1034,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <strong>TP1:</strong> Redacté los informes de revisión visual y accesibilidad, así como las directrices gráficas para el despliegue final, manteniendo una comunicación escrita clara y profesional, acorde con los estándares del curso.
         <br><br>
         <strong>TB2:</strong> Escribí la documentación del Bounded Context de Payment, incluyendo las validaciones, flujos de usuario y la estructura del módulo, asegurando claridad conceptual y técnica.
+        <br><br>
+        <strong>TF:</strong> Elaboré y refiné varias secciones críticas del informe, incluyendo la incorporación de la sección Validation Interviews, la actualización de enlaces y títulos de videos y la redacción final del Lean UX Process, corrigiendo suposiciones de negocio y mejorando la consistencia narrativa entre los capítulos 1 y 2. Estas mejoras fortalecieron la coherencia y claridad del documento final.
         <br><br><br>
         <strong>Billy Jake Ruiz Madrid:</strong>
         <br><br>
@@ -1023,6 +1044,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <strong>TP1:</strong> Documenté la ejecución del Sprint 2, registrando pruebas funcionales, evidencias y resultados en un formato detallado y comprensible para el equipo técnico y docente.
         <br><br>
         <strong>TB2:</strong> Redacté la sección del Bounded Context de Activity, explicando la funcionalidad central, sus dependencias y las reglas del dominio, garantizando una comprensión clara del módulo.
+        <br><br>
+        <strong>TF:</strong> Corregí y amplié las secciones del capítulo 5 relacionadas con los videos del proyecto, añadí la sección Video About-the-Product y Video About-the-Team, actualizé la bibliografía y anexos, y consolidé los Sprint Backlogs de los Sprints 1, 2 y 3. Este trabajo garantizó precisión narrativa y coherencia documental.
         <br><br><br>
         <strong>Oscar Armas Sánchez:</strong>
         <br><br>
@@ -1031,6 +1054,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <strong>TP1:</strong> Redacté el informe de Sprint Review y la documentación de despliegue, empleando un tono profesional, estructurado y coherente con los estándares del curso. Incluí detalles técnicos que facilitaron la validación de los resultados.
         <br><br>
         <strong>TB2:</strong> Redacté el documento final del despliegue del Sprint 3, integrando las evidencias recopiladas por el equipo de backend y frontend, manteniendo una redacción clara y técnica.
+        <br><br>
+        <strong>TF:</strong> Realicé una documentación técnica extensa y detallada sobre los endpoints de la API (residentes, medicamentos, casas de reposo, contratos, personal y analytics), incorporando ejemplos JSON y explicaciones formales. Además, documenté el proceso de despliegue en Azure y añadí evidencia para Team Collaboration Insights, contribuyendo a la claridad y solidez técnica del capítulo 5.
         <br><br><br>
         <strong>Renato Calvo Yalán:</strong>
         <br><br>
@@ -1040,9 +1065,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         <strong>TB2:</strong> Documenté la integración del Bounded Context de Nursing y su relación con los demás módulos, explicando sus responsabilidades y justificación técnica dentro del sistema.
         <br><br>
+        <strong>TF:</strong> Corregí ampliamente la documentación de los Sprints 2, 3 y 4, mejoré la descripción de Software Configuration Management, actualizé los diagramas de clases y base de datos de acuerdo con los bounded contexts actualizados y corrigí enlaces hacia diagramas en SVG. Mis aportes fortalecieron la claridad técnica y la cohesión del capítulo 4 y 5.
+        <br><br>
+        <br>
         <strong>Adrian Alonso Quiroz Caceres:</strong> 
         <br><br>
         <strong>TB2:</strong> Documenté la actualización de los Web Services, detallando los endpoints implementados, los parámetros requeridos, los esquemas JSON y las validaciones incorporadas. Asimismo, registré las pruebas realizadas para garantizar la integración con los módulos del frontend, describiendo evidencias técnicas, capturas, logs y resultados de pruebas. La redacción permitió que el equipo tuviera una referencia clara para consumir los servicios y que los revisores comprendieran la estructura final del backend.
+        <br><br>
+        <strong>TF:</strong> Desarrollé las Conclusiones y Recomendaciones del capítulo 1, corregí las evaluaciones según heurísticas del capítulo 5 y contribuí con la actualización y normalización de la bibliografía y referencias del documento. Mi aporte aseguró un cierre argumentativo sólido y una presentación formal alineada con los estándares académicos.
         <br><br>
       </td>
       <td>
@@ -1054,6 +1084,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         <strong>Conclusión TB2:</strong><br> 
         La documentación generada en esta fase permitió detallar con precisión la evolución técnica del proyecto, registrando integraciones, cambios y dependencias entre los módulos. La claridad en la redacción facilitó que el equipo y los revisores comprendieran el aporte de cada sprint, mejorando la coherencia del informe final y la trazabilidad de los artefactos desarrollados.
+        <br><br>
+        <strong>Conclusión TF:</strong><br> 
+        La elaboración y mejora de la documentación del proyecto permitió consolidar información técnica y narrativa de forma clara, precisa y estructurada. Cada integrante aportó a la calidad del informe mediante redacción, correcciones, integración de evidencias y actualización de artefactos. Esto garantizó coherencia entre capítulos, trazabilidad entre sprints, y una presentación profesional alineada con los estándares académicos solicitados. El trabajo escrito evidenció la capacidad del equipo para comunicar decisiones y resultados de manera formal y comprensible.
       </td>
     </tr>
   </tbody>
