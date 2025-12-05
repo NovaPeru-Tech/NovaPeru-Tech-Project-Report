@@ -2260,7 +2260,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 </p>
 
 <div align="center">
-  <img src="../images/deployment-frontend-sprint3.png" alt="Panel de despliegue del Frontend en Vercel" width="90%">
+  <img src="../images/deployment-frontend-sprint3.png.jpg" alt="Panel de despliegue del Frontend en Vercel" width="90%">
   <p><em>Figura: Panel de despliegue de la Web Application de VEYRA en Vercel.</em></p>
 </div>
 
@@ -2285,7 +2285,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 </p>
 
 <div align="center">
-  <img src="../images/deployment-backend-sprint3.png" alt="Panel de despliegue del Backend en Azure App Service" width="90%">
+  <img src="../images/deployment-backend-sprint3.jpg" alt="Panel de despliegue del Backend en Azure App Service" width="90%">
   <p><em>Figura: Vista del recurso de Azure App Service con el backend VEYRA desplegado.</em></p>
 </div>
 
@@ -2310,7 +2310,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 </p>
 
 <div align="center">
-  <img src="../images/deployment-swagger-sprint3.png" alt="Swagger UI con la documentación de la API de VEYRA" width="90%">
+  <img src="../images/deployment-swagger-sprint3.jpg" alt="Swagger UI con la documentación de la API de VEYRA" width="90%">
   <p><em>Figura: Documentación interactiva de los Web Services de VEYRA mediante Swagger UI.</em></p>
 </div>
 
