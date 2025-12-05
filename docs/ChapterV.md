@@ -1534,22 +1534,44 @@ Finalmente, el gráfico de Visitors del repositorio frontend muestra un incremen
 ### 5.2.3. Sprint 3
 
 <p>
-  Durante el Sprint 3, el equipo se enfocó en dos pilares críticos: la implementación de la capa de 
-  persistencia y lógica de negocio en el Backend utilizando Java Spring Boot y el despliegue del Frontend 
-  desarrollado previamente. Este sprint fue crucial para establecer la infraestructura de la aplicación 
-  VEYRA en un entorno de producción, sentando las bases para las pruebas de integración.
+  En esta sección se registra y explica el avance logrado durante el Sprint 3 tanto en
+  términos de producto como de trabajo colaborativo del equipo VEYRA. A lo largo de este
+  sprint se consolidó la primera versión operativa del entorno productivo: se implementó y
+  desplegó la capa de persistencia y lógica de negocio en el Backend con Java Spring Boot,
+  se conectó el Frontend Angular desarrollado en sprints previos y se habilitó la
+  documentación de servicios para soportar la Sprint Review.
 </p>
 
 <p>
-  <strong>Repositorio Frontend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a>
+  Las subsecciones que siguen detallan este avance desde diferentes ángulos: 
+  <strong>Sprint Planning 3</strong>, <strong>Aspect Leaders and Collaborators</strong>,
+  <strong>Sprint Backlog 3</strong>, <strong>Development Evidence for Sprint Review</strong>,
+  <strong>Execution Evidence for Sprint Review</strong>,
+  <strong>Services Documentation Evidence for Sprint Review</strong> y 
+  <strong>Team Collaboration Insights during Sprint</strong>, mostrando cómo cada integrante
+  contribuyó a los productos de la solución (Web Application y Web Services) y al
+  cumplimiento del objetivo del Sprint 3.
 </p>
 
 <p>
-  <strong>Repositorio Backend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</a>
+  <strong>Repositorio Frontend:</strong>
+  <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">
+    https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend
+  </a>
 </p>
 
 <p>
-  <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+  <strong>Repositorio Backend:</strong>
+  <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">
+    https://github.com/NovaPeru-Tech/NovaPeruTech-Backend
+  </a>
+</p>
+
+<p>
+  <strong>Backend API (Producción):</strong>
+  <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">
+    https://veyrav01.azurewebsites.net/swagger-ui/index.html#/
+  </a>
 </p>
 
 #### 5.2.3.1. Sprint Planning 3
