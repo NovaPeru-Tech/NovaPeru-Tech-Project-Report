@@ -2438,9 +2438,9 @@ Durante el Sprint 4, el equipo se enfocó en la estabilización final del produc
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 4 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-      <em>Nuestro objetivo es ofrecer una versión pulida y lista para producción de VEYRA resolviendo todos los problemas técnicos y de usabilidad críticos identificados en la validación.</em><br><br>
-      <em>Creemos que ofrece una experiencia profesional y confiable a nuestros usuarios finales, eliminando la confusión causada por errores técnicos o idiomas mixtos.</em><br><br>
-      <em>Esto se confirmará cuando el error "Obtener entidades" se gestione correctamente, todas las etiquetas de la interfaz estén 100% en español y no queden errores de Severidad 3 o 4 abiertos en el backlog.</em>
+      <em>Our focus is on delivering a polished, production-ready version of VEYRA by resolving all critical technical and usability issues identified during validation.</em><br><br>
+      <em>We believe it delivers a professional and trustworthy experience to our end users, eliminating confusion caused by technical errors or mixed languages in the interface.</em><br><br>
+      <em>This will be confirmed when the "Get entities" error is correctly handled, all UI labels are 100% in Spanish, and no Severity 3 or 4 issues remain open in the backlog.</em>
       </td>
     </tr>
     <tr>
