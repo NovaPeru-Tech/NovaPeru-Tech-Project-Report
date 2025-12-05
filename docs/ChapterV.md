@@ -864,6 +864,11 @@ El Sprint Backlog 1 reúne las historias de usuario y tareas necesarias para imp
 
 Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
 
+<div align="center"> <img src="../images/sprint1-board.jpg" alt="Sprint 1 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
+A continuación, la estructura de la tabla de control de estado para el Sprint:
+
 | Sprint # | Sprint 1 |   |   |   |   |   |   |
 |---------|----------|---|---|---|---|---|---|
 | **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
@@ -1240,6 +1245,12 @@ Cada líder coordina las tareas relacionadas con su aspecto a través de <strong
 El siguiente Sprint Backlog presenta las historias de usuario y tareas planificadas para el **Sprint 2**, orientado a la implementación del frontend en Angular y Angular Material, la integración con el backend, la mejora de la experiencia de usuario y la consistencia visual de la landing page.  
 
 Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+
+<div align="center"> <img src="../images/sprint2-board.jpg" alt="Sprint 2 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 2 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
+<div align="center"> <img src="../images/sprint2-board-2.jpg" alt="Sprint 2 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 2 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
 
 A continuación, la estructura de la tabla de control de estado para el Sprint:
 
@@ -1768,6 +1779,15 @@ Finalmente, el gráfico de Visitors del repositorio frontend muestra un incremen
 El Sprint Backlog 3 incluye las historias de usuario y tareas planificadas para el despliegue del frontend en **Vercel** y del backend en **Azure App Service**, con énfasis en la implementación de operaciones **CRUD** y el sistema de autenticación (login/registro).
 
 Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+
+<div align="center"> <img src="../images/sprint3-board.jpg" alt="Sprint 3 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 3 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
+<div align="center"> <img src="../images/sprint3-board-2.jpg" alt="Sprint 3 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 3 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
+<div align="center"> <img src="../images/sprint3-board-3.jpg" alt="Sprint 3 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 3 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
 
 A continuación, la tabla de control de estado para el Sprint 3:
 
