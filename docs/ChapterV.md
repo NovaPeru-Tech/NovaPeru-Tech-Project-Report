@@ -1851,22 +1851,43 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   el despliegue en Azure App Service con base de datos en Azure SQL Database.
 </p>
 
-<h5>Video de demostración del Backend:</h5>
-<p>
-  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 3]<br>
-  <strong>Duración:</strong> [HH:MM:SS]
-</p>
-
 <h5>Capturas de pantalla - Swagger UI del Backend:</h5>
 
-<p><strong>Swagger UI - Documentación de API:</strong></p>
-<img src="../images/swagger-ui-overview.jpg" alt="swagger-ui-overview">
+<p><strong>Endpoints de Medications:</strong></p>
+<img src="../images/swagger-medications-endpoints.jpg" alt="swagger-medications-endpoints">
 
-<p><strong>Endpoints de Residentes:</strong></p>
-<img src="../images/swagger-residents-endpoints.jpg" alt="swagger-residents-endpoints">
+<p><strong>Endpoints de Person profiles:</strong></p>
+<img src="../images/swagger-person-profiles-endpoints.jpg" alt="swagger-person-profiles-endpoints">
+
+<p><strong>Endpoints de Nursing Homes:</strong></p>
+<img src="../images/swagger-nursing-homes-endpoints.jpg" alt="swagger-nursing-homes-endpoints">
+
+<p><strong>Endpoints de Staff:</strong></p>
+<img src="../images/swagger-staff-endpoints.jpg" alt="swagger-staff-endpoints">
+
+<p><strong>Endpoints de Roles:</strong></p>
+<img src="../images/swagger-roles-endpoints.jpg" alt="swagger-roles-endpoints">
 
 <p><strong>Endpoints de Autenticación:</strong></p>
 <img src="../images/swagger-auth-endpoints.jpg" alt="swagger-auth-endpoints">
+
+<p><strong>Endpoints de Measurements:</strong></p>
+<img src="../images/swagger-measurements-endpoints.jpg" alt="swagger-measurements-endpoints">
+
+<p><strong>Endpoints de Activities:</strong></p>
+<img src="../images/swagger-activities-endpoints.jpg" alt="swagger-activities-endpoints">
+
+<p><strong>Endpoints de Business Profiles:</strong></p>
+<img src="../images/swagger-business-profiles-endpoints.jpg" alt="swagger-business-profiles-endpoints">
+
+<p><strong>Endpoints de Residentes:</strong></p>
+<img src="../images/swagger-residents-endpoints1.jpg" alt="swagger-residents-endpoints">
+
+<p><strong>Endpoints de Administrators:</strong></p>
+<img src="../images/swagger-administrators-endpoints.jpg" alt="swagger-administrators-endpoints">
+
+<p><strong>Endpoints de Users:</strong></p>
+<img src="../images/swagger-user-endpoints.jpg" alt="swagger-user-endpoints">
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1984,7 +2005,7 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
 ### 5.2.4. Sprint 4
 
 <p>
-  Durante el Sprint 4, el equipo se enfocó ...
+Durante el Sprint 4, el equipo se enfocó en la estabilización final del producto (Release Candidate), priorizando la corrección de los errores de severidad alta detectados durante las entrevistas de validación y la evaluación heurística. Se realizaron optimizaciones de rendimiento en el Backend y se unificó la localización (idioma) en el Frontend para garantizar una experiencia de usuario consistente en el lanzamiento final.
 </p>
 
 <p>
@@ -2017,7 +2038,7 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
     </tr>
     <tr>
       <td>Time</td>
-      <td>12:50 p.m.</td>
+      <td>09:00 a.m.</td>
     </tr>
     <tr>
       <td>Location</td>
@@ -2043,6 +2064,9 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
     </tr>
     <tr>
       <td colspan="2">
+        Se logró el despliegue exitoso del Backend en Azure y la integración base con el Frontend. 
+        Sin embargo, las pruebas de usuario revelaron inconsistencias críticas en el idioma (mezcla de inglés/español) 
+        y errores técnicos visibles ("Fetch Error") en el módulo de habitaciones que deben ser resueltos antes del lanzamiento.
       </td>
     </tr>
     <tr>
@@ -2050,6 +2074,9 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
     </tr>
     <tr>
       <td colspan="2">
+        El equipo notó que la calidad del código UI bajó por la prisa del despliegue. Se acordó dedicar 
+        este último sprint exclusivamente a "Bug Fixing" y "Polishing" (pulido), deteniendo el desarrollo 
+        de nuevas funcionalidades complejas (Code Freeze).
       </td>
     </tr>
     <tr>
@@ -2057,16 +2084,18 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 4 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-<em></em>
+      <em>Our focus is on delivering a polished, production-ready version of VEYRA by resolving all critical usability and technical issues identified in validation.</em><br><br>
+      <em>We believe it delivers a professional and trustworthy experience to our end-users, eliminating confusion caused by technical errors or mixed languages.</em><br><br>
+      <em>This will be confirmed when the "Fetch entities" error is handled gracefully, all interface labels are 100% in Spanish, and no Severity 3 or 4 bugs remain open in the backlog.</em>
       </td>
     </tr>
     <tr>
       <td>Sprint 4 Velocity</td>
-      <td>18 Story Points</td>
+      <td>14 Story Points</td>
     </tr>
     <tr>
       <td>Sum of Story Points</td>
-      <td>18 SP (≈ 72 horas estimadas)</td>
+      <td>14 SP (≈ 56 horas estimadas)</td>
     </tr>
   </tbody>
 </table>
@@ -2152,48 +2181,153 @@ Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repo
   con especialización, mientras se mantiene la flexibilidad para que todos colaboren según sea necesario.
 </p>
 
-### 5.2.4.3. Sprint Backlog 4  
+### 5.2.4.3. Sprint Backlog 4
 
-El Sprint Backlog 4 incluye las ...
+El objetivo principal del Sprint 4 fue realizar actividades de hardening sobre VEYRA antes del despliegue final: corrección de bugs, ajustes de usabilidad y configuración de entorno de producción. En este Sprint se priorizaron refinamientos sobre las historias de usuario US07 (Cambio de idioma), US12 (Registro de residentes), US24 (Registro de medicamentos en inventario), US29 (Registro de personal) y US42 (Diseño de formularios usables) definidas en el Capítulo III, además de una tarea operacional de configuración de entorno.
 
-Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+<div align="center"> <img src="../images/sprint4-board.png" alt="Sprint 4 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 4 en Jira Software (Proyecto VEYRA)</em>
+</p> </div> <p> <strong>URL del Board:</strong> <a href="https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog">https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog</a> </p> 
+<table border="1" cellpadding="4" cellspacing="0"> <thead> <tr> <th colspan="2">Sprint #</th> <th colspan="6">Sprint 4</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status (To-do / In-Process / To-Review / Done)</th> </tr> </thead> <tbody> <!-- US07 --> <tr> <td rowspan="2">US07</td> <td rowspan="2">Cambio de idioma</td> <td>T066</td> <td>Estandarizar etiquetas a español</td> <td>Reemplazar etiquetas hardcodeadas en inglés por claves i18n en español en formularios y navegación para garantizar que la Landing Page y el módulo web reflejen correctamente la historia US07.</td> <td>3h</td> <td>Ramirez Carrasco, Ariana</td> <td>Done</td> </tr> <tr> <td>T067</td> <td>Validar archivos de traducción</td> <td>Revisar los archivos de traducciones para asegurar que todas las vistas de la plataforma tengan textos consistentes en ambos idiomas y sin claves huérfanas.</td> <td>1h</td> <td>Ruiz Madrid, Billy</td> <td>Done</td> 
+</tr>
+<tr>
+  <td rowspan="2">US12</td>
+  <td rowspan="2">Registro de residentes</td>
+  <td>T068</td>
+  <td>Corregir ruta de lista de residentes</td>
+  <td>Ajustar la ruta y navegación de la vista de residentes para evitar errores al listar perfiles, garantizando que el flujo de registro y consulta de residentes funcione de extremo a extremo.</td>
+  <td>3h</td>
+  <td>Quiroz Caceres, Adrian</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T069</td>
+  <td>Implementar asignación de habitación</td>
+  <td>Incorporar la asignación de habitación en el flujo de registro del residente y mostrar el número de habitación en la lista, cerrando la brecha entre el registro de residentes y la gestión de habitaciones.</td>
+  <td>4h</td>
+  <td>Renato Cárdenas Yalan</td>
+  <td>Done</td>
+</tr>
 
-A continuación, la tabla de control de estado para el Sprint 4:
+<!-- US24 -->
+<tr>
+  <td>US24</td>
+  <td>Registro de medicamentos en inventario</td>
+  <td>T070</td>
+  <td>Mejorar formulario de medicamentos</td>
+  <td>Refactorizar el formulario de medicamentos (layout y validaciones) para evitar registros con valores por defecto no deseados y mejorar la claridad de campos críticos como dosis, lote y fecha de vencimiento.</td>
+  <td>3h</td>
+  <td>Ramirez Carrasco, Ariana</td>
+  <td>Done</td>
+</tr>
 
-| Sprint # | Sprint 4 |   |   |   |   |   |   |
-|---------|----------|---|---|---|---|---|---|
-| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-|  |  |  |  |  |  | [Asignado] | Done |
+<!-- US42 -->
+<tr>
+  <td rowspan="2">US42</td>
+  <td rowspan="2">Diseño de formularios usables</td>
+  <td>T071</td>
+  <td>Implementar interceptor global de errores</td>
+  <td>Configurar un interceptor HTTP para centralizar el manejo de errores 4xx/5xx en los formularios principales (residentes, medicamentos y personal), evitando mensajes técnicos y mejorando la experiencia de usuario.</td>
+  <td>4h</td>
+  <td>Renato Cárdenas Yalan</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T072</td>
+  <td>Agregar notificaciones visuales</td>
+  <td>Integrar componentes de notificación (Toastr) para mostrar mensajes de éxito y error en la interacción con la aplicación web, alineados con los criterios de aceptación de formularios claros y manejables.</td>
+  <td>2h</td>
+  <td>Roman Lopez, Miguel</td>
+  <td>Done</td>
+</tr>
+
+<!-- US29 -->
+<tr>
+  <td>US29</td>
+  <td>Registro de personal</td>
+  <td>T073</td>
+  <td>Extender formulario de registro de administrador</td>
+  <td>Actualizar el formulario de registro para permitir la creación de cuentas de administrador de casa de reposo, diferenciando los flujos de alta para usuarios estándar y personal administrativo.</td>
+  <td>3h</td>
+  <td>Ruiz Madrid, Billy</td>
+  <td>Done</td>
+</tr>
+
+<!-- Task general de operación -->
+<tr>
+  <td>Task-OPS-01</td>
+  <td>Configuración de entorno de producción</td>
+  <td>T074</td>
+  <td>Actualizar base URL y endpoints</td>
+  <td>Actualizar la base URL del proveedor de plataforma y registrar el endpoint de administradores en los archivos de configuración de entorno para apuntar a la API de producción.</td>
+  <td>2h</td>
+  <td>Racso24k</td>
+  <td>Done</td>
+</tr>
+</tbody> 
+</table>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
+Durante el Sprint 4, la actividad de desarrollo se enfocó en el hardening de VEYRA: estabilización de módulos existentes, corrección de bugs críticos y pulido de experiencia de usuario antes del despliegue final a producción. Los cambios priorizados se alinean principalmente con las historias de usuario orientadas a transparencia de información clínica (US08, US13, US14, US24–US28, US45–US47), gestión de residentes y personal (US12, US29–US32) y mejora de la experiencia de navegación y paneles de control (US37, US40–US42).
+
+A continuación, se muestran los commits más relevantes en los repositorios Frontend y Backend que evidencian este trabajo de estabilización y cierre del incremento funcional del producto:
+
+<table border="1" cellpadding="4" cellspacing="0"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Committed on (Date)</th> </tr> </thead> <tbody> <!-- FRONTEND --> <tr> <td rowspan="4">NovaPeruTech-Frontend</td> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): add analytics dashboard with responsive design and metrics visualization</td> <td>Se implementó el dashboard de analítica para el administrador de la casa de reposo con visualizaciones responsivas de métricas de residentes, personal e inventario, aportando evidencia directa de las historias de transparencia y control de gestión.</td> <td>30-11-2025</td> </tr> <tr> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): add lazy-loaded route for analytics dashboard</td> <td>Se configuró una ruta lazy-loaded para el módulo de Analytics, reduciendo el tiempo de carga inicial de la aplicación y alineándose con los objetivos de optimización del Sprint 4.</td> <td>30-11-2025</td> </tr> <tr> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): clean up analytics dashboard by removing unused styles and components</td> <td>Se eliminó código muerto (estilos y componentes no utilizados) y se simplificó la estructura del dashboard, disminuyendo deuda técnica y mejorando mantenibilidad del módulo de reportes.</td> <td>01-12-2025</td> </tr> <tr> <td>feature/nursing</td> <td>[HASH]</td> <td>feat(nursing): enhance room form layout and styling</td> <td>Se refactorizó el formulario de habitaciones (layout, estilos y campos) para corregir problemas de usabilidad e inconsistencias visuales detectadas en validación, cerrando el bug crítico asociado al módulo de habitaciones.</td> <td>01-12-2025</td> 
+</tr>
+<tr>
+  <td rowspan="4">NovaPeruTech-BackEnd</td>
+  <td>feature/analytic</td>
+  <td>[HASH]</td>
+  <td>feat(analytics): implement resource, controller and assembler</td>
+  <td>Se implementaron recursos, controlador REST y ensambladores para exponer estadísticas generales, de residentes e inventario, permitiendo al frontend consumir métricas consolidadas desde el módulo de Analytics.</td>
+  <td>23-11-2025</td>
+</tr>
+<tr>
+  <td>feature/tracking</td>
+  <td>[HASH]</td>
+  <td>feat(tracking): add MeasurementResource, MeasurementResourceFromEntityAssembler, and MeasurementsController for REST API</td>
+  <td>Se expusieron endpoints REST para la lectura de mediciones, incluyendo recursos, ensambladores y controlador, habilitando el consumo de telemetría de salud y soporte a las historias de monitoreo y seguimiento (US45–US47).</td>
+  <td>23-11-2025</td>
+</tr>
+<tr>
+  <td>feature/health</td>
+  <td>[HASH]</td>
+  <td>feat(health): add aggregates for sign vitales and allergies</td>
+  <td>Se modelaron agregados de dominio para signos vitales y alergias, base del historial clínico estructurado del residente y del servicio de comparación de salud, fortaleciendo los requisitos de historial médico y seguimiento de estado (US08, US13, US46).</td>
+  <td>01-12-2025</td>
+</tr>
+<tr>
+  <td>feature/nursing</td>
+  <td>[HASH]</td>
+  <td>feat(nursing): implement resources and transforms</td>
+  <td>Se añadieron recursos y transformadores para residentes, familiares y asignación de habitaciones, integrando la lógica de negocio del módulo Nursing con las vistas del administrador y resolviendo inconsistencias identificadas en QA.</td>
+  <td>04-12-2025</td>
+</tr>
+</tbody> 
+</table>
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
+<p>
+  Se logró la versión estable 1.0.0. La interfaz ahora es consistente en español y los errores técnicos se manejan visualmente.
+</p>
+<p><strong>URL Video Sprint 4:</strong> [Insertar URL Microsoft Stream Sprint 4]</p>
+<img src="../images/sprint4-final-ui.jpg" alt="Interfaz Final Veyra Sprint 4">
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+<p>Se actualizaron los esquemas de respuesta de error en Swagger para reflejar el estándar de producción.</p>
+<p><strong>URL Swagger:</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a></p>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+<p>
+  <strong>Frontend Final:</strong> <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app">https://nova-peru-tech-frontend-v1-2w9r.vercel.app</a><br>
+  <strong>Backend Final:</strong> <a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a>
+</p>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
-
 <p>
-
+  El equipo colaboró intensamente en corrección de bugs (Hotfixes) y revisión de calidad (QA) antes del cierre.
 </p>
-
 <img src="../images/overview-sprint4.jpg" alt="overview-sprint4">
-
-<p>
-
-</p>
-
-<img src="../images/network-graph-sprint4.jpg" alt="network-graph-sprint4">
-
-<p>
-
-</p>
-
-<img src="../images/contributors-sprint4.jpg" alt="contributors-sprint4">
-
 
 ## 5.3. Validation Interviews
 
@@ -3083,7 +3217,11 @@ A continuación, la tabla de control de estado para el Sprint 4:
 
 ## Anexos
 
+<div style="page-break-after: always;"></div>
+
 <h4>Anexo A: Enlaces de Despliegue y Repositorios</h4>
+
+<p>A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.</p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -3094,19 +3232,19 @@ A continuación, la tabla de control de estado para el Sprint 4:
   </thead>
   <tbody>
     <tr>
-      <td><strong>Landing Page (Desplegado)</strong></td>
+      <td><strong>Landing Page (GitHub Pages)</strong></td>
       <td><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a></td>
     </tr>
     <tr>
-      <td><strong>Frontend Web Application (Desplegado)</strong></td>
-      <td><a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a></td>
+      <td><strong>Frontend Web Application (Vercel Prod)</strong></td>
+      <td><a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app">https://nova-peru-tech-frontend-v1-2w9r.vercel.app</a></td>
     </tr>
     <tr>
-      <td><strong>Backend API (Desplegado)</strong></td>
+      <td><strong>Backend API Services (Azure Prod)</strong></td>
       <td><a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a></td>
     </tr>
     <tr>
-      <td><strong>Backend Swagger UI (Documentación API)</strong></td>
+      <td><strong>API Documentation (Swagger UI)</strong></td>
       <td><a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a></td>
     </tr>
     <tr>
@@ -3132,17 +3270,19 @@ A continuación, la tabla de control de estado para el Sprint 4:
 
 <h4>Anexo B: Videos del Proyecto</h4>
 
+<p>Registro histórico de todas las exposiciones y videos promocionales presentados durante el ciclo académico 2025-2.</p>
+
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
-      <th>Video</th>
+      <th>Entrega / Hito</th>
       <th>Plataforma</th>
       <th>URL</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2"><strong>Video de Exposición TB1</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TB1 (Sprint 1)</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/PONdZOKZofI">https://youtu.be/PONdZOKZofI</a></td>
     </tr>
@@ -3151,7 +3291,7 @@ A continuación, la tabla de control de estado para el Sprint 4:
       <td><a href="http://bit.ly/4h2grbc">http://bit.ly/4h2grbc</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video de Exposición TP</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TP1 (Sprint 2)</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/_7f8dKl5zGs">https://youtu.be/_7f8dKl5zGs</a></td>
     </tr>
@@ -3160,7 +3300,25 @@ A continuación, la tabla de control de estado para el Sprint 4:
       <td><a href="https://shorturl.at/UfvsR">https://shorturl.at/UfvsR</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video About the Product</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TB2 (Sprint 3)</strong></td>
+      <td>YouTube</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición Final TF1 (Sprint 4)</strong></td>
+      <td>YouTube</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video "About the Product"</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/DCPqVW0C2Po">https://youtu.be/DCPqVW0C2Po</a></td>
     </tr>
@@ -3169,7 +3327,7 @@ A continuación, la tabla de control de estado para el Sprint 4:
       <td><a href="https://shorturl.at/W0vMy">https://shorturl.at/W0vMy</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video About the Team</strong></td>
+      <td rowspan="2"><strong>Video "About the Team"</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/-tBBZ8lwbts">https://youtu.be/-tBBZ8lwbts</a></td>
     </tr>
