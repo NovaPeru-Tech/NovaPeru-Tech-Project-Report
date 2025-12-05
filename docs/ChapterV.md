@@ -2162,172 +2162,127 @@ Durante el Sprint 4, el equipo se enfocó en la estabilización final del produc
 
 ### 5.2.4.3. Sprint Backlog 4
 
-El objetivo principal de este Sprint Backlog fue gestionar las tareas de estabilización final del producto ("Hardening"). Se priorizó la resolución de deuda técnica crítica (bugs de severidad alta), la estandarización completa de la internacionalización (i18n) al español y la configuración del entorno de producción definitivo. El tablero refleja un flujo de trabajo enfocado en "Bug Fixing" y validación de calidad (QA) antes del despliegue final.
+El objetivo principal del Sprint 4 fue realizar actividades de hardening sobre VEYRA antes del despliegue final: corrección de bugs, ajustes de usabilidad y configuración de entorno de producción. En este Sprint se priorizaron refinamientos sobre las historias de usuario US07 (Cambio de idioma), US12 (Registro de residentes), US24 (Registro de medicamentos en inventario), US29 (Registro de personal) y US42 (Diseño de formularios usables) definidas en el Capítulo III, además de una tarea operacional de configuración de entorno.
 
-<div align="center">
-  <img src="../images/sprint4-board.png" alt="Sprint 4 Board Screenshot" width="100%">
-  <p><em>Figura: Tablero del Sprint 4 en Jira Software (Proyecto VEYRA)</em></p>
-</div>
+<div align="center"> <img src="../images/sprint4-board.png" alt="Sprint 4 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 4 en Jira Software (Proyecto VEYRA)</em>
+</p> </div> <p> <strong>URL del Board:</strong> <a href="https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog">https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog</a> </p> 
+<table border="1" cellpadding="4" cellspacing="0"> <thead> <tr> <th colspan="2">Sprint #</th> <th colspan="6">Sprint 4</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status (To-do / In-Process / To-Review / Done)</th> </tr> </thead> <tbody> <!-- US07 --> <tr> <td rowspan="2">US07</td> <td rowspan="2">Cambio de idioma</td> <td>T066</td> <td>Estandarizar etiquetas a español</td> <td>Reemplazar etiquetas hardcodeadas en inglés por claves i18n en español en formularios y navegación para garantizar que la Landing Page y el módulo web reflejen correctamente la historia US07.</td> <td>3h</td> <td>Ramirez Carrasco, Ariana</td> <td>Done</td> </tr> <tr> <td>T067</td> <td>Validar archivos de traducción</td> <td>Revisar los archivos de traducciones para asegurar que todas las vistas de la plataforma tengan textos consistentes en ambos idiomas y sin claves huérfanas.</td> <td>1h</td> <td>Ruiz Madrid, Billy</td> <td>Done</td> 
+</tr>
+<tr>
+  <td rowspan="2">US12</td>
+  <td rowspan="2">Registro de residentes</td>
+  <td>T068</td>
+  <td>Corregir ruta de lista de residentes</td>
+  <td>Ajustar la ruta y navegación de la vista de residentes para evitar errores al listar perfiles, garantizando que el flujo de registro y consulta de residentes funcione de extremo a extremo.</td>
+  <td>3h</td>
+  <td>Quiroz Caceres, Adrian</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T069</td>
+  <td>Implementar asignación de habitación</td>
+  <td>Incorporar la asignación de habitación en el flujo de registro del residente y mostrar el número de habitación en la lista, cerrando la brecha entre el registro de residentes y la gestión de habitaciones.</td>
+  <td>4h</td>
+  <td>Renato Cárdenas Yalan</td>
+  <td>Done</td>
+</tr>
 
-<p>
-  <strong>URL del Board:</strong> <a href="https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog">https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog</a>
-</p>
+<!-- US24 -->
+<tr>
+  <td>US24</td>
+  <td>Registro de medicamentos en inventario</td>
+  <td>T070</td>
+  <td>Mejorar formulario de medicamentos</td>
+  <td>Refactorizar el formulario de medicamentos (layout y validaciones) para evitar registros con valores por defecto no deseados y mejorar la claridad de campos críticos como dosis, lote y fecha de vencimiento.</td>
+  <td>3h</td>
+  <td>Ramirez Carrasco, Ariana</td>
+  <td>Done</td>
+</tr>
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th colspan="2">Sprint #</th>
-      <th colspan="6">Sprint 4</th>
-    </tr>
-    <tr>
-      <th colspan="2">User Story</th>
-      <th colspan="6">Work-Item / Task</th>
-    </tr>
-    <tr>
-      <th>Id</th>
-      <th>Title</th>
-      <th>Id</th>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Estimation (Hours)</th>
-      <th>Assigned To</th>
-      <th>Status (To-do / In-Process / To-Review / Done)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2">US-BUG-01</td>
-      <td rowspan="2">Corrección de Idioma</td>
-      <td>T066</td>
-      <td>Estandarizar etiquetas a Español</td>
-      <td>Reemplazar todas las etiquetas hardcodeadas en inglés por claves i18n en español en los formularios de registro.</td>
-      <td>3h</td>
-      <td>Ramirez Carrasco, Ariana</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>T067</td>
-      <td>Validar archivos de traducción</td>
-      <td>Verificar que los archivos JSON de i18n contengan todas las claves necesarias sin duplicados.</td>
-      <td>1h</td>
-      <td>Ruiz Madrid, Billy</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td rowspan="2">US-BUG-02</td>
-      <td rowspan="2">Manejo de Errores</td>
-      <td>T068</td>
-      <td>Implementar Error Interceptor</td>
-      <td>Crear un interceptor HTTP global para capturar errores 4xx/5xx y formatear la respuesta.</td>
-      <td>4h</td>
-      <td>Calvo Yalan, Renato</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>T069</td>
-      <td>Integrar Toastr Notifications</td>
-      <td>Reemplazar alertas nativas por componentes visuales Toastr para feedback de error no intrusivo.</td>
-      <td>2h</td>
-      <td>Roman Lopez, Miguel</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>US-BUG-03</td>
-      <td>Fix Módulo Habitaciones</td>
-      <td>T070</td>
-      <td>Corregir carga de Habitaciones</td>
-      <td>Investigar y corregir el error "Null Pointer" en el endpoint GET /rooms cuando la lista está vacía.</td>
-      <td>3h</td>
-      <td>Quiroz Caceres, Adrian</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>US-BUG-04</td>
-      <td>UX Inventario</td>
-      <td>T071</td>
-      <td>Corregir valor default "0"</td>
-      <td>Modificar los inputs numéricos para que inicien vacíos (placeholder) en lugar de "0" para evitar errores de tipeo.</td>
-      <td>1h</td>
-      <td>Ramirez Carrasco, Ariana</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>US-OPS-01</td>
-      <td>Optimización Final</td>
-      <td>T072</td>
-      <td>Habilitar compresión GZIP</td>
-      <td>Configurar el servidor o CDN para servir assets estáticos comprimidos y mejorar tiempos de carga.</td>
-      <td>2h</td>
-      <td>Armas Sánchez, Oscar</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>US-OPS-02</td>
-      <td>Despliegue Final</td>
-      <td>T073</td>
-      <td>Release a Producción (v1.0.0)</td>
-      <td>Ejecutar pipeline final de despliegue en Azure/Vercel y verificar propagación de DNS.</td>
-      <td>1h</td>
-      <td>Armas Sánchez, Oscar</td>
-      <td>Done</td>
-    </tr>
-  </tbody>
+<!-- US42 -->
+<tr>
+  <td rowspan="2">US42</td>
+  <td rowspan="2">Diseño de formularios usables</td>
+  <td>T071</td>
+  <td>Implementar interceptor global de errores</td>
+  <td>Configurar un interceptor HTTP para centralizar el manejo de errores 4xx/5xx en los formularios principales (residentes, medicamentos y personal), evitando mensajes técnicos y mejorando la experiencia de usuario.</td>
+  <td>4h</td>
+  <td>Renato Cárdenas Yalan</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T072</td>
+  <td>Agregar notificaciones visuales</td>
+  <td>Integrar componentes de notificación (Toastr) para mostrar mensajes de éxito y error en la interacción con la aplicación web, alineados con los criterios de aceptación de formularios claros y manejables.</td>
+  <td>2h</td>
+  <td>Roman Lopez, Miguel</td>
+  <td>Done</td>
+</tr>
+
+<!-- US29 -->
+<tr>
+  <td>US29</td>
+  <td>Registro de personal</td>
+  <td>T073</td>
+  <td>Extender formulario de registro de administrador</td>
+  <td>Actualizar el formulario de registro para permitir la creación de cuentas de administrador de casa de reposo, diferenciando los flujos de alta para usuarios estándar y personal administrativo.</td>
+  <td>3h</td>
+  <td>Ruiz Madrid, Billy</td>
+  <td>Done</td>
+</tr>
+
+<!-- Task general de operación -->
+<tr>
+  <td>Task-OPS-01</td>
+  <td>Configuración de entorno de producción</td>
+  <td>T074</td>
+  <td>Actualizar base URL y endpoints</td>
+  <td>Actualizar la base URL del proveedor de plataforma y registrar el endpoint de administradores en los archivos de configuración de entorno para apuntar a la API de producción.</td>
+  <td>2h</td>
+  <td>Racso24k</td>
+  <td>Done</td>
+</tr>
+</tbody> 
 </table>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
-Durante el Sprint 4, la actividad se centró en la estabilización ("Hardening"). A continuación, se detallan los commits que evidencian este trabajo.
+Durante el Sprint 4, la actividad de desarrollo se enfocó en el hardening de VEYRA: estabilización de módulos existentes, corrección de bugs críticos y pulido de experiencia de usuario antes del despliegue final a producción. Los cambios priorizados se alinean principalmente con las historias de usuario orientadas a transparencia de información clínica (US08, US13, US14, US24–US28, US45–US47), gestión de residentes y personal (US12, US29–US32) y mejora de la experiencia de navegación y paneles de control (US37, US40–US42).
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit Id</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Commited on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="3">NovaPeruTech-Frontend</td>
-      <td>main</td>
-      <td>[HASH]</td>
-      <td>fix(i18n): update all labels to spanish</td>
-      <td>Replaced hardcoded English text with es-419 keys for final release.</td>
-      <td>25-11-2025</td>
-    </tr>
-    <tr>
-      <td>develop</td>
-      <td>[HASH]</td>
-      <td>feat(core): add global error handler</td>
-      <td>Implemented interceptor to show user-friendly toastr messages on API errors.</td>
-      <td>26-11-2025</td>
-    </tr>
-    <tr>
-      <td>main</td>
-      <td>[HASH]</td>
-      <td>chore(release): merge v1.0.0</td>
-      <td>Final merge for production deployment on Vercel.</td>
-      <td>28-11-2025</td>
-    </tr>
-    <tr>
-      <td rowspan="2">NovaPeruTech-Backend</td>
-      <td>hotfix/rooms</td>
-      <td>[HASH]</td>
-      <td>fix(api): handle null room list</td>
-      <td>Added null check to prevent 500 error on empty room retrieval.</td>
-      <td>27-11-2025</td>
-    </tr>
-    <tr>
-      <td>main</td>
-      <td>[HASH]</td>
-      <td>docs(readme): update deployment instructions</td>
-      <td>Updated documentation for final Azure deployment steps.</td>
-      <td>28-11-2025</td>
-    </tr>
-  </tbody>
+A continuación, se muestran los commits más relevantes en los repositorios Frontend y Backend que evidencian este trabajo de estabilización y cierre del incremento funcional del producto:
+
+<table border="1" cellpadding="4" cellspacing="0"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Committed on (Date)</th> </tr> </thead> <tbody> <!-- FRONTEND --> <tr> <td rowspan="4">NovaPeruTech-Frontend</td> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): add analytics dashboard with responsive design and metrics visualization</td> <td>Se implementó el dashboard de analítica para el administrador de la casa de reposo con visualizaciones responsivas de métricas de residentes, personal e inventario, aportando evidencia directa de las historias de transparencia y control de gestión.</td> <td>30-11-2025</td> </tr> <tr> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): add lazy-loaded route for analytics dashboard</td> <td>Se configuró una ruta lazy-loaded para el módulo de Analytics, reduciendo el tiempo de carga inicial de la aplicación y alineándose con los objetivos de optimización del Sprint 4.</td> <td>30-11-2025</td> </tr> <tr> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): clean up analytics dashboard by removing unused styles and components</td> <td>Se eliminó código muerto (estilos y componentes no utilizados) y se simplificó la estructura del dashboard, disminuyendo deuda técnica y mejorando mantenibilidad del módulo de reportes.</td> <td>01-12-2025</td> </tr> <tr> <td>feature/nursing</td> <td>[HASH]</td> <td>feat(nursing): enhance room form layout and styling</td> <td>Se refactorizó el formulario de habitaciones (layout, estilos y campos) para corregir problemas de usabilidad e inconsistencias visuales detectadas en validación, cerrando el bug crítico asociado al módulo de habitaciones.</td> <td>01-12-2025</td> 
+</tr>
+<tr>
+  <td rowspan="4">NovaPeruTech-BackEnd</td>
+  <td>feature/analytic</td>
+  <td>[HASH]</td>
+  <td>feat(analytics): implement resource, controller and assembler</td>
+  <td>Se implementaron recursos, controlador REST y ensambladores para exponer estadísticas generales, de residentes e inventario, permitiendo al frontend consumir métricas consolidadas desde el módulo de Analytics.</td>
+  <td>23-11-2025</td>
+</tr>
+<tr>
+  <td>feature/tracking</td>
+  <td>[HASH]</td>
+  <td>feat(tracking): add MeasurementResource, MeasurementResourceFromEntityAssembler, and MeasurementsController for REST API</td>
+  <td>Se expusieron endpoints REST para la lectura de mediciones, incluyendo recursos, ensambladores y controlador, habilitando el consumo de telemetría de salud y soporte a las historias de monitoreo y seguimiento (US45–US47).</td>
+  <td>23-11-2025</td>
+</tr>
+<tr>
+  <td>feature/health</td>
+  <td>[HASH]</td>
+  <td>feat(health): add aggregates for sign vitales and allergies</td>
+  <td>Se modelaron agregados de dominio para signos vitales y alergias, base del historial clínico estructurado del residente y del servicio de comparación de salud, fortaleciendo los requisitos de historial médico y seguimiento de estado (US08, US13, US46).</td>
+  <td>01-12-2025</td>
+</tr>
+<tr>
+  <td>feature/nursing</td>
+  <td>[HASH]</td>
+  <td>feat(nursing): implement resources and transforms</td>
+  <td>Se añadieron recursos y transformadores para residentes, familiares y asignación de habitaciones, integrando la lógica de negocio del módulo Nursing con las vistas del administrador y resolviendo inconsistencias identificadas en QA.</td>
+  <td>04-12-2025</td>
+</tr>
+</tbody> 
 </table>
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
