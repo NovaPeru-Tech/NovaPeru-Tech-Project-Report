@@ -1,4 +1,3 @@
-
 <html lang="es">
 <body>
   
@@ -1472,34 +1471,34 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <td><code>204 No Content</code>: Indica la eliminación exitosa.</td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>http://localhost:8080/api/v1/employees</strong></td>
+      <td rowspan="5"><strong>http://localhost:8080/api/v1/staff</strong></td>
       <td><strong>GET</strong></td>
       <td>Obtener el listado completo de empleados.</td>
-      <td><code>GET /api/v1/employees</code></td>
+      <td><code>GET /api/v1/staff</code></td>
       <td><code>200 OK</code>: Retorna un array JSON con la lista de objetos Empleados.</td>
     </tr>
     <tr>
       <td><strong>GET</strong></td>
       <td>Obtener el detalle de un empleado por su ID.</td>
-      <td><code>GET /api/v1/employees/{id}</code> (Ej: <code>/api/v1/employees/789</code>)</td>
+      <td><code>GET /api/v1/staff/{id}</code> (Ej: <code>/api/v1/staff/789</code>)</td>
       <td><code>200 OK</code>: Retorna el objeto Empleado solicitado. <code>404 Not Found</code> si el ID no existe.</td>
     </tr>
     <tr>
       <td><strong>POST</strong></td>
       <td>Crear un nuevo empleado.</td>
-      <td><code>POST /api/v1/employees</code> (Requiere Objeto Empleado en el Body)</td>
+      <td><code>POST /api/v1/staff</code> (Requiere Objeto Empleado en el Body)</td>
       <td><code>201 Created</code>: Retorna el objeto Empleado creado, incluyendo el ID asignado.</td>
     </tr>
     <tr>
       <td><strong>PUT</strong></td>
       <td>Actualizar completamente un empleado.</td>
-      <td><code>PUT /api/v1/employees/{id}</code> (Requiere Objeto Empleado en el Body)</td>
+      <td><code>PUT /api/v1/staff/{id}</code> (Requiere Objeto Empleado en el Body)</td>
       <td><code>200 OK</code>: Retorna el objeto Empleado actualizado.</td>
     </tr>
     <tr>
       <td><strong>DELETE</strong></td>
       <td>Eliminar un empleado.</td>
-      <td><code>DELETE /api/v1/employees/{id}</code></td>
+      <td><code>DELETE /api/v1/staff/{id}</code></td>
       <td><code>204 No Content</code>: Indica la eliminación exitosa.</td>
     </tr>
   </tbody>
@@ -1899,71 +1898,106 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
-      <th>Endpoint</th>
+      <th>End Point Base</th>
       <th>Método HTTP</th>
-      <th>Descripción</th>
+      <th>Acción Implementada</th>
+      <th>Sintaxis de Llamada</th>
+      <th>Explicación del Response</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>/api/v1/residents</td>
-      <td>GET</td>
-      <td>Obtener listado de todos los residentes</td>
+      <td rowspan="5"><strong>/api/v1/residents</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar residentes</td>
+      <td><code>GET /api/v1/residents</code></td>
+      <td><code>200 OK</code>: Array JSON de residentes.</td>
     </tr>
     <tr>
-      <td>/api/v1/residents/{id}</td>
-      <td>GET</td>
-      <td>Obtener detalle de un residente específico</td>
+      <td><strong>GET</strong></td>
+      <td>Detalle residente</td>
+      <td><code>GET /api/v1/residents/{id}</code></td>
+      <td><code>200 OK</code>: Objeto Residente.</td>
     </tr>
     <tr>
-      <td>/api/v1/residents</td>
-      <td>POST</td>
-      <td>Crear un nuevo residente</td>
+      <td><strong>POST</strong></td>
+      <td>Crear residente</td>
+      <td><code>POST /api/v1/residents</code></td>
+      <td><code>201 Created</code>.</td>
     </tr>
     <tr>
-      <td>/api/v1/residents/{id}</td>
-      <td>PUT</td>
-      <td>Actualizar información de un residente</td>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar residente</td>
+      <td><code>PUT /api/v1/residents/{id}</code></td>
+      <td><code>200 OK</code>.</td>
     </tr>
     <tr>
-      <td>/api/v1/residents/{id}</td>
-      <td>DELETE</td>
-      <td>Eliminar un residente</td>
+      <td><strong>DELETE</strong></td>
+      <td>Eliminar residente</td>
+      <td><code>DELETE /api/v1/residents/{id}</code></td>
+      <td><code>204 No Content</code>.</td>
     </tr>
     <tr>
-      <td>/api/v1/medications</td>
-      <td>GET</td>
-      <td>Obtener listado de medicamentos</td>
+      <td rowspan="5"><strong>/api/v1/medications</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar medicamentos</td>
+      <td><code>GET /api/v1/medications</code></td>
+      <td><code>200 OK</code>: Array JSON de medicamentos.</td>
     </tr>
     <tr>
-      <td>/api/v1/medications</td>
-      <td>POST</td>
-      <td>Crear un nuevo medicamento</td>
+      <td><strong>GET</strong></td>
+      <td>Detalle medicamento</td>
+      <td><code>GET /api/v1/medications/{id}</code></td>
+      <td><code>200 OK</code>: Objeto Medicamento.</td>
     </tr>
     <tr>
-      <td>/api/v1/employees</td>
-      <td>GET</td>
-      <td>Obtener listado de empleados</td>
+      <td><strong>POST</strong></td>
+      <td>Registrar medicamento</td>
+      <td><code>POST /api/v1/medications</code></td>
+      <td><code>201 Created</code>.</td>
     </tr>
     <tr>
-      <td>/api/v1/employees</td>
-      <td>POST</td>
-      <td>Crear un nuevo empleado</td>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar stock</td>
+      <td><code>PUT /api/v1/medications/{id}</code></td>
+      <td><code>200 OK</code>.</td>
     </tr>
     <tr>
-      <td>/api/auth/register</td>
-      <td>POST</td>
-      <td>Registrar nuevo usuario</td>
+      <td><strong>DELETE</strong></td>
+      <td>Eliminar medicamento</td>
+      <td><code>DELETE /api/v1/medications/{id}</code></td>
+      <td><code>204 No Content</code>.</td>
     </tr>
     <tr>
-      <td>/api/auth/login</td>
-      <td>POST</td>
-      <td>Autenticación y generación de JWT token</td>
+      <td rowspan="5"><strong>/api/v1/staff</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar personal activo</td>
+      <td><code>GET /api/v1/staff</code></td>
+      <td><code>200 OK</code>: Retorna array JSON con enfermeros, técnicos y administradores.</td>
     </tr>
     <tr>
-      <td>/swagger-ui.html</td>
-      <td>GET</td>
-      <td>Documentación interactiva de API</td>
+      <td><strong>GET</strong></td>
+      <td>Obtener perfil</td>
+      <td><code>GET /api/v1/staff/{id}</code></td>
+      <td><code>200 OK</code>: Objeto Staff.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar personal</td>
+      <td><code>POST /api/v1/staff</code><br>(Body: JSON Staff)</td>
+      <td><code>201 Created</code>: Retorna el perfil creado.</td>
+    </tr>
+    <tr>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar datos</td>
+      <td><code>PUT /api/v1/staff/{id}</code></td>
+      <td><code>200 OK</code>: Perfil actualizado.</td>
+    </tr>
+    <tr>
+      <td><strong>DELETE</strong></td>
+      <td>Dar de baja</td>
+      <td><code>DELETE /api/v1/staff/{id}</code></td>
+      <td><code>204 No Content</code>.</td>
     </tr>
   </tbody>
 </table>
