@@ -1851,22 +1851,43 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   el despliegue en Azure App Service con base de datos en Azure SQL Database.
 </p>
 
-<h5>Video de demostración del Backend:</h5>
-<p>
-  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 3]<br>
-  <strong>Duración:</strong> [HH:MM:SS]
-</p>
-
 <h5>Capturas de pantalla - Swagger UI del Backend:</h5>
 
-<p><strong>Swagger UI - Documentación de API:</strong></p>
-<img src="../images/swagger-ui-overview.jpg" alt="swagger-ui-overview">
+<p><strong>Endpoints de Medications:</strong></p>
+<img src="../images/swagger-medications-endpoints.jpg" alt="swagger-medications-endpoints">
 
-<p><strong>Endpoints de Residentes:</strong></p>
-<img src="../images/swagger-residents-endpoints.jpg" alt="swagger-residents-endpoints">
+<p><strong>Endpoints de Person profiles:</strong></p>
+<img src="../images/swagger-person-profiles-endpoints.jpg" alt="swagger-person-profiles-endpoints">
+
+<p><strong>Endpoints de Nursing Homes:</strong></p>
+<img src="../images/swagger-nursing-homes-endpoints.jpg" alt="swagger-nursing-homes-endpoints">
+
+<p><strong>Endpoints de Staff:</strong></p>
+<img src="../images/swagger-staff-endpoints.jpg" alt="swagger-staff-endpoints">
+
+<p><strong>Endpoints de Roles:</strong></p>
+<img src="../images/swagger-roles-endpoints.jpg" alt="swagger-roles-endpoints">
 
 <p><strong>Endpoints de Autenticación:</strong></p>
 <img src="../images/swagger-auth-endpoints.jpg" alt="swagger-auth-endpoints">
+
+<p><strong>Endpoints de Measurements:</strong></p>
+<img src="../images/swagger-measurements-endpoints.jpg" alt="swagger-measurements-endpoints">
+
+<p><strong>Endpoints de Activities:</strong></p>
+<img src="../images/swagger-activities-endpoints.jpg" alt="swagger-activities-endpoints">
+
+<p><strong>Endpoints de Business Profiles:</strong></p>
+<img src="../images/swagger-business-profiles-endpoints.jpg" alt="swagger-business-profiles-endpoints">
+
+<p><strong>Endpoints de Residentes:</strong></p>
+<img src="../images/swagger-residents-endpoints1.jpg" alt="swagger-residents-endpoints">
+
+<p><strong>Endpoints de Administrators:</strong></p>
+<img src="../images/swagger-administrators-endpoints.jpg" alt="swagger-administrators-endpoints">
+
+<p><strong>Endpoints de Users:</strong></p>
+<img src="../images/swagger-user-endpoints.jpg" alt="swagger-user-endpoints">
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
