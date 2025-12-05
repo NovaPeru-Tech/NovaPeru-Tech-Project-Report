@@ -5,11 +5,11 @@
   <br>
   <p>
     <br>
-    Facultad de ingeniería
+    Facultad de Ingeniería
     <br><br>    
-    Carrera de ingeniería de Software
+    Carrera de Ingeniería de Software
     <br><br>
-    <strong>Periodo:</strong> 2025 20
+    <strong>Periodo:</strong> 202520
     <br><br>    
     1ASI0729 Desarrollo de Aplicaciones Open Source
     <br><br>
