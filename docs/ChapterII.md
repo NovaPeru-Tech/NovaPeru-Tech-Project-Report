@@ -239,7 +239,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>04:28 min</td>
   <tr>
     <td>Resumen</td>
     <td>
@@ -296,7 +296,7 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min</td>
+    <td>03:46 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -354,7 +354,7 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>4:04 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -414,7 +414,7 @@ Su experiencia revela la necesidad de interfaces intuitivas y accesibles al pers
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>02:26 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -470,7 +470,7 @@ Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tra
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>05:41 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -527,7 +527,7 @@ Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acces
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>03:05 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
