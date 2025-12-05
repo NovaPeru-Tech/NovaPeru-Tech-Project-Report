@@ -29,31 +29,31 @@
     <table>
   <tr>
     <td>Código</td>
-    <td>Nombres y Apellidos</td>
+    <td>Apellidos y Nombres</td>
   </tr>
   <tr>
     <td>u202217053</td>
-    <td> Renato Guillermo Calvo Yálan</td>
+    <td>Calvo Yálan Renato Guillermo</td>
   </tr>
   <tr>
     <td>U20211G192</td>
-    <td>Óscar Javier Armas Sánchez</td>
+    <td>Armas Sánchez Óscar Javier</td>
   </tr>
   <tr>
     <td>U202312932</td>
-    <td>Ariana Lizeth Ramírez Carrasco</td>
+    <td>Ramírez Carrasco Ariana Lizeth</td>
   </tr>
   <tr>
     <td>U202212897</td>
-    <td>Miguel Ángel Junior Román López</td>
+    <td>Román López Miguel Ángel Junior</td>
   </tr>
   <tr>
     <td>U202116401</td>
-    <td>Billy Jake Ruiz Madrid</td>
+    <td>Ruiz Madrid Billy Jake</td>
   </tr>
   <tr>
     <td>U202214864</td>
-    <td> Adrián Alonso Quiroz Cáceres </td>
+    <td>Quiroz Cáceres Adrián Alonso</td>
   </tr>
 </table>
   </p>
