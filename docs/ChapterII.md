@@ -131,7 +131,6 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
 | **Fortalezas (F)**<br>1. Especialización regional en normativa y necesidades de LATAM.<br>2. Diseño centrado en familias: acceso bidireccional familia ↔ residencia y comunicación en tiempo real.<br>3. Modelo modular de precios proyectado (freemium → estándar → premium). | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Alianzas académicas/institucionales con asociaciones geriátricas y universidades para certificación, formación y co-marketing.<br>2. Priorizar integraciones IoT/telemedicina en el roadmap (conectores para wearables, sensores de caída, medidores de signos vitales) y ofrecer paquetes piloto conjuntos con proveedores de hardware.<br>3. Implementar estrategia freemium → up-sell: plan entry para residencias pequeñas que permita adopción rápida y rutas de crecimiento a planes institucionales premium.<br>4. Campañas de posicionamiento como especialista LATAM destacando cumplimiento normativo local y enfoque humano-familiar. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Implementar y documentar políticas de protección de datos y seguridad adaptadas a LATAM, y comunicarlo claramente a clientes e instituciones.<br>2. Ofrecer soporte local y SLAs competitivos que las grandes plataformas globales no siempre proporcionan en la región.<br>3. Enfatizar diferenciadores de valor (transparencia con familias, formación continua, soporte local) en la comunicación para competir por valor, no solo por precio.<br>4. Diseñar funcionalidades con modo offline/parcial (sincronización cuando haya conectividad) para minimizar la fricción en zonas con conectividad limitada en LATAM.<br>5. Difundir resultados de pilotos y testimonios para contrarrestar la ventaja presupuestal y reputacional de competidores globales. |
 | **Debilidades (D)**<br>1. Bajo reconocimiento de marca (proyecto nuevo).<br>2. Recursos limitados (equipo y presupuesto) frente a los competidores.<br>3. Madurez limitada en integraciones empresariales completas (Facturación, contabilidad).<br>4. Necesidad de localización y validación en múltiples países de LATAM.| **Estrategia (DO) — Reorientación**<br>1. Validación rápida con Lean UX: ejecutar pruebas de usabilidad y pilotos documentados (usar wireframes, mockups y Product Backlog del repo) para generar testimonios y material comercial publicable.<br>2. Buscar subvenciones, programas públicos y fondos de digitalización para financiar pilotos y reducir el coste inicial para residencias piloto.<br>3. Generar contenido técnico y autoridad: whitepapers, casos de estudio y guías para decisores (directores clínicos / gerentes de casas de reposo) enfatizando seguridad.<br>4. Priorizar desarrollo de APIs públicas y conectores básicos (facturación, contabilidad, laboratorios) y ofrecer SDKs/documentación para integradores; esto reduce fricción de adopción en clientes con sistemas legados.<br>5. Crear un programa de partners/implementadores locales (consultoras e integradores) que permitan escalar despliegues sin aumentar fuertemente la plantilla interna. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar seguridad e infraestructura crítica: backups automáticos, alta disponibilidad, pruebas de penetración periódicas y planes de recuperación ante desastres para minimizar riesgos operacionales.<br>2. Aplicar una política de precios defensiva inicial: oferta entry-level competitiva y promociones temporales para ganar masa crítica en mercados clave y bloquear nichos frente a competidores low-cost.<br>3. Contratar auditorías externas y obtener certificaciones de seguridad/compliance que sirvan como sello de confianza ante reguladores y clientes institucionales.<br>4. Buscar aceleradoras, grants o socios estratégicos (capital/mentoría) que aporten recursos sin diluir el control del producto; negociar alianzas que incluyan soporte de implementación.<br>5. Formalizar un plan de gestión de incidentes y comunicación (scripts, FAQs, canales dedicados) para notificar rápidamente a residencias y familias y reducir impacto reputacional. |
 
-<div style="page-break-after: always;"></div>
 
 ## 2.2. Entrevistas
 
@@ -224,7 +223,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Rol</td>
-    <td>Gerente administrativa</td>
+    <td>Gerente administrativa del Centro Residencial Virgen de la Medalla Milagrosa</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -243,15 +242,15 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   <tr>
     <td>Resumen</td>
     <td>
-		La Lic. Milagros Caycho Mata es una profesional con 26 años de experiencia en la gestión del centro residencial “La Virgen de la Medalla Milagrosa”. Se caracteriza por una personalidad metódica, organizada y de liderazgo colaborativo, con un enfoque claro hacia la mejora continua y la innovación gradual. Su tono comunicativo es sereno y reflexivo, evidenciando una alta empatía hacia los adultos mayores y su personal de trabajo.
+		La Lic. Milagros Caycho Mata es profesional con 26 años de experiencia en la gestión del centro residencial “La Virgen de la Medalla Milagrosa”. Se describe a sí misma como metódica, organizada y con un estilo de liderazgo colaborativo, con enfoque en la mejora continua e innovación gradual. Su tono comunicativo es sereno y reflexivo, y manifiesta alta empatía hacia los adultos mayores y el personal a su cargo.
 
-En su rol, coordina tanto la parte administrativa como la supervisión asistencial, lo cual la mantiene en contacto constante con distintos actores (médicos, cuidadores, familiares). Destaca que la comunicación con las familias es fundamental y se realiza principalmente mediante llamadas telefónicas, mensajes de WhatsApp y videollamadas, sobre todo en casos donde los familiares viven en el extranjero. Promueve además las visitas presenciales como parte del vínculo emocional entre residente y familia.
+En su rol coordina tanto la administración como la supervisión asistencial, lo que la mantiene en contacto constante con médicos, cuidadores y familiares. Nos confirmó que la comunicación con las familias es fundamental y que actualmente se realiza principalmente mediante llamadas telefónicas, mensajes de WhatsApp y videollamadas —especialmente cuando los familiares residen en el extranjero—. Además, enfatizó que promueve las visitas presenciales como parte del vínculo emocional entre residente y familia.
 
-En cuanto a tecnología, utiliza una base de datos local para registrar la información de los residentes, aunque sin un sistema especializado. Complementa esta gestión con expedientes físicos y planillas digitales elaboradas en programas de ofimática, principalmente Microsoft Excel. Su nivel de alfabetización digital es intermedio: domina las herramientas básicas de oficina y comunicación, pero reconoce que la integración tecnológica total aún es un desafío. Utiliza una computadora de escritorio para gestión administrativa y un smartphone (probablemente Android) para mensajería. Se infiere que su navegador habitual es Google Chrome.
+Sobre herramientas tecnológicas, indicó que utiliza una base de datos local para registrar la información de los residentes y mantiene expedientes físicos y planillas digitales (principalmente en Microsoft Excel). Señaló que su nivel de alfabetización digital es intermedio: domina herramientas básicas de oficina y comunicación, pero reconoce que la adopción de un sistema integral especializado aún es un desafío. Nos confirmó que gestiona las tareas administrativas desde una computadora de escritorio y usa un smartphone para mensajería. También confirmó que su navegador habitual es Google Chrome.
 
-Entre las marcas o herramientas que influyen en su trabajo, menciona indirectamente los servicios de Microsoft y WhatsApp como indispensables. Durante la pandemia, implementó por iniciativa propia la comunicación por videollamada, lo que demuestra una capacidad de adaptación y resiliencia frente a la crisis sanitaria.
+Entre las herramientas que considera indispensables mencionó concretamente servicios de Microsoft y WhatsApp. Durante la pandemia nos explicó que implementó por iniciativa propia la comunicación por videollamada, lo cual demuestra su capacidad de adaptación ante situaciones críticas.
 
-Los principales desafíos que enfrenta son la duplicidad de registros (físicos y digitales), la fragmentación de la información y la dificultad para mantener la trazabilidad de los datos clínicos de cada residente. Considera vital una herramienta que le permita centralizar toda la información en un solo lugar y mejorar la comunicación con los familiares.
+Los principales desafíos que manifestó son: la duplicidad de registros (físicos y digitales), la fragmentación de la información y la dificultad para mantener la trazabilidad clínica por residente. Indicó que considera vital disponer de una herramienta que centralice la información y mejore la comunicación con los familiares.
 </td>
   </tr>
 </tbody>
@@ -280,7 +279,7 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
   </tr>
   <tr>
     <td>Rol</td>
-    <td>Gerente general de residencia geriátrica</td>
+    <td>Gerente general de la Casa de Reposo Abuelitos Felices</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -301,15 +300,15 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
   <tr>
     <td>Resumen</td>
     <td>
-		El Sr. Oscar Navarrete, gerente general con 21 años de experiencia en la administración de una residencia geriátrica, muestra una personalidad estructurada, disciplinada y altamente orientada al control y la eficiencia. Se autodescribe como alguien “de cuadros y procesos”, lo que refleja su estilo de gestión metódico y basado en la planificación.
+		El Sr. Oscar Navarrete, gerente general con 21 años de experiencia en la administración de una residencia geriátrica, se describe como una persona estructurada, disciplinada y orientada al control y la eficiencia. Él mismo señaló que es “de cuadros y procesos”, lo que refleja su estilo de gestión metódico y basado en la planificación.
 
-Su canal de comunicación principal con los familiares es WhatsApp, donde organiza grupos por cada residente para enviar información de manera simultánea y transparente. Valora la inmediatez, la trazabilidad de los mensajes y la participación colectiva de los familiares, incluso aquellos que residen fuera del país.
+Nos confirmó que su canal principal de comunicación con los familiares es WhatsApp, donde organiza grupos por cada residente para enviar información de manera simultánea y transparente. Indicó que valora la inmediatez, la trazabilidad de los mensajes y la participación colectiva de los familiares, incluidos aquellos que viven en el extranjero.
 
-Tecnológicamente, Navarrete se considera usuario experimentado de Microsoft Excel, herramienta con la cual gestiona desde finanzas hasta control de inventario y pagos. Sin embargo, el manejo de las historias clínicas sigue siendo completamente físico. Reconoce que le cuesta adaptarse a nuevas plataformas (“más difícil que me metan otras cosas”), aunque manifiesta interés en digitalizar los expedientes médicos para mejorar el orden y la accesibilidad. Utiliza una laptop personal y un smartphone Android, con navegadores como Microsoft Edge y Google Chrome.
+En cuanto a herramientas tecnológicas, indicó que es usuario experimentado de Microsoft Excel, con el cual gestiona finanzas, inventarios y pagos. Confirmó que las historias clínicas se manejan completamente en formato físico. Aunque manifestó que le cuesta adaptarse a nuevas plataformas, también expresó interés en digitalizar los expedientes médicos para mejorar el orden y la accesibilidad. Señaló que utiliza una laptop personal, un smartphone Android y navegadores como Microsoft Edge y Google Chrome.
 
-Su marca de referencia es Microsoft, por la estabilidad de sus herramientas. En términos de influencias, menciona que toma como modelo de organización los sistemas hospitalarios del MINSA, aunque considera que estos son “muy complejos” para el entorno residencial.
+Indicó que su marca de referencia es Microsoft, por la estabilidad de sus herramientas. Además, mencionó que toma como referencia los sistemas hospitalarios del MINSA, aunque considera que estos pueden resultar “muy complejos” para el entorno residencial.
 
-Entre sus principales problemas se encuentran la falta de digitalización clínica, la dependencia excesiva del personal técnico y la dificultad para estandarizar la comunicación con familiares. Considera esencial una plataforma de gestión digital sencilla, funcional y adaptada al contexto de residencias, que no requiera conocimientos técnicos avanzados y permita acceso rápido a información relevante.
+Entre los principales desafíos que mencionó se encuentran la falta de digitalización clínica, la dependencia del personal técnico y la dificultad para estandarizar la comunicación con los familiares. Señaló que considera esencial contar con una plataforma de gestión digital sencilla y funcional, adaptada al contexto de residencias, que no requiera conocimientos técnicos avanzados y que permita un acceso rápido a la información relevante.
 </td>
   </tr>
 </tbody>
@@ -336,6 +335,10 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
     <td>Edad</td>
     <td>27 años</td>
   </tr>
+	<tr>
+    <td>Rol</td>
+    <td>Cuidador que trabaja en la casa de reposo La Posada del Señor</td>
+  </tr>
   <tr>
     <td>Distrito</td>
     <td>Lima</td>
@@ -359,15 +362,15 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
   <tr>
     <td>Resumen</td>
     <td>
-		Recoba Valenzuela es un cuidador joven con experiencia previa en entornos hospitalarios. Su personalidad es práctica, empática y centrada en la acción, con una visión operativa del trabajo diario. Se enfoca en atender las necesidades individuales de los adultos mayores, destacando la importancia de la personalización del cuidado.
+		Recoba Valenzuela es un cuidador joven con experiencia previa en entornos hospitalarios. Se describió como una persona práctica, empática y orientada a la acción, con un enfoque operativo centrado en atender las necesidades individuales de los adultos mayores. Destacó que la personalización del cuidado es fundamental en su labor diaria.
 
-Indica que la comunicación con los familiares se da mediante llamadas, SMS y WhatsApp, aunque a veces depende de un solo contacto que no siempre responde, lo que genera retrasos y confusiones.
+Nos indicó que la comunicación con los familiares se realiza mediante llamadas telefónicas, SMS y WhatsApp. Comentó que en algunos casos depende de un único contacto familiar, y cuando este no responde, se generan retrasos y confusiones en la comunicación.
 
-Respecto al uso tecnológico, maneja un nivel básico a intermedio: utiliza smartphone para comunicación y una computadora compartida en el centro. Comenta que en su trabajo anterior se implementó un sistema digital “muy complejo”, con una mala experiencia debido a su baja usabilidad y la falta de integración de módulos (por ejemplo, las recetas no estaban sincronizadas con los registros médicos).
+En relación con el uso de tecnología, señaló que posee un nivel básico a intermedio. Mencionó que utiliza su smartphone para la comunicación cotidiana y una computadora compartida en el centro para tareas administrativas. Además, describió una experiencia previa en otro trabajo donde se implementó un sistema digital que calificó como “muy complejo”, debido a su baja usabilidad y a la falta de integración entre módulos, como el caso de las recetas que no estaban sincronizadas con los registros médicos.
 
-No menciona marcas específicas, pero deja claro que valora la simplicidad, accesibilidad y rapidez en una herramienta digital. Considera que una plataforma adecuada debe centralizar toda la información del residente (recetas, citas, informes, alertas) y permitir múltiples canales de notificación para mantener informada a la familia.
+Expresó que valora herramientas digitales que sean simples, accesibles y rápidas. Indicó que considera importante que una plataforma integre toda la información del residente —incluyendo recetas, citas, informes y alertas— y que permita utilizar múltiples canales de notificación para mantener informada a la familia de manera oportuna.
 
-Su experiencia revela la necesidad de interfaces intuitivas y accesibles al personal operativo, con funcionalidades que faciliten su labor sin sobrecargarla con tareas digitales complejas.
+Su experiencia resalta la necesidad de interfaces intuitivas y accesibles para el personal operativo, con funcionalidades que faciliten su trabajo diario sin añadir complejidad innecesaria.
 </td>
   </tr>
 </tbody>
@@ -419,13 +422,13 @@ Su experiencia revela la necesidad de interfaces intuitivas y accesibles al pers
   <tr>
     <td>Resumen</td>
     <td>
-		Ivonne Madrid es una comerciante de 49 años, residente en Sullana, de personalidad práctica, empática y orientada a la familia. Muestra un nivel intermedio de competencia digital: utiliza constantemente su smartphone para negocios y redes sociales, pero no es usuaria avanzada de sistemas especializados.
+		Ivonne Madrid es una comerciante de 49 años, residente en Sullana. Se describió como una persona práctica, empática y orientada a su familia. Indicó que posee un nivel intermedio de competencia digital: utiliza de forma constante su smartphone para actividades de negocio y redes sociales, aunque no emplea sistemas especializados.
 
-Su principal frustración es la falta de acceso inmediato y confiable a la información médica de su familiar residente. Señala que cuando ocurre una urgencia médica, suele enterarse con mucho retraso o solo cuando logra comunicarse con el personal, lo que le genera ansiedad y desconfianza.
+Comentó que su principal dificultad es la falta de acceso inmediato y confiable a la información médica de su familiar residente. Señaló que, cuando ocurre una urgencia médica, suele recibir la información con retraso o únicamente cuando logra comunicarse directamente con el personal, lo cual le genera ansiedad y preocupación.
 
-Ivonne utiliza principalmente WhatsApp, llamadas y Facebook Messenger para comunicarse. Usa Google Chrome como navegador en su laptop personal y aplicaciones móviles en su teléfono Android.
+Indicó que se comunica habitualmente mediante WhatsApp, llamadas telefónicas y Facebook Messenger. Para navegar en su laptop personal utiliza el navegador Google Chrome, y en su teléfono Android usa principalmente aplicaciones móviles para mantenerse informada y comunicada.
 
-Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tratamientos, medicamentos, citas médicas, actividades y alertas. Subraya que su confianza aumentaría si la plataforma es segura, intuitiva y actualizada en tiempo real. Su motivación principal es poder monitorear la salud de su familiar sin depender de intermediarios.
+Expresó que desea una aplicación sencilla y rápida que le permita visualizar de forma clara la información relevante sobre su familiar, incluyendo tratamientos, medicamentos, citas médicas, actividades y alertas. Afirmó que confiaría más en la plataforma si esta cuenta con seguridad, una interfaz intuitiva y actualizaciones en tiempo real. Su principal motivación es poder monitorear la salud de su familiar sin depender de intermediarios.
 </td>
   </tr>
 </tbody>
@@ -475,13 +478,13 @@ Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tra
   <tr>
     <td>Resumen</td>
     <td>
-		Leo Gómez, de 30 años, es un profesional joven encargado del cuidado de su abuela. Posee una personalidad analítica, racional y metódica, con alta afinidad por la tecnología. Considera que la comunicación con el centro geriátrico es ineficiente, pues debe llamar varias veces para recibir información fragmentada.
+		Leo Gómez, de 30 años, es el responsable del cuidado de su abuela. Durante la entrevista, se describió como una persona analítica, racional y metódica, con alta afinidad por la tecnología. Expresó que la comunicación con el centro geriátrico resulta ineficiente, ya que debe realizar varias llamadas para obtener información que suele llegar incompleta o dispersa.
 
-Utiliza smartphone, laptop y tablet en su vida diaria, tanto para el trabajo como para el seguimiento familiar. Sus navegadores principales son Google Chrome y Safari, y está habituado al uso de herramientas digitales como Google Drive, Zoom y Gmail.
+Indicó que utiliza de manera regular un smartphone, una laptop y una tablet, tanto para su trabajo como para el seguimiento del estado de su familiar. Señaló que sus navegadores principales son Google Chrome y Safari, y que está familiarizado con herramientas digitales como Google Drive, Zoom y Gmail, las cuales usa a diario.
 
-Su frustración radica en la falta de reportes médicos completos y oportunos. Quiere acceder a información sobre medicación, chequeos médicos, alimentación y actividades recreativas en una plataforma segura. Le gustaría recibir notificaciones inmediatas ante cambios en el estado de salud o emergencias.
+Manifestó que su principal frustración es la falta de reportes médicos completos y oportunos. Expresó que desea acceder a información detallada sobre medicación, chequeos médicos, alimentación y actividades recreativas, dentro de una plataforma segura. También afirmó que le gustaría recibir notificaciones inmediatas en caso de cambios en el estado de salud o situaciones de emergencia.
 
-Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acceso restringido y comunicación directa con el personal. Representa al segmento de usuarios jóvenes, digitales y demandantes de transparencia.
+Finalmente, indicó que confiaría plenamente en un sistema siempre que garantice seguridad, acceso restringido y comunicación directa con el personal. Representa al segmento de familiares jóvenes y con alta alfabetización digital, que demandan transparencia y actualización constante de la información.
 
 </td>
   </tr>
@@ -532,13 +535,15 @@ Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acces
   <tr>
     <td>Resumen</td>
     <td>
-		Jonathan Ramírez, de 40 años, es apoderado legal de su madre residente. Posee una personalidad responsable, reflexiva y tecnológica, con experiencia en el uso de plataformas digitales en su entorno laboral.
+		Jonathan Ramírez, de 40 años, es el apoderado legal de su madre residente. Durante la entrevista, se describió como una persona responsable, reflexiva y con un nivel tecnológico alto, debido a su experiencia en el uso de plataformas digitales en su entorno laboral.
 
-Actualmente recibe información sobre su madre solo mediante llamadas telefónicas, las cuales suelen demorar. Esto le genera incertidumbre, especialmente en temas médicos y de medicación. Utiliza laptop, smartphone y correo electrónico, y su navegador principal es Google Chrome.
+Indicó que actualmente recibe información sobre su madre únicamente mediante llamadas telefónicas, las cuales suelen demorar. Esta situación le genera incertidumbre, especialmente en temas relacionados con la medicación y los reportes médicos diarios.
 
-Su perfil tecnológico es alto: maneja herramientas como Microsoft Teams, Google Drive y aplicaciones de comunicación corporativa. Busca una plataforma que le ofrezca transparencia, inmediatez y trazabilidad de la información médica, incluyendo medicación diaria, resultados de exámenes, citas programadas y alertas ante urgencias.
+Señaló que utiliza de forma habitual una laptop, un smartphone y el correo electrónico, y que su navegador principal es Google Chrome. Además, afirmó manejar con soltura herramientas como Microsoft Teams, Google Drive y aplicaciones de comunicación corporativa, reflejando un perfil digital avanzado.
 
-Expresa que confiaría en un sistema como Veyra siempre que sea rápido, confiable, seguro y con interfaz clara, destacando la importancia de las alertas automáticas para mantener la tranquilidad familiar.
+Manifestó que necesita una plataforma que le brinde transparencia, inmediatez y trazabilidad sobre la información médica de su madre, incluyendo medicación diaria, resultados de exámenes, citas programadas y alertas ante emergencias.
+
+Jonathan afirmó que confiaría en un sistema como Veyra siempre que este sea rápido, confiable, seguro y con una interfaz clara, y destacó que las alertas automáticas son esenciales para mantener la tranquilidad familiar y reducir la incertidumbre.
 </td>
   </tr>
 </tbody>
