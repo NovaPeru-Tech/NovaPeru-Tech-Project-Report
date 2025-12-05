@@ -3241,7 +3241,11 @@ Durante el Sprint 4, la actividad se centró en la estabilización ("Hardening")
 
 ## Anexos
 
+<div style="page-break-after: always;"></div>
+
 <h4>Anexo A: Enlaces de Despliegue y Repositorios</h4>
+
+<p>A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.</p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -3252,19 +3256,19 @@ Durante el Sprint 4, la actividad se centró en la estabilización ("Hardening")
   </thead>
   <tbody>
     <tr>
-      <td><strong>Landing Page (Desplegado)</strong></td>
+      <td><strong>Landing Page (GitHub Pages)</strong></td>
       <td><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a></td>
     </tr>
     <tr>
-      <td><strong>Frontend Web Application (Desplegado)</strong></td>
-      <td><a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a></td>
+      <td><strong>Frontend Web Application (Vercel Prod)</strong></td>
+      <td><a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app">https://nova-peru-tech-frontend-v1-2w9r.vercel.app</a></td>
     </tr>
     <tr>
-      <td><strong>Backend API (Desplegado)</strong></td>
+      <td><strong>Backend API Services (Azure Prod)</strong></td>
       <td><a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a></td>
     </tr>
     <tr>
-      <td><strong>Backend Swagger UI (Documentación API)</strong></td>
+      <td><strong>API Documentation (Swagger UI)</strong></td>
       <td><a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a></td>
     </tr>
     <tr>
@@ -3290,17 +3294,19 @@ Durante el Sprint 4, la actividad se centró en la estabilización ("Hardening")
 
 <h4>Anexo B: Videos del Proyecto</h4>
 
+<p>Registro histórico de todas las exposiciones y videos promocionales presentados durante el ciclo académico 2025-2.</p>
+
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
-      <th>Video</th>
+      <th>Entrega / Hito</th>
       <th>Plataforma</th>
       <th>URL</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2"><strong>Video de Exposición TB1</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TB1 (Sprint 1)</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/PONdZOKZofI">https://youtu.be/PONdZOKZofI</a></td>
     </tr>
@@ -3309,7 +3315,7 @@ Durante el Sprint 4, la actividad se centró en la estabilización ("Hardening")
       <td><a href="http://bit.ly/4h2grbc">http://bit.ly/4h2grbc</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video de Exposición TP</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TP1 (Sprint 2)</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/_7f8dKl5zGs">https://youtu.be/_7f8dKl5zGs</a></td>
     </tr>
@@ -3318,7 +3324,25 @@ Durante el Sprint 4, la actividad se centró en la estabilización ("Hardening")
       <td><a href="https://shorturl.at/UfvsR">https://shorturl.at/UfvsR</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video About the Product</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TB2 (Sprint 3)</strong></td>
+      <td>YouTube</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición Final TF1 (Sprint 4)</strong></td>
+      <td>YouTube</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video "About the Product"</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/DCPqVW0C2Po">https://youtu.be/DCPqVW0C2Po</a></td>
     </tr>
@@ -3327,7 +3351,7 @@ Durante el Sprint 4, la actividad se centró en la estabilización ("Hardening")
       <td><a href="https://shorturl.at/W0vMy">https://shorturl.at/W0vMy</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video About the Team</strong></td>
+      <td rowspan="2"><strong>Video "About the Team"</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/-tBBZ8lwbts">https://youtu.be/-tBBZ8lwbts</a></td>
     </tr>
