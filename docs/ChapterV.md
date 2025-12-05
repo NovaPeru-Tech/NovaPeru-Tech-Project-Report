@@ -3086,33 +3086,33 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
   <tbody>
     <tr>
       <td>Calvo Yalan, Renato Guillermo</td>
-      <td>Backend Developer</td>
+      <td>Backend and Frontend Developer</td>
       <td>Implementación de servicios REST, arquitectura del Backend</td>
     </tr>
     <tr>
       <td>Armas Sánchez, Oscar Javier</td>
-      <td>DevOps & Deployment Specialist</td>
+      <td>Backend and Frontend Developer</td>
       <td>Configuración de Azure, Vercel y GitHub Pages</td>
     </tr>
     <tr>
       <td>Ramirez Carrasco, Ariana Lizeth</td>
-      <td>UX/UI Designer & Frontend Developer</td>
+      <td>Backend and Frontend Developer</td>
       <td>Diseño de interfaces, implementación de componentes Angular</td>
     </tr>
     <tr>
       <td>Roman Lopez, Miguel Angel Junior</td>
-      <td>Frontend Developer</td>
+      <td>Backend and Frontend Developer</td>
       <td>Desarrollo de vistas, integración con API Backend</td>
     </tr>
     <tr>
       <td>Ruiz Madrid, Billy Jake</td>
-      <td>QA & Documentation Specialist</td>
-      <td>Validación de funcionalidades, documentación técnica</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Diseño de diagramas C4, Frontend, Backend y DataBase</td>
     </tr>
     <tr>
       <td>Quiroz Caceres, Adrian Alonso</td>
-      <td>Backend Developer</td>
-      <td>Implementación de entidades y repositorios JPA</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Implementación de arquitectura del Frontend</td>
     </tr>
   </tbody>
 </table>
