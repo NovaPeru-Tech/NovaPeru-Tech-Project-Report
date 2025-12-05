@@ -166,33 +166,8 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 
 * **Lenguaje Adaptativo:** El contenido está diseñado para ser fácil de entender para todos, utilizando un lenguaje que resuena con familias y cuidadores de personas mayores, sin jerga técnica.
 
-### 4.2.3. SEO Tags and Meta Tags
 
-* **Title Tags:**
-  
-    * **Landing Page:** "Veyra - The Best Care is Always Connected"
-
-* **Meta Description:**
-  
-    * **Landing Page:** "Veyra es una plataforma digital que conecta a familias y cuidadores, ofreciendo una gestión transparente y segura del cuidado de adultos mayores."
-
-* **Keywords:**
-  
-    * **Landing Page:** "cuidado de adultos mayores, gestión de cuidado, plataforma para cuidadores, salud familiar, bienestar senior, Veyra"
-
-* **Meta Author:**
-  
-    * **Landing Page:** "NovaPeru Tech"
- 
-* **Meta Charset:**
-  
-    * "UTF-8"
- 
-* **Meta Viewport:**
-  
-    * "width=device-width, initial-scale=1.0"
- 
-### 4.2.4. Searching Systems
+### 4.2.3. Searching Systems
 
 * **Barra de Búsqueda:** Aunque la página de inicio no requiere una barra de búsqueda, una vez que el usuario inicia sesión en la aplicación principal, esta funcionalidad será clave. Estará ubicada en un lugar prominente y permitirá buscar rápidamente información de residentes, historial médico y otros datos relevantes.
 
@@ -203,7 +178,7 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 * **Resultados Relevantes:** Los resultados de búsqueda se priorizarán según la relevancia para la cuenta y las funciones del usuario.
 
 
-### 4.2.5. Navigation Systems
+### 4.2.4. Navigation Systems
 
 * **Navegación Global:** La barra de navegación en el encabezado proporciona acceso principal a las secciones de la página de inicio. El menú de hamburguesa en dispositivos móviles asegura que esta navegación sea siempre accesible.
 
