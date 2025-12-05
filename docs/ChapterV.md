@@ -3675,6 +3675,8 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 <h4>Anexo C: Videos del Proyecto</h4>
 
 <table border="1" cellpadding="4" cellspacing="0">
