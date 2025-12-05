@@ -1639,9 +1639,9 @@ Finalmente, el gráfico de Visitors del repositorio frontend muestra un incremen
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 3 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-<em>Our focus is on providing a live VEYRA environment where authenticated users can sign up, log in, and manage core data through the deployed web application.</em><br><br>
-<em>We believe it delivers a realistic and reliable experience to Nursing Home Administrators and Family Members, allowing them to access VEYRA from anywhere and trust that their information is safely stored and available.</em><br><br>
-<em>This will be confirmed when the production URL is publicly accessible and at least one test administrator can register, log in, and perform basic CRUD operations on key entities (for example, residents and tasks) using the deployed frontend connected to the Azure-hosted backend.</em>
+<em>Our focus is on delivering a live VEYRA production environment where authenticated users can sign up, sign in, and manage core nursing-home data (residents, staff, rooms and medications) through the deployed web application connected to the backend.</em><br><br>
+<em>We believe it delivers a realistic, reliable and secure experience to Nursing Home Administrators and Family Members, allowing them to access updated information about residents’ care and activities from anywhere and at any time.</em><br><br>
+<em>This will be confirmed when the production URL is publicly accessible, at least one test administrator can register and log in, and can successfully perform end-to-end CRUD operations on key entities (for example residents, staff and medications) using the deployed frontend connected to the Azure-hosted backend during the Sprint Review.</em>
       </td>
     </tr>
     <tr>
