@@ -3303,9 +3303,9 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
 
 <div style="page-break-after: always;"></div>
 
-<h4>Anexo B: Videos del Proyecto</h4>
+<h4>Anexo B: Videos de Exposiciones</h4>
 
-<p>Registro histórico de todas las exposiciones y videos promocionales presentados durante el ciclo académico 2025-2.</p>
+<p>Registro histórico de todas las exposiciones y videos promocionales presentados durante el ciclo académico 202520.</p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -3337,7 +3337,7 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
     <tr>
       <td rowspan="2"><strong>Video de Exposición TB2 (Sprint 3)</strong></td>
       <td>YouTube</td>
-      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+      <td><a href="https://youtu.be/Ju2k-SoNUYo">https://youtu.be/Ju2k-SoNUYo</a></td>
     </tr>
     <tr>
       <td>Microsoft Stream</td>
@@ -3352,6 +3352,13 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
       <td>Microsoft Stream</td>
       <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
     </tr>
+  </tbody>
+</table>
+
+<h4>Anexo C: Videos del Proyecto</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
     <tr>
       <td rowspan="2"><strong>Video "About the Product"</strong></td>
       <td>YouTube</td>
