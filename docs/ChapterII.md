@@ -239,7 +239,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>04:28 min</td>
   <tr>
     <td>Resumen</td>
     <td>
@@ -296,7 +296,7 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min</td>
+    <td>03:46 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -354,7 +354,7 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>4:04 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -414,7 +414,7 @@ Su experiencia revela la necesidad de interfaces intuitivas y accesibles al pers
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>02:26 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -470,7 +470,7 @@ Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tra
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>05:41 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -527,7 +527,7 @@ Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acces
   </tr>
   <tr>
     <td>Duración de la entrevista<br></td>
-    <td>00:00 min</td>
+    <td>03:05 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -599,7 +599,7 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 
 Para los administradores se elaboró el User Persona **Mauricio Sánchez Valencia**. Se consideraron factores como su edad, rol en la gestión de una casa de reposo, experiencia en la administración del cuidado de adultos mayores y su necesidad de optimizar procesos de comunicación y gestión de la información. Sus principales frustraciones giran en torno a la falta de un sistema centralizado para el control de historias clínicas, medicamentos y citas médicas, lo que genera demoras en la comunicación con familiares y dificultades en el seguimiento de residentes. Asimismo, se tomó en cuenta su familiaridad con herramientas digitales básicas y la necesidad de contar con una plataforma moderna, intuitiva y segura que le permita centralizar toda la información de manera ágil y confiable.
 
-<img src="../images/User Persona Segmento_1.png" alt="User Persona 1" width="auto" height="1900"/>
+<img src="../images/mauricio-sánchez-valencia-uxpressia.png" alt="User Persona 1" width="auto" height="1900"/>
 
 <br>
 
@@ -607,7 +607,7 @@ Para los administradores se elaboró el User Persona **Mauricio Sánchez Valenci
 
 Para los familiares se elaboró el User Persona **Carmen Morales Quispe**. Se consideraron aspectos como su edad, ocupación y su rol como familiar de un adulto mayor residente en una casa de reposo. Sus principales motivaciones están orientadas a mantenerse informada en tiempo real sobre el estado de salud, el tratamiento y la administración de medicamentos de su familiar, incluso mientras desarrolla sus actividades laborales. Entre sus frustraciones se encuentra la falta de información clara, la demora en las notificaciones sobre urgencias y la necesidad de depender de llamadas o visitas presenciales. Su perfil refleja una predisposición positiva hacia el uso de soluciones digitales, siempre que estas sean rápidas, confiables y fáciles de utilizar.
 
-<img src="../images/User Persona Segmento_2.png" alt="User Persona 2" width="auto" height="1900"/>
+<img src="../images/carmen-morales quispe-uxpressia.png" alt="User Persona 2" width="auto" height="1900"/>
 
 ### 2.3.2. User Task Matrix
 
