@@ -873,27 +873,27 @@ A continuación, la estructura de la tabla de control de estado para el Sprint:
 |---------|----------|---|---|---|---|---|---|
 | **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| US-001 | Menú de navegación | T001 | Definir estructura del menú | Definir la estructura del menú de navegación para la landing page. | 2h | [Asignado] | To-do |
-| US-001 | Menú de navegación | T002 | Implementar menú en HTML | Implementar el menú de navegación utilizando HTML. | 3h | [Asignado] | To-do |
-| US-001 | Menú de navegación | T003 | Estilos del menú | Aplicar estilos CSS al menú de navegación. | 2h | [Asignado] | To-do |
-| US-001 | Menú de navegación | T004 | Pruebas de navegación | Realizar pruebas de navegación del menú. | 2h | [Asignado] | To-do |
-| US-002 | Visualización de planes | T005 | Diseñar estructura de planes | Diseñar la estructura de la sección de planes. | 3h | [Asignado] | To-do |
-| US-002 | Visualización de planes | T006 | Implementar sección de planes | Implementar la sección de planes en la landing page. | 4h | [Asignado] | To-do |
-| US-002 | Visualización de planes | T007 | Pruebas de planes | Realizar pruebas de carga y visualización de los planes. | 2h | [Asignado] | To-do |
-| US-003 | Selección de plan en Landing Page | T008 | Diseñar formulario de confirmación | Diseñar el formulario de confirmación de selección de plan. | 3h | [Asignado] | To-do |
-| US-003 | Selección de plan en Landing Page | T009 | Implementar selección y confirmación | Implementar la lógica de selección y confirmación del plan. | 4h | [Asignado] | To-do |
-| US-003 | Selección de plan en Landing Page | T010 | Pruebas de validación | Realizar pruebas de validación del flujo de selección. | 2h | [Asignado] | To-do |
-| US-004 | Visualización de creadores | T011 | Definir información de creadores | Definir la información a mostrar de los creadores/equipo. | 2h | [Asignado] | To-do |
-| US-004 | Visualización de creadores | T012 | Implementar sección del equipo | Implementar la sección del equipo/creadores. | 3h | [Asignado] | To-do |
-| US-004 | Visualización de creadores | T013 | Pruebas de visualización | Realizar pruebas de visualización de la sección del equipo. | 2h | [Asignado] | To-do |
-| US-005 | Redes sociales | T014 | Implementar íconos de redes sociales | Implementar los íconos de redes sociales en la landing page. | 2h | [Asignado] | To-do |
-| US-005 | Redes sociales | T015 | Pruebas de enlaces sociales | Realizar pruebas de los enlaces hacia redes sociales. | 1h | [Asignado] | To-do |
-| US-006 | Formulario de contacto | T016 | Diseñar formulario de contacto | Diseñar el formulario de contacto. | 2h | [Asignado] | To-do |
-| US-006 | Formulario de contacto | T017 | Implementar formulario | Implementar el formulario de contacto en la landing page. | 3h | [Asignado] | To-do |
-| US-006 | Formulario de contacto | T018 | Pruebas de envío | Realizar pruebas de envío y funcionamiento del formulario. | 2h | [Asignado] | To-do |
-| US-007 | Cambio de idioma | T019 | Implementar botón de idioma | Implementar el botón o selector de cambio de idioma. | 3h | [Asignado] | To-do |
-| US-007 | Cambio de idioma | T020 | Definir textos traducidos | Definir y registrar los textos traducidos para los idiomas soportados. | 4h | [Asignado] | To-do |
-| US-007 | Cambio de idioma | T021 | Pruebas de funcionalidad | Realizar pruebas de funcionamiento del cambio de idioma. | 2h | [Asignado] | To-do |
+| US-001 | Menú de navegación | T001 | Definir estructura del menú | Definir la estructura del menú de navegación para la landing page. | 2h | Billy Ruiz | To-do |
+| US-001 | Menú de navegación | T002 | Implementar menú en HTML | Implementar el menú de navegación utilizando HTML. | 3h | Billy Ruiz | To-do |
+| US-001 | Menú de navegación | T003 | Estilos del menú | Aplicar estilos CSS al menú de navegación. | 2h | Billy Ruiz | To-do |
+| US-001 | Menú de navegación | T004 | Pruebas de navegación | Realizar pruebas de navegación del menú. | 2h | Billy Ruiz | To-do |
+| US-002 | Visualización de planes | T005 | Diseñar estructura de planes | Diseñar la estructura de la sección de planes. | 3h | Renato Calvo | To-do |
+| US-002 | Visualización de planes | T006 | Implementar sección de planes | Implementar la sección de planes en la landing page. | 4h | Renato Calvo | To-do |
+| US-002 | Visualización de planes | T007 | Pruebas de planes | Realizar pruebas de carga y visualización de los planes. | 2h | Renato Calvo | To-do |
+| US-003 | Selección de plan en Landing Page | T008 | Diseñar formulario de confirmación | Diseñar el formulario de confirmación de selección de plan. | 3h | Billy Ruiz | To-do |
+| US-003 | Selección de plan en Landing Page | T009 | Implementar selección y confirmación | Implementar la lógica de selección y confirmación del plan. | 4h | Billy Ruiz | To-do |
+| US-003 | Selección de plan en Landing Page | T010 | Pruebas de validación | Realizar pruebas de validación del flujo de selección. | 2h | Billy Ruiz | To-do |
+| US-004 | Visualización de creadores | T011 | Definir información de creadores | Definir la información a mostrar de los creadores/equipo. | 2h | Miguel Román | To-do |
+| US-004 | Visualización de creadores | T012 | Implementar sección del equipo | Implementar la sección del equipo/creadores. | 3h | Miguel Román | To-do |
+| US-004 | Visualización de creadores | T013 | Pruebas de visualización | Realizar pruebas de visualización de la sección del equipo. | 2h | Miguel Román | To-do |
+| US-005 | Redes sociales | T014 | Implementar íconos de redes sociales | Implementar los íconos de redes sociales en la landing page. | 2h | Oscar Armas | To-do |
+| US-005 | Redes sociales | T015 | Pruebas de enlaces sociales | Realizar pruebas de los enlaces hacia redes sociales. | 1h | Oscar Armas | To-do |
+| US-006 | Formulario de contacto | T016 | Diseñar formulario de contacto | Diseñar el formulario de contacto. | 2h | Ariana Ramirez | To-do |
+| US-006 | Formulario de contacto | T017 | Implementar formulario | Implementar el formulario de contacto en la landing page. | 3h | Ariana Ramirez | To-do |
+| US-006 | Formulario de contacto | T018 | Pruebas de envío | Realizar pruebas de envío y funcionamiento del formulario. | 2h | Ariana Ramirez | To-do |
+| US-007 | Cambio de idioma | T019 | Implementar botón de idioma | Implementar el botón o selector de cambio de idioma. | 3h | Billy Ruiz | To-do |
+| US-007 | Cambio de idioma | T020 | Definir textos traducidos | Definir y registrar los textos traducidos para los idiomas soportados. | 4h | Billy Ruiz | To-do |
+| US-007 | Cambio de idioma | T021 | Pruebas de funcionalidad | Realizar pruebas de funcionamiento del cambio de idioma. | 2h | Billy Ruiz | To-do |
 
 El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (To-do, In-Process, To-Review, Done). Durante las reuniones diarias (**Daily Scrum**), el equipo revisa el avance, actualiza el estado de las tareas y gestiona posibles bloqueos.
 
