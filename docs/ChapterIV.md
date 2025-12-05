@@ -291,6 +291,77 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 
 ## 4.4. Web Applications UX/UI Design
 
+La sección de Web Applications UX/UI Design presenta la propuesta visual, estructural y de interacción desarrollada para las distintas aplicaciones que conforman la experiencia digital de Veyra, el ecosistema orientado a la gestión integral de residencias geriátricas y a la conexión transparente entre administradores, personal asistencial y familiares.
+
+El diseño se elaboró siguiendo principios de usabilidad, accesibilidad, consistencia visual y orientación a tareas, asegurando que cada interfaz responda a las necesidades reales identificadas durante el proceso de entrevistas y validaciones con usuarios. La propuesta UI/UX se centra en crear una experiencia clara, confiable y sencilla para usuarios con distintos niveles de alfabetización digital.
+
+Dentro de esta sección se detallan los siguientes componentes:
+
+1. Estructura general de la interfaz
+
+Se describen las decisiones de diseño relacionadas con la arquitectura visual, la organización de pantallas, los patrones de navegación (menús, barras superiores, breadcrumbs) y la jerarquía de información para cada tipo de usuario:
+
+- Administradores de residencias.
+
+- Familiares o apoderados de adultos mayores.
+
+  <br>
+
+2. Lineamientos de diseño visual
+
+Se especifican los elementos que conforman la identidad gráfica de Veyra:
+
+- Paleta de colores asociada a salud, confianza y bienestar.
+
+- Tipografías legibles y consistentes.
+
+- Uso de espaciados, tamaños y contrastes orientados a mejorar la accesibilidad.
+
+<br>
+
+3. Componentes de interacción
+
+Incluye la definición de los principales componentes UI y su comportamiento:
+
+- Formularios optimizados y validados.
+
+- Tarjetas informativas para residentes.
+
+- Módulos de reportes y gráficos.
+
+- Alertas, notificaciones y estados del sistema.
+
+- Controles interactivos como botones, selectores y tablas dinámicas.
+
+<br>
+
+4. Flujo de usuario
+
+Se documentan los recorridos que realizan cada uno de los segmentos clave:
+
+- Registro y acceso de familiares.
+
+- Consulta de medicación, historial clínico y citas.
+
+- Gestión administrativa de residentes.
+
+- Supervisión operativa del personal asistencial.
+
+Estos flujos fueron construidos tomando en cuenta los pain points observados en las entrevistas, priorizando accesos rápidos, reducción de pasos innecesarios y claridad en la información.
+
+<br>
+
+5. Justificación del diseño
+
+Se argumenta cómo las decisiones visuales e interactivas responden a:
+
+- Las necesidades reales de los usuarios.
+
+- Las limitaciones tecnológicas identificadas en centros geriátricos.
+
+- Las expectativas de seguridad, claridad y rapidez en la comunicación familiar.
+<br>
+
 ### 4.4.1. Web Applications Wireframes
 <p>
 En esta sección se presentan los <strong>wireframes diseñados para la aplicación web de NovaPeru Tech (Veyra)</strong>. 
