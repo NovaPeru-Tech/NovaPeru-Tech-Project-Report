@@ -1892,7 +1892,15 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 <p>
   Durante el Sprint 3, se implementó la capa de servicios REST del Backend de VEYRA, con documentación 
-  completa en Swagger/OpenAPI. Todos los endpoints están disponibles y documentados.
+  completa en Swagger/OpenAPI. Todos los endpoints están disponibles y descritos en el documento 
+  <code>/v3/api-docs</code> del entorno de producción de NovaPeruTech, incluyendo parámetros, códigos de
+  respuesta y modelos de datos.
+</p>
+
+<p>
+  La tabla siguiente resume los principales endpoints expuestos, organizados por recurso y operación, 
+  indicando el verbo HTTP, la acción implementada, la sintaxis de la llamada y el tipo de respuesta 
+  que devuelve el servicio.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
@@ -1906,101 +1914,312 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
     </tr>
   </thead>
   <tbody>
+    <!-- Medications -->
     <tr>
-      <td rowspan="5"><strong>/api/v1/residents</strong></td>
+      <td><strong>/api/v1/medications</strong></td>
       <td><strong>GET</strong></td>
-      <td>Listar residentes</td>
-      <td><code>GET /api/v1/residents</code></td>
-      <td><code>200 OK</code>: Array JSON de residentes.</td>
+      <td>Obtener medicamento por ID.</td>
+      <td><code>GET /api/v1/medications/{medicationId}</code></td>
+      <td><code>200 OK</code>: Objeto <code>MedicationResource</code> con la información del medicamento.</td>
+    </tr>
+    <!-- Person Profiles -->
+    <tr>
+      <td rowspan="5"><strong>/api/v1/person-profiles</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener listado de perfiles de persona.</td>
+      <td><code>GET /api/v1/person-profiles</code></td>
+      <td><code>200 OK</code>: Array JSON de <code>PersonProfileResource</code>.</td>
     </tr>
     <tr>
       <td><strong>GET</strong></td>
-      <td>Detalle residente</td>
-      <td><code>GET /api/v1/residents/{id}</code></td>
-      <td><code>200 OK</code>: Objeto Residente.</td>
+      <td>Obtener perfil de persona por ID.</td>
+      <td><code>GET /api/v1/person-profiles/{personProfileId}</code></td>
+      <td><code>200 OK</code>: Objeto <code>PersonProfileResource</code> o <code>404 Not Found</code> si no existe.</td>
     </tr>
     <tr>
       <td><strong>POST</strong></td>
-      <td>Crear residente</td>
-      <td><code>POST /api/v1/residents</code></td>
-      <td><code>201 Created</code>.</td>
+      <td>Crear un nuevo perfil de persona.</td>
+      <td><code>POST /api/v1/person-profiles</code></td>
+      <td><code>201 Created</code>: Objeto creado con sus datos normalizados.</td>
     </tr>
     <tr>
       <td><strong>PUT</strong></td>
-      <td>Actualizar residente</td>
-      <td><code>PUT /api/v1/residents/{id}</code></td>
-      <td><code>200 OK</code>.</td>
+      <td>Actualizar un perfil de persona.</td>
+      <td><code>PUT /api/v1/person-profiles/{personProfileId}</code></td>
+      <td><code>200 OK</code>: Objeto actualizado o <code>404 Not Found</code>.</td>
     </tr>
     <tr>
       <td><strong>DELETE</strong></td>
-      <td>Eliminar residente</td>
-      <td><code>DELETE /api/v1/residents/{id}</code></td>
-      <td><code>204 No Content</code>.</td>
+      <td>Eliminar un perfil de persona.</td>
+      <td><code>DELETE /api/v1/person-profiles/{personProfileId}</code></td>
+      <td><code>204 No Content</code>: Eliminación exitosa.</td>
+    </tr>
+    <!-- Nursing Homes (incluye staff, rooms, residents y analytics) -->
+    <tr>
+      <td rowspan="15"><strong>/api/v1/nursing-homes</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar todas las casas de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes</code></td>
+      <td><code>200 OK</code>: Array de <code>NursingHomeResource</code>.</td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>/api/v1/medications</strong></td>
       <td><strong>GET</strong></td>
-      <td>Listar medicamentos</td>
-      <td><code>GET /api/v1/medications</code></td>
-      <td><code>200 OK</code>: Array JSON de medicamentos.</td>
+      <td>Obtener casa de reposo por ID.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}</code></td>
+      <td><code>200 OK</code>: <code>NursingHomeResource</code> o <code>404 Not Found</code>.</td>
     </tr>
     <tr>
       <td><strong>GET</strong></td>
-      <td>Detalle medicamento</td>
-      <td><code>GET /api/v1/medications/{id}</code></td>
-      <td><code>200 OK</code>: Objeto Medicamento.</td>
+      <td>Listar staff de una casa de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/staff</code></td>
+      <td><code>200 OK</code>: Array de <code>StaffResource</code>.</td>
     </tr>
     <tr>
       <td><strong>POST</strong></td>
-      <td>Registrar medicamento</td>
-      <td><code>POST /api/v1/medications</code></td>
-      <td><code>201 Created</code>.</td>
-    </tr>
-    <tr>
-      <td><strong>PUT</strong></td>
-      <td>Actualizar stock</td>
-      <td><code>PUT /api/v1/medications/{id}</code></td>
-      <td><code>200 OK</code>.</td>
-    </tr>
-    <tr>
-      <td><strong>DELETE</strong></td>
-      <td>Eliminar medicamento</td>
-      <td><code>DELETE /api/v1/medications/{id}</code></td>
-      <td><code>204 No Content</code>.</td>
-    </tr>
-    <tr>
-      <td rowspan="5"><strong>/api/v1/staff</strong></td>
-      <td><strong>GET</strong></td>
-      <td>Listar personal activo</td>
-      <td><code>GET /api/v1/staff</code></td>
-      <td><code>200 OK</code>: Retorna array JSON con enfermeros, técnicos y administradores.</td>
+      <td>Registrar nuevo miembro de staff en una casa de reposo.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/staff</code></td>
+      <td><code>201 Created</code>: <code>StaffResource</code> creado.</td>
     </tr>
     <tr>
       <td><strong>GET</strong></td>
-      <td>Obtener perfil</td>
-      <td><code>GET /api/v1/staff/{id}</code></td>
-      <td><code>200 OK</code>: Objeto Staff.</td>
+      <td>Listar habitaciones de una casa de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/rooms</code></td>
+      <td><code>200 OK</code>: Array de <code>RoomResource</code>.</td>
     </tr>
     <tr>
       <td><strong>POST</strong></td>
-      <td>Registrar personal</td>
-      <td><code>POST /api/v1/staff</code><br>(Body: JSON Staff)</td>
-      <td><code>201 Created</code>: Retorna el perfil creado.</td>
+      <td>Agregar nueva habitación a una casa de reposo.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/rooms</code></td>
+      <td><code>201 Created</code>: <code>RoomResource</code> creada.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Asignar residente a una habitación.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/rooms/{residentId}</code></td>
+      <td><code>200 OK</code>: <code>AssignedRoomForResidentResource</code> con la asignación.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar habitaciones por estado.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/rooms/{roomStatus}</code></td>
+      <td><code>200 OK</code>: Array de habitaciones filtradas por estado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar residentes de una casa de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/residents</code></td>
+      <td><code>200 OK</code>: Array de <code>ResidentResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nuevo residente en una casa de reposo.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/residents</code></td>
+      <td><code>201 Created</code>: <code>ResidentResource</code> creado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener analíticas de terminaciones de staff.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/analytics/staff-terminations</code></td>
+      <td><code>200 OK</code>: Lista de <code>MetricResource</code> con estadísticas de terminaciones.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener analíticas de contrataciones de staff.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/analytics/staff-hires</code></td>
+      <td><code>200 OK</code>: Lista de métricas de contrataciones.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener analíticas de admisiones de residentes.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/analytics/residents-admissions</code></td>
+      <td><code>200 OK</code>: Lista de métricas de admisiones.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar actividades de una casa de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/activities</code></td>
+      <td><code>200 OK</code>: Array de <code>ActivityResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nueva actividad en una casa de reposo.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/activities</code></td>
+      <td><code>201 Created</code>: <code>ActivityResource</code> creada.</td>
+    </tr>
+    <!-- Staff -->
+    <tr>
+      <td rowspan="6"><strong>/api/v1/staff</strong></td>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar datos de un miembro del staff.</td>
+      <td><code>PUT /api/v1/staff/{staffMemberId}</code></td>
+      <td><code>200 OK</code>: <code>StaffResource</code> actualizado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar contratos de un miembro del staff.</td>
+      <td><code>GET /api/v1/staff/{staffMemberId}/contracts</code></td>
+      <td><code>200 OK</code>: Array de <code>ContractResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nuevo contrato para un miembro del staff.</td>
+      <td><code>POST /api/v1/staff/{staffMemberId}/contracts</code></td>
+      <td><code>201 Created</code>: <code>ContractResource</code> creado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener contrato específico por ID.</td>
+      <td><code>GET /api/v1/staff/{staffMemberId}/contracts/{contractId}</code></td>
+      <td><code>200 OK</code>: <code>ContractResource</code> o <code>404 Not Found</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>PATCH</strong></td>
+      <td>Actualizar estado de un contrato.</td>
+      <td><code>PATCH /api/v1/staff/{staffMemberId}/contracts/{contractId}</code></td>
+      <td><code>200 OK</code>: Contrato actualizado; <code>400</code> si la transición es inválida.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener contrato activo de un miembro del staff.</td>
+      <td><code>GET /api/v1/staff/{staffMemberId}/contracts/active</code></td>
+      <td><code>200 OK</code>: <code>ContractResource</code> activo o <code>404 Not Found</code>.</td>
+    </tr>
+    <!-- Roles -->
+    <tr>
+      <td><strong>/api/v1/roles</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar todos los roles del sistema.</td>
+      <td><code>GET /api/v1/roles</code></td>
+      <td><code>200 OK</code>: Array de <code>RoleResource</code>.</td>
+    </tr>
+    <!-- Authentication -->
+    <tr>
+      <td rowspan="2"><strong>/api/v1/authentication</strong></td>
+      <td><strong>POST</strong></td>
+      <td>Registro de nuevo usuario (sign-up).</td>
+      <td><code>POST /api/v1/authentication/sign-up</code></td>
+      <td><code>201 Created</code>: <code>AuthenticatedUserResource</code> con datos y token.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Inicio de sesión (sign-in).</td>
+      <td><code>POST /api/v1/authentication/sign-in</code></td>
+      <td><code>200 OK</code>: <code>AuthenticatedUserResource</code> con token JWT; <code>401 Unauthorized</code> en credenciales inválidas.</td>
+    </tr>
+    <!-- Measurements -->
+    <tr>
+      <td><strong>/api/v1/measurements</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener listado de mediciones registradas.</td>
+      <td><code>GET /api/v1/measurements</code></td>
+      <td><code>200 OK</code>: Array de <code>MeasurementResource</code> utilizado para monitoreo de salud.</td>
+    </tr>
+    <!-- Business Profiles -->
+    <tr>
+      <td rowspan="3"><strong>/api/v1/business-profiles</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar todos los perfiles de negocio.</td>
+      <td><code>GET /api/v1/business-profiles</code></td>
+      <td><code>200 OK</code>: Array de <code>BusinessProfileResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nuevo perfil de negocio.</td>
+      <td><code>POST /api/v1/business-profiles</code></td>
+      <td><code>201 Created</code>: <code>BusinessProfileResource</code> creado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener perfil de negocio por ID.</td>
+      <td><code>GET /api/v1/business-profiles/{businessId}</code></td>
+      <td><code>200 OK</code>: Perfil de negocio o <code>404 Not Found</code>.</td>
+    </tr>
+    <!-- Residents (detalle, alergias, medicamentos) -->
+    <tr>
+      <td rowspan="7"><strong>/api/v1/residents</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener residente por ID.</td>
+      <td><code>GET /api/v1/residents/{residentId}</code></td>
+      <td><code>200 OK</code>: <code>ResidentResource</code> o <code>404 Not Found</code>.</td>
     </tr>
     <tr>
       <td><strong>PUT</strong></td>
-      <td>Actualizar datos</td>
-      <td><code>PUT /api/v1/staff/{id}</code></td>
-      <td><code>200 OK</code>: Perfil actualizado.</td>
+      <td>Actualizar datos de un residente.</td>
+      <td><code>PUT /api/v1/residents/{residentId}</code></td>
+      <td><code>200 OK</code>: Residente actualizado.</td>
     </tr>
     <tr>
       <td><strong>DELETE</strong></td>
-      <td>Dar de baja</td>
-      <td><code>DELETE /api/v1/staff/{id}</code></td>
-      <td><code>204 No Content</code>.</td>
+      <td>Eliminar residente.</td>
+      <td><code>DELETE /api/v1/residents/{residentId}</code></td>
+      <td><code>204 No Content</code>: Eliminación exitosa.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar alergias de un residente.</td>
+      <td><code>GET /api/v1/residents/{residentId}/allergies</code></td>
+      <td><code>200 OK</code>: Array de <code>AllergyResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nueva alergia para un residente.</td>
+      <td><code>POST /api/v1/residents/{residentId}/allergies</code></td>
+      <td><code>201 Created</code>: <code>AllergyResource</code> creada.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar medicamentos asignados a un residente.</td>
+      <td><code>GET /api/v1/residents/{residentId}/medications</code></td>
+      <td><code>200 OK</code>: Array de <code>MedicationResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar un nuevo medicamento para un residente.</td>
+      <td><code>POST /api/v1/residents/{residentId}/medications</code></td>
+      <td><code>201 Created</code>: Asociación residente–medicamento creada.</td>
+    </tr>
+    <!-- Administrators -->
+    <tr>
+      <td rowspan="2"><strong>/api/v1/administrators</strong></td>
+      <td><strong>POST</strong></td>
+      <td>Crear administrador del sistema.</td>
+      <td><code>POST /api/v1/administrators</code></td>
+      <td><code>201 Created</code>: <code>AdministratorResource</code> registrado.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Crear casa de reposo asociada a un administrador.</td>
+      <td><code>POST /api/v1/administrators/{administratorId}/nursing-homes</code></td>
+      <td><code>201 Created</code>: <code>NursingHomeResource</code> vinculada al administrador.</td>
+    </tr>
+    <!-- Users -->
+    <tr>
+      <td rowspan="2"><strong>/api/v1/users</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar todos los usuarios.</td>
+      <td><code>GET /api/v1/users</code></td>
+      <td><code>200 OK</code>: Array de <code>UserResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener usuario por ID.</td>
+      <td><code>GET /api/v1/users/{userId}</code></td>
+      <td><code>200 OK</code>: <code>UserResource</code> o <code>404 Not Found</code>.</td>
     </tr>
   </tbody>
 </table>
+
+<p>
+  Adicionalmente, la especificación OpenAPI incluye los esquemas de datos utilizados por la API, tales como 
+  <code>StaffResource</code>, <code>ResidentResource</code>, <code>PersonProfileResource</code>, 
+  <code>AllergyResource</code>, <code>ContractResource</code>, <code>MedicationResource</code>, 
+  <code>RoomResource</code>, <code>ActivityResource</code>, <code>BusinessProfileResource</code>, 
+  <code>UserResource</code>, <code>AdministratorResource</code>, <code>NursingHomeResource</code>, 
+  <code>MetricResource</code>, <code>MeasurementResource</code>, <code>RoleResource</code>, 
+  <code>SignUpResource</code>, <code>SignInResource</code> y <code>AuthenticatedUserResource</code>, 
+  entre otros, que describen la estructura de los <em>request</em> y <em>response</em> intercambiados 
+  entre el Frontend y el Backend.
+</p>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
