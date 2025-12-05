@@ -1444,5 +1444,4 @@ A continuación, se muestra la gestión del backlog en la herramienta Jira Softw
   <p><em>Figura: Captura del Product Backlog en Jira Software.</em></p>
 </div>
 
-**Enlace al Product Backlog:**
-(https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog?atlOrigin=eyJpIjoiYTFlZGM3NTRjMWUyNDQ2N2E5YzY4MThhM2FmZTcxMjQiLCJwIjoiaiJ9)
+**Enlace al Product Backlog:** https://shorturl.at/QnPlW
