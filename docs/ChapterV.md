@@ -2224,16 +2224,95 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 <p>
-  <strong>Frontend Desplegado:</strong> <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a>
+  Durante el Sprint 3 se consolidó el <em>deployment</em> de la solución VEYRA en entornos cloud,
+  abarcando la Web Application (Frontend Angular) y los Web Services (Backend con APIs REST y
+  documentación Swagger). Las actividades incluyeron la creación y configuración de proyectos
+  en Vercel y Azure App Service, la definición de variables de entorno para separar los
+  ambientes de desarrollo y producción, y la integración del flujo de despliegue continuo
+  basado en los repositorios de GitHub del equipo.
 </p>
 
 <p>
-  <strong>Backend Desplegado:</strong> <a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a>
+  De esta manera, el producto quedó accesible desde una URL pública para los usuarios
+  administradores de casas de reposo y se habilitó, además, la documentación interactiva de
+  la API para facilitar las pruebas funcionales y la validación técnica durante la revisión
+  del Sprint.
+</p>
+
+---
+
+<h5>1) Despliegue de la Web Application (Frontend) en Vercel</h5>
+
+<p>
+  Para la Web Application se configuró un proyecto en Vercel enlazado al repositorio
+  <em>NovaPeruTech-Frontend</em>. Se definió el comando de build de Angular y la carpeta de
+  salida de artefactos (<code>dist</code>), y se registró la variable de entorno con la
+  <code>BASE_API_URL</code> apuntando al backend en producción. Con esto, cada vez que se
+  realiza un merge a la rama principal, Vercel ejecuta automáticamente el pipeline de
+  compilación y despliegue.
 </p>
 
 <p>
-  <strong>API Documentation (Swagger UI):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a>
+  <strong>Frontend desplegado:</strong>
+  <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">
+    https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home
+  </a>
 </p>
+
+<div align="center">
+  <img src="../images/deployment-frontend-sprint3.png" alt="Panel de despliegue del Frontend en Vercel" width="90%">
+  <p><em>Figura: Panel de despliegue de la Web Application de VEYRA en Vercel.</em></p>
+</div>
+
+---
+
+<h5>2) Despliegue de los Web Services (Backend) en Azure App Service</h5>
+
+<p>
+  El backend de VEYRA se desplegó en Azure App Service utilizando el proyecto
+  <em>veyrav01</em>. Para ello se creó un recurso de App Service, se configuró el entorno de
+  ejecución de Spring Boot y se definieron las variables de entorno necesarias (cadena de
+  conexión a la base de datos, perfil <code>prod</code> y claves de seguridad). Azure se
+  integró con el repositorio <em>NovaPeruTech-BackEnd</em> para automatizar el despliegue
+  cada vez que se actualiza la rama principal.
+</p>
+
+<p>
+  <strong>Backend desplegado:</strong>
+  <a href="https://veyrav01.azurewebsites.net">
+    https://veyrav01.azurewebsites.net
+  </a>
+</p>
+
+<div align="center">
+  <img src="../images/deployment-backend-sprint3.png" alt="Panel de despliegue del Backend en Azure App Service" width="90%">
+  <p><em>Figura: Vista del recurso de Azure App Service con el backend VEYRA desplegado.</em></p>
+</div>
+
+---
+
+<h5>3) Publicación de la documentación de la API (Swagger UI)</h5>
+
+<p>
+  Como parte del proceso de deployment, se habilitó la documentación de los Web Services
+  mediante Swagger UI en el mismo App Service de Azure. Esto permite a los miembros del
+  equipo y a los stakeholders explorar todos los endpoints REST (creación, consulta,
+  actualización y eliminación de recursos como residentes, personal, casas de reposo,
+  actividades y métricas de salud), así como probarlos en tiempo real contra el entorno de
+  producción.
+</p>
+
+<p>
+  <strong>API Documentation (Swagger UI):</strong>
+  <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">
+    https://veyrav01.azurewebsites.net/swagger-ui/index.html
+  </a>
+</p>
+
+<div align="center">
+  <img src="../images/deployment-swagger-sprint3.png" alt="Swagger UI con la documentación de la API de VEYRA" width="90%">
+  <p><em>Figura: Documentación interactiva de los Web Services de VEYRA mediante Swagger UI.</em></p>
+</div>
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
