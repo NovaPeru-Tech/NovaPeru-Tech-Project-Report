@@ -894,6 +894,20 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+<p>
+  En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 1
+  en relación con el producto de la solución incluido en su alcance: la <strong>Landing Page</strong> pública de VEYRA.
+  A lo largo de este sprint se construyó la primera versión navegable del sitio, incluyendo las secciones
+  Home/Hero, Services, Features, About the App, Pricing, Testimonials, About the Team y Contact, con sus
+  estilos CSS y ajustes de responsividad.
+</p>
+
+<p>
+  La tabla siguiente resume los commits más relevantes realizados en el repositorio de la Landing Page,
+  indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio
+  introducido en la implementación.
+</p>
+
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
@@ -901,6 +915,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <th>Branch</th>
       <th>Commit Id</th>
       <th>Commit Message</th>
+      <th>Commit Message Body</th>
       <th>Committed on (Date)</th>
     </tr>
   </thead>
@@ -910,66 +925,77 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <td>main</td>
       <td>5499fe0fb5d24b7e18b29f76616d3751d1b05056</td>
       <td>Initial commit</td>
+      <td>Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias.</td>
       <td>10-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>741b864bf4d3adb5c285c2b57266cc2eef9aad35</td>
       <td>chore: add hero and home section</td>
+      <td>Implementa la sección Hero/Home con el mensaje principal de VEYRA y el llamado a la acción para los usuarios.</td>
       <td>12-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>84569edd53373a0dda20fae41a127d0a6573953f</td>
       <td>chore: add home and services section styling</td>
+      <td>Aplica estilos CSS a las secciones Home y Services, mejorando la disposición del contenido y la legibilidad.</td>
       <td>13-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>66d1d439ba86f7a9f2be00a27b65f59550b595f7</td>
       <td>feat(section): add features section with CSS</td>
+      <td>Agrega la sección de Features con estilos, mostrando las funcionalidades destacadas de la plataforma VEYRA.</td>
       <td>14-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>e3f8b84b35396c70673120464c4eebc57a843fd3</td>
       <td>chore: add features section</td>
+      <td>Refina el contenido y la estructura HTML de la sección de Features para resaltar mejor los beneficios del producto.</td>
       <td>15-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>cfe8b66050e1c25e4b62a06c413192ef09406a45</td>
       <td>chore: add about us section and benefits</td>
+      <td>Incorpora la sección About Us/About the App con los beneficios principales para los usuarios de casas de reposo.</td>
       <td>16-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>fe01ab208e248862dd8f260f18750bed27d0d528</td>
       <td>chore: add team section</td>
+      <td>Incluye la sección About the Team con información de los integrantes del equipo de desarrollo.</td>
       <td>17-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>f3da531e6de86e8d2737d29d0586d7947f8eb0e9</td>
       <td>feat(section): add pricing section with CSS</td>
+      <td>Crea la sección de Pricing con tarjetas de planes y estilos CSS para comunicar los niveles de servicio.</td>
       <td>18-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>ca8bf2e835f2ad94d068573c5fc7533e38c68f04</td>
       <td>chore: add hero section styling</td>
+      <td>Ajusta la apariencia de la sección Hero agregando estilos adicionales para mejorar el impacto visual.</td>
       <td>19-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>ea08eae9d315d89fa351c5abf6bfd4cda57fd278</td>
       <td>chore: add responsive styling improvements</td>
+      <td>Realiza mejoras de estilos responsivos para que la Landing Page se visualice correctamente en distintos tamaños de pantalla.</td>
       <td>20-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>dcd349d3cb0a5f40146aac3fd9edf1684b39d308</td>
       <td>fix: update asset paths to include public directory</td>
+      <td>Corrige las rutas de los recursos estáticos (imágenes y otros assets) apuntando al directorio público para evitar errores 404 en despliegue.</td>
       <td>21-09-2025</td>
     </tr>
   </tbody>
