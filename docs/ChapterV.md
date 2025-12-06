@@ -2780,7 +2780,224 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-<p> Durante el Sprint 4, el foco en servicios se centró en revisar y pulir la documentación existente en Swagger/OpenAPI, asegurando consistencia en descripciones, ejemplos de respuesta y mensajes de error, así como en la nomenclatura de recursos y parámetros. Se validó que los endpoints críticos para la revisión de producción (autenticación, residentes, habitaciones y analíticas de personal) estuvieran correctamente documentados y alineados con el comportamiento real del backend desplegado en Azure. </p> <p> La siguiente tabla resume los principales endpoints revisados durante este Sprint, detallando las acciones soportadas, el verbo HTTP, la sintaxis de llamada y ejemplos de request/response utilizando la documentación generada por Swagger UI. </p> <table border="1" cellpadding="4" cellspacing="0"> <thead> <tr> <th>Endpoint</th> <th>HTTP Verb</th> <th>Acción / Funcionalidad</th> <th>Parámetros y Ejemplo de Request</th> <th>Ejemplo y Explicación de Response</th> <th>Link a Documentación</th> </tr> </thead> <tbody> <tr> <td>/api/v1/authentication/sign-in</td> <td>POST</td> <td>Autenticar usuario y generar token JWT.</td> <td> Body (JSON):<br> <code>{ "email": "admin@veyra.com", "password": "Admin123*" }</code> </td> <td> <code>200 OK</code><br> <code>{ "id": 1, "email": "admin@veyra.com", "role": "ADMIN", "token": "..." }</code><br> Devuelve el usuario autenticado y el token JWT para siguientes peticiones protegidas. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Authentication"> Swagger - Authentication </a> </td> </tr> <tr> <td>/api/v1/nursing-homes/{nursingHomeId}/rooms</td> <td>GET</td> <td>Listar habitaciones de un nursing home.</td> <td> Path param:<br> <code>nursingHomeId: 1</code><br> Ejemplo: <code>GET /api/v1/nursing-homes/1/rooms</code> </td> <td> <code>200 OK</code><br> <code>[{ "id": 10, "code": "HAB-101", "status": "AVAILABLE" }, ...]</code><br> Devuelve el listado de habitaciones con su estado actual para monitoreo de ocupación. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Nursing%20Homes"> Swagger - Nursing Homes </a> </td> </tr> <tr> <td>/api/v1/nursing-homes/{nursingHomeId}/analytics/staff-terminations</td> <td>GET</td> <td>Obtener analíticas de bajas de personal.</td> <td> Path param:<br> <code>nursingHomeId: 1</code><br> Ejemplo: <code>GET /api/v1/nursing-homes/1/analytics/staff-terminations</code> </td> <td> <code>200 OK</code><br> <code>{ "totalTerminations": 3, "byReason": { "Renuncia": 2, "Despido": 1 } }</code><br> Permite a la administración analizar rotación de personal durante un periodo determinado. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Analytics"> Swagger - Analytics </a> </td> </tr> <tr> <td>/api/v1/residents/{residentId}</td> <td>GET</td> <td>Consultar datos de un residente.</td> <td> Path param:<br> <code>residentId: 5</code><br> Ejemplo: <code>GET /api/v1/residents/5</code> </td> <td> <code>200 OK</code><br> <code>{ "id": 5, "fullName": "María Pérez", "age": 82, "roomCode": "HAB-201" }</code><br> Responde con la información principal del residente y su habitación asignada. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Residents"> Swagger - Residents </a> </td> </tr> <tr> <td>/api/v1/measurements</td> <td>GET</td> <td>Listar mediciones de salud registradas.</td> <td> Query params opcionales:<br> <code>residentId</code>, <code>from</code>, <code>to</code><br> Ejemplo: <code>GET /api/v1/measurements?residentId=5</code> </td> <td> <code>200 OK</code><br> <code>[{ "type": "HEART_RATE", "value": 78, "recordedAt": "2025-11-10T09:30:00Z" }, ...]</code><br> Devuelve mediciones de telemetría asociadas a bandas médicas o registros manuales. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Measurements"> Swagger - Measurements </a> </td> </tr> </tbody> </table> <p> Adicionalmente, se actualizaron las descripciones de errores y ejemplos de respuesta para los endpoints de <strong>Staff</strong>, <strong>Activities</strong> y <strong>Business Profiles</strong>, asegurando mensajes consistentes en español y alineados con la interfaz de usuario. Estas revisiones pueden observarse en la documentación Swagger UI del entorno de producción. </p> <p> <strong>Repositorio Web Services (Backend):</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend"> https://github.com/NovaPeru-Tech/NovaPeruTech-Backend </a> </p> <p> Los cambios de documentación de este Sprint se encuentran agrupados en los commits etiquetados como <code>feat(docs)</code> y <code>fix(docs)</code> del repositorio Backend (completar en el informe final con los IDs específicos de commit utilizados en GitHub). </p> <p><strong>Capturas de interacción con la documentación:</strong></p> <p><em>Swagger UI – Endpoints de habitaciones con ejemplos actualizados:</em></p> <img src="../images/sprint4-swagger-rooms.jpg" alt="Swagger rooms Sprint 4"> <p><em>Swagger UI – Endpoints de analíticas de personal:</em></p> <img src="../images/sprint4-swagger-analytics.jpg" alt="Swagger analytics Sprint 4">
+<p>
+  Durante el Sprint 4, el foco en Servicios se centró en extender y documentar los
+  endpoints relacionados con el ciclo de facturación de VEYRA: pagos individuales,
+  suscripciones y la gestión de suscripciones por usuario. Se actualizaron las
+  definiciones OpenAPI en Swagger, asegurando descripciones consistentes, ejemplos
+  de request/response y mensajes de error claros para los recursos
+  <strong>Payments</strong>, <strong>Subscriptions</strong> y <strong>Users</strong>.
+  De esta forma, el frontend puede consultar y administrar el estado de las
+  suscripciones y sus pagos de manera confiable.
+</p>
+
+<p>
+  La siguiente tabla resume los principales endpoints documentados o ajustados
+  durante este Sprint, detallando las acciones soportadas, el verbo HTTP,
+  la sintaxis de llamada y ejemplos de request/response utilizando la
+  documentación generada por Swagger UI.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>HTTP Verb</th>
+      <th>Acción / Funcionalidad</th>
+      <th>Parámetros y Ejemplo de Request</th>
+      <th>Ejemplo y Explicación de Response</th>
+      <th>Link a Documentación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/payments/{paymentId}</td>
+      <td>GET</td>
+      <td>Obtener el detalle de un pago por su identificador.</td>
+      <td>
+        Path param:<br>
+        <code>paymentId: 120</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/payments/120</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 120, "amount": 49.90, "currency": "USD", "status": "COMPLETED", "processedAt": "2025-11-10T09:30:00Z" }</code><br>
+        Devuelve la información detallada del pago, permitiendo trazar y auditar
+        una transacción específica.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Payments">
+          Swagger – Payments
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/subscriptions/{subscriptionId}/payments</td>
+      <td>GET</td>
+      <td>Listar todos los pagos asociados a una suscripción.</td>
+      <td>
+        Path param:<br>
+        <code>subscriptionId: 10</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/subscriptions/10/payments</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>[{ "id": 120, "amount": 49.90, "status": "COMPLETED" }, ...]</code><br>
+        Devuelve el historial de pagos de una suscripción, útil para mostrar en el
+        panel de administración o para conciliación.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+          Swagger – Subscriptions
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/subscriptions/{subscriptionId}/payments</td>
+      <td>POST</td>
+      <td>Procesar un nuevo pago para una suscripción.</td>
+      <td>
+        Path param:<br>
+        <code>subscriptionId: 10</code><br>
+        Body (JSON):<br>
+        <code>{ "amount": 49.90, "currency": "USD", "paymentMethod": "CARD" }</code>
+      </td>
+      <td>
+        <code>201 Created</code><br>
+        <code>{ "id": 121, "amount": 49.90, "status": "PENDING", "subscriptionId": 10 }</code><br>
+        Registra un nuevo pago y devuelve el recurso creado, que luego será
+        actualizado cuando el procesador de pagos confirme la transacción.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+          Swagger – Subscriptions
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions</td>
+      <td>GET</td>
+      <td>Obtener todas las suscripciones de un usuario.</td>
+      <td>
+        Path param:<br>
+        <code>userId: 5</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/users/5/subscriptions</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>[{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }, ...]</code><br>
+        Permite conocer el historial de suscripciones de un usuario y su estado actual.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions/{subscriptionId}</td>
+      <td>PUT</td>
+      <td>Actualizar los datos de una suscripción de usuario.</td>
+      <td>
+        Path params:<br>
+        <code>userId: 5</code>, <code>subscriptionId: 10</code><br>
+        Body (JSON):<br>
+        <code>{ "plan": "PREMIUM", "status": "ACTIVE" }</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "PREMIUM", "status": "ACTIVE" }</code><br>
+        Devuelve la suscripción actualizada, reflejando cambios de plan o estado
+        para el usuario.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions/{subscriptionId}/cancel</td>
+      <td>POST</td>
+      <td>Cancelar una suscripción de un usuario.</td>
+      <td>
+        Path params:<br>
+        <code>userId: 5</code>, <code>subscriptionId: 10</code><br>
+        Ejemplo:<br>
+        <code>POST /api/v1/users/5/subscriptions/10/cancel</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "STANDARD", "status": "CANCELLED" }</code><br>
+        Cambia el estado de la suscripción a <code>CANCELLED</code> y la excluye
+        de futuros ciclos de cobro.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions/active</td>
+      <td>GET</td>
+      <td>Obtener la suscripción activa de un usuario.</td>
+      <td>
+        Path param:<br>
+        <code>userId: 5</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/users/5/subscriptions/active</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }</code><br>
+        Devuelve la suscripción que actualmente se encuentra activa para el usuario,
+        información clave para controlar acceso a funcionalidades premium.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  Adicionalmente, se ajustaron descripciones, códigos de respuesta y ejemplos
+  en los recursos relacionados, garantizando que la documentación de la API de
+  facturación sea consistente y pueda ser consumida fácilmente por otros
+  equipos (frontend, integraciones externas, QA).
+</p>
+
+<p>
+  <strong>Repositorio Web Services (Backend):</strong>
+  <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">
+    https://github.com/NovaPeru-Tech/NovaPeruTech-Backend
+  </a>
+</p>
+
+<p>
+  Los cambios de documentación de este Sprint se agrupan en commits etiquetados
+  como <code>feat(payments-docs)</code> y <code>feat(subscriptions-docs)</code>, donde
+  se actualizó el archivo OpenAPI y se sincronizaron los modelos de respuesta
+  con las entidades de dominio (Payments, Subscriptions y Users).
+</p>
+
+<p><strong>Capturas de interacción con la documentación (Swagger UI):</strong></p>
+
+<p><em>Swagger UI – Endpoints de Payments:</em></p>
+<img src="../images/swagger-payments-endpoints.jpg" alt="swagger-payments-endpoints">
+
+<p><em>Swagger UI – Endpoints de Subscriptions:</em></p>
+<img src="../images/swagger-subscriptions-endpoints.jpg" alt="swagger-subscriptions-endpoints">
+
+<p><em>Swagger UI – Endpoints de Users y suscripciones de usuario:</em></p>
+<img src="../images/swagger-user1-endpoints.jpg" alt="swagger-user1-endpoints">
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
