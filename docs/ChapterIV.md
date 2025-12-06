@@ -899,23 +899,73 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
    
 ### 4.6.2. Software Architecture Context Diagram
 
-El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software Veyra, los usuarios y sistemas externos.
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software Veyra como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
 
-![ContextDiagram Diagram](../images/contextDiagram.png)
+El context diagram muestra al **Veyra Software System** como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
+
+- **Nursing Home Administrator**: usuario interno responsable de gestionar hogares, residentes, personal, actividades y servicios. Interactúa con Veyra para registrar y mantener información operativa del hogar de cuidado.
+- **Family Member**: usuario externo que consulta la plataforma para monitorear el estado de salud, medicación y actividades de sus familiares adultos mayores, así como para revisar información relevante de su cuidado.
+- **Payment System (Stripe)**: sistema externo encargado de procesar suscripciones, pagos y facturación asociados al uso de la plataforma.
+- **Google Maps API**: servicio de mapas utilizado para obtener geolocalización y direcciones de los hogares de cuidado, facilitando la búsqueda y navegación de ubicaciones.
+- **Email Notification Service**: servicio de correo utilizado para enviar notificaciones transaccionales (activación de cuenta, recordatorios, alertas, etc.) a los usuarios de Veyra.
+
+En el diagrama se representan las relaciones entre estos elementos, destacando que tanto el administrador como el familiar interactúan únicamente con Veyra, mientras que el sistema se encarga de orquestar las integraciones con los servicios externos (pagos, mapas y notificaciones). Esta vista permite entender el alcance del sistema, los límites de responsabilidad y el ecosistema en el que se inserta Veyra antes de entrar a detalles de implementación.
+
+![ContextDiagram Diagram](../images/c4-context.svg)
+
+---
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones y fuentes de datos en el sistema de Veyra. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
+En el nivel de contenedores, la atención se desplaza desde “quién usa el sistema” hacia “cómo se organiza internamente el sistema en aplicaciones y fuentes de datos”. El container diagram muestra los elementos de alto nivel de la arquitectura de Veyra, sus responsabilidades principales y la forma en que se comunican entre sí y con los sistemas externos.
 
-![ContainerDiagram Diagram](../images/containerDiagram.png)
+La arquitectura lógica de Veyra se estructura en los siguientes contenedores:
+
+- **Landing Page**: aplicación web estática que presenta la propuesta de valor de Veyra, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
+- **Single Page Application (SPA)**: aplicación web principal, implementada en **Angular**, donde interactúan el Nursing Home Administrator y el Family Member. Este contenedor concentra la experiencia de usuario, las vistas y la lógica de presentación para los diferentes contextos del dominio (nursing, hcm, iam, analytics, health, profiles, tracking, payments y activities).
+- **API Application**: backend implementado con **Spring Boot**, que expone una API REST y encapsula la lógica de negocio, reglas de validación y orquestación de procesos. Este contenedor agrupa los módulos backend por contexto (Nursing Backend, HCM Backend, IAM Backend, Analytics Backend, Health Backend, Profiles Backend, Tracking Backend, Payments Backend, Activities Backend y Shared Backend).
+- **Database**: base de datos relacional **MySQL**, donde se persiste la información estructurada del sistema: hogares, residentes, personal, perfiles, métricas, historiales clínicos, datos de seguimiento, pagos y actividades.
+
+En el diagrama se observa que:
+
+- Los usuarios acceden primero a la **Landing Page**, la cual redirige a la **SPA** tras la autenticación.
+- La **SPA** se comunica exclusivamente con la **API Application** mediante peticiones **HTTP/HTTPS** con mensajes **JSON**, siguiendo un estilo REST.
+- La **API Application** persiste y consulta datos en la **Database** mediante **JDBC** y mapeo objeto–relacional.
+- Tanto la **SPA** como la **API Application** interactúan con los sistemas externos: el **Payment System** para pagos y suscripciones, la **Google Maps API** para geolocalización y el **Email Notification Service** para el envío de notificaciones.
+
+Esta vista permite apreciar cómo se distribuyen las responsabilidades entre la capa de presentación (Landing y SPA), la capa de lógica de negocio (API Application) y la capa de persistencia (Database), así como las principales decisiones tecnológicas que se han tomado para cada contenedor.
+
+![ContainerDiagram Diagram](../images/c4-container.svg)
+
+---
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-El diagrama de componentes proporciona una vista más detallada de la arquitectura del sistema Veyra. 
-Este nivel de diseño se centra en los módulos internos de cada contenedor definido en el diagrama de contenedores, 
-mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunican entre sí.
+En el nivel de componentes se detalla la descomposición interna de los contenedores, mostrando los bloques estructurales que conforman cada uno y las relaciones entre ellos. Dado que la **Single Page Application** y la **Database** ya fueron descritas en otros apartados mediante diagramas de clases frontend y de base de datos, en esta sección se pone especial énfasis en el contenedor **API Application**, donde reside la mayor parte de la lógica de negocio.
 
-![ContainerDiagram Diagram](../images/structurizr-Components.png)
+El component diagram de la **API Application** agrupa la arquitectura interna siguiendo los bounded contexts definidos en el dominio de Veyra. Cada módulo backend representa un componente principal dentro del contenedor:
+
+- **Nursing Backend**: implementa la lógica relacionada con hogares de cuidado, habitaciones, residentes, asignaciones y medicación. Gestiona las operaciones CRUD y reglas de negocio para el contexto de nursing.
+- **HCM Backend**: agrupa la funcionalidad de recursos humanos, incluyendo registro de personal, contratos, turnos y organización interna del hogar de cuidado.
+- **IAM Backend**: se encarga de la autenticación, gestión de usuarios, roles, permisos y validaciones de acceso a la aplicación.
+- **Analytics Backend**: ofrece capacidades de agregación y consulta de métricas, estadísticas y datos analíticos de los hogares, apoyando el monitoreo y la toma de decisiones.
+- **Health Backend**: administra historiales clínicos, evaluaciones médicas y registros de signos vitales, proporcionando una vista estructurada del estado de salud de los residentes.
+- **Profiles Backend**: gestiona la información de perfiles de personas y empresas (contacto, direcciones, datos de identificación), compartida por varios procesos del sistema.
+- **Tracking Backend**: maneja la captura y procesamiento de datos provenientes de bandas médicas y sensores, permitiendo la trazabilidad del estado de los residentes.
+- **Payments Backend**: encapsula el manejo de suscripciones, facturación, pagos y conciliaciones, y se integra con el **Payment System (Stripe)** para la ejecución de cobros.
+- **Activities Backend**: gestiona la programación de actividades, horarios y participación de residentes, coordinando la agenda de eventos del hogar de cuidado.
+- **Shared Backend**: provee componentes compartidos, utilidades, clases base, eventos y mecanismos de infraestructura transversales utilizados por los demás módulos backend.
+
+En el diagrama se refleja cómo:
+
+- La **SPA** consume los servicios expuestos por cada módulo backend a través de la **API Application**, utilizando endpoints REST específicos por contexto.
+- Cada módulo backend accede a la **Database** para leer y escribir la información correspondiente a su contexto (por ejemplo, Nursing Backend a tablas de hogares y residentes, HCM Backend a tablas de personal y contratos, etc.).
+- Algunos módulos se integran con sistemas externos: **Payments Backend** con el sistema de pagos, **Nursing Backend** y **Profiles Backend** con la API de mapas, y **IAM Backend** con el servicio de notificaciones por correo.
+- Todos los módulos backend reutilizan capacidades comunes provistas por el **Shared Backend**, lo que favorece la consistencia, la reutilización y la reducción de duplicación de código.
+
+De esta forma, los component diagrams complementan los diagramas de clases del frontend, backend y base de datos, mostrando cómo los contenedores se descomponen en componentes coherentes con los bounded contexts del dominio y cómo estos colaboran entre sí para implementar la funcionalidad completa de Veyra.
+
+![ContainerDiagram Diagram](../images/c4-components.svg)
 
 <div style="page-break-after: always;"></div>
 
