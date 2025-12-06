@@ -2419,7 +2419,7 @@ Durante el Sprint 4, el equipo se enfocó en la estabilización final del produc
 </p>
 
 <p>
-  <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+  <strong>Backend API (Producción):</strong><a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/"> Backend API</a>
 </p>
 
 #### 5.2.4.1. Sprint Planning 4
@@ -2842,7 +2842,7 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
         una transacción específica.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Payments">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Payments
         </a>
       </td>
@@ -2870,7 +2870,7 @@ GET /api/v1/subscriptions/10/payments
         panel de administración o para conciliación.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Subscriptions
         </a>
       </td>
@@ -2899,7 +2899,7 @@ GET /api/v1/subscriptions/10/payments
         actualizado cuando el procesador de pagos confirme la transacción.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Subscriptions
         </a>
       </td>
@@ -2926,7 +2926,7 @@ GET /api/v1/users/5/subscriptions
         Permite conocer el historial de suscripciones de un usuario y su estado actual.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Users
         </a>
       </td>
@@ -2957,7 +2957,7 @@ userId: 5, subscriptionId: 10
         Devuelve la suscripción actualizada, reflejando cambios de plan o estado.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Users
         </a>
       </td>
@@ -2989,7 +2989,7 @@ POST /api/v1/users/5/subscriptions/10/cancel
         de futuros ciclos de cobro.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Users
         </a>
       </td>
@@ -3018,7 +3018,7 @@ GET /api/v1/users/5/subscriptions/active
         Devuelve la suscripción que actualmente se encuentra activa para el usuario.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Users
         </a>
       </td>
