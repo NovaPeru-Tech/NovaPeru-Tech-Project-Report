@@ -3944,8 +3944,6 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
   </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 <h4>Anexo B: Videos de Exposiciones</h4>
 
 <p>Registro histórico de todas las exposiciones y videos promocionales presentados durante el ciclo académico 202520.</p>
@@ -3997,8 +3995,6 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
     </tr>
   </tbody>
 </table>
-
-<div style="page-break-after: always;"></div>
 
 <h4>Anexo C: Videos del Proyecto</h4>
 
