@@ -2798,166 +2798,226 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
   documentación generada por Swagger UI.
 </p>
 
-<table border="1" cellpadding="4" cellspacing="0">
+<table border="1" cellpadding="4" cellspacing="0"
+       style="width:100%; table-layout:fixed; border-collapse:collapse; font-size:10px;">
+  <colgroup>
+    <col style="width:14%;">
+    <col style="width:8%;">
+    <col style="width:18%;">
+    <col style="width:22%;">
+    <col style="width:28%;">
+    <col style="width:10%;">
+  </colgroup>
   <thead>
     <tr>
-      <th>Endpoint</th>
-      <th>HTTP Verb</th>
-      <th>Acción / Funcionalidad</th>
-      <th>Parámetros y Ejemplo de Request</th>
-      <th>Ejemplo y Explicación de Response</th>
-      <th>Link a Documentación</th>
+      <th style="word-wrap:break-word;">Endpoint</th>
+      <th style="word-wrap:break-word;">HTTP Verb</th>
+      <th style="word-wrap:break-word;">Acción / Funcionalidad</th>
+      <th style="word-wrap:break-word;">Parámetros y Ejemplo de Request</th>
+      <th style="word-wrap:break-word;">Ejemplo y Explicación de Response</th>
+      <th style="word-wrap:break-word;">Link a Documentación</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>/api/v1/payments/{paymentId}</td>
-      <td>GET</td>
-      <td>Obtener el detalle de un pago por su identificador.</td>
-      <td>
-        Path param:<br>
-        <code>paymentId: 120</code><br>
-        Ejemplo:<br>
-        <code>GET /api/v1/payments/120</code>
+      <td style="word-wrap:break-word; vertical-align:top;">/api/v1/payments/{paymentId}</td>
+      <td style="word-wrap:break-word; vertical-align:top;">GET</td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Obtener el detalle de un pago por su identificador.
       </td>
-      <td>
-        <code>200 OK</code><br>
-        <code>{ "id": 120, "amount": 49.90, "currency": "USD", "status": "COMPLETED", "processedAt": "2025-11-10T09:30:00Z" }</code><br>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Path param:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">paymentId: 120</code><br>
+        Ejemplo:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">GET /api/v1/payments/120</code>
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        <code style="white-space:pre-wrap; word-wrap:break-word;">200 OK</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+{ "id": 120, "amount": 49.90, "currency": "USD",
+  "status": "COMPLETED",
+  "processedAt": "2025-11-10T09:30:00Z" }
+        </code><br>
         Devuelve la información detallada del pago, permitiendo trazar y auditar
         una transacción específica.
       </td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Payments">
           Swagger – Payments
         </a>
       </td>
     </tr>
     <tr>
-      <td>/api/v1/subscriptions/{subscriptionId}/payments</td>
-      <td>GET</td>
-      <td>Listar todos los pagos asociados a una suscripción.</td>
-      <td>
-        Path param:<br>
-        <code>subscriptionId: 10</code><br>
-        Ejemplo:<br>
-        <code>GET /api/v1/subscriptions/10/payments</code>
+      <td style="word-wrap:break-word; vertical-align:top;">/api/v1/subscriptions/{subscriptionId}/payments</td>
+      <td style="word-wrap:break-word; vertical-align:top;">GET</td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Listar todos los pagos asociados a una suscripción.
       </td>
-      <td>
-        <code>200 OK</code><br>
-        <code>[{ "id": 120, "amount": 49.90, "status": "COMPLETED" }, ...]</code><br>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Path param:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">subscriptionId: 10</code><br>
+        Ejemplo:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+GET /api/v1/subscriptions/10/payments
+        </code>
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        <code style="white-space:pre-wrap; word-wrap:break-word;">200 OK</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+[{ "id": 120, "amount": 49.90, "status": "COMPLETED" }, ...]
+        </code><br>
         Devuelve el historial de pagos de una suscripción, útil para mostrar en el
         panel de administración o para conciliación.
       </td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
           Swagger – Subscriptions
         </a>
       </td>
     </tr>
     <tr>
-      <td>/api/v1/subscriptions/{subscriptionId}/payments</td>
-      <td>POST</td>
-      <td>Procesar un nuevo pago para una suscripción.</td>
-      <td>
-        Path param:<br>
-        <code>subscriptionId: 10</code><br>
-        Body (JSON):<br>
-        <code>{ "amount": 49.90, "currency": "USD", "paymentMethod": "CARD" }</code>
+      <td style="word-wrap:break-word; vertical-align:top;">/api/v1/subscriptions/{subscriptionId}/payments</td>
+      <td style="word-wrap:break-word; vertical-align:top;">POST</td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Procesar un nuevo pago para una suscripción.
       </td>
-      <td>
-        <code>201 Created</code><br>
-        <code>{ "id": 121, "amount": 49.90, "status": "PENDING", "subscriptionId": 10 }</code><br>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Path param:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">subscriptionId: 10</code><br>
+        Body (JSON):<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+{ "amount": 49.90, "currency": "USD", "paymentMethod": "CARD" }
+        </code>
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        <code style="white-space:pre-wrap; word-wrap:break-word;">201 Created</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+{ "id": 121, "amount": 49.90, "status": "PENDING",
+  "subscriptionId": 10 }
+        </code><br>
         Registra un nuevo pago y devuelve el recurso creado, que luego será
         actualizado cuando el procesador de pagos confirme la transacción.
       </td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
           Swagger – Subscriptions
         </a>
       </td>
     </tr>
     <tr>
-      <td>/api/v1/users/{userId}/subscriptions</td>
-      <td>GET</td>
-      <td>Obtener todas las suscripciones de un usuario.</td>
-      <td>
-        Path param:<br>
-        <code>userId: 5</code><br>
-        Ejemplo:<br>
-        <code>GET /api/v1/users/5/subscriptions</code>
+      <td style="word-wrap:break-word; vertical-align:top;">/api/v1/users/{userId}/subscriptions</td>
+      <td style="word-wrap:break-word; vertical-align:top;">GET</td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Obtener todas las suscripciones de un usuario.
       </td>
-      <td>
-        <code>200 OK</code><br>
-        <code>[{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }, ...]</code><br>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Path param:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">userId: 5</code><br>
+        Ejemplo:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+GET /api/v1/users/5/subscriptions
+        </code>
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        <code style="white-space:pre-wrap; word-wrap:break-word;">200 OK</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+[{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }, ...]
+        </code><br>
         Permite conocer el historial de suscripciones de un usuario y su estado actual.
       </td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
           Swagger – Users
         </a>
       </td>
     </tr>
     <tr>
-      <td>/api/v1/users/{userId}/subscriptions/{subscriptionId}</td>
-      <td>PUT</td>
-      <td>Actualizar los datos de una suscripción de usuario.</td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        /api/v1/users/{userId}/subscriptions/{subscriptionId}
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">PUT</td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Actualizar los datos de una suscripción de usuario.
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         Path params:<br>
-        <code>userId: 5</code>, <code>subscriptionId: 10</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+userId: 5, subscriptionId: 10
+        </code><br>
         Body (JSON):<br>
-        <code>{ "plan": "PREMIUM", "status": "ACTIVE" }</code>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+{ "plan": "PREMIUM", "status": "ACTIVE" }
+        </code>
       </td>
-      <td>
-        <code>200 OK</code><br>
-        <code>{ "id": 10, "plan": "PREMIUM", "status": "ACTIVE" }</code><br>
-        Devuelve la suscripción actualizada, reflejando cambios de plan o estado
-        para el usuario.
+      <td style="word-wrap:break-word; vertical-align:top;">
+        <code style="white-space:pre-wrap; word-wrap:break-word;">200 OK</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+{ "id": 10, "plan": "PREMIUM", "status": "ACTIVE" }
+        </code><br>
+        Devuelve la suscripción actualizada, reflejando cambios de plan o estado.
       </td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
           Swagger – Users
         </a>
       </td>
     </tr>
     <tr>
-      <td>/api/v1/users/{userId}/subscriptions/{subscriptionId}/cancel</td>
-      <td>POST</td>
-      <td>Cancelar una suscripción de un usuario.</td>
-      <td>
-        Path params:<br>
-        <code>userId: 5</code>, <code>subscriptionId: 10</code><br>
-        Ejemplo:<br>
-        <code>POST /api/v1/users/5/subscriptions/10/cancel</code>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        /api/v1/users/{userId}/subscriptions/{subscriptionId}/cancel
       </td>
-      <td>
-        <code>200 OK</code><br>
-        <code>{ "id": 10, "plan": "STANDARD", "status": "CANCELLED" }</code><br>
-        Cambia el estado de la suscripción a <code>CANCELLED</code> y la excluye
+      <td style="word-wrap:break-word; vertical-align:top;">POST</td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Cancelar una suscripción de un usuario.
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Path params:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+userId: 5, subscriptionId: 10
+        </code><br>
+        Ejemplo:<br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+POST /api/v1/users/5/subscriptions/10/cancel
+        </code>
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        <code style="white-space:pre-wrap; word-wrap:break-word;">200 OK</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+{ "id": 10, "plan": "STANDARD", "status": "CANCELLED" }
+        </code><br>
+        Cambia el estado de la suscripción a CANCELLED y la excluye
         de futuros ciclos de cobro.
       </td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
           Swagger – Users
         </a>
       </td>
     </tr>
     <tr>
-      <td>/api/v1/users/{userId}/subscriptions/active</td>
-      <td>GET</td>
-      <td>Obtener la suscripción activa de un usuario.</td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        /api/v1/users/{userId}/subscriptions/active
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">GET</td>
+      <td style="word-wrap:break-word; vertical-align:top;">
+        Obtener la suscripción activa de un usuario.
+      </td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         Path param:<br>
-        <code>userId: 5</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">userId: 5</code><br>
         Ejemplo:<br>
-        <code>GET /api/v1/users/5/subscriptions/active</code>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+GET /api/v1/users/5/subscriptions/active
+        </code>
       </td>
-      <td>
-        <code>200 OK</code><br>
-        <code>{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }</code><br>
-        Devuelve la suscripción que actualmente se encuentra activa para el usuario,
-        información clave para controlar acceso a funcionalidades premium.
+      <td style="word-wrap:break-word; vertical-align:top;">
+        <code style="white-space:pre-wrap; word-wrap:break-word;">200 OK</code><br>
+        <code style="white-space:pre-wrap; word-wrap:break-word;">
+{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }
+        </code><br>
+        Devuelve la suscripción que actualmente se encuentra activa para el usuario.
       </td>
-      <td>
+      <td style="word-wrap:break-word; vertical-align:top;">
         <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
           Swagger – Users
         </a>
