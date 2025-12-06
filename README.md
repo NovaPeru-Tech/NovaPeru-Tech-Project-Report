@@ -806,7 +806,7 @@ Durante la fase final se evidenció una colaboración madura entre los equipos d
 
 Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
 
-<img src="images/ramificacion4.png" alt="Veyra" style="width:auto;">
+<img src="images/image3commits.png" alt="Veyra" style="width:auto;">
 
 <div style="page-break-after: always;"></div>
 
