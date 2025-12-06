@@ -166,33 +166,8 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 
 * **Lenguaje Adaptativo:** El contenido está diseñado para ser fácil de entender para todos, utilizando un lenguaje que resuena con familias y cuidadores de personas mayores, sin jerga técnica.
 
-### 4.2.3. SEO Tags and Meta Tags
 
-* **Title Tags:**
-  
-    * **Landing Page:** "Veyra - The Best Care is Always Connected"
-
-* **Meta Description:**
-  
-    * **Landing Page:** "Veyra es una plataforma digital que conecta a familias y cuidadores, ofreciendo una gestión transparente y segura del cuidado de adultos mayores."
-
-* **Keywords:**
-  
-    * **Landing Page:** "cuidado de adultos mayores, gestión de cuidado, plataforma para cuidadores, salud familiar, bienestar senior, Veyra"
-
-* **Meta Author:**
-  
-    * **Landing Page:** "NovaPeru Tech"
- 
-* **Meta Charset:**
-  
-    * "UTF-8"
- 
-* **Meta Viewport:**
-  
-    * "width=device-width, initial-scale=1.0"
- 
-### 4.2.4. Searching Systems
+### 4.2.3. Searching Systems
 
 * **Barra de Búsqueda:** Aunque la página de inicio no requiere una barra de búsqueda, una vez que el usuario inicia sesión en la aplicación principal, esta funcionalidad será clave. Estará ubicada en un lugar prominente y permitirá buscar rápidamente información de residentes, historial médico y otros datos relevantes.
 
@@ -203,7 +178,7 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 * **Resultados Relevantes:** Los resultados de búsqueda se priorizarán según la relevancia para la cuenta y las funciones del usuario.
 
 
-### 4.2.5. Navigation Systems
+### 4.2.4. Navigation Systems
 
 * **Navegación Global:** La barra de navegación en el encabezado proporciona acceso principal a las secciones de la página de inicio. El menú de hamburguesa en dispositivos móviles asegura que esta navegación sea siempre accesible.
 
@@ -315,6 +290,77 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 <div style="page-break-after: always;"></div>
 
 ## 4.4. Web Applications UX/UI Design
+
+La sección de Web Applications UX/UI Design presenta la propuesta visual, estructural y de interacción desarrollada para las distintas aplicaciones que conforman la experiencia digital de Veyra, el ecosistema orientado a la gestión integral de residencias geriátricas y a la conexión transparente entre administradores, personal asistencial y familiares.
+
+El diseño se elaboró siguiendo principios de usabilidad, accesibilidad, consistencia visual y orientación a tareas, asegurando que cada interfaz responda a las necesidades reales identificadas durante el proceso de entrevistas y validaciones con usuarios. La propuesta UI/UX se centra en crear una experiencia clara, confiable y sencilla para usuarios con distintos niveles de alfabetización digital.
+
+Dentro de esta sección se detallan los siguientes componentes:
+
+1. Estructura general de la interfaz
+
+Se describen las decisiones de diseño relacionadas con la arquitectura visual, la organización de pantallas, los patrones de navegación (menús, barras superiores, breadcrumbs) y la jerarquía de información para cada tipo de usuario:
+
+- Administradores de residencias.
+
+- Familiares o apoderados de adultos mayores.
+
+  <br>
+
+2. Lineamientos de diseño visual
+
+Se especifican los elementos que conforman la identidad gráfica de Veyra:
+
+- Paleta de colores asociada a salud, confianza y bienestar.
+
+- Tipografías legibles y consistentes.
+
+- Uso de espaciados, tamaños y contrastes orientados a mejorar la accesibilidad.
+
+<br>
+
+3. Componentes de interacción
+
+Incluye la definición de los principales componentes UI y su comportamiento:
+
+- Formularios optimizados y validados.
+
+- Tarjetas informativas para residentes.
+
+- Módulos de reportes y gráficos.
+
+- Alertas, notificaciones y estados del sistema.
+
+- Controles interactivos como botones, selectores y tablas dinámicas.
+
+<br>
+
+4. Flujo de usuario
+
+Se documentan los recorridos que realizan cada uno de los segmentos clave:
+
+- Registro y acceso de familiares.
+
+- Consulta de medicación, historial clínico y citas.
+
+- Gestión administrativa de residentes.
+
+- Supervisión operativa del personal asistencial.
+
+Estos flujos fueron construidos tomando en cuenta los pain points observados en las entrevistas, priorizando accesos rápidos, reducción de pasos innecesarios y claridad en la información.
+
+<br>
+
+5. Justificación del diseño
+
+Se argumenta cómo las decisiones visuales e interactivas responden a:
+
+- Las necesidades reales de los usuarios.
+
+- Las limitaciones tecnológicas identificadas en centros geriátricos.
+
+- Las expectativas de seguridad, claridad y rapidez en la comunicación familiar.
+<br>
 
 ### 4.4.1. Web Applications Wireframes
 <p>
@@ -474,7 +520,9 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 <div style="page-break-after: always;"></div>
 
 ### Mock-ups Version Mobile
-<p>En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.</p>
+<p>La sección de Web Applications UX/UI Design presenta la propuesta visual, estructural y de interacción desarrollada para las distintas aplicaciones que conforman la experiencia digital de Veyra, el ecosistema orientado a la gestión integral de residencias geriátricas y a la conexión transparente entre administradores, personal asistencial y familiares.
+
+El diseño se elaboró siguiendo principios de usabilidad, accesibilidad, consistencia visual y orientación a tareas, asegurando que cada interfaz responda a las necesidades reales identificadas durante el proceso de entrevistas y validaciones con usuarios. La propuesta UI/UX se centra en crear una experiencia clara, confiable y sencilla para usuarios con distintos niveles de alfabetización digital.</p>
 
 <img src="../images/Mobil1.png" alt="Login Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
 <img src="../images/Mobil2.png" alt="Inicio de Sesion" style="width:auto; height:auto; border:2px solid #00bfff;">
@@ -597,12 +645,172 @@ El *user flow* es la representación visual del camino que un usuario sigue dent
 
 ## 4.5. Web Applications Prototyping
 
+La sección de Web Applications Prototyping presenta los prototipos interactivos diseñados para la versión Desktop y Mobile Web de Veyra. Estos prototipos permiten simular la navegación real dentro de la plataforma y visualizar cómo los usuarios recorren los principales paths definidos en los User Flow Diagrams.
+
+Las decisiones de interacción tomadas en esta etapa responden a tres criterios fundamentales:
+
+- Claridad y simplicidad de uso, especialmente considerando que parte de nuestros usuarios tienen competencia digital intermedia.
+
+- Rapidez de acceso a la información crítica, alineada con la necesidad de monitoreo médico en tiempo real.
+
+- Consistencia visual y funcional, asegurando que las interacciones sean predecibles y estén alineadas con el Design System de VEYRA.
+<br>
+
+**Criterios que guiaron las decisiones de interacción**
+
+1. Arquitectura de Información basada en prioridades del usuario
+
+La estructura del contenido se organizó priorizando los elementos más consultados por los familiares y cuidadores:
+
+- Reportes diarios
+
+- Estado de salud
+
+- Medicación
+
+- Citas médicas
+
+- Actividades
+
+- Alertas
+
+Estos componentes se ubicaron en zonas de acceso rápido tanto en desktop como en mobile, asegurando rutas de navegación cortas y directas.
+
+<br>
+
+
+2. Navegación clara y consistente
+
+Se optó por un sistema de navegación híbrido:
+
+En desktop, un menú superior horizontal que mantiene visibles las secciones principales.
+
+En mobile, un menú inferior tipo tab-bar para accesos frecuentes y un menú hamburguesa para secciones secundarias.
+
+Esta decisión refleja la arquitectura de información previamente definida y garantiza que las rutas de navegación coincidan con los User Flow Diagrams propuestos.
+
+<br>
+
+3. Interacciones basadas en patrones familiares
+
+Para reducir la curva de aprendizaje se utilizaron patrones estándar, como:
+
+Acordeones para secciones extensas (features, historial).
+
+Tarjetas para resumir información médica y actividades.
+
+Íconos universales (alertas, calendario, medicación).
+
+Transiciones suaves que evitan saturar la experiencia.
+
+<br>
+
+
+4. Principios de diseño inclusivo
+
+Los prototipos consideran: Tipografías legibles, Contrastes adecuados para adultos mayores, Botones amplios para facilitar el toque en mobile, Lenguaje visual claro y directo, Prototipos UI – Versión Desktop
+
+Los prototipos desktop muestran una interfaz amplia, optimizada para profesionales y usuarios que consultan información desde una laptop o PC. Entre los elementos destacados:
+
+• Dashboard principal
+
+Vista general del estado del residente.
+
+Resumen de alertas y citas.
+
+Gráficos simples para evolución de signos vitales.
+
+<br>
+
+• Navegación superior
+
+Acceso rápido a Home, Reports, Medication, Calendar, Activities y Settings.
+
+Persistencia visual para orientar al usuario.
+
+<br>
+
+• Secciones modulares
+
+El contenido se divide en bloques visuales que permiten una lectura rápida:
+
+Tarjetas de información médica.
+
+Tablas de medicación.
+
+Calendarios interactivos.
+
+Panel lateral con alertas recientes.
+
+Prototipos UI – Versión Mobile Web Browser
+
+La versión móvil prioriza la usabilidad y accesibilidad, manteniendo la esencia visual del desktop pero adaptada a pantallas reducidas.
+
+<br>
+
+• Home simplificado
+
+Resumen al instante del estado del residente.
+
+Acceso directo a alertas, medicación y reportes.
+
+<br>
+
+• Tab-Bar inferior
+
+Incluye 4 accesos principales:
+
+Home
+
+Reports
+
+Medication
+
+Profile
+
+Esto reduce la carga cognitiva y facilita el uso con una sola mano.
+
+<br>
+
+• Menú hamburguesa
+
+Incluye secciones secundarias como Settings, About, Permissions, o historial extendido. Se evita sobrecargar la pantalla principal.
+
+<br>
+
+• Interacción táctil optimizada
+
+Botones grandes y espaciados.
+
+Acordeones y sliders fáciles de usar.
+
+Scroll vertical continuo para favorecer fluidez.
+
+<br>
+
+**Relación con los User Flow Diagrams**
+
+Cada prototipo fue diseñado respetando los recorridos definidos en los User Flows, garantizando que:
+
+Las pantallas aparezcan en el orden lógico previsto.
+
+No existan rutas muertas o pasos innecesarios.
+
+Las tareas principales (ver reportes, recibir alertas, revisar medicación) se completen con la menor cantidad de clics posible.
+
+La navegación sea intuitiva para usuarios con distintos niveles tecnológicos.
+
 
 ![ContextDiagram Diagram](../images/prototypy.png)
 
 http://bit.ly/4q6AhWP
 
 ## 4.6. Domain-Driven Software Architecture
+
+La arquitectura de software de VEYRA se construye a partir de los resultados obtenidos en el Big Picture Event Storming, que permitió comprender en profundidad los flujos clave del dominio de atención residencial y las interacciones entre familiares, cuidadores y personal administrativo. A partir de este análisis inicial, se desarrolló una visión más estructurada del dominio utilizando los principios de Domain-Driven Design (DDD).
+
+En las siguientes secciones se presenta cada nivel del modelo, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de VEYRA.
+
 
 ### 4.6.1. Design-Level Event Storming
 
@@ -829,7 +1037,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <h4>payments backend:</h4>
 <p><strong>Responsabilidad:</strong> Pagos, facturación, transacciones y conciliaciones.</p>
 
-![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml&v=2)
+![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml&fmt=svg)
 
 <h4>activities backend:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, programación, horarios y participación de residentes.</p>
@@ -895,7 +1103,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <h4>payments base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Facturación, pagos y transacciones.</p>
 
-![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&v=1&fmt=svg)
+![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&fmt=svg)
 
 <h4>activities base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, horarios y participación.</p>
