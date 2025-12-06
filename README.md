@@ -759,23 +759,42 @@ A continuación se describen los aportes individuales de cada miembro durante es
 
 **Ariana Ramírez Carrasco**
 
+Ariana desempeñó un rol clave en la refinación narrativa, visual y metodológica del informe final. Añadió la sección de Validation Interviews en el capítulo 5, cerrando el ciclo del Lean UX al integrar entrevistas y hallazgos cualitativos. En fechas posteriores, revisó y consolidó los hallazgos de usabilidad, los problemas críticos y las recomendaciones, asegurando precisión conceptual y una redacción uniforme.
+
+Además, corrigió el Lean UX Process del capítulo 1, actualizó las Assumptions, ajustó el diseño y redacción de entrevistas en el capítulo 2 y perfeccionó enlaces internos y consistencia estructural. Finalmente, realizó una depuración completa del documento, dejando el texto cohesionado, navegable y alineado con los estándares de redacción técnica requeridos para el TF.
 
 **Renato Calvo Yalán**
 
+Renato completó la documentación detallada de los Sprints 1, 2 y 3 en el capítulo 5, reforzando la claridad en la planificación, ejecución y despliegue. También robusteció la sección de Software Configuration Management, incluyendo el entorno, manejo del código fuente y guía de estilos.
+
+Además, actualizó los diagramas de clases y base de datos del capítulo 4, incorporando ajustes finales de backend y diagramas SVG alineados con los bounded contexts implementados. Su aporte permitió asegurar precisión técnica, consistencia entre arquitectura y código, y documentación lista para evaluación final.
 
 **Billy Jake Ruiz Madrid**
 
+Billy se encargó de reorganizar y completar los artefactos audiovisuales y documentales del capítulo 5. Estructuró las secciones de video (About-the-Product, About-the-Team) y añadió bibliografía y anexos, dejando un cierre ordenado del informe.
+
+También consolidó los Sprint Backlogs 1, 2 y 3 y, posteriormente, corrigió y estructuró la narrativa de Sprint Planning en los tres sprints. Finalmente, añadió y documentó el Sprint 4 y perfeccionó la sección de Impact Mapping del capítulo 3, logrando coherencia entre user stories, objetivos de negocio y avances del desarrollo. Su aporte dejó una visión completa y trazable de la evolución del proyecto y sus ciclos de trabajo.
 
 **Oscar Armas Sánchez**
 
+Oscar amplió de manera detallada la documentación de la API del sistema, abarcando residentes, medicamentos, perfiles, casas de reposo, contratos, personal y endpoints de analytics. Incorporó ejemplos completos de peticiones y respuestas JSON, fortaleciendo la claridad técnica del capítulo 5.
+
+Además, documentó el proceso de despliegue en Azure y complementó la sección Team Collaboration Insights during Sprint con imágenes y evidencias de trabajo colaborativo. Su aporte permitió dejar un registro técnico sólido, verificable y perfectamente alineado con la implementación real del backend.
 
 **Miguel Ángel Junior Román López**
 
+Miguel extendió el Product Backlog del capítulo 3 añadiendo funcionalidades avanzadas relacionadas con dispositivos IoT y wearables para monitoreo de salud, junto con nuevas User Stories y requerimientos técnicos.
+
+Actualizó la descripción general del backlog, incorporó evidencia visual del artefacto y refinó el análisis de entrevistas y la User Task Matrix del capítulo 2, fortaleciendo la alineación entre la investigación cualitativa y la priorización del producto. Su contribución garantizó un cierre conceptual y técnico claro respecto a la evolución del backlog y la lógica de priorización del sistema.
 
 **Adrian Alonso Quiroz Caceres**
 
+Adrián completó las Conclusiones y Recomendaciones del capítulo 1, cerrando la argumentación del documento con una reflexión equilibrada sobre logros, limitaciones y proyecciones del proyecto.
+
+Además, refinó las evaluaciones heurísticas del capítulo 5, alineando criterios, escalas y redacción. Posteriormente, actualizó la bibliografía del informe, normalizando formatos de citación y asegurando correspondencia entre las referencias empleadas y la lista final. Su labor permitió cerrar la depuración del documento y dejarlo completamente preparado para su entrega final.
 
 Durante la fase final se evidenció una colaboración madura entre los equipos de UX, frontend, backend e investigación. Las contribuciones en GitHub demostraron un incremento en commits, revisiones cruzadas y validaciones técnicas compartidas. Esta integración fortaleció la consistencia entre los artefactos visuales, la arquitectura del sistema y la documentación técnica, consolidando una entrega final cohesionada, estable y alineada con los objetivos del curso.
+
 
 <img src="images/commits1tf.png" alt="Veyra" style="width:830px;">
 
