@@ -2711,9 +2711,72 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-<p> Durante el Sprint 4, el equipo enfocó sus esfuerzos en la corrección de errores críticos, la mejora de la experiencia de usuario y el pulido visual de la Web Application de VEYRA. Se resolvieron problemas de <em>Fetch Error</em> en el listado de habitaciones, se unificó el idioma de la interfaz al español y se añadieron mensajes de error más claros en los flujos clave (autenticación, gestión de residentes y habitaciones). A continuación se presentan capturas de las principales vistas corregidas y refinadas. </p> 
-<h5>Video de demostración de navegación y corrección de errores:</h5> <p> <strong>URL Microsoft Stream / YouTube:</strong> [Incluir URL del video de demostración del Sprint 4]<br> <strong>Duración:</strong> [HH:MM:SS] 
-</p> <h5>Capturas de las principales vistas refinadas:</h5> <p><strong>Pantalla de inicio de sesión con mensajes de error amigables:</strong></p> <img src="../images/sprint4-login-fixed.jpg" alt="Pantalla de inicio de sesión corregida"> <p><strong>Panel principal del administrador con navegación estable:</strong></p> <img src="../images/sprint4-dashboard-admin.jpg" alt="Dashboard administrador VEYRA Sprint 4"> <p><strong>Listado de habitaciones sin errores de carga (<em>Fetch Error</em> corregido):</strong></p> <img src="../images/sprint4-rooms-fixed-fetch-error.jpg" alt="Listado de habitaciones sin errores de fetch"> <p><strong>Listado de residentes con textos unificados al español:</strong></p> <img src="../images/sprint4-residents-list-spanish.jpg" alt="Listado de residentes con idioma unificado"> <p><strong>Mensajes de error y estados vacíos comprensibles para el usuario:</strong></p> <img src="../images/sprint4-user-friendly-errors.jpg" alt="Mensajes de error amigables Sprint 4"> <p> Estas evidencias se utilizaron durante la Sprint Review para mostrar que la aplicación se encuentra en un estado pulido y lista para producción, respetando el <em>code freeze</em> acordado y priorizando estabilidad, claridad y consistencia visual. </p>
+<p>
+  Durante el Sprint 4, el equipo enfocó sus esfuerzos en la ampliación y documentación de los
+  servicios del Backend, incorporando endpoints para la gestión de pagos y suscripciones, así
+  como ajustes en los recursos de usuarios. Se añadieron y refinaron las operaciones de
+  <em>Payments</em>, <em>Subscriptions</em> y <em>Users</em> en la API REST, asegurando que
+  cada endpoint cuente con ejemplos de request/response claros y consistentes en Swagger UI.
+  A continuación se presentan capturas de los principales grupos de endpoints añadidos y
+  actualizados.
+</p>
+ 
+<h5>Video de demostración:</h5>
+<p>
+  <strong>URL YouTube:</strong> []<br>
+  <strong>Duración:</strong> [00:00:00]
+</p>
+
+<p>
+  A continuación se presentan las capturas del Swagger UI donde se evidencian los
+  endpoints implementados y ajustados durante el Sprint 4 para la gestión de
+  <strong>pagos</strong>, <strong>suscripciones</strong> y <strong>usuarios</strong>.  
+  Estos servicios forman parte del flujo de suscripción y cobranza de la plataforma.
+</p>
+
+<p><strong>Endpoints de Payments:</strong></p>
+<img src="../images/swagger-payments-endpoints.jpg" alt="swagger-payments-endpoints">
+<p>
+  En esta sección se documenta el endpoint
+  <code>GET /api/v1/payments/{paymentId}</code>, utilizado para
+  obtener el detalle de un pago específico por su identificador.
+  El response devuelve un objeto <code>PaymentResource</code> con información como
+  monto, moneda, estado y fecha de procesamiento, lo que permite trazar y auditar
+  transacciones individuales.
+</p>
+
+<p><strong>Endpoints de Subscriptions:</strong></p>
+<img src="../images/swagger-subscriptions-endpoints.jpg" alt="swagger-subscriptions-endpoints">
+<p>
+  Aquí se muestran los endpoints para gestionar los pagos asociados a una suscripción:
+  <code>GET /api/v1/subscriptions/{subscriptionId}/payments</code> para listar todos los
+  pagos de una suscripción, y
+  <code>POST /api/v1/subscriptions/{subscriptionId}/payments</code> para procesar un nuevo
+  pago. Ambos endpoints incluyen parámetros de ruta para el
+  <code>subscriptionId</code> y devuelven respuestas tipadas que permiten al frontend
+  mostrar el historial de pagos o registrar nuevos cobros de forma consistente.
+</p>
+
+<p><strong>Endpoints de Users actualizados:</strong></p>
+<img src="../images/swagger-user1-endpoints.jpg" alt="swagger-user1-endpoints">
+<p>
+  Esta captura resume los endpoints disponibles para la gestión de usuarios y sus
+  suscripciones. Entre ellos se encuentran:
+  <code>GET /api/v1/users</code> (listado de usuarios),
+  <code>GET /api/v1/users/{userId}</code> (detalle de usuario),
+  así como operaciones sobre suscripciones:
+  <code>GET /api/v1/users/{userId}/subscriptions</code> para obtener todas las
+  suscripciones de un usuario,
+  <code>POST /api/v1/users/{userId}/subscriptions</code> para crear una nueva,
+  <code>PUT /api/v1/users/{userId}/subscriptions/{subscriptionId}</code> para
+  actualizarla,
+  <code>POST /api/v1/users/{userId}/subscriptions/{subscriptionId}/cancel</code> para
+  cancelarla y
+  <code>GET /api/v1/users/{userId}/subscriptions/active</code> para recuperar la
+  suscripción activa.  
+  Estos endpoints consolidan el ciclo de vida de la suscripción desde la perspectiva
+  del usuario final.
+</p>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
