@@ -796,10 +796,10 @@ Además, refinó las evaluaciones heurísticas del capítulo 5, alineando criter
 Durante la fase final se evidenció una colaboración madura entre los equipos de UX, frontend, backend e investigación. Las contribuciones en GitHub demostraron un incremento en commits, revisiones cruzadas y validaciones técnicas compartidas. Esta integración fortaleció la consistencia entre los artefactos visuales, la arquitectura del sistema y la documentación técnica, consolidando una entrega final cohesionada, estable y alineada con los objetivos del curso.
 
 
-<img src="images/commits1tf.png" alt="Veyra" style="width:830px;">
+<img src="images/image1commits.png" alt="Veyra" style="width:830px;">
 
 
-<img src="images/commits2tf.png" alt="Veyra" style="width:auto;">
+<img src="images/image2commits.png" alt="Veyra" style="width:auto;">
 
 
 **Ramificación del proyecto usando GitFlow:**
