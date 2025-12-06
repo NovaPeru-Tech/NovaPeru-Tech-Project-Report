@@ -949,37 +949,40 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <p><strong>Responsabilidad:</strong> Maneja las vistas de métricas, auditoría y análisis de eventos.</p>
 
 ![Analytics Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/analytics/analytics-frontend-diagram.puml&fmt=svg)
-
+<!--
 <h4>health frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
 ![Health Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/health/health-frontend-diagram.puml&fmt=svg)
-
+-->
+<!--
 <h4>communication frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de notificaciones, mensajes y comunicación interna del sistema.</p>
 
 ![Communication Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/communication/communication-frontend-diagram.puml&fmt=svg)
-
+-->
 <h4>profiles frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de perfiles personales, empresariales y datos asociados.</p>
 
 ![Profiles Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/profiles/profiles-frontend-diagram.puml&fmt=svg)
-
+<!--
 <h4>tracking frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de bandas médicas, sensores y trazabilidad de residentes.</p>
 
 ![Tracking Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/tracking/tracking-frontend-diagram.puml&fmt=svg)
-
+-->
+<!--
 <h4>payments frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de pagos, facturación, transacciones y conciliaciones.</p>
 
 ![Payments Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/payments/payments-frontend-diagram.puml&fmt=svg)
-
+-->
+<!--
 <h4>activities frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de actividades, programación, horarios y participación de residentes.</p>
 
 ![Activities Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/activities/activities-frontend-diagram.puml&fmt=svg)
-
+-->
 <h4>shared frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja los componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
@@ -1018,12 +1021,12 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <p><strong>Responsabilidad:</strong> Evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
 ![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml&fmt=svg)
-
+<!--
 <h4>communication backend:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicación interna del sistema.</p>
 
 ![Communication Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-backend-diagram.puml&v=2&fmt=svg)
-
+-->
 <h4>profiles backend:</h4>
 <p><strong>Responsabilidad:</strong> Perfiles personales, empresariales y datos asociados.</p>
 
@@ -1084,12 +1087,12 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <p><strong>Responsabilidad:</strong> Historiales médicos, evaluaciones y registros clínicos.</p>
 
 ![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml&fmt=svg)
-
+<!--
 <h4>communication base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicaciones internas.</p>
 
 ![Communication Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-database-diagram.puml&v=1&fmt=svg)
-
+-->
 <h4>profiles base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Perfiles, datos personales de las personas y de las empresas.</p>
 
