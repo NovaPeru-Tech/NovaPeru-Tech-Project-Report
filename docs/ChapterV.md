@@ -1015,10 +1015,10 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   evidencias de ejecución mediante capturas de pantalla de las principales vistas.
 </p>
 
-<h5>Video de demostración de navegación:</h5>
+<h5>Video de demostración del Landing Page:</h5>
 <p>
-  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 1]<br>
-  <strong>Duración:</strong> [HH:MM:SS]
+  <strong>URL YouTube:</strong> [https://youtu.be/OhyEBPV4FuI]<br>
+  <strong>Duración:</strong> [00:04:32]
 </p>
 
 <h5>Capturas de las principales secciones:</h5>
@@ -1918,6 +1918,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   el despliegue en Azure App Service con base de datos en Azure SQL Database.
 </p>
 
+<h5>Video de demostración de los Endpoints:</h5> <p> <strong>URL Microsoft Stream / YouTube:</strong> [Incluir URL del video de demostración del Sprint 3]<br> <strong>Duración:</strong> [HH:MM:SS] 
+
 <h5>Capturas de pantalla - Swagger UI del Backend:</h5>
 
 <p><strong>Endpoints de Medications:</strong></p>
@@ -2709,7 +2711,9 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-<p> Durante el Sprint 4, el equipo enfocó sus esfuerzos en la corrección de errores críticos, la mejora de la experiencia de usuario y el pulido visual de la Web Application de VEYRA. Se resolvieron problemas de <em>Fetch Error</em> en el listado de habitaciones, se unificó el idioma de la interfaz al español y se añadieron mensajes de error más claros en los flujos clave (autenticación, gestión de residentes y habitaciones). A continuación se presentan capturas de las principales vistas corregidas y refinadas. </p> <h5>Video de demostración de navegación y corrección de errores:</h5> <p> <strong>URL Microsoft Stream / YouTube:</strong> [Incluir URL del video de demostración del Sprint 4]<br> <strong>Duración:</strong> [HH:MM:SS] </p> <h5>Capturas de las principales vistas refinadas:</h5> <p><strong>Pantalla de inicio de sesión con mensajes de error amigables:</strong></p> <img src="../images/sprint4-login-fixed.jpg" alt="Pantalla de inicio de sesión corregida"> <p><strong>Panel principal del administrador con navegación estable:</strong></p> <img src="../images/sprint4-dashboard-admin.jpg" alt="Dashboard administrador VEYRA Sprint 4"> <p><strong>Listado de habitaciones sin errores de carga (<em>Fetch Error</em> corregido):</strong></p> <img src="../images/sprint4-rooms-fixed-fetch-error.jpg" alt="Listado de habitaciones sin errores de fetch"> <p><strong>Listado de residentes con textos unificados al español:</strong></p> <img src="../images/sprint4-residents-list-spanish.jpg" alt="Listado de residentes con idioma unificado"> <p><strong>Mensajes de error y estados vacíos comprensibles para el usuario:</strong></p> <img src="../images/sprint4-user-friendly-errors.jpg" alt="Mensajes de error amigables Sprint 4"> <p> Estas evidencias se utilizaron durante la Sprint Review para mostrar que la aplicación se encuentra en un estado pulido y lista para producción, respetando el <em>code freeze</em> acordado y priorizando estabilidad, claridad y consistencia visual. </p>
+<p> Durante el Sprint 4, el equipo enfocó sus esfuerzos en la corrección de errores críticos, la mejora de la experiencia de usuario y el pulido visual de la Web Application de VEYRA. Se resolvieron problemas de <em>Fetch Error</em> en el listado de habitaciones, se unificó el idioma de la interfaz al español y se añadieron mensajes de error más claros en los flujos clave (autenticación, gestión de residentes y habitaciones). A continuación se presentan capturas de las principales vistas corregidas y refinadas. </p> 
+<h5>Video de demostración de navegación y corrección de errores:</h5> <p> <strong>URL Microsoft Stream / YouTube:</strong> [Incluir URL del video de demostración del Sprint 4]<br> <strong>Duración:</strong> [HH:MM:SS] 
+</p> <h5>Capturas de las principales vistas refinadas:</h5> <p><strong>Pantalla de inicio de sesión con mensajes de error amigables:</strong></p> <img src="../images/sprint4-login-fixed.jpg" alt="Pantalla de inicio de sesión corregida"> <p><strong>Panel principal del administrador con navegación estable:</strong></p> <img src="../images/sprint4-dashboard-admin.jpg" alt="Dashboard administrador VEYRA Sprint 4"> <p><strong>Listado de habitaciones sin errores de carga (<em>Fetch Error</em> corregido):</strong></p> <img src="../images/sprint4-rooms-fixed-fetch-error.jpg" alt="Listado de habitaciones sin errores de fetch"> <p><strong>Listado de residentes con textos unificados al español:</strong></p> <img src="../images/sprint4-residents-list-spanish.jpg" alt="Listado de residentes con idioma unificado"> <p><strong>Mensajes de error y estados vacíos comprensibles para el usuario:</strong></p> <img src="../images/sprint4-user-friendly-errors.jpg" alt="Mensajes de error amigables Sprint 4"> <p> Estas evidencias se utilizaron durante la Sprint Review para mostrar que la aplicación se encuentra en un estado pulido y lista para producción, respetando el <em>code freeze</em> acordado y priorizando estabilidad, claridad y consistencia visual. </p>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
