@@ -28,6 +28,8 @@ Desarrollar soluciones tecnológicas seguras, accesibles y centradas en la exper
 Convertirnos en la plataforma líder en gestión de cuidado de adultos mayores en Latinoamérica, integrando tecnologías emergentes como el Internet de las Cosas y el análisis de datos en tiempo real. Aspiramos a transformar el cuidado geriátrico en un proceso transparente, confiable y humano, acompañando a familias e instituciones en la creación de una nueva era de atención integral.
 #### 1.1.2. Perfiles de integrantes del equipo
 
+<div style="page-break-after: always;"></div>
+
 <table border="1" width="100%">
   <tr>
     <td width="140" valign="top" align="center">
@@ -147,25 +149,25 @@ Nuestro producto, **Veyra**, abordará esta brecha mediante una **plataforma web
 
 - Ofrece reportes visuales, alertas automáticas y seguimiento en tiempo real.
 
-Nuestro enfoque inicial estará dirigido a **casas de reposo privadas medianas ubicadas en zonas urbanas,** con entre **20 y 80 residentes,** que ya utilicen herramientas digitales básicas. También se orientará a **familiares y apoderados** que busquen un **seguimiento transparente y continuo** del estado de salud de sus seres queridos.
+Nuestro enfoque inicial estará dirigido a **los administradores de casas de reposo privadas ubicadas en zonas urbanas,** con entre **20 y 80 residentes,** que ya utilicen herramientas digitales básicas. También se orientará a **familiares y apoderados** que busquen un **seguimiento transparente y continuo** del estado de salud de sus seres queridos.
 
-Sabremos que tenemos éxito cuando observemos **mayor transparencia y confianza entre casas de reposo y familiares, tiempos de respuesta más rápidos ante eventos médicos, mayor participación de los usuarios en la plataforma y una reducción medible de los errores de comunicación.**
+Sabremos que tenemos éxito cuando observemos **mayor transparencia y confianza entre los administradores de casas de reposo y familiares de los adultos mayores, tiempos de respuesta más rápidos ante eventos médicos, mayor participación de los usuarios en la plataforma y una reducción medible de los errores de comunicación.**
 
-##### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions:**
 
-Existe una creciente necesidad en el sector de **casas de reposo y centros geriátricos** de contar con herramientas digitales que optimicen la gestión clínica y administrativa.
+Existe un mercado suficientemente grande de **casas de reposo privadas medianas (20 a 80 residentes)** en Perú y Latinoamérica que necesitan digitalizar sus procesos para seguir siendo competitivas.
 
-Los **procesos manuales** actuales (historiales en papel, llamadas y registros dispersos) generan demoras, errores e ineficiencia operativa.
+Los **directores y administradores** están dispuestos a invertir en una plataforma SaaS como Veyra **si perciben mejoras claras en eficiencia operativa, control de la información y reputación frente a las familias**.
 
-Los **familiares de los residentes** demandan canales de comunicación más confiables y transparentes para mantenerse informados sobre la salud de sus seres queridos.
+Las residencias pueden **asumir una suscripción mensual o anual** (por sede o por número de residentes) sin afectar de forma crítica su estructura de costos, siempre que el valor percibido sea evidente.
 
-Las **instituciones que adopten soluciones tecnológicas** como Veyra podrán ofrecer un servicio más profesional, diferenciado y competitivo frente a otros centros de cuidado.
+La **digitalización de procesos internos** (historial clínico, comunicación con familiares, reportes y cobros) genera **ahorros en tiempo y reducción de errores** que compensan el costo de implementación y operación de Veyra.
 
-Existe una **oportunidad de mercado poco atendida** en Latinoamérica para plataformas integrales que unifiquen la gestión médica, la comunicación familiar y la trazabilidad de medicamentos.
+Los beneficios de **mayor transparencia hacia los familiares** se traducen en **mayor ocupación, fidelización y recomendación** de la residencia, lo que hace sostenible el modelo de negocio de Veyra.
 
-La digitalización de procesos internos permitirá **reducir costos, mejorar la trazabilidad y fortalecer la reputación institucional** de los hogares de reposo.
+El modelo **SaaS B2B** de Veyra es escalable a **otras ciudades y países de la región** con ajustes principalmente comerciales (precio, regulaciones), sin cambios estructurales en el producto base.
 
 <br>
 
@@ -219,15 +221,15 @@ Los usuarios recomiendan Veyra como una **herramienta confiable, moderna y fáci
 
 **Features:**
 
-1) Si implementamos un **módulo de historial clínico digital** con acceso restringido por rol, entonces los administradores y cuidadores podrán gestionar y actualizar datos en tiempo real, evitando pérdidas de información.
+1) **Módulo de historial clínico digital** con acceso restringido por rol, que permite a administradores y cuidadores gestionar y actualizar datos en tiempo real, evitando pérdidas de información.
 
-2) Si los **familiares pueden visualizar notificaciones y reportes médicos en una app web**, entonces se reducirá la incertidumbre y aumentará la confianza en el servicio.
+2) **Aplicación web para familiares** donde pueden visualizar notificaciones y reportes médicos actualizados, reduciendo la incertidumbre y aumentando la confianza en el servicio.
 
-3) Si incluimos **alertas automáticas sobre medicamentos, citas y emergencias**, entonces mejorará la coordinación del cuidado y se reducirá el riesgo de errores médicos.
+3) **Sistema de alertas automáticas** sobre medicamentos, citas y posibles emergencias médicas, que mejora la coordinación del cuidado y reduce el riesgo de errores.
 
-4) Si la plataforma ofrece **paneles analíticos e informes descargables**, entonces los administradores podrán tomar decisiones basadas en datos y optimizar recursos.
+4) **Paneles analíticos e informes descargables** que permiten a los administradores tomar decisiones basadas en datos y optimizar el uso de recursos clínicos y administrativos.
 
-5) Si Veyra integra **canales de comunicación interna y externa (chat o llamadas)**, entonces se fortalecerá el vínculo entre familias y personal del hogar.
+5) **Canales de comunicación interna y externa** (por ejemplo, chat o registro estructurado de comunicaciones) integrados en la plataforma, para fortalecer el vínculo entre familias y personal del hogar.
 
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements

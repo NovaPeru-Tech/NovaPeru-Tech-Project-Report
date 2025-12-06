@@ -137,46 +137,62 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
 ### 2.2.1. Diseño de entrevistas
 <h4 id="Segment" >Segmento objetivo: Administrador de casa de reposo</h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
-¿Cuál es su nombre?.
 
-¿Cuál es su edad?.
+¿Cuál es su nombre?
 
-¿Cuál es su rol en la casa de reposo?. 
+¿Cuál es su edad?
 
-¿Cuál es su experiencia en la industria de las casas de reposo?.
+¿Cuál es su rol dentro de la casa de reposo?
 
-<h4 id="PreguntComplement">Preguntas Complementarias</h4>
+¿Cuántos años de experiencia tiene en el sector de casas de reposo?
 
-¿Cómo se comunican actualmente con los familiares para informarles sobre el estado de salud, citas médicas o incidencias?.
+
 <h4 id="PreguntEspe">Preguntas específicas:</h4> 
+
+¿Cómo se comunican actualmente con los familiares para informarles sobre el estado de salud, citas médicas o incidencias?
+
+¿Qué tipo de dispositivo, sistema o servicio (PC, laptop, tablet, teléfono, sistema interno, apps) utiliza para realizar sus actividades administrativas diarias?
 
 ¿Cuáles son los mayores desafíos o inconvenientes que enfrentan en la gestión diaria de la información y el cuidado de los residentes?
 
-¿Qué sistema o método utilizan actualmente para gestionar la información de los residentes (historias clínicas, medicamentos, citas)?  .
+¿Qué sistema o método utilizan actualmente para gestionar la información de los residentes (historias clínicas, medicamentos, citas, alertas)?
 
-¿Qué funcionalidades consideran  esenciales en una plataforma de gestión?.
+¿Qué funcionalidades consideran esenciales en una plataforma de gestión para mejorar sus operaciones?
+
+¿Qué procesos considera más urgentes de digitalizar o automatizar dentro de la casa de reposo?
+
+
 <h4 id="Segment" >Segmento objetivo: Familiares de adultos mayores </h4> 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4> 
-¿Cuál es su nombre?.
 
-¿Cuál es su edad?.
+¿Cuál es su nombre?
 
-¿Cuál es su rol en la casa de reposo?. 
+¿Cuál es su edad?
 
-¿Cuál es su ocupación?.
+¿Cuál es su relación con el adulto mayor que reside en la casa de reposo?
 
-¿Donde reside actualmente?.
+¿Cuál es su ocupación?
+
+¿Dónde reside actualmente?
+
 
 <h4 id="PreguntESP">Preguntas específicas :</h4> 
+
 ¿Qué dificultades ha tenido para acceder a información sobre la salud o atención de su familiar?
 
-¿Qué tipo de información le gustaría poder consultar de manera más frecuente y organizada? 
+¿Qué tipo de información le gustaría poder consultar de manera más frecuente y organizada?
 
- ¿Qué tan cómodo se sentiría  utilizando plataformas web para consultar información médica sobre su aduelto mayor?
+¿Qué tan cómodo se sentiría utilizando plataformas web o aplicaciones móviles para consultar información médica sobre su adulto mayor?
 
- Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
- 
-¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo? 
+Cuando ocurre una urgencia médica, ¿cómo suele enterarse y cuánto tiempo demora en recibir la notificación?
+
+¿Qué aspectos le generarían más confianza al usar una plataforma de este tipo?
+
+¿Qué tipo de dispositivo utiliza con más frecuencia para comunicarse con la casa de reposo o revisar información (celular, laptop, tablet, PC)?
+
+¿Por qué medio prefiere recibir notificaciones importantes? (WhatsApp, SMS, llamada, correo, app)
+
+<div style="page-break-after: always;"></div>
 
 ### 2.2.2. Registro de entrevistas
 
@@ -207,7 +223,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Rol</td>
-    <td>Gerente administrativa</td>
+    <td>Gerente administrativa del Centro Residencial Virgen de la Medalla Milagrosa</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -215,24 +231,26 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
+  </tr>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>00:00 min</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>0:00 min - 04:28 min</td>
-  </tr>
+    <td>Duración de la entrevista<br></td>
+    <td>04:28 min</td>
   <tr>
     <td>Resumen</td>
     <td>
-		La Lic. Milagros Caycho Mata es una profesional con 26 años de experiencia en la gestión del centro residencial “La Virgen de la Medalla Milagrosa”. Se caracteriza por una personalidad metódica, organizada y de liderazgo colaborativo, con un enfoque claro hacia la mejora continua y la innovación gradual. Su tono comunicativo es sereno y reflexivo, evidenciando una alta empatía hacia los adultos mayores y su personal de trabajo.
+		La Lic. Milagros Caycho Mata es profesional con 26 años de experiencia en la gestión del centro residencial “La Virgen de la Medalla Milagrosa”. Se describe a sí misma como metódica, organizada y con un estilo de liderazgo colaborativo, con enfoque en la mejora continua e innovación gradual. Su tono comunicativo es sereno y reflexivo, y manifiesta alta empatía hacia los adultos mayores y el personal a su cargo.
 
-En su rol, coordina tanto la parte administrativa como la supervisión asistencial, lo cual la mantiene en contacto constante con distintos actores (médicos, cuidadores, familiares). Destaca que la comunicación con las familias es fundamental y se realiza principalmente mediante llamadas telefónicas, mensajes de WhatsApp y videollamadas, sobre todo en casos donde los familiares viven en el extranjero. Promueve además las visitas presenciales como parte del vínculo emocional entre residente y familia.
+En su rol coordina tanto la administración como la supervisión asistencial, lo que la mantiene en contacto constante con médicos, cuidadores y familiares. Nos confirmó que la comunicación con las familias es fundamental y que actualmente se realiza principalmente mediante llamadas telefónicas, mensajes de WhatsApp y videollamadas —especialmente cuando los familiares residen en el extranjero—. Además, enfatizó que promueve las visitas presenciales como parte del vínculo emocional entre residente y familia.
 
-En cuanto a tecnología, utiliza una base de datos local para registrar la información de los residentes, aunque sin un sistema especializado. Complementa esta gestión con expedientes físicos y planillas digitales elaboradas en programas de ofimática, principalmente Microsoft Excel. Su nivel de alfabetización digital es intermedio: domina las herramientas básicas de oficina y comunicación, pero reconoce que la integración tecnológica total aún es un desafío. Utiliza una computadora de escritorio para gestión administrativa y un smartphone (probablemente Android) para mensajería. Se infiere que su navegador habitual es Google Chrome.
+Sobre herramientas tecnológicas, indicó que utiliza una base de datos local para registrar la información de los residentes y mantiene expedientes físicos y planillas digitales (principalmente en Microsoft Excel). Señaló que su nivel de alfabetización digital es intermedio: domina herramientas básicas de oficina y comunicación, pero reconoce que la adopción de un sistema integral especializado aún es un desafío. Nos confirmó que gestiona las tareas administrativas desde una computadora de escritorio y usa un smartphone para mensajería. También confirmó que su navegador habitual es Google Chrome.
 
-Entre las marcas o herramientas que influyen en su trabajo, menciona indirectamente los servicios de Microsoft y WhatsApp como indispensables. Durante la pandemia, implementó por iniciativa propia la comunicación por videollamada, lo que demuestra una capacidad de adaptación y resiliencia frente a la crisis sanitaria.
+Entre las herramientas que considera indispensables mencionó concretamente servicios de Microsoft y WhatsApp. Durante la pandemia nos explicó que implementó por iniciativa propia la comunicación por videollamada, lo cual demuestra su capacidad de adaptación ante situaciones críticas.
 
-Los principales desafíos que enfrenta son la duplicidad de registros (físicos y digitales), la fragmentación de la información y la dificultad para mantener la trazabilidad de los datos clínicos de cada residente. Considera vital una herramienta que le permita centralizar toda la información en un solo lugar y mejorar la comunicación con los familiares.
+Los principales desafíos que manifestó son: la duplicidad de registros (físicos y digitales), la fragmentación de la información y la dificultad para mantener la trazabilidad clínica por residente. Indicó que considera vital disponer de una herramienta que centralice la información y mejore la comunicación con los familiares.
 </td>
   </tr>
 </tbody>
@@ -261,7 +279,7 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
   </tr>
   <tr>
     <td>Rol</td>
-    <td>Gerente general de residencia geriátrica</td>
+    <td>Gerente general de la Casa de Reposo Abuelitos Felices</td>
   </tr>
   <tr>
     <td>Evidencia</td>
@@ -269,24 +287,28 @@ Los principales desafíos que enfrenta son la duplicidad de registros (físicos 
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>04:29 min - 08:16 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>04:29 min</td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>03:46 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		El Sr. Oscar Navarrete, gerente general con 21 años de experiencia en la administración de una residencia geriátrica, muestra una personalidad estructurada, disciplinada y altamente orientada al control y la eficiencia. Se autodescribe como alguien “de cuadros y procesos”, lo que refleja su estilo de gestión metódico y basado en la planificación.
+		El Sr. Oscar Navarrete, gerente general con 21 años de experiencia en la administración de una residencia geriátrica, se describe como una persona estructurada, disciplinada y orientada al control y la eficiencia. Él mismo señaló que es “de cuadros y procesos”, lo que refleja su estilo de gestión metódico y basado en la planificación.
 
-Su canal de comunicación principal con los familiares es WhatsApp, donde organiza grupos por cada residente para enviar información de manera simultánea y transparente. Valora la inmediatez, la trazabilidad de los mensajes y la participación colectiva de los familiares, incluso aquellos que residen fuera del país.
+Nos confirmó que su canal principal de comunicación con los familiares es WhatsApp, donde organiza grupos por cada residente para enviar información de manera simultánea y transparente. Indicó que valora la inmediatez, la trazabilidad de los mensajes y la participación colectiva de los familiares, incluidos aquellos que viven en el extranjero.
 
-Tecnológicamente, Navarrete se considera usuario experimentado de Microsoft Excel, herramienta con la cual gestiona desde finanzas hasta control de inventario y pagos. Sin embargo, el manejo de las historias clínicas sigue siendo completamente físico. Reconoce que le cuesta adaptarse a nuevas plataformas (“más difícil que me metan otras cosas”), aunque manifiesta interés en digitalizar los expedientes médicos para mejorar el orden y la accesibilidad. Utiliza una laptop personal y un smartphone Android, con navegadores como Microsoft Edge y Google Chrome.
+En cuanto a herramientas tecnológicas, indicó que es usuario experimentado de Microsoft Excel, con el cual gestiona finanzas, inventarios y pagos. Confirmó que las historias clínicas se manejan completamente en formato físico. Aunque manifestó que le cuesta adaptarse a nuevas plataformas, también expresó interés en digitalizar los expedientes médicos para mejorar el orden y la accesibilidad. Señaló que utiliza una laptop personal, un smartphone Android y navegadores como Microsoft Edge y Google Chrome.
 
-Su marca de referencia es Microsoft, por la estabilidad de sus herramientas. En términos de influencias, menciona que toma como modelo de organización los sistemas hospitalarios del MINSA, aunque considera que estos son “muy complejos” para el entorno residencial.
+Indicó que su marca de referencia es Microsoft, por la estabilidad de sus herramientas. Además, mencionó que toma como referencia los sistemas hospitalarios del MINSA, aunque considera que estos pueden resultar “muy complejos” para el entorno residencial.
 
-Entre sus principales problemas se encuentran la falta de digitalización clínica, la dependencia excesiva del personal técnico y la dificultad para estandarizar la comunicación con familiares. Considera esencial una plataforma de gestión digital sencilla, funcional y adaptada al contexto de residencias, que no requiera conocimientos técnicos avanzados y permita acceso rápido a información relevante.
+Entre los principales desafíos que mencionó se encuentran la falta de digitalización clínica, la dependencia del personal técnico y la dificultad para estandarizar la comunicación con los familiares. Señaló que considera esencial contar con una plataforma de gestión digital sencilla y funcional, adaptada al contexto de residencias, que no requiera conocimientos técnicos avanzados y que permita un acceso rápido a la información relevante.
 </td>
   </tr>
 </tbody>
@@ -313,6 +335,10 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
     <td>Edad</td>
     <td>27 años</td>
   </tr>
+	<tr>
+    <td>Rol</td>
+    <td>Cuidador que trabaja en la casa de reposo La Posada del Señor</td>
+  </tr>
   <tr>
     <td>Distrito</td>
     <td>Lima</td>
@@ -323,24 +349,28 @@ Entre sus principales problemas se encuentran la falta de digitalización clíni
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>08:16 min - 12:20 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>08:16 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>4:04 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		Recoba Valenzuela es un cuidador joven con experiencia previa en entornos hospitalarios. Su personalidad es práctica, empática y centrada en la acción, con una visión operativa del trabajo diario. Se enfoca en atender las necesidades individuales de los adultos mayores, destacando la importancia de la personalización del cuidado.
+		Recoba Valenzuela es un cuidador joven con experiencia previa en entornos hospitalarios. Se describió como una persona práctica, empática y orientada a la acción, con un enfoque operativo centrado en atender las necesidades individuales de los adultos mayores. Destacó que la personalización del cuidado es fundamental en su labor diaria.
 
-Indica que la comunicación con los familiares se da mediante llamadas, SMS y WhatsApp, aunque a veces depende de un solo contacto que no siempre responde, lo que genera retrasos y confusiones.
+Nos indicó que la comunicación con los familiares se realiza mediante llamadas telefónicas, SMS y WhatsApp. Comentó que en algunos casos depende de un único contacto familiar, y cuando este no responde, se generan retrasos y confusiones en la comunicación.
 
-Respecto al uso tecnológico, maneja un nivel básico a intermedio: utiliza smartphone para comunicación y una computadora compartida en el centro. Comenta que en su trabajo anterior se implementó un sistema digital “muy complejo”, con una mala experiencia debido a su baja usabilidad y la falta de integración de módulos (por ejemplo, las recetas no estaban sincronizadas con los registros médicos).
+En relación con el uso de tecnología, señaló que posee un nivel básico a intermedio. Mencionó que utiliza su smartphone para la comunicación cotidiana y una computadora compartida en el centro para tareas administrativas. Además, describió una experiencia previa en otro trabajo donde se implementó un sistema digital que calificó como “muy complejo”, debido a su baja usabilidad y a la falta de integración entre módulos, como el caso de las recetas que no estaban sincronizadas con los registros médicos.
 
-No menciona marcas específicas, pero deja claro que valora la simplicidad, accesibilidad y rapidez en una herramienta digital. Considera que una plataforma adecuada debe centralizar toda la información del residente (recetas, citas, informes, alertas) y permitir múltiples canales de notificación para mantener informada a la familia.
+Expresó que valora herramientas digitales que sean simples, accesibles y rápidas. Indicó que considera importante que una plataforma integre toda la información del residente —incluyendo recetas, citas, informes y alertas— y que permita utilizar múltiples canales de notificación para mantener informada a la familia de manera oportuna.
 
-Su experiencia revela la necesidad de interfaces intuitivas y accesibles al personal operativo, con funcionalidades que faciliten su labor sin sobrecargarla con tareas digitales complejas.
+Su experiencia resalta la necesidad de interfaces intuitivas y accesibles para el personal operativo, con funcionalidades que faciliten su trabajo diario sin añadir complejidad innecesaria.
 </td>
   </tr>
 </tbody>
@@ -379,22 +409,26 @@ Su experiencia revela la necesidad de interfaces intuitivas y accesibles al pers
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>12:21 min - 14:46 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>12:21 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>02:26 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		Ivonne Madrid es una comerciante de 49 años, residente en Sullana, de personalidad práctica, empática y orientada a la familia. Muestra un nivel intermedio de competencia digital: utiliza constantemente su smartphone para negocios y redes sociales, pero no es usuaria avanzada de sistemas especializados.
+		Ivonne Madrid es una comerciante de 49 años, residente en Sullana. Se describió como una persona práctica, empática y orientada a su familia. Indicó que posee un nivel intermedio de competencia digital: utiliza de forma constante su smartphone para actividades de negocio y redes sociales, aunque no emplea sistemas especializados.
 
-Su principal frustración es la falta de acceso inmediato y confiable a la información médica de su familiar residente. Señala que cuando ocurre una urgencia médica, suele enterarse con mucho retraso o solo cuando logra comunicarse con el personal, lo que le genera ansiedad y desconfianza.
+Comentó que su principal dificultad es la falta de acceso inmediato y confiable a la información médica de su familiar residente. Señaló que, cuando ocurre una urgencia médica, suele recibir la información con retraso o únicamente cuando logra comunicarse directamente con el personal, lo cual le genera ansiedad y preocupación.
 
-Ivonne utiliza principalmente WhatsApp, llamadas y Facebook Messenger para comunicarse. Usa Google Chrome como navegador en su laptop personal y aplicaciones móviles en su teléfono Android.
+Indicó que se comunica habitualmente mediante WhatsApp, llamadas telefónicas y Facebook Messenger. Para navegar en su laptop personal utiliza el navegador Google Chrome, y en su teléfono Android usa principalmente aplicaciones móviles para mantenerse informada y comunicada.
 
-Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tratamientos, medicamentos, citas médicas, actividades y alertas. Subraya que su confianza aumentaría si la plataforma es segura, intuitiva y actualizada en tiempo real. Su motivación principal es poder monitorear la salud de su familiar sin depender de intermediarios.
+Expresó que desea una aplicación sencilla y rápida que le permita visualizar de forma clara la información relevante sobre su familiar, incluyendo tratamientos, medicamentos, citas médicas, actividades y alertas. Afirmó que confiaría más en la plataforma si esta cuenta con seguridad, una interfaz intuitiva y actualizaciones en tiempo real. Su principal motivación es poder monitorear la salud de su familiar sin depender de intermediarios.
 </td>
   </tr>
 </tbody>
@@ -431,22 +465,26 @@ Desea una aplicación sencilla y rápida que le brinde reportes claros sobre tra
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>14:47 min - 19:27 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>14:47 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>05:41 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		Leo Gómez, de 30 años, es un profesional joven encargado del cuidado de su abuela. Posee una personalidad analítica, racional y metódica, con alta afinidad por la tecnología. Considera que la comunicación con el centro geriátrico es ineficiente, pues debe llamar varias veces para recibir información fragmentada.
+		Leo Gómez, de 30 años, es el responsable del cuidado de su abuela. Durante la entrevista, se describió como una persona analítica, racional y metódica, con alta afinidad por la tecnología. Expresó que la comunicación con el centro geriátrico resulta ineficiente, ya que debe realizar varias llamadas para obtener información que suele llegar incompleta o dispersa.
 
-Utiliza smartphone, laptop y tablet en su vida diaria, tanto para el trabajo como para el seguimiento familiar. Sus navegadores principales son Google Chrome y Safari, y está habituado al uso de herramientas digitales como Google Drive, Zoom y Gmail.
+Indicó que utiliza de manera regular un smartphone, una laptop y una tablet, tanto para su trabajo como para el seguimiento del estado de su familiar. Señaló que sus navegadores principales son Google Chrome y Safari, y que está familiarizado con herramientas digitales como Google Drive, Zoom y Gmail, las cuales usa a diario.
 
-Su frustración radica en la falta de reportes médicos completos y oportunos. Quiere acceder a información sobre medicación, chequeos médicos, alimentación y actividades recreativas en una plataforma segura. Le gustaría recibir notificaciones inmediatas ante cambios en el estado de salud o emergencias.
+Manifestó que su principal frustración es la falta de reportes médicos completos y oportunos. Expresó que desea acceder a información detallada sobre medicación, chequeos médicos, alimentación y actividades recreativas, dentro de una plataforma segura. También afirmó que le gustaría recibir notificaciones inmediatas en caso de cambios en el estado de salud o situaciones de emergencia.
 
-Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acceso restringido y comunicación directa con el personal. Representa al segmento de usuarios jóvenes, digitales y demandantes de transparencia.
+Finalmente, indicó que confiaría plenamente en un sistema siempre que garantice seguridad, acceso restringido y comunicación directa con el personal. Representa al segmento de familiares jóvenes y con alta alfabetización digital, que demandan transparencia y actualización constante de la información.
 
 </td>
   </tr>
@@ -484,41 +522,77 @@ Manifiesta que confiaría plenamente en un sistema si garantiza seguridad, acces
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">Entrevista grabada – Microsoft Stream</p></td>
+    <td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
-    <td>19:28 min - 22:33 min</td>
+    <td>Timing donde inicia la entrevista<br></td>
+    <td>19:28 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista<br></td>
+    <td>03:05 min</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-		Jonathan Ramírez, de 40 años, es apoderado legal de su madre residente. Posee una personalidad responsable, reflexiva y tecnológica, con experiencia en el uso de plataformas digitales en su entorno laboral.
+		Jonathan Ramírez, de 40 años, es el apoderado legal de su madre residente. Durante la entrevista, se describió como una persona responsable, reflexiva y con un nivel tecnológico alto, debido a su experiencia en el uso de plataformas digitales en su entorno laboral.
 
-Actualmente recibe información sobre su madre solo mediante llamadas telefónicas, las cuales suelen demorar. Esto le genera incertidumbre, especialmente en temas médicos y de medicación. Utiliza laptop, smartphone y correo electrónico, y su navegador principal es Google Chrome.
+Indicó que actualmente recibe información sobre su madre únicamente mediante llamadas telefónicas, las cuales suelen demorar. Esta situación le genera incertidumbre, especialmente en temas relacionados con la medicación y los reportes médicos diarios.
 
-Su perfil tecnológico es alto: maneja herramientas como Microsoft Teams, Google Drive y aplicaciones de comunicación corporativa. Busca una plataforma que le ofrezca transparencia, inmediatez y trazabilidad de la información médica, incluyendo medicación diaria, resultados de exámenes, citas programadas y alertas ante urgencias.
+Señaló que utiliza de forma habitual una laptop, un smartphone y el correo electrónico, y que su navegador principal es Google Chrome. Además, afirmó manejar con soltura herramientas como Microsoft Teams, Google Drive y aplicaciones de comunicación corporativa, reflejando un perfil digital avanzado.
 
-Expresa que confiaría en un sistema como Veyra siempre que sea rápido, confiable, seguro y con interfaz clara, destacando la importancia de las alertas automáticas para mantener la tranquilidad familiar.
+Manifestó que necesita una plataforma que le brinde transparencia, inmediatez y trazabilidad sobre la información médica de su madre, incluyendo medicación diaria, resultados de exámenes, citas programadas y alertas ante emergencias.
+
+Jonathan afirmó que confiaría en un sistema como Veyra siempre que este sea rápido, confiable, seguro y con una interfaz clara, y destacó que las alertas automáticas son esenciales para mantener la tranquilidad familiar y reducir la incertidumbre.
 </td>
   </tr>
 </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ### 2.2.3. Análisis de entrevistas
 
-El objetivo de las entrevistas fue identificar los problemas, necesidades y expectativas de los **administradores de casas de reposo** y los **familiares de adultos mayores**, con el fin de validar hipótesis sobre la comunicación, gestión de información y funciones necesarias en una aplicación que facilite la coordinación y el cuidado.
-<td><img src="../images/Administradores.png" alt="Administradores"></td>
-<td><img src="../images/Familiares.png" alt="Administradores"></td>
-<td><img src="../images/Comparativo-SegmentosObjetivos.png" alt="Administradores"></td>
+En esta sección se presenta el análisis detallado de la información recolectada. Para cada segmento, se explican primero los hallazgos estadísticos objetivos y subjetivos, seguidos de la evidencia gráfica correspondiente.
 
+#### Segmento 1: Administradores de Casas de Reposo
 
-### Conclusiones  
-1. Existe una **fuerte necesidad de digitalización**: todavía se depende de llamadas, papel o Excel, lo que genera ineficiencia.  
-2. Los problemas más críticos se relacionan con **la falta de aviso en urgencias y la duplicidad de procesos**, lo que impacta directamente en la seguridad de los adultos mayores.  
-3. Las soluciones más esperadas giran en torno a **notificaciones automáticas, centralización de información y facilidad de uso**, lo que indica que la aplicación debe ser intuitiva y accesible.  
-4. Se valida la hipótesis de que tanto administradores como familiares requieren un sistema **integrado y confiable** para comunicación, gestión de información y alertas inmediatas.  
+**Análisis de Características Objetivas y Subjetivas:**
+El análisis revela una digitalización precaria. Como se detalla en el gráfico a continuación, el **100%** de los administradores utiliza **WhatsApp** como canal principal y el **100%** gestiona la información clínica en **sistemas físicos** (papel). Si bien un **67%** se apoya en **Excel**, la falta de integración es crítica.
+A nivel subjetivo, el **100%** valora la **comunicación rápida** y la **digitalización**. Sin embargo, existe una restricción clara: el **67%** demanda **soluciones sencillas**, rechazando herramientas complejas, y un **33%** aún prioriza la gestión personal directa.
 
+<div align="center"><img src="../images/Administradores.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
+<br>
+
+#### Segmento 2: Familiares de Adultos Mayores
+
+**Análisis de Características Objetivas y Subjetivas:**
+Los datos confirman una experiencia actual deficiente. El **100%** reporta **dificultad para acceder a información** y el **100%** indica que se enteran de las **urgencias mediante llamadas**, lo cual consideran tardío e ineficiente. Un **100%** manifiesta la necesidad de ver la **info de medicación**.
+Subjetivamente, el dolor principal es la incertidumbre: el **67%** siente **preocupación por demoras**, por lo que el **100%** solicita la **centralización** de datos. Afortunadamente, el **67%** se siente **cómodo usando apps**, validando la viabilidad de una solución móvil.
+
+<div align="center"><img src="../images/Familiares.png" alt="Gráfico Estadístico Familiares" width="80%"></div>
+<br>
+
+#### Análisis Comparativo
+
+**Contrastación de Segmentos:**
+Al comparar ambos grupos, encontramos coincidencias vitales para el producto: ambos tienen un **100% de necesidad de centralización** de información. Sin embargo, existe una brecha notable en la percepción de "preocupación": mientras los administradores priorizan la operatividad (0% de preocupación personal por demoras), para el **67%** de los familiares es una fuente de ansiedad crítica. Esto define nuestra propuesta de valor: eficiencia para el administrador y tranquilidad para el familiar.
+
+<div align="center"><img src="../images/Comparativo-SegmentosObjetivos.png" alt="Gráfico Comparativo Segmentos" width="80%"></div>
+<br>
+
+### Conclusiones y Definición de Arquetipos
+
+Basado en el análisis estadístico, se definen los siguientes perfiles para los User Personas:
+
+1.  **User Persona Administrador ("El Gestor Operativo"):**
+    * **Rasgo clave:** Busca eficiencia pero teme a la tecnología compleja.
+    * **Sustento:** El 67% exige "soluciones sencillas" y el 100% ya usa WhatsApp. La solución debe tener una curva de aprendizaje mínima.
+2.  **User Persona Familiar ("El Monitor Preocupado"):**
+    * **Rasgo clave:** Necesita control y transparencia para reducir ansiedad.
+    * **Sustento:** El 100% pide información de medicación y el 67% sufre por la demora en noticias. La solución debe centrarse en notificaciones en tiempo real.
+
+<div style="page-break-after: always;"></div>
 
 ## 2.3. Needfinding
 
@@ -530,7 +604,7 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 
 Para los administradores se elaboró el User Persona **Mauricio Sánchez Valencia**. Se consideraron factores como su edad, rol en la gestión de una casa de reposo, experiencia en la administración del cuidado de adultos mayores y su necesidad de optimizar procesos de comunicación y gestión de la información. Sus principales frustraciones giran en torno a la falta de un sistema centralizado para el control de historias clínicas, medicamentos y citas médicas, lo que genera demoras en la comunicación con familiares y dificultades en el seguimiento de residentes. Asimismo, se tomó en cuenta su familiaridad con herramientas digitales básicas y la necesidad de contar con una plataforma moderna, intuitiva y segura que le permita centralizar toda la información de manera ágil y confiable.
 
-<img src="../images/User Persona Segmento_1.png" alt="User Persona 1" width="auto" height="1900"/>
+<img src="../images/mauricio-sánchez-valencia-uxpressia.png" alt="User Persona 1" width="auto" height="1900"/>
 
 <br>
 
@@ -538,21 +612,18 @@ Para los administradores se elaboró el User Persona **Mauricio Sánchez Valenci
 
 Para los familiares se elaboró el User Persona **Carmen Morales Quispe**. Se consideraron aspectos como su edad, ocupación y su rol como familiar de un adulto mayor residente en una casa de reposo. Sus principales motivaciones están orientadas a mantenerse informada en tiempo real sobre el estado de salud, el tratamiento y la administración de medicamentos de su familiar, incluso mientras desarrolla sus actividades laborales. Entre sus frustraciones se encuentra la falta de información clara, la demora en las notificaciones sobre urgencias y la necesidad de depender de llamadas o visitas presenciales. Su perfil refleja una predisposición positiva hacia el uso de soluciones digitales, siempre que estas sean rápidas, confiables y fáciles de utilizar.
 
-<img src="../images/User Persona Segmento_2.png" alt="User Persona 2" width="auto" height="1900"/>
+<img src="../images/carmen-morales quispe-uxpressia.png" alt="User Persona 2" width="auto" height="1900"/>
 
-<h3>2.3.2. User Task Matrix</h3>
-<p>
-El <em>User Task Matrix</em> concentra las tareas que realizan los segmentos considerados de este proyecto, independientemente de la existencia del software. 
-Se evalúan con dos criterios por cada User Persona: <strong>Frecuencia</strong> (Rarely / Occasionally / Often) e <strong>Importancia</strong> (Low / Medium / High).<br>
-Segmentos considerados: <strong>Administrador de casa de reposo (Mauricio Sánchez Valencia)</strong> y <strong>Familiar de adulto mayor (Carmen Morales Quispe)</strong>.
-</p>
+### 2.3.2. User Task Matrix
+
+El User Task Matrix presenta las tareas que realizan los User Persona para cumplir sus objetivos en su día a día, independientemente de si usan nuestro software o no. Se evalúa la frecuencia y la importancia de cada tarea para identificar dónde aportar valor.
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
   <thead>
     <tr style="background-color:#eef3f7;">
-      <th rowspan="2">Tarea</th>
-      <th colspan="2">Administrador – Mauricio Sánchez Valencia</th>
-      <th colspan="2">Familiar – Carmen Morales Quispe</th>
+      <th rowspan="2">Tarea (Task)</th>
+      <th colspan="2">Administrador (Mauricio)</th>
+      <th colspan="2">Familiar (Carmen)</th>
     </tr>
     <tr style="background-color:#eef3f7;">
       <th>Frecuencia</th>
@@ -563,68 +634,47 @@ Segmentos considerados: <strong>Administrador de casa de reposo (Mauricio Sánch
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left;">Registrar y actualizar residentes</td>
+      <td style="text-align:left;">Mantener actualizado el registro de residentes</td>
       <td>Often</td><td>High</td>
       <td>Rarely</td><td>Low</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Programar citas y agenda médica</td>
+      <td style="text-align:left;">Planificar citas médicas y terapias</td>
       <td>Often</td><td>High</td>
-      <td>Occasionally</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Generar y descargar reportes</td>
-      <td>Occasionally</td><td>High</td>
       <td>Occasionally</td><td>Medium</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Notificar a familiares sobre cambios</td>
+      <td style="text-align:left;">Comunicar incidencias o urgencias a la familia</td>
       <td>Occasionally</td><td>High</td>
-      <td>—</td><td>—</td>
+      <td>Rarely</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Coordinar al personal de cuidado</td>
-      <td>Occasionally</td><td>Medium</td>
-      <td>Rarely</td><td>Medium</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Consultar historial médico digital</td>
-      <td>Occasionally</td><td>High</td>
-      <td>Often</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Recibir notificaciones en tiempo real</td>
-      <td>Rarely</td><td>Medium</td>
-      <td>Often</td><td>High</td>
-    </tr>
-    <tr>
-      <td style="text-align:left;">Revisar agenda y recordatorios</td>
+      <td style="text-align:left;">Supervisar el cumplimiento de la medicación</td>
       <td>Often</td><td>High</td>
       <td>Often</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Comunicarse con el personal de cuidado</td>
+      <td style="text-align:left;">Consultar el estado de salud y evolución</td>
+      <td>Often</td><td>Medium</td>
       <td>Often</td><td>High</td>
-      <td>Occasionally</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Descargar reportes clínicos en PDF</td>
-      <td>Occasionally</td><td>High</td>
-      <td>Occasionally</td><td>Medium</td>
+      <td style="text-align:left;">Coordinar turnos del personal de cuidado</td>
+      <td>Often</td><td>Medium</td>
+      <td>Rarely</td><td>Low</td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">Realizar pagos o cobros de mensualidad</td>
+      <td>Monthly</td><td>High</td>
+      <td>Monthly</td><td>High</td>
     </tr>
   </tbody>
 </table>
 
-<p style="font-size:12px; color:#555; margin-top:6px;">
-Leyenda: “—” indica que la tarea no aplica para el segmento.
-</p>
+**Análisis del Task Matrix:**
+Se observa que la tarea **"Supervisar cumplimiento de medicación"** y **"Consultar estado de salud"** tienen una Importancia **High** y Frecuencia **Often** para ambos segmentos (el administrador para controlar, el familiar para saber). Esto confirma que estas tareas son el "Core" del negocio y deben ser priorizadas. Además, la tarea crítica de **"Comunicar incidencias"** es de alta importancia para ambos, validando la necesidad de un sistema de alertas.
 
-<p><strong>Análisis:</strong><br>
-El Administrador concentra tareas operativas y de control con <em>alta frecuencia e importancia</em>, destacando: registrar/actualizar residentes, programar agenda, revisar agenda y coordinar al personal, además de notificar a familiares sobre cambios. 
-El Familiar prioriza tareas de <em>seguimiento y comunicación</em> con alta frecuencia e importancia: consultar historial médico, recibir notificaciones en tiempo real y revisar agenda; además, mantiene comunicación con el personal cuando requiere aclaraciones. 
-Como coincidencia crítica para ambos, “revisar agenda y recordatorios” es <em>Often–High</em>, lo que justifica diseñar vistas de calendario claras y recordatorios fiables. 
-Las principales diferencias: el Administrador es dueño de procesos (creación/gestión de datos y notificación), mientras que el Familiar es consumidor de información (consulta, seguimiento y validación), lo que implica perfiles y permisos diferenciados en la solución.
-</p>
+<div style="page-break-after: always;"></div>
 
 ### 2.3.3. User Journey Mapping
 
@@ -658,6 +708,8 @@ Este análisis busca sentar las bases para una futura solución tecnológica que
 <img src="../images/Journey Map Segmento_2.png" alt="Journey Map Segmento 2" width="auto" height="450"/>
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.4. Empathy Mapping
 
@@ -694,6 +746,8 @@ Después de listar los eventos, el equipo los organizó en flujos de negocio ló
 Esta estructura ayudó a identificar los procesos clave y las áreas de mejora que posteriormente podrían abordarse mediante soluciones digitales o de gestión.
 
 <img src="../images/step2-big picture event storming.png" alt="bigpicture" style="width:1000px;">
+
+<div style="page-break-after: always;"></div>
 
 ## 2.5. Ubiquitous Language
 <p>

@@ -750,6 +750,57 @@
                     <strong>Entonces</strong> recibe una explicación clara y orientación sobre la forma correcta.
                 </td>
             </tr>
+            <tr>
+            <td>EP15</td>
+            <td>Monitoreo IoT y Wearables</td>
+            <td>Como personal médico, quiero que el sistema procese la información de las bandas médicas y la compare con los registros de salud para detectar inestabilidades automáticamente.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US45</td>
+            <td>Vinculación de banda de monitoreo</td>
+            <td>Como enfermero, quiero vincular una banda médica (wearable) al perfil de un residente para asegurar que los datos de signos vitales capturados por el dispositivo se almacenen en el sistema Tracking asociados al paciente correcto.</td>
+            <td>
+                <strong>Escenario 1: Vinculación de dispositivo disponible</strong><br>
+                <strong>Dado que</strong> la banda médica está activa y sin una asignación previa en el sistema<br>
+                <strong>Cuando</strong> el enfermero selecciona al residente y registra el identificador único de la banda (device_id)<br>
+                <strong>Entonces</strong> el sistema confirma la vinculación, guarda la relación residente–dispositivo y habilita la recepción de mediciones futuras desde esa banda.<br><br>
+                <strong>Escenario 2: Banda ya asignada</strong><br>
+                <strong>Dado que</strong> se intenta vincular una banda que ya está asociada a otro residente<br>
+                <strong>Cuando</strong> el sistema Tracking valida el device_id<br>
+                <strong>Entonces</strong> se rechaza la operación, se informa que la banda ya está vinculada y no se modifica la asociación existente..
+            </td>
+        </tr>
+        <tr>
+            <td>US46</td>
+            <td>Validación de estabilidad de signos vitales</td>
+            <td>Como médico, quiero que las mediciones biométricas almacenadas por Tracking sean evaluadas automáticamente contra los parámetros de salud registrados en los Health Records, para identificar si el residente se encuentra estable o presenta riesgo.</td>
+            <td>
+                <strong>Escenario 1: Signos vitales estables</strong><br>
+                <strong>Dado que</strong> el sistema Tracking ha recibido y almacenado una medición con datos como presión arterial, frecuencia cardiaca, saturación de oxígeno y temperatura<br>
+                <strong>Cuando</strong> el servicio de evaluación compara los valores con los rangos permitidos definidos en el Health Record del residente<br>
+                <strong>Entonces</strong> clasifica la medición como “estable”, registra el resultado de la evaluación y no genera incidencias.<br><br>
+                <strong>Escenario 2: Detección de inestabilidad</strong><br>
+                <strong>Dado que</strong> se registra una nueva medición en Tracking<br>
+                <strong>Cuando</strong> uno o más valores (por ejemplo, heart_rate, systolic, oxygen_saturation) se encuentran fuera de los rangos configurados en el Health Record<br>
+                <strong>Entonces</strong> la medición se marca como “inestable” y se genera un evento para iniciar el protocolo de notificación hacia el personal de cuidado.
+            </td>
+        </tr>
+        <tr>
+            <td>US47</td>
+            <td>Alertas de inestabilidad de salud</td>
+            <td>Como enfermero, quiero recibir una alerta inmediata cuando el análisis de las mediciones de Tracking detecte inestabilidad en el estado fisiológico de un residente, para poder acudir rápidamente y brindar atención.</td>
+            <td>
+                <strong>Escenario 1: Notificación de inestabilidad confirmada</strong><br>
+                <strong>Dado que</strong> una medición almacenada en Tracking fue clasificada como “inestable” por el servicio de evaluación de Health<br>
+                <strong>Cuando</strong> se confirma la desviación significativa respecto a los parámetros de salud del residente<br>
+                <strong>Entonces</strong> se envía una alerta prioritaria al personal asignado (por ejemplo vía panel, correo o notificación push) indicando el residente, los valores críticos y la hora de la medición.<br><br>
+                <strong>Escenario 2: Ausencia de datos críticos</strong><br>
+                <strong>Dado que</strong> las mediciones registradas para un residente son clasificadas como “estables”<br>
+                <strong>Cuando</strong> el sistema completa el análisis periódico<br>
+                <strong>Entonces</strong> no se emite ninguna alerta y el tablero de monitoreo mantiene el estado normal de operación..
+            </td>
+        </tr>
          <tr>
             <td>EP04</td>
             <td>Gestión de adultos mayores</td>
@@ -761,11 +812,11 @@
             <td>Agregar pacientes</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para permitir que el administrador registre nuevos residentes con validaciones obligatorias y que se genere un ID único por residente.</td>
             <td>
-                <strong>Escenario: Creación exitosa</strong><br>
+                <strong>Escenario 1: Creación exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud POST a <code>/api/v1/residents-management/{nursingHomeId}/residents</code> con los datos validos<br>
                 - <strong>Cuando</strong> la API válida permisos y persiste el residente<br>
                 - <strong>Entonces</strong> la API responde con <code>201 Created</code> y retorna el residente con: id (Long), nursingHomeId (Long), residentCode (String), firstName, lastName, dateOfBirth, age, gender, bloodType, emergencyContact, emergencyPhone, medicalConditions, allergies, admissionDate, status, createdAt.<br><br>
-                <strong>Escenario: Error de validación</strong><br>
+                <strong>Escenario 2: Error de validación</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud con datos inválidos<br>
                 - <strong>Cuando</strong> la API detecta errores<br>
                 - <strong>Entonces</strong> la API responde con <code>400 Bad Request</code> con detalles de errores.
@@ -776,11 +827,11 @@
             <td>Ver información detallada de los pacientes</td>
             <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET que devuelva la información completa del residente para que el personal autorizado pueda consultar fácilmente el expediente.</td>
             <td>
-                <strong>Escenario: Obtener residente específico</strong><br>
+                <strong>Escenario 1: Obtener residente específico</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud GET a <code>/api/v1/resident-managment/{nursingHomeId}/residents/{residentId}</code><br>
                 - <strong>Cuando</strong> la API encuentra el residente y valida que pertenece al nursing home especificado<br>
                 - <strong>Entonces</strong> la API responde con <code>200 resident found</code> y retorna la información completa del residente.<br><br>
-                <strong>Escenario: Residente no encontrado</strong><br>
+                <strong>Escenario 2: Residente no encontrado</strong><br>
                 - <strong>Dado</strong> que el <code>{residentId}</code> no existe<br>
                 - <strong>Cuando</strong> la API busca el residente<br>
                 - <strong>Entonces</strong> la API responde con <code>404 Not Found</code>.
@@ -791,7 +842,7 @@
             <td>Ver  información detallada de todo  los pacientes</td>
             <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET para listar todos los residentes de un nursing home.</td>
             <td>
-                <strong>Escenario: Listar todos los residentes del nursing home</strong><br>
+                <strong>Escenario 1: Listar todos los residentes del nursing home</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/resident-managment/{nursingHomeId}/residents</code><br>
                 - <strong>Cuando</strong> la API busca residentes<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> y retorna solo residentes de este nursing home.
@@ -802,7 +853,7 @@
             <td>Eliminar paciente</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE que realice una eliminación controlada del residente.</td>
             <td>
-                <strong>Escenario: Eliminación lógica exitosa</strong><br>
+                <strong>Escenario 2: Eliminación lógica exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe DELETE a <code>/api/v1/resident-management/{nursingHomeId}/residents/{residentId}</code><br>
                 - <strong>Cuando</strong> la API válida que el residente pertenece a este nursing home y realiza soft delete<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> con mensaje de confirmación.<br><br>
@@ -816,11 +867,11 @@
             <td>Actualizar información de los pacientes</td>
             <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar campos del perfil del residente para que las modificaciones queden registradas y sean reversibles si es necesario.</td>
             <td>
-                <strong>Escenario: Actualización exitosa</strong><br>
+                <strong>Escenario 1: Actualización exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe PUT/PATCH a <code>/api/v1/resident-managment/{nursingHomeId}/residents/{residentId}</code> con datos válidos<br>
                 - <strong>Cuando</strong> la API valida que el residente pertenece a este nursing home y actualiza<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> con el residente actualizado.<br><br>
-                <strong>Escenario: Error de validación</strong><br>
+                <strong>Escenario 2: Error de validación</strong><br>
                 - <strong>Dado</strong> que se recibe datos inválidos<br>
                 - <strong>Entonces</strong> la API responde con <code>400 Bad Request</code>.
             </td>
@@ -836,11 +887,11 @@
             <td>Eliminar medicamentos</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Delete para medicamentos para asegurar que el administrador de la casa de reposo pueda remover registros del inventario.</td>
             <td>
-                <strong>Escenario: Eliminación exitosa</strong><br>
+                <strong>Escenario 1: Eliminación exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud DELETE a <code>/api/v1/inventories/{nursingHomeId}/medications/{medicationId}</code><br>
                 - <strong>Cuando</strong> la API valida que el medicamento pertenece al nursing home especificado y el usuario tiene permisos<br>
                 - <strong>Entonces</strong> la API responde con <code>204 The medication was deleted successfully.</code> sin cuerpo de respuesta.<br><br>
-                <strong>Escenario: Medicamento no encontrado</strong><br>
+                <strong>Escenario 2: Medicamento no encontrado</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud DELETE para un <code>{medicationId}</code> inexistente<br>
                 - <strong>Cuando</strong> la API no encuentra el medicamento<br>
                 - <strong>Entonces</strong> la API responde con <code>404 Not Found</code> y retorna un payload de error.
@@ -851,15 +902,15 @@
             <td>Agregar medicamentos</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Post medicamentos para permitir que el administrador de la casa de reposo pueda agregar más medicamentos.</td>
             <td>
-                <strong>Escenario: Creación exitosa</strong><br>
+                <strong>Escenario 1: Creación exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud POST a <code>/api/v1/inventories/{nursingHomeId}/medications</code> con un cuerpo de solicitud conteniendo: name, description, dosage, unit, quantity, expirationDate, manufacturer<br>
                 - <strong>Cuando</strong> la API valida que el usuario tiene permisos para este nursing home y persiste el medicamento<br>
                 - <strong>Entonces</strong> la API responde con <code>201 medication created successfully</code> y retorna el medicamento creado con los atributos: id (Long), nursingHomeId (Long), name (String), description (String), dosage (String), unit (String), quantity (Integer), expirationDate (Date), manufacturer (String), createdAt (DateTime).<br><br>
-                <strong>Escenario: Error de validación</strong><br>
+                <strong>Escenario 2: Error de validación</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud con atributos inválidos<br>
                 - <strong>Cuando</strong> la API valida la solicitud<br>
                 - <strong>Entonces</strong> la API responde con <code>400 Bad Request</code> y retorna un payload de error describiendo los errores de validación.<br><br>
-                <strong>Escenario: Medicamento duplicado en este nursing home</strong><br>
+                <strong>Escenario 3: Medicamento duplicado en este nursing home</strong><br>
                 - <strong>Dado</strong> que ya existe un medicamento con la misma combinación de nombre y fabricante en este nursing home<br>
                 - <strong>Cuando</strong> la API detecta el duplicado<br>
                 - <strong>Entonces</strong> la API responde con <code>409 Conflict</code> y retorna un payload de error.
@@ -870,11 +921,11 @@
             <td>Ver información de un medicamento</td>
             <td>Como desarrollador backend en NovaPeru Tech quiero crear una función para ver la información del medicamento a través de una Api.</td>
             <td>
-                <strong>Escenario: Obtener medicamento específico</strong><br>
+                <strong>Escenario 1: Obtener medicamento específico</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud GET a <code>/api/v1/inventories/{nursingHomeId}/medications/{medicationId}</code><br>
                 - <strong>Cuando</strong> la API encuentra el medicamento y valida que pertenece al nursing home especificado<br>
                 - <strong>Entonces</strong> la API responde con <code>200 medication found</code> y retorna el medicamento con los atributos completos.<br><br>
-                <strong>Escenario: Medicamento no encontrado</strong><br>
+                <strong>Escenario 2: Medicamento no encontrado</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud para un <code>{medicationId}</code> inexistente<br>
                 - <strong>Cuando</strong> la API no encuentra el medicamento<br>
                 - <strong>Entonces</strong> la API responde con <code>404 Not Found</code> y retorna un payload de error.
@@ -885,11 +936,11 @@
             <td>Ver todo los medicamentos</td>
             <td>Como desarrollador backend en NovaPeru Tech quiero crear un endpoint para listar todos los medicamentos de un nursing home.</td>
             <td>
-                <strong>Escenario: Listar todos los medicamentos del nursing home</strong><br>
+                <strong>Escenario 1: Listar todos los medicamentos del nursing home</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud GET a <code>/api/v1/inventories/{nursingHomeId}/medications</code><br>
                 - <strong>Cuando</strong> la API encuentra medicamentos para este nursing home<br>
                 - <strong>Entonces</strong> la API responde con <code>200 medication found</code> y retorna solo los medicamentos que pertenecen a este nursing home.<br><br>
-                <strong>Escenario: Sin medicamentos en este nursing home</strong><br>
+                <strong>Escenario 2: Sin medicamentos en este nursing home</strong><br>
                 - <strong>Dado</strong> que no hay medicamentos para el nursing home especificado<br>
                 - <strong>Cuando</strong> la API busca medicamentos<br>
                 - <strong>Entonces</strong> la API responde con <code>404 medication not found</code>.
@@ -900,11 +951,11 @@
             <td>Actualizar información de medicamentos</td>
             <td>Como desarrollador de backend en NovaPeru Tech quiero crear una función para actualizar la información para asegurar que el administrador de la casa de reposos pueda mantener actualizada la información de cada medicamento.</td>
             <td>
-                <strong>Escenario: Actualización completa exitosa</strong><br>
+                <strong>Escenario 1: Actualización completa exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud PUT o PATCH a <code>/api/v1/inventories/{nursingHomeId}/medications/{medicationId}</code> con datos actualizados<br>
                 - <strong>Cuando</strong> la API valida que el medicamento pertenece a este nursing home y el usuario tiene permisos<br>
                 - <strong>Entonces</strong> la API responde con <code>200 the medication was updated</code> y retorna el medicamento actualizado.<br><br>
-                <strong>Escenario: Medicamento de no encontrado</strong><br>
+                <strong>Escenario 2: Medicamento de no encontrado</strong><br>
                 - <strong>Dado</strong> que se intenta actualizar un medicamento que no existe en el <code>{nursingHomeId}</code> especificado<br>
                 - <strong>Cuando</strong> la API valida su existencia<br>
                 - <strong>Entonces</strong> la API responde con <code>404 medication not found</code> y retorna un payload de error.
@@ -921,11 +972,11 @@
             <td>Agregar empleado</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que registre nuevos empleados.</td>
             <td>
-                <strong>Escenario: Creación exitosa</strong><br>
+                <strong>Escenario 1: Creación exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe POST a <code>/api/v1/employee-management/{nursingHomeId}/employees</code> con todo los datos validos y requeridos<br>
                 - <strong>Cuando</strong> la API valida permisos y crea el empleado<br>
                 - <strong>Entonces</strong> la API responde con <code>201 employee created successfully</code> y retorna el empleado con toda su información.<br><br>
-                <strong>Escenario: Error de validación</strong><br>
+                <strong>Escenario 2: Error de validación</strong><br>
                 - <strong>Dado</strong> que se recibe datos inválidos<br>
                 - <strong>Entonces</strong> la API responde con <code>400 Bad Request</code>.
             </td>
@@ -935,11 +986,11 @@
             <td>Eliminar empleado</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE para que el administrador de la casa de reposo revoque persmisos.</td>
             <td>
-                <strong>Escenario: Eliminación lógica exitosa</strong><br>
+                <strong>Escenario 1: Eliminación lógica exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe DELETE a <code>/api/v1/employee-management/{nursingHomeId}/employees/{employeeId}</code><br>
                 - <strong>Cuando</strong> la API válida que el empleado pertenece a este nursing home y cambia status a INACTIVE<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> con mensaje de confirmación.<br><br>
-                <strong>Escenario: Empleado de otro nursing home</strong><br>
+                <strong>Escenario 2: Empleado de otro nursing home</strong><br>
                 - <strong>Dado</strong> que el empleado pertenece a otro nursing home<br>
                 - <strong>Cuando</strong> la API válida propiedad<br>
                 - <strong>Entonces</strong> la API responde con <code>404 employee not found</code>.
@@ -950,11 +1001,11 @@
             <td>Actualizar información del empleado</td>
             <td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar datos de empleado.</td>
             <td>
-                <strong>Escenario: Actualización exitosa</strong><br>
+                <strong>Escenario 1: Actualización exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe PUT/PATCH a <code>/api/v1/employee-management/{nursingHomeId}/employees/{employeeId}</code> con datos válidos<br>
                 - <strong>Cuando</strong> la API valida que el empleado pertenece a este nursing home y actualiza<br>
                 - <strong>Entonces</strong> la API responde con <code>200 employee was updated</code> con empleado actualizado.<br><br>
-                <strong>Escenario: Empleado de otro nursing home</strong><br>
+                <strong>Escenario 2: Empleado de otro nursing home</strong><br>
                 - <strong>Dado</strong> que el empleado no existe en el nursing home especificado<br>
                 - <strong>Entonces</strong> la API responde con <code>404 not found</code>.
             </td>
@@ -964,11 +1015,11 @@
             <td>Ver información de un empleado</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET que muestre el perfil de un empleado para que el administrador pueda observar la información detallada del empleado.</td>
             <td>
-                <strong>Escenario: Obtener empleado específico</strong><br>
+                <strong>Escenario 1: Obtener empleado específico</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/employee-management/{nursingHomeId}/employees/{employeeId}</code><br>
                 - <strong>Cuando</strong> la API encuentra el empleado y válida que pertenece a este nursing home<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> con información completa del empleado.<br><br>
-                <strong>Escenario: Empleado no existe</strong><br>
+                <strong>Escenario 2: Empleado no existe</strong><br>
                 - <strong>Dado</strong> que el empleado no existe<br>
                 - <strong>Entonces</strong> la API responde con <code>404 employee not found</code>.
             </td>
@@ -978,11 +1029,11 @@
             <td>Ver información de todo los empleados</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET que muestre el perfil de los empleados para que el administrador pueda observar cuantos empleados tiene.</td>
             <td>
-                <strong>Escenario: Listar empleados del nursing home</strong><br>
+                <strong>Escenario 1: Listar empleados del nursing home</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/employee-managment/{nursingHomeId}/employees</code><br>
                 - <strong>Cuando</strong> la API busca empleados<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> y retorna solo empleados de este nursing home.<br><br>
-                <strong>Escenario: Sin empleados</strong><br>
+                <strong>Escenario 2: Sin empleados</strong><br>
                 - <strong>Dado</strong> que no hay empleados en este nursing home<br>
                 - <strong>Entonces</strong> la API responde con <code>400 employees not found</code>.
             </td>
@@ -998,11 +1049,11 @@
             <td>Crear Nursing Home (Después del Registro)</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que cuando el administrador se registre pueda crear su casa de reposo.</td>
             <td>
-                <strong>Escenario: Creación exitosa por administrador nuevo</strong><br>
+                <strong>Escenario 1: Creación exitosa por administrador nuevo</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud POST a <code>POST /api/v1/administrators/{administratorId}/nursing-home</code> con: name, ruc, phoneNumber, descriptions<br>
                 - <strong>Cuando</strong> la API válida que el usuario autenticado es un ADMIN sin nursing home asignado y crea la casa de reposo<br>
                 - <strong>Entonces</strong> la API responde con <code>201 Nursing home created successfully</code>, retorna la casa de reposo creada con: id (Long), administratorId, name, ruc, phoneNumber, description.<br><br>
-                <strong>Escenario: Error de validación</strong><br>
+                <strong>Escenario 2: Error de validación</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud con datos inválidos (ej.: ruc inválido, description vacío)<br>
                 - <strong>Cuando</strong> la API detecta errores de validación<br>
                 - <strong>Entonces</strong> la API responde con <code>400 Invalid input data</code> y retorna un payload de error describiendo los errores.
@@ -1013,11 +1064,11 @@
             <td>Obtener casa de reposo para el administrador</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para que un administrador obtenga información de su casa de reposo asignada.</td>
             <td>
-                <strong>Escenario: Obtener nursing home propio</strong><br>
+                <strong>Escenario 1: Obtener nursing home propio</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud GET a <code>GET /api/v1/administrators/{administratorId}/nursing-home</code><br>
                 - <strong>Cuando</strong> la API busca el nursing home del usuario autenticado<br>
                 - <strong>Entonces</strong> la API responde con <code>200 nursing home found</code> y retorna la información completa de su nursing home.<br><br>
-                <strong>Escenario: Usuario sin nursing home asignado</strong><br>
+                <strong>Escenario 2: Usuario sin nursing home asignado</strong><br>
                 - <strong>Dado</strong> que el usuario autenticado no tiene ningún nursing home asignado (recién registrado)<br>
                 - <strong>Cuando</strong> la API busca<br>
                 - <strong>Entonces</strong> la API responde con <code>404 Nursing home not found</code> con mensaje indicando que debe crear su nursing home primero.
@@ -1028,11 +1079,11 @@
             <td>Obtener Nursing Home por ID</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener información de una casa de reposo específica.</td>
             <td>
-                <strong>Escenario: Encontrado</strong><br>
+                <strong>Escenario 1: Encontrado</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud GET a <code>/api/v1/nursing-homes-management/{nursingHomeId}</code><br>
                 - <strong>Cuando</strong> la API encuentra la casa de reposo y el usuario tiene permisos<br>
                 - <strong>Entonces</strong> la API responde con <code>200 nursing home found</code> y retorna la información completa de la casa de reposo.<br><br>
-                <strong>Escenario: No encontrado</strong><br>
+                <strong>Escenario 2: No encontrado</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud para un <code>{nursingHomeId}</code> inexistente<br>
                 - <strong>Cuando</strong> la API no encuentra la casa de reposo<br>
                 - <strong>Entonces</strong> la API responde con <code>404 Not Found</code> y retorna un payload de error.
@@ -1043,11 +1094,11 @@
             <td>Listar Nursing Homes</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para listar todas las casas de reposo a las que el usuario tiene acceso.</td>
             <td>
-                <strong>Escenario: Usuario con múltiples casas de reposo</strong><br>
+                <strong>Escenario 1: Usuario con múltiples casas de reposo</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud GET a <code>/api/v1/nursing-homes-management</code><br>
                 - <strong>Cuando</strong> el usuario tiene acceso a una o más casas de reposo<br>
                 - <strong>Entonces</strong> la API responde con <code>200 nursing homes found</code> y retorna una lista filtrada según los permisos del usuario.<br><br>
-                <strong>Escenario: Usuario sin acceso</strong><br>
+                <strong>Escenario 2: Usuario sin acceso</strong><br>
                 - <strong>Dado</strong> que el usuario no tiene acceso a ninguna casa de reposo<br>
                 - <strong>Cuando</strong> la API válida permisos<br>
                 - <strong>Entonces</strong> la API responde con <code>404 nursing homes not found</code>.
@@ -1058,11 +1109,11 @@
             <td>Actualizar Nursing Home</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint PUT/PATCH para actualizar información de una casa de reposo.</td>
             <td>
-                <strong>Escenario: Actualización exitosa</strong><br>
+                <strong>Escenario 1: Actualización exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe una solicitud PUT a <code>/api/v1/nursing-homes-management/{nursingHomeId}</code> con datos actualizados<br>
                 - <strong>Cuando</strong> la API válida permisos de ADMIN para esta casa de reposo y actualiza<br>
                 - <strong>Entonces</strong> la API responde con <code>200 The nursing home was updated successfully</code> y retorna la casa de reposo actualizada.<br><br>
-                <strong>Escenario: Sin permisos de administrador</strong><br>
+                <strong>Escenario 2: Sin permisos de administrador</strong><br>
                 - <strong>Dado</strong> que el usuario no tiene rol ADMIN para esta casa de reposo<br>
                 - <strong>Cuando</strong> la API válida permisos<br>
                 - <strong>Entonces</strong> la API responde con <code>400 the nursing home was not found</code> y retorna un payload de error.
@@ -1079,11 +1130,11 @@
             <td>Crear Actividad</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para crear actividades para los residentes de una casa de reposo específica.</td>
             <td>
-                <strong>Escenario: Creación exitosa</strong><br>
+                <strong>Escenario 1: Creación exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe POST a <code>/api/v1/activity-management/{nursingHomeId}/employees{employeeId}</code> con todo los datos validos y requeridos<br>
                 - <strong>Cuando</strong> la API válida permisos y crea la actividad<br>
                 - <strong>Entonces</strong> la API responde con <code>201 Created</code> y retorna la actividad con todos los datos.<br><br>
-                <strong>Escenario: Error de validación</strong><br>
+                <strong>Escenario 2: Error de validación</strong><br>
                 - <strong>Dado</strong> que se recibe datos inválidos (ej: scheduledDate en el pasado, startTime después de endTime)<br>
                 - <strong>Entonces</strong> la API responde con <code>400 Bad Request</code>.
             </td>
@@ -1093,7 +1144,7 @@
             <td>Listar Actividades</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para listar todas las actividades de una casa de reposo.</td>
             <td>
-                <strong>Escenario: Listar actividades exitosamente</strong><br>
+                <strong>Escenario 1: Listar actividades exitosamente</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/activity-management/{nursingHomeId}</code><br>
                 - <strong>Cuando</strong> la API busca actividades<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> y retorna las actividades de esta casa de reposo
@@ -1104,11 +1155,11 @@
             <td>Ver información de una Actividad</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para mostrar la información de una sola actividad de una casa de reposo.</td>
             <td>
-                <strong>Escenario: mostrar actividad exitosamente</strong><br>
+                <strong>Escenario 1: mostrar actividad exitosamente</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/activity-management/{nursingHomeId}/activities/{activityId}</code><br>
                 - <strong>Cuando</strong> la API busca la actividad<br>
                 - <strong>Entonces</strong> la API response con <code>200 activity found</code> y retorna la información de la actividad de esta casa de repooso<br><br>
-                <strong>Escenario: actividad no existe</strong><br>
+                <strong>Escenario 2: actividad no existe</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/activity-management/{nursingHomeId}/activities/{activityId}</code><br>
                 - <strong>Cuando</strong> la API busca la actividad<br>
                 - <strong>Entonces</strong> la API responsé con <code>404 activity not found</code>.
@@ -1119,11 +1170,11 @@
             <td>Eliminar una Actividad</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE para eliminar una actividad en una casa de reposo determinada.</td>
             <td>
-                <strong>Escenario: Eliminación lógica exitosa</strong><br>
+                <strong>Escenario 1: Eliminación lógica exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe DELETE a <code>/api/v1/activity-management/{nursingHomeId}/activities/{activityId}</code><br>
                 - <strong>Cuando</strong> la API válida que la actividad pertenece a este nursing home<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> con mensaje de confirmación.<br><br>
-                <strong>Escenario: Actividad no existe</strong><br>
+                <strong>Escenario 2: Actividad no existe</strong><br>
                 - <strong>Dado</strong> que la actividad no existe en este nursing home<br>
                 - <strong>Cuando</strong> la API válida propiedad<br>
                 - <strong>Entonces</strong> la API responde con <code>404 activity not found</code>.
@@ -1134,11 +1185,11 @@
             <td>Inscribir Residente a Actividad</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para inscribir residentes en actividades.</td>
             <td>
-                <strong>Escenario: Inscripción exitosa</strong><br>
+                <strong>Escenario 1: Inscripción exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe POST a <code>/api/v1/activity-management/{nursingHomeId}/activities/{activityId}/residents/{residentId}</code><br>
                 - <strong>Cuando</strong> la API válida que tanto la actividad como el residente pertenecen a este nursing home y hay capacidad disponible<br>
                 - <strong>Entonces</strong> la API responde con <code>201 Created</code> y retorna: enrollmentId, activityId, residentId, enrolledAt, status.<br><br>
-                <strong>Escenario: Datos ínvalidos</strong><br>
+                <strong>Escenario 2: Datos ínvalidos</strong><br>
                 - <strong>Dato</strong> que los datos son ínvalidos (ej nursingHomeId,ActivityId,etc)<br>
                 - <strong>Entonces</strong> la API responde con <code>400 Bad Request</code>.
             </td>
@@ -1154,11 +1205,11 @@
             <td>Obtener Estadísticas Generales</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas generales de una casa de reposo.</td>
             <td>
-                <strong>Escenario: Obtener dashboard de estadísticas</strong><br>
+                <strong>Escenario 1: Obtener dashboard de estadísticas</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/analytics/{nursingHomeId}</code><br>
                 - <strong>Cuando</strong> la API calcula las estadísticas para este nursing home<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> y retorna: totalResidents, activeResidents, totalEmployees, activeEmployees, totalMedications, lowStockMedications, upcomingActivities, occupancyRate, averageAge.<br><br>
-                <strong>Escenario: Sin permisos</strong><br>
+                <strong>Escenario 2: Sin permisos</strong><br>
                 - <strong>Dado</strong> que el usuario no tiene acceso a este nursing home<br>
                 - <strong>Entonces</strong> la API responde con <code>403 Forbidden</code>.
             </td>
@@ -1168,7 +1219,7 @@
             <td>Obtener Estadísticas de Inventario</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas del inventario de medicamentos.</td>
             <td>
-                <strong>Escenario: Estadísticas de inventario</strong><br>
+                <strong>Escenario 1: Estadísticas de inventario</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/analytics/{nursingHomeId}</code><br>
                 - <strong>Cuando</strong> la API calcula estadísticas<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> y retorna: totalMedications, totalValue, expiringThisMonth, expiringNextMonth, lowStockItems, outOfStockItems, topMedicationsByUsage.
@@ -1179,7 +1230,7 @@
             <td>Obtener Estadísticas de Residentes</td>
             <td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas de residentes.</td>
             <td>
-                <strong>Escenario: Estadísticas de residentes</strong><br>
+                <strong>Escenario 1: Estadísticas de residentes</strong><br>
                 - <strong>Dado</strong> que se recibe GET a <code>/api/v1/analytics/{nursingHomeId}/statistics/residents</code><br>
                 - <strong>Cuando</strong> la API calcula estadísticas<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> y retorna: totalResidents, byGender, byAgeRange, averageAge, newAdmissionsThisMonth, averageLengthOfStay, byMedicalCondition.
@@ -1196,83 +1247,83 @@
             <td>Consumir API de Google Maps</td>
             <td>Como desarrollador backend en NovaPeru Tech quiero implementar un servicio de integración con Google Maps que proporcione verificación de direcciones y datos de localización para garantizar la precisión en la información geográfica de los residentes y sedes.</td>
             <td>
-                <strong>Escenario: Validación exitosa</strong><br>
+                <strong>Escenario 1: Validación exitosa</strong><br>
                 - <strong>Dado</strong> que se recibe un <code>POST</code> a <code>/api/v1/location/validate</code> con datos de dirección<br>
                 - <strong>Cuando</strong> la API llama a <strong>Google Maps Geocoding API</strong> y obtiene una coincidencia<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> incluyendo la dirección formateada, coordenadas (<code>lat</code>, <code>lng</code>) y nivel de confianza.<br><br>
-                <strong>Escenario: Dirección no encontrada</strong><br>
+                <strong>Escenario 2: Dirección no encontrada</strong><br>
                 - <strong>Dado</strong> que se recibe una dirección inválida o inexistente<br>
                 - <strong>Cuando</strong> la API no obtiene resultados desde Google Maps<br>
                 - <strong>Entonces</strong> la API responde con <code>422 Unprocessable Entity</code> indicando que la dirección no pudo ser validada.<br><br>
-                <strong>Escenario: Error de servicio externo</strong><br>
+                <strong>Escenario 3: Error de servicio externo</strong><br>
                 - <strong>Dado</strong> que la API de Google Maps no responde o excede la cuota<br>
                 - <strong>Cuando</strong> el backend intenta realizar la validación<br>
                 - <strong>Entonces</strong> la API responde con <code>502 Bad Gateway</code> o error equivalente, informando del fallo del servicio externo.
             </td>
         </tr>
         <tr>
-            <td>TS18</td>
+            <td>TS17</td>
             <td>Integración con Stripe (pagos)</td>
             <td>Como desarrollador backend en NovaPeru Tech quiero integrar Stripe para procesar pagos seguros (PaymentIntents, 3DS/SCA) y manejar webhooks para confirmar el estado de los cobros.</td>
             <td>
-                <strong>Escenario: Creación y confirmación de pago (cliente con tarjeta)</strong><br>
+                <strong>Escenario 1: Creación y confirmación de pago (cliente con tarjeta)</strong><br>
                 - <strong>Dado</strong> que se recibe <code>POST /api/v1/payments/create</code> con: <code>amount</code>, <code>currency</code>, <code>customerId</code> (opcional), <code>paymentMethodId</code> (o <code>paymentMethodType</code>)<br>
                 - <strong>Cuando</strong> el backend crea un <strong>PaymentIntent</strong> en Stripe y retorna el <code>clientSecret</code><br>
                 - <strong>Entonces</strong> la API responde <code>200 OK</code> con <code>{ paymentIntentId, clientSecret }</code> para que el frontend complete la confirmación y el pago pase por los pasos SCA si aplica.<br><br>
-                <strong>Escenario: Pago completado vía webhook</strong><br>
+                <strong>Escenario 2: Pago completado vía webhook</strong><br>
                 - <strong>Dado</strong> que Stripe envía un webhook <code>payment_intent.succeeded</code><br>
                 - <strong>Cuando</strong> el backend válida la firma del webhook y procesa el evento<br>
                 - <strong>Entonces</strong> la API marca el pago como <code>SUCCEEDED</code> en la base de datos, ejecuta post-procesos (facturación, notificación) y responde <code>200 OK</code> al webhook.<br><br>
-                <strong>Escenario: Pago rechazado / falla</strong><br>
+                <strong>Escenario 3: Pago rechazado / falla</strong><br>
                 - <strong>Dado</strong> que él <code>PaymentIntent</code> termina en <code>requires_payment_method</code> o <code>payment_failed</code><br>
                 - <strong>Cuando</strong> Stripe informa del fallo (o el intento es rechazado)<br>
                 - <strong>Entonces</strong> la API actualiza el estado a <code>FAILED</code> y devuelve <code>400</code> o registra el fallo para seguimiento; además notifica al cliente con el motivo.<br><br>
-                <strong>Escenario: Reembolso</strong><br>
+                <strong>Escenario 4: Reembolso</strong><br>
                 - <strong>Dado</strong> que se recibe <code>POST /api/v1/payments/{paymentIntentId}/refund</code> con <code>amount</code> (opcional)<br>
                 - <strong>Cuando</strong> el backend llama a la API de Stripe para crear un <code>Refund</code><br>
                 - <strong>Entonces</strong> la API responde <code>200 OK</code> con <code>refundId</code> y el estado <code>PENDING</code>/<code>SUCCEEDED</code>, y guarda auditoría del reembolso.<br><br>
-                <strong>Escenario: Idempotencia</strong><br>
+                <strong>Escenario 5: Idempotencia</strong><br>
                 - <strong>Dado</strong> que el cliente reintenta la creación de un pago y envía <code>Idempotency-Key</code><br>
                 - <strong>Cuando</strong> la API llama a Stripe con la misma <code>Idempotency-Key</code><br>
                 - <strong>Entonces</strong> Stripe evita duplicidad y la API responde con el mismo <code>paymentIntentId</code> o error consistente.
             </td>
         </tr>
         <tr>
-            <td>TS19</td>
+            <td>TS18</td>
             <td>Autenticación y 2FA (MFA)</td>
             <td>Como desarrollador backend en NovaPeru Tech quiero implementar un sistema de autenticación que soporte MFA (TOTP y SMS) para proteger accesos y cumplir con buenas prácticas de seguridad.</td>
             <td>
-                <strong>Escenario: Registro y habilitación de 2FA (TOTP)</strong><br>
+                <strong>Escenario 1: Registro y habilitación de 2FA (TOTP)</strong><br>
                 - <strong>Dado</strong> que se recibe <code>POST /api/v1/auth/register</code> con <code>email</code>, <code>password</code>, <code>fullname</code><br>
                 - <strong>Cuando</strong> el usuario completa el registro<br>
                 - <strong>Entonces</strong> la API responde <code>201 Created</code> con <code>userId</code> y estado <code>PENDING_VERIFICATION</code> (si aplica).<br>
                 - Y cuando el usuario solicita habilitar 2FA (TOTP) mediante <code>POST /api/v1/auth/2fa/enable</code> (autenticado)<br>
                 - <strong>Entonces</strong> la API genera un <code>secret</code> TOTP, devuelve un <code>otpauth://</code> URL o QR (para el cliente mostrarlo) y guarda el <code>secret</code> cifrado en DB hasta la verificación.<br><br>
-                <strong>Escenario: Verificar código TOTP</strong><br>
+                <strong>Escenario 2: Verificar código TOTP</strong><br>
                 - <strong>Dado</strong> que se recibe <code>POST /api/v1/auth/2fa/verify</code> con código TOTP<br>
                 - <strong>Cuando</strong> la API valida el TOTP contra el secret del usuario<br>
                 - <strong>Entonces</strong> la API activa MFA para la cuenta y devuelve <code>200 OK</code>.<br><br>
-                <strong>Escenario: Login con 2FA</strong><br>
+                <strong>Escenario 3: Login con 2FA</strong><br>
                 - <strong>Dado</strong> que se recibe <code>POST /api/v1/auth/login</code> con <code>email</code>, <code>password</code><br>
                 - <strong>Cuando</strong> las credenciales son correctas y el usuario tiene MFA habilitado<br>
                 - <strong>Entonces</strong> la API responde <code>200 OK</code> con <code>sessionId</code> temporal <code>AWAITING_2FA</code> y solicita el código MFA (TOTP o SMS).<br>
                 - Y cuando se recibe <code>POST /api/v1/auth/2fa/challenge</code> con el código válido<br>
                 - <strong>Entonces</strong> la API responde con <code>200 OK</code> y emite <code>accessToken</code> y <code>refreshToken</code>.<br><br>
-                <strong>Escenario: Login sin 2FA</strong><br>
+                <strong>Escenario 4: Login sin 2FA</strong><br>
                 - <strong>Dado</strong> que el usuario no tiene MFA habilitado<br>
                 - <strong>Cuando</strong> las credenciales son correctas<br>
                 - <strong>Entonces</strong> la API responde <code>200 OK</code> con <code>accessToken</code> y <code>refreshToken</code>.<br><br>
-                <strong>Escenario: Código inválido / bloqueo</strong><br>
+                <strong>Escenario 5: Código inválido / bloqueo</strong><br>
                 - <strong>Dado</strong> que se reciben múltiples códigos inválidos en <code>auth/2fa/challenge</code><br>
                 - <strong>Cuando</strong> se excede el límite de intentos (p. ej. 5)<br>
                 - <strong>Entonces</strong> la API bloquea temporalmente el acceso y responde <code>429 Too Many Requests</code> o <code>423 Locked</code>, y registra el evento de seguridad.<br><br>
-                <strong>Escenario: 2FA por SMS (fallback)</strong><br>
+                <strong>Escenario 6: 2FA por SMS (fallback)</strong><br>
                 - <strong>Dado</strong> que se solicita <code>POST /api/v1/auth/2fa/sms/send</code> (autenticado o en flujo de login)<br>
                 - <strong>Cuando</strong> el backend genera OTP temporal y lo envía vía proveedor SMS (Twilio)<br>
                 - <strong>Entonces</strong> la API responde <code>200 OK</code> y almacena hash del OTP con expiración corta.<br>
                 - Y cuando se verifica el OTP en <code>POST /api/v1/auth/2fa/sms/verify</code><br>
                 - <strong>Entonces</strong> la API auténtica al usuario y emite tokens si el código es correcto.<br><br>
-                <strong>Escenario: Recuperación / códigos de respaldo</strong><br>
+                <strong>Escenario 7: Recuperación / códigos de respaldo</strong><br>
                 - <strong>Dado</strong> que el usuario solicita <code>POST /api/v1/auth/2fa/backup-codes/generate</code><br>
                 - <strong>Cuando</strong> la API genera un conjunto de códigos de un solo uso y los muestra una vez al usuario<br>
                 - <strong>Entonces</strong> la API almacena hashes de los códigos y responde <code>200 OK</code> con instrucciones para guardarlos.
@@ -1285,87 +1336,57 @@
             <td></td>
         </tr>
         <tr>
-            <td>US45</td>
-            <td>Vinculación de banda de monitoreo</td>
-            <td>Como enfermero quiero vincular una banda médica al perfil de un residente para asegurar que los datos de signos vitales recolectados correspondan al paciente correcto.</td>
-            <td>
-                <strong>Escenario 1: Vinculación de dispositivo disponible</strong><br>
-                <strong>Dado que</strong> la banda médica está activa y sin asignación previa<br>
-                <strong>Cuando</strong> el enfermero asocia el identificador de la banda al perfil del residente<br>
-                <strong>Entonces</strong> el sistema confirma la vinculación y habilita la recepción de datos para ese paciente.<br><br>
-                <strong>Escenario 2: Banda ya asignada</strong><br>
-                <strong>Dado que</strong> se intenta vincular una banda que ya pertenece a otro residente<br>
-                <strong>Cuando</strong> el sistema verifica el estado del dispositivo<br>
-                <strong>Entonces</strong> se rechaza la operación informando el conflicto de asignación.
-            </td>
-        </tr>
-        <tr>
-            <td>US46</td>
-            <td>Validación de estabilidad de signos vitales</td>
-            <td>Como médico quiero que el sistema compare continuamente los datos de las bandas contra los parámetros de salud registrados ("health") para determinar si el residente se encuentra estable.</td>
-            <td>
-                <strong>Escenario 1: Signos vitales estables</strong><br>
-                <strong>Dado que</strong> el sistema recibe datos de la banda médica<br>
-                <strong>Cuando</strong> los valores recibidos coinciden con los rangos de salud registrados en el perfil del paciente<br>
-                <strong>Entonces</strong> el sistema registra el estado como "estable" sin generar incidencias.<br><br>
-                <strong>Escenario 2: Detección de inestabilidad</strong><br>
-                <strong>Dado que</strong> se reciben datos de signos vitales<br>
-                <strong>Cuando</strong> los valores difieren significativamente de los parámetros de salud registrados<br>
-                <strong>Entonces</strong> el sistema marca el registro como "inestable" e inicia el protocolo de notificación.
-            </td>
-        </tr>
-        <tr>
-            <td>US47</td>
-            <td>Alertas de inestabilidad de salud</td>
-            <td>Como enfermero quiero recibir una alerta inmediata cuando la comparación de datos indique inestabilidad en un residente para acudir a brindarle atención.</td>
-            <td>
-                <strong>Escenario 1: Notificación de inestabilidad confirmada</strong><br>
-                <strong>Dado que</strong> el sistema ha detectado inestabilidad al comparar los datos<br>
-                <strong>Cuando</strong> se confirma la desviación de los parámetros de salud<br>
-                <strong>Entonces</strong> se envía una alerta prioritaria al personal asignado indicando el residente y el valor crítico.<br><br>
-                <strong>Escenario 2: Ausencia de datos críticos</strong><br>
-                <strong>Dado que</strong> la comparación de datos resulta en valores estables<br>
-                <strong>Cuando</strong> el sistema finaliza el análisis<br>
-                <strong>Entonces</strong> no se emite ninguna alerta, manteniendo el flujo operativo normal.
-            </td>
-        </tr>
-        <tr>
             <td>TS-IOT01</td>
             <td>Ingesta de Datos de Bandas Médicas</td>
-            <td>Como desarrollador backend quiero implementar un endpoint para recibir la telemetría de las bandas médicas y persistirla para su posterior análisis.</td>
+            <td>Como desarrollador backend, quiero implementar un endpoint en el bounded context Tracking para recibir la telemetría enviada por las bandas médicas (por ejemplo, presión arterial, frecuencia cardiaca, saturación de oxígeno y temperatura) y persistirla como registros de Measurement, de modo que pueda ser utilizada posteriormente por Health y Analytics.</td>
             <td>
-                <strong>Escenario: Recepción de paquete de datos</strong><br>
-                - <strong>Dado</strong> que la banda envía un <code>POST /api/v1/iot/telemetry</code> con <code>{bandId, vitalsData, timestamp}</code><br>
-                - <strong>Cuando</strong> la API valida que la banda está vinculada a un residente activo<br>
-                - <strong>Entonces</strong> la API responde con <code>202 Accepted</code> y almacena los datos crudos.<br><br>
-                <strong>Escenario: Banda no reconocida</strong><br>
-                - <strong>Dado</strong> que llega información de un <code>bandId</code> no registrado<br>
-                - <strong>Entonces</strong> la API responde con <code>404 Not Found</code> o <code>403 Forbidden</code>.
+                <strong>Escenario 1: Recepción de paquete de datos válido</strong><br>
+                - <strong>Dado</strong> que existe una banda (device_id) vinculada a un residente en el sistema<br>
+                - <strong>Cuando</strong> la banda envía una solicitud POST /api/v1/measurements con un cuerpo parecido a:
+{"deviceId": "BAND-001", "residentId": 5, "systolic": 120, "diastolic": 80, "heartRate": 75, "oxygenSaturation": 97, "respiratoryRate": 16, "temperature": 36.8, "timestamp": "2025-11-10T09:30:00Z"}<br>
+                - <strong>Entonces</strong> la API valida los datos, responde con 202 Accepted y crea un registro Measurement con los campos correspondientes (device_id, resident_id, heart_rate, temperature, timestamp, etc.).<br><br>
+                <strong>Escenario 2: Banda no reconocida o no vinculada</strong><br>
+                - <strong>Dado</strong> que se recibe un POST /api/v1/measurements con un deviceId que no está registrado o no está vinculado a ningún residente activo<br>
+                - <strong>Cuando</strong> la API intenta procesar la solicitud<br>
+                - <strong>Entonces</strong> responde con 404 Not Found o 403 Forbidden, no persiste la medición y registra el incidente en los logs para auditoría.</code>.
             </td>
         </tr>
         <tr>
             <td>TS-IOT02</td>
             <td>Servicio de Comparación de Salud (Health Check)</td>
-            <td>Como desarrollador backend quiero implementar un servicio que compare los datos entrantes contra los registros de salud ("Health Records") del residente para disparar eventos de alerta si hay discrepancias.</td>
+            <td>Como desarrollador backend, quiero implementar un servicio que tome las mediciones almacenadas en el bounded context Tracking y las compare con los parámetros definidos en los Health Records del residente, para clasificar su estado (estable / inestable) y publicar eventos cuando se detecten patrones de riesgo.</td>
             <td>
-                <strong>Escenario: Comparación detecta inestabilidad</strong><br>
-                - <strong>Dado</strong> que ingresan nuevos signos vitales para un residente<br>
-                - <strong>Cuando</strong> el servicio recupera los rangos de salud configurados para ese residente específico y detecta que los nuevos datos están fuera de rango<br>
-                - <strong>Entonces</strong> el sistema genera un evento de dominio <code>PatientUnstableEvent</code> y dispara el servicio de notificaciones.<br><br>
-                <strong>Escenario: Datos dentro de rango (Estable)</strong><br>
-                - <strong>Dado</strong> que los datos entrantes están dentro de los límites configurados en el registro de salud<br>
-                - <strong>Cuando</strong> el servicio realiza la comparación<br>
-                - <strong>Entonces</strong> el sistema finaliza el proceso sin disparar eventos de alerta.
+                <strong>Escenario 1: Comparación detecta inestabilidad</strong><br>
+                - <strong>Dado</strong> que se ha registrado un nuevo Measurement con datos fuera de rango para un residente<br>
+                - <strong>Cuando</strong> el servicio de Health Check obtiene los límites configurados en el Health Record y detecta que, por ejemplo, la heart_rate o la oxygen_saturation exceden los umbrales permitidos<br>
+                - <strong>Entonces</strong> clasifica la medición como “inestable”, genera un evento de dominio (por ejemplo VitalSignsUnstableEvent) y lo publica para que el módulo de notificaciones envíe las alertas correspondientes.<br><br>
+                <strong>Escenario 2: Datos dentro de rango (Estable)</strong><br>
+                - <strong>Dado</strong> que una medición registrada contiene valores dentro de los rangos definidos en el Health Record<br>
+                - <strong>Cuando</strong> el servicio realiza la comparación de cada parámetro (systolic, diastolic, heart_rate, oxygen_saturation, temperature, etc.)<br>
+                - <strong>Entonces</strong> clasifica la medición como “estable”, registra el resultado y no se dispara ningún evento de alerta, aunque la medición queda disponible para análisis histórico en Analytics.
             </td>
         </tr>
     </table>
 
+<div style="page-break-after: always;"></div>
 
 ## 3.2. Impact Mapping
 
-<img src="../images/Impact_map.png" alt="Impact map 1" width="auto" height="auto"/>
+<p>
+  En el Impact Mapping del modelo de negocio digital para la gestión de casas de reposo, el equipo elaboró el mapa en UXPressia partiendo de un Business Goal principal que cumple los criterios SMART: “Mejorar la transparencia, eficiencia y confianza en la gestión de casas de reposo, alcanzando 500 residencias afiliadas y 10,000 familiares activos en el primer año de operación”. A partir de esta meta se incorporaron como Actors/Personas a los User Personas previamente definidos: Mauricio Sánchez (administrador de la residencia) y Carmen Morales (familiar cuidadora). Para cada uno se identificaron los Impacts esperados, es decir, cómo queremos que cambien su comportamiento para ayudar a lograr el objetivo: en el caso de Mauricio, la optimización de la gestión de residentes, personal y medicamentos, el mayor control de horarios, servicios y visitas y el cumplimiento de normas de seguridad y privacidad de datos de salud; en el caso de Carmen, el acceso en tiempo real al estado de salud e historial médico, la mayor confianza mediante comunicaciones y notificaciones y la tranquilidad por recibir recordatorios automáticos de citas y visitas.
+</p>
+
+<p>
+  A partir de estos impactos se definieron los Deliverables que el negocio digital debe ofrecer para provocar dichos cambios en el comportamiento de los actores. Entre ellos se encuentran el módulo de gestión de residentes y personal (tratamientos, recetas y roles), el inventario digital de medicamentos con alertas de stock bajo, la agenda centralizada de citas y visitas, el panel de control en tiempo real, la gestión de roles y permisos, la auditoría y encriptación de datos clínicos y los reportes de cumplimiento normativo. Para la familia se definieron el portal y app familiar con dashboard simplificado, el sistema de notificaciones push, SMS y correo, el módulo de mensajería segura, el calendario con recordatorios automáticos y las alertas configurables. Finalmente, en la columna de User Stories se detallaron historias en formato “Como [persona] deseo [acción] para [beneficio]” (por ejemplo, historias para registro de residentes, gestión de medicamentos, agenda de citas, notificaciones y seguimiento del bienestar emocional), que permiten trazar la ruta desde los objetivos de negocio hasta los features concretos del producto, asegurando la alineación entre Business Goals, Impacts, Deliverables y desarrollo de la solución.
+</p>
+
+<img src="../images/Impact_map.png" alt="Impact map 1" style="width: 90%; height: auto;">
+
+<div style="page-break-after: always;"></div>
 
 ## 3.3. Product Backlog
+
+En esta sección se presenta el Product Backlog priorizado, el cual contiene las Historias de Usuario y Technical Stories estimadas en Story Points. El orden de los elementos ha sido determinado por el valor que aportan al negocio, priorizando en las primeras iteraciones los elementos de la Landing Page y las funcionalidades core del sistema.
 
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -1415,9 +1436,50 @@
   <tr><td>42</td><td>US42</td><td>Diseño de formularios usables</td><td>Como usuaria, quiero formularios claros con validación, para completar información sin confusión ni errores.</td><td>3</td></tr>
   <tr><td>43</td><td>US43</td><td>Patrones de diseño coherentes</td><td>Como usuaria, quiero patrones de diseño similares en todas las pantallas, para predecir dónde encontrar funciones y cómo interactuar.</td><td>2</td></tr>
   <tr><td>44</td><td>US44</td><td>Manejo de errores comprensible</td><td>Como usuaria, quiero mensajes de error claros con pasos de solución, para resolver problemas sin frustración.</td><td>3</td></tr>
-  <tr><td>45</td><td>TS-RM001</td><td>Agregar pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para permitir que el administrador registre nuevos residentes con validaciones obligatorias y que se genere un ID único por residente.</td><td>3</td></tr> <tr><td>46</td><td>TS-RM002</td><td>Ver información detallada de los pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET que devuelva la información completa del residente para que el personal autorizado pueda consultar fácilmente el expediente.</td><td>3</td></tr> <tr><td>47</td><td>TS-RM003</td><td>Ver información detallada de todo los pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET para listar todos los residentes de un nursing home.</td><td>3</td></tr> <tr><td>48</td><td>TS-RM004</td><td>Eliminar paciente</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE que realice una eliminación controlada del residente.</td><td>3</td></tr> <tr><td>49</td><td>TS-RM-005</td><td>Actualizar información de los pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar campos del perfil del residente para que las modificaciones queden registradas y sean reversibles si es necesario.</td><td>3</td></tr> <tr><td>50</td><td>TS-I001</td><td>Eliminar medicamentos</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Delete para medicamentos para asegurar que el administrador de la casa de reposo pueda remover registros del inventario.</td><td>3</td></tr> <tr><td>51</td><td>TS-I002</td><td>Agregar medicamentos</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Post medicamentos para permitir que el administrador de la casa de reposo pueda agregar más medicamentos.</td><td>3</td></tr> <tr><td>52</td><td>TS-I003</td><td>Ver información de un medicamento</td><td>Como desarrollador backend en NovaPeru Tech quiero crear una función para ver la información del medicamento a través de una Api.</td><td>3</td></tr> <tr><td>53</td><td>TS-I004</td><td>Ver todo los medicamentos</td><td>Como desarrollador backend en NovaPeru Tech quiero crear un endpoint para listar todos los medicamentos de un nursing home.</td><td>3</td></tr> <tr><td>54</td><td>TS-I005</td><td>Actualizar información de medicamentos</td><td>Como desarrollador de backend en NovaPeru Tech quiero crear una función para actualizar la información para asegurar que el administrador de la casa de reposos pueda mantener actualizada la información de cada medicamento.</td><td>3</td></tr> <tr><td>55</td><td>TS-EM001</td><td>Agregar empleado</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que registre nuevos empleados.</td><td>3</td></tr> <tr><td>56</td><td>TS-EM002</td><td>Eliminar empleado</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE para que el administrador de la casa de reposo revoque persmisos.</td><td>3</td></tr> <tr><td>57</td><td>TS-EM003</td><td>Actualizar información del empleado</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar datos de empleado.</td><td>3</td></tr> <tr><td>58</td><td>TS-EM004</td><td>Ver información de un empleado</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET que muestre el perfil de un empleado para que el administrador pueda observar la información detallada del empleado.</td><td>3</td></tr> <tr><td>59</td><td>TS-EM005</td><td>Ver información de todo los empleados</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET que muestre el perfil de los empleados para que el administrador pueda observar cuantos empleados tiene.</td><td>3</td></tr> <tr><td>60</td><td>TS-NH001</td><td>Crear Nursing Home (Después del Registro)</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que cuando el administrador se registre pueda crear su casa de reposo.</td><td>3</td></tr> <tr><td>61</td><td>TS-NH002</td><td>Obtener casa de reposo para el administrador</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para que un administrador obtenga información de su casa de reposo asignada.</td><td>3</td></tr> <tr><td>62</td><td>TS-NH003</td><td>Obtener Nursing Home por ID</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener información de una casa de reposo específica.</td><td>3</td></tr> <tr><td>63</td><td>TS-NH004</td><td>Listar Nursing Homes</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para listar todas las casas de reposo a las que el usuario tiene acceso.</td><td>3</td></tr> <tr><td>64</td><td>TS-NH005</td><td>Actualizar Nursing Home</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint PUT/PATCH para actualizar información de una casa de reposo.</td><td>3</td></tr> <tr><td>65</td><td>TS-A001</td><td>Crear Actividad</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para crear actividades para los residentes de una casa de reposo específica.</td><td>3</td></tr> <tr><td>66</td><td>TS-A002</td><td>Listar Actividades</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para listar todas las actividades de una casa de reposo.</td><td>3</td></tr> <tr><td>67</td><td>TS-A003</td><td>Ver información de una Actividad</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para mostrar la información de una sola actividad de una casa de reposo.</td><td>3</td></tr> <tr><td>68</td><td>TS-A004</td><td>Eliminar una Actividad</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE para eliminar una actividad en una casa de reposo determinada.</td><td>3</td></tr> <tr><td>69</td><td>TS-A005</td><td>Inscribir Residente a Actividad</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para inscribir residentes en actividades.</td><td>3</td></tr> <tr><td>70</td><td>TS-ST001</td><td>Obtener Estadísticas Generales</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas generales de una casa de reposo.</td><td>3</td></tr> <tr><td>71</td><td>TS-ST002</td><td>Obtener Estadísticas de Inventario</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas del inventario de medicamentos.</td><td>3</td></tr> <tr><td>72</td><td>TS-ST003</td><td>Obtener Estadísticas de Residentes</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas de residentes.</td><td>3</td></tr> <tr><td>73</td><td>TS16</td><td>Consumir API de Google Maps</td><td>Como desarrollador backend en NovaPeru Tech quiero implementar un servicio de integración con Google Maps que proporcione verificación de direcciones y datos de localización para garantizar la precisión en la información geográfica de los residentes y sedes.</td><td>3</td></tr> <tr><td>74</td><td>TS18</td><td>Integración con Stripe (pagos)</td><td>Como desarrollador backend en NovaPeru Tech quiero integrar Stripe para procesar pagos seguros (PaymentIntents, 3DS/SCA) y manejar webhooks para confirmar el estado de los cobros.</td><td>3</td></tr> <tr><td>75</td><td>TS19</td><td>Autenticación y 2FA (MFA)</td><td>Como desarrollador backend en NovaPeru Tech quiero implementar un sistema de autenticación que soporte MFA (TOTP y SMS) para proteger accesos y cumplir con buenas prácticas de seguridad.</td><td>3</td></tr><tr><td>76</td><td>US45</td><td>Vinculación de banda de monitoreo</td><td>Como enfermero quiero vincular una banda médica al perfil de un residente para asegurar la recolección de datos correcta.</td><td>2</td></tr>
- <tr><td>77</td><td>US46</td><td>Validación de estabilidad de signos vitales</td><td>Como médico quiero que el sistema compare continuamente los datos de las bandas contra los parámetros de salud registrados.</td><td>5</td></tr>
- <tr><td>78</td><td>US47</td><td>Alertas de inestabilidad de salud</td><td>Como enfermero quiero recibir una alerta inmediata cuando la comparación de datos indique inestabilidad.</td><td>3</td></tr>
+<tr><td>45</td><td>US45</td><td>Vinculación de banda de monitoreo</td><td>Como enfermero quiero vincular una banda médica al perfil de un residente para asegurar la recolección de datos correcta.</td><td>2</td></tr>
+ <tr><td>46</td><td>US46</td><td>Validación de estabilidad de signos vitales</td><td>Como médico quiero que el sistema compare continuamente los datos de las bandas contra los parámetros de salud registrados.</td><td>3</td></tr>
+ <tr><td>47</td><td>US47</td><td>Alertas de inestabilidad de salud</td><td>Como enfermero quiero recibir una alerta inmediata cuando la comparación de datos indique inestabilidad.</td><td>3</td></tr>
+  <tr><td>48</td><td>TS-RM001</td><td>Agregar pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para permitir que el administrador registre nuevos residentes con validaciones obligatorias y que se genere un ID único por residente.</td><td>3</td></tr> 
+  <tr><td>49</td><td>TS-RM002</td><td>Ver información detallada de los pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET que devuelva la información completa del residente para que el personal autorizado pueda consultar fácilmente el expediente.</td><td>3</td></tr> 
+  <tr><td>50</td><td>TS-RM003</td><td>Ver información detallada de todo los pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint GET para listar todos los residentes de un nursing home.</td><td>3</td></tr> 
+  <tr><td>51</td><td>TS-RM004</td><td>Eliminar paciente</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE que realice una eliminación controlada del residente.</td><td>3</td></tr> 
+  <tr><td>52</td><td>TS-RM-005</td><td>Actualizar información de los pacientes</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar campos del perfil del residente para que las modificaciones queden registradas y sean reversibles si es necesario.</td><td>3</td></tr><tr><td>53</td><td>TS-I001</td><td>Eliminar medicamentos</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Delete para medicamentos para asegurar que el administrador de la casa de reposo pueda remover registros del inventario.</td><td>3</td></tr> 
+  <tr><td>54</td><td>TS-I002</td><td>Agregar medicamentos</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un EndPoint Post medicamentos para permitir que el administrador de la casa de reposo pueda agregar más medicamentos.</td><td>3</td></tr> 
+  <tr><td>55</td><td>TS-I003</td><td>Ver información de un medicamento</td><td>Como desarrollador backend en NovaPeru Tech quiero crear una función para ver la información del medicamento a través de una Api.</td><td>3</td></tr> 
+  <tr><td>56</td><td>TS-I004</td><td>Ver todo los medicamentos</td><td>Como desarrollador backend en NovaPeru Tech quiero crear un endpoint para listar todos los medicamentos de un nursing home.</td><td>3</td></tr> 
+  <tr><td>57</td><td>TS-I005</td><td>Actualizar información de medicamentos</td><td>Como desarrollador de backend en NovaPeru Tech quiero crear una función para actualizar la información para asegurar que el administrador de la casa de reposos pueda mantener actualizada la información de cada medicamento.</td><td>3</td></tr> 
+  <tr><td>58</td><td>TS-EM001</td><td>Agregar empleado</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que registre nuevos empleados.</td><td>3</td></tr> 
+  <tr><td>59</td><td>TS-EM002</td><td>Eliminar empleado</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE para que el administrador de la casa de reposo revoque persmisos.</td><td>3</td></tr> 
+  <tr><td>60</td><td>TS-EM003</td><td>Actualizar información del empleado</td><td>Como desarrollador backend en NovaPeru tech quiero crear un endpoint PATCH para actualizar datos de empleado.</td><td>3</td></tr> 
+  <tr><td>61</td><td>TS-EM004</td><td>Ver información de un empleado</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET que muestre el perfil de un empleado para que el administrador pueda observar la información detallada del empleado.</td><td>3</td></tr> 
+  <tr><td>62</td><td>TS-EM005</td><td>Ver información de todo los empleados</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET que muestre el perfil de los empleados para que el administrador pueda observar cuantos empleados tiene.</td><td>3</td></tr> 
+  <tr><td>63</td><td>TS-NH001</td><td>Crear Nursing Home (Después del Registro)</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para que cuando el administrador se registre pueda crear su casa de reposo.</td><td>3</td></tr> 
+  <tr><td>64</td><td>TS-NH002</td><td>Obtener casa de reposo para el administrador</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para que un administrador obtenga información de su casa de reposo asignada.</td><td>3</td></tr> 
+  <tr><td>65</td><td>TS-NH003</td><td>Obtener Nursing Home por ID</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener información de una casa de reposo específica.</td><td>3</td></tr> 
+  <tr><td>66</td><td>TS-NH004</td><td>Listar Nursing Homes</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para listar todas las casas de reposo a las que el usuario tiene acceso.</td><td>3</td></tr> 
+  <tr><td>67</td><td>TS-NH005</td><td>Actualizar Nursing Home</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint PUT/PATCH para actualizar información de una casa de reposo.</td><td>3</td></tr> 
+  <tr><td>68</td><td>TS-A001</td><td>Crear Actividad</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para crear actividades para los residentes de una casa de reposo específica.</td><td>3</td></tr> 
+  <tr><td>69</td><td>TS-A002</td><td>Listar Actividades</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para listar todas las actividades de una casa de reposo.</td><td>3</td></tr> 
+  <tr><td>70</td><td>TS-A003</td><td>Ver información de una Actividad</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para mostrar la información de una sola actividad de una casa de reposo.</td><td>3</td></tr> 
+  <tr><td>71</td><td>TS-A004</td><td>Eliminar una Actividad</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint DELETE para eliminar una actividad en una casa de reposo determinada.</td><td>3</td></tr> 
+  <tr><td>72</td><td>TS-A005</td><td>Inscribir Residente a Actividad</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint POST para inscribir residentes en actividades.</td><td>3</td></tr> 
+  <tr><td>73</td><td>TS-ST001</td><td>Obtener Estadísticas Generales</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas generales de una casa de reposo.</td><td>3</td></tr> 
+  <tr><td>74</td><td>TS-ST002</td><td>Obtener Estadísticas de Inventario</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas del inventario de medicamentos.</td><td>3</td></tr> 
+  <tr><td>75</td><td>TS-ST003</td><td>Obtener Estadísticas de Residentes</td><td>Como desarrollador backend en NovaPeru tech quiero implementar un endpoint GET para obtener estadísticas de residentes.</td><td>3</td></tr> 
+  <tr><td>76</td><td>TS16</td><td>Consumir API de Google Maps</td><td>Como desarrollador backend en NovaPeru Tech quiero implementar un servicio de integración con Google Maps que proporcione verificación de direcciones y datos de localización para garantizar la precisión en la información geográfica de los residentes y sedes.</td><td>3</td></tr> 
+  <tr><td>77</td><td>TS17</td><td>Integración con Stripe (pagos)</td><td>Como desarrollador backend en NovaPeru Tech quiero integrar Stripe para procesar pagos seguros (PaymentIntents, 3DS/SCA) y manejar webhooks para confirmar el estado de los cobros.</td><td>3</td></tr> 
+  <tr><td>78</td><td>TS18</td><td>Autenticación y 2FA (MFA)</td><td>Como desarrollador backend en NovaPeru Tech quiero implementar un sistema de autenticación que soporte MFA (TOTP y SMS) para proteger accesos y cumplir con buenas prácticas de seguridad.</td><td>3</td></tr>
  <tr><td>79</td><td>TS-IOT01</td><td>Ingesta de Datos de Bandas Médicas</td><td>Como desarrollador backend quiero implementar un endpoint para recibir la telemetría de las bandas.</td><td>3</td></tr>
- <tr><td>80</td><td>TS-IOT02</td><td>Servicio de Comparación de Salud (Health Check)</td><td>Como desarrollador backend quiero implementar un servicio que compare los datos entrantes contra los registros de salud.</td><td>5</td></tr>
+ <tr><td>80</td><td>TS-IOT02</td><td>Servicio de Comparación de Salud (Health Check)</td><td>Como desarrollador backend quiero implementar un servicio que compare los datos entrantes contra los registros de salud.</td><td>3</td></tr>
 </table>
+
+**Evidencia de Product Backlog en Jira:**
+
+A continuación, se muestra la gestión del backlog en la herramienta Jira Software, evidenciando la priorización y estimación de las historias.
+
+<div align="center">
+  <img src="../images/Product Backlog screenshot.jpg" alt="Evidence Product Backlog Jira" width="90%">
+  <p><em>Figura: Captura del Product Backlog en Jira Software.</em></p>
+</div>
+
+**Enlace al Product Backlog:** https://shorturl.at/QnPlW

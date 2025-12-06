@@ -1,4 +1,3 @@
-
 <html lang="es">
 <body>
   
@@ -158,6 +157,8 @@
     <strong>Ruta de referencia:</strong> <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
   </li>
 </ul>
+
+<div style="page-break-after: always;"></div>
 
 ### 5.1.2. Source Code Management
 
@@ -597,6 +598,8 @@ public class ResidentController {
     And the resident should not be registered
 </code></pre>
 
+<div style="page-break-after: always;"></div>
+
 ### 5.1.4. Software Deployment Configuration
 
   <p>
@@ -861,35 +864,54 @@ El Sprint Backlog 1 reúne las historias de usuario y tareas necesarias para imp
 
 Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
 
+<div align="center"> <img src="../images/sprint1-board.jpg" alt="Sprint 1 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
+A continuación, la estructura de la tabla de control de estado para el Sprint:
+
 | Sprint # | Sprint 1 |   |   |   |   |   |   |
 |---------|----------|---|---|---|---|---|---|
 | **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| US-001 | Menú de navegación | T001 | Definir estructura del menú | Definir la estructura del menú de navegación para la landing page. | 2h | [Asignado] | To-do |
-| US-001 | Menú de navegación | T002 | Implementar menú en HTML | Implementar el menú de navegación utilizando HTML. | 3h | [Asignado] | To-do |
-| US-001 | Menú de navegación | T003 | Estilos del menú | Aplicar estilos CSS al menú de navegación. | 2h | [Asignado] | To-do |
-| US-001 | Menú de navegación | T004 | Pruebas de navegación | Realizar pruebas de navegación del menú. | 2h | [Asignado] | To-do |
-| US-002 | Visualización de planes | T005 | Diseñar estructura de planes | Diseñar la estructura de la sección de planes. | 3h | [Asignado] | To-do |
-| US-002 | Visualización de planes | T006 | Implementar sección de planes | Implementar la sección de planes en la landing page. | 4h | [Asignado] | To-do |
-| US-002 | Visualización de planes | T007 | Pruebas de planes | Realizar pruebas de carga y visualización de los planes. | 2h | [Asignado] | To-do |
-| US-003 | Selección de plan en Landing Page | T008 | Diseñar formulario de confirmación | Diseñar el formulario de confirmación de selección de plan. | 3h | [Asignado] | To-do |
-| US-003 | Selección de plan en Landing Page | T009 | Implementar selección y confirmación | Implementar la lógica de selección y confirmación del plan. | 4h | [Asignado] | To-do |
-| US-003 | Selección de plan en Landing Page | T010 | Pruebas de validación | Realizar pruebas de validación del flujo de selección. | 2h | [Asignado] | To-do |
-| US-004 | Visualización de creadores | T011 | Definir información de creadores | Definir la información a mostrar de los creadores/equipo. | 2h | [Asignado] | To-do |
-| US-004 | Visualización de creadores | T012 | Implementar sección del equipo | Implementar la sección del equipo/creadores. | 3h | [Asignado] | To-do |
-| US-004 | Visualización de creadores | T013 | Pruebas de visualización | Realizar pruebas de visualización de la sección del equipo. | 2h | [Asignado] | To-do |
-| US-005 | Redes sociales | T014 | Implementar íconos de redes sociales | Implementar los íconos de redes sociales en la landing page. | 2h | [Asignado] | To-do |
-| US-005 | Redes sociales | T015 | Pruebas de enlaces sociales | Realizar pruebas de los enlaces hacia redes sociales. | 1h | [Asignado] | To-do |
-| US-006 | Formulario de contacto | T016 | Diseñar formulario de contacto | Diseñar el formulario de contacto. | 2h | [Asignado] | To-do |
-| US-006 | Formulario de contacto | T017 | Implementar formulario | Implementar el formulario de contacto en la landing page. | 3h | [Asignado] | To-do |
-| US-006 | Formulario de contacto | T018 | Pruebas de envío | Realizar pruebas de envío y funcionamiento del formulario. | 2h | [Asignado] | To-do |
-| US-007 | Cambio de idioma | T019 | Implementar botón de idioma | Implementar el botón o selector de cambio de idioma. | 3h | [Asignado] | To-do |
-| US-007 | Cambio de idioma | T020 | Definir textos traducidos | Definir y registrar los textos traducidos para los idiomas soportados. | 4h | [Asignado] | To-do |
-| US-007 | Cambio de idioma | T021 | Pruebas de funcionalidad | Realizar pruebas de funcionamiento del cambio de idioma. | 2h | [Asignado] | To-do |
+| US-001 | Menú de navegación | T001 | Definir estructura del menú | Definir la estructura del menú de navegación para la landing page. | 2h | Billy Ruiz | To-do |
+| US-001 | Menú de navegación | T002 | Implementar menú en HTML | Implementar el menú de navegación utilizando HTML. | 3h | Billy Ruiz | To-do |
+| US-001 | Menú de navegación | T003 | Estilos del menú | Aplicar estilos CSS al menú de navegación. | 2h | Billy Ruiz | To-do |
+| US-001 | Menú de navegación | T004 | Pruebas de navegación | Realizar pruebas de navegación del menú. | 2h | Billy Ruiz | To-do |
+| US-002 | Visualización de planes | T005 | Diseñar estructura de planes | Diseñar la estructura de la sección de planes. | 3h | Renato Calvo | To-do |
+| US-002 | Visualización de planes | T006 | Implementar sección de planes | Implementar la sección de planes en la landing page. | 4h | Renato Calvo | To-do |
+| US-002 | Visualización de planes | T007 | Pruebas de planes | Realizar pruebas de carga y visualización de los planes. | 2h | Renato Calvo | To-do |
+| US-003 | Selección de plan en Landing Page | T008 | Diseñar formulario de confirmación | Diseñar el formulario de confirmación de selección de plan. | 3h | Billy Ruiz | To-do |
+| US-003 | Selección de plan en Landing Page | T009 | Implementar selección y confirmación | Implementar la lógica de selección y confirmación del plan. | 4h | Billy Ruiz | To-do |
+| US-003 | Selección de plan en Landing Page | T010 | Pruebas de validación | Realizar pruebas de validación del flujo de selección. | 2h | Billy Ruiz | To-do |
+| US-004 | Visualización de creadores | T011 | Definir información de creadores | Definir la información a mostrar de los creadores/equipo. | 2h | Miguel Román | To-do |
+| US-004 | Visualización de creadores | T012 | Implementar sección del equipo | Implementar la sección del equipo/creadores. | 3h | Miguel Román | To-do |
+| US-004 | Visualización de creadores | T013 | Pruebas de visualización | Realizar pruebas de visualización de la sección del equipo. | 2h | Miguel Román | To-do |
+| US-005 | Redes sociales | T014 | Implementar íconos de redes sociales | Implementar los íconos de redes sociales en la landing page. | 2h | Oscar Armas | To-do |
+| US-005 | Redes sociales | T015 | Pruebas de enlaces sociales | Realizar pruebas de los enlaces hacia redes sociales. | 1h | Oscar Armas | To-do |
+| US-006 | Formulario de contacto | T016 | Diseñar formulario de contacto | Diseñar el formulario de contacto. | 2h | Ariana Ramirez | To-do |
+| US-006 | Formulario de contacto | T017 | Implementar formulario | Implementar el formulario de contacto en la landing page. | 3h | Ariana Ramirez | To-do |
+| US-006 | Formulario de contacto | T018 | Pruebas de envío | Realizar pruebas de envío y funcionamiento del formulario. | 2h | Ariana Ramirez | To-do |
+| US-007 | Cambio de idioma | T019 | Implementar botón de idioma | Implementar el botón o selector de cambio de idioma. | 3h | Billy Ruiz | To-do |
+| US-007 | Cambio de idioma | T020 | Definir textos traducidos | Definir y registrar los textos traducidos para los idiomas soportados. | 4h | Billy Ruiz | To-do |
+| US-007 | Cambio de idioma | T021 | Pruebas de funcionalidad | Realizar pruebas de funcionamiento del cambio de idioma. | 2h | Billy Ruiz | To-do |
 
 El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (To-do, In-Process, To-Review, Done). Durante las reuniones diarias (**Daily Scrum**), el equipo revisa el avance, actualiza el estado de las tareas y gestiona posibles bloqueos.
 
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+<p>
+  En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 1
+  en relación con el producto de la solución incluido en su alcance: la <strong>Landing Page</strong> pública de VEYRA.
+  A lo largo de este sprint se construyó la primera versión navegable del sitio, incluyendo las secciones
+  Home/Hero, Services, Features, About the App, Pricing, Testimonials, About the Team y Contact, con sus
+  estilos CSS y ajustes de responsividad.
+</p>
+
+<p>
+  La tabla siguiente resume los commits más relevantes realizados en el repositorio de la Landing Page,
+  indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio
+  introducido en la implementación.
+</p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -898,6 +920,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <th>Branch</th>
       <th>Commit Id</th>
       <th>Commit Message</th>
+      <th>Commit Message Body</th>
       <th>Committed on (Date)</th>
     </tr>
   </thead>
@@ -907,70 +930,83 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <td>main</td>
       <td>5499fe0fb5d24b7e18b29f76616d3751d1b05056</td>
       <td>Initial commit</td>
+      <td>Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias.</td>
       <td>10-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>741b864bf4d3adb5c285c2b57266cc2eef9aad35</td>
       <td>chore: add hero and home section</td>
+      <td>Implementa la sección Hero/Home con el mensaje principal de VEYRA y el llamado a la acción para los usuarios.</td>
       <td>12-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>84569edd53373a0dda20fae41a127d0a6573953f</td>
       <td>chore: add home and services section styling</td>
+      <td>Aplica estilos CSS a las secciones Home y Services, mejorando la disposición del contenido y la legibilidad.</td>
       <td>13-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>66d1d439ba86f7a9f2be00a27b65f59550b595f7</td>
       <td>feat(section): add features section with CSS</td>
+      <td>Agrega la sección de Features con estilos, mostrando las funcionalidades destacadas de la plataforma VEYRA.</td>
       <td>14-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>e3f8b84b35396c70673120464c4eebc57a843fd3</td>
       <td>chore: add features section</td>
+      <td>Refina el contenido y la estructura HTML de la sección de Features para resaltar mejor los beneficios del producto.</td>
       <td>15-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>cfe8b66050e1c25e4b62a06c413192ef09406a45</td>
       <td>chore: add about us section and benefits</td>
+      <td>Incorpora la sección About Us/About the App con los beneficios principales para los usuarios de casas de reposo.</td>
       <td>16-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>fe01ab208e248862dd8f260f18750bed27d0d528</td>
       <td>chore: add team section</td>
+      <td>Incluye la sección About the Team con información de los integrantes del equipo de desarrollo.</td>
       <td>17-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>f3da531e6de86e8d2737d29d0586d7947f8eb0e9</td>
       <td>feat(section): add pricing section with CSS</td>
+      <td>Crea la sección de Pricing con tarjetas de planes y estilos CSS para comunicar los niveles de servicio.</td>
       <td>18-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>ca8bf2e835f2ad94d068573c5fc7533e38c68f04</td>
       <td>chore: add hero section styling</td>
+      <td>Ajusta la apariencia de la sección Hero agregando estilos adicionales para mejorar el impacto visual.</td>
       <td>19-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>ea08eae9d315d89fa351c5abf6bfd4cda57fd278</td>
       <td>chore: add responsive styling improvements</td>
+      <td>Realiza mejoras de estilos responsivos para que la Landing Page se visualice correctamente en distintos tamaños de pantalla.</td>
       <td>20-09-2025</td>
     </tr>
     <tr>
       <td>main</td>
       <td>dcd349d3cb0a5f40146aac3fd9edf1684b39d308</td>
       <td>fix: update asset paths to include public directory</td>
+      <td>Corrige las rutas de los recursos estáticos (imágenes y otros assets) apuntando al directorio público para evitar errores 404 en despliegue.</td>
       <td>21-09-2025</td>
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 <p>
@@ -979,10 +1015,10 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   evidencias de ejecución mediante capturas de pantalla de las principales vistas.
 </p>
 
-<h5>Video de demostración de navegación:</h5>
+<h5>Video de demostración del Landing Page:</h5>
 <p>
-  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 1]<br>
-  <strong>Duración:</strong> [HH:MM:SS]
+  <strong>URL YouTube:</strong> [https://youtu.be/OhyEBPV4FuI]<br>
+  <strong>Duración:</strong> [00:04:32]
 </p>
 
 <h5>Capturas de las principales secciones:</h5>
@@ -1042,18 +1078,26 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a>
 </p>
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+<div style="page-break-after: always;"></div>
 
-<img src="../assets/img/chapter-V/overview-sprint1.png" alt="overview-sprint1">
-
-<img src="../assets/img/chapter-V/network-graph-sprint1.png" alt="network-graph-sprint1">
-
-<img src="../assets/img/chapter-V/visitors-sprint1.png" alt="visitors-sprint1">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 1, los analíticos de colaboración de GitHub muestran una participación activa y continua de todos los miembros del equipo sobre el repositorio de la Landing Page. En el panel de Overview se observa un flujo constante de commits distribuidos a lo largo de los días del sprint, lo que evidencia que las tareas de implementación de las distintas secciones (hero, servicios, planes, equipo, testimonios, contacto y footer) se desarrollaron de manera incremental y coordinada. Cada integrante realizó aportes directos al código, ya sea mediante la creación de nuevas secciones, ajustes de estilos responsivos o correcciones derivadas de las revisiones entre pares, asegurando así que el entregable del sprint se construyera de forma colaborativa y no centralizada en una sola persona.
+</p>
 
 ![overview-spring1.png](../assets/img/chapter-V/overview-spring1.png)
+<p>
+El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio. De este modo, la colaboración no solo se dio a nivel de cantidad de commits, sino también en la forma de trabajo estructurada y compatible con las prácticas ágiles del equipo.
+</p>
+
 ![network-graph-sprint1.png](../assets/img/chapter-V/network-graph-sprint1.png)
+
+<p>
+Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Landing Page, el repositorio comenzó a recibir visitas y visualizaciones, lo que sugiere interés progresivo en el producto por parte de stakeholders y del propio equipo durante las actividades de revisión y validación. En conjunto, estos analíticos de colaboración y actividad en GitHub demuestran que todos los integrantes tuvieron participación efectiva en la implementación del producto del Sprint (Landing Page) y sientan la base para replicar este mismo patrón de trabajo en los siguientes sprints, donde se abordarán la Web Application y los Web Services.
+</p>
+
 ![visitors-sprint1.png](../assets/img/chapter-V/visitors-sprint1.png)
 
 ### 5.2.2. Sprint 2
@@ -1202,6 +1246,12 @@ El siguiente Sprint Backlog presenta las historias de usuario y tareas planifica
 
 Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
 
+<div align="center"> <img src="../images/sprint2-board.jpg" alt="Sprint 2 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 2 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
+<div align="center"> <img src="../images/sprint2-board-2.jpg" alt="Sprint 2 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 2 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
 A continuación, la estructura de la tabla de control de estado para el Sprint:
 
 | Sprint # | Sprint 2 |   |   |   |   |   |   |
@@ -1349,8 +1399,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 <h5>Video de demostración de funcionalidad:</h5>
 <p>
-  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 2]<br>
-  <strong>Duración:</strong> [HH:MM:SS]
+  <strong>URL Youtube:</strong> https://youtu.be/CEzlIzeI3Cc <br>
+  <strong>Duración:</strong> [10:23:00]
 </p>
 
 <h5>Capturas de pantalla principales:</h5>
@@ -1458,34 +1508,34 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <td><code>204 No Content</code>: Indica la eliminación exitosa.</td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>http://localhost:8080/api/v1/employees</strong></td>
+      <td rowspan="5"><strong>http://localhost:8080/api/v1/staff</strong></td>
       <td><strong>GET</strong></td>
       <td>Obtener el listado completo de empleados.</td>
-      <td><code>GET /api/v1/employees</code></td>
+      <td><code>GET /api/v1/staff</code></td>
       <td><code>200 OK</code>: Retorna un array JSON con la lista de objetos Empleados.</td>
     </tr>
     <tr>
       <td><strong>GET</strong></td>
       <td>Obtener el detalle de un empleado por su ID.</td>
-      <td><code>GET /api/v1/employees/{id}</code> (Ej: <code>/api/v1/employees/789</code>)</td>
+      <td><code>GET /api/v1/staff/{id}</code> (Ej: <code>/api/v1/staff/789</code>)</td>
       <td><code>200 OK</code>: Retorna el objeto Empleado solicitado. <code>404 Not Found</code> si el ID no existe.</td>
     </tr>
     <tr>
       <td><strong>POST</strong></td>
       <td>Crear un nuevo empleado.</td>
-      <td><code>POST /api/v1/employees</code> (Requiere Objeto Empleado en el Body)</td>
+      <td><code>POST /api/v1/staff</code> (Requiere Objeto Empleado en el Body)</td>
       <td><code>201 Created</code>: Retorna el objeto Empleado creado, incluyendo el ID asignado.</td>
     </tr>
     <tr>
       <td><strong>PUT</strong></td>
       <td>Actualizar completamente un empleado.</td>
-      <td><code>PUT /api/v1/employees/{id}</code> (Requiere Objeto Empleado en el Body)</td>
+      <td><code>PUT /api/v1/staff/{id}</code> (Requiere Objeto Empleado en el Body)</td>
       <td><code>200 OK</code>: Retorna el objeto Empleado actualizado.</td>
     </tr>
     <tr>
       <td><strong>DELETE</strong></td>
       <td>Eliminar un empleado.</td>
-      <td><code>DELETE /api/v1/employees/{id}</code></td>
+      <td><code>DELETE /api/v1/staff/{id}</code></td>
       <td><code>204 No Content</code>: Indica la eliminación exitosa.</td>
     </tr>
   </tbody>
@@ -1500,32 +1550,65 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
+<p>
+Durante el Sprint 2, los analíticos de colaboración del repositorio NovaPeruTech-Frontend evidencian una participación constante de todos los integrantes del equipo sobre el código de la aplicación web VEYRA. A lo largo del sprint se registran commits frecuentes asociados a la implementación de los módulos de gestión de tareas, miembros y grupos, así como a la integración con los servicios REST del backend y a las mejoras visuales con Angular y Angular Material. Esta actividad distribuida confirma que la construcción de la Web Application se realizó de forma incremental, respetando las responsabilidades definidas en el Sprint 2 Goal y la matriz LACX (API Integration, Task UI, Members & Groups), y evitando la concentración del desarrollo en un solo miembro.
+</p>
+
 <img src="../images/overview-sprint2.jpg" alt="overview-sprint2">
+
+<p>
+El Network Graph correspondiente al Sprint 2 muestra un uso activo del flujo de trabajo basado en GitFlow, con ramas de características (features) creadas para la integración Frontend–Backend, la interfaz de gestión de tareas y los componentes de miembros y grupos, que luego son fusionadas a la rama principal tras las respectivas revisiones de código. Este patrón de ramas y merges refleja que los líderes de cada aspecto coordinaron el trabajo con sus colaboradores, alineados con las prácticas definidas para el proyecto (feature branches, revisiones colaborativas y consolidación en main/develop), reforzando la trazabilidad y la calidad del código entregado durante el sprint.
+</p>
 
 <img src="../images/network-graph-sprint2.jpg" alt="network-graph-sprint2">
 
-<img src="../images/visitors-sprint2.jpg" alt="visitors-sprint2">
+<p>
+Finalmente, el gráfico de Visitors del repositorio frontend muestra un incremento de visitas y vistas de página conforme se acercan las fechas de integración y despliegue del producto, lo que sugiere que el equipo utilizó activamente el repositorio como punto central para revisar avances, validar funcionalidades y preparar la Sprint Review. En conjunto, estos analíticos de overview, network graph y visitors demuestran que, durante el Sprint 2, todos los miembros del equipo participaron efectivamente en la implementación del producto web (Web Application) y en su integración con los Web Services, cumpliendo con el principio de que cada integrante contribuya a los distintos productos definidos en el proyecto (Landing Page, Web Applications, Web Services) según el alcance de cada sprint.
+</p>
 
+<img src="../images/visitors-sprint2.jpg" alt="visitors-sprint2">
 
 ### 5.2.3. Sprint 3
 
 <p>
-  Durante el Sprint 3, el equipo se enfocó en dos pilares críticos: la implementación de la capa de 
-  persistencia y lógica de negocio en el Backend utilizando Java Spring Boot y el despliegue del Frontend 
-  desarrollado previamente. Este sprint fue crucial para establecer la infraestructura de la aplicación 
-  VEYRA en un entorno de producción, sentando las bases para las pruebas de integración.
+  En esta sección se registra y explica el avance logrado durante el Sprint 3 tanto en
+  términos de producto como de trabajo colaborativo del equipo VEYRA. A lo largo de este
+  sprint se consolidó la primera versión operativa del entorno productivo: se implementó y
+  desplegó la capa de persistencia y lógica de negocio en el Backend con Java Spring Boot,
+  se conectó el Frontend Angular desarrollado en sprints previos y se habilitó la
+  documentación de servicios para soportar la Sprint Review.
 </p>
 
 <p>
-  <strong>Repositorio Frontend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a>
+  Las subsecciones que siguen detallan este avance desde diferentes ángulos: 
+  <strong>Sprint Planning 3</strong>, <strong>Aspect Leaders and Collaborators</strong>,
+  <strong>Sprint Backlog 3</strong>, <strong>Development Evidence for Sprint Review</strong>,
+  <strong>Execution Evidence for Sprint Review</strong>,
+  <strong>Services Documentation Evidence for Sprint Review</strong> y 
+  <strong>Team Collaboration Insights during Sprint</strong>, mostrando cómo cada integrante
+  contribuyó a los productos de la solución (Web Application y Web Services) y al
+  cumplimiento del objetivo del Sprint 3.
 </p>
 
 <p>
-  <strong>Repositorio Backend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</a>
+  <strong>Repositorio Frontend:</strong>
+  <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">
+    https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend
+  </a>
 </p>
 
 <p>
-  <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+  <strong>Repositorio Backend:</strong>
+  <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">
+    https://github.com/NovaPeru-Tech/NovaPeruTech-Backend
+  </a>
+</p>
+
+<p>
+  <strong>Backend API (Producción):</strong>
+  <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">
+    https://veyrav01.azurewebsites.net/swagger-ui/index.html#/
+  </a>
 </p>
 
 #### 5.2.3.1. Sprint Planning 3
@@ -1593,9 +1676,9 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 3 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-<em>Our focus is on providing a live VEYRA environment where authenticated users can sign up, log in, and manage core data through the deployed web application.</em><br><br>
-<em>We believe it delivers a realistic and reliable experience to Nursing Home Administrators and Family Members, allowing them to access VEYRA from anywhere and trust that their information is safely stored and available.</em><br><br>
-<em>This will be confirmed when the production URL is publicly accessible and at least one test administrator can register, log in, and perform basic CRUD operations on key entities (for example, residents and tasks) using the deployed frontend connected to the Azure-hosted backend.</em>
+<em>Our focus is on delivering a live VEYRA production environment where authenticated users can sign up, sign in, and manage core nursing-home data (residents, staff, rooms and medications) through the deployed web application connected to the backend.</em><br><br>
+<em>We believe it delivers a realistic, reliable and secure experience to Nursing Home Administrators and Family Members, allowing them to access updated information about residents’ care and activities from anywhere and at any time.</em><br><br>
+<em>This will be confirmed when the production URL is publicly accessible, at least one test administrator can register and log in, and can successfully perform end-to-end CRUD operations on key entities (for example residents, staff and medications) using the deployed frontend connected to the Azure-hosted backend during the Sprint Review.</em>
       </td>
     </tr>
     <tr>
@@ -1696,6 +1779,15 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 El Sprint Backlog 3 incluye las historias de usuario y tareas planificadas para el despliegue del frontend en **Vercel** y del backend en **Azure App Service**, con énfasis en la implementación de operaciones **CRUD** y el sistema de autenticación (login/registro).
 
 Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+
+<div align="center"> <img src="../images/sprint3-board.jpg" alt="Sprint 3 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 3 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
+<div align="center"> <img src="../images/sprint3-board-2.jpg" alt="Sprint 3 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 3 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
+
+<div align="center"> <img src="../images/sprint3-board-3.jpg" alt="Sprint 3 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 3 en Jira Software (Proyecto VEYRA)</em>
+</p> </div>
 
 A continuación, la tabla de control de estado para el Sprint 3:
 
@@ -1826,123 +1918,1111 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   el despliegue en Azure App Service con base de datos en Azure SQL Database.
 </p>
 
-<h5>Video de demostración del Backend:</h5>
-<p>
-  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 3]<br>
-  <strong>Duración:</strong> [HH:MM:SS]
-</p>
+<h5>Video de demostración de los Endpoints:</h5> <p> <strong>URL Microsoft Stream / YouTube:</strong> [Incluir URL del video de demostración del Sprint 3]<br> <strong>Duración:</strong> [HH:MM:SS] 
 
 <h5>Capturas de pantalla - Swagger UI del Backend:</h5>
 
-<p><strong>Swagger UI - Documentación de API:</strong></p>
-<img src="../images/swagger-ui-overview.jpg" alt="swagger-ui-overview">
+<p><strong>Endpoints de Medications:</strong></p>
+<img src="../images/swagger-medications-endpoints.jpg" alt="swagger-medications-endpoints">
 
-<p><strong>Endpoints de Residentes:</strong></p>
-<img src="../images/swagger-residents-endpoints.jpg" alt="swagger-residents-endpoints">
+<p><strong>Endpoints de Person profiles:</strong></p>
+<img src="../images/swagger-person-profiles-endpoints.jpg" alt="swagger-person-profiles-endpoints">
+
+<p><strong>Endpoints de Nursing Homes:</strong></p>
+<img src="../images/swagger-nursing-homes-endpoints.jpg" alt="swagger-nursing-homes-endpoints">
+
+<p><strong>Endpoints de Staff:</strong></p>
+<img src="../images/swagger-staff-endpoints.jpg" alt="swagger-staff-endpoints">
+
+<p><strong>Endpoints de Roles:</strong></p>
+<img src="../images/swagger-roles-endpoints.jpg" alt="swagger-roles-endpoints">
 
 <p><strong>Endpoints de Autenticación:</strong></p>
 <img src="../images/swagger-auth-endpoints.jpg" alt="swagger-auth-endpoints">
+
+<p><strong>Endpoints de Measurements:</strong></p>
+<img src="../images/swagger-measurements-endpoints.jpg" alt="swagger-measurements-endpoints">
+
+<p><strong>Endpoints de Activities:</strong></p>
+<img src="../images/swagger-activities-endpoints.jpg" alt="swagger-activities-endpoints">
+
+<p><strong>Endpoints de Business Profiles:</strong></p>
+<img src="../images/swagger-business-profiles-endpoints.jpg" alt="swagger-business-profiles-endpoints">
+
+<p><strong>Endpoints de Residentes:</strong></p>
+<img src="../images/swagger-residents-endpoints1.jpg" alt="swagger-residents-endpoints">
+
+<p><strong>Endpoints de Administrators:</strong></p>
+<img src="../images/swagger-administrators-endpoints.jpg" alt="swagger-administrators-endpoints">
+
+<p><strong>Endpoints de Users:</strong></p>
+<img src="../images/swagger-user-endpoints.jpg" alt="swagger-user-endpoints">
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 <p>
   Durante el Sprint 3, se implementó la capa de servicios REST del Backend de VEYRA, con documentación 
-  completa en Swagger/OpenAPI. Todos los endpoints están disponibles y documentados.
+  completa en Swagger/OpenAPI. Todos los endpoints están disponibles y descritos en el documento 
+  <code>/v3/api-docs</code> del entorno de producción de NovaPeruTech, incluyendo parámetros, códigos de
+  respuesta y modelos de datos.
+</p>
+
+<p>
+  La tabla siguiente resume los principales endpoints expuestos, organizados por recurso y operación, 
+  indicando el verbo HTTP, la acción implementada, la sintaxis de la llamada y el tipo de respuesta 
+  que devuelve el servicio.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>End Point Base</th>
+      <th>Método HTTP</th>
+      <th>Acción Implementada</th>
+      <th>Sintaxis de Llamada</th>
+      <th>Explicación del Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Medications -->
+    <tr>
+      <td><strong>/api/v1/medications</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener medicamento por ID.</td>
+      <td><code>GET /api/v1/medications/{medicationId}</code></td>
+      <td><code>200 OK</code>: Objeto <code>MedicationResource</code> con la información del medicamento.</td>
+    </tr>
+    <!-- Person Profiles -->
+    <tr>
+      <td rowspan="5"><strong>/api/v1/person-profiles</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener listado de perfiles de persona.</td>
+      <td><code>GET /api/v1/person-profiles</code></td>
+      <td><code>200 OK</code>: Array JSON de <code>PersonProfileResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener perfil de persona por ID.</td>
+      <td><code>GET /api/v1/person-profiles/{personProfileId}</code></td>
+      <td><code>200 OK</code>: Objeto <code>PersonProfileResource</code> o <code>404 Not Found</code> si no existe.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Crear un nuevo perfil de persona.</td>
+      <td><code>POST /api/v1/person-profiles</code></td>
+      <td><code>201 Created</code>: Objeto creado con sus datos normalizados.</td>
+    </tr>
+    <tr>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar un perfil de persona.</td>
+      <td><code>PUT /api/v1/person-profiles/{personProfileId}</code></td>
+      <td><code>200 OK</code>: Objeto actualizado o <code>404 Not Found</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>DELETE</strong></td>
+      <td>Eliminar un perfil de persona.</td>
+      <td><code>DELETE /api/v1/person-profiles/{personProfileId}</code></td>
+      <td><code>204 No Content</code>: Eliminación exitosa.</td>
+    </tr>
+    <!-- Nursing Homes (incluye staff, rooms, residents y analytics) -->
+    <tr>
+      <td rowspan="15"><strong>/api/v1/nursing-homes</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar todas las casas de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes</code></td>
+      <td><code>200 OK</code>: Array de <code>NursingHomeResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener casa de reposo por ID.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}</code></td>
+      <td><code>200 OK</code>: <code>NursingHomeResource</code> o <code>404 Not Found</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar staff de una casa de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/staff</code></td>
+      <td><code>200 OK</code>: Array de <code>StaffResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nuevo miembro de staff en una casa de reposo.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/staff</code></td>
+      <td><code>201 Created</code>: <code>StaffResource</code> creado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar habitaciones de una casa de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/rooms</code></td>
+      <td><code>200 OK</code>: Array de <code>RoomResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Agregar nueva habitación a una casa de reposo.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/rooms</code></td>
+      <td><code>201 Created</code>: <code>RoomResource</code> creada.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Asignar residente a una habitación.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/rooms/{residentId}</code></td>
+      <td><code>200 OK</code>: <code>AssignedRoomForResidentResource</code> con la asignación.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar habitaciones por estado.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/rooms/{roomStatus}</code></td>
+      <td><code>200 OK</code>: Array de habitaciones filtradas por estado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar residentes de una casa de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/residents</code></td>
+      <td><code>200 OK</code>: Array de <code>ResidentResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nuevo residente en una casa de reposo.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/residents</code></td>
+      <td><code>201 Created</code>: <code>ResidentResource</code> creado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener analíticas de terminaciones de staff.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/analytics/staff-terminations</code></td>
+      <td><code>200 OK</code>: Lista de <code>MetricResource</code> con estadísticas de terminaciones.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener analíticas de contrataciones de staff.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/analytics/staff-hires</code></td>
+      <td><code>200 OK</code>: Lista de métricas de contrataciones.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener analíticas de admisiones de residentes.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/analytics/residents-admissions</code></td>
+      <td><code>200 OK</code>: Lista de métricas de admisiones.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar actividades de una casa de reposo.</td>
+      <td><code>GET /api/v1/nursing-homes/{nursingHomeId}/activities</code></td>
+      <td><code>200 OK</code>: Array de <code>ActivityResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nueva actividad en una casa de reposo.</td>
+      <td><code>POST /api/v1/nursing-homes/{nursingHomeId}/activities</code></td>
+      <td><code>201 Created</code>: <code>ActivityResource</code> creada.</td>
+    </tr>
+    <!-- Staff -->
+    <tr>
+      <td rowspan="6"><strong>/api/v1/staff</strong></td>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar datos de un miembro del staff.</td>
+      <td><code>PUT /api/v1/staff/{staffMemberId}</code></td>
+      <td><code>200 OK</code>: <code>StaffResource</code> actualizado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar contratos de un miembro del staff.</td>
+      <td><code>GET /api/v1/staff/{staffMemberId}/contracts</code></td>
+      <td><code>200 OK</code>: Array de <code>ContractResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nuevo contrato para un miembro del staff.</td>
+      <td><code>POST /api/v1/staff/{staffMemberId}/contracts</code></td>
+      <td><code>201 Created</code>: <code>ContractResource</code> creado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener contrato específico por ID.</td>
+      <td><code>GET /api/v1/staff/{staffMemberId}/contracts/{contractId}</code></td>
+      <td><code>200 OK</code>: <code>ContractResource</code> o <code>404 Not Found</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>PATCH</strong></td>
+      <td>Actualizar estado de un contrato.</td>
+      <td><code>PATCH /api/v1/staff/{staffMemberId}/contracts/{contractId}</code></td>
+      <td><code>200 OK</code>: Contrato actualizado; <code>400</code> si la transición es inválida.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener contrato activo de un miembro del staff.</td>
+      <td><code>GET /api/v1/staff/{staffMemberId}/contracts/active</code></td>
+      <td><code>200 OK</code>: <code>ContractResource</code> activo o <code>404 Not Found</code>.</td>
+    </tr>
+    <!-- Roles -->
+    <tr>
+      <td><strong>/api/v1/roles</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar todos los roles del sistema.</td>
+      <td><code>GET /api/v1/roles</code></td>
+      <td><code>200 OK</code>: Array de <code>RoleResource</code>.</td>
+    </tr>
+    <!-- Authentication -->
+    <tr>
+      <td rowspan="2"><strong>/api/v1/authentication</strong></td>
+      <td><strong>POST</strong></td>
+      <td>Registro de nuevo usuario (sign-up).</td>
+      <td><code>POST /api/v1/authentication/sign-up</code></td>
+      <td><code>201 Created</code>: <code>AuthenticatedUserResource</code> con datos y token.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Inicio de sesión (sign-in).</td>
+      <td><code>POST /api/v1/authentication/sign-in</code></td>
+      <td><code>200 OK</code>: <code>AuthenticatedUserResource</code> con token JWT; <code>401 Unauthorized</code> en credenciales inválidas.</td>
+    </tr>
+    <!-- Measurements -->
+    <tr>
+      <td><strong>/api/v1/measurements</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener listado de mediciones registradas.</td>
+      <td><code>GET /api/v1/measurements</code></td>
+      <td><code>200 OK</code>: Array de <code>MeasurementResource</code> utilizado para monitoreo de salud.</td>
+    </tr>
+    <!-- Business Profiles -->
+    <tr>
+      <td rowspan="3"><strong>/api/v1/business-profiles</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar todos los perfiles de negocio.</td>
+      <td><code>GET /api/v1/business-profiles</code></td>
+      <td><code>200 OK</code>: Array de <code>BusinessProfileResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nuevo perfil de negocio.</td>
+      <td><code>POST /api/v1/business-profiles</code></td>
+      <td><code>201 Created</code>: <code>BusinessProfileResource</code> creado.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener perfil de negocio por ID.</td>
+      <td><code>GET /api/v1/business-profiles/{businessId}</code></td>
+      <td><code>200 OK</code>: Perfil de negocio o <code>404 Not Found</code>.</td>
+    </tr>
+    <!-- Residents (detalle, alergias, medicamentos) -->
+    <tr>
+      <td rowspan="7"><strong>/api/v1/residents</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Obtener residente por ID.</td>
+      <td><code>GET /api/v1/residents/{residentId}</code></td>
+      <td><code>200 OK</code>: <code>ResidentResource</code> o <code>404 Not Found</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>PUT</strong></td>
+      <td>Actualizar datos de un residente.</td>
+      <td><code>PUT /api/v1/residents/{residentId}</code></td>
+      <td><code>200 OK</code>: Residente actualizado.</td>
+    </tr>
+    <tr>
+      <td><strong>DELETE</strong></td>
+      <td>Eliminar residente.</td>
+      <td><code>DELETE /api/v1/residents/{residentId}</code></td>
+      <td><code>204 No Content</code>: Eliminación exitosa.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar alergias de un residente.</td>
+      <td><code>GET /api/v1/residents/{residentId}/allergies</code></td>
+      <td><code>200 OK</code>: Array de <code>AllergyResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar nueva alergia para un residente.</td>
+      <td><code>POST /api/v1/residents/{residentId}/allergies</code></td>
+      <td><code>201 Created</code>: <code>AllergyResource</code> creada.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Listar medicamentos asignados a un residente.</td>
+      <td><code>GET /api/v1/residents/{residentId}/medications</code></td>
+      <td><code>200 OK</code>: Array de <code>MedicationResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Registrar un nuevo medicamento para un residente.</td>
+      <td><code>POST /api/v1/residents/{residentId}/medications</code></td>
+      <td><code>201 Created</code>: Asociación residente–medicamento creada.</td>
+    </tr>
+    <!-- Administrators -->
+    <tr>
+      <td rowspan="2"><strong>/api/v1/administrators</strong></td>
+      <td><strong>POST</strong></td>
+      <td>Crear administrador del sistema.</td>
+      <td><code>POST /api/v1/administrators</code></td>
+      <td><code>201 Created</code>: <code>AdministratorResource</code> registrado.</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Crear casa de reposo asociada a un administrador.</td>
+      <td><code>POST /api/v1/administrators/{administratorId}/nursing-homes</code></td>
+      <td><code>201 Created</code>: <code>NursingHomeResource</code> vinculada al administrador.</td>
+    </tr>
+    <!-- Users -->
+    <tr>
+      <td rowspan="2"><strong>/api/v1/users</strong></td>
+      <td><strong>GET</strong></td>
+      <td>Listar todos los usuarios.</td>
+      <td><code>GET /api/v1/users</code></td>
+      <td><code>200 OK</code>: Array de <code>UserResource</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Obtener usuario por ID.</td>
+      <td><code>GET /api/v1/users/{userId}</code></td>
+      <td><code>200 OK</code>: <code>UserResource</code> o <code>404 Not Found</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  Adicionalmente, la especificación OpenAPI incluye los esquemas de datos utilizados por la API, tales como 
+  <code>StaffResource</code>, <code>ResidentResource</code>, <code>PersonProfileResource</code>, 
+  <code>AllergyResource</code>, <code>ContractResource</code>, <code>MedicationResource</code>, 
+  <code>RoomResource</code>, <code>ActivityResource</code>, <code>BusinessProfileResource</code>, 
+  <code>UserResource</code>, <code>AdministratorResource</code>, <code>NursingHomeResource</code>, 
+  <code>MetricResource</code>, <code>MeasurementResource</code>, <code>RoleResource</code>, 
+  <code>SignUpResource</code>, <code>SignInResource</code> y <code>AuthenticatedUserResource</code>, 
+  entre otros, que describen la estructura de los <em>request</em> y <em>response</em> intercambiados 
+  entre el Frontend y el Backend.
+</p>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<p>
+  Durante el Sprint 3 se consolidó el <em>deployment</em> de la solución VEYRA en entornos cloud,
+  abarcando la Web Application (Frontend Angular) y los Web Services (Backend con APIs REST y
+  documentación Swagger). Las actividades incluyeron la creación y configuración de proyectos
+  en Vercel y Azure App Service, la definición de variables de entorno para separar los
+  ambientes de desarrollo y producción, y la integración del flujo de despliegue continuo
+  basado en los repositorios de GitHub del equipo.
+</p>
+
+<p>
+  De esta manera, el producto quedó accesible desde una URL pública para los usuarios
+  administradores de casas de reposo y se habilitó, además, la documentación interactiva de
+  la API para facilitar las pruebas funcionales y la validación técnica durante la revisión
+  del Sprint.
+</p>
+
+---
+
+<h5>1) Despliegue de la Web Application (Frontend) en Vercel</h5>
+
+<p>
+  Para la Web Application se configuró un proyecto en Vercel enlazado al repositorio
+  <em>NovaPeruTech-Frontend</em>. Se definió el comando de build de Angular y la carpeta de
+  salida de artefactos (<code>dist</code>), y se registró la variable de entorno con la
+  <code>BASE_API_URL</code> apuntando al backend en producción. Con esto, cada vez que se
+  realiza un merge a la rama principal, Vercel ejecuta automáticamente el pipeline de
+  compilación y despliegue.
+</p>
+
+<p>
+  <strong>Frontend desplegado:</strong>
+  <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">
+    https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home
+  </a>
+</p>
+
+<div align="center">
+  <img src="../images/deployment-frontend-sprint3.png.jpg" alt="Panel de despliegue del Frontend en Vercel" width="90%">
+  <p><em>Figura: Panel de despliegue de la Web Application de VEYRA en Vercel.</em></p>
+</div>
+
+---
+
+<h5>2) Despliegue de los Web Services (Backend) en Azure App Service</h5>
+
+<p>
+  El backend de VEYRA se desplegó en Azure App Service utilizando el proyecto
+  <em>veyrav01</em>. Para ello se creó un recurso de App Service, se configuró el entorno de
+  ejecución de Spring Boot y se definieron las variables de entorno necesarias (cadena de
+  conexión a la base de datos, perfil <code>prod</code> y claves de seguridad). Azure se
+  integró con el repositorio <em>NovaPeruTech-BackEnd</em> para automatizar el despliegue
+  cada vez que se actualiza la rama principal.
+</p>
+
+<p>
+  <strong>Backend desplegado:</strong>
+  <a href="https://veyrav01.azurewebsites.net">
+    https://veyrav01.azurewebsites.net
+  </a>
+</p>
+
+<div align="center">
+  <img src="../images/deployment-backend-sprint3.jpg" alt="Panel de despliegue del Backend en Azure App Service" width="90%">
+  <p><em>Figura: Vista del recurso de Azure App Service con el backend VEYRA desplegado.</em></p>
+</div>
+
+---
+
+<h5>3) Publicación de la documentación de la API (Swagger UI)</h5>
+
+<p>
+  Como parte del proceso de deployment, se habilitó la documentación de los Web Services
+  mediante Swagger UI en el mismo App Service de Azure. Esto permite a los miembros del
+  equipo y a los stakeholders explorar todos los endpoints REST (creación, consulta,
+  actualización y eliminación de recursos como residentes, personal, casas de reposo,
+  actividades y métricas de salud), así como probarlos en tiempo real contra el entorno de
+  producción.
+</p>
+
+<p>
+  <strong>API Documentation (Swagger UI):</strong>
+  <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">
+    https://veyrav01.azurewebsites.net/swagger-ui/index.html
+  </a>
+</p>
+
+<div align="center">
+  <img src="../images/deployment-swagger-sprint3.jpg" alt="Swagger UI con la documentación de la API de VEYRA" width="90%">
+  <p><em>Figura: Documentación interactiva de los Web Services de VEYRA mediante Swagger UI.</em></p>
+</div>
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 3, los analíticos de colaboración de los repositorios NovaPeruTech-Frontend y NovaPeruTech-Backend evidencian una participación activa y distribuida de todos los integrantes del equipo sobre los dos productos principales del proyecto: la Web Application (Frontend) y los Web Services (Backend). El gráfico de Overview muestra un volumen sostenido de commits a lo largo del sprint, asociado a la implementación de la capa de persistencia, la lógica de negocio en Spring Boot y los ajustes finales de integración y despliegue del Frontend. Esto refleja que las tareas no se concentraron en una sola persona, sino que cada miembro asumió responsabilidades específicas (servicios, entidades, controladores, componentes de UI, integración con la API en producción) y realizó aportes continuos hasta completar el objetivo del sprint, alineado con el enfoque en Backend y despliegue descrito en la sección de Sprint 3.
+</p>
+
+<img src="../images/overview-sprint3.jpg" alt="overview-sprint3">
+
+<p>
+El Network Graph de ambos repositorios refuerza esta visión de trabajo colaborativo mediante la presencia de múltiples ramas de tipo feature/ que parten de develop o main y luego son fusionadas una vez completadas, siguiendo el GitFlow definido para el proyecto. Se observan ciclos de creación de ramas, desarrollo de funcionalidades (endpoints REST, servicios de negocio, integración del Frontend con la API de Azure) y merges controlados, lo que confirma que la coordinación entre líderes y colaboradores permitió avanzar en paralelo sin perder trazabilidad ni calidad del código.
+</p>
+
+<img src="../images/network-graph-sprint3.jpg" alt="network-graph-sprint3">
+
+<p>
+Finalmente, el gráfico de Visitors muestra actividad de consulta sobre los repositorios a medida que se acercan las fechas de pruebas e integración con el entorno de producción (https://veyrav01.azurewebsites.net/swagger-ui/index.html#/), indicando que el equipo utilizó GitHub como punto central para revisar avances, validar el comportamiento de la API desplegada y preparar la Sprint Review. En conjunto, estos analíticos de Overview, Network Graph y Visitors demuestran que, durante el Sprint 3, todos los miembros del equipo participaron efectivamente en la implementación y despliegue de los Web Services y la Web Application, cumpliendo con el principio establecido de involucrar a todos los integrantes en los productos clave del proyecto (Landing Page, Web Applications y Web Services) a lo largo de los sprints.
+</p>
+
+<img src="../images/contributors-sprint3.jpg" alt="contributors-sprint3">
+
+### 5.2.4. Sprint 4
+
+<p>
+Durante el Sprint 4, el equipo se enfocó en la estabilización final del producto (Release Candidate), priorizando la corrección de los errores de severidad alta detectados durante las entrevistas de validación y la evaluación heurística. Se realizaron optimizaciones de rendimiento en el Backend y se unificó la localización (idioma) en el Frontend para garantizar una experiencia de usuario consistente en el lanzamiento final.
+</p>
+
+<p>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend">https://github.com/NovaPeru-Tech/NovaPeruTech-Frontend</a>
+</p>
+
+<p>
+  <strong>Repositorio Backend:</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">https://github.com/NovaPeru-Tech/NovaPeruTech-Backend</a>
+</p>
+
+<p>
+  <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+</p>
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>04/12/2025</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>09:00 a.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Ruiz Madrid, Billy Jake</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Calvo Yalan, Renato Guillermo<br>
+        Armas Sánchez, Oscar Javier<br>
+        Ramirez Carrasco, Ariana Lizeth<br>
+        Roman Lopez, Miguel Angel Junior<br>
+        Ruiz Madrid, Billy Jake<br>
+        Quiroz Caceres, Adrian Alonso
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 3 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Se logró el despliegue exitoso del Backend en Azure y la integración base con el Frontend. 
+        Sin embargo, las pruebas de usuario revelaron inconsistencias críticas en el idioma (mezcla de inglés/español) 
+        y errores técnicos visibles ("Fetch Error") en el módulo de habitaciones que deben ser resueltos antes del lanzamiento.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 3 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        El equipo notó que la calidad del código UI bajó por la prisa del despliegue. Se acordó dedicar 
+        este último sprint exclusivamente a "Bug Fixing" y "Polishing" (pulido), deteniendo el desarrollo 
+        de nuevas funcionalidades complejas (Code Freeze).
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 4 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+      <em>Our focus is on delivering a polished, production-ready version of VEYRA by resolving all critical technical and usability issues identified during validation.</em><br><br>
+      <em>We believe it delivers a professional and trustworthy experience to our end users, eliminating confusion caused by technical errors or mixed languages in the interface.</em><br><br>
+      <em>This will be confirmed when the "Get entities" error is correctly handled, all UI labels are 100% in Spanish, and no Severity 3 or 4 issues remain open in the backlog.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 4 Velocity</td>
+      <td>31 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>31 SP (≈ 56 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+<p>
+  Para el Sprint 4 se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong>, 
+  donde se definen los roles de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) 
+  por aspecto clave del desarrollo.
+</p>
+
+<p>
+  Los aspectos clave se centran en el despliegue y la implementación del Backend, que son la prioridad 
+  de este sprint.
+</p>
+
+<ul>
+  <li><strong>DevOps & Deployment:</strong> Configuración de variables de entorno, pipeline CI/CD y 
+  monitoreo del frontend desplegado.</li>
+  <li><strong>Backend Core (CRUD Operations):</strong> Implementación de la arquitectura MVC/Capas para 
+  la gestión de datos (Java Spring Boot, JPA).</li>
+  <li><strong>Authentication & Security:</strong> Desarrollo de los endpoints de registro/login, JWT 
+  generation y configuración de seguridad.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspect: DevOps & Deploy</th>
+      <th>Aspect: Backend Core</th>
+      <th>Aspect: Auth & Security</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Armas Sánchez, Oscar Javier</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Calvo Yalan, Renato Guillermo</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ramirez Carrasco, Ariana Lizeth</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Roman Lopez, Miguel Angel Junior</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ruiz Madrid, Billy Jake</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Quiroz Caceres, Adrian Alonso</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+  Esta organización de roles garantiza que los aspectos críticos de despliegue y backend sean cubiertos 
+  con especialización, mientras se mantiene la flexibilidad para que todos colaboren según sea necesario.
+</p>
+
+### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal del Sprint 4 fue realizar actividades de hardening sobre VEYRA antes del despliegue final: corrección de bugs, ajustes de usabilidad y configuración de entorno de producción. En este Sprint se priorizaron refinamientos sobre las historias de usuario US07 (Cambio de idioma), US12 (Registro de residentes), US24 (Registro de medicamentos en inventario), US29 (Registro de personal) y US42 (Diseño de formularios usables) definidas en el Capítulo III, además de una tarea operacional de configuración de entorno.
+
+<div align="center"> <img src="../images/sprint4-board.png" alt="Sprint 4 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 4 en Jira Software (Proyecto VEYRA)</em>
+</p> </div> <p> <strong>URL del Board:</strong> <a href="https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog">https://ruizbilly320.atlassian.net/jira/software/projects/VEYRA/boards/34/backlog</a> </p> 
+
+<table border="1" cellpadding="4" cellspacing="0"> <thead> <tr> <th colspan="2">Sprint #</th> <th colspan="6">Sprint 4</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status (To-do / In-Process / To-Review / Done)</th> </tr> </thead> <tbody> <!-- US07 --> <tr> <td rowspan="2">US07</td> <td rowspan="2">Cambio de idioma</td> <td>T066</td> <td>Estandarizar etiquetas a español</td> <td>Reemplazar etiquetas hardcodeadas en inglés por claves i18n en español en formularios y navegación para garantizar que la Landing Page y el módulo web reflejen correctamente la historia US07.</td> <td>3h</td> <td>Ramirez Carrasco, Ariana</td> <td>Done</td> </tr> <tr> <td>T067</td> <td>Validar archivos de traducción</td> <td>Revisar los archivos de traducciones para asegurar que todas las vistas de la plataforma tengan textos consistentes en ambos idiomas y sin claves huérfanas.</td> <td>1h</td> <td>Ruiz Madrid, Billy</td> <td>Done</td> 
+</tr>
+<tr>
+  <td rowspan="2">US12</td>
+  <td rowspan="2">Registro de residentes</td>
+  <td>T068</td>
+  <td>Corregir ruta de lista de residentes</td>
+  <td>Ajustar la ruta y navegación de la vista de residentes para evitar errores al listar perfiles, garantizando que el flujo de registro y consulta de residentes funcione de extremo a extremo.</td>
+  <td>3h</td>
+  <td>Quiroz Caceres, Adrian</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T069</td>
+  <td>Implementar asignación de habitación</td>
+  <td>Incorporar la asignación de habitación en el flujo de registro del residente y mostrar el número de habitación en la lista, cerrando la brecha entre el registro de residentes y la gestión de habitaciones.</td>
+  <td>4h</td>
+  <td>Renato Cárdenas Yalan</td>
+  <td>Done</td>
+</tr>
+
+<!-- US24 -->
+<tr>
+  <td>US24</td>
+  <td>Registro de medicamentos en inventario</td>
+  <td>T070</td>
+  <td>Mejorar formulario de medicamentos</td>
+  <td>Refactorizar el formulario de medicamentos (layout y validaciones) para evitar registros con valores por defecto no deseados y mejorar la claridad de campos críticos como dosis, lote y fecha de vencimiento.</td>
+  <td>3h</td>
+  <td>Ramirez Carrasco, Ariana</td>
+  <td>Done</td>
+</tr>
+
+<!-- US42 -->
+<tr>
+  <td rowspan="2">US42</td>
+  <td rowspan="2">Diseño de formularios usables</td>
+  <td>T071</td>
+  <td>Implementar interceptor global de errores</td>
+  <td>Configurar un interceptor HTTP para centralizar el manejo de errores 4xx/5xx en los formularios principales (residentes, medicamentos y personal), evitando mensajes técnicos y mejorando la experiencia de usuario.</td>
+  <td>4h</td>
+  <td>Renato Cárdenas Yalan</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T072</td>
+  <td>Agregar notificaciones visuales</td>
+  <td>Integrar componentes de notificación (Toastr) para mostrar mensajes de éxito y error en la interacción con la aplicación web, alineados con los criterios de aceptación de formularios claros y manejables.</td>
+  <td>2h</td>
+  <td>Roman Lopez, Miguel</td>
+  <td>Done</td>
+</tr>
+
+<!-- US29 -->
+<tr>
+  <td>US29</td>
+  <td>Registro de personal</td>
+  <td>T073</td>
+  <td>Extender formulario de registro de administrador</td>
+  <td>Actualizar el formulario de registro para permitir la creación de cuentas de administrador de casa de reposo, diferenciando los flujos de alta para usuarios estándar y personal administrativo.</td>
+  <td>3h</td>
+  <td>Ruiz Madrid, Billy</td>
+  <td>Done</td>
+</tr>
+
+<!-- Task general de operación -->
+<tr>
+  <td>Task-OPS-01</td>
+  <td>Configuración de entorno de producción</td>
+  <td>T074</td>
+  <td>Actualizar base URL y endpoints</td>
+  <td>Actualizar la base URL del proveedor de plataforma y registrar el endpoint de administradores en los archivos de configuración de entorno para apuntar a la API de producción.</td>
+  <td>2h</td>
+  <td>Racso24k</td>
+  <td>Done</td>
+</tr>
+</tbody> 
+</table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante el Sprint 4, la actividad de desarrollo se enfocó en el hardening de VEYRA: estabilización de módulos existentes, corrección de bugs críticos y pulido de experiencia de usuario antes del despliegue final a producción. Los cambios priorizados se alinean principalmente con las historias de usuario orientadas a transparencia de información clínica (US08, US13, US14, US24–US28, US45–US47), gestión de residentes y personal (US12, US29–US32) y mejora de la experiencia de navegación y paneles de control (US37, US40–US42).
+
+A continuación, se muestran los commits más relevantes en los repositorios Frontend y Backend que evidencian este trabajo de estabilización y cierre del incremento funcional del producto:
+
+<table border="1" cellpadding="4" cellspacing="0"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Committed on (Date)</th> </tr> </thead> <tbody> <!-- FRONTEND --> <tr> <td rowspan="4">NovaPeruTech-Frontend</td> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): add analytics dashboard with responsive design and metrics visualization</td> <td>Se implementó el dashboard de analítica para el administrador de la casa de reposo con visualizaciones responsivas de métricas de residentes, personal e inventario, aportando evidencia directa de las historias de transparencia y control de gestión.</td> <td>30-11-2025</td> </tr> <tr> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): add lazy-loaded route for analytics dashboard</td> <td>Se configuró una ruta lazy-loaded para el módulo de Analytics, reduciendo el tiempo de carga inicial de la aplicación y alineándose con los objetivos de optimización del Sprint 4.</td> <td>30-11-2025</td> </tr> <tr> <td>feature/analytic</td> <td>[HASH]</td> <td>feat(analytics): clean up analytics dashboard by removing unused styles and components</td> <td>Se eliminó código muerto (estilos y componentes no utilizados) y se simplificó la estructura del dashboard, disminuyendo deuda técnica y mejorando mantenibilidad del módulo de reportes.</td> <td>01-12-2025</td> </tr> <tr> <td>feature/nursing</td> <td>[HASH]</td> <td>feat(nursing): enhance room form layout and styling</td> <td>Se refactorizó el formulario de habitaciones (layout, estilos y campos) para corregir problemas de usabilidad e inconsistencias visuales detectadas en validación, cerrando el bug crítico asociado al módulo de habitaciones.</td> <td>01-12-2025</td> 
+</tr>
+<tr>
+  <td rowspan="4">NovaPeruTech-BackEnd</td>
+  <td>feature/analytic</td>
+  <td>[HASH]</td>
+  <td>feat(analytics): implement resource, controller and assembler</td>
+  <td>Se implementaron recursos, controlador REST y ensambladores para exponer estadísticas generales, de residentes e inventario, permitiendo al frontend consumir métricas consolidadas desde el módulo de Analytics.</td>
+  <td>23-11-2025</td>
+</tr>
+<tr>
+  <td>feature/tracking</td>
+  <td>[HASH]</td>
+  <td>feat(tracking): add MeasurementResource, MeasurementResourceFromEntityAssembler, and MeasurementsController for REST API</td>
+  <td>Se expusieron endpoints REST para la lectura de mediciones, incluyendo recursos, ensambladores y controlador, habilitando el consumo de telemetría de salud y soporte a las historias de monitoreo y seguimiento (US45–US47).</td>
+  <td>23-11-2025</td>
+</tr>
+<tr>
+  <td>feature/health</td>
+  <td>[HASH]</td>
+  <td>feat(health): add aggregates for sign vitales and allergies</td>
+  <td>Se modelaron agregados de dominio para signos vitales y alergias, base del historial clínico estructurado del residente y del servicio de comparación de salud, fortaleciendo los requisitos de historial médico y seguimiento de estado (US08, US13, US46).</td>
+  <td>01-12-2025</td>
+</tr>
+<tr>
+  <td>feature/nursing</td>
+  <td>[HASH]</td>
+  <td>feat(nursing): implement resources and transforms</td>
+  <td>Se añadieron recursos y transformadores para residentes, familiares y asignación de habitaciones, integrando la lógica de negocio del módulo Nursing con las vistas del administrador y resolviendo inconsistencias identificadas en QA.</td>
+  <td>04-12-2025</td>
+</tr>
+</tbody> 
+</table>
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+<p>
+  Durante el Sprint 4, el equipo enfocó sus esfuerzos en la ampliación y documentación de los
+  servicios del Backend, incorporando endpoints para la gestión de pagos y suscripciones, así
+  como ajustes en los recursos de usuarios. Se añadieron y refinaron las operaciones de
+  <em>Payments</em>, <em>Subscriptions</em> y <em>Users</em> en la API REST, asegurando que
+  cada endpoint cuente con ejemplos de request/response claros y consistentes en Swagger UI.
+  A continuación se presentan capturas de los principales grupos de endpoints añadidos y
+  actualizados.
+</p>
+ 
+<h5>Video de demostración:</h5>
+<p>
+  <strong>URL YouTube:</strong> []<br>
+  <strong>Duración:</strong> [00:00:00]
+</p>
+
+<p>
+  A continuación se presentan las capturas del Swagger UI donde se evidencian los
+  endpoints implementados y ajustados durante el Sprint 4 para la gestión de
+  <strong>pagos</strong>, <strong>suscripciones</strong> y <strong>usuarios</strong>.  
+  Estos servicios forman parte del flujo de suscripción y cobranza de la plataforma.
+</p>
+
+<p><strong>Endpoints de Payments:</strong></p>
+<img src="../images/swagger-payments-endpoints.jpg" alt="swagger-payments-endpoints">
+<p>
+  En esta sección se documenta el endpoint
+  <code>GET /api/v1/payments/{paymentId}</code>, utilizado para
+  obtener el detalle de un pago específico por su identificador.
+  El response devuelve un objeto <code>PaymentResource</code> con información como
+  monto, moneda, estado y fecha de procesamiento, lo que permite trazar y auditar
+  transacciones individuales.
+</p>
+
+<p><strong>Endpoints de Subscriptions:</strong></p>
+<img src="../images/swagger-subscriptions-endpoints.jpg" alt="swagger-subscriptions-endpoints">
+<p>
+  Aquí se muestran los endpoints para gestionar los pagos asociados a una suscripción:
+  <code>GET /api/v1/subscriptions/{subscriptionId}/payments</code> para listar todos los
+  pagos de una suscripción, y
+  <code>POST /api/v1/subscriptions/{subscriptionId}/payments</code> para procesar un nuevo
+  pago. Ambos endpoints incluyen parámetros de ruta para el
+  <code>subscriptionId</code> y devuelven respuestas tipadas que permiten al frontend
+  mostrar el historial de pagos o registrar nuevos cobros de forma consistente.
+</p>
+
+<p><strong>Endpoints de Users actualizados:</strong></p>
+<img src="../images/swagger-user1-endpoints.jpg" alt="swagger-user1-endpoints">
+<p>
+  Esta captura resume los endpoints disponibles para la gestión de usuarios y sus
+  suscripciones. Entre ellos se encuentran:
+  <code>GET /api/v1/users</code> (listado de usuarios),
+  <code>GET /api/v1/users/{userId}</code> (detalle de usuario),
+  así como operaciones sobre suscripciones:
+  <code>GET /api/v1/users/{userId}/subscriptions</code> para obtener todas las
+  suscripciones de un usuario,
+  <code>POST /api/v1/users/{userId}/subscriptions</code> para crear una nueva,
+  <code>PUT /api/v1/users/{userId}/subscriptions/{subscriptionId}</code> para
+  actualizarla,
+  <code>POST /api/v1/users/{userId}/subscriptions/{subscriptionId}/cancel</code> para
+  cancelarla y
+  <code>GET /api/v1/users/{userId}/subscriptions/active</code> para recuperar la
+  suscripción activa.  
+  Estos endpoints consolidan el ciclo de vida de la suscripción desde la perspectiva
+  del usuario final.
+</p>
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+<p>
+  Durante el Sprint 4, el foco en Servicios se centró en extender y documentar los
+  endpoints relacionados con el ciclo de facturación de VEYRA: pagos individuales,
+  suscripciones y la gestión de suscripciones por usuario. Se actualizaron las
+  definiciones OpenAPI en Swagger, asegurando descripciones consistentes, ejemplos
+  de request/response y mensajes de error claros para los recursos
+  <strong>Payments</strong>, <strong>Subscriptions</strong> y <strong>Users</strong>.
+  De esta forma, el frontend puede consultar y administrar el estado de las
+  suscripciones y sus pagos de manera confiable.
+</p>
+
+<p>
+  La siguiente tabla resume los principales endpoints documentados o ajustados
+  durante este Sprint, detallando las acciones soportadas, el verbo HTTP,
+  la sintaxis de llamada y ejemplos de request/response utilizando la
+  documentación generada por Swagger UI.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
       <th>Endpoint</th>
-      <th>Método HTTP</th>
-      <th>Descripción</th>
+      <th>HTTP Verb</th>
+      <th>Acción / Funcionalidad</th>
+      <th>Parámetros y Ejemplo de Request</th>
+      <th>Ejemplo y Explicación de Response</th>
+      <th>Link a Documentación</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>/api/v1/residents</td>
+      <td>/api/v1/payments/{paymentId}</td>
       <td>GET</td>
-      <td>Obtener listado de todos los residentes</td>
+      <td>Obtener el detalle de un pago por su identificador.</td>
+      <td>
+        Path param:<br>
+        <code>paymentId: 120</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/payments/120</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 120, "amount": 49.90, "currency": "USD", "status": "COMPLETED", "processedAt": "2025-11-10T09:30:00Z" }</code><br>
+        Devuelve la información detallada del pago, permitiendo trazar y auditar
+        una transacción específica.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Payments">
+          Swagger – Payments
+        </a>
+      </td>
     </tr>
     <tr>
-      <td>/api/v1/residents/{id}</td>
+      <td>/api/v1/subscriptions/{subscriptionId}/payments</td>
       <td>GET</td>
-      <td>Obtener detalle de un residente específico</td>
+      <td>Listar todos los pagos asociados a una suscripción.</td>
+      <td>
+        Path param:<br>
+        <code>subscriptionId: 10</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/subscriptions/10/payments</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>[{ "id": 120, "amount": 49.90, "status": "COMPLETED" }, ...]</code><br>
+        Devuelve el historial de pagos de una suscripción, útil para mostrar en el
+        panel de administración o para conciliación.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+          Swagger – Subscriptions
+        </a>
+      </td>
     </tr>
     <tr>
-      <td>/api/v1/residents</td>
+      <td>/api/v1/subscriptions/{subscriptionId}/payments</td>
       <td>POST</td>
-      <td>Crear un nuevo residente</td>
+      <td>Procesar un nuevo pago para una suscripción.</td>
+      <td>
+        Path param:<br>
+        <code>subscriptionId: 10</code><br>
+        Body (JSON):<br>
+        <code>{ "amount": 49.90, "currency": "USD", "paymentMethod": "CARD" }</code>
+      </td>
+      <td>
+        <code>201 Created</code><br>
+        <code>{ "id": 121, "amount": 49.90, "status": "PENDING", "subscriptionId": 10 }</code><br>
+        Registra un nuevo pago y devuelve el recurso creado, que luego será
+        actualizado cuando el procesador de pagos confirme la transacción.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+          Swagger – Subscriptions
+        </a>
+      </td>
     </tr>
     <tr>
-      <td>/api/v1/residents/{id}</td>
+      <td>/api/v1/users/{userId}/subscriptions</td>
+      <td>GET</td>
+      <td>Obtener todas las suscripciones de un usuario.</td>
+      <td>
+        Path param:<br>
+        <code>userId: 5</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/users/5/subscriptions</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>[{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }, ...]</code><br>
+        Permite conocer el historial de suscripciones de un usuario y su estado actual.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions/{subscriptionId}</td>
       <td>PUT</td>
-      <td>Actualizar información de un residente</td>
+      <td>Actualizar los datos de una suscripción de usuario.</td>
+      <td>
+        Path params:<br>
+        <code>userId: 5</code>, <code>subscriptionId: 10</code><br>
+        Body (JSON):<br>
+        <code>{ "plan": "PREMIUM", "status": "ACTIVE" }</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "PREMIUM", "status": "ACTIVE" }</code><br>
+        Devuelve la suscripción actualizada, reflejando cambios de plan o estado
+        para el usuario.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
     </tr>
     <tr>
-      <td>/api/v1/residents/{id}</td>
-      <td>DELETE</td>
-      <td>Eliminar un residente</td>
+      <td>/api/v1/users/{userId}/subscriptions/{subscriptionId}/cancel</td>
+      <td>POST</td>
+      <td>Cancelar una suscripción de un usuario.</td>
+      <td>
+        Path params:<br>
+        <code>userId: 5</code>, <code>subscriptionId: 10</code><br>
+        Ejemplo:<br>
+        <code>POST /api/v1/users/5/subscriptions/10/cancel</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "STANDARD", "status": "CANCELLED" }</code><br>
+        Cambia el estado de la suscripción a <code>CANCELLED</code> y la excluye
+        de futuros ciclos de cobro.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
     </tr>
     <tr>
-      <td>/api/v1/medications</td>
+      <td>/api/v1/users/{userId}/subscriptions/active</td>
       <td>GET</td>
-      <td>Obtener listado de medicamentos</td>
-    </tr>
-    <tr>
-      <td>/api/v1/medications</td>
-      <td>POST</td>
-      <td>Crear un nuevo medicamento</td>
-    </tr>
-    <tr>
-      <td>/api/v1/employees</td>
-      <td>GET</td>
-      <td>Obtener listado de empleados</td>
-    </tr>
-    <tr>
-      <td>/api/v1/employees</td>
-      <td>POST</td>
-      <td>Crear un nuevo empleado</td>
-    </tr>
-    <tr>
-      <td>/api/auth/register</td>
-      <td>POST</td>
-      <td>Registrar nuevo usuario</td>
-    </tr>
-    <tr>
-      <td>/api/auth/login</td>
-      <td>POST</td>
-      <td>Autenticación y generación de JWT token</td>
-    </tr>
-    <tr>
-      <td>/swagger-ui.html</td>
-      <td>GET</td>
-      <td>Documentación interactiva de API</td>
+      <td>Obtener la suscripción activa de un usuario.</td>
+      <td>
+        Path param:<br>
+        <code>userId: 5</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/users/5/subscriptions/active</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }</code><br>
+        Devuelve la suscripción que actualmente se encuentra activa para el usuario,
+        información clave para controlar acceso a funcionalidades premium.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
     </tr>
   </tbody>
 </table>
 
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
 <p>
-  <strong>Frontend Desplegado:</strong> <a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a>
+  Adicionalmente, se ajustaron descripciones, códigos de respuesta y ejemplos
+  en los recursos relacionados, garantizando que la documentación de la API de
+  facturación sea consistente y pueda ser consumida fácilmente por otros
+  equipos (frontend, integraciones externas, QA).
 </p>
 
 <p>
-  <strong>Backend Desplegado:</strong> <a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a>
+  <strong>Repositorio Web Services (Backend):</strong>
+  <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">
+    https://github.com/NovaPeru-Tech/NovaPeruTech-Backend
+  </a>
 </p>
 
 <p>
-  <strong>API Documentation (Swagger UI):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a>
+  Los cambios de documentación de este Sprint se agrupan en commits etiquetados
+  como <code>feat(payments-docs)</code> y <code>feat(subscriptions-docs)</code>, donde
+  se actualizó el archivo OpenAPI y se sincronizaron los modelos de respuesta
+  con las entidades de dominio (Payments, Subscriptions y Users).
 </p>
 
-#### 5.2.3.8. Team Collaboration Insights during Sprint
+<p><strong>Capturas de interacción con la documentación (Swagger UI):</strong></p>
 
-<img src="../images/overview-sprint3.jpg" alt="overview-sprint3">
+<p><em>Swagger UI – Endpoints de Payments:</em></p>
+<img src="../images/swagger-payments-endpoints.jpg" alt="swagger-payments-endpoints">
 
-<img src="../images/network-graph-sprint3.jpg" alt="network-graph-sprint3">
+<p><em>Swagger UI – Endpoints de Subscriptions:</em></p>
+<img src="../images/swagger-subscriptions-endpoints.jpg" alt="swagger-subscriptions-endpoints">
 
-<img src="../images/contributors-sprint3.jpg" alt="contributors-sprint3">
+<p><em>Swagger UI – Endpoints de Users y suscripciones de usuario:</em></p>
+<img src="../images/swagger-user1-endpoints.jpg" alt="swagger-user1-endpoints">
+
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+<p> En el Sprint 4, las actividades de Deployment se centraron en mantener estable el entorno productivo de VEYRA mientras se aplicaban correcciones de errores y mejoras de usabilidad. Se realizaron despliegues incrementales tanto del Frontend (Vercel) como del Backend (Azure App Service), verificando que las nuevas versiones solucionaran los problemas reportados sin introducir regresiones. </p> <p> Las principales acciones de Deployment realizadas fueron: </p> <ul> <li>Actualización del Frontend Angular en Vercel con textos unificados al español y manejo de errores mejorado.</li> <li>Redeployment del Backend en Azure App Service luego de corregir mensajes de error y validar los endpoints críticos.</li> <li>Verificación de conectividad entre Frontend y Backend en el entorno productivo, confirmando que las llamadas a los servicios ya no generan <em>Fetch Error</em>.</li> <li>Pruebas de smoke (login, navegación, CRUD básico de residentes y habitaciones) después de cada despliegue.</li> </ul> <p><strong>URLs de despliegue utilizados en la Sprint Review:</strong></p> <ul> <li> <strong>Frontend Web Application (Producción):</strong><br> <a href="[URL Frontend en Vercel Sprint 4]">[URL Frontend en Vercel Sprint 4]</a> </li> <li> <strong>Backend API (Producción – Azure App Service):</strong><br> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/"> https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ </a> </li> </ul> 
+<p><strong>Capturas del proceso de despliegue:</strong></p> 
+<p><em>Haga clic en el botón para iniciar la configuración del nuevo proyecto:</em></p> 
+<img src="../images/Captura de pantalla 1.png" alt="Historial de despliegues Vercel Sprint 4"> 
+<p><em>En la interfaz de configuración, seleccione la opción para conectar o vincular su repositorio de GitHub. Será dirigido a la autenticación de GitHub. Una vez autorizado, deberá seleccionar el repositorio específico que contiene el código fuente del frontend.</em></p> 
+<img src="../images/Captura de pantalla 2.png" alt="Azure App Service Sprint 4"> 
+<p><em>Tómese un momento para verificar el resumen de la configuración en la pantalla de revisión final para confirmar que los datos de GitHub y los parámetros sean correctos.</em></p> 
+<img src="../images/Captura de pantalla 3.png" alt="Frontend conectado al Backend sin errores Sprint 4">
+<p><em>La plataforma comenzará el proceso de construcción y despliegue. Una vez que el proceso se complete exitosamente, la aplicación de frontend estará desplegada y lista para ser accesible a través de la URL proporcionada.</em></p> 
+<img src="../images/Captura de pantalla 4.png" alt="Frontend conectado al Backend sin errores Sprint 4">
+<p><em>Al ingresar a esta URL completa, obtendremos la vista de la documentación de Swagger, lo que nos permite verificar que el backend está activo, funcional y listo para recibir peticiones a sus endpoints.</em></p> 
+<img src="../images/Captura de pantalla 5.png" alt="Frontend conectado al Backend sin errores Sprint 4">
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+<p> Durante el Sprint 4, el equipo adoptó explícitamente una estrategia de <em>Bug Fixing &amp; Polishing Sprint</em>, deteniendo el desarrollo de nuevas funcionalidades complejas (<em>code freeze</em>) para concentrarse en estabilidad, correcciones y pulido visual. Esto se reflejó en la colaboración: los commits se orientaron a refactors pequeños, ajustes de UI, manejo de errores y mejoras en documentación. </p> <p> A nivel de coordinación, las reuniones de <em>Daily Scrum</em> se utilizaron para priorizar los bugs abiertos en Jira, revisar el estado de los errores de severidad 3 y 4, y decidir qué issues debían resolverse antes del corte de Sprint. Además, se reforzó el rol de <em>Quality Keeper</em> para revisar <em>pull requests</em> críticos y asegurar que las correcciones no introdujeran regresiones. </p> <p><strong>Evidencia de colaboración en GitHub:</strong></p> <ul> <li>Commits de corrección de errores y mejoras de UI distribuidos entre todos los miembros del equipo.</li> <li>Pull requests revisados por al menos un compañero antes de integración a la rama principal.</li> <li>Actividad concentrada en las ramas principales de Frontend y Backend durante la primera semana de diciembre.</li> </ul> <p><em>GitHub Insights – Commits por día durante el Sprint 4:</em></p> <img src="../images/imagecommitbackeed.png" alt="GitHub commits Sprint 4">  <img src="../images/imagecommitfronted.png" alt="GitHub commits Sprint 4"> <p><em>GitHub Network Graph – Flujo de ramas y fusiones durante el Sprint 4:</em></p> 
+<img src="../images/networkgrafich-1.png" alt="GitHub network Sprint 4"> 
+<img src="../images/networkgrafich-2.png" alt="GitHub network Sprint 4"> 
+<img src="../images/networkgrafich-3.png" alt="GitHub network Sprint 4"> 
+<img src="../images/networkgrafich-4.png" alt="GitHub network Sprint 4"> 
+<img src="../images/networkgrafich-5.png" alt="GitHub network Sprint 4"> 
+<p> En conjunto, estas evidencias muestran que todos los integrantes participaron en la estabilización de VEYRA y que la colaboración se orientó a dejar una versión consistente y lista para producción al cierre del Sprint 4. </p>
 
 ## 5.3. Validation Interviews
 
@@ -2666,63 +3746,89 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   <tbody>
     <tr>
       <td>Calvo Yalan, Renato Guillermo</td>
-      <td>Backend Developer</td>
+      <td>Backend and Frontend Developer</td>
       <td>Implementación de servicios REST, arquitectura del Backend</td>
     </tr>
     <tr>
       <td>Armas Sánchez, Oscar Javier</td>
-      <td>DevOps & Deployment Specialist</td>
+      <td>Backend and Frontend Developer</td>
       <td>Configuración de Azure, Vercel y GitHub Pages</td>
     </tr>
     <tr>
       <td>Ramirez Carrasco, Ariana Lizeth</td>
-      <td>UX/UI Designer & Frontend Developer</td>
+      <td>Backend and Frontend Developer</td>
       <td>Diseño de interfaces, implementación de componentes Angular</td>
     </tr>
     <tr>
       <td>Roman Lopez, Miguel Angel Junior</td>
-      <td>Frontend Developer</td>
+      <td>Backend and Frontend Developer</td>
       <td>Desarrollo de vistas, integración con API Backend</td>
     </tr>
     <tr>
       <td>Ruiz Madrid, Billy Jake</td>
-      <td>QA & Documentation Specialist</td>
-      <td>Validación de funcionalidades, documentación técnica</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Diseño de diagramas C4, Frontend, Backend y DataBase</td>
     </tr>
     <tr>
       <td>Quiroz Caceres, Adrian Alonso</td>
-      <td>Backend Developer</td>
-      <td>Implementación de entidades y repositorios JPA</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Implementación de arquitectura del Frontend</td>
     </tr>
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 ## Bibliografía
 
 <ul>
   <li>
-    Refactoring.Guru. (s.f.). <em>Design Patterns</em>. 
-    Recuperado de <a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>
+    Adzic, G. (s.f.). <em>Impact Mapping</em>. 
+    Recuperado de <a href="https://www.impactmapping.org/">https://www.impactmapping.org/</a>
   </li>
   <li>
-    Gothelf, J., & Seiden, J. (2021). <em>Lean UX: Designing Great Products with Agile Teams</em> (3rd ed.). 
-    O'Reilly Media.
+    Angular. (s.f.). <em>Angular Coding Style Guide</em>. 
+    Recuperado de <a href="https://angular.io/guide/styleguide">https://angular.io/guide/styleguide</a>
   </li>
   <li>
-    Evans, E. (2004). <em>Domain-Driven Design: Tackling Complexity in the Heart of Software</em>. 
-    Addison-Wesley Professional.
+    Brandolini, A. (s.f.). <em>Introducing EventStorming</em>. 
+    Recuperado de <a href="https://www.eventstorming.com/">https://www.eventstorming.com/</a>
   </li>
   <li>
-    Vernon, V. (2016). <em>Domain-Driven Design Distilled</em>. Addison-Wesley Professional.
+    CareerFoundry. (s.f.). <em>What are User Flows in User Experience (UX) Design?</em>. 
+    Recuperado de <a href="https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/">https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/</a>
   </li>
   <li>
-    Vernon, V. (s.f.). <em>Domain-Driven Design Reference</em>. 
-    Recuperado de <a href="https://domainlanguage.com/ddd/reference/">https://domainlanguage.com/ddd/reference/</a>
+    Cohn, M. (s.f.). <em>User Stories</em>. Mountain Goat Software. 
+    Recuperado de <a href="https://www.mountaingoatsoftware.com/agile/user-stories">https://www.mountaingoatsoftware.com/agile/user-stories</a>
   </li>
   <li>
-    Martin, R. C. (2017). <em>Clean Architecture: A Craftsman's Guide to Software Structure and Design</em>. 
-    Prentice Hall.
+    Cone, M. (s.f.). <em>The Markdown Guide</em>. 
+    Recuperado de <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
+  </li>
+  <li>
+    Conventional Commits. (s.f.). <em>Conventional Commits</em>. 
+    Recuperado de <a href="https://www.conventionalcommits.org/">https://www.conventionalcommits.org/</a>
+  </li>
+  <li>
+    Cucumber. (s.f.). <em>Gherkin Reference</em>. 
+    Recuperado de <a href="https://cucumber.io/docs/gherkin/reference/">https://cucumber.io/docs/gherkin/reference/</a>
+  </li>
+  <li>
+    Driessen, V. (2010). <em>A successful Git branching model</em>. nvie.com. 
+    Recuperado de <a href="https://nvie.com/posts/a-successful-git-branching-model/">https://nvie.com/posts/a-successful-git-branching-model/</a>
+  </li>
+  <li>
+    DZone. (s.f.). <em>Acceptance Criteria in Scrum: Explanation, Examples, and Template</em>. 
+    Recuperado de <a href="https://dzone.com/articles/acceptance-criteria-in-software-explanation-exampl">https://dzone.com/articles/acceptance-criteria-in-software-explanation-exampl</a>
+  </li>
+  <li>
+    Evans, E. (2004). <em>Domain-Driven Design: Tackling Complexity in the Heart of Software</em>. Addison-Wesley Professional.
+    Recuperado de <a href="https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/">https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/</a>
+  </li>
+  <li>
+    Fowler, M. (2006). <em>Ubiquitous Language</em>. 
+    Recuperado de <a href="https://martinfowler.com/bliki/UbiquitousLanguage.html">https://martinfowler.com/bliki/UbiquitousLanguage.html</a>
   </li>
   <li>
     Google. (s.f.). <em>Google HTML/CSS Style Guide</em>. 
@@ -2741,28 +3847,74 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
     Recuperado de <a href="https://google.github.io/styleguide/javaguide.html">https://google.github.io/styleguide/javaguide.html</a>
   </li>
   <li>
-    Angular. (s.f.). <em>Angular Coding Style Guide</em>. 
-    Recuperado de <a href="https://angular.io/guide/styleguide">https://angular.io/guide/styleguide</a>
+    Gothelf, J., & Seiden, J. (2021). <em>Lean UX: Designing Great Products with Agile Teams</em> (3rd ed.). O'Reilly Media.
+    Recuperado de <a href="https://www.oreilly.com/library/view/lean-ux-2nd/9781491953594/">https://www.oreilly.com/library/view/lean-ux-2nd/9781491953594/</a>
+  </li>
+  <li>
+    HubSpot. (s.f.). <em>Full List of Meta Tags, Why They Matter for SEO & How to Write Them</em>. 
+    Recuperado de <a href="https://blog.hubspot.com/marketing/meta-tags">https://blog.hubspot.com/marketing/meta-tags</a>
+  </li>
+  <li>
+    IBM Design. (s.f.). <em>Empathy Map</em>. Enterprise Design Thinking. 
+    Recuperado de <a href="https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map">https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map</a>
+  </li>
+  <li>
+    IBM Design. (s.f.). <em>As-is Scenario Map</em>. Enterprise Design Thinking. 
+    Recuperado de <a href="https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map">https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map</a>
+  </li>
+  <li>
+    Martin, R. C. (2017). <em>Clean Architecture: A Craftsman's Guide to Software Structure and Design</em>. Prentice Hall.
+    Recuperado de <a href="https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/">https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/</a>
+  </li>
+  <li>
+    Mendel, J. (s.f.). <em>Seriously, what's your (startup's) problem?</em>. Medium. 
+    Recuperado de <a href="https://medium.com/@jakemendel/seriously-whats-your-startup-s-problem-b3a884c54ab4">https://medium.com/@jakemendel/seriously-whats-your-startup-s-problem-b3a884c54ab4</a>
+  </li>
+  <li>
+    Nielsen Norman Group. (1994). <em>10 Usability Heuristics for User Interface Design</em>. 
+    Recuperado de <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">https://www.nngroup.com/articles/ten-usability-heuristics/</a>
+  </li>
+  <li>
+    Nielsen Norman Group. (2016). <em>The Four Dimensions of Tone of Voice</em>. 
+    Recuperado de <a href="https://www.nngroup.com/articles/tone-of-voice-dimensions/">https://www.nngroup.com/articles/tone-of-voice-dimensions/</a>
+  </li>
+  <li>
+    Preston-Werner, T. (s.f.). <em>Semantic Versioning 2.0.0</em>. 
+    Recuperado de <a href="https://semver.org/">https://semver.org/</a>
+  </li>
+  <li>
+    Progressa Lean. (s.f.). <em>5W+2H - Técnica de análisis de problemas</em>. 
+    Recuperado de <a href="https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/">https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/</a>
+  </li>
+  <li>
+    Refactoring.Guru. (s.f.). <em>Design Patterns</em>. 
+    Recuperado de <a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>
   </li>
   <li>
     Spring. (s.f.). <em>Spring Boot Reference Documentation</em>. 
     Recuperado de <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/">https://docs.spring.io/spring-boot/docs/current/reference/html/</a>
   </li>
   <li>
-    Cucumber. (s.f.). <em>Gherkin Reference</em>. 
-    Recuperado de <a href="https://cucumber.io/docs/gherkin/reference/">https://cucumber.io/docs/gherkin/reference/</a>
+    UXPressia. (s.f.). <em>User vs. Buyer Persona: Differences and free template</em>. 
+    Recuperado de <a href="https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference">https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference</a>
   </li>
   <li>
-    Nielsen Norman Group. (1994). <em>10 Usability Heuristics for User Interface Design</em>. 
-    Recuperado de <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">https://www.nngroup.com/articles/ten-usability-heuristics/</a>
+    Vernon, V. (2016). <em>Domain-Driven Design Distilled</em>. Addison-Wesley Professional.
+    Recuperado de <a href="https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/">https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/</a>
+  </li>
+  <li>
+    Vernon, V. (s.f.). <em>Domain-Driven Design Reference</em>. 
+    Recuperado de <a href="https://domainlanguage.com/ddd/reference/">https://domainlanguage.com/ddd/reference/</a>
   </li>
 </ul>
 
----
+<div style="page-break-after: always;"></div>
 
 ## Anexos
 
 <h4>Anexo A: Enlaces de Despliegue y Repositorios</h4>
+
+<p>A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.</p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -2773,19 +3925,19 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   </thead>
   <tbody>
     <tr>
-      <td><strong>Landing Page (Desplegado)</strong></td>
+      <td><strong>Landing Page (GitHub Pages)</strong></td>
       <td><a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage/</a></td>
     </tr>
     <tr>
-      <td><strong>Frontend Web Application (Desplegado)</strong></td>
-      <td><a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home">https://nova-peru-tech-frontend-v1-2w9r.vercel.app/home</a></td>
+      <td><strong>Frontend Web Application (Vercel Prod)</strong></td>
+      <td><a href="https://nova-peru-tech-frontend-v1-2w9r.vercel.app">https://nova-peru-tech-frontend-v1-2w9r.vercel.app</a></td>
     </tr>
     <tr>
-      <td><strong>Backend API (Desplegado)</strong></td>
+      <td><strong>Backend API Services (Azure Prod)</strong></td>
       <td><a href="https://veyrav01.azurewebsites.net">https://veyrav01.azurewebsites.net</a></td>
     </tr>
     <tr>
-      <td><strong>Backend Swagger UI (Documentación API)</strong></td>
+      <td><strong>API Documentation (Swagger UI)</strong></td>
       <td><a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html">https://veyrav01.azurewebsites.net/swagger-ui/index.html</a></td>
     </tr>
     <tr>
@@ -2807,19 +3959,21 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   </tbody>
 </table>
 
-<h4>Anexo B: Videos del Proyecto</h4>
+<h4>Anexo B: Videos de Exposiciones</h4>
+
+<p>Registro histórico de todas las exposiciones y videos promocionales presentados durante el ciclo académico 202520.</p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
-      <th>Video</th>
+      <th>Entrega / Hito</th>
       <th>Plataforma</th>
       <th>URL</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2"><strong>Video de Exposición TB1</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TB1 (Sprint 1)</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/PONdZOKZofI">https://youtu.be/PONdZOKZofI</a></td>
     </tr>
@@ -2828,7 +3982,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <td><a href="http://bit.ly/4h2grbc">http://bit.ly/4h2grbc</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video de Exposición TP</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TP1 (Sprint 2)</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/_7f8dKl5zGs">https://youtu.be/_7f8dKl5zGs</a></td>
     </tr>
@@ -2837,7 +3991,32 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <td><a href="https://shorturl.at/UfvsR">https://shorturl.at/UfvsR</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video About the Product</strong></td>
+      <td rowspan="2"><strong>Video de Exposición TB2 (Sprint 3)</strong></td>
+      <td>YouTube</td>
+      <td><a href="https://youtu.be/Ju2k-SoNUYo">https://youtu.be/Ju2k-SoNUYo</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición Final TF1 (Sprint 4)</strong></td>
+      <td>YouTube</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="#">[INSERTAR URL REAL AQUÍ]</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Anexo C: Videos del Proyecto</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <td rowspan="2"><strong>Video "About the Product"</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/DCPqVW0C2Po">https://youtu.be/DCPqVW0C2Po</a></td>
     </tr>
@@ -2846,7 +4025,7 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
       <td><a href="https://shorturl.at/W0vMy">https://shorturl.at/W0vMy</a></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Video About the Team</strong></td>
+      <td rowspan="2"><strong>Video "About the Team"</strong></td>
       <td>YouTube</td>
       <td><a href="https://youtu.be/-tBBZ8lwbts">https://youtu.be/-tBBZ8lwbts</a></td>
     </tr>

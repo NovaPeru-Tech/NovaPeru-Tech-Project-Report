@@ -166,33 +166,8 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 
 * **Lenguaje Adaptativo:** El contenido está diseñado para ser fácil de entender para todos, utilizando un lenguaje que resuena con familias y cuidadores de personas mayores, sin jerga técnica.
 
-### 4.2.3. SEO Tags and Meta Tags
 
-* **Title Tags:**
-  
-    * **Landing Page:** "Veyra - The Best Care is Always Connected"
-
-* **Meta Description:**
-  
-    * **Landing Page:** "Veyra es una plataforma digital que conecta a familias y cuidadores, ofreciendo una gestión transparente y segura del cuidado de adultos mayores."
-
-* **Keywords:**
-  
-    * **Landing Page:** "cuidado de adultos mayores, gestión de cuidado, plataforma para cuidadores, salud familiar, bienestar senior, Veyra"
-
-* **Meta Author:**
-  
-    * **Landing Page:** "NovaPeru Tech"
- 
-* **Meta Charset:**
-  
-    * "UTF-8"
- 
-* **Meta Viewport:**
-  
-    * "width=device-width, initial-scale=1.0"
- 
-### 4.2.4. Searching Systems
+### 4.2.3. Searching Systems
 
 * **Barra de Búsqueda:** Aunque la página de inicio no requiere una barra de búsqueda, una vez que el usuario inicia sesión en la aplicación principal, esta funcionalidad será clave. Estará ubicada en un lugar prominente y permitirá buscar rápidamente información de residentes, historial médico y otros datos relevantes.
 
@@ -203,13 +178,15 @@ La arquitectura de la información de la página de inicio de Veyra está diseñ
 * **Resultados Relevantes:** Los resultados de búsqueda se priorizarán según la relevancia para la cuenta y las funciones del usuario.
 
 
-### 4.2.5. Navigation Systems
+### 4.2.4. Navigation Systems
 
 * **Navegación Global:** La barra de navegación en el encabezado proporciona acceso principal a las secciones de la página de inicio. El menú de hamburguesa en dispositivos móviles asegura que esta navegación sea siempre accesible.
 
 * **Navegación Contextual:** Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
 
 * **Navegación Secundaria:** Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
+
+<div style="page-break-after: always;"></div>
 
 ## 4.3. Landing Page UI Design
 
@@ -257,6 +234,8 @@ El pie de página es un elemento crucial para la usabilidad. Contiene enlaces a 
 <img src="../images/footer-section-landing-wireframe.png" alt="Landing Page Mockup" style="max-width: 100%; height: auto; border: 2px solid #00bfff;">
 
 Este wireframe sienta las bases para un diseño visual que no solo se ve bien, sino que también guía al usuario de manera intuitiva a través de nuestra propuesta de valor, reforzando la confianza y la conexión que Veyra promete.
+
+<div style="page-break-after: always;"></div>
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -308,7 +287,80 @@ El "Footer" de nuestra landing page contiene enlaces útiles y recursos adiciona
 
 <img src="../images/footer-section-landing.png" alt="Landing Page Mockup" style="width: auto; height: auto; border: 2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ## 4.4. Web Applications UX/UI Design
+
+La sección de Web Applications UX/UI Design presenta la propuesta visual, estructural y de interacción desarrollada para las distintas aplicaciones que conforman la experiencia digital de Veyra, el ecosistema orientado a la gestión integral de residencias geriátricas y a la conexión transparente entre administradores, personal asistencial y familiares.
+
+El diseño se elaboró siguiendo principios de usabilidad, accesibilidad, consistencia visual y orientación a tareas, asegurando que cada interfaz responda a las necesidades reales identificadas durante el proceso de entrevistas y validaciones con usuarios. La propuesta UI/UX se centra en crear una experiencia clara, confiable y sencilla para usuarios con distintos niveles de alfabetización digital.
+
+Dentro de esta sección se detallan los siguientes componentes:
+
+1. Estructura general de la interfaz
+
+Se describen las decisiones de diseño relacionadas con la arquitectura visual, la organización de pantallas, los patrones de navegación (menús, barras superiores, breadcrumbs) y la jerarquía de información para cada tipo de usuario:
+
+- Administradores de residencias.
+
+- Familiares o apoderados de adultos mayores.
+
+  <br>
+
+2. Lineamientos de diseño visual
+
+Se especifican los elementos que conforman la identidad gráfica de Veyra:
+
+- Paleta de colores asociada a salud, confianza y bienestar.
+
+- Tipografías legibles y consistentes.
+
+- Uso de espaciados, tamaños y contrastes orientados a mejorar la accesibilidad.
+
+<br>
+
+3. Componentes de interacción
+
+Incluye la definición de los principales componentes UI y su comportamiento:
+
+- Formularios optimizados y validados.
+
+- Tarjetas informativas para residentes.
+
+- Módulos de reportes y gráficos.
+
+- Alertas, notificaciones y estados del sistema.
+
+- Controles interactivos como botones, selectores y tablas dinámicas.
+
+<br>
+
+4. Flujo de usuario
+
+Se documentan los recorridos que realizan cada uno de los segmentos clave:
+
+- Registro y acceso de familiares.
+
+- Consulta de medicación, historial clínico y citas.
+
+- Gestión administrativa de residentes.
+
+- Supervisión operativa del personal asistencial.
+
+Estos flujos fueron construidos tomando en cuenta los pain points observados en las entrevistas, priorizando accesos rápidos, reducción de pasos innecesarios y claridad en la información.
+
+<br>
+
+5. Justificación del diseño
+
+Se argumenta cómo las decisiones visuales e interactivas responden a:
+
+- Las necesidades reales de los usuarios.
+
+- Las limitaciones tecnológicas identificadas en centros geriátricos.
+
+- Las expectativas de seguridad, claridad y rapidez en la comunicación familiar.
+<br>
 
 ### 4.4.1. Web Applications Wireframes
 <p>
@@ -389,6 +441,8 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Web-Applications-Wireflow-Diagrams.jpg" alt="Web-Applications-Wireflow-Diagrams" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ### 4.4.3. Web Applications Mock-ups
 <p>
 En esta sección se presentan los <strong>mock-ups diseñados para la aplicación web de NovaPeru Tech (Veyra)</strong>. 
@@ -463,8 +517,12 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 
 <img src="../images/Historial-de-Pedido-NovaPeru-Tech.jpg" alt="Historial de Pedido Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ### Mock-ups Version Mobile
-<p>En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.</p>
+<p>La sección de Web Applications UX/UI Design presenta la propuesta visual, estructural y de interacción desarrollada para las distintas aplicaciones que conforman la experiencia digital de Veyra, el ecosistema orientado a la gestión integral de residencias geriátricas y a la conexión transparente entre administradores, personal asistencial y familiares.
+
+El diseño se elaboró siguiendo principios de usabilidad, accesibilidad, consistencia visual y orientación a tareas, asegurando que cada interfaz responda a las necesidades reales identificadas durante el proceso de entrevistas y validaciones con usuarios. La propuesta UI/UX se centra en crear una experiencia clara, confiable y sencilla para usuarios con distintos niveles de alfabetización digital.</p>
 
 <img src="../images/Mobil1.png" alt="Login Mockup" style="width:auto; height:auto; border:2px solid #00bfff;">
 <img src="../images/Mobil2.png" alt="Inicio de Sesion" style="width:auto; height:auto; border:2px solid #00bfff;">
@@ -502,6 +560,8 @@ El familiar puede visualizar fotos, descripciones y fechas.</p>
 <img src="../images/Mobil34.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
 <img src="../images/Mobil35-corregido.png" alt="Agregar Datos del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
 <img src="../images/Mobil36.png" alt="Detalles del empleado" style="width:auto; height:auto; border:2px solid #00bfff;">
+
+<div style="page-break-after: always;"></div>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -581,7 +641,164 @@ El *user flow* es la representación visual del camino que un usuario sigue dent
 
   <img src="../images/UserFlowObjetivo5-parte2.png" alt="UnHappy Path-Objetivo5" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
+
 ## 4.5. Web Applications Prototyping
+
+La sección de Web Applications Prototyping presenta los prototipos interactivos diseñados para la versión Desktop y Mobile Web de Veyra. Estos prototipos permiten simular la navegación real dentro de la plataforma y visualizar cómo los usuarios recorren los principales paths definidos en los User Flow Diagrams.
+
+Las decisiones de interacción tomadas en esta etapa responden a tres criterios fundamentales:
+
+- Claridad y simplicidad de uso, especialmente considerando que parte de nuestros usuarios tienen competencia digital intermedia.
+
+- Rapidez de acceso a la información crítica, alineada con la necesidad de monitoreo médico en tiempo real.
+
+- Consistencia visual y funcional, asegurando que las interacciones sean predecibles y estén alineadas con el Design System de VEYRA.
+<br>
+
+**Criterios que guiaron las decisiones de interacción**
+
+1. Arquitectura de Información basada en prioridades del usuario
+
+La estructura del contenido se organizó priorizando los elementos más consultados por los familiares y cuidadores:
+
+- Reportes diarios
+
+- Estado de salud
+
+- Medicación
+
+- Citas médicas
+
+- Actividades
+
+- Alertas
+
+Estos componentes se ubicaron en zonas de acceso rápido tanto en desktop como en mobile, asegurando rutas de navegación cortas y directas.
+
+<br>
+
+
+2. Navegación clara y consistente
+
+Se optó por un sistema de navegación híbrido:
+
+En desktop, un menú superior horizontal que mantiene visibles las secciones principales.
+
+En mobile, un menú inferior tipo tab-bar para accesos frecuentes y un menú hamburguesa para secciones secundarias.
+
+Esta decisión refleja la arquitectura de información previamente definida y garantiza que las rutas de navegación coincidan con los User Flow Diagrams propuestos.
+
+<br>
+
+3. Interacciones basadas en patrones familiares
+
+Para reducir la curva de aprendizaje se utilizaron patrones estándar, como:
+
+Acordeones para secciones extensas (features, historial).
+
+Tarjetas para resumir información médica y actividades.
+
+Íconos universales (alertas, calendario, medicación).
+
+Transiciones suaves que evitan saturar la experiencia.
+
+<br>
+
+
+4. Principios de diseño inclusivo
+
+Los prototipos consideran: Tipografías legibles, Contrastes adecuados para adultos mayores, Botones amplios para facilitar el toque en mobile, Lenguaje visual claro y directo, Prototipos UI – Versión Desktop
+
+Los prototipos desktop muestran una interfaz amplia, optimizada para profesionales y usuarios que consultan información desde una laptop o PC. Entre los elementos destacados:
+
+• Dashboard principal
+
+Vista general del estado del residente.
+
+Resumen de alertas y citas.
+
+Gráficos simples para evolución de signos vitales.
+
+<br>
+
+• Navegación superior
+
+Acceso rápido a Home, Reports, Medication, Calendar, Activities y Settings.
+
+Persistencia visual para orientar al usuario.
+
+<br>
+
+• Secciones modulares
+
+El contenido se divide en bloques visuales que permiten una lectura rápida:
+
+Tarjetas de información médica.
+
+Tablas de medicación.
+
+Calendarios interactivos.
+
+Panel lateral con alertas recientes.
+
+Prototipos UI – Versión Mobile Web Browser
+
+La versión móvil prioriza la usabilidad y accesibilidad, manteniendo la esencia visual del desktop pero adaptada a pantallas reducidas.
+
+<br>
+
+• Home simplificado
+
+Resumen al instante del estado del residente.
+
+Acceso directo a alertas, medicación y reportes.
+
+<br>
+
+• Tab-Bar inferior
+
+Incluye 4 accesos principales:
+
+Home
+
+Reports
+
+Medication
+
+Profile
+
+Esto reduce la carga cognitiva y facilita el uso con una sola mano.
+
+<br>
+
+• Menú hamburguesa
+
+Incluye secciones secundarias como Settings, About, Permissions, o historial extendido. Se evita sobrecargar la pantalla principal.
+
+<br>
+
+• Interacción táctil optimizada
+
+Botones grandes y espaciados.
+
+Acordeones y sliders fáciles de usar.
+
+Scroll vertical continuo para favorecer fluidez.
+
+<br>
+
+**Relación con los User Flow Diagrams**
+
+Cada prototipo fue diseñado respetando los recorridos definidos en los User Flows, garantizando que:
+
+Las pantallas aparezcan en el orden lógico previsto.
+
+No existan rutas muertas o pasos innecesarios.
+
+Las tareas principales (ver reportes, recibir alertas, revisar medicación) se completen con la menor cantidad de clics posible.
+
+La navegación sea intuitiva para usuarios con distintos niveles tecnológicos.
 
 
 ![ContextDiagram Diagram](../images/prototypy.png)
@@ -589,6 +806,11 @@ El *user flow* es la representación visual del camino que un usuario sigue dent
 http://bit.ly/4q6AhWP
 
 ## 4.6. Domain-Driven Software Architecture
+
+La arquitectura de software de VEYRA se construye a partir de los resultados obtenidos en el Big Picture Event Storming, que permitió comprender en profundidad los flujos clave del dominio de atención residencial y las interacciones entre familiares, cuidadores y personal administrativo. A partir de este análisis inicial, se desarrolló una visión más estructurada del dominio utilizando los principios de Domain-Driven Design (DDD).
+
+En las siguientes secciones se presenta cada nivel del modelo, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de VEYRA.
+
 
 ### 4.6.1. Design-Level Event Storming
 
@@ -673,210 +895,304 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
    <img src="../images/shared-bc.png" alt="Bounded Context" style="width:auto; height:auto; border:2px solid #00bfff;">
 
+<div style="page-break-after: always;"></div>
    
 ### 4.6.2. Software Architecture Context Diagram
 
-El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software Veyra, los usuarios y sistemas externos.
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software Veyra como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
 
-![ContextDiagram Diagram](../images/contextDiagram.png)
+El context diagram muestra al **Veyra Software System** como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
+
+- **Nursing Home Administrator**: usuario interno responsable de gestionar hogares, residentes, personal, actividades y servicios. Interactúa con Veyra para registrar y mantener información operativa del hogar de cuidado.
+- **Family Member**: usuario externo que consulta la plataforma para monitorear el estado de salud, medicación y actividades de sus familiares adultos mayores, así como para revisar información relevante de su cuidado.
+- **Payment System (Stripe)**: sistema externo encargado de procesar suscripciones, pagos y facturación asociados al uso de la plataforma.
+- **Google Maps API**: servicio de mapas utilizado para obtener geolocalización y direcciones de los hogares de cuidado, facilitando la búsqueda y navegación de ubicaciones.
+- **Email Notification Service**: servicio de correo utilizado para enviar notificaciones transaccionales (activación de cuenta, recordatorios, alertas, etc.) a los usuarios de Veyra.
+
+En el diagrama se representan las relaciones entre estos elementos, destacando que tanto el administrador como el familiar interactúan únicamente con Veyra, mientras que el sistema se encarga de orquestar las integraciones con los servicios externos (pagos, mapas y notificaciones). Esta vista permite entender el alcance del sistema, los límites de responsabilidad y el ecosistema en el que se inserta Veyra antes de entrar a detalles de implementación.
+
+![ContextDiagram Diagram](../images/c4-context.svg)
+
+---
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones y fuentes de datos en el sistema de Veyra. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
+En el nivel de contenedores, la atención se desplaza desde “quién usa el sistema” hacia “cómo se organiza internamente el sistema en aplicaciones y fuentes de datos”. El container diagram muestra los elementos de alto nivel de la arquitectura de Veyra, sus responsabilidades principales y la forma en que se comunican entre sí y con los sistemas externos.
 
-![ContainerDiagram Diagram](../images/containerDiagram.png)
+La arquitectura lógica de Veyra se estructura en los siguientes contenedores:
+
+- **Landing Page**: aplicación web estática que presenta la propuesta de valor de Veyra, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
+- **Single Page Application (SPA)**: aplicación web principal, implementada en **Angular**, donde interactúan el Nursing Home Administrator y el Family Member. Este contenedor concentra la experiencia de usuario, las vistas y la lógica de presentación para los diferentes contextos del dominio (nursing, hcm, iam, analytics, health, profiles, tracking, payments y activities).
+- **API Application**: backend implementado con **Spring Boot**, que expone una API REST y encapsula la lógica de negocio, reglas de validación y orquestación de procesos. Este contenedor agrupa los módulos backend por contexto (Nursing Backend, HCM Backend, IAM Backend, Analytics Backend, Health Backend, Profiles Backend, Tracking Backend, Payments Backend, Activities Backend y Shared Backend).
+- **Database**: base de datos relacional **MySQL**, donde se persiste la información estructurada del sistema: hogares, residentes, personal, perfiles, métricas, historiales clínicos, datos de seguimiento, pagos y actividades.
+
+En el diagrama se observa que:
+
+- Los usuarios acceden primero a la **Landing Page**, la cual redirige a la **SPA** tras la autenticación.
+- La **SPA** se comunica exclusivamente con la **API Application** mediante peticiones **HTTP/HTTPS** con mensajes **JSON**, siguiendo un estilo REST.
+- La **API Application** persiste y consulta datos en la **Database** mediante **JDBC** y mapeo objeto–relacional.
+- Tanto la **SPA** como la **API Application** interactúan con los sistemas externos: el **Payment System** para pagos y suscripciones, la **Google Maps API** para geolocalización y el **Email Notification Service** para el envío de notificaciones.
+
+Esta vista permite apreciar cómo se distribuyen las responsabilidades entre la capa de presentación (Landing y SPA), la capa de lógica de negocio (API Application) y la capa de persistencia (Database), así como las principales decisiones tecnológicas que se han tomado para cada contenedor.
+
+![ContainerDiagram Diagram](../images/c4-container.svg)
+
+---
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-El diagrama de componentes proporciona una vista más detallada de la arquitectura del sistema Veyra. 
-Este nivel de diseño se centra en los módulos internos de cada contenedor definido en el diagrama de contenedores, 
-mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunican entre sí.
+En el nivel de componentes se detalla la descomposición interna de los contenedores, mostrando los bloques estructurales que conforman cada uno y las relaciones entre ellos. Dado que la **Single Page Application** y la **Database** ya fueron descritas en otros apartados mediante diagramas de clases frontend y de base de datos, en esta sección se pone especial énfasis en el contenedor **API Application**, donde reside la mayor parte de la lógica de negocio.
 
-![ContainerDiagram Diagram](../images/structurizr-Components.png)
+El component diagram de la **API Application** agrupa la arquitectura interna siguiendo los bounded contexts definidos en el dominio de Veyra. Cada módulo backend representa un componente principal dentro del contenedor:
 
-## 4.7. Software Object-Oriented Design
+- **Nursing Backend**: implementa la lógica relacionada con hogares de cuidado, habitaciones, residentes, asignaciones y medicación. Gestiona las operaciones CRUD y reglas de negocio para el contexto de nursing.
+- **HCM Backend**: agrupa la funcionalidad de recursos humanos, incluyendo registro de personal, contratos, turnos y organización interna del hogar de cuidado.
+- **IAM Backend**: se encarga de la autenticación, gestión de usuarios, roles, permisos y validaciones de acceso a la aplicación.
+- **Analytics Backend**: ofrece capacidades de agregación y consulta de métricas, estadísticas y datos analíticos de los hogares, apoyando el monitoreo y la toma de decisiones.
+- **Health Backend**: administra historiales clínicos, evaluaciones médicas y registros de signos vitales, proporcionando una vista estructurada del estado de salud de los residentes.
+- **Profiles Backend**: gestiona la información de perfiles de personas y empresas (contacto, direcciones, datos de identificación), compartida por varios procesos del sistema.
+- **Tracking Backend**: maneja la captura y procesamiento de datos provenientes de bandas médicas y sensores, permitiendo la trazabilidad del estado de los residentes.
+- **Payments Backend**: encapsula el manejo de suscripciones, facturación, pagos y conciliaciones, y se integra con el **Payment System (Stripe)** para la ejecución de cobros.
+- **Activities Backend**: gestiona la programación de actividades, horarios y participación de residentes, coordinando la agenda de eventos del hogar de cuidado.
+- **Shared Backend**: provee componentes compartidos, utilidades, clases base, eventos y mecanismos de infraestructura transversales utilizados por los demás módulos backend.
+
+En el diagrama se refleja cómo:
+
+- La **SPA** consume los servicios expuestos por cada módulo backend a través de la **API Application**, utilizando endpoints REST específicos por contexto.
+- Cada módulo backend accede a la **Database** para leer y escribir la información correspondiente a su contexto (por ejemplo, Nursing Backend a tablas de hogares y residentes, HCM Backend a tablas de personal y contratos, etc.).
+- Algunos módulos se integran con sistemas externos: **Payments Backend** con el sistema de pagos, **Nursing Backend** y **Profiles Backend** con la API de mapas, y **IAM Backend** con el servicio de notificaciones por correo.
+- Todos los módulos backend reutilizan capacidades comunes provistas por el **Shared Backend**, lo que favorece la consistencia, la reutilización y la reducción de duplicación de código.
+
+De esta forma, los component diagrams complementan los diagramas de clases del frontend, backend y base de datos, mostrando cómo los contenedores se descomponen en componentes coherentes con los bounded contexts del dominio y cómo estos colaboran entre sí para implementar la funcionalidad completa de Veyra.
+
+![ContainerDiagram Diagram](../images/c4-components.svg)
+
+<div style="page-break-after: always;"></div>
+
+### 4.7. Software Object-Oriented Design
+
+En esta sección se presenta el diseño orientado a objetos del sistema Veyra, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado 4.6. A partir de los contenedores y componentes definidos en Structurizr (Frontend, API Application y Database), se derivan diagramas de clases específicos para cada bounded context del dominio, con el objetivo de mostrar:
+
+- Cómo se modelan las entidades, agregados, servicios y recursos en el backend para cada contexto.
+- Cómo se estructuran los componentes de presentación, estado e infraestructura en el frontend.
+- Cómo se reflejan estos modelos en el diseño de la base de datos relacional.
+
+De esta forma, el diseño orientado a objetos enlaza el nivel arquitectónico (C4 Model) con el nivel de implementación, permitiendo verificar coherencia entre bounded contexts, responsabilidades de cada módulo y decisiones de diseño técnico (p. ej., uso de patrones, clases base y modelos de vista).
 
 ### 4.7.1. Class Diagrams
+
+En esta subsección se presentan los diagramas de clases que detallan la estructura interna de los principales componentes para cada bounded context. Estos diagramas complementan al Component Diagram de la **API Application** y a los contenedores definidos en Structurizr, proporcionando una vista centrada en clases, atributos, métodos y relaciones.
+
+A nivel de **frontend**, se modelan las clases en función de los módulos y vistas que consumen los servicios expuestos por la API:
+
+- **Frontend completo (Frontend)**: muestra la organización general de la capa de presentación, incluyendo componentes de rutas, componentes de página y stores de estado que interactúan con los contenedores backend definidos en el container diagram.
+- **Nursing Frontend**: detalla las clases que gestionan las vistas y lógica de presentación para hogares, habitaciones, residentes, asignaciones y medicación, en correspondencia con el componente *Nursing Backend*.
+- **HCM Frontend**: modela los componentes responsables de la gestión de personal, contratos y turnos, alineados con el componente *HCM Backend*.
+- **IAM Frontend**: incluye los formularios y componentes relacionados con autenticación, registro, manejo de sesión y autorización, que consumen los endpoints del *IAM Backend*.
+- **Analytics Frontend**: presenta los componentes de interfaz que construyen dashboards, gráficos y vistas de métricas, apoyándose en el *Analytics Backend*.
+- **Profiles Frontend**: muestra las clases dedicadas a la administración de perfiles personales y empresariales, conectadas al *Profiles Backend*.
+- **Shared Frontend**: agrupa componentes reutilizables (layouts, formularios base, servicios compartidos) que sirven como infraestructura de presentación común para el resto de módulos frontend.
+
+A nivel de **backend**, los diagramas de clases reflejan la implementación detallada de los módulos definidos como componentes en la **API Application**:
+
+- **Backend completo (Backend)**: ilustra la estructura general de la capa de dominio y aplicación (aggregates, entities, value objects, services, repositories, event handlers), mostrando cómo se distribuyen estas clases entre los distintos bounded contexts que fueron modelados como componentes (*Nursing Backend, HCM Backend, IAM Backend, Analytics Backend, Health Backend, Profiles Backend, Tracking Backend, Payments Backend, Activities Backend y Shared Backend*).
+- **Nursing Backend**: incluye agregados como NursingHome, Resident, Room y Medication, junto con sus servicios de dominio y repositorios, encargados de la lógica de hogares, habitaciones, cuidados y medicación.
+- **HCM Backend**: detalla las clases Staff, Contract y otras entidades de recursos humanos, así como servicios y repositorios asociados a la gestión de personal y contratos.
+- **IAM Backend**: muestra clases como User, Role y UserRoleAssignment, junto con servicios de autenticación/autorización y repositorios para credenciales y roles.
+- **Analytics Backend**: modela la entidad Metric y otros elementos de dominio que soportan el cálculo y consulta de métricas y eventos.
+- **Health Backend**: representa entidades relacionadas con historiales clínicos, evaluaciones y registros médicos (por ejemplo, VitalSign y sus objetos de valor asociados).
+- **Profiles Backend**: agrupa PersonProfile, BusinessProfile y clases relacionadas con datos de identificación y contacto.
+- **Tracking Backend**: define entidades para measurements, dispositivos y señales de bandas médicas que permiten la trazabilidad del estado de los residentes.
+- **Payments Backend**: contiene las clases Subscription, Payment y objetos de valor de dinero, período y estado, responsables del manejo de pagos y conciliaciones.
+- **Activities Backend**: modela las actividades, horarios y participación de residentes en eventos del hogar de cuidado.
+- **Shared Backend**: concentra clases base auditables, utilidades y configuraciones compartidas por los demás módulos, soportando la consistencia del diseño y la reutilización de código.
 
 ### Diagrama de clases del frontend
 
 ### Diagrama del frontend completo:
-![Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/veyra/veyra-frontend-diagram.puml)
+![Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/veyra/veyra-frontend-diagram.puml&fmt=svg)
 
 <h3><strong>Diagrama del frontend dividido por contextos:</strong></h3>
 
 <h4>nursing frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de hogares, habitaciones, asignaciones y servicios de cuidado. </p>
 
-![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/nursing/nursing-frontend-diagram.puml)
+![Nursing Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/nursing/nursing-frontend-diagram.puml&fmt=svg)
 
 <h4>hcm frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de la gestión de personal, contratos, turnos y organización interna.</p>
 
-![HCM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/hcm/hcm-frontend-diagram.puml)
+![HCM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/hcm/hcm-frontend-diagram.puml&fmt=svg)
 
 <h4>iam frontend:</h4>
 <p><strong>Responsabilidad:</strong>Maneja las vistas de Usuarios, autenticación, roles y permisos.</p>
 
-![IAM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/iam/iam-frontend-diagram.puml)
+![IAM Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/iam/iam-frontend-diagram.puml&fmt=svg)
 
 <h4>analytics frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de métricas, auditoría y análisis de eventos.</p>
 
-![Analytics Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/analytics/analytics-frontend-diagram.puml)
-
+![Analytics Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/analytics/analytics-frontend-diagram.puml&fmt=svg)
+<!--
 <h4>health frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
-![Health Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/health/health-frontend-diagram.puml)
-
+![Health Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/health/health-frontend-diagram.puml&fmt=svg)
+-->
+<!--
 <h4>communication frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de notificaciones, mensajes y comunicación interna del sistema.</p>
 
-![Communication Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/communication/communication-frontend-diagram.puml)
-
+![Communication Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/communication/communication-frontend-diagram.puml&fmt=svg)
+-->
 <h4>profiles frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de perfiles personales, empresariales y datos asociados.</p>
 
-![Profiles Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/profiles/profiles-frontend-diagram.puml)
-
+![Profiles Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/profiles/profiles-frontend-diagram.puml&fmt=svg)
+<!--
 <h4>tracking frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de bandas médicas, sensores y trazabilidad de residentes.</p>
 
-![Tracking Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/tracking/tracking-frontend-diagram.puml)
-
+![Tracking Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/tracking/tracking-frontend-diagram.puml&fmt=svg)
+-->
+<!--
 <h4>payments frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de pagos, facturación, transacciones y conciliaciones.</p>
 
-![Payments Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/payments/payments-frontend-diagram.puml)
-
+![Payments Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/payments/payments-frontend-diagram.puml&fmt=svg)
+-->
+<!--
 <h4>activities frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja las vistas de actividades, programación, horarios y participación de residentes.</p>
 
-![Activities Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/activities/activities-frontend-diagram.puml)
-
+![Activities Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/activities/activities-frontend-diagram.puml&fmt=svg)
+-->
 <h4>shared frontend:</h4>
 <p><strong>Responsabilidad:</strong> Maneja los componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
-![Shared Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/shared/shared-frontend-diagram.puml)
+![Shared Frontend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-Frontend/refs/heads/develop/docs/diagrams/shared/shared-frontend-diagram.puml&fmt=svg)
+
+<div style="page-break-after: always;"></div>
 
 ### Diagrama de clases del backend
 
 ### Diagrama del backend completo:
-![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml&v=2)
+![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml&v=1&fmt=svg)
 
 <h3><strong>Diagrama del backend dividido por contextos:</strong></h3>
 
 <h4>nursing backend:</h4>
 <p><strong>Responsabilidad:</strong> Lógica de hogares, habitaciones, asignaciones y servicios de cuidado.</p>
 
-![Nursing Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-backend-diagram.puml&v=2)
+![Nursing Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>hcm backend:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de personal, contratos, turnos y organización interna.</p>
 
-![HCM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-backend-diagram.puml&v=2)
+![HCM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>iam backend:</h4>
 <p><strong>Responsabilidad:</strong> Usuarios, autenticación, roles y permisos.</p>
 
-![IAM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-backend-diagram.puml&v=2)
+![IAM Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>analytics backend:</h4>
 <p><strong>Responsabilidad:</strong> Manejo de métricas, auditoría y análisis de eventos.</p>
 
-![Analytics Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-backend-diagram.puml&v=2)
+![Analytics Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>health backend:</h4>
 <p><strong>Responsabilidad:</strong> Evaluaciones médicas, historiales clínicos y servicios de salud.</p>
 
-![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml&v=2)
-
+![Health Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-backend-diagram.puml&fmt=svg)
+<!--
 <h4>communication backend:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicación interna del sistema.</p>
 
-![Communication Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-backend-diagram.puml&v=2)
-
+![Communication Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-backend-diagram.puml&v=2&fmt=svg)
+-->
 <h4>profiles backend:</h4>
 <p><strong>Responsabilidad:</strong> Perfiles personales, empresariales y datos asociados.</p>
 
-![Profiles Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-backend-diagram.puml&v=2)
+![Profiles Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>tracking backend:</h4>
 <p><strong>Responsabilidad:</strong> Bandas médicas, sensores y trazabilidad de residentes.</p>
 
-![Tracking Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-backend-diagram.puml&v=2)
+![Tracking Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>payments backend:</h4>
 <p><strong>Responsabilidad:</strong> Pagos, facturación, transacciones y conciliaciones.</p>
 
-![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml&v=2)
+![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml&fmt=svg)
 
 <h4>activities backend:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, programación, horarios y participación de residentes.</p>
 
-![Activities Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-backend-diagram.puml&v=2)
+![Activities Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-backend-diagram.puml&v=2&fmt=svg)
 
 <h4>shared backend:</h4>
 <p><strong>Responsabilidad:</strong> Componentes comunes, utilidades, base classes, eventos, comunicación entre módulos, patrones compartidos.</p>
 
-![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml&v=1)
+![Shared Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/shared/shared-backend-diagram.puml&v=1&fmt=svg)
+
+<div style="page-break-after: always;"></div>
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
 #### Diagrama de base de datos completo:
-![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml&v=1)
+![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml&fmt=svg)
 
 <h3><strong>Diagrama de base de datos dividido por contextos:</strong></h3>
 
 <h4>nursing base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de hogares, habitaciones y asignaciones.</p>
 
-![Nursing Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-database-diagram.puml&v=1)
+![Nursing Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/nursing/nursing-database-diagram.puml&v=1&fmt=svg)
 
 <h4>hcm base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Almacena información para recursos humanos  y sus contratos.</p>
 
-![HCM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-database-diagram.puml&v=1)
+![HCM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/hcm/hcm-database-diagram.puml&v=1&fmt=svg)
 
 <h4>iam base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Gestión de usuarios, roles y asignaciones de acceso.</p>
 
-![IAM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-database-diagram.puml&v=1)
+![IAM Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/iam/iam-database-diagram.puml&v=1&fmt=svg)
 
 <h4>analytics base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Métricas, eventos y datos para análisis.</p>
 
-![Analytics Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-database-diagram.puml&v=1)
+![Analytics Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/analytics/analytics-database-diagram.puml&v=1&fmt=svg)
 
 <h4>health base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Historiales médicos, evaluaciones y registros clínicos.</p>
 
-![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml&v=1)
-
+![Health Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/health/health-database-diagram.puml&fmt=svg)
+<!--
 <h4>communication base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Notificaciones, mensajes y comunicaciones internas.</p>
 
-![Communication Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-database-diagram.puml&v=1)
-
+![Communication Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/communication/communication-database-diagram.puml&v=1&fmt=svg)
+-->
 <h4>profiles base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Perfiles, datos personales de las personas y de las empresas.</p>
 
-![Profiles Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-database-diagram.puml&v=1)
+![Profiles Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/profiles/profiles-database-diagram.puml&v=1&fmt=svg)
 
 <h4>tracking base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Manejo de data de bandas medicas  y trazabilidad.</p>
 
-![Tracking Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-database-diagram.puml&v=1)
+![Tracking Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/tracking/tracking-database-diagram.puml&v=1&fmt=svg)
 
 <h4>payments base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Facturación, pagos y transacciones.</p>
 
-![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&v=1)
+![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&fmt=svg)
 
 <h4>activities base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, horarios y participación.</p>
 
-![Activities Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-database-diagram.puml&v=1)
+![Activities Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/activities/activities-database-diagram.puml&v=1&fmt=svg)
