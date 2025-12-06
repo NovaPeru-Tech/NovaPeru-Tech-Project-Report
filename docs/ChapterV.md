@@ -3895,8 +3895,6 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
 
 ## Anexos
 
-<div style="page-break-after: always;"></div>
-
 <h4>Anexo A: Enlaces de Despliegue y Repositorios</h4>
 
 <p>A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.</p>
