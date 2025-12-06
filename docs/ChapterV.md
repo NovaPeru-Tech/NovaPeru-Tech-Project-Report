@@ -3011,7 +3011,8 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
 <img src="../images/Captura de pantalla 3.png" alt="Frontend conectado al Backend sin errores Sprint 4">
 <p><em>La plataforma comenzará el proceso de construcción y despliegue. Una vez que el proceso se complete exitosamente, la aplicación de frontend estará desplegada y lista para ser accesible a través de la URL proporcionada.</em></p> 
 <img src="../images/Captura de pantalla 4.png" alt="Frontend conectado al Backend sin errores Sprint 4">
-
+<p><em>Al ingresar a esta URL completa, obtendremos la vista de la documentación de Swagger, lo que nos permite verificar que el backend está activo, funcional y listo para recibir peticiones a sus endpoints.</em></p> 
+<img src="../images/Captura de pantalla 5.png" alt="Frontend conectado al Backend sin errores Sprint 4">
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
