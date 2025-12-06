@@ -2419,7 +2419,7 @@ Durante el Sprint 4, el equipo se enfocó en la estabilización final del produc
 </p>
 
 <p>
-  <strong>Backend API (Producción):</strong> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/">https://veyrav01.azurewebsites.net/swagger-ui/index.html#/</a>
+  <strong>Backend API (Producción):</strong><a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/"> Backend API</a>
 </p>
 
 #### 5.2.4.1. Sprint Planning 4
@@ -2842,7 +2842,7 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
         una transacción específica.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Payments">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Payments
         </a>
       </td>
@@ -2870,7 +2870,7 @@ GET /api/v1/subscriptions/10/payments
         panel de administración o para conciliación.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Subscriptions
         </a>
       </td>
@@ -2899,7 +2899,7 @@ GET /api/v1/subscriptions/10/payments
         actualizado cuando el procesador de pagos confirme la transacción.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Subscriptions
         </a>
       </td>
@@ -2926,7 +2926,7 @@ GET /api/v1/users/5/subscriptions
         Permite conocer el historial de suscripciones de un usuario y su estado actual.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Users
         </a>
       </td>
@@ -2957,7 +2957,7 @@ userId: 5, subscriptionId: 10
         Devuelve la suscripción actualizada, reflejando cambios de plan o estado.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Users
         </a>
       </td>
@@ -2989,7 +2989,7 @@ POST /api/v1/users/5/subscriptions/10/cancel
         de futuros ciclos de cobro.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Users
         </a>
       </td>
@@ -3018,7 +3018,7 @@ GET /api/v1/users/5/subscriptions/active
         Devuelve la suscripción que actualmente se encuentra activa para el usuario.
       </td>
       <td style="word-wrap:break-word; vertical-align:top;">
-        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+        <a href="https://backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/">
           Swagger – Users
         </a>
       </td>
@@ -3061,7 +3061,7 @@ GET /api/v1/users/5/subscriptions/active
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-<p> En el Sprint 4, las actividades de Deployment se centraron en mantener estable el entorno productivo de VEYRA mientras se aplicaban correcciones de errores y mejoras de usabilidad. Se realizaron despliegues incrementales tanto del Frontend (Vercel) como del Backend (Azure App Service), verificando que las nuevas versiones solucionaran los problemas reportados sin introducir regresiones. </p> <p> Las principales acciones de Deployment realizadas fueron: </p> <ul> <li>Actualización del Frontend Angular en Vercel con textos unificados al español y manejo de errores mejorado.</li> <li>Redeployment del Backend en Azure App Service luego de corregir mensajes de error y validar los endpoints críticos.</li> <li>Verificación de conectividad entre Frontend y Backend en el entorno productivo, confirmando que las llamadas a los servicios ya no generan <em>Fetch Error</em>.</li> <li>Pruebas de smoke (login, navegación, CRUD básico de residentes y habitaciones) después de cada despliegue.</li> </ul> <p><strong>URLs de despliegue utilizados en la Sprint Review:</strong></p> <ul> <li> <strong>Frontend Web Application (Producción):</strong><br> <a href="[URL Frontend en Vercel Sprint 4]">[URL Frontend en Vercel Sprint 4]</a> </li> <li> <strong>Backend API (Producción – Azure App Service):</strong><br> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/"> https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ </a> </li> </ul> 
+<p> En el Sprint 4, las actividades de Deployment se centraron en mantener estable el entorno productivo de VEYRA mientras se aplicaban correcciones de errores y mejoras de usabilidad. Se realizaron despliegues incrementales tanto del Frontend (Vercel) como del Backend (Azure App Service), verificando que las nuevas versiones solucionaran los problemas reportados sin introducir regresiones. </p> <p> Las principales acciones de Deployment realizadas fueron: </p> <ul> <li>Actualización del Frontend Angular en Vercel con textos unificados al español y manejo de errores mejorado.</li> <li>Redeployment del Backend en Azure App Service luego de corregir mensajes de error y validar los endpoints críticos.</li> <li>Verificación de conectividad entre Frontend y Backend en el entorno productivo, confirmando que las llamadas a los servicios ya no generan <em>Fetch Error</em>.</li> <li>Pruebas de smoke (login, navegación, CRUD básico de residentes y habitaciones) después de cada despliegue.</li> </ul> <p><strong>URLs de despliegue utilizados en la Sprint Review:</strong></p> <ul> <li> <strong>Frontend Web Application (Producción):</strong><br> <p>[brave-river-060406e0f.3.azurestaticapps.net/home]</p> </li> <li> <strong>Backend API (Producción – Azure App Service):</strong><br> <p>[backend-nova-peru-tech-hbafacahbreadea5.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/]</p> </li> </ul> 
 <p><strong>Capturas del proceso de despliegue:</strong></p> 
 <p><em>Haga clic en el botón para iniciar la configuración del nuevo proyecto:</em></p> 
 <img src="../images/Captura de pantalla 1.png" alt="Historial de despliegues Vercel Sprint 4"> 
