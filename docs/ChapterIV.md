@@ -1059,7 +1059,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ### 4.8.1. Database Diagrams
 
 #### Diagrama de base de datos completo:
-![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml&v=1&fmt=svg)
+![Database](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-database-diagram.puml&fmt=svg)
 
 <h3><strong>Diagrama de base de datos dividido por contextos:</strong></h3>
 
