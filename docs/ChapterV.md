@@ -1015,10 +1015,10 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   evidencias de ejecución mediante capturas de pantalla de las principales vistas.
 </p>
 
-<h5>Video de demostración de navegación:</h5>
+<h5>Video de demostración del Landing Page:</h5>
 <p>
-  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 1]<br>
-  <strong>Duración:</strong> [HH:MM:SS]
+  <strong>URL YouTube:</strong> [https://youtu.be/OhyEBPV4FuI]<br>
+  <strong>Duración:</strong> [00:04:32]
 </p>
 
 <h5>Capturas de las principales secciones:</h5>
@@ -1918,6 +1918,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   el despliegue en Azure App Service con base de datos en Azure SQL Database.
 </p>
 
+<h5>Video de demostración de los Endpoints:</h5> <p> <strong>URL Microsoft Stream / YouTube:</strong> [Incluir URL del video de demostración del Sprint 3]<br> <strong>Duración:</strong> [HH:MM:SS] 
+
 <h5>Capturas de pantalla - Swagger UI del Backend:</h5>
 
 <p><strong>Endpoints de Medications:</strong></p>
@@ -2709,15 +2711,307 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-<p> Durante el Sprint 4, el equipo enfocó sus esfuerzos en la corrección de errores críticos, la mejora de la experiencia de usuario y el pulido visual de la Web Application de VEYRA. Se resolvieron problemas de <em>Fetch Error</em> en el listado de habitaciones, se unificó el idioma de la interfaz al español y se añadieron mensajes de error más claros en los flujos clave (autenticación, gestión de residentes y habitaciones). A continuación se presentan capturas de las principales vistas corregidas y refinadas. </p> <h5>Video de demostración de navegación y corrección de errores:</h5> <p> <strong>URL Microsoft Stream / YouTube:</strong> [Incluir URL del video de demostración del Sprint 4]<br> <strong>Duración:</strong> [HH:MM:SS] </p> <h5>Capturas de las principales vistas refinadas:</h5> <p><strong>Pantalla de inicio de sesión con mensajes de error amigables:</strong></p> <img src="../images/sprint4-login-fixed.jpg" alt="Pantalla de inicio de sesión corregida"> <p><strong>Panel principal del administrador con navegación estable:</strong></p> <img src="../images/sprint4-dashboard-admin.jpg" alt="Dashboard administrador VEYRA Sprint 4"> <p><strong>Listado de habitaciones sin errores de carga (<em>Fetch Error</em> corregido):</strong></p> <img src="../images/sprint4-rooms-fixed-fetch-error.jpg" alt="Listado de habitaciones sin errores de fetch"> <p><strong>Listado de residentes con textos unificados al español:</strong></p> <img src="../images/sprint4-residents-list-spanish.jpg" alt="Listado de residentes con idioma unificado"> <p><strong>Mensajes de error y estados vacíos comprensibles para el usuario:</strong></p> <img src="../images/sprint4-user-friendly-errors.jpg" alt="Mensajes de error amigables Sprint 4"> <p> Estas evidencias se utilizaron durante la Sprint Review para mostrar que la aplicación se encuentra en un estado pulido y lista para producción, respetando el <em>code freeze</em> acordado y priorizando estabilidad, claridad y consistencia visual. </p>
+<p>
+  Durante el Sprint 4, el equipo enfocó sus esfuerzos en la ampliación y documentación de los
+  servicios del Backend, incorporando endpoints para la gestión de pagos y suscripciones, así
+  como ajustes en los recursos de usuarios. Se añadieron y refinaron las operaciones de
+  <em>Payments</em>, <em>Subscriptions</em> y <em>Users</em> en la API REST, asegurando que
+  cada endpoint cuente con ejemplos de request/response claros y consistentes en Swagger UI.
+  A continuación se presentan capturas de los principales grupos de endpoints añadidos y
+  actualizados.
+</p>
+ 
+<h5>Video de demostración:</h5>
+<p>
+  <strong>URL YouTube:</strong> []<br>
+  <strong>Duración:</strong> [00:00:00]
+</p>
+
+<p>
+  A continuación se presentan las capturas del Swagger UI donde se evidencian los
+  endpoints implementados y ajustados durante el Sprint 4 para la gestión de
+  <strong>pagos</strong>, <strong>suscripciones</strong> y <strong>usuarios</strong>.  
+  Estos servicios forman parte del flujo de suscripción y cobranza de la plataforma.
+</p>
+
+<p><strong>Endpoints de Payments:</strong></p>
+<img src="../images/swagger-payments-endpoints.jpg" alt="swagger-payments-endpoints">
+<p>
+  En esta sección se documenta el endpoint
+  <code>GET /api/v1/payments/{paymentId}</code>, utilizado para
+  obtener el detalle de un pago específico por su identificador.
+  El response devuelve un objeto <code>PaymentResource</code> con información como
+  monto, moneda, estado y fecha de procesamiento, lo que permite trazar y auditar
+  transacciones individuales.
+</p>
+
+<p><strong>Endpoints de Subscriptions:</strong></p>
+<img src="../images/swagger-subscriptions-endpoints.jpg" alt="swagger-subscriptions-endpoints">
+<p>
+  Aquí se muestran los endpoints para gestionar los pagos asociados a una suscripción:
+  <code>GET /api/v1/subscriptions/{subscriptionId}/payments</code> para listar todos los
+  pagos de una suscripción, y
+  <code>POST /api/v1/subscriptions/{subscriptionId}/payments</code> para procesar un nuevo
+  pago. Ambos endpoints incluyen parámetros de ruta para el
+  <code>subscriptionId</code> y devuelven respuestas tipadas que permiten al frontend
+  mostrar el historial de pagos o registrar nuevos cobros de forma consistente.
+</p>
+
+<p><strong>Endpoints de Users actualizados:</strong></p>
+<img src="../images/swagger-user1-endpoints.jpg" alt="swagger-user1-endpoints">
+<p>
+  Esta captura resume los endpoints disponibles para la gestión de usuarios y sus
+  suscripciones. Entre ellos se encuentran:
+  <code>GET /api/v1/users</code> (listado de usuarios),
+  <code>GET /api/v1/users/{userId}</code> (detalle de usuario),
+  así como operaciones sobre suscripciones:
+  <code>GET /api/v1/users/{userId}/subscriptions</code> para obtener todas las
+  suscripciones de un usuario,
+  <code>POST /api/v1/users/{userId}/subscriptions</code> para crear una nueva,
+  <code>PUT /api/v1/users/{userId}/subscriptions/{subscriptionId}</code> para
+  actualizarla,
+  <code>POST /api/v1/users/{userId}/subscriptions/{subscriptionId}/cancel</code> para
+  cancelarla y
+  <code>GET /api/v1/users/{userId}/subscriptions/active</code> para recuperar la
+  suscripción activa.  
+  Estos endpoints consolidan el ciclo de vida de la suscripción desde la perspectiva
+  del usuario final.
+</p>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-<p> Durante el Sprint 4, el foco en servicios se centró en revisar y pulir la documentación existente en Swagger/OpenAPI, asegurando consistencia en descripciones, ejemplos de respuesta y mensajes de error, así como en la nomenclatura de recursos y parámetros. Se validó que los endpoints críticos para la revisión de producción (autenticación, residentes, habitaciones y analíticas de personal) estuvieran correctamente documentados y alineados con el comportamiento real del backend desplegado en Azure. </p> <p> La siguiente tabla resume los principales endpoints revisados durante este Sprint, detallando las acciones soportadas, el verbo HTTP, la sintaxis de llamada y ejemplos de request/response utilizando la documentación generada por Swagger UI. </p> <table border="1" cellpadding="4" cellspacing="0"> <thead> <tr> <th>Endpoint</th> <th>HTTP Verb</th> <th>Acción / Funcionalidad</th> <th>Parámetros y Ejemplo de Request</th> <th>Ejemplo y Explicación de Response</th> <th>Link a Documentación</th> </tr> </thead> <tbody> <tr> <td>/api/v1/authentication/sign-in</td> <td>POST</td> <td>Autenticar usuario y generar token JWT.</td> <td> Body (JSON):<br> <code>{ "email": "admin@veyra.com", "password": "Admin123*" }</code> </td> <td> <code>200 OK</code><br> <code>{ "id": 1, "email": "admin@veyra.com", "role": "ADMIN", "token": "..." }</code><br> Devuelve el usuario autenticado y el token JWT para siguientes peticiones protegidas. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Authentication"> Swagger - Authentication </a> </td> </tr> <tr> <td>/api/v1/nursing-homes/{nursingHomeId}/rooms</td> <td>GET</td> <td>Listar habitaciones de un nursing home.</td> <td> Path param:<br> <code>nursingHomeId: 1</code><br> Ejemplo: <code>GET /api/v1/nursing-homes/1/rooms</code> </td> <td> <code>200 OK</code><br> <code>[{ "id": 10, "code": "HAB-101", "status": "AVAILABLE" }, ...]</code><br> Devuelve el listado de habitaciones con su estado actual para monitoreo de ocupación. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Nursing%20Homes"> Swagger - Nursing Homes </a> </td> </tr> <tr> <td>/api/v1/nursing-homes/{nursingHomeId}/analytics/staff-terminations</td> <td>GET</td> <td>Obtener analíticas de bajas de personal.</td> <td> Path param:<br> <code>nursingHomeId: 1</code><br> Ejemplo: <code>GET /api/v1/nursing-homes/1/analytics/staff-terminations</code> </td> <td> <code>200 OK</code><br> <code>{ "totalTerminations": 3, "byReason": { "Renuncia": 2, "Despido": 1 } }</code><br> Permite a la administración analizar rotación de personal durante un periodo determinado. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Analytics"> Swagger - Analytics </a> </td> </tr> <tr> <td>/api/v1/residents/{residentId}</td> <td>GET</td> <td>Consultar datos de un residente.</td> <td> Path param:<br> <code>residentId: 5</code><br> Ejemplo: <code>GET /api/v1/residents/5</code> </td> <td> <code>200 OK</code><br> <code>{ "id": 5, "fullName": "María Pérez", "age": 82, "roomCode": "HAB-201" }</code><br> Responde con la información principal del residente y su habitación asignada. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Residents"> Swagger - Residents </a> </td> </tr> <tr> <td>/api/v1/measurements</td> <td>GET</td> <td>Listar mediciones de salud registradas.</td> <td> Query params opcionales:<br> <code>residentId</code>, <code>from</code>, <code>to</code><br> Ejemplo: <code>GET /api/v1/measurements?residentId=5</code> </td> <td> <code>200 OK</code><br> <code>[{ "type": "HEART_RATE", "value": 78, "recordedAt": "2025-11-10T09:30:00Z" }, ...]</code><br> Devuelve mediciones de telemetría asociadas a bandas médicas o registros manuales. </td> <td> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Measurements"> Swagger - Measurements </a> </td> </tr> </tbody> </table> <p> Adicionalmente, se actualizaron las descripciones de errores y ejemplos de respuesta para los endpoints de <strong>Staff</strong>, <strong>Activities</strong> y <strong>Business Profiles</strong>, asegurando mensajes consistentes en español y alineados con la interfaz de usuario. Estas revisiones pueden observarse en la documentación Swagger UI del entorno de producción. </p> <p> <strong>Repositorio Web Services (Backend):</strong> <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend"> https://github.com/NovaPeru-Tech/NovaPeruTech-Backend </a> </p> <p> Los cambios de documentación de este Sprint se encuentran agrupados en los commits etiquetados como <code>feat(docs)</code> y <code>fix(docs)</code> del repositorio Backend (completar en el informe final con los IDs específicos de commit utilizados en GitHub). </p> <p><strong>Capturas de interacción con la documentación:</strong></p> <p><em>Swagger UI – Endpoints de habitaciones con ejemplos actualizados:</em></p> <img src="../images/sprint4-swagger-rooms.jpg" alt="Swagger rooms Sprint 4"> <p><em>Swagger UI – Endpoints de analíticas de personal:</em></p> <img src="../images/sprint4-swagger-analytics.jpg" alt="Swagger analytics Sprint 4">
+<p>
+  Durante el Sprint 4, el foco en Servicios se centró en extender y documentar los
+  endpoints relacionados con el ciclo de facturación de VEYRA: pagos individuales,
+  suscripciones y la gestión de suscripciones por usuario. Se actualizaron las
+  definiciones OpenAPI en Swagger, asegurando descripciones consistentes, ejemplos
+  de request/response y mensajes de error claros para los recursos
+  <strong>Payments</strong>, <strong>Subscriptions</strong> y <strong>Users</strong>.
+  De esta forma, el frontend puede consultar y administrar el estado de las
+  suscripciones y sus pagos de manera confiable.
+</p>
+
+<p>
+  La siguiente tabla resume los principales endpoints documentados o ajustados
+  durante este Sprint, detallando las acciones soportadas, el verbo HTTP,
+  la sintaxis de llamada y ejemplos de request/response utilizando la
+  documentación generada por Swagger UI.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>HTTP Verb</th>
+      <th>Acción / Funcionalidad</th>
+      <th>Parámetros y Ejemplo de Request</th>
+      <th>Ejemplo y Explicación de Response</th>
+      <th>Link a Documentación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/payments/{paymentId}</td>
+      <td>GET</td>
+      <td>Obtener el detalle de un pago por su identificador.</td>
+      <td>
+        Path param:<br>
+        <code>paymentId: 120</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/payments/120</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 120, "amount": 49.90, "currency": "USD", "status": "COMPLETED", "processedAt": "2025-11-10T09:30:00Z" }</code><br>
+        Devuelve la información detallada del pago, permitiendo trazar y auditar
+        una transacción específica.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Payments">
+          Swagger – Payments
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/subscriptions/{subscriptionId}/payments</td>
+      <td>GET</td>
+      <td>Listar todos los pagos asociados a una suscripción.</td>
+      <td>
+        Path param:<br>
+        <code>subscriptionId: 10</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/subscriptions/10/payments</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>[{ "id": 120, "amount": 49.90, "status": "COMPLETED" }, ...]</code><br>
+        Devuelve el historial de pagos de una suscripción, útil para mostrar en el
+        panel de administración o para conciliación.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+          Swagger – Subscriptions
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/subscriptions/{subscriptionId}/payments</td>
+      <td>POST</td>
+      <td>Procesar un nuevo pago para una suscripción.</td>
+      <td>
+        Path param:<br>
+        <code>subscriptionId: 10</code><br>
+        Body (JSON):<br>
+        <code>{ "amount": 49.90, "currency": "USD", "paymentMethod": "CARD" }</code>
+      </td>
+      <td>
+        <code>201 Created</code><br>
+        <code>{ "id": 121, "amount": 49.90, "status": "PENDING", "subscriptionId": 10 }</code><br>
+        Registra un nuevo pago y devuelve el recurso creado, que luego será
+        actualizado cuando el procesador de pagos confirme la transacción.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Subscriptions">
+          Swagger – Subscriptions
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions</td>
+      <td>GET</td>
+      <td>Obtener todas las suscripciones de un usuario.</td>
+      <td>
+        Path param:<br>
+        <code>userId: 5</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/users/5/subscriptions</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>[{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }, ...]</code><br>
+        Permite conocer el historial de suscripciones de un usuario y su estado actual.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions/{subscriptionId}</td>
+      <td>PUT</td>
+      <td>Actualizar los datos de una suscripción de usuario.</td>
+      <td>
+        Path params:<br>
+        <code>userId: 5</code>, <code>subscriptionId: 10</code><br>
+        Body (JSON):<br>
+        <code>{ "plan": "PREMIUM", "status": "ACTIVE" }</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "PREMIUM", "status": "ACTIVE" }</code><br>
+        Devuelve la suscripción actualizada, reflejando cambios de plan o estado
+        para el usuario.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions/{subscriptionId}/cancel</td>
+      <td>POST</td>
+      <td>Cancelar una suscripción de un usuario.</td>
+      <td>
+        Path params:<br>
+        <code>userId: 5</code>, <code>subscriptionId: 10</code><br>
+        Ejemplo:<br>
+        <code>POST /api/v1/users/5/subscriptions/10/cancel</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "STANDARD", "status": "CANCELLED" }</code><br>
+        Cambia el estado de la suscripción a <code>CANCELLED</code> y la excluye
+        de futuros ciclos de cobro.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/users/{userId}/subscriptions/active</td>
+      <td>GET</td>
+      <td>Obtener la suscripción activa de un usuario.</td>
+      <td>
+        Path param:<br>
+        <code>userId: 5</code><br>
+        Ejemplo:<br>
+        <code>GET /api/v1/users/5/subscriptions/active</code>
+      </td>
+      <td>
+        <code>200 OK</code><br>
+        <code>{ "id": 10, "plan": "STANDARD", "status": "ACTIVE" }</code><br>
+        Devuelve la suscripción que actualmente se encuentra activa para el usuario,
+        información clave para controlar acceso a funcionalidades premium.
+      </td>
+      <td>
+        <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/Users">
+          Swagger – Users
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  Adicionalmente, se ajustaron descripciones, códigos de respuesta y ejemplos
+  en los recursos relacionados, garantizando que la documentación de la API de
+  facturación sea consistente y pueda ser consumida fácilmente por otros
+  equipos (frontend, integraciones externas, QA).
+</p>
+
+<p>
+  <strong>Repositorio Web Services (Backend):</strong>
+  <a href="https://github.com/NovaPeru-Tech/NovaPeruTech-Backend">
+    https://github.com/NovaPeru-Tech/NovaPeruTech-Backend
+  </a>
+</p>
+
+<p>
+  Los cambios de documentación de este Sprint se agrupan en commits etiquetados
+  como <code>feat(payments-docs)</code> y <code>feat(subscriptions-docs)</code>, donde
+  se actualizó el archivo OpenAPI y se sincronizaron los modelos de respuesta
+  con las entidades de dominio (Payments, Subscriptions y Users).
+</p>
+
+<p><strong>Capturas de interacción con la documentación (Swagger UI):</strong></p>
+
+<p><em>Swagger UI – Endpoints de Payments:</em></p>
+<img src="../images/swagger-payments-endpoints.jpg" alt="swagger-payments-endpoints">
+
+<p><em>Swagger UI – Endpoints de Subscriptions:</em></p>
+<img src="../images/swagger-subscriptions-endpoints.jpg" alt="swagger-subscriptions-endpoints">
+
+<p><em>Swagger UI – Endpoints de Users y suscripciones de usuario:</em></p>
+<img src="../images/swagger-user1-endpoints.jpg" alt="swagger-user1-endpoints">
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-<p> En el Sprint 4, las actividades de Deployment se centraron en mantener estable el entorno productivo de VEYRA mientras se aplicaban correcciones de errores y mejoras de usabilidad. Se realizaron despliegues incrementales tanto del Frontend (Vercel) como del Backend (Azure App Service), verificando que las nuevas versiones solucionaran los problemas reportados sin introducir regresiones. </p> <p> Las principales acciones de Deployment realizadas fueron: </p> <ul> <li>Actualización del Frontend Angular en Vercel con textos unificados al español y manejo de errores mejorado.</li> <li>Redeployment del Backend en Azure App Service luego de corregir mensajes de error y validar los endpoints críticos.</li> <li>Verificación de conectividad entre Frontend y Backend en el entorno productivo, confirmando que las llamadas a los servicios ya no generan <em>Fetch Error</em>.</li> <li>Pruebas de smoke (login, navegación, CRUD básico de residentes y habitaciones) después de cada despliegue.</li> </ul> <p><strong>URLs de despliegue utilizados en la Sprint Review:</strong></p> <ul> <li> <strong>Frontend Web Application (Producción):</strong><br> <a href="[URL Frontend en Vercel Sprint 4]">[URL Frontend en Vercel Sprint 4]</a> </li> <li> <strong>Backend API (Producción – Azure App Service):</strong><br> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/"> https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ </a> </li> </ul> <p><strong>Capturas del proceso de despliegue:</strong></p> <p><em>Historial de despliegues en Vercel para el proyecto Frontend:</em></p> <img src="../images/sprint4-vercel-deployments.jpg" alt="Historial de despliegues Vercel Sprint 4"> <p><em>Panel de Azure App Service mostrando la última versión desplegada del Backend:</em></p> <img src="../images/sprint4-azure-app-service.jpg" alt="Azure App Service Sprint 4"> <p><em>Prueba de acceso a la API desde el Frontend sin errores de conexión:</em></p> <img src="../images/sprint4-frontend-backend-ok.jpg" alt="Frontend conectado al Backend sin errores Sprint 4">
+<p> En el Sprint 4, las actividades de Deployment se centraron en mantener estable el entorno productivo de VEYRA mientras se aplicaban correcciones de errores y mejoras de usabilidad. Se realizaron despliegues incrementales tanto del Frontend (Vercel) como del Backend (Azure App Service), verificando que las nuevas versiones solucionaran los problemas reportados sin introducir regresiones. </p> <p> Las principales acciones de Deployment realizadas fueron: </p> <ul> <li>Actualización del Frontend Angular en Vercel con textos unificados al español y manejo de errores mejorado.</li> <li>Redeployment del Backend en Azure App Service luego de corregir mensajes de error y validar los endpoints críticos.</li> <li>Verificación de conectividad entre Frontend y Backend en el entorno productivo, confirmando que las llamadas a los servicios ya no generan <em>Fetch Error</em>.</li> <li>Pruebas de smoke (login, navegación, CRUD básico de residentes y habitaciones) después de cada despliegue.</li> </ul> <p><strong>URLs de despliegue utilizados en la Sprint Review:</strong></p> <ul> <li> <strong>Frontend Web Application (Producción):</strong><br> <a href="[URL Frontend en Vercel Sprint 4]">[URL Frontend en Vercel Sprint 4]</a> </li> <li> <strong>Backend API (Producción – Azure App Service):</strong><br> <a href="https://veyrav01.azurewebsites.net/swagger-ui/index.html#/"> https://veyrav01.azurewebsites.net/swagger-ui/index.html#/ </a> </li> </ul> 
+<p><strong>Capturas del proceso de despliegue:</strong></p> 
+<p><em>Haga clic en el botón para iniciar la configuración del nuevo proyecto:</em></p> 
+<img src="../images/Captura de pantalla 1.png" alt="Historial de despliegues Vercel Sprint 4"> 
+<p><em>En la interfaz de configuración, seleccione la opción para conectar o vincular su repositorio de GitHub. Será dirigido a la autenticación de GitHub. Una vez autorizado, deberá seleccionar el repositorio específico que contiene el código fuente del frontend.</em></p> 
+<img src="../images/Captura de pantalla 2.png" alt="Azure App Service Sprint 4"> 
+<p><em>Tómese un momento para verificar el resumen de la configuración en la pantalla de revisión final para confirmar que los datos de GitHub y los parámetros sean correctos.</em></p> 
+<img src="../images/Captura de pantalla 3.png" alt="Frontend conectado al Backend sin errores Sprint 4">
+<p><em>La plataforma comenzará el proceso de construcción y despliegue. Una vez que el proceso se complete exitosamente, la aplicación de frontend estará desplegada y lista para ser accesible a través de la URL proporcionada.</em></p> 
+<img src="../images/Captura de pantalla 4.png" alt="Frontend conectado al Backend sin errores Sprint 4">
+
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -3611,8 +3905,6 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
 
 ## Anexos
 
-<div style="page-break-after: always;"></div>
-
 <h4>Anexo A: Enlaces de Despliegue y Repositorios</h4>
 
 <p>A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.</p>
@@ -3659,8 +3951,6 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
     </tr>
   </tbody>
 </table>
-
-<div style="page-break-after: always;"></div>
 
 <h4>Anexo B: Videos de Exposiciones</h4>
 
@@ -3713,8 +4003,6 @@ A continuación, se muestran los commits más relevantes en los repositorios Fro
     </tr>
   </tbody>
 </table>
-
-<div style="page-break-after: always;"></div>
 
 <h4>Anexo C: Videos del Proyecto</h4>
 
