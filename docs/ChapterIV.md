@@ -993,7 +993,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 ### Diagrama de clases del backend
 
 ### Diagrama del backend completo:
-![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml&fmt=svg)
+![Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/veyra/veyra-backend-diagram.puml&v=1&fmt=svg)
 
 <h3><strong>Diagrama del backend dividido por contextos:</strong></h3>
 
