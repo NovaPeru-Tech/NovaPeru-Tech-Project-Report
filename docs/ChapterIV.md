@@ -1037,7 +1037,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <h4>payments backend:</h4>
 <p><strong>Responsabilidad:</strong> Pagos, facturación, transacciones y conciliaciones.</p>
 
-![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml&v=2)
+![Payments Backend](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-backend-diagram.puml&fmt=svg)
 
 <h4>activities backend:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, programación, horarios y participación de residentes.</p>
@@ -1103,7 +1103,7 @@ mostrando cómo se organizan, qué responsabilidades cumplen y cómo se comunica
 <h4>payments base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Facturación, pagos y transacciones.</p>
 
-![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&v=1&fmt=svg)
+![Payments Context](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/NovaPeru-Tech/NovaPeruTech-BackEnd/refs/heads/develop/docs/diagrams/payments/payments-database-diagram.puml&fmt=svg)
 
 <h4>activities base de datos:</h4>
 <p><strong>Responsabilidad:</strong> Actividades, horarios y participación.</p>
