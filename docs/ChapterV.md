@@ -1399,8 +1399,8 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 <h5>Video de demostración de funcionalidad:</h5>
 <p>
-  <strong>URL Microsoft Stream:</strong> [Incluir URL del video de demostración del Sprint 2]<br>
-  <strong>Duración:</strong> [HH:MM:SS]
+  <strong>URL Youtube:</strong> https://youtu.be/CEzlIzeI3Cc <br>
+  <strong>Duración:</strong> [10:23:00]
 </p>
 
 <h5>Capturas de pantalla principales:</h5>
